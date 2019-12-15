@@ -1,0 +1,43 @@
+{
+    "org.apache.commons.math.optimization.linear.LinearObjectiveFunction": [
+        {
+            "getValue(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.constantTerm one of { 0.0, 7.0 }",
+                                    "size(point[]) one of { 2, 3, 216 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(point[]) >= 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.constantTerm one of { 0.0, 7.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "org.jfree.chart.plot.CategoryPlot": [
+        {
+            "getRenderer(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "index one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "index == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRangeAxis(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.renderers.size one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rowRenderingOrder has only one value",
+                                    "this.rowRenderingOrder.name has only one value",
+                                    "this.columnRenderingOrder.name.toString == \"SortOrder.ASCENDING\"",
+                                    "this.columnRenderingOrder has only one value",
+                                    "this.foregroundAlpha == 1.0",
+                                    "this.columnRenderingOrder.name has only one value",
+                                    "this.renderers.size == 1",
+                                    "this.rowRenderingOrder.name.toString == \"SortOrder.ASCENDING\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.plot.outlineStroke != null",
+                                    "this.renderers.size one of { 1, 2 }",
+                                    "return.plot.drawingSupplier != null",
+                                    "return.plot.backgroundPaint != null",
+                                    "return.plot.noDataMessagePaint != null",
+                                    "return.plot.noDataMessageFont != null",
+                                    "return.plot.listenerList != null",
+                                    "return.plot.outlinePaint != null",
+                                    "return.range.upper >= 0.9450000000000001",
+                                    "return.plot.insets != null",
+                                    "return.plot.foregroundAlpha one of { 0.75, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rowRenderingOrder has only one value",
+                                    "return.plot.foregroundAlpha == 1.0",
+                                    "this.renderers.size == 1",
+                                    "return.range.upper one of { 1.0, 1.05 }",
+                                    "this.rowRenderingOrder.name has only one value",
+                                    "this.foregroundAlpha == 1.0",
+                                    "this.columnRenderingOrder has only one value",
+                                    "this.columnRenderingOrder.name has only one value",
+                                    "this.rowRenderingOrder.name.toString == \"SortOrder.ASCENDING\"",
+                                    "return.range.lower == 0.0",
+                                    "this.columnRenderingOrder.name.toString == \"SortOrder.ASCENDING\""
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "3429": [
+                                {
+                                    "Patch18.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.listenerList has only one value",
+                                            "this.datasets.objects has only one value",
+                                            "this.rangeAxisLocations.objects has only one value",
+                                            "this.datasetToDomainAxisMap.objects has only one value",
+                                            "this.datasetToDomainAxisMap has only one value",
+                                            "this.domainAxes.objects[] has only one value, of length 8",
+                                            "this.rangeAxes has only one value",
+                                            "this.datasetToRangeAxisMap has only one value",
+                                            "this.datasetToDomainAxisMap.objects[] has only one value, of length 8",
+                                            "this.renderers.objects[] has only one value, of length 8",
+                                            "this.backgroundDomainMarkers has only one value",
+                                            "this.rangeAxisLocations has only one value",
+                                            "this.rangeAxes.objects[] has only one value, of length 8",
+                                            "this.drawingSupplier has only one value",
+                                            "this.datasets has only one value",
+                                            "this.domainAxisLocations.objects has only one value",
+                                            "this.foregroundDomainMarkers has only one value",
+                                            "this.domainAxisLocations has only one value",
+                                            "this.backgroundRangeMarkers has only one value",
+                                            "orig(this) has only one value",
+                                            "this.renderers has only one value",
+                                            "this.renderers.objects has only one value",
+                                            "this.rangeAxes.objects has only one value",
+                                            "this.domainAxes.objects has only one value",
+                                            "this.annotations has only one value",
+                                            "this.foregroundRangeMarkers has only one value",
+                                            "this.domainAxes has only one value",
+                                            "this.noDataMessageFont has only one value",
+                                            "this.datasetToRangeAxisMap.objects has only one value",
+                                            "orig(obj) has only one value",
+                                            "this.datasets.objects[] has only one value, of length 8",
+                                            "this.renderers.objects[].getClass().getName() == [org.jfree.chart.renderer.category.WaterfallBarRenderer, null, null, null, null, null, null, null]",
+                                            "this.datasetToRangeAxisMap.objects[] has only one value, of length 8"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "3550": [
+                                {
+                                    "Patch18.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.listenerList has only one value",
+                                            "this.datasets.objects has only one value",
+                                            "this.rangeAxisLocations.objects has only one value",
+                                            "this.datasetToDomainAxisMap.objects has only one value",
+                                            "this.renderers.objects[].getClass().getName() == [org.jfree.chart.renderer.category.BarRenderer, null, null, null, null, null, null, null]",
+                                            "this.datasetToDomainAxisMap has only one value",
+                                            "this.domainAxes.objects[] has only one value, of length 8",
+                                            "this.rangeAxes has only one value",
+                                            "this.datasetToRangeAxisMap has only one value",
+                                            "this.datasetToDomainAxisMap.objects[] has only one value, of length 8",
+                                            "this.renderers.objects[] has only one value, of length 8",
+                                            "this.backgroundDomainMarkers has only one value",
+                                            "this.rangeAxisLocations has only one value",
+                                            "this.rangeAxes.objects[] has only one value, of length 8",
+                                            "this.drawingSupplier has only one value",
+                                            "this.datasets has only one value",
+                                            "this.domainAxisLocations.objects has only one value",
+                                            "this.foregroundDomainMarkers has only one value",
+                                            "this.domainAxisLocations has only one value",
+                                            "this.backgroundRangeMarkers has only one value",
+                                            "orig(this) has only one value",
+                                            "this.renderers has only one value",
+                                            "this.renderers.objects has only one value",
+                                            "this.rangeAxes.objects has only one value",
+                                            "this.domainAxes.objects has only one value",
+                                            "this.annotations has only one value",
+                                            "this.foregroundRangeMarkers has only one value",
+                                            "this.domainAxes has only one value",
+                                            "this.noDataMessageFont has only one value",
+                                            "this.datasetToRangeAxisMap.objects has only one value",
+                                            "orig(obj) has only one value",
+                                            "this.datasets.objects[] has only one value, of length 8",
+                                            "this.datasetToRangeAxisMap.objects[] has only one value, of length 8"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "3431": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": [
+                                            "this.listenerList has only one value",
+                                            "this.datasets.objects has only one value",
+                                            "this.rangeAxisLocations.objects has only one value",
+                                            "this.datasetToDomainAxisMap.objects has only one value",
+                                            "this.datasetToDomainAxisMap has only one value",
+                                            "this.domainAxes.objects[] has only one value, of length 8",
+                                            "this.rangeAxes has only one value",
+                                            "this.datasetToRangeAxisMap has only one value",
+                                            "this.datasetToDomainAxisMap.objects[] has only one value, of length 8",
+                                            "this.renderers.objects[] has only one value, of length 8",
+                                            "this.backgroundDomainMarkers has only one value",
+                                            "this.rangeAxisLocations has only one value",
+                                            "this.rangeAxes.objects[] has only one value, of length 8",
+                                            "this.drawingSupplier has only one value",
+                                            "this.datasets has only one value",
+                                            "this.domainAxisLocations.objects has only one value",
+                                            "this.foregroundDomainMarkers has only one value",
+                                            "this.domainAxisLocations has only one value",
+                                            "this.backgroundRangeMarkers has only one value",
+                                            "orig(this) has only one value",
+                                            "this.renderers has only one value",
+                                            "this.renderers.objects has only one value",
+                                            "this.rangeAxes.objects has only one value",
+                                            "this.domainAxes.objects has only one value",
+                                            "this.annotations has only one value",
+                                            "this.foregroundRangeMarkers has only one value",
+                                            "this.domainAxes has only one value",
+                                            "this.noDataMessageFont has only one value",
+                                            "this.datasetToRangeAxisMap.objects has only one value",
+                                            "orig(obj) has only one value",
+                                            "this.datasets.objects[] has only one value, of length 8",
+                                            "this.renderers.objects[].getClass().getName() == [org.jfree.chart.renderer.category.WaterfallBarRenderer, null, null, null, null, null, null, null]",
+                                            "this.datasetToRangeAxisMap.objects[] has only one value, of length 8"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "3552": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": [
+                                            "this.listenerList has only one value",
+                                            "this.datasets.objects has only one value",
+                                            "this.rangeAxisLocations.objects has only one value",
+                                            "this.datasetToDomainAxisMap.objects has only one value",
+                                            "this.renderers.objects[].getClass().getName() == [org.jfree.chart.renderer.category.BarRenderer, null, null, null, null, null, null, null]",
+                                            "this.datasetToDomainAxisMap has only one value",
+                                            "this.domainAxes.objects[] has only one value, of length 8",
+                                            "this.rangeAxes has only one value",
+                                            "this.datasetToRangeAxisMap has only one value",
+                                            "this.datasetToDomainAxisMap.objects[] has only one value, of length 8",
+                                            "this.renderers.objects[] has only one value, of length 8",
+                                            "this.backgroundDomainMarkers has only one value",
+                                            "this.rangeAxisLocations has only one value",
+                                            "this.rangeAxes.objects[] has only one value, of length 8",
+                                            "this.drawingSupplier has only one value",
+                                            "this.datasets has only one value",
+                                            "this.domainAxisLocations.objects has only one value",
+                                            "this.foregroundDomainMarkers has only one value",
+                                            "this.domainAxisLocations has only one value",
+                                            "this.backgroundRangeMarkers has only one value",
+                                            "orig(this) has only one value",
+                                            "this.renderers has only one value",
+                                            "this.renderers.objects has only one value",
+                                            "this.rangeAxes.objects has only one value",
+                                            "this.domainAxes.objects has only one value",
+                                            "this.annotations has only one value",
+                                            "this.foregroundRangeMarkers has only one value",
+                                            "this.domainAxes has only one value",
+                                            "this.noDataMessageFont has only one value",
+                                            "this.datasetToRangeAxisMap.objects has only one value",
+                                            "orig(obj) has only one value",
+                                            "this.datasets.objects[] has only one value, of length 8",
+                                            "this.datasetToRangeAxisMap.objects[] has only one value, of length 8"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,268 @@
+{
+    "org.jfree.chart.title.LegendTitle": [
+        {
+            "LegendTitle(org.jfree.chart.LegendItemSource, org.jfree.chart.block.Arrangement, org.jfree.chart.block.Arrangement)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items.blocks[].getClass().getName() == []",
+                                    "this.items.blocks[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, java.awt.geom.Rectangle2D, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items.blocks[].getClass().getName() == [org.jfree.chart.block.BlockContainer]",
+                                    "this.items.blocks[] contains no nulls and has only one value, of length 1",
+                                    "size(this.items.blocks[]) == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.items.blocks[]) == 1",
+                                    "this.items.blocks[] contains no nulls and has only one value, of length 1",
+                                    "this.items.blocks[].getClass().getName() == [org.jfree.chart.block.BlockContainer]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LegendTitle(org.jfree.chart.LegendItemSource)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items.blocks[].getClass().getName() == []",
+                                    "this.items.blocks[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fetchLegendItems()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items.blocks[].getClass().getName() == []",
+                                    "this.items.blocks[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.items.blocks[] == orig(this.items.blocks[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.items.blocks[])-1 == orig(size(this.items.blocks[]))",
+                                    "size(this.items.blocks[]) == 1",
+                                    "this.items.blocks[].getClass().getName() == [org.jfree.chart.block.BlockContainer]",
+                                    "this.items.blocks[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setBackgroundPaint(java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items.blocks[].getClass().getName() == []",
+                                    "this.items.blocks[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items.blocks[].getClass().getName() == []",
+                                    "this.items.blocks[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "arrange(java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items.blocks[].getClass().getName() == []",
+                                    "this.items.blocks[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.width == 0.0",
+                                    "this.items.blocks[] == orig(this.items.blocks[])",
+                                    "return.height == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.width == 38.0",
+                                    "size(this.items.blocks[])-1 == orig(size(this.items.blocks[]))",
+                                    "return.height == 23.96875",
+                                    "size(this.items.blocks[]) == 1",
+                                    "this.items.blocks[].getClass().getName() == [org.jfree.chart.block.BlockContainer]",
+                                    "this.items.blocks[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "484": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "474": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

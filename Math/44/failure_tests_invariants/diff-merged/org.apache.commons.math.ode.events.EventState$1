@@ -1,0 +1,116 @@
+{
+    "org.apache.commons.math.ode.events.EventState$1": [
+        {
+            "value(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.t0 one of { 7.697093317360001, 10.99 }",
+                                    "org.apache.commons.math.ode.events.EventState.this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.pendingEvent == false",
+                                    "org.apache.commons.math.ode.events.EventState.this.g0 one of { -3.3129066826399987, -3.292906682639999 }",
+                                    "org.apache.commons.math.ode.events.EventState.this.pendingEventTime == Double.NaN",
+                                    "org.apache.commons.math.ode.events.EventState.this.t0 == 7.697093317360001"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.t0 one of { 7.697093317360001, 10.99 }",
+                                    "org.apache.commons.math.ode.events.EventState.this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.t0 one of { 7.697093317360001, 10.99 }",
+                                    "org.apache.commons.math.ode.events.EventState.this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.pendingEvent == false",
+                                    "org.apache.commons.math.ode.events.EventState.this.g0 one of { -3.3129066826399987, -3.292906682639999 }",
+                                    "org.apache.commons.math.ode.events.EventState.this.pendingEventTime == Double.NaN",
+                                    "org.apache.commons.math.ode.events.EventState.this.t0 == 7.697093317360001"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.t0 one of { 7.697093317360001, 10.99 }",
+                                    "org.apache.commons.math.ode.events.EventState.this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "(org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.previousEventTime one of { 10.99, 11.01, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.previousEventTime one of { 10.99, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.previousEventTime one of { 10.99, 11.01, Double.NaN }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

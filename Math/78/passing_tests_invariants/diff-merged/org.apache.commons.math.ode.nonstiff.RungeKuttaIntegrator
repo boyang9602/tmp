@@ -1,0 +1,55 @@
+{
+    "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator": [
+        {
+            "integrate(org.apache.commons.math.ode.FirstOrderDifferentialEquations, double, double[], double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "y[] elements == 0.0",
+                                    "y[] one of { [0.0], [0.0, 0.0], [0.0, 0.0, 0.0, 0.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y[] sorted by ==",
+                                    "y[] elements one of { 0.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "y[] elements == 0.0",
+                                    "y[] one of { [0.0], [0.0, 0.0], [0.0, 0.0, 0.0, 0.0] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

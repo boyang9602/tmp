@@ -1,0 +1,91 @@
+{
+    "org.jfree.chart.PaintMap": [
+        {
+            "getPaint(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "key != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "return == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == java.awt.Color.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "return == null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "put(java.lang.Comparable, java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.store has only one value",
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.store has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

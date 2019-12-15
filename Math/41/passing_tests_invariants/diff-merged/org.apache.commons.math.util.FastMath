@@ -1,0 +1,96 @@
+{
+    "org.apache.commons.math.util.FastMath": [
+        {
+            "sinQ(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "xb != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch162.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch162.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cosQ(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "xb one of { -6.123233995736766E-17, 1.0592009437299426E-17, 3.834758505292834E-17 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "xb != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch162.inv.output": {
+                                "invs": [
+                                    "xb one of { -6.123233995736766E-17, 1.0592009437299426E-17, 3.834758505292834E-17 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch162.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

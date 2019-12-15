@@ -1,0 +1,54 @@
+{
+    "org.mockito.cglib.proxy.Enhancer$3": [
+        {
+            "(org.mockito.cglib.proxy.Enhancer, org.mockito.cglib.core.CodeEmitter)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.mockito.cglib.proxy.Enhancer.this.className.toString == \"org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$4038d86a\"",
+                                    "org.mockito.cglib.proxy.Enhancer.this.className.toString == \"org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$b7c20c68\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.mockito.cglib.proxy.Enhancer.this.className.toString == \"org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$abb6c88\""
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "org.mockito.cglib.proxy.Enhancer.this.className.toString == \"org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$4038d86a\"",
+                                    "org.mockito.cglib.proxy.Enhancer.this.className.toString == \"org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$b7c20c68\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

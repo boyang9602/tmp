@@ -1,0 +1,558 @@
+{
+    "org.jfree.chart.axis.Axis": [
+        {
+            "isAxisLineVisible()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getPlot()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLabelAngle()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickLabelFont()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isTickLabelsVisible()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawLabel(java.lang.String, java.awt.Graphics2D, java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge, org.jfree.chart.axis.AxisState, org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "plotState.owner.chartArea has only one value",
+                                    "plotState.owner has only one value",
+                                    "plotState.dataArea has only one value",
+                                    "plotState.owner.entities has only one value",
+                                    "plotState.subplotInfo has only one value",
+                                    "plotState.owner.plotInfo has only one value",
+                                    "state.max == 0.0",
+                                    "plotState.plotArea has only one value",
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "state.max one of { 0.0, 15.640625, 39.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "plotState.owner.chartArea has only one value",
+                                    "plotState.owner.entities has only one value",
+                                    "plotState.owner has only one value",
+                                    "plotState.dataArea has only one value",
+                                    "plotState.subplotInfo has only one value",
+                                    "plotState.owner.plotInfo has only one value",
+                                    "state.max == 0.0",
+                                    "return.max == 0.0",
+                                    "plotState.plotArea has only one value",
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "return.max one of { 0.0, 15.640625, 39.0 }",
+                                    "state.max one of { 0.0, 15.640625, 39.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1198": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLabelEnclosure(java.awt.Graphics2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickLabelPaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLabelInsets()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLabel()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickLabelInsets()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLabelFont()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLabelPaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isVisible()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

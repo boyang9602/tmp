@@ -1,0 +1,110 @@
+{
+    "org.apache.commons.math.analysis.solvers.BrentSolver": [
+        {
+            "BrentSolver()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch55.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 0",
+                                    "this.result == 0.0",
+                                    "this.resultComputed == false"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch170.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch54.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch201.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, double, double, double)": [
+                {
+                    "EXITNN": [
+                        {
+                            "251": [
+                                {
+                                    "Patch55.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch170.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch54.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch201.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double)": [
+                {
+                    "EXITNN": [
+                        {
+                            "138": [
+                                {
+                                    "Patch55.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch170.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch54.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch201.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

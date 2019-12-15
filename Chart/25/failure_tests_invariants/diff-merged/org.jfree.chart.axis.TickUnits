@@ -1,0 +1,113 @@
+{
+    "org.jfree.chart.axis.TickUnits": [
+        {
+            "getCeilingTickUnit(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.size one of { 0.5, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.size one of { 0.5, 1.0, 2.5 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getCeilingTickUnit(org.jfree.chart.axis.TickUnit)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.size one of { 0.5, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.size one of { 0.5, 1.0, 2.5 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "157": [
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": [
+                                            "unit.size one of { 0.5, 1.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return.size == 1.0",
+                                            "unit.size == 1.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "161": [
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

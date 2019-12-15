@@ -1,0 +1,71 @@
+{
+    "org.jfree.chart.util.ObjectList": [
+        {
+            "get(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.size == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.size == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.size == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "this.size == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "this.size == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "this.size == 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

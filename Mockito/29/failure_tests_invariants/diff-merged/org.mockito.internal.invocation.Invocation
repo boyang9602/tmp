@@ -1,0 +1,167 @@
+{
+    "org.mockito.internal.invocation.Invocation": [
+        {
+            "getMock()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getArgumentsCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber == 3"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber == 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "argumentsToMatchers()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 3 }",
+                                    "return[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.sequenceNumber one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

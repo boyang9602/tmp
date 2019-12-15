@@ -1,0 +1,38 @@
+{
+    "org.apache.commons.math.analysis.polynomials.PolynomialFunction": [
+        {
+            "evaluate(double[], double)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "coefficients != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

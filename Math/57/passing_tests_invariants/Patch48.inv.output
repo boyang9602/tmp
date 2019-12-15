@@ -1,0 +1,444 @@
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster:::CLASS
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster:::OBJECT
+this.points != null
+this.points[] elements != null
+this.points[].getClass().getName() elements == org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.class
+this.points.getClass().getName() == java.util.ArrayList.class
+this.center != null
+this.center.getClass().getName() == org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.class
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster.Cluster(org.apache.commons.math.stat.clustering.Clusterable):::ENTER
+center != null
+center.getClass().getName() == org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.class
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster.Cluster(org.apache.commons.math.stat.clustering.Clusterable):::EXIT
+this.points[] == []
+this.points[].getClass().getName() == []
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster.addPoint(org.apache.commons.math.stat.clustering.Clusterable):::ENTER
+point != null
+point.getClass().getName() == org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.class
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster.addPoint(org.apache.commons.math.stat.clustering.Clusterable):::EXIT
+this.points == orig(this.points)
+this.points.getClass().getName() == orig(this.points.getClass().getName())
+this.center == orig(this.center)
+this.center.getClass().getName() == orig(this.center.getClass().getName())
+size(this.points[])-1 == orig(size(this.points[]))
+size(this.points[]) >= 1
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster.getCenter():::ENTER
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster.getCenter():::EXIT
+this.points == orig(this.points)
+this.points[] == orig(this.points[])
+this.points.getClass().getName() == orig(this.points.getClass().getName())
+this.center == orig(this.center)
+this.center.getClass().getName() == orig(this.center.getClass().getName())
+return != null
+return.getClass().getName() == org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.class
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster.getPoints():::ENTER
+===========================================================================
+org.apache.commons.math.stat.clustering.Cluster.getPoints():::EXIT
+this.points == orig(this.points)
+this.points[] == orig(this.points[])
+this.points.getClass().getName() == orig(this.points.getClass().getName())
+this.center == orig(this.center)
+this.center.getClass().getName() == orig(this.center.getClass().getName())
+return != null
+return[] elements != null
+return[].getClass().getName() elements == org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.class
+return.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:::CLASS
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:::OBJECT
+this.point != null
+size(this.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.EuclideanIntegerPoint(int[]):::ENTER
+point != null
+size(point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.EuclideanIntegerPoint(int[]):::EXIT
+point[] == orig(point[])
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.centroidOf(java.util.Collection):::ENTER
+points != null
+points.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.centroidOf(java.util.Collection):::EXIT
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+return != null
+return.point != null
+size(return.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.distanceFrom(org.apache.commons.math.stat.clustering.EuclideanIntegerPoint):::ENTER
+p != null
+p.point != null
+size(p.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.distanceFrom(org.apache.commons.math.stat.clustering.EuclideanIntegerPoint):::EXIT
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+p.point == orig(p.point)
+p.point[] == orig(p.point[])
+p.point != null
+return >= 0.0
+size(p.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.equals(java.lang.Object):::ENTER
+other != null
+other.getClass().getName() == org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.class
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.equals(java.lang.Object):::EXIT87
+return == false
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.equals(java.lang.Object):::EXIT87;condition="not(return == true)"
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.equals(java.lang.Object):::EXIT90
+return == true
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.equals(java.lang.Object):::EXIT90;condition="return == true"
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.equals(java.lang.Object):::EXIT
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.equals(java.lang.Object):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.equals(java.lang.Object):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.getPoint():::ENTER
+===========================================================================
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.getPoint():::EXIT
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+return != null
+size(return[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy:::CLASS
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_VARIANCE has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_POINTS_NUMBER has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.FARTHEST_POINT has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.ERROR has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES.getClass().getName() == org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy[].class
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[] contains no nulls and has only one value, of length 4
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[].getClass().getName() == [org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy]
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[].getClass().getName() elements == org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy.class
+size(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[]) == 4
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy:::OBJECT
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.EmptyClusterStrategy(java.lang.String, int):::ENTER
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.EmptyClusterStrategy(java.lang.String, int):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.values():::ENTER
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.values():::EXIT
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_VARIANCE == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_VARIANCE)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_POINTS_NUMBER == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_POINTS_NUMBER)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.FARTHEST_POINT == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.FARTHEST_POINT)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.ERROR == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.ERROR)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES.getClass().getName() == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES.getClass().getName())
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[] == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[])
+return has only one value
+return.getClass().getName() == org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy[].class
+return[] contains no nulls and has only one value, of length 4
+size(return[]) == 4
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:::OBJECT
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_VARIANCE has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_POINTS_NUMBER has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.FARTHEST_POINT has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.ERROR has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES.getClass().getName() == org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy[].class
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[] contains no nulls and has only one value, of length 4
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[].getClass().getName() == [org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy]
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[].getClass().getName() elements == org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy.class
+size(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[]) == 4
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.KMeansPlusPlusClusterer(java.util.Random):::ENTER
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.KMeansPlusPlusClusterer(java.util.Random):::EXIT
+this.emptyStrategy has only one value
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.KMeansPlusPlusClusterer(java.util.Random, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy):::ENTER
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_VARIANCE has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_POINTS_NUMBER has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.FARTHEST_POINT has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.ERROR has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES has only one value
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES.getClass().getName() == org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy[].class
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[] contains no nulls and has only one value, of length 4
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[].getClass().getName() == [org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy]
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[].getClass().getName() elements == org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy.class
+size(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[]) == 4
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.KMeansPlusPlusClusterer(java.util.Random, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy):::EXIT
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_VARIANCE == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_VARIANCE)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_POINTS_NUMBER == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.LARGEST_POINTS_NUMBER)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.FARTHEST_POINT == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.FARTHEST_POINT)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.ERROR == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.ERROR)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES)
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES.getClass().getName() == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES.getClass().getName())
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[] == orig(org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy.$VALUES[])
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest:::OBJECT
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.KMeansPlusPlusClustererTest():::EXIT
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.dimension2():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.dimension2():::EXIT
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.testCertainSpace():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.testCertainSpace():::EXIT
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.testPerformClusterAnalysisDegenerate():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.testPerformClusterAnalysisDegenerate():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic:::OBJECT
+this.storedData == null
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic.AbstractStorelessUnivariateStatistic():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:::OBJECT
+this.storedData == null
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic.AbstractUnivariateStatistic():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment:::CLASS
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment:::OBJECT
+this.n >= 0
+this.m1 >= 0.0
+this.storedData == null
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment.FirstMoment():::EXIT
+this.n == 0
+this.m1 == Double.NaN
+this.dev == Double.NaN
+this.nDev == Double.NaN
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment.increment(double):::ENTER
+d >= 0.0
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment.increment(double):::EXIT
+this.storedData == orig(this.storedData)
+this.n >= 1
+this.n - orig(this.n) - 1 == 0
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment:::CLASS
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment:::OBJECT
+this.m2 >= 0.0
+this.n >= 0
+this.m1 >= 0.0
+this.storedData == null
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment.SecondMoment():::EXIT
+this.m2 == Double.NaN
+this.n == 0
+this.m1 == Double.NaN
+this.dev == Double.NaN
+this.nDev == Double.NaN
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment.increment(double):::ENTER
+d >= 0.0
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment.increment(double):::EXIT
+this.storedData == orig(this.storedData)
+this.n >= 1
+this.n - orig(this.n) - 1 == 0
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance:::CLASS
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance:::OBJECT
+this.moment != null
+this.moment.m2 >= 0.0
+this.moment.n >= 0
+this.moment.m1 >= 0.0
+this.moment.storedData == null
+this.incMoment == true
+this.isBiasCorrected == true
+this.storedData == null
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.Variance():::EXIT
+this.moment.m2 == Double.NaN
+this.moment.n == 0
+this.moment.m1 == Double.NaN
+this.moment.dev == Double.NaN
+this.moment.nDev == Double.NaN
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.getResult():::ENTER
+this.moment.n >= 1
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.getResult():::EXIT171
+this.moment.m2 == 0.0
+this.moment.n == 1
+this.moment.dev >= 0.0
+this.moment.nDev >= 0.0
+return == 0.0
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.getResult():::EXIT174
+this.moment.n >= 2
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.getResult():::EXIT
+this.moment == orig(this.moment)
+this.moment.m2 == orig(this.moment.m2)
+this.moment.n == orig(this.moment.n)
+this.moment.m1 == orig(this.moment.m1)
+this.moment.dev == orig(this.moment.dev)
+this.moment.nDev == orig(this.moment.nDev)
+this.moment.storedData == orig(this.moment.storedData)
+this.incMoment == orig(this.incMoment)
+this.isBiasCorrected == orig(this.isBiasCorrected)
+this.storedData == orig(this.storedData)
+this.moment.n >= 1
+return >= 0.0
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.increment(double):::ENTER
+d >= 0.0
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.increment(double):::EXIT
+this.moment == orig(this.moment)
+this.moment.storedData == orig(this.moment.storedData)
+this.incMoment == orig(this.incMoment)
+this.isBiasCorrected == orig(this.isBiasCorrected)
+this.storedData == orig(this.storedData)
+this.moment.n >= 1
+this.moment.n - orig(this.moment.n) - 1 == 0
+===========================================================================
+org.apache.commons.math.util.FastMath:::CLASS
+===========================================================================
+org.apache.commons.math.util.FastMath.buildSinCosTables():::ENTER
+===========================================================================
+org.apache.commons.math.util.FastMath.buildSinCosTables():::EXIT
+===========================================================================
+org.apache.commons.math.util.FastMath.expint(int, double[]):::ENTER
+result has only one value
+result != null
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.expint(int, double[]):::EXIT
+===========================================================================
+org.apache.commons.math.util.FastMath.quadMult(double[], double[], double[]):::ENTER
+a != null
+a[] sorted by >
+b != null
+b[] sorted by >
+result != null
+size(a[]) == 2
+size(b[]) == 2
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.quadMult(double[], double[], double[]):::EXIT
+a[] == orig(a[])
+b[] == orig(b[])
+a[] sorted by >
+b[] sorted by >
+===========================================================================
+org.apache.commons.math.util.FastMath.resplit(double[]):::ENTER
+a != null
+size(a[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.resplit(double[]):::EXIT
+===========================================================================
+org.apache.commons.math.util.FastMath.slowCos(double, double[]):::ENTER
+result has only one value
+result[] sorted by >=
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.slowCos(double, double[]):::EXIT
+result[] sorted by >
+result[] > orig(result[]) (lexically)
+result[] >= orig(result[]) (lexically)
+===========================================================================
+org.apache.commons.math.util.FastMath.slowLog(double):::ENTER
+===========================================================================
+org.apache.commons.math.util.FastMath.slowLog(double):::EXIT
+return != null
+return[] sorted by >=
+size(return[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.slowSin(double, double[]):::ENTER
+result has only one value
+result[] sorted by >=
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.slowSin(double, double[]):::EXIT
+result[] sorted by >=
+result[] <= orig(result[]) (lexically)
+===========================================================================
+org.apache.commons.math.util.FastMath.slowexp(double, double[]):::ENTER
+result has only one value
+result != null
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.slowexp(double, double[]):::EXIT
+result[] sorted by >
+===========================================================================
+org.apache.commons.math.util.FastMath.split(double, double[]):::ENTER
+split != null
+size(split[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.split(double, double[]):::EXIT
+===========================================================================
+org.apache.commons.math.util.FastMath.splitAdd(double[], double[], double[]):::ENTER
+a != null
+b != null
+b[] elements <= 2.0
+ans != null
+ans[] sorted by >=
+size(a[]) == 2
+size(b[]) == 2
+size(ans[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.splitAdd(double[], double[], double[]):::EXIT
+b[] == orig(b[])
+b[] elements <= 2.0
+===========================================================================
+org.apache.commons.math.util.FastMath.splitMult(double[], double[], double[]):::ENTER
+a != null
+b != null
+ans != null
+size(a[]) == 2
+size(b[]) == 2
+size(ans[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.splitMult(double[], double[], double[]):::EXIT
+a[] == orig(a[])
+b[] == orig(b[])
+===========================================================================
+org.apache.commons.math.util.FastMath.splitReciprocal(double[], double[]):::ENTER
+in != null
+result != null
+result[] elements <= 1.0
+size(in[]) == 2
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.splitReciprocal(double[], double[]):::EXIT
+in[] == orig(in[])
+===========================================================================
+org.apache.commons.math.util.FastMath.sqrt(double):::ENTER
+a >= 0.0
+===========================================================================
+org.apache.commons.math.util.FastMath.sqrt(double):::EXIT
+return >= 0.0

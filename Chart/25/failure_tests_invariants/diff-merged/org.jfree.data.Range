@@ -1,0 +1,121 @@
+{
+    "org.jfree.data.Range": [
+        {
+            "getUpperBound()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 4.0, 4.25, 4.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 4.0, 4.25, 4.4 }",
+                                    "return one of { 4.0, 4.25, 4.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLowerBound()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 4.0, 4.25, 4.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 4.0, 4.25, 4.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "contains(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -4.4, -1.25 }",
+                                    "this.upper one of { 4.25, 4.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 4.25, 4.4, 294.0 }",
+                                    "this.lower one of { -4.4, -1.25, 0.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -4.4, -1.25 }",
+                                    "this.upper one of { 4.25, 4.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 4.25, 4.4, 294.0 }",
+                                    "this.lower one of { -4.4, -1.25, 0.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

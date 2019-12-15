@@ -1,0 +1,721 @@
+{
+    "org.jfree.chart.axis.ValueAxis": [
+        {
+            "getRange()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.plot != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.plot != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.plot != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isAutoRange()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateAnchorPoint(org.jfree.chart.axis.ValueTick, double, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "tick != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.axis.TickType.MAJOR != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.axis.TickType.MINOR != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "tick.text != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "edge != null",
+                                    "tick.rotationAnchor.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "tick.tickType != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "tick.textAnchor != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "tick.textAnchor.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "tick.rotationAnchor != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "edge.name != null",
+                                    "tick.tickType.name != null",
+                                    "dataArea != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "tick != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.axis.TickType.MAJOR != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.axis.TickType.MINOR != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "tick.text != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "edge != null",
+                                    "tick.rotationAnchor.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "tick.tickType != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "tick.textAnchor != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "tick.textAnchor.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "tick.rotationAnchor != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "edge.name != null",
+                                    "tick.tickType.name != null",
+                                    "dataArea != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "tick != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.axis.TickType.MAJOR != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.axis.TickType.MINOR != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "tick.text != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "edge != null",
+                                    "tick.rotationAnchor.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "tick.tickType != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "tick.textAnchor != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "tick.textAnchor.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "tick.rotationAnchor != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "edge.name != null",
+                                    "tick.tickType.name != null",
+                                    "dataArea != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.axis.TickType.MAJOR != null",
+                                    "return != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.axis.TickType.MINOR != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "tick.text != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "tick.rotationAnchor.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "tick.tickType != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "tick.textAnchor != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "tick.textAnchor.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "tick.rotationAnchor != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "edge.name != null",
+                                    "tick.tickType.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.axis.TickType.MAJOR != null",
+                                    "return != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.axis.TickType.MINOR != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "tick.text != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "tick.rotationAnchor.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "tick.tickType != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "tick.textAnchor != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "tick.textAnchor.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "tick.rotationAnchor != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "edge.name != null",
+                                    "tick.tickType.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.axis.TickType.MAJOR != null",
+                                    "return != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.axis.TickType.MINOR != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "tick.text != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "tick.rotationAnchor.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "tick.tickType != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "tick.textAnchor != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "tick.textAnchor.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "tick.rotationAnchor != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "edge.name != null",
+                                    "tick.tickType.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isVerticalTickLabels()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lengthToJava2D(double, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "edge != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "area != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "edge != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "area != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "edge != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "area != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isInverted()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,852 @@
+{
+    "org.jfree.chart.plot.CrosshairState": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.anchor == null",
+                            "this.rangeAxisIndex == 0",
+                            "this.distance one of { 0.0, Infinity }",
+                            "this.domainAxisIndex == 0",
+                            "this.crosshairY == 0.0",
+                            "this.crosshairX == 0.0",
+                            "this.anchorY one of { 0.0, Double.NaN }",
+                            "this.datasetIndex == 0",
+                            "this.anchorX one of { 0.0, Double.NaN }",
+                            "this.calculateDistanceInDataSpace == false"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.anchor == null",
+                            "this.rangeAxisIndex == 0",
+                            "this.distance one of { 0.0, Infinity }",
+                            "this.domainAxisIndex == 0",
+                            "this.crosshairY == 0.0",
+                            "this.crosshairX == 0.0",
+                            "this.anchorY one of { 0.0, Double.NaN }",
+                            "this.datasetIndex == 0",
+                            "this.anchorX one of { 0.0, Double.NaN }",
+                            "this.calculateDistanceInDataSpace == false"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "setCrosshairDistance(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "distance == Infinity",
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.distance == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "distance == Infinity",
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.distance == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.anchorX == orig(this.anchorX)",
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorY == orig(this.anchorY)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.anchorX == orig(this.anchorX)",
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorY == orig(this.anchorY)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDomainAxisIndex()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "return == 0",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "return == 0",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRangeAxisIndex()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "return == 0",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "return == 0",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getCrosshairX()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.anchor == orig(this.anchor)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "return == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.anchor == orig(this.anchor)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "return == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setCrosshairX(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "x == 0.0",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "x == 0.0",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getCrosshairY()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.anchor == orig(this.anchor)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "return == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.anchor == orig(this.anchor)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "return == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setAnchorX(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "x == Double.NaN",
+                                    "this.anchorY == 0.0",
+                                    "this.distance == Infinity",
+                                    "this.anchorX == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "x == Double.NaN",
+                                    "this.anchorY == 0.0",
+                                    "this.distance == Infinity",
+                                    "this.anchorX == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.anchorY == 0.0",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == orig(this.anchorY)",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.anchorY == 0.0",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == orig(this.anchorY)",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setAnchorY(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorY == 0.0",
+                                    "y == Double.NaN",
+                                    "this.anchorX == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorY == 0.0",
+                                    "y == Double.NaN",
+                                    "this.anchorX == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CrosshairState(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "calculateDistanceInDataSpace == false"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "calculateDistanceInDataSpace == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.distance == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.distance == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setAnchor(java.awt.geom.Point2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorY == 0.0",
+                                    "anchor == null",
+                                    "this.anchorX == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "this.anchorY == 0.0",
+                                    "anchor == null",
+                                    "this.anchorX == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.anchorX == orig(this.anchorX)",
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorY == orig(this.anchorY)",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.anchorX == orig(this.anchorX)",
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorY == orig(this.anchorY)",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CrosshairState()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.distance == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.anchorY == 0.0",
+                                    "this.anchorX == 0.0",
+                                    "this.distance == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setCrosshairY(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "y == 0.0",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.distance == Infinity",
+                                    "y == 0.0",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.crosshairY == orig(this.crosshairY)",
+                                    "this.domainAxisIndex == orig(this.domainAxisIndex)",
+                                    "this.distance == Infinity",
+                                    "this.crosshairX == orig(this.crosshairX)",
+                                    "this.calculateDistanceInDataSpace == orig(this.calculateDistanceInDataSpace)",
+                                    "this.rangeAxisIndex == orig(this.rangeAxisIndex)",
+                                    "this.anchorX == Double.NaN",
+                                    "this.anchorY == Double.NaN",
+                                    "this.distance == orig(this.distance)",
+                                    "this.anchor == orig(this.anchor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

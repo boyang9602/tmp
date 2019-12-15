@@ -1,0 +1,98 @@
+{
+    "org.jfree.data.xy.XYSeriesCollection": [
+        {
+            "XYSeriesCollection(org.jfree.data.xy.XYSeries)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "series.minY one of { 1.0, 1.1, 10.0 }",
+                                    "series.maxY one of { 2.2, 3.0, 30.0 }",
+                                    "series.maxX one of { 3.0, 30.0, 200.0 }",
+                                    "series.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "series.maxY one of { 2.2, 3.0 }",
+                                    "series.minX one of { 1.0, 100.0 }",
+                                    "series.minY one of { 1.0, 1.1 }",
+                                    "series.maxX one of { 3.0, 200.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "series.minY one of { 1.0, 1.1, 10.0 }",
+                                    "series.maxY one of { 2.2, 3.0, 30.0 }",
+                                    "series.maxX one of { 3.0, 30.0, 200.0 }",
+                                    "series.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "series.maxY one of { 2.2, 3.0 }",
+                                    "series.minX one of { 1.0, 100.0 }",
+                                    "series.minY one of { 1.0, 1.1 }",
+                                    "series.maxX one of { 3.0, 200.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getSeries(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.maxY one of { 2.2, 3.0, 30.0 }",
+                                    "return.minY one of { 1.0, 1.1, 10.0 }",
+                                    "return.maxX one of { 3.0, 30.0, 200.0 }",
+                                    "return.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.maxY one of { 2.2, 3.0 }",
+                                    "return.maxX one of { 3.0, 200.0 }",
+                                    "return.minX one of { 1.0, 100.0 }",
+                                    "return.minY one of { 1.0, 1.1 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

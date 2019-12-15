@@ -1,0 +1,127 @@
+{
+    "org.jfree.chart.util.GradientPaintTransformType": [
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.name.toString == \"GradientPaintTransformType.VERTICAL\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.name.toString one of { \"GradientPaintTransformType.CENTER_VERTICAL\", \"GradientPaintTransformType.VERTICAL\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.name.toString == \"GradientPaintTransformType.VERTICAL\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.name.toString == \"GradientPaintTransformType.VERTICAL\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.name.toString one of { \"GradientPaintTransformType.CENTER_VERTICAL\", \"GradientPaintTransformType.VERTICAL\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.name.toString == \"GradientPaintTransformType.VERTICAL\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "114": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(obj) has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": [
+                                            "orig(obj) has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "117": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.name.toString == \"GradientPaintTransformType.VERTICAL\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "106": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == true",
+                                            "this.name.toString == \"GradientPaintTransformType.CENTER_VERTICAL\"",
+                                            "this.name has only one value",
+                                            "orig(this) has only one value",
+                                            "orig(obj) has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

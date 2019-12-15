@@ -1,0 +1,132 @@
+{
+    "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator": [
+        {
+            "getCurrentStepStart()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false",
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false",
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "resetInternalState()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setInitialStepSize(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "org.apache.commons.math.ode.nonstiff.DormandPrince54StepInterpolator": [
+        {
+            "computeInterpolatedStateAndDerivatives(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.currentState[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.currentState[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.currentState[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.currentState[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "org.apache.commons.math.MathRuntimeException": [
+        {
+            "CLASS": [
+                {
+                    "Patch43.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "org.apache.commons.math.MathRuntimeException.DEPRECATION_MESSAGE.toString == \"This class is deprecated; calling this method is a bug.\"",
+                            "org.apache.commons.math.MathRuntimeException.DEPRECATION_MESSAGE has only one value"
+                        ]
+                    }
+                },
+                {
+                    "Patch165.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "Patch41.inv.output": "N/A"
+                },
+                {
+                    "Patch42.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "createConcurrentModificationException(org.apache.commons.math.exception.util.Localizable, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch43.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "arguments[] == []",
+                                    "arguments has only one value",
+                                    "pattern has only one value",
+                                    "pattern.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "arguments.getClass().getName() == java.lang.Object[].class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch41.inv.output": "N/A"
+                        },
+                        {
+                            "Patch42.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch43.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return has only one value",
+                                    "arguments[] == []",
+                                    "org.apache.commons.math.MathRuntimeException.DEPRECATION_MESSAGE == orig(org.apache.commons.math.MathRuntimeException.DEPRECATION_MESSAGE)",
+                                    "arguments[] == orig(arguments[])",
+                                    "org.apache.commons.math.MathRuntimeException.DEPRECATION_MESSAGE.toString == orig(org.apache.commons.math.MathRuntimeException.DEPRECATION_MESSAGE.toString)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch41.inv.output": "N/A"
+                        },
+                        {
+                            "Patch42.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

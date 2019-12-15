@@ -1,0 +1,321 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexSolver": [
+        {
+            "isOptimal(org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (tableau.numSlackVariables one of { 2, 3 })",
+                                    "(return == false)  ==>  (tableau.restrictToNonNegative == false)",
+                                    "(return == false)  ==>  (tableau.numDecisionVariables one of { 3, 4 })",
+                                    "(return == true)  ==>  (this.f.constantTerm one of { 0.0, 7.0 })",
+                                    "(return == false)  ==>  (this.restrictToNonNegative == false)",
+                                    "(return == true)  ==>  (tableau.f.constantTerm one of { 0.0, 7.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (this.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(return == false)  ==>  (tableau.numSlackVariables one of { 2, 3, 4 })",
+                                    "tableau.numDecisionVariables one of { 3, 4, 5 }",
+                                    "(return == true)  ==>  (tableau.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(return == false)  ==>  (tableau.numDecisionVariables one of { 3, 4, 5 })",
+                                    "tableau.numSlackVariables one of { 2, 3, 4 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "151": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": [
+                                            "tableau.numSlackVariables one of { 2, 3 }",
+                                            "tableau.restrictToNonNegative == false",
+                                            "tableau.numDecisionVariables one of { 3, 4 }",
+                                            "this.restrictToNonNegative == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "tableau.numDecisionVariables one of { 3, 4, 5 }",
+                                            "tableau.numSlackVariables one of { 2, 3, 4 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "154": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": [
+                                            "tableau.f.constantTerm one of { 0.0, 7.0 }",
+                                            "this.f.constantTerm one of { 0.0, 7.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doOptimize()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.f.constantTerm one of { 0.0, 7.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "size(return.point[]) one of { 2, 3, 216 }",
+                                    "this.f.constantTerm one of { 0.0, 7.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return.point[]) >= 2",
+                                    "this.iterations > orig(this.iterations)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solvePhase1(org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "tableau.numArtificialVariables one of { 0, 1, 93 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "(this.iterations one of { 1, 2, 93 })  <==>  (tableau.numArtificialVariables one of { 1, 93 })",
+                                    "tableau.numArtificialVariables one of { 0, 1, 93 }",
+                                    "(this.iterations one of { 1, 2, 93 })  ==>  (tableau.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(this.iterations one of { 1, 2, 93 })  ==>  (this.f.constantTerm one of { -5.0, 0.0, 7.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "168": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "179": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": [
+                                            "this.iterations one of { 1, 2, 93 }",
+                                            "tableau.numArtificialVariables one of { 1, 93 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.iterations > orig(this.iterations)",
+                                            "tableau.numArtificialVariables one of { 1, 2, 93 }",
+                                            "this.iterations >= 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getPivotRow(int, org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isPhase1Solved(org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (tableau.numArtificialVariables one of { 1, 2, 93 })",
+                                    "(return == true)  ==>  (this.iterations one of { 1, 2, 93 })",
+                                    "(return == true)  ==>  (tableau.numArtificialVariables one of { 1, 93 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (this.iterations >= 1)",
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "134": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "137": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": [
+                                            "tableau.numArtificialVariables one of { 1, 93 }",
+                                            "this.iterations one of { 1, 2, 93 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

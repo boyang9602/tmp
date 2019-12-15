@@ -1,0 +1,82 @@
+{
+    "org.apache.commons.math.linear.RealVectorImpl": [
+        {
+            "dotProduct(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "size(v[]) one of { 2, 3, 216 }",
+                                    "size(this.data[]) one of { 2, 3, 216 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(v[]) >= 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 2, 3, 216 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "checkVectorDimensions(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "n one of { 2, 3, 216 }",
+                                    "size(this.data[]) one of { 2, 3, 216 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "n >= 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 2, 3, 216 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

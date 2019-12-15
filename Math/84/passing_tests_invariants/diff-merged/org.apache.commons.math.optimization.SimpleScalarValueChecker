@@ -1,0 +1,76 @@
+{
+    "org.apache.commons.math.optimization.SimpleScalarValueChecker": [
+        {
+            "converged(int, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "current.value >= 0.010852087010871944",
+                                    "previous.value >= 0.010852087010871944"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "current.value >= 0.010852087010871944",
+                                    "previous.value >= 0.010852087010871944"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "current.value >= 0.010852087010871944",
+                                    "previous.value >= 0.010852087010871944"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "previous.value >= 0.010852087010871944",
+                                    "current.value >= 0.010852087010871944"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (orig(iteration) >= 1)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "previous.value >= 0.010852087010871944",
+                                    "current.value >= 0.010852087010871944"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "previous.value >= 0.010852087010871944",
+                                    "current.value >= 0.010852087010871944"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

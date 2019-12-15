@@ -1,0 +1,252 @@
+{
+    "org.jfree.chart.axis.TickType": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.axis.TickType.MAJOR.name.toString == \"MAJOR\"",
+                            "org.jfree.chart.axis.TickType.MINOR has only one value",
+                            "org.jfree.chart.axis.TickType.MAJOR.name has only one value",
+                            "org.jfree.chart.axis.TickType.MINOR.name.toString == \"MINOR\"",
+                            "org.jfree.chart.axis.TickType.MINOR.name has only one value",
+                            "org.jfree.chart.axis.TickType.MINOR.name != null",
+                            "org.jfree.chart.axis.TickType.MAJOR.name != null",
+                            "org.jfree.chart.axis.TickType.MAJOR has only one value",
+                            "org.jfree.chart.axis.TickType.MINOR != null",
+                            "org.jfree.chart.axis.TickType.MAJOR != null"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.axis.TickType.MAJOR.name.toString == \"MAJOR\"",
+                            "org.jfree.chart.axis.TickType.MINOR has only one value",
+                            "org.jfree.chart.axis.TickType.MAJOR.name has only one value",
+                            "org.jfree.chart.axis.TickType.MINOR.name.toString == \"MINOR\"",
+                            "org.jfree.chart.axis.TickType.MINOR.name has only one value",
+                            "org.jfree.chart.axis.TickType.MINOR.name != null",
+                            "org.jfree.chart.axis.TickType.MAJOR.name != null",
+                            "org.jfree.chart.axis.TickType.MAJOR has only one value",
+                            "org.jfree.chart.axis.TickType.MINOR != null",
+                            "org.jfree.chart.axis.TickType.MAJOR != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"MAJOR\", \"MINOR\" }",
+                            "this.name != null"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"MAJOR\", \"MINOR\" }",
+                            "this.name != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "TickType(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"MAJOR\", \"MINOR\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"MAJOR\", \"MINOR\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "name.toString == orig(name.toString)",
+                                    "name.toString one of { \"MAJOR\", \"MINOR\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "name.toString == orig(name.toString)",
+                                    "name.toString one of { \"MAJOR\", \"MINOR\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "obj.getClass().getName() == org.jfree.chart.axis.TickType.class",
+                                    "obj != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "obj.getClass().getName() == org.jfree.chart.axis.TickType.class",
+                                    "obj != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "return == true",
+                                    "(return == false)  ==>  (this.name.toString one of { \"MAJOR\", \"MINOR\" })",
+                                    "orig(this) has only one value",
+                                    "org.jfree.chart.axis.TickType.MAJOR == orig(org.jfree.chart.axis.TickType.MAJOR)",
+                                    "org.jfree.chart.axis.TickType.MAJOR.name == orig(org.jfree.chart.axis.TickType.MAJOR.name)",
+                                    "org.jfree.chart.axis.TickType.MINOR.name == orig(org.jfree.chart.axis.TickType.MINOR.name)",
+                                    "(return == true)  ==>  (this.name has only one value)",
+                                    "org.jfree.chart.axis.TickType.MINOR == orig(org.jfree.chart.axis.TickType.MINOR)",
+                                    "(return == true)  ==>  (this.name.toString == \"MAJOR\")",
+                                    "this.name.toString == \"MAJOR\"",
+                                    "orig(obj) has only one value",
+                                    "(return == true)  ==>  (orig(this) has only one value)",
+                                    "this.name.toString == orig(this.name.toString)",
+                                    "this.name has only one value",
+                                    "org.jfree.chart.axis.TickType.MAJOR.name.toString == orig(org.jfree.chart.axis.TickType.MAJOR.name.toString)",
+                                    "org.jfree.chart.axis.TickType.MINOR.name.toString == orig(org.jfree.chart.axis.TickType.MINOR.name.toString)",
+                                    "this.name == orig(this.name)",
+                                    "return == false",
+                                    "(return == true)  ==>  (orig(obj) has only one value)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == true",
+                                    "(return == false)  ==>  (this.name.toString one of { \"MAJOR\", \"MINOR\" })",
+                                    "orig(this) has only one value",
+                                    "org.jfree.chart.axis.TickType.MAJOR == orig(org.jfree.chart.axis.TickType.MAJOR)",
+                                    "org.jfree.chart.axis.TickType.MAJOR.name == orig(org.jfree.chart.axis.TickType.MAJOR.name)",
+                                    "org.jfree.chart.axis.TickType.MINOR.name == orig(org.jfree.chart.axis.TickType.MINOR.name)",
+                                    "(return == true)  ==>  (this.name has only one value)",
+                                    "org.jfree.chart.axis.TickType.MINOR == orig(org.jfree.chart.axis.TickType.MINOR)",
+                                    "(return == true)  ==>  (this.name.toString == \"MAJOR\")",
+                                    "this.name.toString == \"MAJOR\"",
+                                    "orig(obj) has only one value",
+                                    "(return == true)  ==>  (orig(this) has only one value)",
+                                    "this.name.toString == orig(this.name.toString)",
+                                    "this.name has only one value",
+                                    "org.jfree.chart.axis.TickType.MAJOR.name.toString == orig(org.jfree.chart.axis.TickType.MAJOR.name.toString)",
+                                    "org.jfree.chart.axis.TickType.MINOR.name.toString == orig(org.jfree.chart.axis.TickType.MINOR.name.toString)",
+                                    "this.name == orig(this.name)",
+                                    "return == false",
+                                    "(return == true)  ==>  (orig(obj) has only one value)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "90": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": [
+                                            "return == true",
+                                            "orig(this) has only one value",
+                                            "this.name.toString == \"MAJOR\"",
+                                            "orig(obj) has only one value",
+                                            "this.name has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return == true",
+                                            "orig(this) has only one value",
+                                            "this.name.toString == \"MAJOR\"",
+                                            "orig(obj) has only one value",
+                                            "this.name has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "98": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

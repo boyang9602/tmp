@@ -1,0 +1,468 @@
+{
+    "org.jfree.chart.renderer.category.GanttRenderer": [
+        {
+            "drawItem(java.awt.Graphics2D, org.jfree.chart.renderer.category.CategoryItemRendererState, java.awt.geom.Rectangle2D, org.jfree.chart.plot.CategoryPlot, org.jfree.chart.axis.CategoryAxis, org.jfree.chart.axis.ValueAxis, org.jfree.data.category.CategoryDataset, int, int, boolean, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.lower == 9.85048901404E11",
+                                    "rangeAxis.range.upper == 1.009193021475E12",
+                                    "state.barWidth == 2.458333333333333"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.lower == 9.85048901404E11",
+                                    "this.paintList.size one of { 1, 2 }",
+                                    "rangeAxis.range.upper == 1.009193021475E12",
+                                    "this.paintList.size >= orig(this.paintList.size)",
+                                    "size(this.paintList.objects[]) == orig(size(this.paintList.objects[]))",
+                                    "this.paintList.objects[this.paintList.increment-1] == orig(this.paintList.objects[this.paintList.increment-1])",
+                                    "this.paintList.objects[this.paintList.increment-1] == orig(this.paintList.objects[post(this.paintList.increment)-1])",
+                                    "state.barWidth == 2.458333333333333",
+                                    "this.paintList.objects[].getClass().getName() one of { [java.awt.Color, null, null, null, null, null, null, null], [java.awt.Color, java.awt.Color, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEndPercent()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getStartPercent()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawTask(java.awt.Graphics2D, org.jfree.chart.renderer.category.CategoryItemRendererState, java.awt.geom.Rectangle2D, org.jfree.chart.plot.CategoryPlot, org.jfree.chart.axis.CategoryAxis, org.jfree.chart.axis.ValueAxis, org.jfree.data.gantt.GanttCategoryDataset, int, int, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.lower == 9.85048901404E11",
+                                    "rangeAxis.range.upper == 1.009193021475E12",
+                                    "state.barWidth == 2.458333333333333"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.lower == 9.85048901404E11",
+                                    "this.paintList.size one of { 1, 2 }",
+                                    "rangeAxis.range.upper == 1.009193021475E12",
+                                    "this.paintList.size >= orig(this.paintList.size)",
+                                    "size(this.paintList.objects[]) == orig(size(this.paintList.objects[]))",
+                                    "this.paintList.objects[this.paintList.increment-1] == orig(this.paintList.objects[this.paintList.increment-1])",
+                                    "this.paintList.objects[this.paintList.increment-1] == orig(this.paintList.objects[post(this.paintList.increment)-1])",
+                                    "state.barWidth == 2.458333333333333",
+                                    "this.paintList.objects[].getClass().getName() one of { [java.awt.Color, null, null, null, null, null, null, null], [java.awt.Color, java.awt.Color, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "550": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawTasks(java.awt.Graphics2D, org.jfree.chart.renderer.category.CategoryItemRendererState, java.awt.geom.Rectangle2D, org.jfree.chart.plot.CategoryPlot, org.jfree.chart.axis.CategoryAxis, org.jfree.chart.axis.ValueAxis, org.jfree.data.gantt.GanttCategoryDataset, int, int, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.lower == 9.85048901404E11",
+                                    "rangeAxis.range.upper == 1.009193021475E12",
+                                    "state.barWidth == 2.458333333333333"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in this.paintList.objects[].getClass().getName()",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rangeAxis.range.lower == 9.85048901404E11",
+                                    "this.paintList.size one of { 1, 2 }",
+                                    "rangeAxis.range.upper == 1.009193021475E12",
+                                    "this.paintList.size >= orig(this.paintList.size)",
+                                    "size(this.paintList.objects[]) == orig(size(this.paintList.objects[]))",
+                                    "this.paintList.objects[this.paintList.increment-1] == orig(this.paintList.objects[this.paintList.increment-1])",
+                                    "this.paintList.objects[this.paintList.increment-1] == orig(this.paintList.objects[post(this.paintList.increment)-1])",
+                                    "state.barWidth == 2.458333333333333",
+                                    "this.paintList.objects[].getClass().getName() one of { [java.awt.Color, null, null, null, null, null, null, null], [java.awt.Color, java.awt.Color, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "rangeAxis.range.upper == 1.009196989446E12",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 1.958333333333333",
+                                    "rangeAxis.range.upper == 1.009185892108E12",
+                                    "rangeAxis.range.lower == 9.85052869417E11",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])",
+                                    "rangeAxis.range.lower == 9.85041772094E11"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "405": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

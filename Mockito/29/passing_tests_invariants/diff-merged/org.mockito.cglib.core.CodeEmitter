@@ -1,0 +1,130 @@
+{
+    "org.mockito.cglib.core.CodeEmitter": [
+        {
+            "CodeEmitter(org.mockito.cglib.core.ClassEmitter, org.mockito.asm.MethodVisitor, int, org.mockito.cglib.core.Signature, org.mockito.asm.Type[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "exceptionTypes[].buf sorted by >"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "exceptionTypes[].buf sorted by >"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ifnonnull(org.mockito.asm.Label)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.state.exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.state.exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ifnull(org.mockito.asm.Label)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.state.exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.state.exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

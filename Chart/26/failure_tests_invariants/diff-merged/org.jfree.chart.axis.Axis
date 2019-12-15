@@ -1,0 +1,1037 @@
+{
+    "org.jfree.chart.axis.Axis": [
+        {
+            "getPlot()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "return.foregroundAlpha == 1.0",
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.foregroundAlpha one of { 0.75, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "return.foregroundAlpha == 1.0",
+                                    "this.tickMarksVisible == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "writeObject(java.io.ObjectOutputStream)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addChangeListener(org.jfree.chart.event.AxisChangeListener)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setPlot(org.jfree.chart.plot.Plot)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1332": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawAxisLine(java.awt.Graphics2D, double, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "g2 != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "this.labelFont != null",
+                                    "dataArea != null",
+                                    "this.axisLinePaint != null",
+                                    "this.label != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelPaint != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "this.tickMarkStroke != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "edge != null",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "edge has only one value",
+                                    "edge.name.toString == \"RectangleEdge.BOTTOM\"",
+                                    "this.label.toString one of { \"Category\", \"Category Axis\", \"X\" }",
+                                    "edge.name has only one value",
+                                    "cursor one of { 72.03125, 132.421875, 172.03125 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "this.labelFont != null",
+                                    "this.axisLinePaint != null",
+                                    "this.label != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelPaint != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "this.tickMarkStroke != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "edge.name.toString == \"RectangleEdge.BOTTOM\"",
+                                    "this.label.toString one of { \"Category\", \"Category Axis\", \"X\" }",
+                                    "edge.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickMarkStroke()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axisLinePaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value",
+                                    "this.tickLabelFont has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axisLinePaint has only one value",
+                                    "return has only one value",
+                                    "this.label has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.tickLabelFont has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.plot.outlinePaint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickLabelPaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axisLinePaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.tickLabelFont has only one value",
+                                    "this.label.toString one of { \"Category\", \"Domain\", \"Range\" }",
+                                    "this.plot.insets has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.plot.outlinePaint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axisLinePaint has only one value",
+                                    "return has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.label.toString one of { \"Category\", \"Domain\", \"Range\" }",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.tickLabelFont has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.plot.outlinePaint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickMarkPaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axisLinePaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value",
+                                    "this.tickLabelFont has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axisLinePaint has only one value",
+                                    "return has only one value",
+                                    "this.label has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.tickLabelFont has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.plot.outlinePaint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickMarkInsideLength()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.axisLinePaint != null",
+                                    "this.labelFont != null",
+                                    "this.label != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelPaint != null",
+                                    "this.tickMarkStroke != null",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tickLabelFont has only one value",
+                                    "this.axisLinePaint has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.axisLinePaint != null",
+                                    "this.labelFont != null",
+                                    "this.label != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelPaint != null",
+                                    "this.tickMarkStroke != null",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tickLabelFont has only one value",
+                                    "this.axisLinePaint has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAxisLinePaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.axisLinePaint != null",
+                                    "this.labelFont != null",
+                                    "this.label != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelPaint != null",
+                                    "this.tickMarkStroke != null",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tickLabelFont has only one value",
+                                    "this.axisLinePaint has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.label has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.plot.outlinePaint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.axisLinePaint != null",
+                                    "this.labelFont != null",
+                                    "this.label != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelPaint != null",
+                                    "this.tickMarkStroke != null",
+                                    "return != null",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return has only one value",
+                                    "this.tickLabelFont has only one value",
+                                    "this.axisLinePaint has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAxisLineStroke()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.axisLinePaint != null",
+                                    "this.labelFont != null",
+                                    "this.label != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelPaint != null",
+                                    "this.tickMarkStroke != null",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tickLabelFont has only one value",
+                                    "this.axisLinePaint has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.label has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.plot.outlinePaint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.axisLinePaint != null",
+                                    "this.labelFont != null",
+                                    "this.label != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelPaint != null",
+                                    "this.tickMarkStroke != null",
+                                    "return != null",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return has only one value",
+                                    "this.tickLabelFont has only one value",
+                                    "this.axisLinePaint has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isTickMarksVisible()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axisLinePaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value",
+                                    "this.tickLabelFont has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axisLinePaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.label has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.tickLabelFont has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.plot.outlinePaint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickMarkOutsideLength()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.axisLinePaint != null",
+                                    "this.labelFont != null",
+                                    "this.label != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelPaint != null",
+                                    "this.tickMarkStroke != null",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tickLabelFont has only one value",
+                                    "this.axisLinePaint has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.listenerList != null",
+                                    "this.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.axisLinePaint != null",
+                                    "this.labelFont != null",
+                                    "this.label != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.tickLabelInsets != null",
+                                    "this.tickLabelPaint != null",
+                                    "this.tickMarkStroke != null",
+                                    "this.tickMarkPaint != null",
+                                    "this.axisLineStroke != null",
+                                    "this.labelInsets != null",
+                                    "this.plot != null",
+                                    "this.tickLabelFont != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tickLabelFont has only one value",
+                                    "this.axisLinePaint has only one value",
+                                    "this.label.toString == \"Range\"",
+                                    "this.tickLabelInsets has only one value",
+                                    "this.plot.outlinePaint has only one value",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.labelInsets has only one value",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.labelPaint has only one value",
+                                    "this.tickMarkPaint has only one value",
+                                    "this.axisLineStroke has only one value",
+                                    "this.tickMarkStroke has only one value",
+                                    "this.labelFont has only one value",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "this.tickLabelPaint has only one value",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

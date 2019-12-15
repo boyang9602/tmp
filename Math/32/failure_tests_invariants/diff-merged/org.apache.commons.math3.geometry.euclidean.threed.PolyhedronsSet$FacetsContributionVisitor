@@ -1,0 +1,225 @@
+{
+    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet$FacetsContributionVisitor": [
+        {
+            "addContribution(org.apache.commons.math3.geometry.partitioning.SubHyperplane, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size >= orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size)",
+                                    "201326558 * org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size - 201326541 * orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size) - 805306232 == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size >= orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size)",
+                                    "201326558 * org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size - 201326541 * orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size) - 805306232 == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size >= orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size)",
+                                    "201326558 * org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size - 201326541 * orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size) - 805306232 == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visitInternalNode(org.apache.commons.math3.geometry.partitioning.BSPTree)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute has only one value",
+                                    "node.plus.plus == null",
+                                    "node.plus.minus == null",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute has only one value",
+                                    "node.plus.plus == null",
+                                    "node.plus.minus == null",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute has only one value",
+                                    "node.plus.plus == null",
+                                    "node.plus.minus == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.plus.attribute has only one value",
+                                    "node.plus.plus == null",
+                                    "201326558 * org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size - 201326541 * orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size) - 805306232 == 0",
+                                    "node.plus.minus == null",
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size >= orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size)",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.plus.attribute has only one value",
+                                    "node.plus.plus == null",
+                                    "201326558 * org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size - 201326541 * orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size) - 805306232 == 0",
+                                    "node.plus.minus == null",
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size >= orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size)",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute has only one value",
+                                    "node.plus.plus == null",
+                                    "201326558 * org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size - 201326541 * orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size) - 805306232 == 0",
+                                    "node.plus.minus == null",
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size >= orig(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visitOrder(org.apache.commons.math3.geometry.partitioning.BSPTree)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.barycenter has only one value",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute has only one value",
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size == 0.0",
+                                    "node.plus.plus == null",
+                                    "node.plus.minus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size one of { 0.0, 21.999994933605194 }",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.barycenter has only one value",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute has only one value",
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size == 0.0",
+                                    "node.plus.plus == null",
+                                    "node.plus.minus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.this.size one of { 0.0, 21.999994933605194 }",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

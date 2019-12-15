@@ -1,0 +1,241 @@
+{
+    "org.jfree.chart.plot.PieLabelDistributor": [
+        {
+            "sort()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord]",
+                                    "this.labels has only one value",
+                                    "size(this.labels[]) == 1",
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.labels[]) one of { 1, 2 }",
+                                    "this.labels[].getClass().getName() one of { [org.jfree.chart.plot.PieLabelRecord], [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.labels[] == orig(this.labels[])",
+                                    "this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord]",
+                                    "this.labels has only one value",
+                                    "size(this.labels[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.labels[]) == orig(size(this.labels[]))",
+                                    "size(this.labels[]) one of { 1, 2 }",
+                                    "this.labels[] is the reverse of orig(this.labels[])",
+                                    "this.labels[].getClass().getName() one of { [org.jfree.chart.plot.PieLabelRecord], [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "distributeLabels(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord]",
+                                    "height == 72.046875",
+                                    "this.labels has only one value",
+                                    "size(this.labels[]) == 1",
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.labels[]) one of { 1, 2 }",
+                                    "height one of { 26.109375, 72.046875 }",
+                                    "this.labels[].getClass().getName() one of { [org.jfree.chart.plot.PieLabelRecord], [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.labels[] == orig(this.labels[])",
+                                    "this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord]",
+                                    "this.labels has only one value",
+                                    "size(this.labels[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.labels[]) == orig(size(this.labels[]))",
+                                    "size(this.labels[]) one of { 1, 2 }",
+                                    "this.labels[] is the reverse of orig(this.labels[])",
+                                    "this.labels[].getClass().getName() one of { [org.jfree.chart.plot.PieLabelRecord], [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isOverlap()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord]",
+                                    "this.labels has only one value",
+                                    "size(this.labels[]) == 1",
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.labels[]) one of { 1, 2 }",
+                                    "this.labels[].getClass().getName() one of { [org.jfree.chart.plot.PieLabelRecord], [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord]",
+                                    "size(this.labels[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (this.labels[].getClass().getName() one of { [org.jfree.chart.plot.PieLabelRecord], [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord] })",
+                                    "orig(this) has only one value",
+                                    "(return == true)  ==>  (size(this.labels[]) == 2)",
+                                    "size(this.labels[]) one of { 1, 2 }",
+                                    "size(this.labels[]) == 2",
+                                    "this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord]",
+                                    "return == true",
+                                    "(return == true)  ==>  (this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord])",
+                                    "(return == true)  ==>  (this.labels has only one value)",
+                                    "(return == true)  ==>  (orig(this) has only one value)",
+                                    "this.labels[].getClass().getName() one of { [org.jfree.chart.plot.PieLabelRecord], [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord] }",
+                                    "(return == false)  ==>  (size(this.labels[]) one of { 1, 2 })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "107": [
+                                {
+                                    "Patch13.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "103": [
+                                {
+                                    "Patch13.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(this) has only one value",
+                                            "size(this.labels[]) == 2",
+                                            "this.labels[].getClass().getName() == [org.jfree.chart.plot.PieLabelRecord, org.jfree.chart.plot.PieLabelRecord]",
+                                            "this.labels has only one value",
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "PieLabelDistributor(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.labels[] == []",
+                                    "this.labels[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

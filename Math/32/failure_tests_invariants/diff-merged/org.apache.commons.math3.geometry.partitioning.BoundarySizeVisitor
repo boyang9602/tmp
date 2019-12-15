@@ -1,0 +1,733 @@
+{
+    "org.apache.commons.math3.geometry.partitioning.BoundarySizeVisitor": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch34.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.boundarySize >= 0.0"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.boundarySize >= 0.0"
+                        ]
+                    }
+                },
+                {
+                    "Patch35.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.boundarySize >= 0.0"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "visitOrder(org.apache.commons.math3.geometry.partitioning.BSPTree)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.boundarySize one of { 0.0, 21.99999594688441 }",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.boundarySize == 0.0",
+                                    "node.plus.attribute has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus.plus == null",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.minus == null",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.boundarySize one of { 0.0, 21.99999594688441 }",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.boundarySize == 0.0",
+                                    "node.plus.attribute has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus.plus == null",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.minus == null",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.boundarySize one of { 0.0, 21.99999594688441 }",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.boundarySize == 0.0",
+                                    "node.plus.attribute has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus.plus == null",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.minus == null",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.boundarySize one of { 0.0, 21.99999594688441 }",
+                                    "node.minus.parent == orig(node.minus.parent)",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.MINUS_SUB_PLUS has only one value",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[].getClass().getName() elements == org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order.class",
+                                    "node.plus.cut == orig(node.plus.cut)",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())",
+                                    "node.minus.attribute.getClass().getName() == orig(node.minus.attribute.getClass().getName())",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.PLUS_SUB_MINUS has only one value",
+                                    "return has only one value",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "node.minus == orig(node.minus)",
+                                    "node.minus.plus == orig(node.minus.plus)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.SUB_PLUS_MINUS has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[] contains no nulls and has only one value, of length 6",
+                                    "node.cut.getClass().getName() == orig(node.cut.getClass().getName())",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent == orig(node.parent)",
+                                    "node.plus.plus == null",
+                                    "size(org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[]) == 6",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order[].class",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.MINUS_PLUS_SUB has only one value",
+                                    "node.plus.parent == orig(node.plus.parent)",
+                                    "node.plus.attribute == orig(node.plus.attribute)",
+                                    "node.minus.attribute == orig(node.minus.attribute)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.plus.cut == null",
+                                    "this.boundarySize == 0.0",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[].getClass().getName() == [org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order]",
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "node.plus.minus == orig(node.plus.minus)",
+                                    "node.minus.cut.getClass().getName() == orig(node.minus.cut.getClass().getName())",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.minus == orig(node.minus.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.plus.attribute.getClass().getName() == orig(node.plus.attribute.getClass().getName())",
+                                    "node.cut == orig(node.cut)",
+                                    "node.plus.plus == orig(node.plus.plus)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.plus.attribute has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.SUB_MINUS_PLUS has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.PLUS_MINUS_SUB has only one value",
+                                    "node.plus == orig(node.plus)",
+                                    "node.plus.minus == null",
+                                    "node.minus.cut == orig(node.minus.cut)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.boundarySize one of { 0.0, 21.99999594688441 }",
+                                    "node.minus.parent == orig(node.minus.parent)",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.MINUS_SUB_PLUS has only one value",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[].getClass().getName() elements == org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order.class",
+                                    "node.plus.cut == orig(node.plus.cut)",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())",
+                                    "node.minus.attribute.getClass().getName() == orig(node.minus.attribute.getClass().getName())",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.PLUS_SUB_MINUS has only one value",
+                                    "return has only one value",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "node.minus == orig(node.minus)",
+                                    "node.minus.plus == orig(node.minus.plus)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.SUB_PLUS_MINUS has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[] contains no nulls and has only one value, of length 6",
+                                    "node.cut.getClass().getName() == orig(node.cut.getClass().getName())",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent == orig(node.parent)",
+                                    "node.plus.plus == null",
+                                    "size(org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[]) == 6",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order[].class",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.MINUS_PLUS_SUB has only one value",
+                                    "node.plus.parent == orig(node.plus.parent)",
+                                    "node.plus.attribute == orig(node.plus.attribute)",
+                                    "node.minus.attribute == orig(node.minus.attribute)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.plus.cut == null",
+                                    "this.boundarySize == 0.0",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[].getClass().getName() == [org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order]",
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "node.plus.minus == orig(node.plus.minus)",
+                                    "node.minus.cut.getClass().getName() == orig(node.minus.cut.getClass().getName())",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.minus == orig(node.minus.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.plus.attribute.getClass().getName() == orig(node.plus.attribute.getClass().getName())",
+                                    "node.cut == orig(node.cut)",
+                                    "node.plus.plus == orig(node.plus.plus)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.plus.attribute has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.SUB_MINUS_PLUS has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.PLUS_MINUS_SUB has only one value",
+                                    "node.plus == orig(node.plus)",
+                                    "node.plus.minus == null",
+                                    "node.minus.cut == orig(node.minus.cut)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.boundarySize one of { 0.0, 21.99999594688441 }",
+                                    "node.minus.parent == orig(node.minus.parent)",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.MINUS_SUB_PLUS has only one value",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[].getClass().getName() elements == org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order.class",
+                                    "node.plus.cut == orig(node.plus.cut)",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())",
+                                    "node.minus.attribute.getClass().getName() == orig(node.minus.attribute.getClass().getName())",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.PLUS_SUB_MINUS has only one value",
+                                    "return has only one value",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "node.minus == orig(node.minus)",
+                                    "node.minus.plus == orig(node.minus.plus)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.SUB_PLUS_MINUS has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[] contains no nulls and has only one value, of length 6",
+                                    "node.cut.getClass().getName() == orig(node.cut.getClass().getName())",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent == orig(node.parent)",
+                                    "node.plus.plus == null",
+                                    "size(org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[]) == 6",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order[].class",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.MINUS_PLUS_SUB has only one value",
+                                    "node.plus.parent == orig(node.plus.parent)",
+                                    "node.plus.attribute == orig(node.plus.attribute)",
+                                    "node.minus.attribute == orig(node.minus.attribute)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.plus.cut == null",
+                                    "this.boundarySize == 0.0",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES[].getClass().getName() == [org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order, org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor.Order]",
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "node.plus.minus == orig(node.plus.minus)",
+                                    "node.minus.cut.getClass().getName() == orig(node.minus.cut.getClass().getName())",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.minus == orig(node.minus.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.plus.attribute.getClass().getName() == orig(node.plus.attribute.getClass().getName())",
+                                    "node.cut == orig(node.cut)",
+                                    "node.plus.plus == orig(node.plus.plus)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.plus.attribute has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.SUB_MINUS_PLUS has only one value",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.$VALUES has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor$Order.PLUS_MINUS_SUB has only one value",
+                                    "node.plus == orig(node.plus)",
+                                    "node.plus.minus == null",
+                                    "node.minus.cut == orig(node.minus.cut)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visitLeafNode(org.apache.commons.math3.geometry.partitioning.BSPTree)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "node.minus == null",
+                                    "node.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.cut == null",
+                                    "node.plus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "node.minus == null",
+                                    "node.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.cut == null",
+                                    "node.plus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.minus == null",
+                                    "node.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.cut == null",
+                                    "node.plus == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "node.cut == orig(node.cut)",
+                                    "node.minus == null",
+                                    "node.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.cut == null",
+                                    "node.plus == orig(node.plus)",
+                                    "node.minus == orig(node.minus)",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "node.plus == null",
+                                    "node.parent == orig(node.parent)",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "node.cut == orig(node.cut)",
+                                    "node.minus == null",
+                                    "node.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.cut == null",
+                                    "node.plus == orig(node.plus)",
+                                    "node.minus == orig(node.minus)",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "node.plus == null",
+                                    "node.parent == orig(node.parent)",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.cut == orig(node.cut)",
+                                    "node.minus == null",
+                                    "node.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.cut == null",
+                                    "node.plus == orig(node.plus)",
+                                    "node.minus == orig(node.minus)",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "node.plus == null",
+                                    "node.parent == orig(node.parent)",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getSize()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == 23.999995946884667"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == 23.999995946884667"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == 23.999995946884667"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "return == 23.999995946884667",
+                                    "this.boundarySize == 23.999995946884667"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "return == 23.999995946884667",
+                                    "this.boundarySize == 23.999995946884667"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == orig(this.boundarySize)",
+                                    "return == 23.999995946884667",
+                                    "this.boundarySize == 23.999995946884667"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "BoundarySizeVisitor()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.boundarySize == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visitInternalNode(org.apache.commons.math3.geometry.partitioning.BSPTree)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.attribute has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus.plus == null",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.minus == null",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.attribute has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus.plus == null",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.minus == null",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.attribute has only one value",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus.plus == null",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.minus == null",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "node.minus.parent == orig(node.minus.parent)",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == orig(node.plus.cut)",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())",
+                                    "node.minus.attribute.getClass().getName() == orig(node.minus.attribute.getClass().getName())",
+                                    "this.boundarySize >= orig(this.boundarySize)",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "node.minus.plus == orig(node.minus.plus)",
+                                    "node.minus == orig(node.minus)",
+                                    "node.plus.plus == null",
+                                    "node.cut.getClass().getName() == orig(node.cut.getClass().getName())",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent == orig(node.parent)",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "node.plus.parent == orig(node.plus.parent)",
+                                    "node.plus.attribute == orig(node.plus.attribute)",
+                                    "node.minus.attribute == orig(node.minus.attribute)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.plus.cut == null",
+                                    "node.plus.minus == orig(node.plus.minus)",
+                                    "node.minus.cut.getClass().getName() == orig(node.minus.cut.getClass().getName())",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.minus == orig(node.minus.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.plus.attribute.getClass().getName() == orig(node.plus.attribute.getClass().getName())",
+                                    "node.cut == orig(node.cut)",
+                                    "node.plus.plus == orig(node.plus.plus)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.plus.attribute has only one value",
+                                    "201326558 * this.boundarySize - 201326541 * orig(this.boundarySize) - 805306232 == 0",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus == orig(node.plus)",
+                                    "node.plus.minus == null",
+                                    "node.minus.cut == orig(node.minus.cut)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "node.minus.parent == orig(node.minus.parent)",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == orig(node.plus.cut)",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())",
+                                    "node.minus.attribute.getClass().getName() == orig(node.minus.attribute.getClass().getName())",
+                                    "this.boundarySize >= orig(this.boundarySize)",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "node.minus.plus == orig(node.minus.plus)",
+                                    "node.minus == orig(node.minus)",
+                                    "node.plus.plus == null",
+                                    "node.cut.getClass().getName() == orig(node.cut.getClass().getName())",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent == orig(node.parent)",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "node.plus.parent == orig(node.plus.parent)",
+                                    "node.plus.attribute == orig(node.plus.attribute)",
+                                    "node.minus.attribute == orig(node.minus.attribute)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.plus.cut == null",
+                                    "node.plus.minus == orig(node.plus.minus)",
+                                    "node.minus.cut.getClass().getName() == orig(node.minus.cut.getClass().getName())",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.minus == orig(node.minus.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.plus.attribute.getClass().getName() == orig(node.plus.attribute.getClass().getName())",
+                                    "node.cut == orig(node.cut)",
+                                    "node.plus.plus == orig(node.plus.plus)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.plus.attribute has only one value",
+                                    "201326558 * this.boundarySize - 201326541 * orig(this.boundarySize) - 805306232 == 0",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus == orig(node.plus)",
+                                    "node.plus.minus == null",
+                                    "node.minus.cut == orig(node.minus.cut)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.minus.parent == orig(node.minus.parent)",
+                                    "node.parent.attribute == orig(node.parent.attribute)",
+                                    "node.attribute == orig(node.attribute)",
+                                    "node.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.parent.cut == orig(node.parent.cut)",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.plus.cut == orig(node.plus.cut)",
+                                    "node.parent.attribute.getClass().getName() == orig(node.parent.attribute.getClass().getName())",
+                                    "node.minus.attribute.getClass().getName() == orig(node.minus.attribute.getClass().getName())",
+                                    "this.boundarySize >= orig(this.boundarySize)",
+                                    "node.parent.cut.getClass().getName() == orig(node.parent.cut.getClass().getName())",
+                                    "node.minus.plus == orig(node.minus.plus)",
+                                    "node.minus == orig(node.minus)",
+                                    "node.plus.plus == null",
+                                    "node.cut.getClass().getName() == orig(node.cut.getClass().getName())",
+                                    "node.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent == orig(node.parent)",
+                                    "node.parent.minus == orig(node.parent.minus)",
+                                    "node.plus.parent == orig(node.plus.parent)",
+                                    "node.plus.attribute == orig(node.plus.attribute)",
+                                    "node.minus.attribute == orig(node.minus.attribute)",
+                                    "node.parent.plus == orig(node.parent.plus)",
+                                    "node.plus.cut == null",
+                                    "node.plus.minus == orig(node.plus.minus)",
+                                    "node.minus.cut.getClass().getName() == orig(node.minus.cut.getClass().getName())",
+                                    "node.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.minus.minus == orig(node.minus.minus)",
+                                    "node.attribute.getClass().getName() == orig(node.attribute.getClass().getName())",
+                                    "node.plus.attribute.getClass().getName() == orig(node.plus.attribute.getClass().getName())",
+                                    "node.cut == orig(node.cut)",
+                                    "node.plus.plus == orig(node.plus.plus)",
+                                    "node.parent.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "node.parent.parent == orig(node.parent.parent)",
+                                    "node.plus.attribute has only one value",
+                                    "201326558 * this.boundarySize - 201326541 * orig(this.boundarySize) - 805306232 == 0",
+                                    "node.parent.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "node.plus == orig(node.plus)",
+                                    "node.plus.minus == null",
+                                    "node.minus.cut == orig(node.minus.cut)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

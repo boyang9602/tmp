@@ -1,0 +1,41 @@
+{
+    "org.jfree.chart.util.AbstractObjectList": [
+        {
+            "get(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.size == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "this.size == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

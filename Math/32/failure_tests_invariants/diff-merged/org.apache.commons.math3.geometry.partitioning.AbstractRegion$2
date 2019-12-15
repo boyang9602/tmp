@@ -1,0 +1,96 @@
+{
+    "org.apache.commons.math3.geometry.partitioning.AbstractRegion$2": [
+        {
+            "visitOrder(org.apache.commons.math3.geometry.partitioning.BSPTree)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.plus.plus == null",
+                                    "node.plus.cut == null",
+                                    "node.plus.minus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.plus.cut == null",
+                                    "node.plus.plus == null",
+                                    "node.plus.minus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visitInternalNode(org.apache.commons.math3.geometry.partitioning.BSPTree)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute has only one value",
+                                    "node.plus.plus == null",
+                                    "node.plus.minus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "node.plus.cut == null",
+                                    "node.plus.attribute has only one value",
+                                    "node.plus.plus == null",
+                                    "node.plus.minus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "node.plus.cut.getClass().getName() == orig(node.plus.cut.getClass().getName())",
+                                    "node.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

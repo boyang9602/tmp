@@ -1,0 +1,146 @@
+{
+    "org.apache.commons.math.util.MathUtils": [
+        {
+            "gcd(int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch209.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch209.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "543": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return > orig(p)",
+                                            "orig(p) == 0",
+                                            "return == orig(q)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch209.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "591": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(p) != 0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch209.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "548": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return > orig(p)",
+                                            "orig(p) == 0",
+                                            "return == orig(q)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "596": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(p) != 0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "545": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch209.inv.output": {
+                                        "invs": [
+                                            "return > orig(p)",
+                                            "orig(p) == 0",
+                                            "return == orig(q)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "593": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch209.inv.output": {
+                                        "invs": [
+                                            "orig(p) != 0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

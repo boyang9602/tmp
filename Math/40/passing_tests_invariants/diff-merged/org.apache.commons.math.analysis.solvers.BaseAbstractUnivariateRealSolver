@@ -1,0 +1,40 @@
+{
+    "org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver": [
+        {
+            "solve(int, org.apache.commons.math.analysis.UnivariateFunction, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchMax >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

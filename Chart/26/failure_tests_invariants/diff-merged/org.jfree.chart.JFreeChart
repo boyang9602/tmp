@@ -1,0 +1,86 @@
+{
+    "org.jfree.chart.JFreeChart": [
+        {
+            "notifyListeners(org.jfree.chart.event.ChartProgressEvent)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "event.type == 1",
+                                    "this.title.content == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.title.content.lines == orig(this.title.content.lines)",
+                                    "this.title.content.lines[] == orig(this.title.content.lines[])",
+                                    "this.title.content.lineAlignment == orig(this.title.content.lineAlignment)",
+                                    "event.type one of { 1, 2 }",
+                                    "this.title.content.lines.getClass().getName() == orig(this.title.content.lines.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "event.type == 1",
+                                    "this.title.content == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.title.content.lines == orig(this.title.content.lines)",
+                                    "this.title.content.lines[] == orig(this.title.content.lines[])",
+                                    "this.title.content.lineAlignment == orig(this.title.content.lineAlignment)",
+                                    "event.type one of { 1, 2 }",
+                                    "this.title.content.lines.getClass().getName() == orig(this.title.content.lines.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "this.title.content.lines == orig(this.title.content.lines)",
+                                    "this.title.content.lines[] == orig(this.title.content.lines[])",
+                                    "this.title.content.lineAlignment == orig(this.title.content.lineAlignment)",
+                                    "event.type one of { 1, 2 }",
+                                    "this.title.content.lines.getClass().getName() == orig(this.title.content.lines.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "org.jfree.chart.axis.CategoryLabelPosition": [
+        {
+            "getCategoryAnchor()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.widthRatio one of { 0.3, 0.95 }",
+                                    "this.labelAnchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }",
+                                    "this.categoryAnchor.name.toString one of { \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.widthRatio == 0.95",
+                                    "this.labelAnchor.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "this.labelAnchor has only one value",
+                                    "this.categoryAnchor.name has only one value",
+                                    "this.widthType.name has only one value",
+                                    "this.categoryAnchor has only one value",
+                                    "this.labelAnchor.name has only one value",
+                                    "this.widthType.name.toString == \"CategoryLabelWidthType.CATEGORY\"",
+                                    "this.categoryAnchor.name.toString == \"RectangleAnchor.TOP\"",
+                                    "this.widthType has only one value",
+                                    "this has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.widthRatio one of { 0.3, 0.95 }",
+                                    "this.labelAnchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }",
+                                    "this.categoryAnchor.name.toString one of { \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }",
+                                    "return.name.toString one of { \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return has only one value",
+                                    "this.widthRatio == 0.95",
+                                    "this.labelAnchor.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "this.labelAnchor has only one value",
+                                    "this.widthType.name has only one value",
+                                    "this.categoryAnchor.name has only one value",
+                                    "return.name.toString == \"RectangleAnchor.TOP\"",
+                                    "this.categoryAnchor has only one value",
+                                    "this.labelAnchor.name has only one value",
+                                    "this.widthType.name.toString == \"CategoryLabelWidthType.CATEGORY\"",
+                                    "this.categoryAnchor.name.toString == \"RectangleAnchor.TOP\"",
+                                    "this.widthType has only one value",
+                                    "return.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

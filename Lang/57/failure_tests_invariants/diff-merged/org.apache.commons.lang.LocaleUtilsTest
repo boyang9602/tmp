@@ -1,0 +1,162 @@
+{
+    "org.apache.commons.lang.LocaleUtilsTest": [
+        {
+            "suite()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair1.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair1.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LocaleUtilsTest(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair1.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair1.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class$(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair1.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null",
+                                    "x0.toString one of { \"org.apache.commons.lang.LocaleUtils\", \"org.apache.commons.lang.LocaleUtilsTest\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x0 has only one value",
+                                    "x0.toString == \"org.apache.commons.lang.LocaleUtilsTest\"",
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtilsTest == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null",
+                                    "x0.toString one of { \"org.apache.commons.lang.LocaleUtils\", \"org.apache.commons.lang.LocaleUtilsTest\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair1.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null",
+                                    "x0.toString one of { \"org.apache.commons.lang.LocaleUtils\", \"org.apache.commons.lang.LocaleUtilsTest\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x0.toString == \"org.apache.commons.lang.LocaleUtilsTest\"",
+                                    "return has only one value",
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtilsTest == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang.LocaleUtilsTest.class$org$apache$commons$lang$LocaleUtils == null",
+                                    "x0.toString one of { \"org.apache.commons.lang.LocaleUtils\", \"org.apache.commons.lang.LocaleUtilsTest\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

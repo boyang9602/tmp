@@ -1,0 +1,318 @@
+{
+    "org.jfree.chart.renderer.xy.XYItemRendererState": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.workingLine != null",
+                            "this.workingLine.getClass().getName() == java.awt.geom.Line2D$Double.class",
+                            "this.crosshairState == null",
+                            "this.lastItemIndex one of { 0, 2 }",
+                            "this.selectionState == null",
+                            "this.firstItemIndex == 0",
+                            "this.info == null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "XYItemRendererState(org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "info == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastItemIndex == 0",
+                                    "this.processVisibleItemsOnly == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getCrosshairState()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastItemIndex == 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.processVisibleItemsOnly == orig(this.processVisibleItemsOnly)",
+                                    "this.lastItemIndex == 2",
+                                    "return == null",
+                                    "this.selectionState == orig(this.selectionState)",
+                                    "this.crosshairState == orig(this.crosshairState)",
+                                    "this.lastItemIndex == orig(this.lastItemIndex)",
+                                    "this.info == orig(this.info)",
+                                    "this.workingLine.getClass().getName() == orig(this.workingLine.getClass().getName())",
+                                    "this.workingLine == orig(this.workingLine)",
+                                    "this.firstItemIndex == orig(this.firstItemIndex)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "startSeriesPass(org.jfree.data.xy.XYDataset, int, int, int, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "passCount one of { 1, 2 }",
+                                    "series == 0",
+                                    "dataset.getClass().getName() == org.jfree.data.xy.XYSeriesCollection.class",
+                                    "firstItem == 0",
+                                    "pass one of { 0, 1 }",
+                                    "lastItem == 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.processVisibleItemsOnly == orig(this.processVisibleItemsOnly)",
+                                    "this.lastItemIndex == 2",
+                                    "this.selectionState == orig(this.selectionState)",
+                                    "this.crosshairState == orig(this.crosshairState)",
+                                    "this.lastItemIndex >= orig(this.lastItemIndex)",
+                                    "this.info == orig(this.info)",
+                                    "this.workingLine.getClass().getName() == orig(this.workingLine.getClass().getName())",
+                                    "this.workingLine == orig(this.workingLine)",
+                                    "this.firstItemIndex == orig(this.firstItemIndex)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "endSeriesPass(org.jfree.data.xy.XYDataset, int, int, int, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "passCount one of { 1, 2 }",
+                                    "this.lastItemIndex == 2",
+                                    "series == 0",
+                                    "dataset.getClass().getName() == org.jfree.data.xy.XYSeriesCollection.class",
+                                    "firstItem == 0",
+                                    "pass one of { 0, 1 }",
+                                    "lastItem == 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.processVisibleItemsOnly == orig(this.processVisibleItemsOnly)",
+                                    "this.lastItemIndex == 2",
+                                    "this.selectionState == orig(this.selectionState)",
+                                    "this.crosshairState == orig(this.crosshairState)",
+                                    "this.lastItemIndex == orig(this.lastItemIndex)",
+                                    "this.info == orig(this.info)",
+                                    "this.workingLine.getClass().getName() == orig(this.workingLine.getClass().getName())",
+                                    "this.workingLine == orig(this.workingLine)",
+                                    "this.firstItemIndex == orig(this.firstItemIndex)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getSelectionState()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastItemIndex == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.processVisibleItemsOnly == orig(this.processVisibleItemsOnly)",
+                                    "return == null",
+                                    "this.lastItemIndex == 0",
+                                    "this.crosshairState == orig(this.crosshairState)",
+                                    "this.selectionState == orig(this.selectionState)",
+                                    "this.lastItemIndex == orig(this.lastItemIndex)",
+                                    "this.info == orig(this.info)",
+                                    "this.workingLine.getClass().getName() == orig(this.workingLine.getClass().getName())",
+                                    "this.workingLine == orig(this.workingLine)",
+                                    "this.firstItemIndex == orig(this.firstItemIndex)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getProcessVisibleItemsOnly()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == true",
+                                    "this.processVisibleItemsOnly == orig(this.processVisibleItemsOnly)",
+                                    "(this.processVisibleItemsOnly == true)  ==>  (this.lastItemIndex one of { 0, 2 })",
+                                    "this.selectionState == orig(this.selectionState)",
+                                    "this.crosshairState == orig(this.crosshairState)",
+                                    "this.lastItemIndex == 0",
+                                    "this.processVisibleItemsOnly == false",
+                                    "this.lastItemIndex == orig(this.lastItemIndex)",
+                                    "this.processVisibleItemsOnly == true",
+                                    "return == false",
+                                    "this.workingLine.getClass().getName() == orig(this.workingLine.getClass().getName())",
+                                    "this.info == orig(this.info)",
+                                    "this.firstItemIndex == orig(this.firstItemIndex)",
+                                    "(this.processVisibleItemsOnly == false)  ==>  (this.lastItemIndex == 0)",
+                                    "this.workingLine == orig(this.workingLine)",
+                                    "(this.processVisibleItemsOnly == true)  <==>  (return == true)",
+                                    "(this.processVisibleItemsOnly == false)  <==>  (return == false)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setProcessVisibleItemsOnly(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastItemIndex == 0",
+                                    "flag == false",
+                                    "this.processVisibleItemsOnly == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastItemIndex == 0",
+                                    "this.processVisibleItemsOnly == false",
+                                    "this.crosshairState == orig(this.crosshairState)",
+                                    "this.selectionState == orig(this.selectionState)",
+                                    "this.lastItemIndex == orig(this.lastItemIndex)",
+                                    "this.info == orig(this.info)",
+                                    "this.workingLine.getClass().getName() == orig(this.workingLine.getClass().getName())",
+                                    "this.workingLine == orig(this.workingLine)",
+                                    "this.firstItemIndex == orig(this.firstItemIndex)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

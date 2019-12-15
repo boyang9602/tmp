@@ -1,0 +1,258 @@
+{
+    "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl": [
+        {
+            "verifyInterval(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "lower one of { 67.5, 90.01045447531122 }",
+                                    "lower one of { 67.5, 90.00033407572384 }",
+                                    "lower one of { 67.5, 90.0235438810707 }",
+                                    "lower one of { 67.5, 110.35 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "lower one of { 67.5, 89.99854388107069 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "lower one of { 67.5, 90.01045447531122 }",
+                                    "lower one of { 67.5, 90.00033407572384 }",
+                                    "lower one of { 67.5, 90.0235438810707 }",
+                                    "lower one of { 67.5, 110.35 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "lower one of { 67.5, 90.01045447531122 }",
+                                    "lower one of { 67.5, 90.00033407572384 }",
+                                    "lower one of { 67.5, 90.0235438810707 }",
+                                    "lower one of { 67.5, 110.35 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "lower one of { 67.5, 90.01045447531122 }",
+                                    "lower one of { 67.5, 90.00033407572384 }",
+                                    "lower one of { 67.5, 90.0235438810707 }",
+                                    "lower one of { 67.5, 110.35 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "lower one of { 67.5, 90.01045447531122 }",
+                                    "lower one of { 67.5, 90.00033407572384 }",
+                                    "lower one of { 67.5, 90.0235438810707 }",
+                                    "lower one of { 67.5, 110.35 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setResult(double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "newResult one of { 90.00033407572384, 135.00339335737863 }",
+                                    "iterationCount one of { 4, 6 }",
+                                    "iterationCount one of { 7, 8 }",
+                                    "newResult one of { 90.01045447531122, 135.00332256270696 }",
+                                    "newResult one of { 89.99854388107069, 134.97924895863147 }",
+                                    "newResult one of { 89.99854388107069, 135.00323100940778 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "newResult == 89.99854388107069",
+                                    "iterationCount == 6",
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "newResult one of { 90.00033407572384, 135.00339335737863 }",
+                                    "iterationCount one of { 4, 6 }",
+                                    "iterationCount == 6",
+                                    "iterationCount one of { 7, 8 }",
+                                    "newResult one of { 90.01045447531122, 135.00332256270696 }",
+                                    "newResult one of { 89.99854388107069, 134.97924895863147 }",
+                                    "newResult one of { 89.99854388107069, 135.00323100940778 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "newResult one of { 90.00033407572384, 135.00339335737863 }",
+                                    "iterationCount one of { 4, 6 }",
+                                    "iterationCount == 6",
+                                    "iterationCount one of { 7, 8 }",
+                                    "newResult one of { 90.01045447531122, 135.00332256270696 }",
+                                    "newResult one of { 89.99854388107069, 134.97924895863147 }",
+                                    "newResult one of { 89.99854388107069, 135.00323100940778 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "newResult one of { 90.00033407572384, 135.00339335737863 }",
+                                    "iterationCount one of { 4, 6 }",
+                                    "iterationCount one of { 7, 8 }",
+                                    "newResult one of { 90.01045447531122, 135.00332256270696 }",
+                                    "newResult one of { 89.99854388107069, 134.97924895863147 }",
+                                    "newResult one of { 89.99854388107069, 135.00323100940778 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "newResult one of { 90.00033407572384, 135.00339335737863 }",
+                                    "iterationCount one of { 4, 6 }",
+                                    "iterationCount == 6",
+                                    "iterationCount one of { 7, 8 }",
+                                    "newResult one of { 90.01045447531122, 135.00332256270696 }",
+                                    "newResult one of { 89.99854388107069, 134.97924895863147 }",
+                                    "newResult one of { 89.99854388107069, 135.00323100940778 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.result one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.result one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.result one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.result one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.iterationCount one of { 4, 6 }",
+                                    "this.iterationCount one of { 7, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 6",
+                                    "this.result == 89.99854388107069"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.result one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.iterationCount == 6",
+                                    "this.result one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.result one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.result one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.iterationCount one of { 4, 6 }",
+                                    "this.iterationCount one of { 7, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.result one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.iterationCount == 6",
+                                    "this.result one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.result one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.result one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.iterationCount one of { 4, 6 }",
+                                    "this.iterationCount one of { 7, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.result one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.result one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.result one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.result one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.iterationCount one of { 4, 6 }",
+                                    "this.iterationCount one of { 7, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.result one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.iterationCount == 6",
+                                    "this.result one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.result one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.result one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.iterationCount one of { 4, 6 }",
+                                    "this.iterationCount one of { 7, 8 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

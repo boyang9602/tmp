@@ -1,0 +1,80 @@
+{
+    "org.mockito.internal.creation.DelegatingMockitoMethodProxy": [
+        {
+            "DelegatingMockitoMethodProxy(org.mockito.cglib.proxy.MethodProxy)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$finalize$0\", \"CGLIB$objectArgMethod$8\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$finalize$0\", \"CGLIB$objectArgMethod$7\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$finalize$0\", \"CGLIB$objectArgMethod$8\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$finalize$0\", \"CGLIB$objectArgMethod$7\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMethodProxy()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.sig2.name.toString one of { \"CGLIB$finalize$0\", \"CGLIB$objectArgMethod$8\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.sig2.name.toString one of { \"CGLIB$finalize$0\", \"CGLIB$objectArgMethod$7\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

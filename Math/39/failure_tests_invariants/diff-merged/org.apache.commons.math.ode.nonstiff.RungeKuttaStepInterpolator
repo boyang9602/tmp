@@ -1,0 +1,174 @@
+{
+    "org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator": [
+        {
+            "RungeKuttaStepInterpolator()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "RungeKuttaStepInterpolator(org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "reinitialize(org.apache.commons.math.ode.AbstractIntegrator, double[], double[][], boolean, org.apache.commons.math.ode.EquationsMapper, org.apache.commons.math.ode.EquationsMapper[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.integrator.expandable.primaryState[] elements == 1.0",
+                                    "this.integrator.evaluations.count == 0",
+                                    "this.integrator.statesInitialized == false",
+                                    "this.currentState[] == [1.0]",
+                                    "this.currentState[] elements == 1.0",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.integrator.expandable.primaryState[] == [1.0]",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.integrator.stepSize == Double.NaN",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.integrator.expandable.primaryStateDot[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedPrimaryState[] elements == 0.0",
+                                    "this.integrator.expandable.primaryStateDot[] == [0.0]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "shift()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.integrator.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.globalPreviousTime one of { 0.0, Double.NaN }",
+                                    "this.previousState[] == [1.0]",
+                                    "this.previousState[] elements == 1.0",
+                                    "this.softPreviousTime one of { 0.0, Double.NaN }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime == 0.0",
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.integrator.stepStart == 0.0",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.softCurrentTime == 0.0",
+                                    "this.previousState == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.integrator.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.softPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.globalPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "size(this.previousState[]) == orig(size(this.previousState[]))",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.integrator.stepStart == 0.0",
+                                    "this.interpolatedTime == 0.0",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.softCurrentTime == 0.0",
+                                    "this.softPreviousTime == 0.0",
+                                    "this.previousState has only one value",
+                                    "this.globalPreviousTime == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

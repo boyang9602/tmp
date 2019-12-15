@@ -1,0 +1,58 @@
+{
+    "org.jfree.chart.util.ShapeUtilities": [
+        {
+            "createTranslatedShape(java.awt.Shape, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "shape has only one value",
+                                    "transY one of { 59.0, 85.81818181818181 }",
+                                    "transX one of { 53.099999999999994, 182.90000000000003 }",
+                                    "shape.getClass().getName() == java.awt.geom.Rectangle2D$Double.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "shape has only one value",
+                                    "transY one of { 59.0, 85.81818181818181 }",
+                                    "transX one of { 53.099999999999994, 182.90000000000003 }",
+                                    "shape.getClass().getName() == java.awt.geom.Rectangle2D$Double.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() != orig(shape.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

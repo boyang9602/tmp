@@ -1,0 +1,846 @@
+===========================================================================
+org.apache.commons.math.TestUtils.assertEquals(java.lang.String, double, double, double):::ENTER
+delta == 4.0E-6
+===========================================================================
+org.apache.commons.math.TestUtils.assertEquals(java.lang.String, double, double, double):::EXIT
+msg.toString == orig(msg.toString)
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver:::CLASS
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver:::OBJECT
+this.absoluteAccuracy == 1.0E-6
+this.relativeAccuracy == 1.0E-14
+this.functionValueAccuracy == 1.0E-15
+this.maximalIterationCount == 100
+this.defaultAbsoluteAccuracy == 1.0E-6
+this.defaultRelativeAccuracy == 1.0E-14
+this.defaultFunctionValueAccuracy == 1.0E-15
+this.defaultMaximalIterationCount == 100
+this.result >= 0.0
+this.iterationCount >= 0
+this.f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.BrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.BrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::EXIT
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double):::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.resultComputed == true
+orig(this.result) % this.result == 0
+this.result > orig(this.result)
+orig(this.iterationCount) % this.iterationCount == 0
+this.iterationCount > orig(this.iterationCount)
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double, double, double, double, double):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double, double, double, double, double):::EXIT208
+this.result == 8.74589525601961
+this.iterationCount == 5
+this.f has only one value
+return == 8.74589525601961
+orig(this) has only one value
+orig(x0) == 1.0
+orig(y0) == -0.47943439826096745
+orig(x1) == 9.0
+orig(y1) == 6.945362417195566E-4
+orig(x2) == 1.0
+orig(y2) == -0.47943439826096745
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double, double, double, double, double):::EXIT215
+orig(x0) one of { 0.0, 3.0, 4.0 }
+orig(x2) one of { 0.0, 3.0, 4.0 }
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double, double, double, double, double):::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+(orig(x0) == 1.0)  <==>  (orig(x2) == 1.0)
+(orig(x0) == 1.0)  ==>  (orig(this) has only one value)
+(orig(x0) == 1.0)  ==>  (orig(x1) == 9.0)
+(orig(x0) == 1.0)  ==>  (orig(y0) == -0.47943439826096745)
+(orig(x0) == 1.0)  ==>  (orig(y1) == 6.945362417195566E-4)
+(orig(x0) == 1.0)  ==>  (orig(y2) == -0.47943439826096745)
+(orig(x0) == 1.0)  ==>  (return == 8.74589525601961)
+(orig(x0) == 1.0)  ==>  (this.f has only one value)
+(orig(x0) == 1.0)  ==>  (this.iterationCount == 5)
+(orig(x0) == 1.0)  ==>  (this.result == 8.74589525601961)
+(orig(x0) == 1.0)  ==>  (x0 == 8.745896449914525)
+(orig(x0) == 1.0)  ==>  (x1 == 8.74589525601961)
+(orig(x0) == 1.0)  ==>  (x2 == 8.745896449914525)
+(orig(x0) == 1.0)  ==>  (y0 == 3.4226718126362243E-9)
+(orig(x0) == 1.0)  ==>  (y1 == -8.881784197001252E-16)
+(orig(x0) == 1.0)  ==>  (y2 == 3.4226718126362243E-9)
+(orig(x0) one of { 0.0, 3.0, 4.0 })  <==>  (orig(x2) one of { 0.0, 3.0, 4.0 })
+this.resultComputed == true
+orig(this.result) % this.result == 0
+this.result > orig(this.result)
+orig(this.iterationCount) % this.iterationCount == 0
+this.iterationCount > orig(this.iterationCount)
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactory:::OBJECT
+this has only one value
+this.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactory.UnivariateRealSolverFactory():::EXIT
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance():::EXIT
+return has only one value
+return.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.UnivariateRealSolverFactoryImpl():::EXIT
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.newBrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.newBrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::EXIT
+return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.newDefaultSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.newDefaultSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::EXIT
+return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl:::CLASS
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl:::OBJECT
+this.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class
+this.absoluteAccuracy == 1.0E-6
+this.relativeAccuracy == 1.0E-14
+this.functionValueAccuracy == 1.0E-15
+this.maximalIterationCount == 100
+this.defaultAbsoluteAccuracy == 1.0E-6
+this.defaultRelativeAccuracy == 1.0E-14
+this.defaultFunctionValueAccuracy == 1.0E-15
+this.defaultMaximalIterationCount == 100
+this.result >= 0.0
+this.iterationCount >= 0
+this.f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.UnivariateRealSolverImpl(org.apache.commons.math.analysis.UnivariateRealFunction, int, double):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+defaultMaximalIterationCount == 100
+defaultAbsoluteAccuracy == 1.0E-6
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.UnivariateRealSolverImpl(org.apache.commons.math.analysis.UnivariateRealFunction, int, double):::EXIT
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.clearResult():::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.clearResult():::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.resultComputed == orig(this.resultComputed)
+this.result == orig(this.result)
+this.iterationCount == orig(this.iterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.setResult(double, int):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.setResult(double, int):::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.resultComputed == true
+orig(this.result) % this.result == 0
+this.result > orig(this.result)
+orig(this.iterationCount) % this.iterationCount == 0
+this.iterationCount > orig(this.iterationCount)
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.verifyInterval(double, double):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.verifyInterval(double, double):::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.resultComputed == orig(this.resultComputed)
+this.result == orig(this.result)
+this.iterationCount == orig(this.iterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils:::CLASS
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double):::ENTER
+function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+initial one of { 5.0, 100000.0 }
+lowerBound == 0.0
+upperBound == 1.7976931348623157E308
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() != function.getClass().getName()
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double):::EXIT
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())
+return[] elements >= 0.0
+return[] sorted by <
+size(return[]) == 2
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() != orig(function.getClass().getName())
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, int):::ENTER
+function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+initial one of { 5.0, 100000.0 }
+lowerBound == 0.0
+upperBound == 1.7976931348623157E308
+maximumIterations == 2147483647
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() != function.getClass().getName()
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, int):::EXIT
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())
+return[] elements >= 0.0
+return[] sorted by <
+size(return[]) == 2
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() != orig(function.getClass().getName())
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(org.apache.commons.math.analysis.UnivariateRealFunction):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() != f.getClass().getName()
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(org.apache.commons.math.analysis.UnivariateRealFunction):::EXIT
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() != orig(f.getClass().getName())
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() != f.getClass().getName()
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double):::EXIT
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() != orig(f.getClass().getName())
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1:::OBJECT
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName() == org.apache.commons.math.distribution.FDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1.(org.apache.commons.math.distribution.AbstractContinuousDistribution, double):::ENTER
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName() == org.apache.commons.math.distribution.FDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1.(org.apache.commons.math.distribution.AbstractContinuousDistribution, double):::EXIT
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this == orig(org.apache.commons.math.distribution.AbstractContinuousDistribution.this)
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName() == orig(org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName())
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1.value(double):::ENTER
+x >= 0.0
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1.value(double):::EXIT
+this.val$p == orig(this.val$p)
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this == orig(org.apache.commons.math.distribution.AbstractContinuousDistribution.this)
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName() == orig(org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName())
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.FDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.AbstractContinuousDistribution():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(double):::ENTER
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(double):::EXIT109
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(double):::EXIT
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.FDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution.AbstractDistribution():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.FDistributionTest.class
+this.distribution.getClass().getName() == org.apache.commons.math.distribution.FDistributionImpl.class
+this.tolerance one of { 4.0E-6, 1.0E-4 }
+this.cumulativeTestPoints[] == [0.03468084, 0.09370091, 0.1433137, 0.2020084, 0.2937283, 20.80266, 8.745895, 5.987565, 4.387374, 3.107512]
+this.cumulativeTestPoints[] elements >= 0.03468084
+this.cumulativeTestValues[] == [0.001, 0.01, 0.025, 0.05, 0.1, 0.999, 0.99, 0.975, 0.95, 0.9]
+this.inverseCumulativeTestPoints[] == [0.001, 0.01, 0.025, 0.05, 0.1, 0.999, 0.99, 0.975, 0.95, 0.9]
+this.inverseCumulativeTestValues[] == [0.03468084, 0.09370091, 0.1433137, 0.2020084, 0.2937283, 20.80266, 8.745895, 5.987565, 4.387374, 3.107512]
+this.inverseCumulativeTestValues[] elements >= 0.03468084
+size(this.cumulativeTestPoints[]) == 10
+size(this.cumulativeTestValues[]) == 10
+size(this.inverseCumulativeTestPoints[]) == 10
+size(this.inverseCumulativeTestValues[]) == 10
+this.getClass().getName() != this.distribution.getClass().getName()
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.ContinuousDistributionAbstractTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.ContinuousDistributionAbstractTest(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+this.distribution == null
+this.tolerance == 1.0E-4
+this.cumulativeTestPoints == null
+this.cumulativeTestValues == null
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.getTolerance():::ENTER
+this has only one value
+this.distribution has only one value
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints has only one value
+this.cumulativeTestValues has only one value
+this.inverseCumulativeTestPoints has only one value
+this.inverseCumulativeTestValues has only one value
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.getTolerance():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestPoints[] == orig(this.inverseCumulativeTestPoints[])
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.inverseCumulativeTestValues[] == orig(this.inverseCumulativeTestValues[])
+this.distribution has only one value
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints has only one value
+this.cumulativeTestValues has only one value
+this.inverseCumulativeTestPoints has only one value
+this.inverseCumulativeTestValues has only one value
+return == 4.0E-6
+this.distribution.getClass().getName() != orig(this.getClass().getName())
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.makeInverseCumulativeTestPoints():::ENTER
+this.tolerance == 1.0E-4
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.makeInverseCumulativeTestPoints():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.tolerance == 1.0E-4
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+return[] == [0.001, 0.01, 0.025, 0.05, 0.1, 0.999, 0.99, 0.975, 0.95, 0.9]
+size(return[]) == 10
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.makeInverseCumulativeTestValues():::ENTER
+this.tolerance == 1.0E-4
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.makeInverseCumulativeTestValues():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestPoints[] == orig(this.inverseCumulativeTestPoints[])
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.tolerance == 1.0E-4
+this.inverseCumulativeTestValues == null
+return[] == [0.03468084, 0.09370091, 0.1433137, 0.2020084, 0.2937283, 20.80266, 8.745895, 5.987565, 4.387374, 3.107512]
+size(return[]) == 10
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.setTolerance(double):::ENTER
+this.tolerance == 1.0E-4
+tolerance == 4.0E-6
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.setTolerance(double):::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestPoints[] == orig(this.inverseCumulativeTestPoints[])
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.inverseCumulativeTestValues[] == orig(this.inverseCumulativeTestValues[])
+this.tolerance == 4.0E-6
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.setUp():::ENTER
+this.distribution == null
+this.tolerance == 1.0E-4
+this.cumulativeTestPoints == null
+this.cumulativeTestValues == null
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.setUp():::EXIT
+this.tolerance == orig(this.tolerance)
+this.tolerance == 1.0E-4
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.tearDown():::ENTER
+this.tolerance == 4.0E-6
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.tearDown():::EXIT
+this.tolerance == orig(this.tolerance)
+this.distribution == null
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints == null
+this.cumulativeTestValues == null
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.testInverseCumulativeProbabilities():::ENTER
+this has only one value
+this.distribution has only one value
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints has only one value
+this.cumulativeTestValues has only one value
+this.inverseCumulativeTestPoints has only one value
+this.inverseCumulativeTestValues has only one value
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.testInverseCumulativeProbabilities():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestPoints[] == orig(this.inverseCumulativeTestPoints[])
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.inverseCumulativeTestValues[] == orig(this.inverseCumulativeTestValues[])
+this.distribution has only one value
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints has only one value
+this.cumulativeTestValues has only one value
+this.inverseCumulativeTestPoints has only one value
+this.inverseCumulativeTestValues has only one value
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities():::ENTER
+this has only one value
+this.distribution has only one value
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints has only one value
+this.cumulativeTestValues has only one value
+this.inverseCumulativeTestPoints has only one value
+this.inverseCumulativeTestValues has only one value
+===========================================================================
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestPoints[] == orig(this.inverseCumulativeTestPoints[])
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.inverseCumulativeTestValues[] == orig(this.inverseCumulativeTestValues[])
+this.distribution has only one value
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints has only one value
+this.cumulativeTestValues has only one value
+this.inverseCumulativeTestPoints has only one value
+this.inverseCumulativeTestValues has only one value
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl:::OBJECT
+this.numeratorDegreesOfFreedom one of { 0.0, 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 0.0, 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.FDistributionImpl(double, double):::ENTER
+numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.FDistributionImpl(double, double):::EXIT
+this.numeratorDegreesOfFreedom == orig(numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.cumulativeProbability(double):::ENTER
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+x >= 0.0
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.cumulativeProbability(double):::EXIT
+this.numeratorDegreesOfFreedom == orig(this.numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(this.denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+return <= 1.0
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getDenominatorDegreesOfFreedom():::ENTER
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getDenominatorDegreesOfFreedom():::EXIT
+this.numeratorDegreesOfFreedom == orig(this.numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(this.denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+return one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getDomainLowerBound(double):::ENTER
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getDomainLowerBound(double):::EXIT
+this.numeratorDegreesOfFreedom == orig(this.numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(this.denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+return == 0.0
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getDomainUpperBound(double):::ENTER
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getDomainUpperBound(double):::EXIT
+this.numeratorDegreesOfFreedom == orig(this.numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(this.denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+return == 1.7976931348623157E308
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getInitialDomain(double):::ENTER
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getInitialDomain(double):::EXIT
+this.numeratorDegreesOfFreedom == orig(this.numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(this.denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+return one of { 5.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getNumeratorDegreesOfFreedom():::ENTER
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.getNumeratorDegreesOfFreedom():::EXIT
+this.numeratorDegreesOfFreedom == orig(this.numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(this.denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+return one of { 5.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.inverseCumulativeProbability(double):::ENTER
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.inverseCumulativeProbability(double):::EXIT106
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.inverseCumulativeProbability(double):::EXIT
+this.numeratorDegreesOfFreedom == orig(this.numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(this.denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.setDenominatorDegreesOfFreedom(double):::ENTER
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom == 0.0
+degreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.setDenominatorDegreesOfFreedom(double):::EXIT
+this.numeratorDegreesOfFreedom == orig(this.numeratorDegreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(degreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom one of { 6.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.setNumeratorDegreesOfFreedom(double):::ENTER
+this.numeratorDegreesOfFreedom == 0.0
+this.denominatorDegreesOfFreedom == 0.0
+degreesOfFreedom one of { 5.0, 100000.0 }
+===========================================================================
+org.apache.commons.math.distribution.FDistributionImpl.setNumeratorDegreesOfFreedom(double):::EXIT
+this.numeratorDegreesOfFreedom == orig(degreesOfFreedom)
+this.denominatorDegreesOfFreedom == orig(this.denominatorDegreesOfFreedom)
+this.numeratorDegreesOfFreedom one of { 5.0, 100000.0 }
+this.denominatorDegreesOfFreedom == 0.0
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest:::OBJECT
+this.distribution.getClass().getName() == org.apache.commons.math.distribution.FDistributionImpl.class
+this.tolerance one of { 4.0E-6, 1.0E-4 }
+this.cumulativeTestPoints[] == [0.03468084, 0.09370091, 0.1433137, 0.2020084, 0.2937283, 20.80266, 8.745895, 5.987565, 4.387374, 3.107512]
+this.cumulativeTestPoints[] elements >= 0.03468084
+this.cumulativeTestValues[] == [0.001, 0.01, 0.025, 0.05, 0.1, 0.999, 0.99, 0.975, 0.95, 0.9]
+this.inverseCumulativeTestPoints[] == [0.001, 0.01, 0.025, 0.05, 0.1, 0.999, 0.99, 0.975, 0.95, 0.9]
+this.inverseCumulativeTestValues[] == [0.03468084, 0.09370091, 0.1433137, 0.2020084, 0.2937283, 20.80266, 8.745895, 5.987565, 4.387374, 3.107512]
+this.inverseCumulativeTestValues[] elements >= 0.03468084
+size(this.cumulativeTestPoints[]) == 10
+size(this.cumulativeTestValues[]) == 10
+size(this.inverseCumulativeTestPoints[]) == 10
+size(this.inverseCumulativeTestValues[]) == 10
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.FDistributionTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.FDistributionTest(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+this.distribution == null
+this.tolerance == 1.0E-4
+this.cumulativeTestPoints == null
+this.cumulativeTestValues == null
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.makeCumulativeTestPoints():::ENTER
+this.tolerance == 1.0E-4
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.makeCumulativeTestPoints():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestPoints[] == orig(this.inverseCumulativeTestPoints[])
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.tolerance == 1.0E-4
+this.inverseCumulativeTestValues == null
+return[] == [0.03468084, 0.09370091, 0.1433137, 0.2020084, 0.2937283, 20.80266, 8.745895, 5.987565, 4.387374, 3.107512]
+return[] elements >= 0.03468084
+size(return[]) == 10
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.makeCumulativeTestValues():::ENTER
+this.tolerance == 1.0E-4
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.makeCumulativeTestValues():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.tolerance == 1.0E-4
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+return[] == [0.001, 0.01, 0.025, 0.05, 0.1, 0.999, 0.99, 0.975, 0.95, 0.9]
+size(return[]) == 10
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.makeDistribution():::ENTER
+this.distribution == null
+this.tolerance == 1.0E-4
+this.cumulativeTestPoints == null
+this.cumulativeTestValues == null
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.makeDistribution():::EXIT
+this.distribution == orig(this.distribution)
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.distribution == null
+this.tolerance == 1.0E-4
+this.cumulativeTestPoints == null
+this.cumulativeTestValues == null
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+return.getClass().getName() == org.apache.commons.math.distribution.FDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.setUp():::ENTER
+this.distribution == null
+this.tolerance == 1.0E-4
+this.cumulativeTestPoints == null
+this.cumulativeTestValues == null
+this.inverseCumulativeTestPoints == null
+this.inverseCumulativeTestValues == null
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.setUp():::EXIT
+this.tolerance == 4.0E-6
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.testLargeDegreesOfFreedom():::ENTER
+this has only one value
+this.distribution has only one value
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints has only one value
+this.cumulativeTestValues has only one value
+this.inverseCumulativeTestPoints has only one value
+this.inverseCumulativeTestValues has only one value
+===========================================================================
+org.apache.commons.math.distribution.FDistributionTest.testLargeDegreesOfFreedom():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.tolerance == orig(this.tolerance)
+this.cumulativeTestPoints == orig(this.cumulativeTestPoints)
+this.cumulativeTestPoints[] == orig(this.cumulativeTestPoints[])
+this.cumulativeTestValues == orig(this.cumulativeTestValues)
+this.cumulativeTestValues[] == orig(this.cumulativeTestValues[])
+this.inverseCumulativeTestPoints == orig(this.inverseCumulativeTestPoints)
+this.inverseCumulativeTestPoints[] == orig(this.inverseCumulativeTestPoints[])
+this.inverseCumulativeTestValues == orig(this.inverseCumulativeTestValues)
+this.inverseCumulativeTestValues[] == orig(this.inverseCumulativeTestValues[])
+this.distribution has only one value
+this.tolerance == 4.0E-6
+this.cumulativeTestPoints has only one value
+this.cumulativeTestValues has only one value
+this.inverseCumulativeTestPoints has only one value
+this.inverseCumulativeTestValues has only one value
+===========================================================================
+org.apache.commons.math.special.Beta$1:::CLASS
+===========================================================================
+org.apache.commons.math.special.Beta$1:::OBJECT
+this.val$b one of { 2.5, 3.0, 50000.0 }
+this.val$a one of { 2.5, 3.0, 50000.0 }
+===========================================================================
+org.apache.commons.math.special.Beta$1.(double, double):::ENTER
+$hidden$1 one of { 2.5, 3.0, 50000.0 }
+$hidden$3 one of { 2.5, 3.0, 50000.0 }
+===========================================================================
+org.apache.commons.math.special.Beta$1.(double, double):::EXIT
+===========================================================================
+org.apache.commons.math.special.Beta$1.getA(int, double):::ENTER
+n >= 0
+===========================================================================
+org.apache.commons.math.special.Beta$1.getA(int, double):::EXIT
+this.val$b == orig(this.val$b)
+this.val$a == orig(this.val$a)
+return == 1.0
+===========================================================================
+org.apache.commons.math.special.Beta$1.getB(int, double):::ENTER
+n >= 1
+===========================================================================
+org.apache.commons.math.special.Beta$1.getB(int, double):::EXIT
+this.val$b == orig(this.val$b)
+this.val$a == orig(this.val$a)
+===========================================================================
+org.apache.commons.math.special.Beta:::CLASS
+===========================================================================
+org.apache.commons.math.special.Beta.logBeta(double, double, double, int):::ENTER
+a one of { 2.5, 3.0, 50000.0 }
+b one of { 2.5, 3.0, 50000.0 }
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.special.Beta.logBeta(double, double, double, int):::EXIT
+return one of { -69318.86243051325, -2.9799839165858497 }
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double):::ENTER
+a one of { 2.5, 50000.0 }
+b one of { 3.0, 50000.0 }
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double):::EXIT
+return <= 1.0
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double, double, int):::ENTER
+a one of { 2.5, 3.0, 50000.0 }
+b one of { 2.5, 3.0, 50000.0 }
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double, double, int):::EXIT
+return <= 1.0
+return >= 0.0
+===========================================================================
+org.apache.commons.math.special.Gamma:::CLASS
+org.apache.commons.math.special.Gamma.lanczos has only one value
+org.apache.commons.math.special.Gamma.lanczos != null
+org.apache.commons.math.special.Gamma.lanczos[] == [0.9999999999999971, 57.15623566586292, -59.59796035547549, 14.136097974741746, -0.4919138160976202, 3.399464998481189E-5, 4.652362892704858E-5, -9.837447530487956E-5, 1.580887032249125E-4, -2.1026444172410488E-4, 2.1743961811521265E-4, -1.643181065367639E-4, 8.441822398385275E-5, -2.6190838401581408E-5, 3.6899182659531625E-6]
+org.apache.commons.math.special.Gamma.lanczos[] elements != 0
+org.apache.commons.math.special.Gamma.HALF_LOG_2_PI == 0.9189385332046727
+size(org.apache.commons.math.special.Gamma.lanczos[]) == 15
+===========================================================================
+org.apache.commons.math.special.Gamma.logGamma(double):::ENTER
+===========================================================================
+org.apache.commons.math.special.Gamma.logGamma(double):::EXIT
+org.apache.commons.math.special.Gamma.lanczos == orig(org.apache.commons.math.special.Gamma.lanczos)
+org.apache.commons.math.special.Gamma.lanczos[] == orig(org.apache.commons.math.special.Gamma.lanczos[])
+org.apache.commons.math.special.Gamma.HALF_LOG_2_PI == orig(org.apache.commons.math.special.Gamma.HALF_LOG_2_PI)
+return >= 0.2846828704729195
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction:::CLASS
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction:::OBJECT
+this.getClass().getName() == org.apache.commons.math.special.Beta$1.class
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.ContinuedFraction():::EXIT
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.evaluate(double, double, int):::ENTER
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.evaluate(double, double, int):::EXIT

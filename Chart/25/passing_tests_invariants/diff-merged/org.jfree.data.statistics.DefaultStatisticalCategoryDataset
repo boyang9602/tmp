@@ -1,0 +1,343 @@
+{
+    "org.jfree.data.statistics.DefaultStatisticalCategoryDataset": [
+        {
+            "getMeanValue(int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "column == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "column one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "column == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "return has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRowCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data.rows[]) == 1",
+                                    "this.data.rowKeys[] contains no nulls and has only one value, of length 1",
+                                    "this.data.columnKeys[] contains no nulls and has only one value, of length 2",
+                                    "this.data.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "size(this.data.rowKeys[]) == 1",
+                                    "this.data.rows[] contains no nulls and has only one value, of length 1",
+                                    "size(this.data.columnKeys[]) == 2",
+                                    "this.data.columnKeys[].getClass().getName() == [java.lang.String, java.lang.String]",
+                                    "this.data.rowKeys[].getClass().getName() == [java.lang.String]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data.rows[]) == 1",
+                                    "return == 1",
+                                    "this.data.rowKeys[] contains no nulls and has only one value, of length 1",
+                                    "this.data.columnKeys[] contains no nulls and has only one value, of length 2",
+                                    "this.data.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "this.data.rows[] contains no nulls and has only one value, of length 1",
+                                    "size(this.data.rowKeys[]) == 1",
+                                    "size(this.data.columnKeys[]) == 2",
+                                    "this.data.columnKeys[].getClass().getName() == [java.lang.String, java.lang.String]",
+                                    "this.data.rowKeys[].getClass().getName() == [java.lang.String]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DefaultStatisticalCategoryDataset()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data.columnKeys[] == []",
+                                    "this.data.rows[] == []",
+                                    "this.data.columnKeys[].getClass().getName() == []",
+                                    "this.data.rows[].getClass().getName() == []",
+                                    "this.data.rowKeys[] == []",
+                                    "this.data.rowKeys[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getColumnCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data.rows[]) == 1",
+                                    "this.data.rowKeys[] contains no nulls and has only one value, of length 1",
+                                    "this.data.columnKeys[] contains no nulls and has only one value, of length 2",
+                                    "this.data.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "size(this.data.rowKeys[]) == 1",
+                                    "this.data.rows[] contains no nulls and has only one value, of length 1",
+                                    "size(this.data.columnKeys[]) == 2",
+                                    "this.data.columnKeys[].getClass().getName() == [java.lang.String, java.lang.String]",
+                                    "this.data.rowKeys[].getClass().getName() == [java.lang.String]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data.rows[]) == 1",
+                                    "this.data.rowKeys[] contains no nulls and has only one value, of length 1",
+                                    "return == 2",
+                                    "this.data.columnKeys[] contains no nulls and has only one value, of length 2",
+                                    "this.data.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "this.data.rows[] contains no nulls and has only one value, of length 1",
+                                    "size(this.data.rowKeys[]) == 1",
+                                    "size(this.data.columnKeys[]) == 2",
+                                    "this.data.columnKeys[].getClass().getName() == [java.lang.String, java.lang.String]",
+                                    "this.data.rowKeys[].getClass().getName() == [java.lang.String]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(double, double, java.lang.Comparable, java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data.columnKeys[].getClass().getName() one of { [], [java.lang.String] }",
+                                    "this.data.columnKeys[] elements has only one value",
+                                    "size(this.data.columnKeys[]) one of { 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.data.rows[] == orig(this.data.rows[])",
+                                    "this.data.rowKeys[] == orig(this.data.rowKeys[])",
+                                    "this.data.columnKeys[] == orig(this.data.columnKeys[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data.rows[]) == 1",
+                                    "this.data.rowKeys[] contains no nulls and has only one value, of length 1",
+                                    "this.data.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "this.data.columnKeys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String] }",
+                                    "this.data.rows[] contains no nulls and has only one value, of length 1",
+                                    "size(this.data.columnKeys[])-1 == orig(size(this.data.columnKeys[]))",
+                                    "size(this.data.rowKeys[]) == 1",
+                                    "size(this.data.columnKeys[]) one of { 1, 2 }",
+                                    "this.data.rowKeys[].getClass().getName() == [java.lang.String]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRangeBounds(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data.rows[]) == 1",
+                                    "this.data.rowKeys[] contains no nulls and has only one value, of length 1",
+                                    "this.data.columnKeys[] contains no nulls and has only one value, of length 2",
+                                    "this.data.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "size(this.data.rowKeys[]) == 1",
+                                    "this.data.rows[] contains no nulls and has only one value, of length 1",
+                                    "size(this.data.columnKeys[]) == 2",
+                                    "this.data.columnKeys[].getClass().getName() == [java.lang.String, java.lang.String]",
+                                    "this.data.rowKeys[].getClass().getName() == [java.lang.String]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data.rows[]) == 1",
+                                    "this.data.rowKeys[] contains no nulls and has only one value, of length 1",
+                                    "this.data.columnKeys[] contains no nulls and has only one value, of length 2",
+                                    "this.data.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "this.data.rows[] contains no nulls and has only one value, of length 1",
+                                    "size(this.data.rowKeys[]) == 1",
+                                    "size(this.data.columnKeys[]) == 2",
+                                    "this.data.columnKeys[].getClass().getName() == [java.lang.String, java.lang.String]",
+                                    "this.data.rowKeys[].getClass().getName() == [java.lang.String]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(java.lang.Number, java.lang.Number, java.lang.Comparable, java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data.columnKeys[].getClass().getName() one of { [], [java.lang.String] }",
+                                    "this.data.columnKeys[] elements has only one value",
+                                    "size(this.data.columnKeys[]) one of { 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.data.rows[] == orig(this.data.rows[])",
+                                    "this.data.rowKeys[] == orig(this.data.rowKeys[])",
+                                    "this.data.columnKeys[] == orig(this.data.columnKeys[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data.rows[]) == 1",
+                                    "this.data.rowKeys[] contains no nulls and has only one value, of length 1",
+                                    "this.data.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "this.data.columnKeys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String] }",
+                                    "this.data.rows[] contains no nulls and has only one value, of length 1",
+                                    "size(this.data.columnKeys[])-1 == orig(size(this.data.columnKeys[]))",
+                                    "size(this.data.rowKeys[]) == 1",
+                                    "size(this.data.columnKeys[]) one of { 1, 2 }",
+                                    "this.data.rowKeys[].getClass().getName() == [java.lang.String]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

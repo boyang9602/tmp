@@ -1,0 +1,904 @@
+{
+    "org.apache.commons.math.ode.sampling.AbstractStepInterpolator": [
+        {
+            "allocateInterpolatedArrays(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN",
+                                    "this.currentState[] == [1.0]",
+                                    "this.currentState[] elements == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN",
+                                    "this.currentState[] == [1.0]",
+                                    "this.currentState[] elements == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.currentState[] elements == 1.0",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.currentState[] elements == 1.0",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "finalizeStep()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.currentState[] == [0.9048374180359596]",
+                                    "this.currentState[] elements == 0.9048374180359596",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime == Double.NaN",
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.primaryMapper == null",
+                                    "this.interpolatedPrimaryState == null",
+                                    "this.globalCurrentTime == Double.NaN",
+                                    "this.interpolatedPrimaryDerivatives == null",
+                                    "this.currentState == null",
+                                    "this.interpolatedState == null",
+                                    "this.softCurrentTime == Double.NaN",
+                                    "this.secondaryMappers == null",
+                                    "this.interpolatedDerivatives == null",
+                                    "this has only one value",
+                                    "this.interpolatedSecondaryDerivatives == null",
+                                    "this.interpolatedSecondaryState == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.currentState[] == [0.9048374180359596]",
+                                    "this.currentState[] elements == 0.9048374180359596",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.secondaryMappers[] == orig(this.secondaryMappers[])",
+                                    "this.interpolatedTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 }",
+                                    "this.secondaryMappers[].dimension == orig(this.secondaryMappers[].dimension)",
+                                    "this.primaryMapper.firstIndex == orig(this.primaryMapper.firstIndex)",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedTime one of { 0.001, Double.NaN }",
+                                    "this.primaryMapper.dimension == orig(this.primaryMapper.dimension)",
+                                    "this.interpolatedPrimaryState[] == orig(this.interpolatedPrimaryState[])",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] == orig(this.interpolatedState[])",
+                                    "this.globalCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.currentState[] == [0.9048374180359596]",
+                                    "this.interpolatedSecondaryDerivatives.getClass().getName() == orig(this.interpolatedSecondaryDerivatives.getClass().getName())",
+                                    "this.currentState[] elements == 0.9048374180359596",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedSecondaryDerivatives[] == orig(this.interpolatedSecondaryDerivatives[])",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.secondaryMappers.getClass().getName() == orig(this.secondaryMappers.getClass().getName())",
+                                    "this.currentState[] == orig(this.currentState[])",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedPrimaryDerivatives[] == orig(this.interpolatedPrimaryDerivatives[])",
+                                    "this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])",
+                                    "this.interpolatedSecondaryState[] == orig(this.interpolatedSecondaryState[])",
+                                    "this.interpolatedSecondaryState.getClass().getName() == orig(this.interpolatedSecondaryState.getClass().getName())",
+                                    "this.secondaryMappers[].firstIndex == orig(this.secondaryMappers[].firstIndex)",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime == Double.NaN",
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.primaryMapper == null",
+                                    "this.interpolatedPrimaryState == null",
+                                    "this.globalCurrentTime == Double.NaN",
+                                    "this.interpolatedPrimaryDerivatives == null",
+                                    "this.currentState == null",
+                                    "this.interpolatedState == null",
+                                    "this.softCurrentTime == Double.NaN",
+                                    "this.secondaryMappers == null",
+                                    "this.interpolatedDerivatives == null",
+                                    "this.interpolatedSecondaryDerivatives == null",
+                                    "this.interpolatedSecondaryState == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.secondaryMappers[] == orig(this.secondaryMappers[])",
+                                    "this.interpolatedTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 }",
+                                    "this.secondaryMappers[].dimension == orig(this.secondaryMappers[].dimension)",
+                                    "this.primaryMapper.firstIndex == orig(this.primaryMapper.firstIndex)",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedTime one of { 0.001, Double.NaN }",
+                                    "this.primaryMapper.dimension == orig(this.primaryMapper.dimension)",
+                                    "this.interpolatedPrimaryState[] == orig(this.interpolatedPrimaryState[])",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] == orig(this.interpolatedState[])",
+                                    "this.globalCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.currentState[] == [0.9048374180359596]",
+                                    "this.interpolatedSecondaryDerivatives.getClass().getName() == orig(this.interpolatedSecondaryDerivatives.getClass().getName())",
+                                    "this.currentState[] elements == 0.9048374180359596",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedSecondaryDerivatives[] == orig(this.interpolatedSecondaryDerivatives[])",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.secondaryMappers.getClass().getName() == orig(this.secondaryMappers.getClass().getName())",
+                                    "this.currentState[] == orig(this.currentState[])",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedPrimaryDerivatives[] == orig(this.interpolatedPrimaryDerivatives[])",
+                                    "this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])",
+                                    "this.interpolatedSecondaryState[] == orig(this.interpolatedSecondaryState[])",
+                                    "this.interpolatedSecondaryState.getClass().getName() == orig(this.interpolatedSecondaryState.getClass().getName())",
+                                    "this.secondaryMappers[].firstIndex == orig(this.secondaryMappers[].firstIndex)",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractStepInterpolator(org.apache.commons.math.ode.sampling.AbstractStepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "copy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractStepInterpolator()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "reinitialize(double[], boolean, org.apache.commons.math.ode.EquationsMapper, org.apache.commons.math.ode.EquationsMapper[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.h == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.currentState[] elements == 1.0",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.currentState[] elements == 1.0",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setInterpolatedTime(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "time one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "time one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime == Double.NaN",
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.globalCurrentTime == 0.0",
+                                    "time == 0.0",
+                                    "this.dirtyState == true",
+                                    "this.finalized == false",
+                                    "this.softCurrentTime == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "time one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "time one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.dirtyState == true",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.finalized == false",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == orig(this.dirtyState)",
+                                    "this.interpolatedTime == 0.0",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.finalized == false",
+                                    "this.softCurrentTime == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.dirtyState == orig(this.dirtyState)",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.finalized == false",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "storeTime(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, Double.NaN }",
+                                    "this.h one of { 9.999999999999999E-5, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "t one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedTime one of { 0.0, Double.NaN }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.globalCurrentTime one of { 0.0, Double.NaN }",
+                                    "t one of { 0.0, 0.001 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime == Double.NaN",
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.globalCurrentTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.finalized == false",
+                                    "this.softCurrentTime == Double.NaN",
+                                    "t == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.dirtyState == true",
+                                    "this.softCurrentTime one of { 0.0, Double.NaN }",
+                                    "this.h one of { 9.999999999999999E-5, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.finalized == false",
+                                    "t one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedTime one of { 0.0, Double.NaN }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.globalCurrentTime one of { 0.0, Double.NaN }",
+                                    "t one of { 0.0, 0.001 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == orig(this.dirtyState)",
+                                    "this.finalized == orig(this.finalized)",
+                                    "this.interpolatedTime == 0.0",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.softCurrentTime == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.dirtyState == orig(this.dirtyState)",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.finalized == orig(this.finalized)",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.globalCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.interpolatedTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "shift()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.currentState[] elements == 1.0",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.currentState[] one of { [0.9900498337491681], [1.0] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.h one of { 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softPreviousTime one of { 0.0, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.globalPreviousTime one of { 0.0, Double.NaN }",
+                                    "this.currentState[] elements one of { 0.9900498337491681, 1.0 }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.interpolatedTime == 0.0",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.softCurrentTime == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.currentState[] elements == 1.0",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedTime == 0.0",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.currentState[] one of { [0.9900498337491681], [1.0] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.h one of { 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softPreviousTime one of { 0.0, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.softCurrentTime == 0.0",
+                                    "this.globalPreviousTime one of { 0.0, Double.NaN }",
+                                    "this.currentState[] elements one of { 0.9900498337491681, 1.0 }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.currentState[] elements == 1.0",
+                                    "this.softPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.currentState[] one of { [0.9900498337491681], [1.0] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.h one of { 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.currentState[] elements one of { 0.9900498337491681, 1.0 }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime == 0.0",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.globalPreviousTime == 0.0",
+                                    "this.softCurrentTime == 0.0",
+                                    "this.softPreviousTime == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.currentState[] elements == 1.0",
+                                    "this.softPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.h == Double.NaN",
+                                    "this.interpolatedTime == 0.0",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.currentState[] one of { [0.9900498337491681], [1.0] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.h one of { 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.globalPreviousTime == 0.0",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.softCurrentTime == 0.0",
+                                    "this.currentState[] elements one of { 0.9900498337491681, 1.0 }",
+                                    "this.softPreviousTime == 0.0",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,313 @@
+{
+    "org.apache.commons.lang3.StringUtils": [
+        {
+            "CLASS": [
+                {
+                    "PatchHDRepair2.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "replace(java.lang.String, java.lang.String, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "searchString.toString one of { \"\\\"\", \"\\\"\\\"\" }",
+                                    "searchString != null",
+                                    "text != null",
+                                    "replacement.toString one of { \"\\\"\", \"\\\"\\\"\" }",
+                                    "replacement != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "searchString.toString one of { \"\\\"\", \"\\\"\\\"\" }",
+                                    "return != null",
+                                    "searchString.toString == orig(searchString.toString)",
+                                    "replacement.toString == orig(replacement.toString)",
+                                    "text.toString == orig(text.toString)",
+                                    "replacement.toString one of { \"\\\"\", \"\\\"\\\"\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isEmpty(java.lang.CharSequence)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "cs.getClass().getName() == java.lang.String.class",
+                                    "cs != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "containsAny(java.lang.CharSequence, char[])": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "searchChars has only one value",
+                                    "searchChars[] sorted by >",
+                                    "searchChars[] == [44, 34, 13, 10]",
+                                    "cs.getClass().getName() == java.lang.String.class",
+                                    "size(searchChars[]) == 4"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "searchChars[] sorted by >",
+                                    "searchChars[] == [44, 34, 13, 10]",
+                                    "searchChars[] == orig(searchChars[])",
+                                    "return == true",
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1502": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1507": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "replace(java.lang.String, java.lang.String, java.lang.String, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "searchString.toString one of { \"\\\"\", \"\\\"\\\"\" }",
+                                    "max == -1",
+                                    "searchString != null",
+                                    "text != null",
+                                    "replacement != null",
+                                    "replacement.toString one of { \"\\\"\", \"\\\"\\\"\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "searchString.toString one of { \"\\\"\", \"\\\"\\\"\" }",
+                                    "return != null",
+                                    "searchString.toString == orig(searchString.toString)",
+                                    "replacement.toString == orig(replacement.toString)",
+                                    "text.toString == orig(text.toString)",
+                                    "replacement.toString one of { \"\\\"\", \"\\\"\\\"\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "4381": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return.toString one of { \"foo\\nbar\", \"foo\\rbar\", \"foo,bar\" }",
+                                            "text.toString one of { \"foo\\nbar\", \"foo\\rbar\", \"foo,bar\" }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "4397": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "text.toString one of { \"foo\\\"\\\"bar\", \"foo\\\"bar\" }",
+                                            "return.toString one of { \"foo\\\"\\\"bar\", \"foo\\\"bar\" }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "containsNone(java.lang.CharSequence, char[])": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "searchChars has only one value",
+                                    "searchChars[] sorted by >",
+                                    "searchChars[] == [44, 34, 13, 10]",
+                                    "cs.getClass().getName() == java.lang.String.class",
+                                    "size(searchChars[]) == 4"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(cs) has only one value)",
+                                    "orig(cs) has only one value",
+                                    "searchChars[] sorted by >",
+                                    "searchChars[] == [44, 34, 13, 10]",
+                                    "searchChars[] == orig(searchChars[])",
+                                    "return == true",
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1758": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1763": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(cs) has only one value",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

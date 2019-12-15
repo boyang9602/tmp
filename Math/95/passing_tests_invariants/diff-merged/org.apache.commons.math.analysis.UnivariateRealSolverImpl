@@ -1,0 +1,54 @@
+{
+    "org.apache.commons.math.analysis.UnivariateRealSolverImpl": [
+        {
+            "verifyInterval(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "upper >= 1.0",
+                                    "lower == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "lower one of { 0.0, 2.000040000793568E-5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "upper >= 1.0",
+                                    "lower == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

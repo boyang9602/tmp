@@ -1,0 +1,259 @@
+{
+    "org.apache.commons.math3.linear.ArrayRealVector": [
+        {
+            "ArrayRealVector(double[], boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch158.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 31, 48 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(d[]) == 48"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 31, 48 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 31, 48 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch33.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 31, 48 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch32.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 31, 48 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch158.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 48"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch33.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch32.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "toArray()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch158.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch33.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch32.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch158.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch33.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch32.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "checkVectorDimensions(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch158.inv.output": {
+                                "invs": [
+                                    "n one of { 31, 48 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "n == 48",
+                                    "size(this.data[]) == 48"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": {
+                                "invs": [
+                                    "n one of { 31, 48 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "n one of { 31, 48 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch33.inv.output": {
+                                "invs": [
+                                    "n one of { 31, 48 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch32.inv.output": {
+                                "invs": [
+                                    "n one of { 31, 48 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch158.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 48"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch33.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch32.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

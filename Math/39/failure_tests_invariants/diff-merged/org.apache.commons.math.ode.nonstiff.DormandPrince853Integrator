@@ -1,0 +1,130 @@
+{
+    "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator": [
+        {
+            "getOrder()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryStateDot[] elements == -100.0",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.primaryState[] == [1.0]",
+                                    "this.stepStart one of { 0.0, Double.NaN }",
+                                    "this.expandable.primaryStateDot[] == [-100.0]",
+                                    "this.stepSize == Double.NaN",
+                                    "this.evaluations.count one of { 0, 1 }",
+                                    "this.expandable.primaryState[] elements == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryStateDot[] elements == -100.0",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.primaryState[] == [1.0]",
+                                    "this.stepStart one of { 0.0, Double.NaN }",
+                                    "this.expandable.primaryStateDot[] == [-100.0]",
+                                    "this.stepSize == Double.NaN",
+                                    "this.evaluations.count one of { 0, 1 }",
+                                    "this.expandable.primaryState[] elements == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryStateDot[] elements == -100.0",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.primaryState[] == [1.0]",
+                                    "this.evaluations.count one of { 0, 1 }",
+                                    "this.stepStart one of { 0.0, Double.NaN }",
+                                    "this.expandable.primaryStateDot[] == [-100.0]",
+                                    "this.stepSize == Double.NaN",
+                                    "this.expandable.primaryState[] elements == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryStateDot[] elements == -100.0",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.primaryState[] == [1.0]",
+                                    "this.evaluations.count one of { 0, 1 }",
+                                    "this.stepStart one of { 0.0, Double.NaN }",
+                                    "this.expandable.primaryStateDot[] == [-100.0]",
+                                    "this.stepSize == Double.NaN",
+                                    "this.expandable.primaryState[] elements == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DormandPrince853Integrator(double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.stepSize == Double.NaN",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.stepSize == Double.NaN",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

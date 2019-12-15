@@ -1,0 +1,53 @@
+{
+    "org.jfree.chart.util.AbstractObjectList": [
+        {
+            "get(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size == 1",
+                                    "this.objects[].getClass().getName() one of { [null, null, null, null, null, null, null, null], [org.jfree.data.category.DefaultCategoryDataset, null, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size == 1",
+                                    "return.getClass().getName() == org.jfree.data.category.DefaultCategoryDataset.class",
+                                    "this.objects[].getClass().getName() one of { [null, null, null, null, null, null, null, null], [org.jfree.data.category.DefaultCategoryDataset, null, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

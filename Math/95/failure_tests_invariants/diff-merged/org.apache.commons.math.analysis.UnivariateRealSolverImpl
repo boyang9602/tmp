@@ -1,0 +1,516 @@
+{
+    "org.apache.commons.math.analysis.UnivariateRealSolverImpl": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch75.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch76.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.defaultMaximalIterationCount == 100",
+                            "this.functionValueAccuracy == 1.0E-15",
+                            "this.iterationCount one of { 0, 7 }",
+                            "this.maximalIterationCount == 100",
+                            "this.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class",
+                            "this.result one of { 0.0, 0.9750000000640364 }",
+                            "this.relativeAccuracy == 1.0E-14",
+                            "this.defaultFunctionValueAccuracy == 1.0E-15",
+                            "this.defaultRelativeAccuracy == 1.0E-14",
+                            "this.defaultAbsoluteAccuracy == 1.0E-6",
+                            "this.absoluteAccuracy == 1.0E-6",
+                            "this.iterationCount one of { 0, 5 }",
+                            "this.result one of { 0.0, 0.9750000261341519 }",
+                            "this.f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch75.inv.output": {
+                        "invs": [
+                            "this.defaultMaximalIterationCount == 100",
+                            "this.functionValueAccuracy == 1.0E-15",
+                            "this.iterationCount one of { 0, 7 }",
+                            "this.maximalIterationCount == 100",
+                            "this.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class",
+                            "this.result one of { 0.0, 0.9750000000640364 }",
+                            "this.relativeAccuracy == 1.0E-14",
+                            "this.defaultFunctionValueAccuracy == 1.0E-15",
+                            "this.defaultRelativeAccuracy == 1.0E-14",
+                            "this.defaultAbsoluteAccuracy == 1.0E-6",
+                            "this.absoluteAccuracy == 1.0E-6",
+                            "this.iterationCount one of { 0, 5 }",
+                            "this.result one of { 0.0, 0.9750000261341519 }",
+                            "this.f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch76.inv.output": {
+                        "invs": [
+                            "this.defaultMaximalIterationCount == 100",
+                            "this.functionValueAccuracy == 1.0E-15",
+                            "this.iterationCount one of { 0, 7 }",
+                            "this.maximalIterationCount == 100",
+                            "this.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class",
+                            "this.result one of { 0.0, 0.9750000000640364 }",
+                            "this.relativeAccuracy == 1.0E-14",
+                            "this.defaultFunctionValueAccuracy == 1.0E-15",
+                            "this.defaultRelativeAccuracy == 1.0E-14",
+                            "this.defaultAbsoluteAccuracy == 1.0E-6",
+                            "this.absoluteAccuracy == 1.0E-6",
+                            "this.iterationCount one of { 0, 5 }",
+                            "this.result one of { 0.0, 0.9750000261341519 }",
+                            "this.f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "clearResult()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 0",
+                                    "this.resultComputed == false",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 0",
+                                    "this.resultComputed == false",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 0",
+                                    "this.resultComputed == false",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 0",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.result == orig(this.result)",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.iterationCount == orig(this.iterationCount)",
+                                    "this.resultComputed == orig(this.resultComputed)",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.result == 0.0",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 0",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.result == orig(this.result)",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.iterationCount == orig(this.iterationCount)",
+                                    "this.resultComputed == orig(this.resultComputed)",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.result == 0.0",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 0",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.result == orig(this.result)",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.iterationCount == orig(this.iterationCount)",
+                                    "this.resultComputed == orig(this.resultComputed)",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.result == 0.0",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verifyInterval(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "upper == 1.0",
+                                    "this.iterationCount == 0",
+                                    "this.result == 0.0",
+                                    "lower == 0.0",
+                                    "upper == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "upper == 1.0",
+                                    "this.iterationCount == 0",
+                                    "this.result == 0.0",
+                                    "lower == 0.0",
+                                    "upper == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "upper == 1.0",
+                                    "this.iterationCount == 0",
+                                    "this.result == 0.0",
+                                    "lower == 0.0",
+                                    "upper == 2.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 0",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.result == orig(this.result)",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.iterationCount == orig(this.iterationCount)",
+                                    "this.resultComputed == orig(this.resultComputed)",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.result == 0.0",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 0",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.result == orig(this.result)",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.iterationCount == orig(this.iterationCount)",
+                                    "this.resultComputed == orig(this.resultComputed)",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.result == 0.0",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 0",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.result == orig(this.result)",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.iterationCount == orig(this.iterationCount)",
+                                    "this.resultComputed == orig(this.resultComputed)",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.result == 0.0",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setResult(double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "iterationCount == 5",
+                                    "iterationCount == 7",
+                                    "this.iterationCount == 0",
+                                    "result == 0.9750000261341519",
+                                    "result == 0.9750000000640364",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "iterationCount == 5",
+                                    "iterationCount == 7",
+                                    "this.iterationCount == 0",
+                                    "result == 0.9750000261341519",
+                                    "result == 0.9750000000640364",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == false",
+                                    "iterationCount == 5",
+                                    "iterationCount == 7",
+                                    "this.iterationCount == 0",
+                                    "result == 0.9750000261341519",
+                                    "result == 0.9750000000640364",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.result == 0.9750000261341519",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 5",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.resultComputed == true",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.result == 0.9750000000640364",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)",
+                                    "this.iterationCount == 7"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.result == 0.9750000261341519",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 5",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.resultComputed == true",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.result == 0.9750000000640364",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)",
+                                    "this.iterationCount == 7"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.result == 0.9750000261341519",
+                                    "this.absoluteAccuracy == orig(this.absoluteAccuracy)",
+                                    "this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)",
+                                    "this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)",
+                                    "this.iterationCount == 5",
+                                    "this.functionValueAccuracy == orig(this.functionValueAccuracy)",
+                                    "this.resultComputed == true",
+                                    "this.f == orig(this.f)",
+                                    "this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.result == 0.9750000000640364",
+                                    "this.maximalIterationCount == orig(this.maximalIterationCount)",
+                                    "this.relativeAccuracy == orig(this.relativeAccuracy)",
+                                    "this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)",
+                                    "this.iterationCount == 7"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "UnivariateRealSolverImpl(org.apache.commons.math.analysis.UnivariateRealFunction, int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "defaultAbsoluteAccuracy == 1.0E-6",
+                                    "defaultMaximalIterationCount == 100",
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "defaultAbsoluteAccuracy == 1.0E-6",
+                                    "defaultMaximalIterationCount == 100",
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "defaultAbsoluteAccuracy == 1.0E-6",
+                                    "defaultMaximalIterationCount == 100",
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 0",
+                                    "this.resultComputed == false",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 0",
+                                    "this.resultComputed == false",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 0",
+                                    "this.resultComputed == false",
+                                    "this.result == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

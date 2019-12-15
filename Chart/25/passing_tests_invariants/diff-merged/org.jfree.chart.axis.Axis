@@ -1,0 +1,290 @@
+{
+    "org.jfree.chart.axis.Axis": [
+        {
+            "drawAxisLine(java.awt.Graphics2D, double, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "cursor == 172.03125"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "cursor == 132.421875"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickLabelPaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.getClass().getName() == org.jfree.chart.axis.NumberAxis.class",
+                                    "this.listenerList has only one value",
+                                    "this.label.toString == \"Value\"",
+                                    "this.tickMarksVisible == true",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.listenerList has only one value",
+                                    "this.label.toString == \"Value\"",
+                                    "this.tickMarksVisible == true",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickLabelFont()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.plot != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "return != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.plot != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTickLabelInsets()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.getClass().getName() == org.jfree.chart.axis.NumberAxis.class",
+                                    "this.listenerList has only one value",
+                                    "this.label.toString == \"Value\"",
+                                    "this.tickMarksVisible == true",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.listenerList has only one value",
+                                    "this.label.toString == \"Value\"",
+                                    "this.tickMarksVisible == true",
+                                    "this.label has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isTickLabelsVisible()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.plot != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.plot != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawLabel(java.lang.String, java.awt.Graphics2D, java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge, org.jfree.chart.axis.AxisState, org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "state.ticks[].getClass().getName() one of { [], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "size(state.ticks[]) one of { 0, 9 }",
+                                    "state.cursor one of { 27.96875, 176.03125 }",
+                                    "state.max == 0.0",
+                                    "state.ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.ticks[].getClass().getName() one of { [org.jfree.chart.axis.CategoryTick, org.jfree.chart.axis.CategoryTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "state.cursor one of { 22.96875, 152.0625 }",
+                                    "size(state.ticks[]) one of { 2, 3 }",
+                                    "state.max one of { 0.0, 15.640625 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.cursor one of { 8.0, 196.0 }",
+                                    "state.ticks[].getClass().getName() one of { [], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "return.ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class",
+                                    "state.max == 0.0",
+                                    "size(state.ticks[]) one of { 0, 9 }",
+                                    "return.max == 0.0",
+                                    "return.ticks[].getClass().getName() one of { [], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "state.ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class",
+                                    "size(return.ticks[]) one of { 0, 9 }",
+                                    "state.cursor one of { 8.0, 196.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.ticks[].getClass().getName() one of { [org.jfree.chart.axis.CategoryTick, org.jfree.chart.axis.CategoryTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "state.cursor one of { 3.0, 172.03125 }",
+                                    "return.max one of { 0.0, 15.640625 }",
+                                    "return.cursor one of { 3.0, 172.03125 }",
+                                    "return.ticks[].getClass().getName() one of { [org.jfree.chart.axis.CategoryTick, org.jfree.chart.axis.CategoryTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "size(state.ticks[]) one of { 2, 3 }",
+                                    "size(return.ticks[]) one of { 2, 3 }",
+                                    "state.max one of { 0.0, 15.640625 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1200": [
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

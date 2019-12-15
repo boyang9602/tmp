@@ -1,0 +1,2680 @@
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix:::OBJECT
+this.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.AbstractRealMatrix():::EXIT
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.AbstractRealMatrix(int, int):::ENTER
+rowDimension == 3
+columnDimension == 6
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.AbstractRealMatrix(int, int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.getRow(int):::ENTER
+this has only one value
+row one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.getRow(int):::EXIT
+return[] elements one of { -1.0, 0.0, 1.0 }
+size(return[]) == 6
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.getRowVector(int):::ENTER
+this has only one value
+row one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.getRowVector(int):::EXIT
+return.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.setRowVector(int, org.apache.commons.math.linear.RealVector):::ENTER
+this has only one value
+row one of { 0, 1 }
+vector.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.setRowVector(int, org.apache.commons.math.linear.RealVector):::EXIT
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix:::CLASS
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix:::OBJECT
+this.data.getClass().getName() == double[][].class
+this.data[] elements != null
+size(this.data[]) one of { 2, 3 }
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.Array2DRowRealMatrix(double[][]):::ENTER
+d has only one value
+d.getClass().getName() == double[][].class
+d[] contains no nulls and has only one value, of length 2
+size(d[]) == 2
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.Array2DRowRealMatrix(double[][]):::EXIT
+d[] == orig(d[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 2
+d[] contains no nulls and has only one value, of length 2
+size(this.data[]) == 2
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.Array2DRowRealMatrix(int, int):::ENTER
+rowDimension == 3
+columnDimension == 6
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.Array2DRowRealMatrix(int, int):::EXIT
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 3
+size(this.data[]) == 3
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.copyIn(double[][]):::ENTER
+this has only one value
+this.data == null
+in has only one value
+in.getClass().getName() == double[][].class
+in[] contains no nulls and has only one value, of length 2
+size(in[]) == 2
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.copyIn(double[][]):::EXIT
+in[] == orig(in[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 2
+in[] contains no nulls and has only one value, of length 2
+size(this.data[]) == 2
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.getColumnDimension():::ENTER
+this.data != null
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.getColumnDimension():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data[] == orig(this.data[])
+this.data != null
+return one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.getDataRef():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 3
+size(this.data[]) == 3
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.getDataRef():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data[] == orig(this.data[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 3
+return has only one value
+return.getClass().getName() == double[][].class
+return[] contains no nulls and has only one value, of length 3
+size(this.data[]) == 3
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.getEntry(int, int):::ENTER
+this.data != null
+row one of { 0, 1, 2 }
+column >= 0
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.getEntry(int, int):::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data[] == orig(this.data[])
+this.data != null
+return one of { -1.0, 0.0, 1.0 }
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.getRowDimension():::ENTER
+this.data != null
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.getRowDimension():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data[] == orig(this.data[])
+this.data != null
+return one of { 2, 3 }
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.setEntry(int, int, double):::ENTER
+this has only one value
+this.data has only one value
+this.data != null
+this.data[] contains no nulls and has only one value, of length 3
+row one of { 0, 1, 2 }
+column >= 0
+value one of { -1.0, 0.0, 1.0 }
+size(this.data[]) == 3
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.setEntry(int, int, double):::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data[] == orig(this.data[])
+this.data has only one value
+this.data != null
+this.data[] contains no nulls and has only one value, of length 3
+size(this.data[]) == 3
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.setSubMatrix(double[][], int, int):::ENTER
+this has only one value
+this.data == null
+subMatrix has only one value
+subMatrix.getClass().getName() == double[][].class
+subMatrix[] contains no nulls and has only one value, of length 2
+row == 0
+column == 0
+size(subMatrix[]) == 2
+===========================================================================
+org.apache.commons.math.linear.Array2DRowRealMatrix.setSubMatrix(double[][], int, int):::EXIT
+subMatrix[] == orig(subMatrix[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 2
+subMatrix[] contains no nulls and has only one value, of length 2
+size(this.data[]) == 2
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector:::CLASS
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT != null
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX != null
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == "{"
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX != null
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == "}"
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR != null
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == "; "
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix != null
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == "{"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix != null
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == "}"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator != null
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == "; "
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix != null
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == "{"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix != null
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == "}"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator != null
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == ";"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format != null
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == java.text.DecimalFormat.class
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector:::OBJECT
+this.data != null
+this.data[] elements one of { -1.0, 0.0, 1.0 }
+size(this.data[]) one of { 2, 6 }
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.ArrayRealVector(double[]):::ENTER
+d[] elements one of { 0.0, 1.0 }
+d[] one of { [1.0, 0.0], [1.0, 1.0] }
+size(d[]) == 2
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.ArrayRealVector(double[]):::EXIT
+d[] == orig(d[])
+this.data[] elements one of { 0.0, 1.0 }
+this.data[] one of { [1.0, 0.0], [1.0, 1.0] }
+d[] elements one of { 0.0, 1.0 }
+d[] one of { [1.0, 0.0], [1.0, 1.0] }
+size(this.data[]) == 2
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.ArrayRealVector(double[], boolean):::ENTER
+d[] elements one of { -1.0, 0.0, 1.0 }
+copyArray == false
+size(d[]) one of { 2, 6 }
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.ArrayRealVector(double[], boolean):::EXIT
+d[] == orig(d[])
+d[] elements one of { -1.0, 0.0, 1.0 }
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.ArrayRealVector(int):::ENTER
+size == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.ArrayRealVector(int):::EXIT
+this.data[] == [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.data[] elements == 0.0
+size(this.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.ArrayRealVector(org.apache.commons.math.linear.ArrayRealVector, boolean):::ENTER
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == "{"
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == "}"
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == "; "
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == "{"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == "}"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == "; "
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == "{"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == "}"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == ";"
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format has only one value
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == java.text.DecimalFormat.class
+v.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]
+v.data[] elements one of { 0.0, 1.0 }
+deep == true
+size(v.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.ArrayRealVector(org.apache.commons.math.linear.ArrayRealVector, boolean):::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+v.data == orig(v.data)
+v.data[] == orig(v.data[])
+this.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]
+this.data[] elements one of { 0.0, 1.0 }
+v.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]
+v.data[] elements one of { 0.0, 1.0 }
+size(this.data[]) == 6
+size(v.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.checkVectorDimensions(int):::ENTER
+n one of { 2, 6 }
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.checkVectorDimensions(int):::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.copy():::ENTER
+this.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]
+this.data[] elements one of { 0.0, 1.0 }
+size(this.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.copy():::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]
+this.data[] elements one of { 0.0, 1.0 }
+return.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]
+return.data[] elements one of { 0.0, 1.0 }
+size(this.data[]) == 6
+size(return.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.dotProduct(org.apache.commons.math.linear.RealVector):::ENTER
+this has only one value
+this.data has only one value
+this.data[] == [1.0, 1.0]
+this.data[] elements == 1.0
+v has only one value
+v.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+size(this.data[]) == 2
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.dotProduct(org.apache.commons.math.linear.RealVector):::EXIT454
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.dotProduct(org.apache.commons.math.linear.RealVector):::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data has only one value
+this.data[] == [1.0, 1.0]
+this.data[] elements == 1.0
+return == 0.0
+size(this.data[]) == 2
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.getDimension():::ENTER
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.getDimension():::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+return one of { 2, 6 }
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.getEntry(int):::ENTER
+this.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 0.0, 1.0, -1.0, -1.0] }
+index >= 0
+size(this.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.getEntry(int):::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 0.0, 1.0, -1.0, -1.0] }
+return one of { -1.0, 0.0, 1.0 }
+size(this.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.mapMultiplyToSelf(double):::ENTER
+this.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]
+this.data[] elements one of { 0.0, 1.0 }
+d one of { -1.0, 1.0 }
+size(this.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.mapMultiplyToSelf(double):::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+this.data == orig(this.data)
+size(this.data[]) == orig(size(this.data[]))
+this.data[] one of { [-0.0, -0.0, -1.0, -0.0, -1.0, -1.0], [0.0, 0.0, 1.0, 0.0, 1.0, 1.0] }
+return.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+size(this.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.subtract(org.apache.commons.math.linear.RealVector):::ENTER
+this.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 1.0, 1.0, 0.0, 0.0] }
+v.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+size(this.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.subtract(org.apache.commons.math.linear.RealVector):::EXIT324
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.subtract(org.apache.commons.math.linear.RealVector):::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 1.0, 1.0, 0.0, 0.0] }
+return.data[] elements one of { -1.0, 0.0, 1.0 }
+return.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 0.0, 1.0, -1.0, -1.0] }
+size(this.data[]) == 6
+size(return.data[]) == 6
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.toArray():::ENTER
+this.data[] elements one of { 0.0, 1.0 }
+this.data[] one of { [1.0, 0.0], [1.0, 1.0] }
+size(this.data[]) == 2
+===========================================================================
+org.apache.commons.math.linear.ArrayRealVector.toArray():::EXIT
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.prefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.suffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.separator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator.toString)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format)
+org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() == orig(org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName())
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data[] elements one of { 0.0, 1.0 }
+this.data[] one of { [1.0, 0.0], [1.0, 1.0] }
+return[] elements one of { 0.0, 1.0 }
+return[] one of { [1.0, 0.0], [1.0, 1.0] }
+size(this.data[]) == 2
+size(return[]) == 2
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkColumnIndex(org.apache.commons.math.linear.AnyMatrix, int):::ENTER
+m.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+column >= 0
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkColumnIndex(org.apache.commons.math.linear.AnyMatrix, int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkMatrixIndex(org.apache.commons.math.linear.AnyMatrix, int, int):::ENTER
+m.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+row one of { 0, 1, 2 }
+column >= 0
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkMatrixIndex(org.apache.commons.math.linear.AnyMatrix, int, int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkRowIndex(org.apache.commons.math.linear.AnyMatrix, int):::ENTER
+m.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+row one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkRowIndex(org.apache.commons.math.linear.AnyMatrix, int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.RealLinearOperator:::OBJECT
+this.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+===========================================================================
+org.apache.commons.math.linear.RealLinearOperator.RealLinearOperator():::EXIT
+===========================================================================
+org.apache.commons.math.linear.RealVector:::OBJECT
+this.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+===========================================================================
+org.apache.commons.math.linear.RealVector.RealVector():::EXIT
+===========================================================================
+org.apache.commons.math.linear.RealVector.mapMultiply(double):::ENTER
+d one of { -1.0, 1.0 }
+===========================================================================
+org.apache.commons.math.linear.RealVector.mapMultiply(double):::EXIT
+return.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat:::CLASS
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == "{"
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == "}"
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR has only one value
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == "; "
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat:::OBJECT
+this has only one value
+this.prefix has only one value
+this.prefix.toString == "{"
+this.suffix has only one value
+this.suffix.toString == "}"
+this.separator has only one value
+this.separator.toString == "; "
+this.trimmedPrefix has only one value
+this.trimmedPrefix.toString == "{"
+this.trimmedSuffix has only one value
+this.trimmedSuffix.toString == "}"
+this.trimmedSeparator has only one value
+this.trimmedSeparator.toString == ";"
+this.format has only one value
+this.format.getClass().getName() == java.text.DecimalFormat.class
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat.RealVectorFormat(java.lang.String, java.lang.String, java.lang.String, java.text.NumberFormat):::ENTER
+prefix has only one value
+prefix.toString == "{"
+suffix has only one value
+suffix.toString == "}"
+separator has only one value
+separator.toString == "; "
+format has only one value
+format.getClass().getName() == java.text.DecimalFormat.class
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat.RealVectorFormat(java.lang.String, java.lang.String, java.lang.String, java.text.NumberFormat):::EXIT
+prefix.toString == orig(prefix.toString)
+suffix.toString == orig(suffix.toString)
+separator.toString == orig(separator.toString)
+prefix.toString == "{"
+suffix.toString == "}"
+separator.toString == "; "
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat.RealVectorFormat(java.text.NumberFormat):::ENTER
+format has only one value
+format.getClass().getName() == java.text.DecimalFormat.class
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat.RealVectorFormat(java.text.NumberFormat):::EXIT
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat.getInstance():::ENTER
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat.getInstance():::EXIT
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+return has only one value
+return.prefix has only one value
+return.prefix.toString == "{"
+return.suffix has only one value
+return.suffix.toString == "}"
+return.separator has only one value
+return.separator.toString == "; "
+return.trimmedPrefix has only one value
+return.trimmedPrefix.toString == "{"
+return.trimmedSuffix has only one value
+return.trimmedSuffix.toString == "}"
+return.trimmedSeparator has only one value
+return.trimmedSeparator.toString == ";"
+return.format has only one value
+return.format.getClass().getName() == java.text.DecimalFormat.class
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat.getInstance(java.util.Locale):::ENTER
+locale has only one value
+===========================================================================
+org.apache.commons.math.linear.RealVectorFormat.getInstance(java.util.Locale):::EXIT
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_PREFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SUFFIX.toString)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR)
+org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString == orig(org.apache.commons.math.linear.RealVectorFormat.DEFAULT_SEPARATOR.toString)
+return has only one value
+return.prefix has only one value
+return.prefix.toString == "{"
+return.suffix has only one value
+return.suffix.toString == "}"
+return.separator has only one value
+return.separator.toString == "; "
+return.trimmedPrefix has only one value
+return.trimmedPrefix.toString == "{"
+return.trimmedSuffix has only one value
+return.trimmedSuffix.toString == "}"
+return.trimmedSeparator has only one value
+return.trimmedSeparator.toString == ";"
+return.format has only one value
+return.format.getClass().getName() == java.text.DecimalFormat.class
+===========================================================================
+org.apache.commons.math.optimization.GoalType:::OBJECT
+===========================================================================
+org.apache.commons.math.optimization.GoalType.GoalType(java.lang.String, int):::ENTER
+$hidden$1.toString one of { "MAXIMIZE", "MINIMIZE" }
+$hidden$2 one of { 0, 1 }
+===========================================================================
+org.apache.commons.math.optimization.GoalType.GoalType(java.lang.String, int):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+$hidden$1.toString one of { "MAXIMIZE", "MINIMIZE" }
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair:::OBJECT
+this has only one value
+this.point has only one value
+this.point[] == [1.0, -1.0]
+this.point[] elements one of { -1.0, 1.0 }
+this.value == 0.0
+size(this.point[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.RealPointValuePair(double[], double):::ENTER
+point has only one value
+point[] == [1.0, -1.0]
+point[] elements one of { -1.0, 1.0 }
+value == 0.0
+size(point[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.RealPointValuePair(double[], double):::EXIT
+point[] == orig(point[])
+point[] == [1.0, -1.0]
+point[] elements one of { -1.0, 1.0 }
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.getPoint():::ENTER
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.getPoint():::EXIT
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+this.value == orig(this.value)
+return[] == [1.0, -1.0]
+return[] elements one of { -1.0, 1.0 }
+size(return[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:::OBJECT
+this has only one value
+this.getClass().getName() == org.apache.commons.math.optimization.linear.SimplexSolver.class
+this.function.coefficients has only one value
+this.function.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+this.function.constantTerm == 0.0
+this.linearConstraints.getClass().getName() == java.util.ArrayList.class
+org.apache.commons.math.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math.optimization.GoalType[].class
+org.apache.commons.math.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math.optimization.GoalType, org.apache.commons.math.optimization.GoalType]
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math.optimization.GoalType.class
+this.maxIterations one of { 0, 100 }
+this.iterations one of { 0, 1 }
+size(org.apache.commons.math.optimization.GoalType.$VALUES[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.AbstractLinearOptimizer():::EXIT
+this.function == null
+this.linearConstraints == null
+this.goal == null
+this.nonNegative == false
+this.maxIterations == 100
+this.iterations == 0
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.incrementIterationsCounter():::ENTER
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.maxIterations == 100
+this.iterations == 0
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.incrementIterationsCounter():::EXIT
+this.function == orig(this.function)
+this.function.coefficients == orig(this.function.coefficients)
+this.function.coefficients.getClass().getName() == orig(this.function.coefficients.getClass().getName())
+this.function.constantTerm == orig(this.function.constantTerm)
+this.linearConstraints == orig(this.linearConstraints)
+this.linearConstraints.getClass().getName() == orig(this.linearConstraints.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+this.nonNegative == orig(this.nonNegative)
+this.maxIterations == orig(this.maxIterations)
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.maxIterations == 100
+this.iterations == 1
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(org.apache.commons.math.optimization.linear.LinearObjectiveFunction, java.util.Collection, org.apache.commons.math.optimization.GoalType, boolean):::ENTER
+this.function == null
+this.linearConstraints == null
+this.goal == null
+this.nonNegative == false
+this.maxIterations == 100
+this.iterations == 0
+f has only one value
+f.coefficients has only one value
+f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+f.constantTerm == 0.0
+constraints has only one value
+constraints.getClass().getName() == java.util.ArrayList.class
+goalType has only one value
+restrictToNonNegative == true
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(org.apache.commons.math.optimization.linear.LinearObjectiveFunction, java.util.Collection, org.apache.commons.math.optimization.GoalType, boolean):::EXIT
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+this.maxIterations == orig(this.maxIterations)
+f.coefficients == orig(f.coefficients)
+f.coefficients.getClass().getName() == orig(f.coefficients.getClass().getName())
+f.constantTerm == orig(f.constantTerm)
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.maxIterations == 100
+this.iterations == 1
+f.coefficients has only one value
+f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+f.constantTerm == 0.0
+return has only one value
+return.point has only one value
+return.point[] == [1.0, -1.0]
+return.point[] elements one of { -1.0, 1.0 }
+return.value == 0.0
+size(return.point[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.setMaxIterations(int):::ENTER
+this.function == null
+this.linearConstraints == null
+this.goal == null
+this.nonNegative == false
+this.maxIterations == 0
+this.iterations == 0
+maxIterations == 100
+===========================================================================
+org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.setMaxIterations(int):::EXIT
+this.function == orig(this.function)
+this.linearConstraints == orig(this.linearConstraints)
+this.goal == orig(this.goal)
+this.nonNegative == orig(this.nonNegative)
+this.iterations == orig(this.iterations)
+this.function == null
+this.linearConstraints == null
+this.goal == null
+this.nonNegative == false
+this.maxIterations == 100
+this.iterations == 0
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint:::OBJECT
+this.coefficients has only one value
+this.coefficients != null
+this.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+this.relationship has only one value
+this.relationship != null
+this.relationship.stringValue has only one value
+this.relationship.stringValue != null
+this.relationship.stringValue.toString == "="
+this.value == 1.0
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.LinearConstraint(double[], org.apache.commons.math.optimization.linear.Relationship, double):::ENTER
+coefficients has only one value
+coefficients[] == [1.0, 0.0]
+coefficients[] elements one of { 0.0, 1.0 }
+relationship has only one value
+relationship.stringValue has only one value
+relationship.stringValue.toString == "="
+value == 1.0
+size(coefficients[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.LinearConstraint(double[], org.apache.commons.math.optimization.linear.Relationship, double):::EXIT
+coefficients[] == orig(coefficients[])
+relationship.stringValue == orig(relationship.stringValue)
+relationship.stringValue.toString == orig(relationship.stringValue.toString)
+coefficients[] == [1.0, 0.0]
+coefficients[] elements one of { 0.0, 1.0 }
+relationship.stringValue has only one value
+relationship.stringValue.toString == "="
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.LinearConstraint(org.apache.commons.math.linear.RealVector, org.apache.commons.math.optimization.linear.Relationship, double):::ENTER
+coefficients has only one value
+coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+relationship has only one value
+relationship.stringValue has only one value
+relationship.stringValue.toString == "="
+value == 1.0
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.LinearConstraint(org.apache.commons.math.linear.RealVector, org.apache.commons.math.optimization.linear.Relationship, double):::EXIT
+relationship.stringValue == orig(relationship.stringValue)
+relationship.stringValue.toString == orig(relationship.stringValue.toString)
+relationship.stringValue has only one value
+relationship.stringValue.toString == "="
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.getCoefficients():::ENTER
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.getCoefficients():::EXIT
+this.coefficients == orig(this.coefficients)
+this.coefficients.getClass().getName() == orig(this.coefficients.getClass().getName())
+this.relationship == orig(this.relationship)
+this.relationship.stringValue == orig(this.relationship.stringValue)
+this.relationship.stringValue.toString == orig(this.relationship.stringValue.toString)
+this.value == orig(this.value)
+return has only one value
+return.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.getRelationship():::ENTER
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.getRelationship():::EXIT
+this.coefficients == orig(this.coefficients)
+this.coefficients.getClass().getName() == orig(this.coefficients.getClass().getName())
+this.relationship == orig(this.relationship)
+this.relationship.stringValue == orig(this.relationship.stringValue)
+this.relationship.stringValue.toString == orig(this.relationship.stringValue.toString)
+this.value == orig(this.value)
+return has only one value
+return.stringValue has only one value
+return.stringValue.toString == "="
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.getValue():::ENTER
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearConstraint.getValue():::EXIT
+this.coefficients == orig(this.coefficients)
+this.coefficients.getClass().getName() == orig(this.coefficients.getClass().getName())
+this.relationship == orig(this.relationship)
+this.relationship.stringValue == orig(this.relationship.stringValue)
+this.relationship.stringValue.toString == orig(this.relationship.stringValue.toString)
+this.value == orig(this.value)
+return == 1.0
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction:::OBJECT
+this has only one value
+this.coefficients has only one value
+this.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+this.constantTerm == 0.0
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction(double[], double):::ENTER
+coefficients has only one value
+coefficients[] == [1.0, 1.0]
+coefficients[] elements == 1.0
+constantTerm == 0.0
+size(coefficients[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction(double[], double):::EXIT
+coefficients[] == orig(coefficients[])
+coefficients[] == [1.0, 1.0]
+coefficients[] elements == 1.0
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction(org.apache.commons.math.linear.RealVector, double):::ENTER
+coefficients has only one value
+coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+constantTerm == 0.0
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction(org.apache.commons.math.linear.RealVector, double):::EXIT
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.getCoefficients():::ENTER
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.getCoefficients():::EXIT
+this.coefficients == orig(this.coefficients)
+this.coefficients.getClass().getName() == orig(this.coefficients.getClass().getName())
+this.constantTerm == orig(this.constantTerm)
+return has only one value
+return.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.getConstantTerm():::ENTER
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.getConstantTerm():::EXIT
+this.coefficients == orig(this.coefficients)
+this.coefficients.getClass().getName() == orig(this.coefficients.getClass().getName())
+this.constantTerm == orig(this.constantTerm)
+return == 0.0
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.getValue(double[]):::ENTER
+point has only one value
+point[] == [1.0, -1.0]
+point[] elements one of { -1.0, 1.0 }
+size(point[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.LinearObjectiveFunction.getValue(double[]):::EXIT
+this.coefficients == orig(this.coefficients)
+this.coefficients.getClass().getName() == orig(this.coefficients.getClass().getName())
+this.constantTerm == orig(this.constantTerm)
+point[] == orig(point[])
+point[] == [1.0, -1.0]
+point[] elements one of { -1.0, 1.0 }
+return == 0.0
+===========================================================================
+org.apache.commons.math.optimization.linear.Relationship:::OBJECT
+this.stringValue.toString one of { "<=", "=", ">=" }
+===========================================================================
+org.apache.commons.math.optimization.linear.Relationship.Relationship(java.lang.String, int, java.lang.String):::ENTER
+$hidden$1.toString one of { "EQ", "GEQ", "LEQ" }
+$hidden$2 one of { 0, 1, 2 }
+stringValue.toString one of { "<=", "=", ">=" }
+===========================================================================
+org.apache.commons.math.optimization.linear.Relationship.Relationship(java.lang.String, int, java.lang.String):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+stringValue.toString == orig(stringValue.toString)
+$hidden$1.toString one of { "EQ", "GEQ", "LEQ" }
+stringValue.toString one of { "<=", "=", ">=" }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver:::OBJECT
+this has only one value
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+this.function.coefficients has only one value
+this.function.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+this.function.constantTerm == 0.0
+this.linearConstraints.getClass().getName() == java.util.ArrayList.class
+org.apache.commons.math.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math.optimization.GoalType[].class
+org.apache.commons.math.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math.optimization.GoalType, org.apache.commons.math.optimization.GoalType]
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math.optimization.GoalType.class
+this.maxIterations == 100
+this.iterations one of { 0, 1 }
+size(org.apache.commons.math.optimization.GoalType.$VALUES[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.SimplexSolver():::EXIT
+this.function == null
+this.linearConstraints == null
+this.goal == null
+this.nonNegative == false
+this.iterations == 0
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.SimplexSolver(double, int):::ENTER
+epsilon == 1.0E-6
+maxUlps == 10
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.SimplexSolver(double, int):::EXIT
+this.function == null
+this.linearConstraints == null
+this.goal == null
+this.nonNegative == false
+this.iterations == 0
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(org.apache.commons.math.optimization.linear.SimplexTableau):::ENTER
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 0
+tableau has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+tableau.f has only one value
+tableau.f.coefficients has only one value
+tableau.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+tableau.f.constantTerm == 0.0
+tableau.constraints has only one value
+tableau.constraints[] contains no nulls and has only one value, of length 1
+tableau.constraints[] elements has only one value
+tableau.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+tableau.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+tableau.constraints.getClass().getName() == java.util.ArrayList.class
+tableau.restrictToNonNegative == true
+tableau.columnLabels has only one value
+tableau.columnLabels[] contains no nulls and has only one value, of length 6
+tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+tableau.columnLabels[].getClass().getName() elements == java.lang.String.class
+tableau.columnLabels.getClass().getName() == java.util.ArrayList.class
+tableau.tableau has only one value
+tableau.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+tableau.numDecisionVariables == 2
+tableau.numSlackVariables == 0
+tableau.numArtificialVariables == 1
+tableau.epsilon == 1.0E-6
+tableau.maxUlps == 10
+size(tableau.constraints[]) == 1
+size(tableau.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(org.apache.commons.math.optimization.linear.SimplexTableau):::EXIT
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.function == orig(this.function)
+this.function.coefficients == orig(this.function.coefficients)
+this.function.coefficients.getClass().getName() == orig(this.function.coefficients.getClass().getName())
+this.function.constantTerm == orig(this.function.constantTerm)
+this.linearConstraints == orig(this.linearConstraints)
+this.linearConstraints.getClass().getName() == orig(this.linearConstraints.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+this.nonNegative == orig(this.nonNegative)
+this.maxIterations == orig(this.maxIterations)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+tableau.f == orig(tableau.f)
+tableau.f.coefficients == orig(tableau.f.coefficients)
+tableau.f.coefficients.getClass().getName() == orig(tableau.f.coefficients.getClass().getName())
+tableau.f.constantTerm == orig(tableau.f.constantTerm)
+tableau.constraints == orig(tableau.constraints)
+tableau.constraints[] == orig(tableau.constraints[])
+tableau.constraints.getClass().getName() == orig(tableau.constraints.getClass().getName())
+tableau.restrictToNonNegative == orig(tableau.restrictToNonNegative)
+tableau.columnLabels == orig(tableau.columnLabels)
+tableau.columnLabels[] == orig(tableau.columnLabels[])
+tableau.columnLabels.getClass().getName() == orig(tableau.columnLabels.getClass().getName())
+tableau.tableau == orig(tableau.tableau)
+tableau.tableau.getClass().getName() == orig(tableau.tableau.getClass().getName())
+tableau.numDecisionVariables == orig(tableau.numDecisionVariables)
+tableau.numSlackVariables == orig(tableau.numSlackVariables)
+tableau.numArtificialVariables == orig(tableau.numArtificialVariables)
+tableau.epsilon == orig(tableau.epsilon)
+tableau.maxUlps == orig(tableau.maxUlps)
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 1
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+tableau.f has only one value
+tableau.f.coefficients has only one value
+tableau.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+tableau.f.constantTerm == 0.0
+tableau.constraints has only one value
+tableau.constraints[] contains no nulls and has only one value, of length 1
+tableau.constraints[] elements has only one value
+tableau.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+tableau.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+tableau.constraints.getClass().getName() == java.util.ArrayList.class
+tableau.restrictToNonNegative == true
+tableau.columnLabels has only one value
+tableau.columnLabels[] contains no nulls and has only one value, of length 6
+tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+tableau.columnLabels[].getClass().getName() elements == java.lang.String.class
+tableau.columnLabels.getClass().getName() == java.util.ArrayList.class
+tableau.tableau has only one value
+tableau.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+tableau.numDecisionVariables == 2
+tableau.numSlackVariables == 0
+tableau.numArtificialVariables == 1
+tableau.epsilon == 1.0E-6
+tableau.maxUlps == 10
+size(tableau.constraints[]) == 1
+size(tableau.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize():::ENTER
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 0
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize():::EXIT
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.function == orig(this.function)
+this.function.coefficients == orig(this.function.coefficients)
+this.function.coefficients.getClass().getName() == orig(this.function.coefficients.getClass().getName())
+this.function.constantTerm == orig(this.function.constantTerm)
+this.linearConstraints == orig(this.linearConstraints)
+this.linearConstraints.getClass().getName() == orig(this.linearConstraints.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+this.nonNegative == orig(this.nonNegative)
+this.maxIterations == orig(this.maxIterations)
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 1
+return has only one value
+return.point has only one value
+return.point[] == [1.0, -1.0]
+return.point[] elements one of { -1.0, 1.0 }
+return.value == 0.0
+size(return.point[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(org.apache.commons.math.optimization.linear.SimplexTableau):::ENTER
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 1
+tableau has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+tableau.f has only one value
+tableau.f.coefficients has only one value
+tableau.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+tableau.f.constantTerm == 0.0
+tableau.constraints has only one value
+tableau.constraints[] contains no nulls and has only one value, of length 1
+tableau.constraints[] elements has only one value
+tableau.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+tableau.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+tableau.constraints.getClass().getName() == java.util.ArrayList.class
+tableau.restrictToNonNegative == true
+tableau.columnLabels has only one value
+tableau.columnLabels[] contains no nulls and has only one value, of length 6
+tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+tableau.columnLabels[].getClass().getName() elements == java.lang.String.class
+tableau.columnLabels.getClass().getName() == java.util.ArrayList.class
+tableau.tableau has only one value
+tableau.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+tableau.numDecisionVariables == 2
+tableau.numSlackVariables == 0
+tableau.numArtificialVariables == 1
+tableau.epsilon == 1.0E-6
+tableau.maxUlps == 10
+size(tableau.constraints[]) == 1
+size(tableau.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(org.apache.commons.math.optimization.linear.SimplexTableau):::EXIT
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.function == orig(this.function)
+this.function.coefficients == orig(this.function.coefficients)
+this.function.coefficients.getClass().getName() == orig(this.function.coefficients.getClass().getName())
+this.function.constantTerm == orig(this.function.constantTerm)
+this.linearConstraints == orig(this.linearConstraints)
+this.linearConstraints.getClass().getName() == orig(this.linearConstraints.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+this.nonNegative == orig(this.nonNegative)
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+tableau.f == orig(tableau.f)
+tableau.f.coefficients == orig(tableau.f.coefficients)
+tableau.f.coefficients.getClass().getName() == orig(tableau.f.coefficients.getClass().getName())
+tableau.f.constantTerm == orig(tableau.f.constantTerm)
+tableau.constraints == orig(tableau.constraints)
+tableau.constraints[] == orig(tableau.constraints[])
+tableau.constraints.getClass().getName() == orig(tableau.constraints.getClass().getName())
+tableau.restrictToNonNegative == orig(tableau.restrictToNonNegative)
+tableau.columnLabels == orig(tableau.columnLabels)
+tableau.columnLabels[] == orig(tableau.columnLabels[])
+tableau.columnLabels.getClass().getName() == orig(tableau.columnLabels.getClass().getName())
+tableau.tableau == orig(tableau.tableau)
+tableau.tableau.getClass().getName() == orig(tableau.tableau.getClass().getName())
+tableau.numDecisionVariables == orig(tableau.numDecisionVariables)
+tableau.numSlackVariables == orig(tableau.numSlackVariables)
+tableau.numArtificialVariables == orig(tableau.numArtificialVariables)
+tableau.epsilon == orig(tableau.epsilon)
+tableau.maxUlps == orig(tableau.maxUlps)
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 1
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+tableau.f has only one value
+tableau.f.coefficients has only one value
+tableau.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+tableau.f.constantTerm == 0.0
+tableau.constraints has only one value
+tableau.constraints[] contains no nulls and has only one value, of length 1
+tableau.constraints[] elements has only one value
+tableau.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+tableau.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+tableau.constraints.getClass().getName() == java.util.ArrayList.class
+tableau.restrictToNonNegative == true
+tableau.columnLabels has only one value
+tableau.columnLabels[] contains no nulls and has only one value, of length 6
+tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+tableau.columnLabels[].getClass().getName() elements == java.lang.String.class
+tableau.columnLabels.getClass().getName() == java.util.ArrayList.class
+tableau.tableau has only one value
+tableau.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+tableau.numDecisionVariables == 2
+tableau.numSlackVariables == 0
+tableau.numArtificialVariables == 1
+tableau.epsilon == 1.0E-6
+tableau.maxUlps == 10
+return has only one value
+size(tableau.constraints[]) == 1
+size(tableau.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.getPivotRow(org.apache.commons.math.optimization.linear.SimplexTableau, int):::ENTER
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 1
+tableau has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+tableau.f has only one value
+tableau.f.coefficients has only one value
+tableau.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+tableau.f.constantTerm == 0.0
+tableau.constraints has only one value
+tableau.constraints[] contains no nulls and has only one value, of length 1
+tableau.constraints[] elements has only one value
+tableau.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+tableau.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+tableau.constraints.getClass().getName() == java.util.ArrayList.class
+tableau.restrictToNonNegative == true
+tableau.columnLabels has only one value
+tableau.columnLabels[] contains no nulls and has only one value, of length 6
+tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+tableau.columnLabels[].getClass().getName() elements == java.lang.String.class
+tableau.columnLabels.getClass().getName() == java.util.ArrayList.class
+tableau.tableau has only one value
+tableau.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+tableau.numDecisionVariables == 2
+tableau.numSlackVariables == 0
+tableau.numArtificialVariables == 1
+tableau.epsilon == 1.0E-6
+tableau.maxUlps == 10
+col == 2
+size(tableau.constraints[]) == 1
+size(tableau.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.getPivotRow(org.apache.commons.math.optimization.linear.SimplexTableau, int):::EXIT125
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.getPivotRow(org.apache.commons.math.optimization.linear.SimplexTableau, int):::EXIT
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.function == orig(this.function)
+this.function.coefficients == orig(this.function.coefficients)
+this.function.coefficients.getClass().getName() == orig(this.function.coefficients.getClass().getName())
+this.function.constantTerm == orig(this.function.constantTerm)
+this.linearConstraints == orig(this.linearConstraints)
+this.linearConstraints.getClass().getName() == orig(this.linearConstraints.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+this.nonNegative == orig(this.nonNegative)
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+tableau.f == orig(tableau.f)
+tableau.f.coefficients == orig(tableau.f.coefficients)
+tableau.f.coefficients.getClass().getName() == orig(tableau.f.coefficients.getClass().getName())
+tableau.f.constantTerm == orig(tableau.f.constantTerm)
+tableau.constraints == orig(tableau.constraints)
+tableau.constraints[] == orig(tableau.constraints[])
+tableau.constraints.getClass().getName() == orig(tableau.constraints.getClass().getName())
+tableau.restrictToNonNegative == orig(tableau.restrictToNonNegative)
+tableau.columnLabels == orig(tableau.columnLabels)
+tableau.columnLabels[] == orig(tableau.columnLabels[])
+tableau.columnLabels.getClass().getName() == orig(tableau.columnLabels.getClass().getName())
+tableau.tableau == orig(tableau.tableau)
+tableau.tableau.getClass().getName() == orig(tableau.tableau.getClass().getName())
+tableau.numDecisionVariables == orig(tableau.numDecisionVariables)
+tableau.numSlackVariables == orig(tableau.numSlackVariables)
+tableau.numArtificialVariables == orig(tableau.numArtificialVariables)
+tableau.epsilon == orig(tableau.epsilon)
+tableau.maxUlps == orig(tableau.maxUlps)
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 1
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+tableau.f has only one value
+tableau.f.coefficients has only one value
+tableau.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+tableau.f.constantTerm == 0.0
+tableau.constraints has only one value
+tableau.constraints[] contains no nulls and has only one value, of length 1
+tableau.constraints[] elements has only one value
+tableau.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+tableau.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+tableau.constraints.getClass().getName() == java.util.ArrayList.class
+tableau.restrictToNonNegative == true
+tableau.columnLabels has only one value
+tableau.columnLabels[] contains no nulls and has only one value, of length 6
+tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+tableau.columnLabels[].getClass().getName() elements == java.lang.String.class
+tableau.columnLabels.getClass().getName() == java.util.ArrayList.class
+tableau.tableau has only one value
+tableau.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+tableau.numDecisionVariables == 2
+tableau.numSlackVariables == 0
+tableau.numArtificialVariables == 1
+tableau.epsilon == 1.0E-6
+tableau.maxUlps == 10
+return has only one value
+size(tableau.constraints[]) == 1
+size(tableau.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(org.apache.commons.math.optimization.linear.SimplexTableau):::ENTER
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 0
+tableau has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+tableau.f has only one value
+tableau.f.coefficients has only one value
+tableau.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+tableau.f.constantTerm == 0.0
+tableau.constraints has only one value
+tableau.constraints[] contains no nulls and has only one value, of length 1
+tableau.constraints[] elements has only one value
+tableau.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+tableau.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+tableau.constraints.getClass().getName() == java.util.ArrayList.class
+tableau.restrictToNonNegative == true
+tableau.columnLabels has only one value
+tableau.columnLabels[] contains no nulls and has only one value, of length 6
+tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+tableau.columnLabels[].getClass().getName() elements == java.lang.String.class
+tableau.columnLabels.getClass().getName() == java.util.ArrayList.class
+tableau.tableau has only one value
+tableau.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+tableau.numDecisionVariables == 2
+tableau.numSlackVariables == 0
+tableau.numArtificialVariables == 1
+tableau.epsilon == 1.0E-6
+tableau.maxUlps == 10
+size(tableau.constraints[]) == 1
+size(tableau.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(org.apache.commons.math.optimization.linear.SimplexTableau):::EXIT181
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(org.apache.commons.math.optimization.linear.SimplexTableau):::EXIT
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.function == orig(this.function)
+this.function.coefficients == orig(this.function.coefficients)
+this.function.coefficients.getClass().getName() == orig(this.function.coefficients.getClass().getName())
+this.function.constantTerm == orig(this.function.constantTerm)
+this.linearConstraints == orig(this.linearConstraints)
+this.linearConstraints.getClass().getName() == orig(this.linearConstraints.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+this.nonNegative == orig(this.nonNegative)
+this.maxIterations == orig(this.maxIterations)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+tableau.f == orig(tableau.f)
+tableau.f.coefficients == orig(tableau.f.coefficients)
+tableau.f.coefficients.getClass().getName() == orig(tableau.f.coefficients.getClass().getName())
+tableau.f.constantTerm == orig(tableau.f.constantTerm)
+tableau.constraints == orig(tableau.constraints)
+tableau.constraints[] == orig(tableau.constraints[])
+tableau.constraints.getClass().getName() == orig(tableau.constraints.getClass().getName())
+tableau.restrictToNonNegative == orig(tableau.restrictToNonNegative)
+tableau.columnLabels == orig(tableau.columnLabels)
+tableau.columnLabels[] == orig(tableau.columnLabels[])
+tableau.columnLabels.getClass().getName() == orig(tableau.columnLabels.getClass().getName())
+tableau.tableau == orig(tableau.tableau)
+tableau.tableau.getClass().getName() == orig(tableau.tableau.getClass().getName())
+tableau.numDecisionVariables == orig(tableau.numDecisionVariables)
+tableau.numSlackVariables == orig(tableau.numSlackVariables)
+tableau.numArtificialVariables == orig(tableau.numArtificialVariables)
+tableau.epsilon == orig(tableau.epsilon)
+tableau.maxUlps == orig(tableau.maxUlps)
+this.function has only one value
+this.linearConstraints has only one value
+this.goal has only one value
+this.nonNegative == true
+this.iterations == 1
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+tableau.f has only one value
+tableau.f.coefficients has only one value
+tableau.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+tableau.f.constantTerm == 0.0
+tableau.constraints has only one value
+tableau.constraints[] contains no nulls and has only one value, of length 1
+tableau.constraints[] elements has only one value
+tableau.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+tableau.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+tableau.constraints.getClass().getName() == java.util.ArrayList.class
+tableau.restrictToNonNegative == true
+tableau.columnLabels has only one value
+tableau.columnLabels[] contains no nulls and has only one value, of length 6
+tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+tableau.columnLabels[].getClass().getName() elements == java.lang.String.class
+tableau.columnLabels.getClass().getName() == java.util.ArrayList.class
+tableau.tableau has only one value
+tableau.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+tableau.numDecisionVariables == 2
+tableau.numSlackVariables == 0
+tableau.numArtificialVariables == 1
+tableau.epsilon == 1.0E-6
+tableau.maxUlps == 10
+size(tableau.constraints[]) == 1
+size(tableau.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolverTest:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexSolverTest.SimplexSolverTest():::EXIT
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau:::CLASS
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL has only one value
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == "x-"
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau:::OBJECT
+this has only one value
+this.f has only one value
+this.f.coefficients has only one value
+this.f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+this.f.constantTerm == 0.0
+this.constraints[] contains no nulls and has only one value, of length 1
+this.constraints[] elements has only one value
+this.constraints[] elements != null
+this.constraints[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+this.constraints[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+this.constraints.getClass().getName() == java.util.ArrayList.class
+this.columnLabels has only one value
+this.columnLabels[] elements != null
+this.columnLabels[].getClass().getName() elements == java.lang.String.class
+this.columnLabels.getClass().getName() == java.util.ArrayList.class
+this.tableau.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+this.numDecisionVariables one of { 0, 2 }
+this.numSlackVariables == 0
+this.numArtificialVariables one of { 0, 1 }
+this.epsilon one of { 0.0, 1.0E-6 }
+this.maxUlps one of { 0, 10 }
+size(this.constraints[]) == 1
+size(this.columnLabels[])-1 != 0
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.SimplexTableau(org.apache.commons.math.optimization.linear.LinearObjectiveFunction, java.util.Collection, org.apache.commons.math.optimization.GoalType, boolean, double, int):::ENTER
+f has only one value
+f.coefficients has only one value
+f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+f.constantTerm == 0.0
+constraints has only one value
+constraints.getClass().getName() == java.util.ArrayList.class
+goalType has only one value
+org.apache.commons.math.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math.optimization.GoalType[].class
+org.apache.commons.math.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math.optimization.GoalType, org.apache.commons.math.optimization.GoalType]
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math.optimization.GoalType.class
+restrictToNonNegative == true
+epsilon == 1.0E-6
+maxUlps == 10
+size(org.apache.commons.math.optimization.GoalType.$VALUES[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.SimplexTableau(org.apache.commons.math.optimization.linear.LinearObjectiveFunction, java.util.Collection, org.apache.commons.math.optimization.GoalType, boolean, double, int):::EXIT
+f.coefficients == orig(f.coefficients)
+f.coefficients.getClass().getName() == orig(f.coefficients.getClass().getName())
+f.constantTerm == orig(f.constantTerm)
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+f.coefficients has only one value
+f.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+f.constantTerm == 0.0
+org.apache.commons.math.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math.optimization.GoalType[].class
+org.apache.commons.math.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math.optimization.GoalType, org.apache.commons.math.optimization.GoalType]
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math.optimization.GoalType.class
+size(this.columnLabels[]) == 6
+size(org.apache.commons.math.optimization.GoalType.$VALUES[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.copyArray(double[], double[]):::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+src[] elements one of { 0.0, 1.0 }
+src[] one of { [1.0, 0.0], [1.0, 1.0] }
+dest[] elements one of { -1.0, 0.0 }
+dest[] one of { [0.0, -1.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+size(src[]) == 2
+size(dest[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.copyArray(double[], double[]):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+src[] == orig(src[])
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+src[] elements one of { 0.0, 1.0 }
+src[] one of { [1.0, 0.0], [1.0, 1.0] }
+dest[] elements one of { -1.0, 0.0, 1.0 }
+dest[] one of { [0.0, -1.0, 1.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0, 0.0, 0.0] }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean):::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+maximize == false
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return has only one value
+return.getClass().getName() == org.apache.commons.math.linear.Array2DRowRealMatrix.class
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.divideRow(int, double):::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+dividendRow == 2
+divisor == 1.0
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.divideRow(int, double):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.dropPhase1Objective():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.dropPhase1Objective():::EXIT367
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.dropPhase1Objective():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 4
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 0
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) == 4
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getArtificialVariableOffset():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 0, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getArtificialVariableOffset():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return == 4
+size(this.columnLabels[]) one of { 0, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int):::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+col one of { 1, 2, 4 }
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int):::EXIT317
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numArtificialVariables == 1
+return == null
+orig(col) == 4
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int):::EXIT320
+this.columnLabels[] contains no nulls and has only one value, of length 4
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numArtificialVariables == 0
+orig(col) one of { 1, 2 }
+size(this.columnLabels[]) == 4
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+(this.columnLabels[] contains no nulls and has only one value, of length 4)  <==>  (orig(col) one of { 1, 2 })
+(this.columnLabels[] contains no nulls and has only one value, of length 4)  <==>  (size(this.columnLabels[]) == 4)
+(this.columnLabels[] contains no nulls and has only one value, of length 4)  <==>  (this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String])
+(this.columnLabels[] contains no nulls and has only one value, of length 4)  <==>  (this.numArtificialVariables == 0)
+(this.columnLabels[] contains no nulls and has only one value, of length 6)  <==>  (orig(col) == 4)
+(this.columnLabels[] contains no nulls and has only one value, of length 6)  <==>  (size(this.columnLabels[]) == 6)
+(this.columnLabels[] contains no nulls and has only one value, of length 6)  <==>  (this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String])
+(this.columnLabels[] contains no nulls and has only one value, of length 6)  <==>  (this.numArtificialVariables == 1)
+(this.columnLabels[] contains no nulls and has only one value, of length 6)  ==>  (return == null)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getConstraintTypeCounts(org.apache.commons.math.optimization.linear.Relationship):::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 2
+this.numArtificialVariables == 0
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+relationship.stringValue.toString one of { "<=", "=", ">=" }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getConstraintTypeCounts(org.apache.commons.math.optimization.linear.Relationship):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+relationship.stringValue == orig(relationship.stringValue)
+relationship.stringValue.toString == orig(relationship.stringValue.toString)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 2
+this.numArtificialVariables == 0
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+relationship.stringValue.toString one of { "<=", "=", ">=" }
+return one of { 0, 1 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getEntry(int, int):::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+row one of { 0, 1, 2 }
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getEntry(int, int):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return one of { -1.0, 0.0, 1.0 }
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getHeight():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getHeight():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return one of { 2, 3 }
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getNumArtificialVariables():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 4, 5, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getNumArtificialVariables():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return == 1
+size(this.columnLabels[]) one of { 4, 5, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getNumObjectiveFunctions():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 0, 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getNumObjectiveFunctions():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return one of { 1, 2 }
+size(this.columnLabels[]) one of { 0, 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getNumSlackVariables():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 4
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) == 4
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getNumSlackVariables():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 4
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return == 0
+size(this.columnLabels[]) == 4
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getOriginalNumDecisionVariables():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 2, 3, 4 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getOriginalNumDecisionVariables():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return == 2
+size(this.columnLabels[]) one of { 2, 3, 4 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getRhsOffset():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getRhsOffset():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return one of { 3, 5 }
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getSolution():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 4
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 0
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) == 4
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getSolution():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 4
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 0
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return has only one value
+return.point has only one value
+return.point[] == [1.0, -1.0]
+return.point[] elements one of { -1.0, 1.0 }
+return.value == 0.0
+size(this.columnLabels[]) == 4
+size(return.point[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getWidth():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.getWidth():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+return one of { 4, 6 }
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.initializeColumnLabels():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.initializeColumnLabels():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.isOptimal():::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.isOptimal():::EXIT385
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numArtificialVariables == 1
+return == false
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.isOptimal():::EXIT385;condition="not(return == true)"
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.isOptimal():::EXIT388
+return == true
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.isOptimal():::EXIT388;condition="return == true"
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.isOptimal():::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+(return == false)  ==>  (size(this.columnLabels[]) == 6)
+(return == false)  ==>  (this.columnLabels[] contains no nulls and has only one value, of length 6)
+(return == false)  ==>  (this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String])
+(return == false)  ==>  (this.numArtificialVariables == 1)
+(return == false)  ==>  (this.tableau has only one value)
+(return == true)  ==>  (size(this.columnLabels[]) one of { 4, 6 })
+(return == true)  ==>  (this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] })
+(return == true)  ==>  (this.numArtificialVariables one of { 0, 1 })
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+this.numDecisionVariables == 2
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.isOptimal():::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.isOptimal():::EXIT;condition="not(return == true)"
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numArtificialVariables == 1
+return == false
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.normalize(org.apache.commons.math.optimization.linear.LinearConstraint):::ENTER
+this.constraints == null
+this.restrictToNonNegative == false
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 0
+this.numArtificialVariables == 0
+this.epsilon == 0.0
+this.maxUlps == 0
+constraint has only one value
+constraint.coefficients has only one value
+constraint.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+constraint.relationship has only one value
+constraint.relationship.stringValue has only one value
+constraint.relationship.stringValue.toString == "="
+constraint.value == 1.0
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.normalize(org.apache.commons.math.optimization.linear.LinearConstraint):::EXIT265
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.normalize(org.apache.commons.math.optimization.linear.LinearConstraint):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+constraint.coefficients == orig(constraint.coefficients)
+constraint.coefficients.getClass().getName() == orig(constraint.coefficients.getClass().getName())
+constraint.relationship == orig(constraint.relationship)
+constraint.relationship.stringValue == orig(constraint.relationship.stringValue)
+constraint.relationship.stringValue.toString == orig(constraint.relationship.stringValue.toString)
+constraint.value == orig(constraint.value)
+this.constraints == null
+this.restrictToNonNegative == false
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 0
+this.numArtificialVariables == 0
+this.epsilon == 0.0
+this.maxUlps == 0
+constraint.coefficients has only one value
+constraint.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+constraint.relationship has only one value
+constraint.relationship.stringValue has only one value
+constraint.relationship.stringValue.toString == "="
+constraint.value == 1.0
+return has only one value
+return.coefficients has only one value
+return.coefficients.getClass().getName() == org.apache.commons.math.linear.ArrayRealVector.class
+return.relationship has only one value
+return.relationship.stringValue has only one value
+return.relationship.stringValue.toString == "="
+return.value == 1.0
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.normalizeConstraints(java.util.Collection):::ENTER
+this.constraints == null
+this.restrictToNonNegative == false
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 0
+this.numArtificialVariables == 0
+this.epsilon == 0.0
+this.maxUlps == 0
+originalConstraints has only one value
+originalConstraints.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.normalizeConstraints(java.util.Collection):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints == null
+this.restrictToNonNegative == false
+this.columnLabels[] == []
+this.columnLabels[].getClass().getName() == []
+this.tableau == null
+this.numDecisionVariables == 0
+this.numArtificialVariables == 0
+this.epsilon == 0.0
+this.maxUlps == 0
+return has only one value
+return[] contains no nulls and has only one value, of length 1
+return[] elements has only one value
+return[].getClass().getName() == [org.apache.commons.math.optimization.linear.LinearConstraint]
+return[].getClass().getName() elements == org.apache.commons.math.optimization.linear.LinearConstraint.class
+return.getClass().getName() == java.util.ArrayList.class
+size(return[]) == 1
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.subtractRow(int, int, double):::ENTER
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+minuendRow one of { 0, 1 }
+subtrahendRow == 2
+multiple one of { -1.0, 1.0 }
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.optimization.linear.SimplexTableau.subtractRow(int, int, double):::EXIT
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL)
+org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString == orig(org.apache.commons.math.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.toString)
+this.f == orig(this.f)
+this.f.coefficients == orig(this.f.coefficients)
+this.f.coefficients.getClass().getName() == orig(this.f.coefficients.getClass().getName())
+this.f.constantTerm == orig(this.f.constantTerm)
+this.constraints == orig(this.constraints)
+this.constraints[] == orig(this.constraints[])
+this.constraints.getClass().getName() == orig(this.constraints.getClass().getName())
+this.restrictToNonNegative == orig(this.restrictToNonNegative)
+this.columnLabels == orig(this.columnLabels)
+this.columnLabels[] == orig(this.columnLabels[])
+this.columnLabels.getClass().getName() == orig(this.columnLabels.getClass().getName())
+this.tableau == orig(this.tableau)
+this.tableau.getClass().getName() == orig(this.tableau.getClass().getName())
+this.numDecisionVariables == orig(this.numDecisionVariables)
+this.numSlackVariables == orig(this.numSlackVariables)
+this.numArtificialVariables == orig(this.numArtificialVariables)
+this.epsilon == orig(this.epsilon)
+this.maxUlps == orig(this.maxUlps)
+this.constraints has only one value
+this.restrictToNonNegative == true
+this.columnLabels[] contains no nulls and has only one value, of length 6
+this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.tableau has only one value
+this.numDecisionVariables == 2
+this.numArtificialVariables == 1
+this.epsilon == 1.0E-6
+this.maxUlps == 10
+size(this.columnLabels[]) == 6
+===========================================================================
+org.apache.commons.math.util.CompositeFormat.getDefaultNumberFormat(java.util.Locale):::ENTER
+locale has only one value
+===========================================================================
+org.apache.commons.math.util.CompositeFormat.getDefaultNumberFormat(java.util.Locale):::EXIT
+return has only one value
+return.getClass().getName() == java.text.DecimalFormat.class
+===========================================================================
+org.apache.commons.math.util.MathUtils:::CLASS
+===========================================================================
+org.apache.commons.math.util.MathUtils.checkNotNull(java.lang.Object):::ENTER
+o has only one value
+o.getClass().getName() == double[][].class
+===========================================================================
+org.apache.commons.math.util.MathUtils.checkNotNull(java.lang.Object):::EXIT
+===========================================================================
+org.apache.commons.math.util.Precision:::CLASS
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, double):::ENTER
+x one of { -1.0, 0.0, 1.0 }
+y == 0.0
+eps == 1.0E-6
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, double):::EXIT66
+return == 0
+orig(x) == 0.0
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, double):::EXIT68
+return == -1
+orig(x) == -1.0
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, double):::EXIT70
+return == 1
+orig(x) == 1.0
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, double):::EXIT
+return one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, int):::ENTER
+x one of { -1.0, 0.0, 1.0 }
+y one of { -1.0, 0.0, 1.7976931348623157E308 }
+maxUlps == 10
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, int):::EXIT92
+return == 0
+orig(x) == 0.0
+orig(y) == 0.0
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, int):::EXIT94
+return == -1
+orig(x) one of { -1.0, 1.0 }
+orig(y) one of { 0.0, 1.7976931348623157E308 }
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, int):::EXIT96
+return == 1
+orig(x) one of { 0.0, 1.0 }
+orig(y) one of { -1.0, 0.0 }
+===========================================================================
+org.apache.commons.math.util.Precision.compareTo(double, double, int):::EXIT
+return one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.math.util.Precision.equals(double, double, double):::ENTER
+x one of { -1.0, 0.0, 1.0 }
+y == 0.0
+eps == 1.0E-6
+===========================================================================
+org.apache.commons.math.util.Precision.equals(double, double, double):::EXIT
+(return == false)  <==>  (orig(x) one of { -1.0, 1.0 })
+(return == true)  <==>  (orig(x) == 0.0)
+===========================================================================
+org.apache.commons.math.util.Precision.equals(double, double, double):::EXIT;condition="return == true"
+return == true
+orig(x) == 0.0
+===========================================================================
+org.apache.commons.math.util.Precision.equals(double, double, double):::EXIT;condition="not(return == true)"
+return == false
+orig(x) one of { -1.0, 1.0 }
+===========================================================================
+org.apache.commons.math.util.Precision.equals(double, double, int):::ENTER
+x one of { -1.0, 0.0, 1.0 }
+maxUlps one of { 1, 10 }
+===========================================================================
+org.apache.commons.math.util.Precision.equals(double, double, int):::EXIT
+(return == false)  ==>  (orig(x) one of { -1.0, 0.0, 1.0 })
+(return == true)  ==>  (orig(x) one of { 0.0, 1.0 })
+(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })
+===========================================================================
+org.apache.commons.math.util.Precision.equals(double, double, int):::EXIT;condition="return == true"
+return == true
+orig(x) one of { 0.0, 1.0 }
+orig(y) one of { 0.0, 1.0 }
+===========================================================================
+org.apache.commons.math.util.Precision.equals(double, double, int):::EXIT;condition="not(return == true)"
+return == false

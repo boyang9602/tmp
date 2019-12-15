@@ -1,0 +1,207 @@
+===========================================================================
+org.apache.commons.math3.exception.MathIllegalStateException:::CLASS
+===========================================================================
+org.apache.commons.math3.exception.MathIllegalStateException:::OBJECT
+this has only one value
+this.context has only one value
+this.context.throwable has only one value
+this.context.msgPatterns has only one value
+this.context.msgPatterns[] contains no nulls and has only one value, of length 1
+this.context.msgPatterns[] elements has only one value
+this.context.msgPatterns[].getClass().getName() == [org.apache.commons.math3.exception.util.LocalizedFormats]
+this.context.msgPatterns[].getClass().getName() elements == org.apache.commons.math3.exception.util.LocalizedFormats.class
+this.context.msgPatterns.getClass().getName() == java.util.ArrayList.class
+this.context.msgArguments has only one value
+this.context.msgArguments[] contains no nulls and has only one value, of length 1
+this.context.msgArguments[] elements has only one value
+this.context.msgArguments[].getClass().getName() == [java.lang.Object[]]
+this.context.msgArguments[].getClass().getName() elements == java.lang.Object[].class
+this.context.msgArguments.getClass().getName() == java.util.ArrayList.class
+this.context.context has only one value
+this.context.context.getClass().getName() == java.util.HashMap.class
+size(this.context.msgPatterns[]) == 1
+size(this.context.msgArguments[]) == 1
+===========================================================================
+org.apache.commons.math3.exception.MathIllegalStateException.MathIllegalStateException():::EXIT
+===========================================================================
+org.apache.commons.math3.exception.MathIllegalStateException.MathIllegalStateException(org.apache.commons.math3.exception.util.Localizable, java.lang.Object[]):::ENTER
+pattern has only one value
+pattern.getClass().getName() == org.apache.commons.math3.exception.util.LocalizedFormats.class
+args has only one value
+args.getClass().getName() == java.lang.Object[].class
+args[] == []
+===========================================================================
+org.apache.commons.math3.exception.MathIllegalStateException.MathIllegalStateException(org.apache.commons.math3.exception.util.Localizable, java.lang.Object[]):::EXIT
+args[] == orig(args[])
+args[] == []
+===========================================================================
+org.apache.commons.math3.exception.util.ArgUtils.flatten(java.lang.Object[]):::ENTER
+array has only one value
+array.getClass().getName() == java.lang.Object[].class
+array[] == []
+===========================================================================
+org.apache.commons.math3.exception.util.ArgUtils.flatten(java.lang.Object[]):::EXIT
+array[] == orig(array[])
+array[] == []
+return has only one value
+return.getClass().getName() == java.lang.Object[].class
+return[] == []
+===========================================================================
+org.apache.commons.math3.exception.util.ExceptionContext:::CLASS
+===========================================================================
+org.apache.commons.math3.exception.util.ExceptionContext:::OBJECT
+this has only one value
+this.throwable has only one value
+this.msgPatterns has only one value
+this.msgPatterns[] elements has only one value
+this.msgPatterns[].getClass().getName() elements == org.apache.commons.math3.exception.util.LocalizedFormats.class
+this.msgPatterns[].getClass().getName() one of { [], [org.apache.commons.math3.exception.util.LocalizedFormats] }
+this.msgPatterns.getClass().getName() == java.util.ArrayList.class
+this.msgArguments has only one value
+this.msgArguments[] elements has only one value
+this.msgArguments[].getClass().getName() elements == java.lang.Object[].class
+this.msgArguments[].getClass().getName() one of { [], [java.lang.Object[]] }
+this.msgArguments.getClass().getName() == java.util.ArrayList.class
+this.context has only one value
+this.context.getClass().getName() == java.util.HashMap.class
+size(this.msgPatterns[]) one of { 0, 1 }
+size(this.msgArguments[]) one of { 0, 1 }
+===========================================================================
+org.apache.commons.math3.exception.util.ExceptionContext.ExceptionContext(java.lang.Throwable):::ENTER
+throwable has only one value
+===========================================================================
+org.apache.commons.math3.exception.util.ExceptionContext.ExceptionContext(java.lang.Throwable):::EXIT
+this.msgPatterns[] == []
+this.msgPatterns[].getClass().getName() == []
+this.msgArguments[] == []
+this.msgArguments[].getClass().getName() == []
+===========================================================================
+org.apache.commons.math3.exception.util.ExceptionContext.addMessage(org.apache.commons.math3.exception.util.Localizable, java.lang.Object[]):::ENTER
+this.msgPatterns[] == []
+this.msgPatterns[].getClass().getName() == []
+this.msgArguments[] == []
+this.msgArguments[].getClass().getName() == []
+pattern has only one value
+pattern.getClass().getName() == org.apache.commons.math3.exception.util.LocalizedFormats.class
+arguments has only one value
+arguments.getClass().getName() == java.lang.Object[].class
+arguments[] == []
+===========================================================================
+org.apache.commons.math3.exception.util.ExceptionContext.addMessage(org.apache.commons.math3.exception.util.Localizable, java.lang.Object[]):::EXIT
+this.throwable == orig(this.throwable)
+this.msgPatterns == orig(this.msgPatterns)
+this.msgPatterns.getClass().getName() == orig(this.msgPatterns.getClass().getName())
+this.msgArguments == orig(this.msgArguments)
+this.msgArguments.getClass().getName() == orig(this.msgArguments.getClass().getName())
+this.context == orig(this.context)
+this.context.getClass().getName() == orig(this.context.getClass().getName())
+arguments[] == orig(arguments[])
+size(this.msgPatterns[])-1 == orig(size(this.msgPatterns[]))
+size(this.msgArguments[])-1 == orig(size(this.msgArguments[]))
+this.msgPatterns[] contains no nulls and has only one value, of length 1
+this.msgPatterns[].getClass().getName() == [org.apache.commons.math3.exception.util.LocalizedFormats]
+this.msgArguments[] contains no nulls and has only one value, of length 1
+this.msgArguments[].getClass().getName() == [java.lang.Object[]]
+arguments[] == []
+size(this.msgPatterns[]) == 1
+size(this.msgArguments[]) == 1
+===========================================================================
+org.apache.commons.math3.exception.util.LocalizedFormats:::OBJECT
+this.sourceFormat != null
+===========================================================================
+org.apache.commons.math3.exception.util.LocalizedFormats.LocalizedFormats(java.lang.String, int, java.lang.String):::ENTER
+$hidden$1 != null
+sourceFormat != null
+===========================================================================
+org.apache.commons.math3.exception.util.LocalizedFormats.LocalizedFormats(java.lang.String, int, java.lang.String):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+sourceFormat.toString == orig(sourceFormat.toString)
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser:::OBJECT
+this has only one value
+this.observations has only one value
+this.observations.getClass().getName() == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[].class
+this.observations[] contains no nulls and has only one value, of length 31
+this.observations[].getClass().getName() == [org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint]
+this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+this.observations[].weight == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+this.observations[].weight elements == 1.0
+this.observations[].x == [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0]
+this.observations[].x elements >= 0.0
+this.observations[].y == [0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0]
+this.a == 0.0
+this.omega == 0.0
+this.phi == 0.0
+size(this.observations[]) == 31
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.ParameterGuesser(org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[]):::ENTER
+observations has only one value
+observations.getClass().getName() == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[].class
+observations[] contains no nulls and has only one value, of length 31
+observations[].weight == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+observations[].weight elements == 1.0
+observations[].x == [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0]
+observations[].y == [0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0]
+size(observations[]) == 31
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.ParameterGuesser(org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[]):::EXIT
+observations[] == orig(observations[])
+observations[].weight == orig(observations[].weight)
+observations[].x == orig(observations[].x)
+observations[].y == orig(observations[].y)
+observations[] contains no nulls and has only one value, of length 31
+observations[].weight == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+observations[].weight elements == 1.0
+observations[].x == [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0]
+observations[].y == [0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0]
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.sortObservations():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.sortObservations():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[] == orig(this.observations[])
+this.observations[].weight == orig(this.observations[].weight)
+this.observations[].x == orig(this.observations[].x)
+this.observations[].y == orig(this.observations[].y)
+this.a == orig(this.a)
+this.omega == orig(this.omega)
+this.phi == orig(this.phi)
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.HarmonicFitterTest():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint:::CLASS
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint:::OBJECT
+this.weight == 1.0
+this.x >= 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint(double, double, double):::ENTER
+weight == 1.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint(double, double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getX():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getX():::EXIT
+this.weight == orig(this.weight)
+this.x == orig(this.x)
+this.y == orig(this.y)
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getY():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getY():::EXIT
+this.weight == orig(this.weight)
+this.x == orig(this.x)
+this.y == orig(this.y)
+===========================================================================
+org.apache.commons.math3.util.FastMath:::CLASS
+===========================================================================
+org.apache.commons.math3.util.FastMath.sqrt(double):::ENTER
+a == Infinity
+===========================================================================
+org.apache.commons.math3.util.FastMath.sqrt(double):::EXIT
+return == Infinity

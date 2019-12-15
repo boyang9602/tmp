@@ -1,0 +1,358 @@
+{
+    "org.apache.commons.math.util.MathUtils": [
+        {
+            "equals(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y <= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "PatchHDRepair8.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })",
+                                    "orig(y) one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "PatchHDRepair8.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })",
+                                    "orig(y) one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })",
+                                    "orig(y) one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })",
+                                    "orig(y) one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "compareTo(double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": [
+                                    "y == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": [
+                                    "y == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": [
+                                    "y == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "368": [
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(y) == 0.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "370": [
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(y) one of { -3.0, 0.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "372": [
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y <= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "PatchHDRepair8.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": [
+                                    "y one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })",
+                                    "orig(y) one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "PatchHDRepair8.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })",
+                                    "orig(y) one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })",
+                                    "orig(y) one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(y) one of { 0.0, 1.0 })",
+                                    "orig(y) one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

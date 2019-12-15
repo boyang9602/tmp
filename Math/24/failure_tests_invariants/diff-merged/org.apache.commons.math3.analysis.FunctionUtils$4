@@ -1,0 +1,40 @@
+{
+    "org.apache.commons.math3.analysis.FunctionUtils$4": [
+        {
+            "value(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch157.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch157.inv.output": {
+                                "invs": [
+                                    "return == -0.9999999999999881"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -1.999999999999999, -0.9999999999999881 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

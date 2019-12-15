@@ -1,0 +1,135 @@
+{
+    "org.jfree.chart.text.G2TextMeasurer": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "this.g2 has only one value",
+                            "this has only one value",
+                            "this.g2.getClass().getName() == sun.java2d.SunGraphics2D.class"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.g2 has only one value",
+                            "this has only one value",
+                            "this.g2.getClass().getName() == sun.java2d.SunGraphics2D.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "getStringWidth(java.lang.String, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "end == 5",
+                                    "start == 0",
+                                    "text has only one value",
+                                    "text.toString == \"Title\"",
+                                    "start >= 0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "end == 5",
+                                    "start == 0",
+                                    "text has only one value",
+                                    "text.toString == \"Title\"",
+                                    "start >= 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "return == 52.0",
+                                    "text.toString == \"Title\"",
+                                    "text.toString == orig(text.toString)",
+                                    "this.g2 == orig(this.g2)",
+                                    "this.g2.getClass().getName() == orig(this.g2.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == 52.0",
+                                    "text.toString == \"Title\"",
+                                    "text.toString == orig(text.toString)",
+                                    "this.g2 == orig(this.g2)",
+                                    "this.g2.getClass().getName() == orig(this.g2.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "G2TextMeasurer(java.awt.Graphics2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "g2 has only one value",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "g2 has only one value",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

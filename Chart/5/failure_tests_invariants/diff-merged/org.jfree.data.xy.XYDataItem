@@ -1,0 +1,86 @@
+{
+    "org.jfree.data.xy.XYDataItem": [
+        {
+            "getX()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.y == null",
+                                    "this has only one value",
+                                    "this.x has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.y.getClass().getName() == orig(this.y.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.y == null",
+                                    "return has only one value",
+                                    "this.x has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "compareTo(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "o1 has only one value",
+                                    "this.y has only one value",
+                                    "this has only one value",
+                                    "this.x has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.y has only one value",
+                                    "this.x has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "org.jfree.chart.util.GradientPaintTransformType": [
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "obj != null",
+                                    "this.name.toString one of { \"GradientPaintTransformType.CENTER_VERTICAL\", \"GradientPaintTransformType.VERTICAL\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.name.toString == \"GradientPaintTransformType.VERTICAL\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.name.toString one of { \"GradientPaintTransformType.CENTER_VERTICAL\", \"GradientPaintTransformType.VERTICAL\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "orig(obj) has only one value",
+                                    "this.name.toString == \"GradientPaintTransformType.VERTICAL\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "116": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(obj) has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "119": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.name.toString == \"GradientPaintTransformType.VERTICAL\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "108": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this) has only one value",
+                                            "return == true",
+                                            "orig(obj) has only one value",
+                                            "this.name.toString == \"GradientPaintTransformType.CENTER_VERTICAL\"",
+                                            "this.name has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

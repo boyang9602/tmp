@@ -1,0 +1,200 @@
+{
+    "org.jfree.chart.axis.Tick": [
+        {
+            "Tick(java.lang.String, org.jfree.chart.text.TextAnchor, org.jfree.chart.text.TextAnchor, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "textAnchor.name.toString one of { \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "rotationAnchor.name.toString one of { \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "textAnchor.name.toString one of { \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "rotationAnchor.name.toString one of { \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAngle()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRotationAnchor()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "return.name.toString one of { \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "return.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getText()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTextAnchor()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "return.name.toString one of { \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "return.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER_RIGHT\", \"TextAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "org.apache.commons.math3.util.FastMath": [
+        {
+            "sqrt(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch197.inv.output": {
+                                "invs": [
+                                    "a == Infinity"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "a one of { 0.0, Infinity }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch197.inv.output": {
+                                "invs": [
+                                    "return == Infinity"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 0.0, Infinity }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CLASS": [
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "polyCosine(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x == -0.05420367320510344"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == -0.0014686594601684196"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sinQ(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "xa == 1.5707963267948966",
+                                    "xb == 6.123233995736766E-17"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cosQ(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "xb == 0.0",
+                                    "xa == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "polySine(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x == -0.05420367320510344"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 2.6538178167060653E-5"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "org.apache.commons.math.analysis.BrentSolver": [
+        {
+            "solve(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "min one of { 3.0, 3.141592653589793 }",
+                                    "max one of { 3.141592653589793, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.result == 0.0",
+                                    "max == 4.0",
+                                    "this.resultComputed == false",
+                                    "min == 3.141592653589793"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch77.inv.output": {
+                                "invs": [
+                                    "min one of { 3.0, 3.141592653589793 }",
+                                    "max one of { 3.141592653589793, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch208.inv.output": {
+                                "invs": [
+                                    "min one of { 3.0, 3.141592653589793 }",
+                                    "max one of { 3.141592653589793, 4.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == true",
+                                    "return one of { 3.141592653589793, Double.NaN }",
+                                    "return == 3.141592653589793"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == true",
+                                    "return == 3.141592653589793"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch77.inv.output": {
+                                "invs": [
+                                    "return one of { 3.141592653589793, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch208.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == true",
+                                    "return one of { 3.141592653589793, Double.NaN }",
+                                    "return == 3.141592653589793"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solve(double, double, double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch208.inv.output": {
+                                "invs": [
+                                    "y1 one of { -0.7568024953079282, 1.2246467991473532E-16 }",
+                                    "x0 one of { 3.0, 3.141592653589793 }",
+                                    "y2 one of { 1.2246467991473532E-16, 0.1411200080598672 }",
+                                    "x1 one of { 3.141592653589793, 4.0 }",
+                                    "y0 one of { 1.2246467991473532E-16, 0.1411200080598672 }",
+                                    "x2 one of { 3.0, 3.141592653589793 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y2 == 1.2246467991473532E-16",
+                                    "y1 == -0.7568024953079282",
+                                    "this.result == 0.0",
+                                    "x1 == 4.0",
+                                    "x0 == 3.141592653589793",
+                                    "y0 == 1.2246467991473532E-16",
+                                    "x2 == 3.141592653589793"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch208.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "194": [
+                                {
+                                    "Patch208.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "195": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch208.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "org.mockito.internal.reporting.SmartPrinter": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.wanted.toString == \"fun.doFun(\\\"hello\\\");\"",
+                            "this.actual.toString == \"fun.doFun(null);\"",
+                            "this.wanted has only one value",
+                            "this.actual has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "getActual()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.wanted.toString == orig(this.wanted.toString)",
+                                    "return has only one value",
+                                    "this.actual.toString == orig(this.actual.toString)",
+                                    "return.toString == \"fun.doFun(null);\"",
+                                    "this.actual == orig(this.actual)",
+                                    "this.wanted == orig(this.wanted)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "SmartPrinter(org.mockito.internal.reporting.PrintingFriendlyInvocation, org.mockito.internal.reporting.PrintingFriendlyInvocation, java.lang.Integer[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo.getClass().getName() == java.lang.Integer[].class",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == []",
+                                    "actual.getClass().getName() == org.mockito.internal.invocation.Invocation.class",
+                                    "wanted.getClass().getName() == org.mockito.internal.invocation.InvocationMatcher.class",
+                                    "wanted has only one value",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo has only one value",
+                                    "actual has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == []",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == orig(indexesOfMatchersToBeDescribedWithExtraTypeInfo[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWanted()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.wanted.toString == orig(this.wanted.toString)",
+                                    "return has only one value",
+                                    "this.actual.toString == orig(this.actual.toString)",
+                                    "this.actual == orig(this.actual)",
+                                    "return.toString == \"fun.doFun(\\\"hello\\\");\"",
+                                    "this.wanted == orig(this.wanted)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

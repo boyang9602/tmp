@@ -1,0 +1,38 @@
+{
+    "org.apache.commons.math.ode.TestProblemHandler": [
+        {
+            "handleStep(org.apache.commons.math.ode.sampling.StepInterpolator, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.expectedStepStart != orig(this.expectedStepStart)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

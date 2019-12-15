@@ -1,0 +1,91 @@
+{
+    "org.apache.commons.math.util.Precision": [
+        {
+            "equals(double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch39.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x one of { -0.009999998005263558, 1.9375E-9 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch37.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch161.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch39.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) == 0.0)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) == 0.0)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch37.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) == 0.0)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) == 0.0)",
+                                    "return == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch161.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) == 0.0)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

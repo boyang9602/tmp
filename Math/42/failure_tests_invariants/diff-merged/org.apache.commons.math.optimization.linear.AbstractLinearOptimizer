@@ -1,0 +1,107 @@
+{
+    "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer": [
+        {
+            "optimize(org.apache.commons.math.optimization.linear.LinearObjectiveFunction, java.util.Collection, org.apache.commons.math.optimization.GoalType, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 0.0",
+                                    "return.point[] == [0.0, 0.0]",
+                                    "return.point[] elements one of { 0.0, 1.0 }",
+                                    "this.iterations == 1",
+                                    "return.point[] == [1.0, 0.0]",
+                                    "return.value == 1.0",
+                                    "this.iterations == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.point[] == [1.0, -1.0]",
+                                    "return.value == 0.0",
+                                    "this.iterations == 1",
+                                    "return.point[] elements one of { -1.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 0.0",
+                                    "return.point[] == [0.0, 0.0]",
+                                    "return.value == 0.0",
+                                    "return.point[] elements one of { 0.0, 1.0 }",
+                                    "return.point[] == [1.0, 0.0]",
+                                    "return.value == 1.0",
+                                    "this.iterations == 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "incrementIterationsCounter()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterations == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterations == 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

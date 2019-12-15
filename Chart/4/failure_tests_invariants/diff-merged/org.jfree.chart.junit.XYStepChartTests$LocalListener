@@ -1,0 +1,217 @@
+{
+    "org.jfree.chart.junit.XYStepChartTests$LocalListener": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "LocalListener()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.flag == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chartChanged(org.jfree.chart.event.ChartChangeEvent)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "event.chart.borderStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "event.type has only one value",
+                                    "event.type.name has only one value",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_IMAGE == null",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_TITLE_FONT has only one value",
+                                    "org.jfree.chart.event.ChartChangeEventType.NEW_DATASET has only one value",
+                                    "event.chart.title has only one value",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "event.chart.backgroundImage == null",
+                                    "org.jfree.chart.event.ChartChangeEventType.GENERAL has only one value",
+                                    "event has only one value",
+                                    "event.chart.plot.getClass().getName() == org.jfree.chart.plot.XYPlot.class",
+                                    "event.chart has only one value",
+                                    "event.chart.plot has only one value",
+                                    "event.chart.borderPaint has only one value",
+                                    "event.chart.changeListeners has only one value",
+                                    "event.chart.borderVisible == false",
+                                    "this.flag == false",
+                                    "org.jfree.chart.JFreeChart.INFO has only one value",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_PAINT has only one value",
+                                    "org.jfree.chart.JFreeChart.class$org$jfree$chart$event$ChartProgressListener == null",
+                                    "event.chart.subtitles[] elements has only one value",
+                                    "event.chart.subtitles has only one value",
+                                    "event.chart.renderingHints has only one value",
+                                    "event.chart.subtitles.getClass().getName() == java.util.ArrayList.class",
+                                    "event.chart.backgroundPaint.getClass().getName() == java.awt.Color.class",
+                                    "size(event.chart.subtitles[]) == 1",
+                                    "event.chart.borderStroke has only one value",
+                                    "event.type.name.toString == \"ChartChangeEventType.DATASET_UPDATED\"",
+                                    "event.chart.padding has only one value",
+                                    "org.jfree.chart.JFreeChart.class$org$jfree$chart$event$ChartChangeListener has only one value",
+                                    "event.chart.subtitles[] contains no nulls and has only one value, of length 1",
+                                    "org.jfree.chart.event.ChartChangeEventType.DATASET_UPDATED has only one value",
+                                    "event.chart.subtitles[].getClass().getName() == [org.jfree.chart.title.LegendTitle]",
+                                    "event.chart.borderPaint.getClass().getName() == java.awt.Color.class",
+                                    "event.chart.notify == true",
+                                    "event.chart.progressListeners has only one value",
+                                    "event.chart.subtitles[].getClass().getName() elements == org.jfree.chart.title.LegendTitle.class",
+                                    "event.chart.backgroundImageAlignment == 15",
+                                    "event.chart.backgroundPaint has only one value",
+                                    "event.chart.backgroundImageAlpha == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "event.chart.borderStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "event.type has only one value",
+                                    "event.type.name has only one value",
+                                    "event.chart.backgroundImageAlpha == orig(event.chart.backgroundImageAlpha)",
+                                    "event.chart.backgroundPaint.getClass().getName() == orig(event.chart.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_IMAGE == null",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_TITLE_FONT has only one value",
+                                    "event.type.name.toString == orig(event.type.name.toString)",
+                                    "event.chart.title has only one value",
+                                    "org.jfree.chart.event.ChartChangeEventType.NEW_DATASET has only one value",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "event.chart.backgroundImage == null",
+                                    "event.chart.subtitles == orig(event.chart.subtitles)",
+                                    "event.chart has only one value",
+                                    "org.jfree.chart.event.ChartChangeEventType.GENERAL has only one value",
+                                    "event.chart.plot.getClass().getName() == org.jfree.chart.plot.XYPlot.class",
+                                    "event.chart.plot has only one value",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_TITLE_FONT == orig(org.jfree.chart.JFreeChart.DEFAULT_TITLE_FONT)",
+                                    "event.chart.changeListeners has only one value",
+                                    "org.jfree.chart.JFreeChart.class$org$jfree$chart$event$ChartChangeListener == orig(org.jfree.chart.JFreeChart.class$org$jfree$chart$event$ChartChangeListener)",
+                                    "event.chart.borderPaint has only one value",
+                                    "event.chart.borderPaint.getClass().getName() == orig(event.chart.borderPaint.getClass().getName())",
+                                    "event.chart.borderVisible == false",
+                                    "org.jfree.chart.event.ChartChangeEventType.DATASET_UPDATED == orig(org.jfree.chart.event.ChartChangeEventType.DATASET_UPDATED)",
+                                    "event.chart.progressListeners == orig(event.chart.progressListeners)",
+                                    "org.jfree.chart.JFreeChart.INFO has only one value",
+                                    "event.type == orig(event.type)",
+                                    "event.chart.backgroundPaint == orig(event.chart.backgroundPaint)",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_PAINT has only one value",
+                                    "org.jfree.chart.JFreeChart.class$org$jfree$chart$event$ChartProgressListener == null",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_PAINT == orig(org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_PAINT)",
+                                    "event.chart.subtitles[] == orig(event.chart.subtitles[])",
+                                    "event.chart.title == orig(event.chart.title)",
+                                    "event.chart.changeListeners == orig(event.chart.changeListeners)",
+                                    "event.chart.subtitles.getClass().getName() == orig(event.chart.subtitles.getClass().getName())",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_PAINT.getClass().getName() == orig(org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_PAINT.getClass().getName())",
+                                    "event.chart.borderPaint == orig(event.chart.borderPaint)",
+                                    "event.chart.subtitles[] elements has only one value",
+                                    "org.jfree.chart.JFreeChart.INFO == orig(org.jfree.chart.JFreeChart.INFO)",
+                                    "event.chart.subtitles has only one value",
+                                    "event.type.name == orig(event.type.name)",
+                                    "event.chart.renderingHints has only one value",
+                                    "event.chart.subtitles.getClass().getName() == java.util.ArrayList.class",
+                                    "event.chart.backgroundPaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.event.ChartChangeEventType.GENERAL == orig(org.jfree.chart.event.ChartChangeEventType.GENERAL)",
+                                    "size(event.chart.subtitles[]) == 1",
+                                    "event.chart.borderStroke has only one value",
+                                    "event.chart.borderStroke.getClass().getName() == orig(event.chart.borderStroke.getClass().getName())",
+                                    "event.type.name.toString == \"ChartChangeEventType.DATASET_UPDATED\"",
+                                    "event.chart.padding has only one value",
+                                    "event.chart.backgroundImage == orig(event.chart.backgroundImage)",
+                                    "this.flag == true",
+                                    "event.chart.borderVisible == orig(event.chart.borderVisible)",
+                                    "event.chart.plot == orig(event.chart.plot)",
+                                    "org.jfree.chart.JFreeChart.class$org$jfree$chart$event$ChartChangeListener has only one value",
+                                    "event.chart.subtitles[] contains no nulls and has only one value, of length 1",
+                                    "org.jfree.chart.JFreeChart.class$org$jfree$chart$event$ChartProgressListener == orig(org.jfree.chart.JFreeChart.class$org$jfree$chart$event$ChartProgressListener)",
+                                    "org.jfree.chart.event.ChartChangeEventType.DATASET_UPDATED has only one value",
+                                    "event.chart == orig(event.chart)",
+                                    "org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_IMAGE == orig(org.jfree.chart.JFreeChart.DEFAULT_BACKGROUND_IMAGE)",
+                                    "event.chart.subtitles[].getClass().getName() == [org.jfree.chart.title.LegendTitle]",
+                                    "event.chart.borderPaint.getClass().getName() == java.awt.Color.class",
+                                    "event.chart.notify == true",
+                                    "event.chart.plot.getClass().getName() == orig(event.chart.plot.getClass().getName())",
+                                    "event.chart.borderStroke == orig(event.chart.borderStroke)",
+                                    "event.chart.progressListeners has only one value",
+                                    "event.chart.renderingHints == orig(event.chart.renderingHints)",
+                                    "event.chart.subtitles[].getClass().getName() elements == org.jfree.chart.title.LegendTitle.class",
+                                    "event.chart.notify == orig(event.chart.notify)",
+                                    "event.chart.backgroundImageAlignment == 15",
+                                    "event.chart.backgroundPaint has only one value",
+                                    "org.jfree.chart.event.ChartChangeEventType.NEW_DATASET == orig(org.jfree.chart.event.ChartChangeEventType.NEW_DATASET)",
+                                    "event.chart.padding == orig(event.chart.padding)",
+                                    "event.chart.backgroundImageAlignment == orig(event.chart.backgroundImageAlignment)",
+                                    "event.chart.backgroundImageAlpha == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "access$000(org.jfree.chart.junit.XYStepChartTests$LocalListener)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "x0.flag == true",
+                                    "x0 has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == true",
+                                    "x0.flag == orig(x0.flag)",
+                                    "x0.flag == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

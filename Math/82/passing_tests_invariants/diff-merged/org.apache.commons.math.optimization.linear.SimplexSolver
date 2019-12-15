@@ -1,0 +1,781 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexSolver": [
+        {
+            "isOptimal(org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "PatchHDRepair8.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (tableau.numDecisionVariables one of { 2, 3, 5 })",
+                                    "(return == true)  ==>  (this.iterations >= 1)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.f.constantTerm one of { -5.0, 0.0 }",
+                                    "tableau.f.constantTerm one of { -5.0, 0.0 }",
+                                    "(return == true)  ==>  (tableau.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(return == true)  ==>  (this.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(return == false)  ==>  (tableau.f.constantTerm one of { -5.0, 0.0 })",
+                                    "(return == false)  ==>  (this.f.constantTerm one of { -5.0, 0.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (tableau.numDecisionVariables one of { 2, 3, 5 })",
+                                    "(return == true)  ==>  (this.iterations >= 1)"
+                                ]
+                            }
+                        },
+                        {
+                            "PatchHDRepair8.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (tableau.numDecisionVariables one of { 2, 3, 5 })",
+                                    "this.f.constantTerm one of { -5.0, 0.0 }",
+                                    "tableau.f.constantTerm one of { -5.0, 0.0 }",
+                                    "(return == true)  ==>  (tableau.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(return == true)  ==>  (this.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(return == false)  ==>  (tableau.f.constantTerm one of { -5.0, 0.0 })",
+                                    "(return == true)  ==>  (this.iterations >= 1)",
+                                    "(return == false)  ==>  (this.f.constantTerm one of { -5.0, 0.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (tableau.numDecisionVariables one of { 2, 3, 5 })",
+                                    "this.f.constantTerm one of { -5.0, 0.0 }",
+                                    "tableau.f.constantTerm one of { -5.0, 0.0 }",
+                                    "(return == true)  ==>  (tableau.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(return == true)  ==>  (this.f.constantTerm one of { -5.0, 0.0, 7.0 })",
+                                    "(return == false)  ==>  (tableau.f.constantTerm one of { -5.0, 0.0 })",
+                                    "(return == true)  ==>  (this.iterations >= 1)",
+                                    "(return == false)  ==>  (this.f.constantTerm one of { -5.0, 0.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (tableau.numDecisionVariables one of { 2, 3, 5 })",
+                                    "(return == true)  ==>  (this.iterations >= 1)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "152": [
+                                {
+                                    "Patch65.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "tableau.f.constantTerm one of { -5.0, 0.0 }",
+                                            "this.f.constantTerm one of { -5.0, 0.0 }",
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": "N/A"
+                                },
+                                {
+                                    "PatchHDRepair8.inv.output": {
+                                        "invs": [
+                                            "tableau.f.constantTerm one of { -5.0, 0.0 }",
+                                            "tableau.numDecisionVariables one of { 2, 3, 5 }",
+                                            "this.f.constantTerm one of { -5.0, 0.0 }",
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch203.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch66.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "155": [
+                                {
+                                    "Patch65.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": "N/A"
+                                },
+                                {
+                                    "PatchHDRepair8.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch203.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch66.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "151": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "154": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "153": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": [
+                                            "tableau.f.constantTerm one of { -5.0, 0.0 }",
+                                            "this.f.constantTerm one of { -5.0, 0.0 }",
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch203.inv.output": {
+                                        "invs": [
+                                            "tableau.f.constantTerm one of { -5.0, 0.0 }",
+                                            "this.f.constantTerm one of { -5.0, 0.0 }",
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "156": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch203.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doOptimize()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solvePhase1(org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "169": [
+                                {
+                                    "Patch65.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "tableau.numDecisionVariables one of { 2, 3 }",
+                                            "tableau.f.constantTerm == 0.0",
+                                            "this.f.constantTerm == 0.0",
+                                            "tableau.restrictToNonNegative == false",
+                                            "this.iterations == orig(this.iterations)",
+                                            "this.iterations == 0",
+                                            "this.goalType has only one value",
+                                            "this.restrictToNonNegative == false",
+                                            "tableau.numSlackVariables one of { 1, 3 }",
+                                            "tableau.numArtificialVariables == 0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch203.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch66.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "180": [
+                                {
+                                    "Patch65.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.iterations > orig(this.iterations)",
+                                            "this.iterations >= 1",
+                                            "tableau.numArtificialVariables >= 1"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch203.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch66.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "168": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": [
+                                            "tableau.numDecisionVariables one of { 2, 3 }",
+                                            "tableau.f.constantTerm == 0.0",
+                                            "this.f.constantTerm == 0.0",
+                                            "tableau.restrictToNonNegative == false",
+                                            "this.iterations == orig(this.iterations)",
+                                            "this.iterations == 0",
+                                            "this.goalType has only one value",
+                                            "this.restrictToNonNegative == false",
+                                            "tableau.numSlackVariables one of { 1, 3 }",
+                                            "tableau.numArtificialVariables == 0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": [
+                                            "tableau.numDecisionVariables one of { 2, 3 }",
+                                            "tableau.f.constantTerm == 0.0",
+                                            "this.f.constantTerm == 0.0",
+                                            "tableau.restrictToNonNegative == false",
+                                            "this.iterations == orig(this.iterations)",
+                                            "this.iterations == 0",
+                                            "this.goalType has only one value",
+                                            "this.restrictToNonNegative == false",
+                                            "tableau.numSlackVariables one of { 1, 3 }",
+                                            "tableau.numArtificialVariables == 0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "179": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": [
+                                            "this.iterations > orig(this.iterations)",
+                                            "this.iterations >= 1",
+                                            "tableau.numArtificialVariables >= 1"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": [
+                                            "this.iterations > orig(this.iterations)",
+                                            "this.iterations >= 1",
+                                            "tableau.numArtificialVariables >= 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "170": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": [
+                                            "tableau.numDecisionVariables one of { 2, 3 }",
+                                            "tableau.f.constantTerm == 0.0",
+                                            "this.f.constantTerm == 0.0",
+                                            "tableau.restrictToNonNegative == false",
+                                            "this.iterations == orig(this.iterations)",
+                                            "this.iterations == 0",
+                                            "this.goalType has only one value",
+                                            "this.restrictToNonNegative == false",
+                                            "tableau.numSlackVariables one of { 1, 3 }",
+                                            "tableau.numArtificialVariables == 0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch203.inv.output": {
+                                        "invs": [
+                                            "tableau.numDecisionVariables one of { 2, 3 }",
+                                            "tableau.f.constantTerm == 0.0",
+                                            "this.f.constantTerm == 0.0",
+                                            "tableau.restrictToNonNegative == false",
+                                            "this.iterations == orig(this.iterations)",
+                                            "this.iterations == 0",
+                                            "this.goalType has only one value",
+                                            "this.restrictToNonNegative == false",
+                                            "tableau.numSlackVariables one of { 1, 3 }",
+                                            "tableau.numArtificialVariables == 0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "181": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": [
+                                            "this.iterations > orig(this.iterations)",
+                                            "this.iterations >= 1",
+                                            "tableau.numArtificialVariables >= 1"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch203.inv.output": {
+                                        "invs": [
+                                            "this.iterations > orig(this.iterations)",
+                                            "this.iterations >= 1",
+                                            "tableau.numArtificialVariables >= 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isPhase1Solved(org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch203.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "135": [
+                                {
+                                    "Patch65.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch203.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch66.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "138": [
+                                {
+                                    "Patch65.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch67.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch203.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch66.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "134": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "137": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch65.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch66.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "136": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch203.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "139": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch67.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch203.inv.output": {
+                                        "invs": [
+                                            "this.iterations >= 1",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

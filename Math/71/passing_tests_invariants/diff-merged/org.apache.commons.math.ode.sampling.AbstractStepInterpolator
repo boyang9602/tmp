@@ -1,0 +1,38 @@
+{
+    "org.apache.commons.math.ode.sampling.AbstractStepInterpolator": [
+        {
+            "shift()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.previousTime != orig(this.previousTime)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

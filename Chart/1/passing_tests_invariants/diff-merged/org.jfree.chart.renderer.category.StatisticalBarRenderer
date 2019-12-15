@@ -1,0 +1,306 @@
+{
+    "org.jfree.chart.renderer.category.StatisticalBarRenderer": [
+        {
+            "drawItem(java.awt.Graphics2D, org.jfree.chart.renderer.category.CategoryItemRendererState, java.awt.geom.Rectangle2D, org.jfree.chart.plot.CategoryPlot, org.jfree.chart.axis.CategoryAxis, org.jfree.chart.axis.ValueAxis, org.jfree.data.category.CategoryDataset, int, int, boolean, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 1",
+                                    "state.barWidth one of { 42.699999999999996, 78.39999999999999, 82.6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.barWidth one of { 51.099999999999994, 78.39999999999999, 82.6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 1",
+                                    "state.barWidth one of { 42.699999999999996, 78.39999999999999, 82.6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])",
+                                    "state.barWidth one of { 42.699999999999996, 78.39999999999999, 82.6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.paintList.size >= orig(this.paintList.size)",
+                                    "size(this.paintList.objects[]) == orig(size(this.paintList.objects[]))",
+                                    "state.barWidth one of { 51.099999999999994, 78.39999999999999, 82.6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])",
+                                    "state.barWidth one of { 42.699999999999996, 78.39999999999999, 82.6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "245": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawHorizontalItem(java.awt.Graphics2D, org.jfree.chart.renderer.category.CategoryItemRendererState, java.awt.geom.Rectangle2D, org.jfree.chart.plot.CategoryPlot, org.jfree.chart.axis.CategoryAxis, org.jfree.chart.axis.ValueAxis, org.jfree.data.statistics.StatisticalCategoryDataset, int, int, int, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "state.barWidth == 42.699999999999996",
+                                    "this.paintList.size == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.barWidth == 51.099999999999994"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "state.barWidth == 42.699999999999996",
+                                    "this.paintList.size == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "state.barWidth == 42.699999999999996",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.paintList.objects[]) == orig(size(this.paintList.objects[]))",
+                                    "state.barWidth == 51.099999999999994"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "state.barWidth == 42.699999999999996",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "291": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.paintList.size == orig(this.paintList.size)",
+                                            "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "404": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawVerticalItem(java.awt.Graphics2D, org.jfree.chart.renderer.category.CategoryItemRendererState, java.awt.geom.Rectangle2D, org.jfree.chart.plot.CategoryPlot, org.jfree.chart.axis.CategoryAxis, org.jfree.chart.axis.ValueAxis, org.jfree.data.statistics.StatisticalCategoryDataset, int, int, int, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.size == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.paintList.objects[]) == orig(size(this.paintList.objects[]))"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "450": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.paintList.size == orig(this.paintList.size)",
+                                            "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "563": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

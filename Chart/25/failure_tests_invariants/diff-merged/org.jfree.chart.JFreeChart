@@ -1,0 +1,130 @@
+{
+    "org.jfree.chart.JFreeChart": [
+        {
+            "notifyListeners(org.jfree.chart.event.ChartProgressEvent)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "event.type == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "event.type == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createAlignedRectangle2D(org.jfree.chart.util.Size2D, java.awt.geom.Rectangle2D, org.jfree.chart.util.HorizontalAlignment, org.jfree.chart.util.VerticalAlignment)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "dimensions.width == 0.0",
+                                    "dimensions.height == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "dimensions.width == 38.0",
+                                    "dimensions.height == 23.96875"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "dimensions.height == 0.0",
+                                    "dimensions.width == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "dimensions.width == 38.0",
+                                    "dimensions.height == 23.96875"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

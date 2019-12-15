@@ -1,0 +1,303 @@
+{
+    "org.apache.commons.lang.time.StopWatch": [
+        {
+            "getTime()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch25.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933841748L",
+                                    "this.startTime == 1575933841548L",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.stopTime one of { 1575933837049L, 1575933837250L }",
+                                    "this.startTime == 1575933836849L"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933841748L",
+                                    "this.startTime == 1575933841548L",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch25.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933841748L",
+                                    "this.startTime == 1575933841548L",
+                                    "return == 200",
+                                    "return == 201",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 200, 401 }",
+                                    "this.stopTime one of { 1575933837049L, 1575933837250L }",
+                                    "this.startTime == 1575933836849L"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933841748L",
+                                    "this.startTime == 1575933841548L",
+                                    "return == 200",
+                                    "return == 201",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "210": [
+                                {
+                                    "Patch25.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "211": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch25.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "212": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "stop()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch25.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933841548L",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L",
+                                    "this.stopTime == 1575933841748L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933837049L",
+                                    "this.startTime == 1575933836849L"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933841548L",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L",
+                                    "this.stopTime == 1575933841748L"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch25.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933841748L",
+                                    "this.startTime == 1575933841548L",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L",
+                                    "this.stopTime == orig(this.stopTime)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933837250L",
+                                    "this.startTime == 1575933836849L"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933841748L",
+                                    "this.startTime == 1575933841548L",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L",
+                                    "this.stopTime == orig(this.stopTime)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "start()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch25.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch25.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933841548L",
+                                    "this.startTime == 1575933846239L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933836849L"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933841548L",
+                                    "this.startTime == 1575933846239L"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "suspend()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch25.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933841548L",
+                                    "this.startTime == 1575933846239L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933836849L"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933841548L",
+                                    "this.startTime == 1575933846239L"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch25.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933841548L",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L",
+                                    "this.stopTime == 1575933841748L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.stopTime == 1575933837049L",
+                                    "this.startTime == 1575933836849L"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.startTime == 1575933841548L",
+                                    "this.stopTime == 1575933846440L",
+                                    "this.startTime == 1575933846239L",
+                                    "this.stopTime == 1575933841748L"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,735 @@
+===========================================================================
+org.apache.commons.math.ConvergingAlgorithmImpl:::OBJECT
+this.getClass().getName() == org.apache.commons.math.analysis.solvers.BrentSolver.class
+this.absoluteAccuracy one of { 1.0E-6, 0.1 }
+this.relativeAccuracy == 1.0E-14
+this.maximalIterationCount one of { 10, 100 }
+this.defaultAbsoluteAccuracy == 1.0E-6
+this.defaultRelativeAccuracy == 1.0E-14
+this.defaultMaximalIterationCount == 100
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.ConvergingAlgorithmImpl.ConvergingAlgorithmImpl(int, double):::ENTER
+defaultMaximalIterationCount == 100
+defaultAbsoluteAccuracy == 1.0E-6
+===========================================================================
+org.apache.commons.math.ConvergingAlgorithmImpl.ConvergingAlgorithmImpl(int, double):::EXIT
+this.absoluteAccuracy == 1.0E-6
+this.maximalIterationCount == 100
+===========================================================================
+org.apache.commons.math.ConvergingAlgorithmImpl.setAbsoluteAccuracy(double):::ENTER
+this.absoluteAccuracy == 1.0E-6
+this.maximalIterationCount == 100
+accuracy == 0.1
+===========================================================================
+org.apache.commons.math.ConvergingAlgorithmImpl.setAbsoluteAccuracy(double):::EXIT
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.iterationCount == orig(this.iterationCount)
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 100
+===========================================================================
+org.apache.commons.math.ConvergingAlgorithmImpl.setMaximalIterationCount(int):::ENTER
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 100
+count == 10
+===========================================================================
+org.apache.commons.math.ConvergingAlgorithmImpl.setMaximalIterationCount(int):::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.iterationCount == orig(this.iterationCount)
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+===========================================================================
+org.apache.commons.math.analysis.solvers.BrentSolver:::CLASS
+===========================================================================
+org.apache.commons.math.analysis.solvers.BrentSolver:::OBJECT
+this.functionValueAccuracy == 1.0E-15
+this.defaultFunctionValueAccuracy == 1.0E-15
+this.result one of { 0.0, 89.99854388107069, 135.00323100940778 }
+this.functionValue == 0.0
+this.f == null
+this.absoluteAccuracy one of { 1.0E-6, 0.1 }
+this.relativeAccuracy == 1.0E-14
+this.maximalIterationCount one of { 10, 100 }
+this.defaultAbsoluteAccuracy == 1.0E-6
+this.defaultRelativeAccuracy == 1.0E-14
+this.defaultMaximalIterationCount == 100
+this.iterationCount one of { 0, 6 }
+===========================================================================
+org.apache.commons.math.analysis.solvers.BrentSolver.BrentSolver():::EXIT
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 1.0E-6
+this.maximalIterationCount == 100
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.solvers.BrentSolver.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 0
+f.getClass().getName() == org.apache.commons.math.ode.events.EventState$1.class
+min one of { 67.5, 90.0235438810707 }
+max one of { 112.6, 153.1 }
+===========================================================================
+org.apache.commons.math.analysis.solvers.BrentSolver.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double):::EXIT
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.functionValue == orig(this.functionValue)
+this.f == orig(this.f)
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.resultComputed == true
+this.result one of { 89.99854388107069, 135.00323100940778 }
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 6
+return one of { 89.99854388107069, 135.00323100940778 }
+===========================================================================
+org.apache.commons.math.analysis.solvers.BrentSolver.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, double, double, double):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 0
+f.getClass().getName() == org.apache.commons.math.ode.events.EventState$1.class
+x0 one of { 67.5, 90.0235438810707 }
+y0 one of { -1518.75, 1.0589203338453512 }
+x1 one of { 112.6, 153.1 }
+y1 one of { -1142.1099999999994, 506.24 }
+x2 one of { 67.5, 90.0235438810707 }
+y2 one of { -1518.75, 1.0589203338453512 }
+===========================================================================
+org.apache.commons.math.analysis.solvers.BrentSolver.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, double, double, double):::EXIT247
+===========================================================================
+org.apache.commons.math.analysis.solvers.BrentSolver.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, double, double, double):::EXIT
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.functionValue == orig(this.functionValue)
+this.f == orig(this.f)
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.resultComputed == true
+this.result one of { 89.99854388107069, 135.00323100940778 }
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 6
+return one of { 89.99854388107069, 135.00323100940778 }
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:::OBJECT
+this.getClass().getName() == org.apache.commons.math.analysis.solvers.BrentSolver.class
+this.functionValueAccuracy == 1.0E-15
+this.defaultFunctionValueAccuracy == 1.0E-15
+this.result one of { 0.0, 89.99854388107069, 135.00323100940778 }
+this.functionValue == 0.0
+this.f == null
+this.absoluteAccuracy one of { 1.0E-6, 0.1 }
+this.relativeAccuracy == 1.0E-14
+this.maximalIterationCount one of { 10, 100 }
+this.defaultAbsoluteAccuracy == 1.0E-6
+this.defaultRelativeAccuracy == 1.0E-14
+this.defaultMaximalIterationCount == 100
+this.iterationCount one of { 0, 6 }
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.UnivariateRealSolverImpl(int, double):::ENTER
+defaultMaximalIterationCount == 100
+defaultAbsoluteAccuracy == 1.0E-6
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.UnivariateRealSolverImpl(int, double):::EXIT
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 1.0E-6
+this.maximalIterationCount == 100
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.clearResult():::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.clearResult():::EXIT
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.resultComputed == orig(this.resultComputed)
+this.result == orig(this.result)
+this.functionValue == orig(this.functionValue)
+this.f == orig(this.f)
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.iterationCount == orig(this.iterationCount)
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.setResult(double, int):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 0
+newResult one of { 89.99854388107069, 135.00323100940778 }
+iterationCount == 6
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.setResult(double, int):::EXIT
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.functionValue == orig(this.functionValue)
+this.f == orig(this.f)
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.resultComputed == true
+this.result one of { 89.99854388107069, 135.00323100940778 }
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 6
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.verifyInterval(double, double):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 0
+lower one of { 67.5, 90.0235438810707 }
+upper one of { 112.6, 153.1 }
+===========================================================================
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.verifyInterval(double, double):::EXIT
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.resultComputed == orig(this.resultComputed)
+this.result == orig(this.result)
+this.functionValue == orig(this.functionValue)
+this.f == orig(this.f)
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.iterationCount == orig(this.iterationCount)
+this.resultComputed == false
+this.result == 0.0
+this.absoluteAccuracy == 0.1
+this.maximalIterationCount == 10
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.ode.events.EventState$1:::OBJECT
+this.val$interpolator has only one value
+this.val$interpolator.getClass().getName() == org.apache.commons.math.ode.sampling.DummyStepInterpolator.class
+org.apache.commons.math.ode.events.EventState.this has only one value
+org.apache.commons.math.ode.events.EventState.this.handler has only one value
+org.apache.commons.math.ode.events.EventState.this.handler.getClass().getName() == org.apache.commons.math.ode.events.EventStateTest$1.class
+org.apache.commons.math.ode.events.EventState.this.maxCheckInterval == 67.5
+org.apache.commons.math.ode.events.EventState.this.convergence == 0.1
+org.apache.commons.math.ode.events.EventState.this.maxIterationCount == 10
+org.apache.commons.math.ode.events.EventState.this.t0 one of { 67.5, 89.99854388107069 }
+org.apache.commons.math.ode.events.EventState.this.g0 one of { -1518.75, -0.06552747210136982 }
+org.apache.commons.math.ode.events.EventState.this.pendingEventTime one of { 89.99854388107069, Double.NaN }
+org.apache.commons.math.ode.events.EventState.this.previousEventTime one of { 89.99854388107069, Double.NaN }
+org.apache.commons.math.ode.events.EventState.this.forward == true
+org.apache.commons.math.ode.events.EventState.this.nextAction == 3
+===========================================================================
+org.apache.commons.math.ode.events.EventState$1.(org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.sampling.StepInterpolator):::ENTER
+org.apache.commons.math.ode.events.EventState.this has only one value
+org.apache.commons.math.ode.events.EventState.this.handler has only one value
+org.apache.commons.math.ode.events.EventState.this.handler.getClass().getName() == org.apache.commons.math.ode.events.EventStateTest$1.class
+org.apache.commons.math.ode.events.EventState.this.maxCheckInterval == 67.5
+org.apache.commons.math.ode.events.EventState.this.convergence == 0.1
+org.apache.commons.math.ode.events.EventState.this.maxIterationCount == 10
+org.apache.commons.math.ode.events.EventState.this.t0 one of { 67.5, 89.99854388107069 }
+org.apache.commons.math.ode.events.EventState.this.g0 one of { -1518.75, -0.06552747210136982 }
+org.apache.commons.math.ode.events.EventState.this.pendingEventTime one of { 89.99854388107069, Double.NaN }
+org.apache.commons.math.ode.events.EventState.this.previousEventTime one of { 89.99854388107069, Double.NaN }
+org.apache.commons.math.ode.events.EventState.this.forward == true
+org.apache.commons.math.ode.events.EventState.this.nextAction == 3
+$hidden$2 has only one value
+$hidden$2.getClass().getName() == org.apache.commons.math.ode.sampling.DummyStepInterpolator.class
+===========================================================================
+org.apache.commons.math.ode.events.EventState$1.(org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.sampling.StepInterpolator):::EXIT
+org.apache.commons.math.ode.events.EventState.this == orig(org.apache.commons.math.ode.events.EventState.this)
+org.apache.commons.math.ode.events.EventState.this.handler == orig(org.apache.commons.math.ode.events.EventState.this.handler)
+org.apache.commons.math.ode.events.EventState.this.handler.getClass().getName() == orig(org.apache.commons.math.ode.events.EventState.this.handler.getClass().getName())
+org.apache.commons.math.ode.events.EventState.this.maxCheckInterval == orig(org.apache.commons.math.ode.events.EventState.this.maxCheckInterval)
+org.apache.commons.math.ode.events.EventState.this.convergence == orig(org.apache.commons.math.ode.events.EventState.this.convergence)
+org.apache.commons.math.ode.events.EventState.this.maxIterationCount == orig(org.apache.commons.math.ode.events.EventState.this.maxIterationCount)
+org.apache.commons.math.ode.events.EventState.this.t0 == orig(org.apache.commons.math.ode.events.EventState.this.t0)
+org.apache.commons.math.ode.events.EventState.this.g0 == orig(org.apache.commons.math.ode.events.EventState.this.g0)
+org.apache.commons.math.ode.events.EventState.this.g0Positive == orig(org.apache.commons.math.ode.events.EventState.this.g0Positive)
+org.apache.commons.math.ode.events.EventState.this.pendingEvent == orig(org.apache.commons.math.ode.events.EventState.this.pendingEvent)
+org.apache.commons.math.ode.events.EventState.this.forward == orig(org.apache.commons.math.ode.events.EventState.this.forward)
+org.apache.commons.math.ode.events.EventState.this.increasing == orig(org.apache.commons.math.ode.events.EventState.this.increasing)
+org.apache.commons.math.ode.events.EventState.this.nextAction == orig(org.apache.commons.math.ode.events.EventState.this.nextAction)
+===========================================================================
+org.apache.commons.math.ode.events.EventState$1.value(double):::ENTER
+===========================================================================
+org.apache.commons.math.ode.events.EventState$1.value(double):::EXIT
+this.val$interpolator == orig(this.val$interpolator)
+this.val$interpolator.getClass().getName() == orig(this.val$interpolator.getClass().getName())
+org.apache.commons.math.ode.events.EventState.this == orig(org.apache.commons.math.ode.events.EventState.this)
+org.apache.commons.math.ode.events.EventState.this.handler == orig(org.apache.commons.math.ode.events.EventState.this.handler)
+org.apache.commons.math.ode.events.EventState.this.handler.getClass().getName() == orig(org.apache.commons.math.ode.events.EventState.this.handler.getClass().getName())
+org.apache.commons.math.ode.events.EventState.this.maxCheckInterval == orig(org.apache.commons.math.ode.events.EventState.this.maxCheckInterval)
+org.apache.commons.math.ode.events.EventState.this.convergence == orig(org.apache.commons.math.ode.events.EventState.this.convergence)
+org.apache.commons.math.ode.events.EventState.this.maxIterationCount == orig(org.apache.commons.math.ode.events.EventState.this.maxIterationCount)
+org.apache.commons.math.ode.events.EventState.this.t0 == orig(org.apache.commons.math.ode.events.EventState.this.t0)
+org.apache.commons.math.ode.events.EventState.this.g0 == orig(org.apache.commons.math.ode.events.EventState.this.g0)
+org.apache.commons.math.ode.events.EventState.this.g0Positive == orig(org.apache.commons.math.ode.events.EventState.this.g0Positive)
+org.apache.commons.math.ode.events.EventState.this.pendingEvent == orig(org.apache.commons.math.ode.events.EventState.this.pendingEvent)
+org.apache.commons.math.ode.events.EventState.this.forward == orig(org.apache.commons.math.ode.events.EventState.this.forward)
+org.apache.commons.math.ode.events.EventState.this.increasing == orig(org.apache.commons.math.ode.events.EventState.this.increasing)
+org.apache.commons.math.ode.events.EventState.this.nextAction == orig(org.apache.commons.math.ode.events.EventState.this.nextAction)
+===========================================================================
+org.apache.commons.math.ode.events.EventState:::OBJECT
+this has only one value
+this.handler has only one value
+this.handler.getClass().getName() == org.apache.commons.math.ode.events.EventStateTest$1.class
+this.maxCheckInterval == 67.5
+this.convergence == 0.1
+this.maxIterationCount == 10
+this.t0 one of { 67.5, 89.99854388107069, Double.NaN }
+this.g0 one of { -1518.75, -0.06552747210136982, Double.NaN }
+this.pendingEventTime one of { 89.99854388107069, 135.00323100940778, Double.NaN }
+this.previousEventTime one of { 89.99854388107069, Double.NaN }
+this.nextAction == 3
+===========================================================================
+org.apache.commons.math.ode.events.EventState.EventState(org.apache.commons.math.ode.events.EventHandler, double, double, int):::ENTER
+handler has only one value
+handler.getClass().getName() == org.apache.commons.math.ode.events.EventStateTest$1.class
+maxCheckInterval == 67.5
+convergence == 0.1
+maxIterationCount == 10
+===========================================================================
+org.apache.commons.math.ode.events.EventState.EventState(org.apache.commons.math.ode.events.EventHandler, double, double, int):::EXIT
+this.t0 == Double.NaN
+this.g0 == Double.NaN
+this.g0Positive == true
+this.pendingEvent == false
+this.pendingEventTime == Double.NaN
+this.previousEventTime == Double.NaN
+this.forward == false
+this.increasing == true
+===========================================================================
+org.apache.commons.math.ode.events.EventState.evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator):::ENTER
+this.t0 one of { 67.5, 89.99854388107069 }
+this.g0 one of { -1518.75, -0.06552747210136982 }
+this.pendingEventTime one of { 89.99854388107069, Double.NaN }
+this.increasing == true
+interpolator has only one value
+interpolator.getClass().getName() == org.apache.commons.math.ode.sampling.DummyStepInterpolator.class
+===========================================================================
+org.apache.commons.math.ode.events.EventState.evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator):::EXIT248
+===========================================================================
+org.apache.commons.math.ode.events.EventState.evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator):::EXIT248;condition="return == true"
+===========================================================================
+org.apache.commons.math.ode.events.EventState.evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator):::EXIT
+this.handler == orig(this.handler)
+this.handler.getClass().getName() == orig(this.handler.getClass().getName())
+this.maxCheckInterval == orig(this.maxCheckInterval)
+this.convergence == orig(this.convergence)
+this.maxIterationCount == orig(this.maxIterationCount)
+this.t0 == orig(this.t0)
+this.g0 == orig(this.g0)
+this.g0Positive == orig(this.g0Positive)
+this.nextAction == orig(this.nextAction)
+this.t0 one of { 67.5, 89.99854388107069 }
+this.g0 one of { -1518.75, -0.06552747210136982 }
+this.pendingEvent == true
+this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }
+this.forward == true
+return == true
+===========================================================================
+org.apache.commons.math.ode.events.EventState.evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator):::EXIT;condition="return == true"
+===========================================================================
+org.apache.commons.math.ode.events.EventState.getEventTime():::ENTER
+this.t0 one of { 67.5, 89.99854388107069 }
+this.g0 one of { -1518.75, -0.06552747210136982 }
+this.pendingEvent == true
+this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }
+this.forward == true
+===========================================================================
+org.apache.commons.math.ode.events.EventState.getEventTime():::EXIT
+this.handler == orig(this.handler)
+this.handler.getClass().getName() == orig(this.handler.getClass().getName())
+this.maxCheckInterval == orig(this.maxCheckInterval)
+this.convergence == orig(this.convergence)
+this.maxIterationCount == orig(this.maxIterationCount)
+this.t0 == orig(this.t0)
+this.g0 == orig(this.g0)
+this.g0Positive == orig(this.g0Positive)
+this.pendingEvent == orig(this.pendingEvent)
+this.pendingEventTime == orig(this.pendingEventTime)
+this.forward == orig(this.forward)
+this.increasing == orig(this.increasing)
+this.nextAction == orig(this.nextAction)
+this.t0 one of { 67.5, 89.99854388107069 }
+this.g0 one of { -1518.75, -0.06552747210136982 }
+this.pendingEvent == true
+this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }
+this.forward == true
+return one of { 89.99854388107069, 135.00323100940778 }
+===========================================================================
+org.apache.commons.math.ode.events.EventState.reinitializeBegin(double, double[]):::ENTER
+this.t0 == Double.NaN
+this.g0 == Double.NaN
+this.g0Positive == true
+this.pendingEvent == false
+this.pendingEventTime == Double.NaN
+this.previousEventTime == Double.NaN
+this.forward == false
+this.increasing == true
+tStart == 67.5
+yStart has only one value
+yStart[] == []
+===========================================================================
+org.apache.commons.math.ode.events.EventState.reinitializeBegin(double, double[]):::EXIT
+this.handler == orig(this.handler)
+this.handler.getClass().getName() == orig(this.handler.getClass().getName())
+this.maxCheckInterval == orig(this.maxCheckInterval)
+this.convergence == orig(this.convergence)
+this.maxIterationCount == orig(this.maxIterationCount)
+this.pendingEvent == orig(this.pendingEvent)
+this.forward == orig(this.forward)
+this.increasing == orig(this.increasing)
+this.nextAction == orig(this.nextAction)
+yStart[] == orig(yStart[])
+this.t0 == 67.5
+this.g0 == -1518.75
+this.g0Positive == false
+this.pendingEvent == false
+this.pendingEventTime == Double.NaN
+this.previousEventTime == Double.NaN
+this.forward == false
+this.increasing == true
+yStart[] == []
+===========================================================================
+org.apache.commons.math.ode.events.EventState.stepAccepted(double, double[]):::ENTER
+this.t0 == 67.5
+this.g0 == -1518.75
+this.g0Positive == false
+this.pendingEvent == true
+this.pendingEventTime == 89.99854388107069
+this.previousEventTime == Double.NaN
+this.forward == true
+this.increasing == true
+t == 89.99854388107069
+y has only one value
+y[] == []
+===========================================================================
+org.apache.commons.math.ode.events.EventState.stepAccepted(double, double[]):::EXIT
+this.handler == orig(this.handler)
+this.handler.getClass().getName() == orig(this.handler.getClass().getName())
+this.maxCheckInterval == orig(this.maxCheckInterval)
+this.convergence == orig(this.convergence)
+this.maxIterationCount == orig(this.maxIterationCount)
+this.pendingEvent == orig(this.pendingEvent)
+this.pendingEventTime == orig(this.pendingEventTime)
+this.forward == orig(this.forward)
+this.increasing == orig(this.increasing)
+this.nextAction == orig(this.nextAction)
+y[] == orig(y[])
+this.t0 == 89.99854388107069
+this.g0 == -0.06552747210136982
+this.g0Positive == true
+this.pendingEvent == true
+this.pendingEventTime == 89.99854388107069
+this.previousEventTime == 89.99854388107069
+this.forward == true
+this.increasing == true
+y[] == []
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest$1:::OBJECT
+this has only one value
+org.apache.commons.math.ode.events.EventStateTest.this has only one value
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest$1.(org.apache.commons.math.ode.events.EventStateTest):::ENTER
+org.apache.commons.math.ode.events.EventStateTest.this has only one value
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest$1.(org.apache.commons.math.ode.events.EventStateTest):::EXIT
+org.apache.commons.math.ode.events.EventStateTest.this == orig(org.apache.commons.math.ode.events.EventStateTest.this)
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest$1.eventOccurred(double, double[], boolean):::ENTER
+t == 89.99854388107069
+y has only one value
+y[] == []
+increasing == true
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest$1.eventOccurred(double, double[], boolean):::EXIT
+org.apache.commons.math.ode.events.EventStateTest.this == orig(org.apache.commons.math.ode.events.EventStateTest.this)
+y[] == orig(y[])
+y[] == []
+return == 3
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest$1.g(double, double[]):::ENTER
+y[] == []
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest$1.g(double, double[]):::EXIT
+org.apache.commons.math.ode.events.EventStateTest.this == orig(org.apache.commons.math.ode.events.EventStateTest.this)
+y[] == orig(y[])
+y[] == []
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest.EventStateTest():::EXIT
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest.closeEvents():::ENTER
+===========================================================================
+org.apache.commons.math.ode.events.EventStateTest.closeEvents():::EXIT
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator:::OBJECT
+this has only one value
+this.getClass().getName() == org.apache.commons.math.ode.sampling.DummyStepInterpolator.class
+this.previousTime one of { 67.5, 112.5, Double.NaN }
+this.h one of { 40.5, 45.0, Double.NaN }
+this.currentState has only one value
+this.currentState != null
+this.currentState[] == []
+this.interpolatedState has only one value
+this.interpolatedState != null
+this.interpolatedState[] == []
+this.interpolatedDerivatives has only one value
+this.interpolatedDerivatives != null
+this.interpolatedDerivatives[] == []
+this.finalized == false
+this.forward == true
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.AbstractStepInterpolator(double[], boolean):::ENTER
+y has only one value
+y[] == []
+forward == true
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.AbstractStepInterpolator(double[], boolean):::EXIT
+y[] == orig(y[])
+this.previousTime == Double.NaN
+this.currentTime == Double.NaN
+this.h == Double.NaN
+this.interpolatedTime == Double.NaN
+this.dirtyState == true
+y[] == []
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.getCurrentTime():::ENTER
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 112.5, 153.0 }
+this.h one of { 40.5, 45.0 }
+this.interpolatedTime one of { 112.5, 153.0 }
+this.dirtyState == true
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.getCurrentTime():::EXIT
+this.previousTime == orig(this.previousTime)
+this.currentTime == orig(this.currentTime)
+this.h == orig(this.h)
+this.currentState == orig(this.currentState)
+this.currentState[] == orig(this.currentState[])
+this.interpolatedTime == orig(this.interpolatedTime)
+this.interpolatedState == orig(this.interpolatedState)
+this.interpolatedState[] == orig(this.interpolatedState[])
+this.interpolatedDerivatives == orig(this.interpolatedDerivatives)
+this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])
+this.finalized == orig(this.finalized)
+this.forward == orig(this.forward)
+this.dirtyState == orig(this.dirtyState)
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 112.5, 153.0 }
+this.h one of { 40.5, 45.0 }
+this.interpolatedTime one of { 112.5, 153.0 }
+this.dirtyState == true
+return one of { 112.5, 153.0 }
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.getInterpolatedState():::ENTER
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 112.5, 153.0 }
+this.h one of { 40.5, 45.0 }
+this.dirtyState == true
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.getInterpolatedState():::EXIT
+this.previousTime == orig(this.previousTime)
+this.currentTime == orig(this.currentTime)
+this.h == orig(this.h)
+this.currentState == orig(this.currentState)
+this.currentState[] == orig(this.currentState[])
+this.interpolatedTime == orig(this.interpolatedTime)
+this.interpolatedState == orig(this.interpolatedState)
+this.interpolatedState[] == orig(this.interpolatedState[])
+this.interpolatedDerivatives == orig(this.interpolatedDerivatives)
+this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])
+this.finalized == orig(this.finalized)
+this.forward == orig(this.forward)
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 112.5, 153.0 }
+this.h one of { 40.5, 45.0 }
+this.dirtyState == false
+return has only one value
+return != null
+return[] == []
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.isForward():::ENTER
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 112.5, 153.0 }
+this.h one of { 40.5, 45.0 }
+this.interpolatedTime one of { 112.5, 153.0 }
+this.dirtyState == true
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.isForward():::EXIT
+this.previousTime == orig(this.previousTime)
+this.currentTime == orig(this.currentTime)
+this.h == orig(this.h)
+this.currentState == orig(this.currentState)
+this.currentState[] == orig(this.currentState[])
+this.interpolatedTime == orig(this.interpolatedTime)
+this.interpolatedState == orig(this.interpolatedState)
+this.interpolatedState[] == orig(this.interpolatedState[])
+this.interpolatedDerivatives == orig(this.interpolatedDerivatives)
+this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])
+this.finalized == orig(this.finalized)
+this.forward == orig(this.forward)
+this.dirtyState == orig(this.dirtyState)
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 112.5, 153.0 }
+this.h one of { 40.5, 45.0 }
+this.interpolatedTime one of { 112.5, 153.0 }
+this.dirtyState == true
+return == true
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.isForward():::EXIT;condition="return == true"
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.setInterpolatedTime(double):::ENTER
+this.currentTime one of { 67.5, 112.5, 153.0 }
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.setInterpolatedTime(double):::EXIT
+this.currentTime == orig(this.currentTime)
+this.currentState == orig(this.currentState)
+this.currentState[] == orig(this.currentState[])
+this.interpolatedState == orig(this.interpolatedState)
+this.interpolatedState[] == orig(this.interpolatedState[])
+this.interpolatedDerivatives == orig(this.interpolatedDerivatives)
+this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])
+this.finalized == orig(this.finalized)
+this.forward == orig(this.forward)
+this.currentTime one of { 67.5, 112.5, 153.0 }
+this.dirtyState == true
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.shift():::ENTER
+this.previousTime one of { 67.5, Double.NaN }
+this.currentTime one of { 67.5, 112.5 }
+this.h one of { 45.0, Double.NaN }
+this.interpolatedTime one of { 67.5, 90.04854388107069 }
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.shift():::EXIT
+this.currentTime == orig(this.currentTime)
+this.currentState == orig(this.currentState)
+this.currentState[] == orig(this.currentState[])
+this.interpolatedTime == orig(this.interpolatedTime)
+this.interpolatedState == orig(this.interpolatedState)
+this.interpolatedState[] == orig(this.interpolatedState[])
+this.interpolatedDerivatives == orig(this.interpolatedDerivatives)
+this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])
+this.finalized == orig(this.finalized)
+this.forward == orig(this.forward)
+this.dirtyState == orig(this.dirtyState)
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 67.5, 112.5 }
+this.h one of { 45.0, Double.NaN }
+this.interpolatedTime one of { 67.5, 90.04854388107069 }
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.storeTime(double):::ENTER
+this.currentTime one of { 67.5, 112.5, Double.NaN }
+this.h one of { 45.0, Double.NaN }
+this.interpolatedTime one of { 67.5, 90.04854388107069, Double.NaN }
+t one of { 67.5, 112.5, 153.0 }
+===========================================================================
+org.apache.commons.math.ode.sampling.AbstractStepInterpolator.storeTime(double):::EXIT
+this.currentState == orig(this.currentState)
+this.currentState[] == orig(this.currentState[])
+this.interpolatedState == orig(this.interpolatedState)
+this.interpolatedState[] == orig(this.interpolatedState[])
+this.interpolatedDerivatives == orig(this.interpolatedDerivatives)
+this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])
+this.finalized == orig(this.finalized)
+this.forward == orig(this.forward)
+this.currentTime one of { 67.5, 112.5, 153.0 }
+this.interpolatedTime one of { 67.5, 112.5, 153.0 }
+this.dirtyState == true
+===========================================================================
+org.apache.commons.math.ode.sampling.DummyStepInterpolator:::CLASS
+===========================================================================
+org.apache.commons.math.ode.sampling.DummyStepInterpolator:::OBJECT
+this has only one value
+this.previousTime one of { 67.5, 112.5, Double.NaN }
+this.currentTime one of { 112.5, 153.0, Double.NaN }
+this.h one of { 40.5, 45.0, Double.NaN }
+this.currentState has only one value
+this.currentState != null
+this.currentState[] == []
+this.interpolatedState has only one value
+this.interpolatedState != null
+this.interpolatedState[] == []
+this.interpolatedDerivatives has only one value
+this.interpolatedDerivatives != null
+this.interpolatedDerivatives[] == []
+this.finalized == false
+this.forward == true
+this.dirtyState == true
+===========================================================================
+org.apache.commons.math.ode.sampling.DummyStepInterpolator.DummyStepInterpolator(double[], boolean):::ENTER
+y has only one value
+y[] == []
+forward == true
+===========================================================================
+org.apache.commons.math.ode.sampling.DummyStepInterpolator.DummyStepInterpolator(double[], boolean):::EXIT
+y[] == orig(y[])
+this.previousTime == Double.NaN
+this.currentTime == Double.NaN
+this.h == Double.NaN
+this.interpolatedTime == Double.NaN
+y[] == []
+===========================================================================
+org.apache.commons.math.ode.sampling.DummyStepInterpolator.computeInterpolatedStateAndDerivatives(double, double):::ENTER
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 112.5, 153.0 }
+this.h one of { 40.5, 45.0 }
+oneMinusThetaH >= -0.09999999999999432
+===========================================================================
+org.apache.commons.math.ode.sampling.DummyStepInterpolator.computeInterpolatedStateAndDerivatives(double, double):::EXIT
+this.previousTime == orig(this.previousTime)
+this.currentTime == orig(this.currentTime)
+this.h == orig(this.h)
+this.currentState == orig(this.currentState)
+this.currentState[] == orig(this.currentState[])
+this.interpolatedTime == orig(this.interpolatedTime)
+this.interpolatedState == orig(this.interpolatedState)
+this.interpolatedState[] == orig(this.interpolatedState[])
+this.interpolatedDerivatives == orig(this.interpolatedDerivatives)
+this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])
+this.finalized == orig(this.finalized)
+this.forward == orig(this.forward)
+this.dirtyState == orig(this.dirtyState)
+this.previousTime one of { 67.5, 112.5 }
+this.currentTime one of { 112.5, 153.0 }
+this.h one of { 40.5, 45.0 }

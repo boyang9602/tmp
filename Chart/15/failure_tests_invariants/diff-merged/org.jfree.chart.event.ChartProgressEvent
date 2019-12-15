@@ -1,0 +1,71 @@
+{
+    "org.jfree.chart.event.ChartProgressEvent": [
+        {
+            "ChartProgressEvent(java.lang.Object, org.jfree.chart.JFreeChart, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "percent one of { 0, 100 }",
+                                    "type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "type == 1",
+                                    "chart.title.content == null",
+                                    "percent == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "percent one of { 0, 100 }",
+                                    "type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "percent one of { 0, 100 }",
+                                    "type one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "chart.title.content == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

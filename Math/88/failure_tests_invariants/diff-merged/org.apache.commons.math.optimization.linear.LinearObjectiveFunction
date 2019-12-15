@@ -1,0 +1,61 @@
+{
+    "org.apache.commons.math.optimization.linear.LinearObjectiveFunction": [
+        {
+            "getValue(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch176.inv.output": {
+                                "invs": [
+                                    "point[] == [0.0, 1.0, 1.0]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "point[] == [0.0, 1.0, 0.0]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "point[] == [0.0, 1.0, 1.0]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch176.inv.output": {
+                                "invs": [
+                                    "point[] == [0.0, 1.0, 1.0]",
+                                    "return == 3.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "point[] == [0.0, 1.0, 0.0]",
+                                    "return == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "point[] == [0.0, 1.0, 1.0]",
+                                    "return == 3.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

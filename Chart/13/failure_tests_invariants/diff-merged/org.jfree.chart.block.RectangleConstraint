@@ -1,0 +1,749 @@
+{
+    "org.jfree.chart.block.RectangleConstraint": [
+        {
+            "getHeightRange()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "RectangleConstraint(double, org.jfree.data.Range, org.jfree.chart.block.LengthConstraintType, double, org.jfree.data.Range, org.jfree.chart.block.LengthConstraintType)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 5.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "heightRange.upper >= 0.0",
+                                    "widthRange.upper one of { 0.0, 5.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 10.0 }",
+                                    "heightRange.upper == 0.0",
+                                    "widthRange.upper one of { 0.0, 10.0 }",
+                                    "h >= 0.0",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 5.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "heightRange.upper >= 0.0",
+                                    "widthRange.upper one of { 0.0, 5.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 5.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "heightRange.upper >= 0.0",
+                                    "widthRange.upper one of { 0.0, 5.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 5.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "heightRange.upper >= 0.0",
+                                    "widthRange.upper one of { 0.0, 5.0, 10.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 5.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "heightRange.upper >= 0.0",
+                                    "widthRange.upper one of { 0.0, 5.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 10.0 }",
+                                    "heightRange.upper == 0.0",
+                                    "widthRange.upper one of { 0.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 5.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "heightRange.upper >= 0.0",
+                                    "widthRange.upper one of { 0.0, 5.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 5.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "heightRange.upper >= 0.0",
+                                    "widthRange.upper one of { 0.0, 5.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "widthRange.lower one of { 0.0, 5.0, 10.0 }",
+                                    "heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "heightRange.upper >= 0.0",
+                                    "widthRange.upper one of { 0.0, 5.0, 10.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getHeightConstraintType()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWidth()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "RectangleConstraint(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "w one of { -2.3000000000000007, 2.0, 10.0 }",
+                                    "h one of { 6.0, 16.0, 45.6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.width one of { -2.3000000000000007, 2.0, 10.0 }",
+                                    "this.height one of { 6.0, 16.0, 45.6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWidthConstraintType()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getHeight()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWidthRange()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "this.height >= 0.0",
+                                    "this.heightRange.upper == 0.0",
+                                    "this.heightConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

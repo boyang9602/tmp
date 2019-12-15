@@ -1,0 +1,194 @@
+{
+    "org.mockito.internal.verification.checkers.NumberOfInvocationsChecker": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch179.inv.output": {
+                        "invs": [
+                            "this.finder has only one value",
+                            "this has only one value",
+                            "this.reporter has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NumberOfInvocationsChecker(org.mockito.exceptions.Reporter, org.mockito.internal.invocation.InvocationsFinder)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "reporter has only one value",
+                                    "finder has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "check(java.util.List, org.mockito.internal.invocation.InvocationMatcher, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "wanted.matchers[] elements has only one value",
+                                    "wanted.matchers has only one value",
+                                    "size(invocations[]) == 1",
+                                    "wanted.invocation.rawArguments[] elements has only one value",
+                                    "wanted.invocation.mock has only one value",
+                                    "wanted has only one value",
+                                    "invocations.getClass().getName() == java.util.LinkedList.class",
+                                    "wanted.invocation.verified == false",
+                                    "wanted.invocation.rawArguments[].getClass().getName() == [java.lang.String]",
+                                    "wanted.invocation.arguments[] contains no nulls and has only one value, of length 1",
+                                    "wanted.invocation.rawArguments.getClass().getName() == java.lang.Object[].class",
+                                    "size(wanted.invocation.rawArguments[]) == 1",
+                                    "wanted.matchers[].getClass().getName() elements == org.mockito.internal.matchers.Equals.class",
+                                    "invocations[] contains no nulls and has only one value, of length 1",
+                                    "invocations[].getClass().getName() elements == org.mockito.internal.invocation.Invocation.class",
+                                    "wanted.invocation.arguments[] elements has only one value",
+                                    "wanted.invocation.location has only one value",
+                                    "wanted.invocation.rawArguments[].getClass().getName() elements == java.lang.String.class",
+                                    "wanted.invocation.rawArguments[] contains no nulls and has only one value, of length 1",
+                                    "wanted.invocation.verifiedInOrder == false",
+                                    "invocations[].getClass().getName() == [org.mockito.internal.invocation.Invocation]",
+                                    "size(wanted.invocation.arguments[]) == 1",
+                                    "wanted.invocation.arguments.getClass().getName() == java.lang.Object[].class",
+                                    "wanted.invocation.sequenceNumber == 3",
+                                    "wanted.invocation.arguments[].getClass().getName() elements == java.lang.String.class",
+                                    "wanted.invocation.mock.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$4038d86a.class",
+                                    "wanted.invocation.realMethod.getClass().getName() == org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod.class",
+                                    "wanted.matchers[].getClass().getName() == [org.mockito.internal.matchers.Equals]",
+                                    "wanted.matchers[] contains no nulls and has only one value, of length 1",
+                                    "wanted.matchers.getClass().getName() == java.util.ArrayList.class",
+                                    "wanted.invocation.realMethod has only one value",
+                                    "invocations[] elements has only one value",
+                                    "invocations has only one value",
+                                    "wanted.invocation has only one value",
+                                    "wanted.invocation.arguments has only one value",
+                                    "wanted.invocation.arguments[].getClass().getName() == [java.lang.String]",
+                                    "size(wanted.matchers[]) == 1",
+                                    "wanted.invocation.method has only one value",
+                                    "wantedCount == 1",
+                                    "wanted.invocation.rawArguments has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "wanted.matchers[] elements has only one value",
+                                    "invocations[] == orig(invocations[])",
+                                    "wanted.matchers has only one value",
+                                    "wanted.invocation.rawArguments[] == orig(wanted.invocation.rawArguments[])",
+                                    "wanted.invocation.verifiedInOrder == orig(wanted.invocation.verifiedInOrder)",
+                                    "wanted.invocation.rawArguments[] elements has only one value",
+                                    "wanted.invocation.mock has only one value",
+                                    "wanted.invocation.mock == orig(wanted.invocation.mock)",
+                                    "wanted.invocation.verified == false",
+                                    "wanted.invocation.rawArguments[].getClass().getName() == [java.lang.String]",
+                                    "wanted.invocation.rawArguments.getClass().getName() == java.lang.Object[].class",
+                                    "wanted.invocation.arguments[] contains no nulls and has only one value, of length 1",
+                                    "wanted.matchers == orig(wanted.matchers)",
+                                    "wanted.invocation.method == orig(wanted.invocation.method)",
+                                    "wanted.invocation.rawArguments has only one value",
+                                    "size(wanted.invocation.rawArguments[]) == 1",
+                                    "wanted.matchers.getClass().getName() == orig(wanted.matchers.getClass().getName())",
+                                    "wanted.matchers[].getClass().getName() elements == org.mockito.internal.matchers.Equals.class",
+                                    "invocations[] contains no nulls and has only one value, of length 1",
+                                    "invocations[].getClass().getName() elements == org.mockito.internal.invocation.Invocation.class",
+                                    "wanted.invocation.arguments[] elements has only one value",
+                                    "wanted.invocation.location has only one value",
+                                    "wanted.invocation.rawArguments[].getClass().getName() elements == java.lang.String.class",
+                                    "wanted.invocation.realMethod.getClass().getName() == orig(wanted.invocation.realMethod.getClass().getName())",
+                                    "wanted.invocation.rawArguments[] contains no nulls and has only one value, of length 1",
+                                    "wanted.invocation.verifiedInOrder == false",
+                                    "wanted.matchers[] == orig(wanted.matchers[])",
+                                    "wanted.invocation.realMethod == orig(wanted.invocation.realMethod)",
+                                    "invocations[].getClass().getName() == [org.mockito.internal.invocation.Invocation]",
+                                    "wanted.invocation.rawArguments.getClass().getName() == orig(wanted.invocation.rawArguments.getClass().getName())",
+                                    "size(wanted.invocation.arguments[]) == 1",
+                                    "wanted.invocation.arguments.getClass().getName() == java.lang.Object[].class",
+                                    "wanted.invocation.sequenceNumber == 3",
+                                    "wanted.invocation.arguments[].getClass().getName() elements == java.lang.String.class",
+                                    "wanted.invocation.realMethod.getClass().getName() == org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod.class",
+                                    "wanted.invocation == orig(wanted.invocation)",
+                                    "wanted.invocation.mock.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$4038d86a.class",
+                                    "wanted.invocation.verified == orig(wanted.invocation.verified)",
+                                    "wanted.matchers[].getClass().getName() == [org.mockito.internal.matchers.Equals]",
+                                    "wanted.matchers[] contains no nulls and has only one value, of length 1",
+                                    "wanted.invocation.arguments[].getClass().getName() == [java.lang.String]",
+                                    "this.reporter == orig(this.reporter)",
+                                    "wanted.matchers.getClass().getName() == java.util.ArrayList.class",
+                                    "wanted.invocation.rawArguments == orig(wanted.invocation.rawArguments)",
+                                    "wanted.invocation.realMethod has only one value",
+                                    "invocations[] elements has only one value",
+                                    "wanted.invocation.arguments.getClass().getName() == orig(wanted.invocation.arguments.getClass().getName())",
+                                    "wanted.invocation.sequenceNumber == orig(wanted.invocation.sequenceNumber)",
+                                    "wanted.invocation has only one value",
+                                    "wanted.invocation.location == orig(wanted.invocation.location)",
+                                    "wanted.invocation.arguments == orig(wanted.invocation.arguments)",
+                                    "wanted.invocation.mock.getClass().getName() == orig(wanted.invocation.mock.getClass().getName())",
+                                    "wanted.invocation.arguments has only one value",
+                                    "this.finder == orig(this.finder)",
+                                    "size(wanted.matchers[]) == 1",
+                                    "wanted.invocation.method has only one value",
+                                    "wanted.invocation.arguments[] == orig(wanted.invocation.arguments[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NumberOfInvocationsChecker()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

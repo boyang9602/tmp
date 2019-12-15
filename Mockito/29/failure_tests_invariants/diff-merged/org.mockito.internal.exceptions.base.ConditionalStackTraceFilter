@@ -1,0 +1,140 @@
+{
+    "org.mockito.internal.exceptions.base.ConditionalStackTraceFilter": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch178.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch178.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.config has only one value",
+                            "this.config.getClass().getName() == org.mockito.internal.configuration.GlobalConfiguration.class",
+                            "this.filter has only one value"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.config has only one value",
+                            "this.config.getClass().getName() == org.mockito.internal.configuration.GlobalConfiguration.class",
+                            "this.filter has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "filter(java.lang.Throwable)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "throwable has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "throwable has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.filter == orig(this.filter)",
+                                    "this.config.getClass().getName() == orig(this.config.getClass().getName())",
+                                    "this.config == orig(this.config)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.filter == orig(this.filter)",
+                                    "this.config.getClass().getName() == orig(this.config.getClass().getName())",
+                                    "this.config == orig(this.config)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "20": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch178.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ConditionalStackTraceFilter()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

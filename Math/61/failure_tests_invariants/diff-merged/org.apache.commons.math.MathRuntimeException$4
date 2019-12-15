@@ -1,0 +1,91 @@
+{
+    "org.apache.commons.math.MathRuntimeException$4": [
+        {
+            "CLASS": [
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch200.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.val$arguments[].getClass().getName() == [java.lang.Double]",
+                            "this.val$pattern.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.val$pattern has only one value",
+                            "this.val$arguments.getClass().getName() == java.lang.Object[].class",
+                            "this has only one value",
+                            "size(this.val$arguments[]) == 1",
+                            "this.val$arguments[] elements has only one value",
+                            "this.val$arguments has only one value",
+                            "this.val$arguments[] contains no nulls and has only one value, of length 1",
+                            "this.val$arguments[].getClass().getName() elements == java.lang.Double.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch200.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "(org.apache.commons.math.exception.util.Localizable, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "$hidden$2.getClass().getName() == java.lang.Object[].class",
+                                    "$hidden$1.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "$hidden$1 has only one value",
+                                    "$hidden$2[] contains no nulls and has only one value, of length 1",
+                                    "$hidden$2 has only one value",
+                                    "$hidden$2[] elements has only one value",
+                                    "size($hidden$2[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "$hidden$2[] elements has only one value",
+                                    "$hidden$2[] contains no nulls and has only one value, of length 1",
+                                    "$hidden$2[] == orig($hidden$2[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

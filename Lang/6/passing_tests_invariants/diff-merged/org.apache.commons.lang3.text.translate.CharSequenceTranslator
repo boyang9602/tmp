@@ -1,0 +1,159 @@
+{
+    "org.apache.commons.lang3.text.translate.CharSequenceTranslator": [
+        {
+            "translate(java.lang.CharSequence)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "this.getClass().getName() == org.apache.commons.lang3.text.translate.AggregateTranslator.class",
+                                    "input == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "input.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "return == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == null)  <==>  (orig(input) == null)",
+                                    "(return != null)  ==>  (orig(input.getClass().getName()) == java.lang.String.class)",
+                                    "(return != null)  <==>  (orig(input) != null)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "55": [
+                                {
+                                    "PatchHDRepair2.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(input) == null",
+                                            "return == null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "60": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(input) != null",
+                                            "return != null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "translate(java.lang.CharSequence, java.io.Writer)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "out == null",
+                                    "this.getClass().getName() == org.apache.commons.lang3.text.translate.AggregateTranslator.class",
+                                    "input == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "out != null",
+                                    "input.getClass().getName() == java.lang.String.class",
+                                    "out.getClass().getName() == java.io.StringWriter.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(orig(input) != null)  ==>  (orig(input.getClass().getName()) == java.lang.String.class)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "80": [
+                                {
+                                    "PatchHDRepair2.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(input) == null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "98": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(input) != null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "org.jfree.chart.util.RectangleAnchor": [
+        {
+            "createRectangle(org.jfree.chart.util.Size2D, double, double, org.jfree.chart.util.RectangleAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "dimensions.width == 16.0",
+                                    "anchorX one of { 64.995849609375, 135.004150390625 }",
+                                    "anchorY one of { 56.91156768798828, 61.04155731201172 }",
+                                    "dimensions.height == 15.640625"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "dimensions.height one of { 15.640625, 38.921875 }",
+                                    "dimensions.width one of { 16.0, 26.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "dimensions.width == 16.0",
+                                    "dimensions.height == 15.640625"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "dimensions.width one of { 16.0, 26.0 }",
+                                    "dimensions.height one of { 15.640625, 38.921875 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

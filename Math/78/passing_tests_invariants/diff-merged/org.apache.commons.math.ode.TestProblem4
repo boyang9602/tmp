@@ -1,0 +1,102 @@
+{
+    "org.apache.commons.math.ode.TestProblem4": [
+        {
+            "TestProblem4(org.apache.commons.math.ode.TestProblem4)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "problem.y0 != null",
+                                    "problem.y != null",
+                                    "problem != null",
+                                    "problem.errorScale != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "problem.y0 != null",
+                                    "problem.y != null",
+                                    "problem.errorScale != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "copy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.errorScale != null",
+                                    "return.y != null",
+                                    "return != null",
+                                    "return.y0 != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

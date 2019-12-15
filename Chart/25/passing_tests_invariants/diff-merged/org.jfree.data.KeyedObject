@@ -1,0 +1,178 @@
+{
+    "org.jfree.data.KeyedObject": [
+        {
+            "getObject()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.key has only one value",
+                                    "this.object has only one value",
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.key has only one value",
+                                    "this.object has only one value",
+                                    "this has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.key.getClass().getName() == orig(this.key.getClass().getName())",
+                                    "this.object == orig(this.object)",
+                                    "return has only one value",
+                                    "this.object has only one value",
+                                    "this.key == orig(this.key)",
+                                    "this.object.getClass().getName() == orig(this.object.getClass().getName())",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "this.key has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.key.getClass().getName() == orig(this.key.getClass().getName())",
+                                    "this.object == orig(this.object)",
+                                    "this.key == orig(this.key)",
+                                    "this.object.getClass().getName() == orig(this.object.getClass().getName())",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.key.getClass().getName() == orig(this.key.getClass().getName())",
+                                    "this.object == orig(this.object)",
+                                    "return has only one value",
+                                    "this.object has only one value",
+                                    "this.key == orig(this.key)",
+                                    "this.object.getClass().getName() == orig(this.object.getClass().getName())",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "this.key has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CLASS": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.object != null",
+                            "this.object.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                            "this.key.getClass().getName() == java.lang.String.class",
+                            "this.key != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "KeyedObject(java.lang.Comparable, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "object.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "key.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getKey()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.key.getClass().getName() == orig(this.key.getClass().getName())",
+                                    "this.object == orig(this.object)",
+                                    "this.key == orig(this.key)",
+                                    "this.object.getClass().getName() == orig(this.object.getClass().getName())",
+                                    "return.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

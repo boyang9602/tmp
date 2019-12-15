@@ -1,0 +1,201 @@
+{
+    "org.mockito.internal.reporting.SmartPrinter": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch178.inv.output": {
+                        "invs": [
+                            "this.wanted has only one value",
+                            "this.wanted.toString == \"mock.objectArgMethod(same());\"",
+                            "this.wanted.toString == \"mock.objectArgMethod(same(null));\"",
+                            "this.actual.toString == \"mock.objectArgMethod(\\\"not null\\\");\"",
+                            "this has only one value",
+                            "this.actual has only one value"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.wanted has only one value",
+                            "this.wanted.toString == \"mock.objectArgMethod(same());\"",
+                            "this.wanted.toString == \"mock.objectArgMethod(same(null));\"",
+                            "this.actual.toString == \"mock.objectArgMethod(\\\"not null\\\");\"",
+                            "this has only one value",
+                            "this.actual has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "getActual()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.wanted.toString == orig(this.wanted.toString)",
+                                    "this.actual == orig(this.actual)",
+                                    "return.toString == \"mock.objectArgMethod(\\\"not null\\\");\"",
+                                    "this.actual.toString == orig(this.actual.toString)",
+                                    "this.wanted == orig(this.wanted)",
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.wanted.toString == orig(this.wanted.toString)",
+                                    "this.actual == orig(this.actual)",
+                                    "return.toString == \"mock.objectArgMethod(\\\"not null\\\");\"",
+                                    "this.actual.toString == orig(this.actual.toString)",
+                                    "this.wanted == orig(this.wanted)",
+                                    "return has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "SmartPrinter(org.mockito.internal.reporting.PrintingFriendlyInvocation, org.mockito.internal.reporting.PrintingFriendlyInvocation, java.lang.Integer[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "actual.getClass().getName() == org.mockito.internal.invocation.Invocation.class",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo has only one value",
+                                    "actual has only one value",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == []",
+                                    "wanted.getClass().getName() == org.mockito.internal.invocation.InvocationMatcher.class",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo.getClass().getName() == java.lang.Integer[].class",
+                                    "wanted has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "actual.getClass().getName() == org.mockito.internal.invocation.Invocation.class",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo has only one value",
+                                    "actual has only one value",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == []",
+                                    "wanted.getClass().getName() == org.mockito.internal.invocation.InvocationMatcher.class",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo.getClass().getName() == java.lang.Integer[].class",
+                                    "wanted has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == []",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == orig(indexesOfMatchersToBeDescribedWithExtraTypeInfo[])"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == []",
+                                    "indexesOfMatchersToBeDescribedWithExtraTypeInfo[] == orig(indexesOfMatchersToBeDescribedWithExtraTypeInfo[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWanted()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.wanted.toString == orig(this.wanted.toString)",
+                                    "this.actual == orig(this.actual)",
+                                    "this.actual.toString == orig(this.actual.toString)",
+                                    "return.toString == \"mock.objectArgMethod(same(null));\"",
+                                    "this.wanted == orig(this.wanted)",
+                                    "return.toString == \"mock.objectArgMethod(same());\"",
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.wanted.toString == orig(this.wanted.toString)",
+                                    "this.actual == orig(this.actual)",
+                                    "this.actual.toString == orig(this.actual.toString)",
+                                    "return.toString == \"mock.objectArgMethod(same(null));\"",
+                                    "this.wanted == orig(this.wanted)",
+                                    "return.toString == \"mock.objectArgMethod(same());\"",
+                                    "return has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

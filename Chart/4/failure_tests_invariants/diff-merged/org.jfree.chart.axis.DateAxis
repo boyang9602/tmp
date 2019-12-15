@@ -1,0 +1,1119 @@
+{
+    "org.jfree.chart.axis.DateAxis": [
+        {
+            "DateAxis(java.lang.String, java.util.TimeZone, java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == this.labelFont",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == this.labelInsets",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.axisLinePaint",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == this.tickLabelFont",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.labelPaint",
+                                    "this.plot == null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == this.range.lower",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == this.range.upper",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == this.axisLineStroke",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == this.tickLabelInsets",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == this.tickUnit.formatter",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.tickMarkPaint",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.tickLabelPaint",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.defaultAutoRange",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == this.tickMarkStroke"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lowerMargin == 0.05",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "autoAdjustRange()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.range.upper one of { 1.0, 3.0, 1.576054655998E12 }",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "this.autoRangeMinimumSize > this.upperMargin",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "this.range.lower one of { 0.0, 1.0, 1.575874944001E12 }",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField",
+                                    "this.tickUnit != null",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.autoRangeMinimumSize > this.lowerMargin",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName() != this.plot.getClass().getName())",
+                                    "this.range.upper >= orig(this.range.upper)",
+                                    "(this.plot != null)  <==>  (this.range.upper > this.autoRangeMinimumSize)",
+                                    "this.upperMargin < orig(this.range.upper)",
+                                    "(this.range.upper == 1.0)  ==>  (this.range.upper > orig(this.range.lower))",
+                                    "(this.range.upper == 1.0)  ==>  (this.tickUnit.formatter has only one value)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.axisLinePaint)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == this.tickLabelFont)",
+                                    "this.plot.outlineStroke == orig(this.plot.outlineStroke)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.timeline != null)",
+                                    "this.tickUnit == orig(this.tickUnit)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.ZERO.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (this.upperMargin > orig(this.range.lower))",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (this.tickLabelInsets has only one value)",
+                                    "(this.plot != null)  ==>  (this.upArrow.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.noDataMessage == null)",
+                                    "(this.plot != null)  ==>  (this.plot.backgroundPaint != null)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.defaultAutoRange)",
+                                    "(this.range.upper == 1.0)  ==>  (this.tickUnit has only one value)",
+                                    "(this.range.upper == 1.0)  ==>  (this.tickMarkStroke has only one value)",
+                                    "this.autoRangeMinimumSize > this.lowerMargin",
+                                    "this.plot.noDataMessage == orig(this.plot.noDataMessage)",
+                                    "this.plot.insets.right == orig(this.plot.insets.right)",
+                                    "this.autoRangeMinimumSize != orig(this.range.upper)",
+                                    "this.labelFont == orig(this.labelFont)",
+                                    "this.tickLabelFont == orig(this.tickLabelFont)",
+                                    "(this.plot != null)  ==>  (this.plot.outlineStroke.getClass().getName() == java.awt.BasicStroke.class)",
+                                    "this.plot.getClass().getName() == orig(this.plot.getClass().getName())",
+                                    "this.plot.listenerList == orig(this.plot.listenerList)",
+                                    "(this.range.upper == 1.0)  ==>  (this.range.lower == 0.0)",
+                                    "(this.range.upper == 1.0)  ==>  (this.tickLabelFont has only one value)",
+                                    "this.autoRangeMinimumSize > this.upperMargin",
+                                    "this.labelInsets == orig(this.labelInsets)",
+                                    "(this.plot != null)  ==>  (this.plot.noDataMessageFont != null)",
+                                    "(this.range.upper == 1.0)  ==>  (this.labelPaint has only one value)",
+                                    "this.plot.backgroundAlpha == orig(this.plot.backgroundAlpha)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.ZERO.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.plot != null)  ==>  (orig(this.range.upper) one of { 1.0, 3.0, 1.576054655998E12 })",
+                                    "(this.plot != null)  ==>  (this.timeline.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.getClass().getName() != org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName())",
+                                    "(this.plot != null)  <==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper < this.range.upper)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper > orig(this.range.lower))",
+                                    "(this.plot != null)  ==>  (this.upArrow.getClass().getName() != this.plot.getClass().getName())",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_TIMELINE.getClass().getName() != this.plot.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (orig(this.range.upper) == 1.0)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower < orig(this.range.upper)",
+                                    "(this.plot != null)  ==>  (this.plot.insets.unitType != null)",
+                                    "(this.plot != null)  ==>  (this.upArrow.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "this.plot.noDataMessageFont == orig(this.plot.noDataMessageFont)",
+                                    "(this.plot != null)  ==>  (this.upArrow.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.listenerList != null)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.outlinePaint.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == this.tickLabelInsets)",
+                                    "(this.plot != null)  ==>  (this.timeZone != null)",
+                                    "(this.plot != null)  ==>  (this.timeline.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (this.range.lower < this.lowerMargin)",
+                                    "this.plot.outlinePaint == orig(this.plot.outlinePaint)",
+                                    "(this.plot != null)  ==>  (this.plot.drawingSupplier.getClass().getName() == org.jfree.chart.plot.DefaultDrawingSupplier.class)",
+                                    "this.plot.backgroundImageAlpha == orig(this.plot.backgroundImageAlpha)",
+                                    "(this.range.upper == 1.0)  ==>  (this.range.lower < this.range.upper)",
+                                    "(this.plot != null)  ==>  (this.plot.datasetGroup == null)",
+                                    "this.autoRangeMinimumSize != orig(this.range.lower)",
+                                    "this.labelPaint == orig(this.labelPaint)",
+                                    "(this.plot != null)  ==>  (this.timeZone.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.backgroundImage == null)",
+                                    "(this.plot != null)  ==>  (this.timeline.getClass().getName() != this.plot.getClass().getName())",
+                                    "this.plot.notify == orig(this.plot.notify)",
+                                    "(this.range.upper == 1.0)  ==>  (orig(this.range.lower) < orig(this.range.upper))",
+                                    "this.plot.parent == orig(this.plot.parent)",
+                                    "(this.plot != null)  ==>  (this.timeline.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_TIMELINE.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "this.labelPaint == orig(this.tickLabelPaint)",
+                                    "(this.plot != null)  ==>  (this.standardTickUnits.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (this.range == orig(this.range))",
+                                    "(this.range.upper == 1.0)  ==>  (this.axisLinePaint has only one value)",
+                                    "(this.plot != null)  ==>  (this.plot.getClass().getName() != org.jfree.chart.plot.Plot.ZERO.getClass().getName())",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.util.UnitType.ABSOLUTE == this.plot.insets.unitType)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == orig(this.range.upper))",
+                                    "this.tickUnit != null",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == this.tickUnit.formatter)",
+                                    "(this.range.upper == 1.0)  ==>  (this.labelInsets has only one value)",
+                                    "this.axisLinePaint == orig(this.tickMarkPaint)",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName() == this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.standardTickUnits.getClass().getName() != this.plot.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (this.range.lower < this.upperMargin)",
+                                    "this.plot.backgroundPaint == orig(this.plot.backgroundPaint)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "this.plot.foregroundAlpha == orig(this.plot.foregroundAlpha)",
+                                    "(this.plot != null)  ==>  (this.plot.outlineStroke.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper <= orig(this.range.upper)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.insets != null)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == this.labelFont)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_TIMELINE.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "(this.plot != null)  ==>  (this.locale has only one value)",
+                                    "(this.range.upper == 1.0)  ==>  (this.autoRangeMinimumSize > orig(this.range.lower))",
+                                    "this.plot.noDataMessagePaint == orig(this.plot.noDataMessagePaint)",
+                                    "this.range.lower >= orig(this.range.lower)",
+                                    "this.axisLinePaint == orig(this.axisLinePaint)",
+                                    "(this.plot != null)  ==>  (this.plot.getClass().getName() != org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName())",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "(this.plot != null)  ==>  (this.plot.parent == null)",
+                                    "this.defaultAutoRange == orig(this.defaultAutoRange)",
+                                    "(this.plot != null)  ==>  (this.plot.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.standardTickUnits.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower <= orig(this.range.lower)",
+                                    "this.plot.backgroundImage == orig(this.plot.backgroundImage)",
+                                    "(this.range.upper == 1.0)  ==>  (this.labelFont has only one value)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper > this.range.lower)",
+                                    "this.lowerMargin < orig(this.range.upper)",
+                                    "this.lowerMargin != orig(this.range.lower)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.outlinePaint != null)",
+                                    "this.range.upper >= orig(this.range.lower)",
+                                    "(this.plot != null)  ==>  (this.timeZone.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "this.plot.insets == orig(this.plot.insets)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() != this.plot.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.noDataMessagePaint.getClass().getName() == java.awt.Color.class)",
+                                    "(this.plot != null)  ==>  (this.plot.noDataMessagePaint.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.noDataMessagePaint != null)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == this.axisLineStroke)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter.getClass().getName() != this.plot.getClass().getName())",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.ZERO.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.upperMargin == this.lowerMargin)",
+                                    "(this.plot != null)  ==>  (this.standardTickUnits.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (orig(this.range.lower) == 0.0)",
+                                    "(this.range.upper == 1.0)  ==>  (this.lowerMargin > orig(this.range.lower))",
+                                    "this.tickMarkStroke == orig(this.tickMarkStroke)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField",
+                                    "(this.range.upper == 1.0)  ==>  (this.defaultAutoRange has only one value)",
+                                    "(this.plot != null)  ==>  (orig(this.range.lower) one of { 0.0, 1.0, 1.575874944001E12 })",
+                                    "(this.plot != null)  ==>  (this.locale != null)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "(this.plot != null)  ==>  (this.plot.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.insets.unitType has only one value)",
+                                    "(this.range.upper == 1.0)  <==>  (this.range.upper < this.autoRangeMinimumSize)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == this.range.lower)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.plot.outlineStroke != null)",
+                                    "(this.plot != null)  ==>  (this.plot.getClass().getName() == org.jfree.chart.plot.XYPlot.class)",
+                                    "this.plot.insets.unitType == orig(this.plot.insets.unitType)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() != this.plot.outlineStroke.getClass().getName())",
+                                    "(this.range.upper == 1.0)  <==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == this.range.upper)",
+                                    "(this.plot != null)  ==>  (this.plot.drawingSupplier != null)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == this.labelInsets)",
+                                    "(this.plot != null)  ==>  (this.plot.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.labelPaint)",
+                                    "(this.range.upper == 1.0)  <==>  (this.plot == null)",
+                                    "(this.range.upper == 1.0)  ==>  (this.autoRangeMinimumSize > orig(this.range.upper))",
+                                    "(this.plot != null)  ==>  (this.timeZone.getClass().getName() != this.plot.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.noDataMessagePaint.getClass().getName())",
+                                    "this.plot.drawingSupplier == orig(this.plot.drawingSupplier)",
+                                    "this.plot.backgroundImageAlignment == orig(this.plot.backgroundImageAlignment)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "this.axisLineStroke == orig(this.axisLineStroke)",
+                                    "(this.plot != null)  ==>  (this.plot.noDataMessagePaint.getClass().getName() != this.plot.drawingSupplier.getClass().getName())",
+                                    "this.plot.insets.bottom == orig(this.plot.insets.bottom)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == this.tickMarkStroke)",
+                                    "this.tickLabelInsets == orig(this.tickLabelInsets)",
+                                    "this.plot.insets.top == orig(this.plot.insets.top)",
+                                    "(this.plot != null)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_TIMELINE.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "this.upperMargin != orig(this.range.lower)",
+                                    "(this.range.upper == 1.0)  ==>  (this.axisLineStroke has only one value)",
+                                    "this.plot.datasetGroup == orig(this.plot.datasetGroup)",
+                                    "this.tickUnit.formatter == orig(this.tickUnit.formatter)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.backgroundPaint.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (this.range.lower < orig(this.range.upper))",
+                                    "this.plot.drawingSupplier.getClass().getName() == orig(this.plot.drawingSupplier.getClass().getName())",
+                                    "(this.plot != null)  ==>  (this.timeZone.getClass().getName() != this.plot.noDataMessagePaint.getClass().getName())",
+                                    "this.plot.insets.left == orig(this.plot.insets.left)",
+                                    "this.plot.outlineStroke.getClass().getName() == orig(this.plot.outlineStroke.getClass().getName())",
+                                    "(this.range.upper == 1.0)  ==>  (this.range.lower < this.autoRangeMinimumSize)",
+                                    "this.plot.outlineVisible == orig(this.plot.outlineVisible)",
+                                    "(this.range.upper == 1.0)  ==>  (org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == orig(this.range.lower))"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.tickLabelPaint)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == orig(this.labelFont)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == orig(this.range.lower)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == orig(this.tickLabelInsets)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.labelPaint)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == orig(this.tickMarkStroke)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit",
+                                    "this.range == orig(this.range)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == orig(this.range.upper)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == orig(this.labelInsets)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == orig(this.tickUnit)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == orig(this.tickLabelFont)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == orig(this.axisLineStroke)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(this.axisLinePaint)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(this.tickMarkPaint)",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == orig(this.defaultAutoRange)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == orig(this.tickUnit.formatter)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1280": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == this.labelFont",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == this.labelInsets",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.labelPaint)",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == orig(this.range.upper)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == orig(this.tickLabelInsets)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.axisLinePaint",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == this.tickLabelFont",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == orig(this.labelInsets)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == orig(this.tickMarkStroke)",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == orig(this.tickUnit)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.tickLabelPaint)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.labelPaint",
+                                            "this.plot == null",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == this.range.lower",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == this.range.upper",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == this.axisLineStroke",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == this.tickLabelInsets",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == orig(this.tickLabelFont)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == orig(this.axisLineStroke)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == orig(this.labelFont)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(this.axisLinePaint)",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == this.tickUnit.formatter",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.tickMarkPaint",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(this.tickMarkPaint)",
+                                            "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == orig(this.defaultAutoRange)",
+                                            "this.range == orig(this.range)",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == orig(this.tickUnit.formatter)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.tickLabelPaint",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == orig(this.range.lower)",
+                                            "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.defaultAutoRange",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == this.tickMarkStroke"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1326": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == orig(this.plot.backgroundPaint.getClass().getName())",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == this.plot.outlinePaint.getClass().getName()",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName() == orig(this.plot.outlineStroke.getClass().getName())",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper < this.range.upper",
+                                            "this.locale != null",
+                                            "org.jfree.chart.plot.Plot.DEFAULT_INSETS.left == orig(this.plot.insets.left)",
+                                            "this.plot != null",
+                                            "this.timeZone != null",
+                                            "org.jfree.chart.plot.Plot.DEFAULT_INSETS.right == orig(this.plot.insets.right)",
+                                            "this.range.upper > this.autoRangeMinimumSize",
+                                            "this.timeline != null",
+                                            "org.jfree.chart.axis.DateAxis.DEFAULT_TIMELINE.getClass().getName() == orig(this.timeline.getClass().getName())",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == orig(this.plot.noDataMessagePaint.getClass().getName())",
+                                            "org.jfree.chart.plot.Plot.DEFAULT_INSETS.top == orig(this.plot.insets.top)",
+                                            "this.upperMargin == this.lowerMargin",
+                                            "this.locale has only one value",
+                                            "org.jfree.chart.plot.Plot.DEFAULT_INSETS.bottom == orig(this.plot.insets.bottom)",
+                                            "org.jfree.chart.util.UnitType.ABSOLUTE == orig(this.plot.insets.unitType)",
+                                            "this.upperMargin == orig(this.lowerMargin)",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == this.plot.backgroundPaint.getClass().getName()",
+                                            "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == orig(this.plot.outlinePaint.getClass().getName())"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DateAxis(java.lang.String, java.util.TimeZone)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == this.labelFont",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == this.labelInsets",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.axisLinePaint",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == this.tickLabelFont",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.labelPaint",
+                                    "this.plot == null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == this.range.lower",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == this.range.upper",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == this.axisLineStroke",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == this.tickLabelInsets",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == this.tickUnit.formatter",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.tickMarkPaint",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.tickLabelPaint",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.defaultAutoRange",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == this.tickMarkStroke"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lowerMargin == 0.05",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setTickUnit(org.jfree.chart.axis.DateTickUnit, boolean, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == this.labelInsets",
+                                    "this.range.upper one of { 1.0, 3.0 }",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size >= unit.size",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.axisLinePaint",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == this.tickLabelFont",
+                                    "unit.count one of { 1, 5 }",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "unit.unitType.calendarField one of { 5, 14 }",
+                                    "this.range.lower < this.range.upper",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper >= this.range.lower",
+                                    "this.plot.outlineStroke has only one value",
+                                    "unit.unitType == unit.rollUnitType",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == this.axisLineStroke",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE == this.plot.outlineStroke",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == this.tickLabelInsets",
+                                    "unit.unitType.name.toString one of { \"DateTickUnitType.DAY\", \"DateTickUnitType.MILLISECOND\" }",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.plot.noDataMessagePaint",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_INSETS == this.plot.insets",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.tickMarkPaint",
+                                    "this.range.lower < this.autoRangeMinimumSize",
+                                    "this.range.upper > this.autoRangeMinimumSize",
+                                    "this.range.lower one of { 0.0, 1.0 }",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField <= unit.unitType.calendarField",
+                                    "unit.size one of { 5.0, 8.64E7 }",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "unit.rollUnitType.name.toString one of { \"DateTickUnitType.DAY\", \"DateTickUnitType.MILLISECOND\" }",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "this.plot.noDataMessagePaint == this.plot.outlinePaint",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count <= unit.count",
+                                    "this.plot.insets has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT == this.plot.backgroundPaint",
+                                    "unit.unitType.name == unit.rollUnitType.name",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.defaultAutoRange",
+                                    "unit.unitType.calendarField == unit.rollUnitType.calendarField",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == this.tickMarkStroke"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.locale == null",
+                                    "unit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "unit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == unit.rollUnitType.name",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == unit.count",
+                                    "this.lowerMargin == 0.05",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == unit.rollUnitType",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == unit",
+                                    "this.timeline == null",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == unit.unitType",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == unit.rollUnitType.calendarField",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == unit.formatter",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == unit.unitType.calendarField",
+                                    "this.upperMargin == 0.05",
+                                    "this.autoRangeMinimumSize == 1.0E-8",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == unit.unitType.name",
+                                    "this.tickUnit == null",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.range",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == unit.size",
+                                    "this.timeZone == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size >= unit.size",
+                                    "this.tickUnit.count == unit.count",
+                                    "unit.unitType.calendarField == orig(unit.rollUnitType.calendarField)",
+                                    "this.plot.outlineStroke == orig(this.plot.outlineStroke)",
+                                    "this.plot.noDataMessagePaint has only one value",
+                                    "unit.unitType.calendarField one of { 5, 14 }",
+                                    "this.range.lower < this.range.upper",
+                                    "this.tickUnit.unitType.calendarField == unit.unitType.calendarField",
+                                    "this.plot.outlineStroke has only one value",
+                                    "this.plot.insets.right == orig(this.plot.insets.right)",
+                                    "this.plot.noDataMessage == orig(this.plot.noDataMessage)",
+                                    "this.labelFont == orig(this.labelFont)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE == this.plot.outlineStroke",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_INSETS == this.plot.insets",
+                                    "this.plot.getClass().getName() == orig(this.plot.getClass().getName())",
+                                    "this.plot.listenerList == orig(this.plot.listenerList)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.tickMarkPaint",
+                                    "unit.size == orig(unit.size)",
+                                    "this.tickUnit.rollUnitType == unit.unitType",
+                                    "this.tickUnit.unitType == unit.unitType",
+                                    "this.plot.backgroundAlpha == orig(this.plot.backgroundAlpha)",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count <= unit.count",
+                                    "this.range.upper == orig(this.range.upper)",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.defaultAutoRange",
+                                    "unit.unitType.calendarField == unit.rollUnitType.calendarField",
+                                    "this.plot.noDataMessageFont == orig(this.plot.noDataMessageFont)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.outlinePaint.getClass().getName())",
+                                    "unit.count one of { 1, 5 }",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == orig(this.tickUnit.rollCount)",
+                                    "this.plot.backgroundImageAlpha == orig(this.plot.backgroundImageAlpha)",
+                                    "this.labelPaint == orig(this.labelPaint)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper >= this.range.lower",
+                                    "unit.unitType == unit.rollUnitType",
+                                    "this.plot.notify == orig(this.plot.notify)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == this.axisLineStroke",
+                                    "this.plot.parent == orig(this.plot.parent)",
+                                    "this.timeline.getClass().getName() == orig(this.timeline.getClass().getName())",
+                                    "this.range.lower < this.autoRangeMinimumSize",
+                                    "this.labelPaint == orig(this.tickLabelPaint)",
+                                    "unit.unitType.name == orig(unit.rollUnitType.name)",
+                                    "this.plot.backgroundPaint == orig(this.plot.backgroundPaint)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter.getClass().getName() == orig(this.tickUnit.formatter.getClass().getName())",
+                                    "this.plot.noDataMessagePaint == this.plot.outlinePaint",
+                                    "this.plot.foregroundAlpha == orig(this.plot.foregroundAlpha)",
+                                    "unit.unitType.name == unit.rollUnitType.name",
+                                    "this.tickUnit.rollUnitType.name == unit.unitType.name",
+                                    "unit.count == orig(unit.count)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == this.labelInsets",
+                                    "this.plot.noDataMessagePaint == orig(this.plot.outlinePaint)",
+                                    "this.plot.noDataMessagePaint == orig(this.plot.noDataMessagePaint)",
+                                    "unit.unitType == orig(unit.unitType)",
+                                    "this.plot.backgroundImage == orig(this.plot.backgroundImage)",
+                                    "this.plot.insets == orig(this.plot.insets)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.plot.noDataMessagePaint",
+                                    "unit.unitType.name.toString one of { \"DateTickUnitType.DAY\", \"DateTickUnitType.MILLISECOND\" }",
+                                    "this.tickUnit == orig(unit)",
+                                    "this.range.lower == orig(this.range.lower)",
+                                    "this.tickUnit.size == unit.size",
+                                    "unit.rollUnitType.name.toString one of { \"DateTickUnitType.DAY\", \"DateTickUnitType.MILLISECOND\" }",
+                                    "this.range == orig(this.range)",
+                                    "unit.unitType == orig(unit.rollUnitType)",
+                                    "unit.unitType.name == orig(unit.unitType.name)",
+                                    "this.tickUnit.rollUnitType.calendarField == unit.unitType.calendarField",
+                                    "this.plot.backgroundPaint has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == this.tickMarkStroke",
+                                    "this.range.upper one of { 1.0, 3.0 }",
+                                    "unit.unitType.calendarField == orig(unit.unitType.calendarField)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.axisLinePaint",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == this.tickLabelFont",
+                                    "this.tickUnit.minorTickCount == orig(this.tickUnit.minorTickCount)",
+                                    "this.plot.insets.unitType == orig(this.plot.insets.unitType)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.noDataMessagePaint.getClass().getName())",
+                                    "this.plot.drawingSupplier == orig(this.plot.drawingSupplier)",
+                                    "this.plot.backgroundImageAlignment == orig(this.plot.backgroundImageAlignment)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == this.tickLabelInsets",
+                                    "this.tickUnit.unitType.name == unit.unitType.name",
+                                    "this.timeZone.getClass().getName() == orig(this.timeZone.getClass().getName())",
+                                    "this.plot.insets.bottom == orig(this.plot.insets.bottom)",
+                                    "this.range.upper > this.autoRangeMinimumSize",
+                                    "this.plot.insets.top == orig(this.plot.insets.top)",
+                                    "this.range.lower one of { 0.0, 1.0 }",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField <= unit.unitType.calendarField",
+                                    "unit.size one of { 5.0, 8.64E7 }",
+                                    "this.plot.datasetGroup == orig(this.plot.datasetGroup)",
+                                    "unit.formatter == orig(unit.formatter)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.backgroundPaint.getClass().getName())",
+                                    "this.plot.drawingSupplier.getClass().getName() == orig(this.plot.drawingSupplier.getClass().getName())",
+                                    "this.plot.insets has only one value",
+                                    "this.plot.insets.left == orig(this.plot.insets.left)",
+                                    "this.plot.outlineStroke.getClass().getName() == orig(this.plot.outlineStroke.getClass().getName())",
+                                    "this.plot.outlineVisible == orig(this.plot.outlineVisible)",
+                                    "this.upperMargin == orig(this.lowerMargin)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT == this.plot.backgroundPaint",
+                                    "this.tickUnit.formatter == unit.formatter"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == orig(unit.rollUnitType)",
+                                    "this.locale == null",
+                                    "unit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == orig(unit.rollUnitType.name)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.tickLabelPaint)",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == unit.rollUnitType",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == orig(this.labelFont)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == unit.rollUnitType.calendarField",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == unit.formatter",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == orig(unit.count)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == orig(this.range.lower)",
+                                    "this.timeZone == null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.rollUnitType.name",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.rollUnitType.calendarField",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == unit.unitType",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == orig(unit)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == orig(unit.formatter)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == orig(unit.unitType.calendarField)",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.range",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.labelPaint)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit",
+                                    "this.lowerMargin == 0.05",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == orig(this.range)",
+                                    "this.timeline == null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == unit.size",
+                                    "this.lowerMargin == orig(this.lowerMargin)",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.rollUnitType",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == orig(this.range.upper)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == orig(unit.unitType.name)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == orig(unit.size)",
+                                    "unit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == unit.rollUnitType.name",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == unit.count",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == orig(unit.unitType)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == unit.unitType.calendarField",
+                                    "this.upperMargin == 0.05",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == orig(unit.rollUnitType.calendarField)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == unit.unitType.name",
+                                    "this.autoRangeMinimumSize == 1.0E-8"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setRange(org.jfree.data.Range, boolean, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower < range.upper",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "this.range.lower one of { 0.0, 1.0, 1.575874944001E12 }",
+                                    "this.range.lower <= range.lower",
+                                    "this.autoRangeMinimumSize != range.upper",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.upperMargin != range.lower",
+                                    "this.range.upper one of { 1.0, 3.0, 1.576054655998E12 }",
+                                    "this.range.lower <= range.upper",
+                                    "range.lower <= range.upper",
+                                    "this.upperMargin < range.upper",
+                                    "this.range.upper <= range.upper",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "range != null",
+                                    "this.autoRangeMinimumSize > this.upperMargin",
+                                    "range.lower >= 0.0",
+                                    "range.upper >= 1.0",
+                                    "this.tickUnit != null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper <= range.upper",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "this.autoRangeMinimumSize != range.lower",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower <= range.lower",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == range.upper",
+                                    "this.locale == null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit",
+                                    "this.lowerMargin == 0.05",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount",
+                                    "this.timeline == null",
+                                    "this.upperMargin == 0.05",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.range",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == range.lower",
+                                    "range has only one value",
+                                    "this.timeZone == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.upperMargin < orig(this.range.upper)",
+                                    "this.plot.outlineStroke == orig(this.plot.outlineStroke)",
+                                    "this.upperMargin != range.lower",
+                                    "this.tickUnit == orig(this.tickUnit)",
+                                    "this.plot.noDataMessage == orig(this.plot.noDataMessage)",
+                                    "this.plot.insets.right == orig(this.plot.insets.right)",
+                                    "this.autoRangeMinimumSize != orig(this.range.upper)",
+                                    "this.labelFont == orig(this.labelFont)",
+                                    "this.tickLabelFont == orig(this.tickLabelFont)",
+                                    "this.plot.getClass().getName() == orig(this.plot.getClass().getName())",
+                                    "this.plot.listenerList == orig(this.plot.listenerList)",
+                                    "this.autoRangeMinimumSize > this.upperMargin",
+                                    "this.labelInsets == orig(this.labelInsets)",
+                                    "range.upper >= orig(this.range.lower)",
+                                    "this.plot.backgroundAlpha == orig(this.plot.backgroundAlpha)",
+                                    "range.upper >= orig(this.range.upper)",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower < orig(this.range.upper)",
+                                    "this.plot.noDataMessageFont == orig(this.plot.noDataMessageFont)",
+                                    "this.range.lower == range.lower",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.outlinePaint.getClass().getName())",
+                                    "this.plot.outlinePaint == orig(this.plot.outlinePaint)",
+                                    "this.plot.backgroundImageAlpha == orig(this.plot.backgroundImageAlpha)",
+                                    "this.autoRangeMinimumSize != orig(this.range.lower)",
+                                    "this.labelPaint == orig(this.labelPaint)",
+                                    "this.plot.notify == orig(this.plot.notify)",
+                                    "this.plot.parent == orig(this.plot.parent)",
+                                    "this.timeline.getClass().getName() == orig(this.timeline.getClass().getName())",
+                                    "this.labelPaint == orig(this.tickLabelPaint)",
+                                    "range.lower >= 0.0",
+                                    "this.tickUnit != null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper <= range.upper",
+                                    "this.axisLinePaint == orig(this.tickMarkPaint)",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.backgroundPaint == orig(this.plot.backgroundPaint)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "this.plot.foregroundAlpha == orig(this.plot.foregroundAlpha)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper <= orig(this.range.upper)",
+                                    "range.upper == orig(range.upper)",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "this.plot.noDataMessagePaint == orig(this.plot.noDataMessagePaint)",
+                                    "this.autoRangeMinimumSize != range.upper",
+                                    "this.axisLinePaint == orig(this.axisLinePaint)",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.plot.backgroundImage == orig(this.plot.backgroundImage)",
+                                    "this.defaultAutoRange == orig(this.defaultAutoRange)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower <= orig(this.range.lower)",
+                                    "this.plot.insets == orig(this.plot.insets)",
+                                    "range.lower >= orig(this.range.lower)",
+                                    "this.range.upper == range.upper",
+                                    "this.autoRangeMinimumSize != range.lower",
+                                    "this.tickMarkStroke == orig(this.tickMarkStroke)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower < range.upper",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "range.lower == orig(range.lower)",
+                                    "this.plot.insets.unitType == orig(this.plot.insets.unitType)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.noDataMessagePaint.getClass().getName())",
+                                    "this.plot.drawingSupplier == orig(this.plot.drawingSupplier)",
+                                    "this.plot.backgroundImageAlignment == orig(this.plot.backgroundImageAlignment)",
+                                    "range.lower <= range.upper",
+                                    "this.axisLineStroke == orig(this.axisLineStroke)",
+                                    "this.timeZone.getClass().getName() == orig(this.timeZone.getClass().getName())",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "this.plot.insets.bottom == orig(this.plot.insets.bottom)",
+                                    "this.upperMargin < range.upper",
+                                    "this.tickLabelInsets == orig(this.tickLabelInsets)",
+                                    "this.plot.insets.top == orig(this.plot.insets.top)",
+                                    "range.upper >= 1.0",
+                                    "this.upperMargin != orig(this.range.lower)",
+                                    "this.plot.datasetGroup == orig(this.plot.datasetGroup)",
+                                    "this.tickUnit.formatter == orig(this.tickUnit.formatter)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower <= range.lower",
+                                    "this.plot.drawingSupplier.getClass().getName() == orig(this.plot.drawingSupplier.getClass().getName())",
+                                    "this.plot.insets.left == orig(this.plot.insets.left)",
+                                    "this.plot.outlineStroke.getClass().getName() == orig(this.plot.outlineStroke.getClass().getName())",
+                                    "this.plot.outlineVisible == orig(this.plot.outlineVisible)",
+                                    "this.upperMargin == orig(this.lowerMargin)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == range.upper",
+                                    "this.locale == null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.tickLabelPaint)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == orig(this.labelFont)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == range.lower",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == orig(this.range.lower)",
+                                    "this.range has only one value",
+                                    "this.timeZone == null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == orig(this.tickLabelInsets)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == orig(range.lower)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.labelPaint)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == orig(this.tickMarkStroke)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit",
+                                    "this.lowerMargin == 0.05",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == orig(this.range)",
+                                    "this.timeline == null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == orig(range.upper)",
+                                    "this.lowerMargin == orig(this.lowerMargin)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == orig(this.range.upper)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == orig(this.labelInsets)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == orig(this.tickUnit)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == orig(this.tickLabelFont)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == orig(this.axisLineStroke)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(this.axisLinePaint)",
+                                    "this.upperMargin == 0.05",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(this.tickMarkPaint)",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == orig(this.defaultAutoRange)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == orig(this.tickUnit.formatter)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "configure()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.range.upper one of { 1.0, 3.0, 1.576054655998E12 }",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "this.timeZone != null",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "this.autoRangeMinimumSize > this.upperMargin",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "this.range.lower one of { 0.0, 1.0, 1.575874944001E12 }",
+                                    "this.timeline != null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField",
+                                    "this.locale != null",
+                                    "this.tickUnit != null",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount",
+                                    "this.range has only one value",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_TIMELINE == this.timeline"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.range.upper >= orig(this.range.upper)",
+                                    "this.upperMargin < orig(this.range.upper)",
+                                    "this.plot.outlineStroke == orig(this.plot.outlineStroke)",
+                                    "this.tickUnit == orig(this.tickUnit)",
+                                    "this.locale != null",
+                                    "this.plot.noDataMessage == orig(this.plot.noDataMessage)",
+                                    "this.plot.insets.right == orig(this.plot.insets.right)",
+                                    "this.autoRangeMinimumSize != orig(this.range.upper)",
+                                    "this.labelFont == orig(this.labelFont)",
+                                    "this.tickLabelFont == orig(this.tickLabelFont)",
+                                    "this.plot.getClass().getName() == orig(this.plot.getClass().getName())",
+                                    "this.plot.listenerList == orig(this.plot.listenerList)",
+                                    "this.autoRangeMinimumSize > this.upperMargin",
+                                    "this.labelInsets == orig(this.labelInsets)",
+                                    "this.plot.backgroundAlpha == orig(this.plot.backgroundAlpha)",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower < orig(this.range.upper)",
+                                    "this.plot.noDataMessageFont == orig(this.plot.noDataMessageFont)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.outlinePaint.getClass().getName())",
+                                    "this.plot.outlinePaint == orig(this.plot.outlinePaint)",
+                                    "this.plot.backgroundImageAlpha == orig(this.plot.backgroundImageAlpha)",
+                                    "this.autoRangeMinimumSize != orig(this.range.lower)",
+                                    "this.labelPaint == orig(this.labelPaint)",
+                                    "this.plot.notify == orig(this.plot.notify)",
+                                    "this.plot.parent == orig(this.plot.parent)",
+                                    "this.timeZone != null",
+                                    "this.labelPaint == orig(this.tickLabelPaint)",
+                                    "this.timeline != null",
+                                    "this.tickUnit != null",
+                                    "this.timeline == orig(this.timeline)",
+                                    "this.axisLinePaint == orig(this.tickMarkPaint)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.plot.backgroundPaint == orig(this.plot.backgroundPaint)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "this.plot.foregroundAlpha == orig(this.plot.foregroundAlpha)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper <= orig(this.range.upper)",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "this.plot.noDataMessagePaint == orig(this.plot.noDataMessagePaint)",
+                                    "this.range.lower >= orig(this.range.lower)",
+                                    "this.axisLinePaint == orig(this.axisLinePaint)",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.plot.backgroundImage == orig(this.plot.backgroundImage)",
+                                    "this.defaultAutoRange == orig(this.defaultAutoRange)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower <= orig(this.range.lower)",
+                                    "this.range.upper >= orig(this.range.lower)",
+                                    "this.plot.insets == orig(this.plot.insets)",
+                                    "this.tickMarkStroke == orig(this.tickMarkStroke)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "this.plot.insets.unitType == orig(this.plot.insets.unitType)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.noDataMessagePaint.getClass().getName())",
+                                    "this.plot.drawingSupplier == orig(this.plot.drawingSupplier)",
+                                    "this.plot.backgroundImageAlignment == orig(this.plot.backgroundImageAlignment)",
+                                    "this.axisLineStroke == orig(this.axisLineStroke)",
+                                    "this.plot.insets.bottom == orig(this.plot.insets.bottom)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "this.tickLabelInsets == orig(this.tickLabelInsets)",
+                                    "this.plot.insets.top == orig(this.plot.insets.top)",
+                                    "this.upperMargin != orig(this.range.lower)",
+                                    "this.plot.datasetGroup == orig(this.plot.datasetGroup)",
+                                    "this.tickUnit.formatter == orig(this.tickUnit.formatter)",
+                                    "this.plot.noDataMessagePaint.getClass().getName() == orig(this.plot.backgroundPaint.getClass().getName())",
+                                    "this.plot.drawingSupplier.getClass().getName() == orig(this.plot.drawingSupplier.getClass().getName())",
+                                    "this.plot.insets.left == orig(this.plot.insets.left)",
+                                    "this.plot.outlineStroke.getClass().getName() == orig(this.plot.outlineStroke.getClass().getName())",
+                                    "this.plot.outlineVisible == orig(this.plot.outlineVisible)",
+                                    "this.upperMargin == orig(this.lowerMargin)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.tickLabelPaint)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == orig(this.labelFont)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == orig(this.range.lower)",
+                                    "this.range has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == orig(this.tickLabelInsets)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_TIMELINE == orig(this.timeline)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(this.labelPaint)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == orig(this.tickMarkStroke)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == this.tickUnit",
+                                    "this.range == orig(this.range)",
+                                    "this.lowerMargin == orig(this.lowerMargin)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == orig(this.range.upper)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == orig(this.labelInsets)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT == orig(this.tickUnit)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == orig(this.tickLabelFont)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_TIMELINE == this.timeline",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == orig(this.axisLineStroke)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(this.axisLinePaint)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(this.tickMarkPaint)",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == orig(this.defaultAutoRange)",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == orig(this.tickUnit.formatter)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DateAxis(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == this.labelFont",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == this.labelInsets",
+                                    "org.jfree.chart.axis.DateTickUnitType.DAY == this.tickUnit.unitType",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.axisLinePaint",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.name == this.tickUnit.unitType.name",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == this.tickLabelFont",
+                                    "this.tickUnit.rollUnitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.labelPaint",
+                                    "this.plot == null",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.lower == this.range.lower",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_RANGE.upper == this.range.upper",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == this.axisLineStroke",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == this.tickLabelInsets",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.formatter == this.tickUnit.formatter",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.count",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == this.tickMarkPaint",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.tickUnit.unitType.name.toString == \"DateTickUnitType.DAY\"",
+                                    "this.upperMargin == this.lowerMargin",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.unitType.calendarField == this.tickUnit.unitType.calendarField",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == this.tickLabelPaint",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE == this.defaultAutoRange",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == this.tickMarkStroke"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lowerMargin == 0.05",
+                                    "org.jfree.chart.axis.DateAxis.DEFAULT_DATE_TICK_UNIT.count == this.tickUnit.rollCount"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createStandardDateTickUnits(java.util.TimeZone, java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == org.jfree.chart.util.UnitType.ABSOLUTE"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

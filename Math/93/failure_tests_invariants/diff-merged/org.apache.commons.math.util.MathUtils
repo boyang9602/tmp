@@ -1,0 +1,166 @@
+{
+    "org.apache.commons.math.util.MathUtils": [
+        {
+            "factorialDouble(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch207.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch207.inv.output": {
+                                "invs": [
+                                    "return >= 1.0",
+                                    "(return == 2.43290200817664E18)  <==>  (orig(n) == 20)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "385": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch207.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "387": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch207.inv.output": {
+                                        "invs": [
+                                            "orig(n) == 20",
+                                            "return == 2.43290200817664E18"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "factorialLog(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch207.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "n >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch207.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "403": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "factorial(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "n >= 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

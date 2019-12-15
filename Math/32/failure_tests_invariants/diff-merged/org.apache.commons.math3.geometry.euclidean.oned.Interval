@@ -1,0 +1,299 @@
+{
+    "org.apache.commons.math3.geometry.euclidean.oned.Interval": [
+        {
+            "Interval(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "upper one of { -0.9999989867210388, 1.0, 1.4142135623730951 }",
+                                    "lower one of { -1.4142135623730951, -1.0 }",
+                                    "lower one of { -1.4142135623730951, -1.0, 0.999998986721039 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "lower one of { -1.4142135623730951, -1.0, 0.999998986721039 }",
+                                    "upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "upper one of { -0.9999989867210388, 1.0, 1.4142135623730951 }",
+                                    "lower one of { -1.4142135623730951, -1.0 }",
+                                    "lower one of { -1.4142135623730951, -1.0, 0.999998986721039 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "upper one of { -0.9999989867210388, 1.0, 1.4142135623730951 }",
+                                    "lower one of { -1.4142135623730951, -1.0 }",
+                                    "upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getUpper()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "return one of { -0.9999989867210388, 0.9999999999999998, 1.4142135623730954 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 0.9999999999999998, 1.4142135623730954 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { -0.9999989867210388, 0.9999999999999998, 1.4142135623730954 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLength()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }",
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }",
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }",
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }",
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMidPoint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }",
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }",
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }",
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4142135623730951, -1.0 }",
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 1.0, 1.4142135623730951 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLower()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "return one of { -1.414213562373095, -0.9999999999999999 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -1.414213562373095, -0.9999999999999999, 0.999998986721039 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

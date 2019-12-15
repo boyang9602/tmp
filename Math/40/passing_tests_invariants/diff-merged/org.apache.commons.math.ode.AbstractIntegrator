@@ -1,0 +1,80 @@
+{
+    "org.apache.commons.math.ode.AbstractIntegrator": [
+        {
+            "clearEventHandlers()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "this.expandable.time >= 1.0",
+                                    "this.expandable.primaryStateDot[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "this.expandable.time >= 1.0",
+                                    "this.expandable.primaryStateDot[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEventHandlers()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "this.expandable.time >= 1.0",
+                                    "this.expandable.primaryStateDot[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "this.expandable.time >= 1.0",
+                                    "this.expandable.primaryStateDot[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching": [
+        {
+            "RemoveNotMatching(org.mockito.internal.invocation.InvocationsFinder, org.mockito.internal.invocation.InvocationMatcher)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

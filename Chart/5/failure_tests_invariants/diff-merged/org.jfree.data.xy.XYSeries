@@ -1,0 +1,512 @@
+{
+    "org.jfree.data.xy.XYSeries": [
+        {
+            "addOrUpdate(java.lang.Number, java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch6.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x has only one value",
+                                    "this.data[].getClass().getName() == []",
+                                    "y has only one value",
+                                    "this.data[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch7.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch5.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch87.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch6.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 1",
+                                    "this.data[].getClass().getName() == [org.jfree.data.xy.XYDataItem]",
+                                    "this.data[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch7.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch5.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch87.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "546": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "indexOf(java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch6.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch7.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch5.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch87.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch6.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch7.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch5.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch87.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[] elements has only one value",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "590": [
+                                {
+                                    "Patch6.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch7.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch5.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch87.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "589": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch6.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getItemCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch6.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 1",
+                                    "this.data[].getClass().getName() == [org.jfree.data.xy.XYDataItem]",
+                                    "this.data[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch7.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch5.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch87.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch6.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "return one of { 1, 2 }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 1",
+                                    "this.data[].getClass().getName() == [org.jfree.data.xy.XYDataItem]",
+                                    "return == 1",
+                                    "this.data[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch7.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "return one of { 1, 2 }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "return one of { 1, 2 }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch5.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "return one of { 1, 2 }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch87.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "return one of { 1, 2 }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addOrUpdate(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch6.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "y one of { 1.0, 2.0 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() == []",
+                                    "this.data[] == []",
+                                    "y == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch7.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "y one of { 1.0, 2.0 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "y one of { 1.0, 2.0 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch5.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "y one of { 1.0, 2.0 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch87.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "y one of { 1.0, 2.0 }",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch6.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 1",
+                                    "this.data[].getClass().getName() == [org.jfree.data.xy.XYDataItem]",
+                                    "this.data[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch7.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch5.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch87.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.xy.XYDataItem], [org.jfree.data.xy.XYDataItem, org.jfree.data.xy.XYDataItem] }",
+                                    "size(this.data[]) one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "org.jfree.data.time.TimePeriodValues": [
+        {
+            "getMaxMiddleIndex()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.maxMiddleIndex one of { -1, 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch8.inv.output": {
+                                "invs": [
+                                    "this.maxMiddleIndex one of { -1, 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.maxMiddleIndex one of { -1, 0, 1 }",
+                                    "return one of { -1, 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch8.inv.output": {
+                                "invs": [
+                                    "this.maxMiddleIndex one of { -1, 0, 1 }",
+                                    "return one of { -1, 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(org.jfree.data.time.TimePeriod, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.maxMiddleIndex one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.maxMiddleIndex one of { 0, 1, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

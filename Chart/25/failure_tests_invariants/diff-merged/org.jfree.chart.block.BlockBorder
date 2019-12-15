@@ -1,0 +1,81 @@
+{
+    "org.jfree.chart.block.BlockBorder": [
+        {
+            "draw(java.awt.Graphics2D, java.awt.geom.Rectangle2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.block.BlockBorder.NONE.paint.getClass().getName() != area.getClass().getName()",
+                                    "area != null",
+                                    "org.jfree.chart.block.BlockBorder.NONE.paint.getClass().getName() != g2.getClass().getName()",
+                                    "g2 != null",
+                                    "g2.getClass().getName() != area.getClass().getName()"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.block.BlockBorder.NONE.paint.getClass().getName() != orig(g2.getClass().getName())",
+                                    "org.jfree.chart.block.BlockBorder.NONE.paint.getClass().getName() != orig(area.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getInsets()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.unitType.name != null",
+                                    "return != null",
+                                    "return.unitType != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

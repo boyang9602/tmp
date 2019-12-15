@@ -1,0 +1,82 @@
+{
+    "org.apache.commons.math.util.MathUtils": [
+        {
+            "equals(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y <= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) one of { -2.0, -1.0, 0.0 })",
+                                    "orig(y) one of { -2.0, -1.0, 0.0 }",
+                                    "orig(x) one of { -2.0, -1.0, 0.0 }",
+                                    "(return == true)  ==>  (orig(y) one of { -2.0, -1.0, 0.0 })"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y <= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) one of { -2.0, -1.0, 0.0 })",
+                                    "orig(y) one of { -2.0, -1.0, 0.0 }",
+                                    "orig(x) one of { -2.0, -1.0, 0.0 }",
+                                    "(return == true)  ==>  (orig(y) one of { -2.0, -1.0, 0.0 })"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl": [
+        {
+            "clearResult()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy == 2.384185791015625E-7"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy == 2.384185791015625E-7"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verifyInterval(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy == 2.384185791015625E-7"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy == 2.384185791015625E-7"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setResult(double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "iterationCount one of { 1, 5 }",
+                                    "newResult == 1.878250380000003E9",
+                                    "iterationCount == 1",
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "newResult == 1.8782503799999986E9"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "newResult == 1.878250380000003E9",
+                                    "iterationCount == 1",
+                                    "this.absoluteAccuracy == 2.384185791015625E-7"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "iterationCount one of { 1, 5 }",
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "newResult == 1.8782503799999986E9"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "iterationCount one of { 1, 5 }",
+                                    "newResult == 1.878250380000003E9",
+                                    "iterationCount == 1",
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "newResult == 1.8782503799999986E9"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 1",
+                                    "this.iterationCount > orig(this.iterationCount)",
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "this.result == 1.878250380000003E9",
+                                    "this.result == 1.8782503799999986E9",
+                                    "this.iterationCount one of { 1, 5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 1",
+                                    "this.result == 1.878250380000003E9",
+                                    "this.absoluteAccuracy == 2.384185791015625E-7"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.iterationCount > orig(this.iterationCount)",
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "this.result == 1.8782503799999986E9",
+                                    "this.iterationCount one of { 1, 5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.iterationCount == 1",
+                                    "this.iterationCount > orig(this.iterationCount)",
+                                    "this.absoluteAccuracy one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "this.result == 1.878250380000003E9",
+                                    "this.result == 1.8782503799999986E9",
+                                    "this.iterationCount one of { 1, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

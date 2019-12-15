@@ -1,0 +1,72 @@
+{
+    "org.apache.commons.math.optimization.OptimizationException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch74.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch74.inv.output": {
+                        "invs": [
+                            "this.arguments[] == []",
+                            "this.pattern.toString == \"unbounded solution\"",
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.arguments[].getClass().getName() == []",
+                            "this.pattern has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "OptimizationException(java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "specifier has only one value",
+                                    "parts.getClass().getName() == java.lang.Object[].class",
+                                    "parts[] == []",
+                                    "specifier.toString == \"unbounded solution\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "specifier.toString == orig(specifier.toString)",
+                                    "parts[] == []",
+                                    "specifier.toString == \"unbounded solution\"",
+                                    "parts[] == orig(parts[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

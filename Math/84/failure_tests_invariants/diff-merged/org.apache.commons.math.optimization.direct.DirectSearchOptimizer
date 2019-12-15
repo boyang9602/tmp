@@ -1,0 +1,660 @@
+{
+    "org.apache.commons.math.optimization.direct.DirectSearchOptimizer": [
+        {
+            "incrementIterationsCounter()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optimize(org.apache.commons.math.analysis.MultivariateRealFunction, org.apache.commons.math.optimization.GoalType, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.maxIterations one of { 100, 200 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "this.simplex[].value one of { [-0.7290400707042696, -0.7290400707018319, -0.7290400706977185], [-0.2373295333127166, -0.23732953331093967, -0.23732953330732695], [0.23732953331340972, 0.237329533313121, 0.2373295333125909] }",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.simplex[].value elements one of { -0.7290400707042696, -0.2373295333127166, 0.23732953331340972 }",
+                                    "this.maxEvaluations one of { 1000, 2147483647 }",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "f has only one value",
+                                    "startPoint[] == [-3.0, 0.0]",
+                                    "goalType has only one value",
+                                    "this.evaluations == 0",
+                                    "this.checker has only one value",
+                                    "this.simplex == null",
+                                    "f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class",
+                                    "this has only one value",
+                                    "this.f == null",
+                                    "startPoint[] elements one of { -3.0, 0.0 }",
+                                    "startPoint has only one value",
+                                    "this.iterations == 0",
+                                    "this.maxEvaluations == 2147483647",
+                                    "this.maxIterations == 200",
+                                    "this.startConfiguration has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.maxIterations one of { 100, 200 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "this.simplex[].value one of { [-0.7290400707042696, -0.7290400707018319, -0.7290400706977185], [-0.2373295333127166, -0.23732953331093967, -0.23732953330732695], [0.23732953331340972, 0.237329533313121, 0.2373295333125909] }",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.simplex[].value elements one of { -0.7290400707042696, -0.2373295333127166, 0.23732953331340972 }",
+                                    "this.maxEvaluations one of { 1000, 2147483647 }",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.maxIterations one of { 100, 200 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "this.simplex[].value one of { [-0.7290400707042696, -0.7290400707018319, -0.7290400706977185], [-0.2373295333127166, -0.23732953331093967, -0.23732953330732695], [0.23732953331340972, 0.237329533313121, 0.2373295333125909] }",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.simplex[].value elements one of { -0.7290400707042696, -0.2373295333127166, 0.23732953331340972 }",
+                                    "this.maxEvaluations one of { 1000, 2147483647 }",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.startConfiguration[] == orig(this.startConfiguration[]) (elementwise)",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.maxIterations one of { 100, 200 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName()) (elementwise)",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName())",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.maxEvaluations one of { 1000, 2147483647 }",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "size(this.simplex[]) == orig(size(this.simplex[]))"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class",
+                                    "return.point has only one value",
+                                    "this.startConfiguration[] == orig(this.startConfiguration[])",
+                                    "startPoint[] == [-3.0, 0.0]",
+                                    "this.iterations == 39",
+                                    "this.startConfiguration[] contains no nulls and has only one value, of length 2",
+                                    "this.simplex[].value == [-0.2373295333132985, -0.23732953331300521, -0.23732953331289403]",
+                                    "this.checker has only one value",
+                                    "this.simplex has only one value",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "this.startConfiguration == orig(this.startConfiguration)",
+                                    "startPoint[] elements one of { -3.0, 0.0 }",
+                                    "return has only one value",
+                                    "this.evaluations == 159",
+                                    "this.maxEvaluations == 2147483647",
+                                    "this.simplex[].value elements == -0.2373295333132985",
+                                    "this.maxIterations == 200",
+                                    "return.point[] elements one of { -3.841949462890624, 1.3917449951171879 }",
+                                    "return.value == -0.2373295333132985",
+                                    "this.f has only one value",
+                                    "return.point[] == [-3.841949462890624, 1.3917449951171879]",
+                                    "this.startConfiguration has only one value",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.startConfiguration[] == orig(this.startConfiguration[]) (elementwise)",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.maxIterations one of { 100, 200 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName()) (elementwise)",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName())",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.maxEvaluations one of { 1000, 2147483647 }",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "size(this.simplex[]) == orig(size(this.simplex[]))"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.startConfiguration[] == orig(this.startConfiguration[]) (elementwise)",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.maxIterations one of { 100, 200 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName()) (elementwise)",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName())",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.maxEvaluations one of { 1000, 2147483647 }",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "size(this.simplex[]) == orig(size(this.simplex[]))"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setConvergenceChecker(org.apache.commons.math.optimization.RealConvergenceChecker)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value elements == 0.23732953331340972",
+                                    "this.startConfiguration[] contains no nulls and has only one value, of length 2",
+                                    "this.iterations one of { 0, 32 }",
+                                    "this.simplex[].value == [0.23732953331340972, 0.237329533313121, 0.2373295333125909]",
+                                    "this.evaluations one of { 0, 131 }",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class",
+                                    "this.maxIterations one of { 0, 200, 2147483647 }",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.startConfiguration == null",
+                                    "this.evaluations == 0",
+                                    "this.f == null",
+                                    "this.maxIterations one of { 0, 2147483647 }",
+                                    "this.iterations == 0",
+                                    "this.simplex == null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value elements == 0.23732953331340972",
+                                    "this.startConfiguration[] contains no nulls and has only one value, of length 2",
+                                    "this.iterations one of { 0, 32 }",
+                                    "this.simplex[].value == [0.23732953331340972, 0.237329533313121, 0.2373295333125909]",
+                                    "this.evaluations one of { 0, 131 }",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class",
+                                    "this.maxIterations one of { 0, 200, 2147483647 }",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value elements == 0.23732953331340972",
+                                    "this.startConfiguration[] contains no nulls and has only one value, of length 2",
+                                    "this.iterations one of { 0, 32 }",
+                                    "this.simplex[].value == [0.23732953331340972, 0.237329533313121, 0.2373295333125909]",
+                                    "this.evaluations one of { 0, 131 }",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class",
+                                    "this.maxIterations one of { 0, 200, 2147483647 }",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 0, 32 }",
+                                    "this.simplex[].value == orig(this.simplex[].value)",
+                                    "this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())",
+                                    "this.startConfiguration[] == orig(this.startConfiguration[])",
+                                    "this.startConfiguration[] contains no nulls and has only one value, of length 2",
+                                    "this.simplex[].value == [0.23732953331340972, 0.237329533313121, 0.2373295333125909]",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "this.evaluations one of { 0, 131 }",
+                                    "this.simplex[].point == orig(this.simplex[].point)",
+                                    "this.simplex[] == orig(this.simplex[])",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.simplex[].value elements == 0.23732953331340972",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "this.maxIterations one of { 0, 200, 2147483647 }",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.startConfiguration == null",
+                                    "this.evaluations == 0",
+                                    "this.simplex == null",
+                                    "this.f == null",
+                                    "this.maxIterations one of { 0, 2147483647 }",
+                                    "this.iterations == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 0, 32 }",
+                                    "this.simplex[].value == orig(this.simplex[].value)",
+                                    "this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())",
+                                    "this.startConfiguration[] == orig(this.startConfiguration[])",
+                                    "this.startConfiguration[] contains no nulls and has only one value, of length 2",
+                                    "this.simplex[].value == [0.23732953331340972, 0.237329533313121, 0.2373295333125909]",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "this.evaluations one of { 0, 131 }",
+                                    "this.simplex[].point == orig(this.simplex[].point)",
+                                    "this.simplex[] == orig(this.simplex[])",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.simplex[].value elements == 0.23732953331340972",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "this.maxIterations one of { 0, 200, 2147483647 }",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 0, 32 }",
+                                    "this.simplex[].value == orig(this.simplex[].value)",
+                                    "this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())",
+                                    "this.startConfiguration[] == orig(this.startConfiguration[])",
+                                    "this.startConfiguration[] contains no nulls and has only one value, of length 2",
+                                    "this.simplex[].value == [0.23732953331340972, 0.237329533313121, 0.2373295333125909]",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "this.evaluations one of { 0, 131 }",
+                                    "this.simplex[].point == orig(this.simplex[].point)",
+                                    "this.simplex[] == orig(this.simplex[])",
+                                    "this.f.getClass().getName() == orig(this.f.getClass().getName())",
+                                    "this.simplex[].value elements == 0.23732953331340972",
+                                    "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$2.class",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "this.maxIterations one of { 0, 200, 2147483647 }",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildSimplex(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value elements one of { -0.7290400707042696, -0.2373295333127166, 0.23732953331340972 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.simplex[].value one of { [-0.7290400707042696, -0.7290400707018319, -0.7290400706977185], [-0.2373295333127166, -0.23732953331093967, -0.23732953330732695], [0.23732953331340972, 0.237329533313121, 0.2373295333125909] }",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "startPoint[] elements one of { -3.0, 0.0 }",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0] }",
+                                    "this.simplex == null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value elements one of { -0.7290400707042696, -0.2373295333127166, 0.23732953331340972 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.simplex[].value one of { [-0.7290400707042696, -0.7290400707018319, -0.7290400706977185], [-0.2373295333127166, -0.23732953331093967, -0.23732953330732695], [0.23732953331340972, 0.237329533313121, 0.2373295333125909] }",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value elements one of { -0.7290400707042696, -0.2373295333127166, 0.23732953331340972 }",
+                                    "this.simplex[].value sorted by ==",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.simplex[].value one of { [-0.7290400707042696, -0.7290400707018319, -0.7290400706977185], [-0.2373295333127166, -0.23732953331093967, -0.23732953330732695], [0.23732953331340972, 0.237329533313121, 0.2373295333125909] }",
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName()) (elementwise)",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName())",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "size(this.simplex[]) == orig(size(this.simplex[]))"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "startPoint[] elements one of { -3.0, 0.0 }",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName()) (elementwise)",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName())",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "size(this.simplex[]) == orig(size(this.simplex[]))"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "startPoint[] elements one of { -3.0, 0.0, 1.0 }",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName()) (elementwise)",
+                                    "this.simplex[].getClass().getName() == orig(this.simplex[].getClass().getName())",
+                                    "startPoint[] one of { [-3.0, 0.0], [0.0, 0.0], [1.0, 0.0] }",
+                                    "this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())",
+                                    "size(this.simplex[]) == orig(size(this.simplex[]))"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEvaluations()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value sorted by =="
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterations == 39",
+                                    "this.simplex[].value == [-0.2373295333132985, -0.23732953331300521, -0.23732953331289403]",
+                                    "this.checker has only one value",
+                                    "this.simplex has only one value",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "this.evaluations == 159",
+                                    "this.simplex[].value elements == -0.2373295333132985",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value sorted by =="
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value sorted by =="
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value sorted by =="
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterations == 39",
+                                    "this.simplex[].value == [-0.2373295333132985, -0.23732953331300521, -0.23732953331289403]",
+                                    "this.checker has only one value",
+                                    "this.simplex has only one value",
+                                    "this.simplex[].point contains no nulls and has only one value, of length 3",
+                                    "return == 159",
+                                    "this.evaluations == 159",
+                                    "this.simplex[].value elements == -0.2373295333132985",
+                                    "this.simplex[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value sorted by =="
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value sorted by =="
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "evaluate(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.evaluations >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.evaluations >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.evaluations >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "evaluateSimplex(java.util.Comparator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value <= orig(this.simplex[].value) (lexically)",
+                                    "this.simplex[].value < orig(this.simplex[].value) (lexically)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

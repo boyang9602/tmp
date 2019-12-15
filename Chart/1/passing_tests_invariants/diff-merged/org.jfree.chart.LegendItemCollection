@@ -1,0 +1,156 @@
+{
+    "org.jfree.chart.LegendItemCollection": [
+        {
+            "addAll(org.jfree.chart.LegendItemCollection)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "collection.items[] elements != null",
+                                    "this.items[].getClass().getName() one of { [], [org.jfree.chart.LegendItem, org.jfree.chart.LegendItem] }",
+                                    "collection.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                                    "size(this.items[])-1 != 0",
+                                    "size(this.items[]) one of { 0, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "collection.items[] == []",
+                                    "collection.items[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "collection.items[] elements != null",
+                                    "this.items[].getClass().getName() one of { [], [org.jfree.chart.LegendItem, org.jfree.chart.LegendItem] }",
+                                    "collection.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                                    "size(this.items[])-1 != 0",
+                                    "size(this.items[]) one of { 0, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "collection.items[] elements != null",
+                                    "size(this.items[]) % orig(size(this.items[]))-1 == 0",
+                                    "size(this.items[])-1 % orig(size(this.items[]))-1 == 0",
+                                    "collection.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                                    "size(this.items[]) >= orig(size(this.items[]))",
+                                    "size(this.items[])-1 >= orig(size(this.items[]))-1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "collection.items[] == []",
+                                    "this.items[] == orig(this.items[])",
+                                    "collection.items[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "collection.items[] elements != null",
+                                    "size(this.items[]) % orig(size(this.items[]))-1 == 0",
+                                    "size(this.items[])-1 % orig(size(this.items[]))-1 == 0",
+                                    "collection.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                                    "size(this.items[]) >= orig(size(this.items[]))",
+                                    "size(this.items[])-1 >= orig(size(this.items[]))-1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LegendItemCollection()": [
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.items[].getClass().getName() == []",
+                                    "this.items[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.items[].getClass().getName() == []",
+                                    "this.items[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getItemCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return >= 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "return >= 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

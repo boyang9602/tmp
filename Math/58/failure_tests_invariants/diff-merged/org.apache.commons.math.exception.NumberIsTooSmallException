@@ -1,0 +1,165 @@
+{
+    "org.apache.commons.math.exception.NumberIsTooSmallException": [
+        {
+            "CLASS": [
+                {
+                    "Patch49.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch168.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch49.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.argument.getClass().getName() == java.lang.Double.class",
+                            "this has only one value",
+                            "this.arguments has only one value",
+                            "this.specific == null",
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.argument has only one value",
+                            "this.min.getClass().getName() == java.lang.Integer.class",
+                            "this.boundIsAllowed == false",
+                            "this.general.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.arguments[] contains no nulls and has only one value, of length 2",
+                            "this.min has only one value",
+                            "this.general has only one value",
+                            "size(this.arguments[]) == 2",
+                            "this.arguments[].getClass().getName() == [java.lang.Double, java.lang.Integer]"
+                        ]
+                    }
+                },
+                {
+                    "Patch168.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "NumberIsTooSmallException(java.lang.Number, java.lang.Number, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch49.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "wrong has only one value",
+                                    "wrong.getClass().getName() == java.lang.Double.class",
+                                    "min.getClass().getName() == java.lang.Integer.class",
+                                    "boundIsAllowed == false",
+                                    "min has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "wrong != null",
+                                    "wrong.getClass().getName() == java.lang.Double.class",
+                                    "min.getClass().getName() == java.lang.Integer.class",
+                                    "min != null",
+                                    "boundIsAllowed == false",
+                                    "min has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch49.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NumberIsTooSmallException(org.apache.commons.math.exception.util.Localizable, java.lang.Number, java.lang.Number, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch49.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "wrong has only one value",
+                                    "wrong.getClass().getName() == java.lang.Double.class",
+                                    "specific == null",
+                                    "min.getClass().getName() == java.lang.Integer.class",
+                                    "boundIsAllowed == false",
+                                    "min has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "wrong != null",
+                                    "wrong.getClass().getName() == java.lang.Double.class",
+                                    "specific == null",
+                                    "min.getClass().getName() == java.lang.Integer.class",
+                                    "min != null",
+                                    "boundIsAllowed == false",
+                                    "min has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch49.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

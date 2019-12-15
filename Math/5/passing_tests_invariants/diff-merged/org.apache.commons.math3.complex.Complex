@@ -1,0 +1,286 @@
+{
+    "org.apache.commons.math3.complex.Complex": [
+        {
+            "reciprocal()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch196.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch196.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "301": [
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "309": [
+                                {
+                                    "Patch196.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.imaginary == Infinity",
+                                            "this.real == orig(this.real)",
+                                            "this.real one of { -Infinity, 1.0 }",
+                                            "return.imaginary == 0.0",
+                                            "return has only one value",
+                                            "return.isNaN == false",
+                                            "this.isNaN == false",
+                                            "this.isInfinite == true",
+                                            "this.imaginary == orig(this.imaginary)",
+                                            "return.real == 0.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "315": [
+                                {
+                                    "Patch196.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.isInfinite == false",
+                                            "this.real one of { 0.0, 5.0 }",
+                                            "this.real == orig(this.real)",
+                                            "this.imaginary one of { -2.0, 6.0 }",
+                                            "this.isNaN == false",
+                                            "return.isNaN == false",
+                                            "return.real one of { 0.0, 0.08196721311475409 }",
+                                            "this.imaginary == orig(this.imaginary)",
+                                            "return.imaginary one of { -0.0983606557377049, 0.5 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "319": [
+                                {
+                                    "Patch196.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.isInfinite == false",
+                                            "this.real == orig(this.real)",
+                                            "this.real == -2.0",
+                                            "return.imaginary == 0.0",
+                                            "this.imaginary == 0.0",
+                                            "return.isNaN == false",
+                                            "this.isNaN == false",
+                                            "this.imaginary == orig(this.imaginary)",
+                                            "return has only one value",
+                                            "return.real == -0.5",
+                                            "orig(this) has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "310": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": [
+                                            "this.imaginary == Infinity",
+                                            "this.real == orig(this.real)",
+                                            "this.real one of { -Infinity, 1.0 }",
+                                            "return.imaginary == 0.0",
+                                            "return has only one value",
+                                            "return.isNaN == false",
+                                            "this.isNaN == false",
+                                            "this.isInfinite == true",
+                                            "this.imaginary == orig(this.imaginary)",
+                                            "return.real == 0.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "316": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": [
+                                            "this.isInfinite == false",
+                                            "this.real one of { 0.0, 5.0 }",
+                                            "this.real == orig(this.real)",
+                                            "this.imaginary one of { -2.0, 6.0 }",
+                                            "this.isNaN == false",
+                                            "return.isNaN == false",
+                                            "return.real one of { 0.0, 0.08196721311475409 }",
+                                            "this.imaginary == orig(this.imaginary)",
+                                            "return.imaginary one of { -0.0983606557377049, 0.5 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "320": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": [
+                                            "this.isInfinite == false",
+                                            "this.real == orig(this.real)",
+                                            "this.real == -2.0",
+                                            "return.imaginary == 0.0",
+                                            "this.imaginary == 0.0",
+                                            "return.isNaN == false",
+                                            "this.isNaN == false",
+                                            "this.imaginary == orig(this.imaginary)",
+                                            "return has only one value",
+                                            "return.real == -0.5",
+                                            "orig(this) has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch196.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch196.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "341": [
+                                {
+                                    "Patch196.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.real == 0.0",
+                                            "orig(other) has only one value",
+                                            "this.imaginary == 0.0",
+                                            "orig(this) has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "348": [
+                                {
+                                    "Patch196.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "342": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": [
+                                            "this.real == 0.0",
+                                            "orig(other) has only one value",
+                                            "this.imaginary == 0.0",
+                                            "orig(this) has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "349": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

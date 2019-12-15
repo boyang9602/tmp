@@ -1,0 +1,52 @@
+{
+    "org.apache.commons.math.ode.TestProblem5": [
+        {
+            "copy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.y0 != null",
+                                    "return.errorScale != null",
+                                    "return != null",
+                                    "return.y0[] sorted by >",
+                                    "return.y != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

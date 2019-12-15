@@ -1,0 +1,54 @@
+{
+    "org.apache.commons.math.ode.nonstiff.StepProblem": [
+        {
+            "computeDerivatives(double, double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "y[] elements >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "y[] elements >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "y[] elements >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "y[] elements >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,231 @@
+{
+    "org.apache.commons.math.analysis.BrentSolver": [
+        {
+            "solve(double, double, double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch77.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch208.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.iterationCount >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterationCount >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch77.inv.output": {
+                                "invs": [
+                                    "this.iterationCount >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch208.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "194": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(this.result) one of { 0.0, 0.9999999736360261 }",
+                                            "this.iterationCount one of { 1, 2, 4 }",
+                                            "orig(this.iterationCount) % this.iterationCount == 0",
+                                            "orig(this.iterationCount) one of { 0, 14 }",
+                                            "this.iterationCount != orig(this.iterationCount)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch77.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch208.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "201": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch77.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch208.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "208": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this.result) one of { 0.0, 0.9999999736360261 }",
+                                            "this.iterationCount one of { 1, 2, 4 }",
+                                            "orig(this.iterationCount) % this.iterationCount == 0",
+                                            "orig(this.iterationCount) one of { 0, 14 }",
+                                            "this.iterationCount != orig(this.iterationCount)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "215": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "195": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch77.inv.output": {
+                                        "invs": [
+                                            "orig(this.result) one of { 0.0, 0.9999999736360261 }",
+                                            "this.iterationCount one of { 1, 2, 4 }",
+                                            "orig(this.iterationCount) % this.iterationCount == 0",
+                                            "orig(this.iterationCount) one of { 0, 14 }",
+                                            "this.iterationCount != orig(this.iterationCount)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch208.inv.output": {
+                                        "invs": [
+                                            "orig(this.result) one of { 0.0, 0.9999999736360261 }",
+                                            "this.iterationCount one of { 1, 2, 4 }",
+                                            "orig(this.iterationCount) % this.iterationCount == 0",
+                                            "orig(this.iterationCount) one of { 0, 14 }",
+                                            "this.iterationCount != orig(this.iterationCount)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "202": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch77.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch208.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solve(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch208.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.iterationCount >= 1",
+                                    "this.resultComputed == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch208.inv.output": {
+                                "invs": [
+                                    "this.resultComputed == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

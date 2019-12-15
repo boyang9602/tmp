@@ -1,0 +1,226 @@
+{
+    "org.jfree.chart.axis.TickUnit": [
+        {
+            "TickUnit(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "compareTo(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "return one of { -1, 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -1, 1 }",
+                                    "return != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { -1, 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "147": [
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "150": [
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": [
+                                            "orig(this.getClass().getName()) == org.jfree.chart.axis.NumberTickUnit.class",
+                                            "orig(object.getClass().getName()) == org.jfree.chart.axis.NumberTickUnit.class",
+                                            "this.minorTickCount one of { 0, 2, 5 }",
+                                            "this.minorTickCount one of { 2, 5 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.minorTickCount == 5",
+                                            "orig(this.getClass().getName()) == org.jfree.chart.axis.NumberTickUnit.class",
+                                            "orig(object.getClass().getName()) == org.jfree.chart.axis.NumberTickUnit.class"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.minorTickCount one of { 0, 2, 5 }",
+                                            "this.minorTickCount one of { 2, 5 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "153": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": [
+                                            "this.size one of { 0.25, 0.5, 1.0 }",
+                                            "orig(this.getClass().getName()) == org.jfree.chart.axis.NumberTickUnit.class",
+                                            "this.minorTickCount one of { 0, 2, 5 }",
+                                            "orig(object.getClass().getName()) == org.jfree.chart.axis.NumberTickUnit.class",
+                                            "return == 0",
+                                            "this.size >= 0.25",
+                                            "this.minorTickCount one of { 2, 5 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.size one of { 0.25, 0.5, 1.0 }",
+                                            "orig(this.getClass().getName()) == org.jfree.chart.axis.NumberTickUnit.class",
+                                            "this.minorTickCount one of { 0, 2, 5 }",
+                                            "orig(object.getClass().getName()) == org.jfree.chart.axis.NumberTickUnit.class",
+                                            "return == 0",
+                                            "this.size >= 0.25",
+                                            "this.minorTickCount one of { 2, 5 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TickUnit(double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "minorTickCount >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "minorTickCount one of { 2, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minorTickCount >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minorTickCount one of { 2, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

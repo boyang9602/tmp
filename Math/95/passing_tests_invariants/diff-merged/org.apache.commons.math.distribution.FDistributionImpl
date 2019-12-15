@@ -1,0 +1,88 @@
+{
+    "org.apache.commons.math.distribution.FDistributionImpl": [
+        {
+            "getInitialDomain(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "return one of { 5.0, 100000.0 }",
+                                    "return == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 1.000020000400008, 1.5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "return one of { 5.0, 100000.0 }",
+                                    "return == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cumulativeProbability(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "return <= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

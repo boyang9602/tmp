@@ -1,0 +1,153 @@
+{
+    "org.apache.commons.math.optimization.SimpleScalarValueChecker": [
+        {
+            "converged(int, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "iteration >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.absoluteThreshold == 1.0E-30",
+                                    "previous.point[] sorted by <",
+                                    "this.relativeThreshold == 1.0E-11",
+                                    "current.point[] elements != 0",
+                                    "current.point[] sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "iteration >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "iteration >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "previous.value == -0.2373295333127166",
+                                    "(return == true)  ==>  (orig(iteration) one of { 37, 39 })",
+                                    "current.point[] elements one of { -3.841949462890624, 1.3917480468750003 }",
+                                    "this.absoluteThreshold == 1.0E-30",
+                                    "previous.point[] sorted by <",
+                                    "(return == true)  ==>  (current.value == -0.23732953331289403)",
+                                    "(return == true)  ==>  (current.point[] elements one of { -3.841949462890624, 1.3917480468750003 })",
+                                    "current.value == -0.23732953331289403",
+                                    "orig(iteration) one of { 37, 39 }",
+                                    "(return == true)  ==>  (previous.value == -0.2373295333127166)",
+                                    "this.relativeThreshold == 1.0E-11",
+                                    "current.point[] elements != 0",
+                                    "previous.point[] elements one of { -3.841943359374999, 1.3917480468750003 }",
+                                    "current.point[] sorted by <",
+                                    "(return == true)  ==>  (previous.point[] elements one of { -3.841943359374999, 1.3917480468750003 })"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "SimpleScalarValueChecker(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "relativeThreshold one of { 1.0E-15, 1.0E-11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "relativeThreshold == 1.0E-11"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "relativeThreshold one of { 1.0E-15, 1.0E-11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "relativeThreshold one of { 1.0E-15, 1.0E-11 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.relativeThreshold one of { 1.0E-15, 1.0E-11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.relativeThreshold == 1.0E-11"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.relativeThreshold one of { 1.0E-15, 1.0E-11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.relativeThreshold one of { 1.0E-15, 1.0E-11 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

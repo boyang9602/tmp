@@ -1,0 +1,399 @@
+{
+    "org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver": [
+        {
+            "verifySequence(double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "initial one of { 0.0, 0.5, 1.0 }",
+                                    "upper one of { 1.0, 2.0 }",
+                                    "lower one of { -2.0, 0.0 }",
+                                    "this.searchMax one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMax()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }",
+                                    "return one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getFunctionValueAccuracy()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }",
+                                    "this.evaluations.count one of { 0, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 2, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }",
+                                    "this.evaluations.count one of { 0, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 2, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setup(int, org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "startValue one of { 0.0, 0.5, 1.0 }",
+                                    "max one of { 1.0, 2.0 }",
+                                    "this.function == null",
+                                    "this.searchStart == 0.0",
+                                    "min one of { -2.0, 0.0 }",
+                                    "this.evaluations.maximalCount == 0",
+                                    "this.searchMax == 0.0",
+                                    "this.searchMin == 0.0",
+                                    "this.evaluations.count == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchMin one of { -5.0, -2.0, 0.0 }",
+                                    "this.searchMax one of { -2.5, 0.0, 2.0 }",
+                                    "this.searchStart one of { -3.75, 0.0, 1.0 }",
+                                    "this.evaluations.count one of { 0, 2, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }",
+                                    "this.evaluations.count == orig(this.evaluations.count)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.function.getClass().getName() == orig(this.function.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRelativeAccuracy()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "incrementEvaluationCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMin()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "return one of { -2.0, 0.0 }",
+                                    "this.searchMax one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "computeObjectiveValue(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }",
+                                    "this.evaluations.count one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }",
+                                    "this.evaluations.count one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 1, 2, 3 }",
+                                    "this.evaluations.count > orig(this.evaluations.count)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getStartValue()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 1.0, 2.0 }",
+                                    "return one of { 0.0, 0.5, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAbsoluteAccuracy()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "org.mockito.Mockito": [
+        {
+            "verify(java.lang.Object, org.mockito.internal.verification.api.VerificationMode)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$b3f341fe.class",
+                                    "mock.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$ab4be51.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$423a82d8.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$b3f341fe.class",
+                                    "mock.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$ab4be51.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$b3f341fe.class",
+                                    "return.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$ab4be51.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$423a82d8.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$b3f341fe.class",
+                                    "return.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$ab4be51.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

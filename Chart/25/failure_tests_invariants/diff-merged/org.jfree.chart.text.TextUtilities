@@ -1,0 +1,156 @@
+{
+    "org.jfree.chart.text.TextUtilities": [
+        {
+            "drawRotatedString(java.lang.String, java.awt.Graphics2D, float, float, double, float, float)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rotateX >= 0.0",
+                                    "rotateY >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "501": [
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deriveTextBoundsAnchorOffsets(java.awt.Graphics2D, java.lang.String, org.jfree.chart.text.TextAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }",
+                                    "return[] sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return[] sorted by <="
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nextLineBreak(java.lang.String, int, float, java.text.BreakIterator, org.jfree.chart.text.TextMeasurer)": [
+                {
+                    "EXITNN": [
+                        {
+                            "273": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawRotatedString(java.lang.String, java.awt.Graphics2D, float, float, org.jfree.chart.text.TextAnchor, double, float, float)": [
+                {
+                    "EXITNN": [
+                        {
+                            "526": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createTextBlock(java.lang.String, java.awt.Font, java.awt.Paint, float, int, org.jfree.chart.text.TextMeasurer)": [
+                {
+                    "EXITNN": [
+                        {
+                            "199": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

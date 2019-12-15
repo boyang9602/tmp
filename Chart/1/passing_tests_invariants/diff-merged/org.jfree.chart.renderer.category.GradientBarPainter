@@ -1,0 +1,453 @@
+{
+    "org.jfree.chart.renderer.category.GradientBarPainter": [
+        {
+            "paintBar(java.awt.Graphics2D, org.jfree.chart.renderer.category.BarRenderer, int, int, boolean, java.awt.geom.RectangularShape, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "renderer.rowCount == 2",
+                                    "renderer.paintList.size == 2",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in renderer.paintList.objects[].getClass().getName()",
+                                    "renderer.plot.insets has only one value",
+                                    "renderer.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "renderer.plot.weight == 0",
+                                    "renderer.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.IntervalCategoryToolTipGenerator.class",
+                                    "renderer.plot.parent == null",
+                                    "renderer.plot.domainGridlinesVisible == false",
+                                    "row one of { 0, 1 }",
+                                    "renderer.plot.fixedDomainAxisSpace == null",
+                                    "renderer.columnCount one of { 2, 3, 12 }",
+                                    "renderer.plot.fixedRangeAxisSpace == null",
+                                    "renderer.paintList.objects[] has only one value, of length 8"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.localizationResources.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.Plot.ZERO.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.legendItemLabelGenerator.getClass().getName()",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "renderer.plot.parent.getClass().getName() != renderer.plot.drawingSupplier.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.backgroundAnnotations.getClass().getName()",
+                                    "renderer.gradientPaintTransformer.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.weight one of { 0, 1 }",
+                                    "org.jfree.chart.renderer.category.BarRenderer.defaultBarPainter.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.rowCount one of { 2, 3 }",
+                                    "row one of { 0, 1, 2 }",
+                                    "renderer.plot.parent.getClass().getName() != renderer.baseToolTipGenerator.getClass().getName()",
+                                    "renderer.plot.foregroundDomainMarkers.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.shadowGenerator.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "g2.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_STROKE.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.itemLabelGeneratorList.objects.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "renderer.rowCount == 2",
+                                    "renderer.paintList.size == 2",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in renderer.paintList.objects[].getClass().getName()",
+                                    "renderer.plot.insets has only one value",
+                                    "renderer.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "renderer.plot.weight == 0",
+                                    "renderer.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.IntervalCategoryToolTipGenerator.class",
+                                    "renderer.plot.parent == null",
+                                    "renderer.plot.domainGridlinesVisible == false",
+                                    "row one of { 0, 1 }",
+                                    "renderer.plot.fixedDomainAxisSpace == null",
+                                    "renderer.columnCount one of { 2, 3, 12 }",
+                                    "renderer.plot.fixedRangeAxisSpace == null",
+                                    "renderer.paintList.objects[] has only one value, of length 8"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "renderer.rowCount == 2",
+                                    "renderer.paintList.size == 2",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "renderer.plot.insets has only one value",
+                                    "renderer.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "renderer.plot.weight == 0",
+                                    "renderer.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.IntervalCategoryToolTipGenerator.class",
+                                    "renderer.plot.parent == null",
+                                    "renderer.plot.domainGridlinesVisible == false",
+                                    "renderer.plot.fixedDomainAxisSpace == null",
+                                    "renderer.columnCount one of { 2, 3, 12 }",
+                                    "renderer.paintList.size == orig(renderer.paintList.size)",
+                                    "renderer.paintList.objects[] == orig(renderer.paintList.objects[])",
+                                    "renderer.plot.fixedRangeAxisSpace == null",
+                                    "renderer.paintList.objects[] has only one value, of length 8"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.Plot.ZERO.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.CategoryPlot.localizationResources.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.paintList.size one of { 1, 2, 3 }",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.legendItemLabelGenerator.getClass().getName()",
+                                    "size(renderer.paintList.objects[]) == orig(size(renderer.paintList.objects[]))",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "renderer.plot.parent.getClass().getName() == orig(renderer.plot.parent.getClass().getName())",
+                                    "renderer.plot.parent.getClass().getName() != orig(g2.getClass().getName())",
+                                    "renderer.plot.parent.getClass().getName() != renderer.plot.drawingSupplier.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.backgroundAnnotations.getClass().getName()",
+                                    "renderer.gradientPaintTransformer.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.weight one of { 0, 1 }",
+                                    "org.jfree.chart.renderer.category.BarRenderer.defaultBarPainter.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.rowCount one of { 2, 3 }",
+                                    "renderer.plot.parent.getClass().getName() != renderer.baseToolTipGenerator.getClass().getName()",
+                                    "renderer.plot.foregroundDomainMarkers.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.shadowGenerator.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.paintList.size >= orig(renderer.paintList.size)",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_STROKE.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.itemLabelGeneratorList.objects.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "renderer.rowCount == 2",
+                                    "renderer.paintList.size == 2",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "renderer.plot.insets has only one value",
+                                    "renderer.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "renderer.plot.weight == 0",
+                                    "renderer.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.IntervalCategoryToolTipGenerator.class",
+                                    "renderer.plot.parent == null",
+                                    "renderer.plot.domainGridlinesVisible == false",
+                                    "renderer.plot.fixedDomainAxisSpace == null",
+                                    "renderer.columnCount one of { 2, 3, 12 }",
+                                    "renderer.paintList.size == orig(renderer.paintList.size)",
+                                    "renderer.paintList.objects[] == orig(renderer.paintList.objects[])",
+                                    "renderer.plot.fixedRangeAxisSpace == null",
+                                    "renderer.paintList.objects[] has only one value, of length 8"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "195": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "paintBarShadow(java.awt.Graphics2D, org.jfree.chart.renderer.category.BarRenderer, int, int, boolean, java.awt.geom.RectangularShape, org.jfree.chart.util.RectangleEdge, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "renderer.rowCount == 2",
+                                    "renderer.paintList.size == 2",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in renderer.paintList.objects[].getClass().getName()",
+                                    "renderer.plot.insets has only one value",
+                                    "renderer.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "renderer.plot.weight == 0",
+                                    "renderer.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.IntervalCategoryToolTipGenerator.class",
+                                    "renderer.plot.parent == null",
+                                    "renderer.plot.domainGridlinesVisible == false",
+                                    "row one of { 0, 1 }",
+                                    "renderer.columnCount one of { 3, 12 }",
+                                    "renderer.plot.fixedDomainAxisSpace == null",
+                                    "renderer.plot.fixedRangeAxisSpace == null",
+                                    "renderer.paintList.objects[] has only one value, of length 8"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.CategoryPlot.localizationResources.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.Plot.ZERO.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.legendItemLabelGenerator.getClass().getName()",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "renderer.plot.parent.getClass().getName() != renderer.plot.drawingSupplier.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.backgroundAnnotations.getClass().getName()",
+                                    "renderer.gradientPaintTransformer.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.paintList.size >= 0",
+                                    "renderer.plot.weight one of { 0, 1 }",
+                                    "org.jfree.chart.renderer.category.BarRenderer.defaultBarPainter.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.rowCount one of { 2, 3 }",
+                                    "row one of { 0, 1, 2 }",
+                                    "renderer.plot.parent.getClass().getName() != renderer.baseToolTipGenerator.getClass().getName()",
+                                    "renderer.plot.foregroundDomainMarkers.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.shadowGenerator.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "g2.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_STROKE.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.itemLabelGeneratorList.objects.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "renderer.rowCount == 2",
+                                    "renderer.paintList.size == 2",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() in renderer.paintList.objects[].getClass().getName()",
+                                    "renderer.plot.insets has only one value",
+                                    "renderer.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "renderer.plot.weight == 0",
+                                    "renderer.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.IntervalCategoryToolTipGenerator.class",
+                                    "renderer.plot.parent == null",
+                                    "renderer.plot.domainGridlinesVisible == false",
+                                    "row one of { 0, 1 }",
+                                    "renderer.columnCount one of { 3, 12 }",
+                                    "renderer.plot.fixedDomainAxisSpace == null",
+                                    "renderer.plot.fixedRangeAxisSpace == null",
+                                    "renderer.paintList.objects[] has only one value, of length 8"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "renderer.rowCount == 2",
+                                    "renderer.paintList.size == 2",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "renderer.plot.insets has only one value",
+                                    "renderer.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "renderer.plot.weight == 0",
+                                    "renderer.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.IntervalCategoryToolTipGenerator.class",
+                                    "renderer.plot.parent == null",
+                                    "renderer.plot.domainGridlinesVisible == false",
+                                    "renderer.columnCount one of { 3, 12 }",
+                                    "renderer.plot.fixedDomainAxisSpace == null",
+                                    "renderer.paintList.size == orig(renderer.paintList.size)",
+                                    "renderer.paintList.objects[] == orig(renderer.paintList.objects[])",
+                                    "renderer.plot.fixedRangeAxisSpace == null",
+                                    "renderer.paintList.objects[] has only one value, of length 8"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.plot.Plot.ZERO.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.CategoryPlot.localizationResources.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.paintList.size one of { 1, 2, 3 }",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_PAINT.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.legendItemLabelGenerator.getClass().getName()",
+                                    "size(renderer.paintList.objects[]) == orig(size(renderer.paintList.objects[]))",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "renderer.plot.parent.getClass().getName() == orig(renderer.plot.parent.getClass().getName())",
+                                    "renderer.plot.parent.getClass().getName() != orig(g2.getClass().getName())",
+                                    "renderer.plot.parent.getClass().getName() != renderer.plot.drawingSupplier.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.backgroundAnnotations.getClass().getName()",
+                                    "renderer.gradientPaintTransformer.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.weight one of { 0, 1 }",
+                                    "org.jfree.chart.renderer.category.BarRenderer.defaultBarPainter.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.rowCount one of { 2, 3 }",
+                                    "renderer.plot.parent.getClass().getName() != renderer.baseToolTipGenerator.getClass().getName()",
+                                    "renderer.plot.foregroundDomainMarkers.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.shadowGenerator.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.paintList.size >= orig(renderer.paintList.size)",
+                                    "org.jfree.chart.plot.CategoryPlot.DEFAULT_GRIDLINE_STROKE.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() != renderer.plot.parent.getClass().getName()",
+                                    "renderer.plot.parent.getClass().getName() != renderer.itemLabelGeneratorList.objects.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "renderer.rowCount == 2",
+                                    "renderer.paintList.size == 2",
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "renderer.plot.insets has only one value",
+                                    "renderer.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "renderer.plot.weight == 0",
+                                    "renderer.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.IntervalCategoryToolTipGenerator.class",
+                                    "renderer.plot.parent == null",
+                                    "renderer.plot.domainGridlinesVisible == false",
+                                    "renderer.columnCount one of { 3, 12 }",
+                                    "renderer.plot.fixedDomainAxisSpace == null",
+                                    "renderer.paintList.size == orig(renderer.paintList.size)",
+                                    "renderer.paintList.objects[] == orig(renderer.paintList.objects[])",
+                                    "renderer.plot.fixedRangeAxisSpace == null",
+                                    "renderer.paintList.objects[] has only one value, of length 8"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "228": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "splitVerticalBar(java.awt.geom.RectangularShape, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createShadow(java.awt.geom.RectangularShape, double, double, org.jfree.chart.util.RectangleEdge, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "base.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "org.jfree.chart.entity.StandardEntityCollection": [
+        {
+            "getEntities()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) one of { 1, 2 }",
+                                    "this.entities[].getClass().getName() one of { [org.jfree.chart.entity.LegendItemEntity], [org.jfree.chart.entity.TitleEntity, org.jfree.chart.entity.LegendItemEntity] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entities[].getClass().getName() elements == org.jfree.chart.entity.TitleEntity.class",
+                                    "this.entities[].getClass().getName() one of { [], [org.jfree.chart.entity.TitleEntity] }",
+                                    "size(this.entities[]) one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) one of { 1, 2 }",
+                                    "this.entities[].getClass().getName() one of { [org.jfree.chart.entity.LegendItemEntity], [org.jfree.chart.entity.TitleEntity, org.jfree.chart.entity.LegendItemEntity] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) one of { 1, 2 }",
+                                    "this.entities[].getClass().getName() one of { [org.jfree.chart.entity.LegendItemEntity], [org.jfree.chart.entity.TitleEntity, org.jfree.chart.entity.LegendItemEntity] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entities[].getClass().getName() elements == org.jfree.chart.entity.TitleEntity.class",
+                                    "this.entities[].getClass().getName() one of { [], [org.jfree.chart.entity.TitleEntity] }",
+                                    "size(this.entities[]) one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) one of { 1, 2 }",
+                                    "this.entities[].getClass().getName() one of { [org.jfree.chart.entity.LegendItemEntity], [org.jfree.chart.entity.TitleEntity, org.jfree.chart.entity.LegendItemEntity] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addAll(org.jfree.chart.entity.EntityCollection)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) == 1",
+                                    "this.entities[].getClass().getName() one of { [org.jfree.chart.entity.JFreeChartEntity], [org.jfree.chart.entity.TitleEntity] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) one of { 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) one of { 1, 2, 3 }",
+                                    "size(this.entities[])-1 >= orig(size(this.entities[]))",
+                                    "orig(size(this.entities[]))-1 % size(this.entities[]) == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.entities[])-1 <= orig(size(this.entities[]))",
+                                    "size(this.entities[])-1 >= orig(size(this.entities[]))-1",
+                                    "size(this.entities[]) one of { 1, 2 }",
+                                    "size(this.entities[]) >= orig(size(this.entities[]))",
+                                    "this.entities[].getClass().getName() one of { [org.jfree.chart.entity.JFreeChartEntity, org.jfree.chart.entity.TitleEntity], [org.jfree.chart.entity.TitleEntity] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "size(this.entities[]) one of { 1, 2, 3 }",
+                                    "size(this.entities[])-1 >= orig(size(this.entities[]))",
+                                    "orig(size(this.entities[]))-1 % size(this.entities[]) == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

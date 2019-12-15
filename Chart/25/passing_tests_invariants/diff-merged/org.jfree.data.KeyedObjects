@@ -1,0 +1,344 @@
+{
+    "org.jfree.data.KeyedObjects": [
+        {
+            "getObject(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "size(this.data[]) == 2",
+                                    "item == 0",
+                                    "this.data[] contains no nulls and has only one value, of length 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "size(this.data[]) == 2",
+                                    "item one of { 0, 1 }",
+                                    "this.data[] contains no nulls and has only one value, of length 2"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "size(this.data[]) == 2",
+                                    "item == 0",
+                                    "this.data[] contains no nulls and has only one value, of length 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "return has only one value",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "return has only one value",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getIndex(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "key.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "key.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "key.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "return one of { -1, 0 }",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "return one of { -1, 0, 1 }",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "return one of { -1, 0 }",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getObject(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "key has only one value",
+                                    "key.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "key.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "key has only one value",
+                                    "key.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "return has only one value",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "this.data[].getClass().getName() == [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject]",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "return has only one value",
+                                    "size(this.data[]) == 2",
+                                    "this.data[] contains no nulls and has only one value, of length 2",
+                                    "return.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "this.data[] == orig(this.data[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CLASS": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.data.getClass().getName() == java.util.ArrayList.class",
+                            "this.data[].getClass().getName() elements == org.jfree.data.KeyedObject.class",
+                            "this.data[] elements != null",
+                            "size(this.data[]) one of { 0, 1, 2 }",
+                            "this.data has only one value",
+                            "this.data != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "KeyedObjects()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() == []",
+                                    "this.data[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setObject(java.lang.Comparable, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.KeyedObject] }",
+                                    "object.getClass().getName() == org.jfree.data.statistics.MeanAndStandardDeviation.class",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "key.getClass().getName() == java.lang.String.class",
+                                    "this.data[] elements has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data == orig(this.data)",
+                                    "size(this.data[])-1 == orig(size(this.data[]))",
+                                    "size(this.data[]) one of { 1, 2 }",
+                                    "this.data.getClass().getName() == orig(this.data.getClass().getName())",
+                                    "this.data[].getClass().getName() one of { [org.jfree.data.KeyedObject], [org.jfree.data.KeyedObject, org.jfree.data.KeyedObject] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

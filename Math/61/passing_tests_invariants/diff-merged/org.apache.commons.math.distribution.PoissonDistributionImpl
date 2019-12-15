@@ -1,0 +1,128 @@
+{
+    "org.apache.commons.math.distribution.PoissonDistributionImpl": [
+        {
+            "cumulativeProbability(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch200.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch200.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "171": [
+                                {
+                                    "Patch200.inv.output": {
+                                        "invs": [
+                                            "return == 1.0",
+                                            "this.normal has only one value",
+                                            "this.randomData has only one value",
+                                            "orig(x) == 2147483647",
+                                            "orig(this) has only one value",
+                                            "this.mean == 4.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(x) >= 0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "166": [
+                                {
+                                    "Patch200.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == 0.0",
+                                            "this.mean one of { 1.0, 4.0 }",
+                                            "orig(x) one of { -2, -1 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "169": [
+                                {
+                                    "Patch200.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == 1.0",
+                                            "this.normal has only one value",
+                                            "this.randomData has only one value",
+                                            "orig(x) == 2147483647",
+                                            "orig(this) has only one value",
+                                            "this.mean == 4.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "168": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch200.inv.output": {
+                                        "invs": [
+                                            "return == 0.0",
+                                            "this.mean one of { 1.0, 4.0 }",
+                                            "orig(x) one of { -2, -1 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "173": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch200.inv.output": {
+                                        "invs": [
+                                            "orig(x) >= 0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

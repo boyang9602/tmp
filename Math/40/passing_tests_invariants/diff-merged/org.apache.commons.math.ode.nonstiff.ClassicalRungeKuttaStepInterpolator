@@ -1,0 +1,128 @@
+{
+    "org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolator": [
+        {
+            "computeInterpolatedStateAndDerivatives(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "oneMinusThetaH >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ClassicalRungeKuttaStepInterpolator()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.forward == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ClassicalRungeKuttaStepInterpolator(org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.forward == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doCopy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.forward == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.forward == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

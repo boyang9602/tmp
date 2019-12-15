@@ -1,0 +1,41 @@
+{
+    "org.apache.commons.math.ode.events.EventState$1": [
+        {
+            "(org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.pendingEventTime == Double.NaN",
+                                    "org.apache.commons.math.ode.events.EventState.this.pendingEvent == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.ode.events.EventState.this.pendingEventTime != 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

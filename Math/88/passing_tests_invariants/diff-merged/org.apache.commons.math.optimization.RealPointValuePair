@@ -1,0 +1,86 @@
+{
+    "org.apache.commons.math.optimization.RealPointValuePair": [
+        {
+            "getPoint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.point[] one of { [-2.0, 8.0], [1.0, 1.0, 0.0], [2.0, 2.0] }",
+                                    "size(this.point[]) one of { 2, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.point[]) one of { 2, 3, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "return[] one of { [-2.0, 8.0], [1.0, 1.0, 0.0], [2.0, 2.0] }",
+                                    "size(return[]) one of { 2, 3 }",
+                                    "this.point[] one of { [-2.0, 8.0], [1.0, 1.0, 0.0], [2.0, 2.0] }",
+                                    "size(this.point[]) one of { 2, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return[]) one of { 2, 3, 5 }",
+                                    "return != null",
+                                    "size(this.point[]) one of { 2, 3, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "RealPointValuePair(double[], double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "size(point[]) one of { 2, 3, 216 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(point[]) >= 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

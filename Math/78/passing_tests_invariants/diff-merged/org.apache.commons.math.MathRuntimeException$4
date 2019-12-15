@@ -1,0 +1,108 @@
+{
+    "org.apache.commons.math.MathRuntimeException$4": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch57.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch56.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch57.inv.output": {
+                        "invs": [
+                            "this.val$pattern.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                            "this.val$pattern has only one value",
+                            "this.val$arguments[].getClass().getName() == [java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double]",
+                            "this.val$arguments.getClass().getName() == java.lang.Object[].class",
+                            "size(this.val$arguments[]) == 4",
+                            "this.val$arguments[].getClass().getName() elements == java.lang.Double.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch56.inv.output": {
+                        "invs": [
+                            "this.val$pattern.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                            "this.val$pattern has only one value",
+                            "this.val$arguments[].getClass().getName() == [java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double]",
+                            "this.val$arguments.getClass().getName() == java.lang.Object[].class",
+                            "size(this.val$arguments[]) == 4",
+                            "this.val$arguments[].getClass().getName() elements == java.lang.Double.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "(java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "$hidden$2.getClass().getName() == java.lang.Object[].class",
+                                    "$hidden$1.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "$hidden$1 has only one value",
+                                    "size($hidden$2[]) == 4"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "$hidden$2.getClass().getName() == java.lang.Object[].class",
+                                    "$hidden$1.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "$hidden$1 has only one value",
+                                    "size($hidden$2[]) == 4"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "$hidden$1.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "$hidden$2[] == orig($hidden$2[])",
+                                    "$hidden$1.toString == orig($hidden$1.toString)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "$hidden$1.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "$hidden$2[] == orig($hidden$2[])",
+                                    "$hidden$1.toString == orig($hidden$1.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

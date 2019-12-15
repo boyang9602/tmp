@@ -1,0 +1,59 @@
+{
+    "org.jfree.chart.util.RectangleAnchor": [
+        {
+            "coordinates(java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"RectangleAnchor.CENTER\", \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }",
+                                    "rectangle.getClass().getName() == java.awt.geom.Rectangle2D$Double.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"RectangleAnchor.CENTER\", \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"RectangleAnchor.CENTER\", \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"RectangleAnchor.CENTER\", \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

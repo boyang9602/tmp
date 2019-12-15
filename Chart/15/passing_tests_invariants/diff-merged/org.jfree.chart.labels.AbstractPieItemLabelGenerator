@@ -1,0 +1,85 @@
+{
+    "org.jfree.chart.labels.AbstractPieItemLabelGenerator": [
+        {
+            "generateSectionLabel(org.jfree.data.general.PieDataset, java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.numberFormat has only one value",
+                                    "this.percentFormat has only one value",
+                                    "this has only one value",
+                                    "dataset has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.numberFormat has only one value",
+                                    "this.percentFormat has only one value",
+                                    "return.toString one of { \"Section 1\", \"Section 2\", \"Section 3\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createItemArray(org.jfree.data.general.PieDataset, java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.numberFormat has only one value",
+                                    "this.percentFormat has only one value",
+                                    "this has only one value",
+                                    "dataset has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.numberFormat has only one value",
+                                    "this.percentFormat has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

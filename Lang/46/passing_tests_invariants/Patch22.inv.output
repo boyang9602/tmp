@@ -1,0 +1,535 @@
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils:::CLASS
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJava(java.io.Writer, java.lang.String):::ENTER
+out.getClass().getName() == java.io.StringWriter.class
+str.toString one of { "", "\t", "foo" }
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJava(java.io.Writer, java.lang.String):::EXIT
+str.toString == orig(str.toString)
+str.toString one of { "", "\t", "foo" }
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJava(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJava(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJavaScript(java.lang.String):::ENTER
+str.toString one of { "He didn't say, \"stop!\"", "document.getElementById(\"test\").value = '<script>alert('aaa');</script>';" }
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJavaScript(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+str.toString one of { "He didn't say, \"stop!\"", "document.getElementById(\"test\").value = '<script>alert('aaa');</script>';" }
+return.toString one of { "He didn\\'t say, \\\"stop!\\\"", "document.getElementById(\\\"test\\\").value = \\'<script>alert(\\'aaa\\');<\\/script>\\';" }
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJavaStyleString(java.lang.String, boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJavaStyleString(java.lang.String, boolean):::EXIT156
+return == null
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJavaStyleString(java.lang.String, boolean):::EXIT161
+return != null
+orig(str) != null
+===========================================================================
+org.apache.commons.lang.StringEscapeUtils.escapeJavaStyleString(java.lang.String, boolean):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest:::CLASS
+org.apache.commons.lang.StringEscapeUtilsTest.FOO has only one value
+org.apache.commons.lang.StringEscapeUtilsTest.FOO != null
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == "foo"
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == null
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest:::OBJECT
+this.htmlEscapes != null
+this.htmlEscapes.getClass().getName() == java.lang.String[][].class
+this.htmlEscapes[] elements != null
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest has only one value
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest != null
+size(this.htmlEscapes[]) == 12
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.StringEscapeUtilsTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.StringEscapeUtilsTest(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.assertEscapeJava(java.lang.String, java.lang.String):::ENTER
+this has only one value
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+escaped has only one value
+escaped.toString == "foo"
+original has only one value
+original.toString == "foo"
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.assertEscapeJava(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang.StringEscapeUtilsTest.FOO == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO)
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString)
+this.htmlEscapes == orig(this.htmlEscapes)
+this.htmlEscapes.getClass().getName() == orig(this.htmlEscapes.getClass().getName())
+this.htmlEscapes[] == orig(this.htmlEscapes[])
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils)
+escaped.toString == orig(escaped.toString)
+original.toString == orig(original.toString)
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+escaped.toString == "foo"
+original.toString == "foo"
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.assertEscapeJava(java.lang.String, java.lang.String, java.lang.String):::ENTER
+this has only one value
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+message.toString one of { "empty string", "tab" }
+expected.toString one of { "", "\\t", "foo" }
+original.toString one of { "", "\t", "foo" }
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.assertEscapeJava(java.lang.String, java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang.StringEscapeUtilsTest.FOO == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO)
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString)
+this.htmlEscapes == orig(this.htmlEscapes)
+this.htmlEscapes.getClass().getName() == orig(this.htmlEscapes.getClass().getName())
+this.htmlEscapes[] == orig(this.htmlEscapes[])
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils)
+expected.toString == orig(expected.toString)
+original.toString == orig(original.toString)
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+expected.toString one of { "", "\\t", "foo" }
+original.toString one of { "", "\t", "foo" }
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.assertUnescapeJava(java.lang.String, java.lang.String):::ENTER
+this has only one value
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.assertUnescapeJava(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang.StringEscapeUtilsTest.FOO == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO)
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString)
+this.htmlEscapes == orig(this.htmlEscapes)
+this.htmlEscapes.getClass().getName() == orig(this.htmlEscapes.getClass().getName())
+this.htmlEscapes[] == orig(this.htmlEscapes[])
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils)
+unescaped.toString == orig(unescaped.toString)
+original.toString == orig(original.toString)
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.assertUnescapeJava(java.lang.String, java.lang.String, java.lang.String):::ENTER
+this has only one value
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+message.toString one of { "lowercase unicode", "unicode as final character", "uppercase unicode" }
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.assertUnescapeJava(java.lang.String, java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang.StringEscapeUtilsTest.FOO == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO)
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString)
+this.htmlEscapes == orig(this.htmlEscapes)
+this.htmlEscapes.getClass().getName() == orig(this.htmlEscapes.getClass().getName())
+this.htmlEscapes[] == orig(this.htmlEscapes[])
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils)
+message.toString == orig(message.toString)
+unescaped.toString == orig(unescaped.toString)
+original.toString == orig(original.toString)
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+message.toString one of { "lowercase unicode", "unicode as final character", "uppercase unicode" }
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.class$(java.lang.String):::ENTER
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == null
+x0 has only one value
+x0.toString == "org.apache.commons.lang.StringEscapeUtilsTest"
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.class$(java.lang.String):::EXIT
+org.apache.commons.lang.StringEscapeUtilsTest.FOO == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO)
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils)
+x0.toString == orig(x0.toString)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == null
+x0.toString == "org.apache.commons.lang.StringEscapeUtilsTest"
+return has only one value
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.suite():::ENTER
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.suite():::EXIT
+org.apache.commons.lang.StringEscapeUtilsTest.FOO == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO)
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.testEscapeJavaScript():::ENTER
+this has only one value
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.testEscapeJavaScript():::EXIT
+org.apache.commons.lang.StringEscapeUtilsTest.FOO == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO)
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString)
+this.htmlEscapes == orig(this.htmlEscapes)
+this.htmlEscapes.getClass().getName() == orig(this.htmlEscapes.getClass().getName())
+this.htmlEscapes[] == orig(this.htmlEscapes[])
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils)
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.testUnescapeJava():::ENTER
+this has only one value
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+===========================================================================
+org.apache.commons.lang.StringEscapeUtilsTest.testUnescapeJava():::EXIT
+org.apache.commons.lang.StringEscapeUtilsTest.FOO == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO)
+org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString == orig(org.apache.commons.lang.StringEscapeUtilsTest.FOO.toString)
+this.htmlEscapes == orig(this.htmlEscapes)
+this.htmlEscapes.getClass().getName() == orig(this.htmlEscapes.getClass().getName())
+this.htmlEscapes[] == orig(this.htmlEscapes[])
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtilsTest)
+org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils == orig(org.apache.commons.lang.StringEscapeUtilsTest.class$org$apache$commons$lang$StringEscapeUtils)
+this.htmlEscapes has only one value
+this.htmlEscapes[] contains no nulls and has only one value, of length 12
+===========================================================================
+org.apache.commons.lang.StringUtils:::CLASS
+org.apache.commons.lang.StringUtils.EMPTY has only one value
+org.apache.commons.lang.StringUtils.EMPTY.toString == ""
+===========================================================================
+org.apache.commons.lang.StringUtils.escape(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.StringUtils.escape(java.lang.String):::EXIT
+org.apache.commons.lang.StringUtils.EMPTY == orig(org.apache.commons.lang.StringUtils.EMPTY)
+org.apache.commons.lang.StringUtils.EMPTY.toString == orig(org.apache.commons.lang.StringUtils.EMPTY.toString)
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.StringUtilsTest:::CLASS
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName()
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName()
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName()
+org.apache.commons.lang.StringUtilsTest.WHITESPACE has only one value
+org.apache.commons.lang.StringUtilsTest.WHITESPACE != null
+org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString == "\t\n\013\014\r\034\035\036\037 \341\232\200\341\240\216\342\200\200\342\200\201\342\200\202\342\200\203\342\200\204\342\200\205\342\200\206\342\200\210\342\200\211\342\200\212\342\200\250\342\200\251\342\201\237\343\200\200"
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE has only one value
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE != null
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString == "\000\001\002\003\004\005\006\007\010\016\017\020\021\022\023\024\025\026\027\030\031\032\033!\"#$%&'"
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE has only one value
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE != null
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString == "\000\001\002\003\004\005\006\007\010\t\n\013\014\r\016\017\020\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 "
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE has only one value
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE != null
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString == "\341\232\200\341\240\216\342\200\200\342\200\201\342\200\202\342\200\203\342\200\204\342\200\205\342\200\206\342\200\210\342\200\211\342\200\212\342\200\250\342\200\251\342\201\237\343\200\200"
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST has only one value
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST != null
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == java.lang.String[].class
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[] contains no nulls and has only one value, of length 3
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[] elements != null
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String]
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[].getClass().getName() elements == java.lang.String.class
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[].toString == [foo, bar, baz]
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[].toString elements one of { "bar", "baz", "foo" }
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST has only one value
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST != null
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[] == []
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[].getClass().getName() == []
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[].toString == []
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST has only one value
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST != null
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[] == [null]
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[] elements == null
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[].getClass().getName() == [null]
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[].getClass().getName() elements == null
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[].toString == [null]
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[].toString elements == null
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST has only one value
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST != null
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[] has only one value, of length 3
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[].getClass().getName() == [null, java.lang.String, java.lang.String]
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[].toString == [null, , foo]
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[].toString elements one of { "", "foo", null }
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST has only one value
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST != null
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == java.lang.Object[].class
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[] contains no nulls and has only one value, of length 2
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[] elements != null
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[].getClass().getName() == [java.lang.String, java.lang.Long]
+org.apache.commons.lang.StringUtilsTest.SEPARATOR has only one value
+org.apache.commons.lang.StringUtilsTest.SEPARATOR != null
+org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString == ","
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST has only one value
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST != null
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString == "foo,bar,baz"
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR has only one value
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR != null
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString == "foo;bar;baz"
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP has only one value
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP != null
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString == "foobarbaz"
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP has only one value
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP != null
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString == "foo"
+org.apache.commons.lang.StringUtilsTest.FOO_CAP has only one value
+org.apache.commons.lang.StringUtilsTest.FOO_CAP != null
+org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString == "Foo"
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP has only one value
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP != null
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString == "foo bar baz"
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP has only one value
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP != null
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString == "Foo Bar Baz"
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils == null
+size(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[]) == 3
+size(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[]) == 1
+size(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[]) == 3
+size(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[]) == 2
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() != org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName()
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP in org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[]
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP in org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[]
+===========================================================================
+org.apache.commons.lang.StringUtilsTest:::OBJECT
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest has only one value
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest != null
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.StringUtilsTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.StringUtilsTest(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.class$(java.lang.String):::ENTER
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest == null
+x0 has only one value
+x0.toString == "org.apache.commons.lang.StringUtilsTest"
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.class$(java.lang.String):::EXIT
+org.apache.commons.lang.StringUtilsTest.WHITESPACE == orig(org.apache.commons.lang.StringUtilsTest.WHITESPACE)
+org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString == orig(org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString)
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE == orig(org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE)
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString == orig(org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString)
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE == orig(org.apache.commons.lang.StringUtilsTest.TRIMMABLE)
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString == orig(org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString)
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE == orig(org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE)
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString == orig(org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString)
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST)
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[])
+org.apache.commons.lang.StringUtilsTest.SEPARATOR == orig(org.apache.commons.lang.StringUtilsTest.SEPARATOR)
+org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString == orig(org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString)
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP == orig(org.apache.commons.lang.StringUtilsTest.FOO_UNCAP)
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString == orig(org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString)
+org.apache.commons.lang.StringUtilsTest.FOO_CAP == orig(org.apache.commons.lang.StringUtilsTest.FOO_CAP)
+org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString == orig(org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest == orig(org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils == orig(org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils)
+x0.toString == orig(x0.toString)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest == null
+x0.toString == "org.apache.commons.lang.StringUtilsTest"
+return has only one value
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.setUp():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.setUp():::EXIT
+org.apache.commons.lang.StringUtilsTest.WHITESPACE == orig(org.apache.commons.lang.StringUtilsTest.WHITESPACE)
+org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString == orig(org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString)
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE == orig(org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE)
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString == orig(org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString)
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE == orig(org.apache.commons.lang.StringUtilsTest.TRIMMABLE)
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString == orig(org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString)
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE == orig(org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE)
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString == orig(org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString)
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST)
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[])
+org.apache.commons.lang.StringUtilsTest.SEPARATOR == orig(org.apache.commons.lang.StringUtilsTest.SEPARATOR)
+org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString == orig(org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString)
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP == orig(org.apache.commons.lang.StringUtilsTest.FOO_UNCAP)
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString == orig(org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString)
+org.apache.commons.lang.StringUtilsTest.FOO_CAP == orig(org.apache.commons.lang.StringUtilsTest.FOO_CAP)
+org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString == orig(org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest == orig(org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils == orig(org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils)
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.suite():::ENTER
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest == null
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.suite():::EXIT
+org.apache.commons.lang.StringUtilsTest.WHITESPACE == orig(org.apache.commons.lang.StringUtilsTest.WHITESPACE)
+org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString == orig(org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString)
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE == orig(org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE)
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString == orig(org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString)
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE == orig(org.apache.commons.lang.StringUtilsTest.TRIMMABLE)
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString == orig(org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString)
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE == orig(org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE)
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString == orig(org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString)
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST)
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[])
+org.apache.commons.lang.StringUtilsTest.SEPARATOR == orig(org.apache.commons.lang.StringUtilsTest.SEPARATOR)
+org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString == orig(org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString)
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP == orig(org.apache.commons.lang.StringUtilsTest.FOO_UNCAP)
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString == orig(org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString)
+org.apache.commons.lang.StringUtilsTest.FOO_CAP == orig(org.apache.commons.lang.StringUtilsTest.FOO_CAP)
+org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString == orig(org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils == orig(org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest has only one value
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.tearDown():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.StringUtilsTest.tearDown():::EXIT
+org.apache.commons.lang.StringUtilsTest.WHITESPACE == orig(org.apache.commons.lang.StringUtilsTest.WHITESPACE)
+org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString == orig(org.apache.commons.lang.StringUtilsTest.WHITESPACE.toString)
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE == orig(org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE)
+org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString == orig(org.apache.commons.lang.StringUtilsTest.NON_WHITESPACE.toString)
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE == orig(org.apache.commons.lang.StringUtilsTest.TRIMMABLE)
+org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString == orig(org.apache.commons.lang.StringUtilsTest.TRIMMABLE.toString)
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE == orig(org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE)
+org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString == orig(org.apache.commons.lang.StringUtilsTest.NON_TRIMMABLE.toString)
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.EMPTY_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.NULL_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST)
+org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.MIXED_ARRAY_LIST[])
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST)
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName())
+org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[] == orig(org.apache.commons.lang.StringUtilsTest.MIXED_TYPE_LIST[])
+org.apache.commons.lang.StringUtilsTest.SEPARATOR == orig(org.apache.commons.lang.StringUtilsTest.SEPARATOR)
+org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString == orig(org.apache.commons.lang.StringUtilsTest.SEPARATOR.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_CHAR.toString)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP)
+org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString == orig(org.apache.commons.lang.StringUtilsTest.TEXT_LIST_NOSEP.toString)
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP == orig(org.apache.commons.lang.StringUtilsTest.FOO_UNCAP)
+org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString == orig(org.apache.commons.lang.StringUtilsTest.FOO_UNCAP.toString)
+org.apache.commons.lang.StringUtilsTest.FOO_CAP == orig(org.apache.commons.lang.StringUtilsTest.FOO_CAP)
+org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString == orig(org.apache.commons.lang.StringUtilsTest.FOO_CAP.toString)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_UNCAP.toString)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP)
+org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString == orig(org.apache.commons.lang.StringUtilsTest.SENTENCE_CAP.toString)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest == orig(org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtilsTest)
+org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils == orig(org.apache.commons.lang.StringUtilsTest.class$org$apache$commons$lang$StringUtils)
+===========================================================================
+org.apache.commons.lang.exception.NestableDelegate:::CLASS
+org.apache.commons.lang.exception.NestableDelegate.MUST_BE_THROWABLE has only one value
+org.apache.commons.lang.exception.NestableDelegate.MUST_BE_THROWABLE.toString == "The Nestable implementation passed to the NestableDelegate(Nestable) constructor must extend java.lang.Throwable"
+org.apache.commons.lang.exception.NestableDelegate.topDown == true
+org.apache.commons.lang.exception.NestableDelegate.trimStackFrames == true
+org.apache.commons.lang.exception.NestableDelegate.matchSubclasses == true
+org.apache.commons.lang.exception.NestableDelegate.class$org$apache$commons$lang$exception$Nestable == null
+===========================================================================
+org.apache.commons.lang.exception.NestableDelegate:::OBJECT
+this has only one value
+this.nestable has only one value
+===========================================================================
+org.apache.commons.lang.exception.NestableDelegate.NestableDelegate(org.apache.commons.lang.exception.Nestable):::ENTER
+nestable has only one value
+nestable.getClass().getName() == org.apache.commons.lang.exception.NestableRuntimeException.class
+===========================================================================
+org.apache.commons.lang.exception.NestableDelegate.NestableDelegate(org.apache.commons.lang.exception.Nestable):::EXIT
+===========================================================================
+org.apache.commons.lang.exception.NestableRuntimeException:::CLASS
+===========================================================================
+org.apache.commons.lang.exception.NestableRuntimeException:::OBJECT
+this has only one value
+this.delegate has only one value
+org.apache.commons.lang.exception.NestableDelegate.MUST_BE_THROWABLE has only one value
+org.apache.commons.lang.exception.NestableDelegate.MUST_BE_THROWABLE.toString == "The Nestable implementation passed to the NestableDelegate(Nestable) constructor must extend java.lang.Throwable"
+this.delegate.nestable has only one value
+org.apache.commons.lang.exception.NestableDelegate.topDown == true
+org.apache.commons.lang.exception.NestableDelegate.trimStackFrames == true
+org.apache.commons.lang.exception.NestableDelegate.matchSubclasses == true
+org.apache.commons.lang.exception.NestableDelegate.class$org$apache$commons$lang$exception$Nestable == null
+this.cause has only one value
+===========================================================================
+org.apache.commons.lang.exception.NestableRuntimeException.NestableRuntimeException(java.lang.String, java.lang.Throwable):::ENTER
+msg has only one value
+msg.toString == "Unable to parse unicode value: 02-3"
+cause has only one value
+===========================================================================
+org.apache.commons.lang.exception.NestableRuntimeException.NestableRuntimeException(java.lang.String, java.lang.Throwable):::EXIT
+msg.toString == orig(msg.toString)
+msg.toString == "Unable to parse unicode value: 02-3"

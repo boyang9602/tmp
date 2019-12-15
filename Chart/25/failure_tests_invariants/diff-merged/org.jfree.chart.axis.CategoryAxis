@@ -1,0 +1,411 @@
+{
+    "org.jfree.chart.axis.CategoryAxis": [
+        {
+            "reserveSpace(java.awt.Graphics2D, org.jfree.chart.plot.Plot, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge, org.jfree.chart.axis.AxisSpace)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "space.left one of { 0.0, 37.96875, 46.96875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "space.left one of { 0.0, 37.96875 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "space.bottom one of { 0.0, 23.96875 }",
+                                    "return.left one of { 23.96875, 37.96875, 46.96875 }",
+                                    "space.left one of { 23.96875, 37.96875, 46.96875 }",
+                                    "return.bottom one of { 0.0, 23.96875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "space.bottom one of { 0.0, 39.609375 }",
+                                    "return.bottom one of { 0.0, 39.609375 }",
+                                    "return.left one of { 37.96875, 41.96875 }",
+                                    "space.left one of { 37.96875, 41.96875 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "781": [
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateCategorySize(int, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "categoryCount == 0",
+                                    "edge has only one value",
+                                    "edge.name.toString == \"RectangleEdge.BOTTOM\"",
+                                    "edge.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "edge.name != null",
+                                    "edge != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "area != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "categoryCount == 2",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "edge.name.toString == \"RectangleEdge.BOTTOM\"",
+                                    "return == 255.59999999999997",
+                                    "edge.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "edge.name != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "return one of { 43.547656249999996, 83.3109375, 99.39999999999999 }",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawCategoryLabels(java.awt.Graphics2D, java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge, org.jfree.chart.axis.AxisState, org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "state.cursor one of { 31.96875, 172.03125 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.cursor one of { 49.96875, 132.421875 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.ticks[] == []",
+                                    "return.ticks[].getClass().getName() == []",
+                                    "state.cursor one of { 27.96875, 176.03125 }",
+                                    "return.cursor one of { 27.96875, 176.03125 }",
+                                    "return.max == 0.0",
+                                    "state.ticks[].getClass().getName() == []",
+                                    "state.max == orig(state.max)",
+                                    "state.max == 0.0",
+                                    "state.ticks[] == orig(state.ticks[])",
+                                    "state.ticks[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.ticks[].getClass().getName() == [org.jfree.chart.axis.CategoryTick, org.jfree.chart.axis.CategoryTick]",
+                                    "state.cursor one of { 27.96875, 152.0625 }",
+                                    "size(state.ticks[]) == 2",
+                                    "return.max one of { 15.640625, 18.0 }",
+                                    "return.ticks[].getClass().getName() elements == org.jfree.chart.axis.CategoryTick.class",
+                                    "size(return.ticks[]) == 2",
+                                    "return.cursor one of { 27.96875, 152.0625 }",
+                                    "state.ticks[].getClass().getName() == [org.jfree.chart.axis.CategoryTick, org.jfree.chart.axis.CategoryTick]",
+                                    "state.ticks[].getClass().getName() elements == org.jfree.chart.axis.CategoryTick.class",
+                                    "state.max one of { 15.640625, 18.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getUpperMargin()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLowerMargin()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, double, java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge, org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "cursor one of { 31.96875, 172.03125 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "cursor one of { 49.96875, 132.421875 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.ticks[] == []",
+                                    "return.ticks[].getClass().getName() == []",
+                                    "return.max == 0.0",
+                                    "return.cursor one of { 8.0, 196.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.ticks[].getClass().getName() == [org.jfree.chart.axis.CategoryTick, org.jfree.chart.axis.CategoryTick]",
+                                    "return.ticks[].getClass().getName() elements == org.jfree.chart.axis.CategoryTick.class",
+                                    "return.max one of { 15.640625, 18.0 }",
+                                    "size(return.ticks[]) == 2",
+                                    "return.cursor one of { 8.0, 172.03125 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "831": [
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "refreshTicks(java.awt.Graphics2D, org.jfree.chart.axis.AxisState, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "state.cursor one of { 0.0, 31.96875, 172.03125 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.cursor one of { 0.0, 49.96875, 132.421875 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return[] == []",
+                                    "return[].getClass().getName() == []",
+                                    "state.max == orig(state.max)",
+                                    "state.max == 0.0",
+                                    "state.cursor one of { 0.0, 31.96875, 172.03125 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return[]) == 2",
+                                    "state.max > orig(state.max)",
+                                    "return[].getClass().getName() elements == org.jfree.chart.axis.CategoryTick.class",
+                                    "state.cursor one of { 0.0, 49.96875, 132.421875 }",
+                                    "state.max one of { 15.640625, 18.0 }",
+                                    "return[].getClass().getName() == [org.jfree.chart.axis.CategoryTick, org.jfree.chart.axis.CategoryTick]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1027": [
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

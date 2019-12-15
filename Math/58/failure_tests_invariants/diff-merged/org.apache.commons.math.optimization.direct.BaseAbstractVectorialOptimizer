@@ -1,0 +1,189 @@
+{
+    "org.apache.commons.math.optimization.direct.BaseAbstractVectorialOptimizer": [
+        {
+            "getTargetRef()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "this.function != null",
+                                    "this.weight != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.function != null",
+                                    "this.weight != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "this.function != null",
+                                    "this.weight != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "return[] elements <= 1.2431632654852931E-11",
+                                    "return != null",
+                                    "return[] elements >= 1.1143831578403364E-29",
+                                    "this.weight != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return[] elements <= 1.2431632654852931E-11",
+                                    "return != null",
+                                    "return[] elements >= 1.1143831578403364E-29",
+                                    "this.weight != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "return[] elements <= 1.2431632654852931E-11",
+                                    "return != null",
+                                    "return[] elements >= 1.1143831578403364E-29",
+                                    "this.weight != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "computeObjectiveValue(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "this.weight != null",
+                                    "point != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.weight != null",
+                                    "point != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "this.weight != null",
+                                    "point != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "return[] sorted by <",
+                                    "return[] sorted by <=",
+                                    "this.weight != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return[] sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "return[] sorted by <=",
+                                    "this.weight != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "return[] sorted by <=",
+                                    "this.weight != null",
+                                    "this.function != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

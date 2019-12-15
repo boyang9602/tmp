@@ -1,0 +1,6 @@
+Patch208 Incorrect  
+Patch77 Incorrect  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.BrentSolver.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/97/failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.BrentSolver.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.UnivariateRealSolverImpl.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/97/failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.UnivariateRealSolverImpl.json)  
+[passing_tests_invariants/diff-merged/org.apache.commons.math.analysis.BrentSolver.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/97/passing_tests_invariants/diff-merged/org.apache.commons.math.analysis.BrentSolver.json)  
+[passing_tests_invariants/diff-merged/org.apache.commons.math.analysis.UnivariateRealSolverUtils.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/97/passing_tests_invariants/diff-merged/org.apache.commons.math.analysis.UnivariateRealSolverUtils.json)  

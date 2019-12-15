@@ -1,0 +1,72 @@
+{
+    "org.apache.commons.math.exception.TooManyEvaluationsException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair6.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair6.inv.output": {
+                        "invs": [
+                            "size(this.context.msgArguments[]) == 3",
+                            "size(this.context.msgPatterns[]) == 3",
+                            "this.context.msgArguments[].getClass().getName() elements == java.lang.Object[].class",
+                            "this.context.msgPatterns[].getClass().getName() elements == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.context.context.getClass().getName() == java.util.HashMap.class",
+                            "this.context.msgArguments[].getClass().getName() == [java.lang.Object[], java.lang.Object[], java.lang.Object[]]",
+                            "this.context.msgPatterns.getClass().getName() == java.util.ArrayList.class",
+                            "this.max.getClass().getName() == java.lang.Integer.class",
+                            "this.context.msgPatterns[] contains no nulls and has only one value, of length 3",
+                            "this.context.msgPatterns[].getClass().getName() == [org.apache.commons.math.exception.util.LocalizedFormats, org.apache.commons.math.exception.util.LocalizedFormats, org.apache.commons.math.exception.util.LocalizedFormats]",
+                            "this.max has only one value",
+                            "this.context.msgArguments.getClass().getName() == java.util.ArrayList.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "TooManyEvaluationsException(java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "max.getClass().getName() == java.lang.Integer.class",
+                                    "max has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

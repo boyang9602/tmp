@@ -1,0 +1,106 @@
+{
+    "org.mockito.internal.verification.VerificationDataImpl": [
+        {
+            "VerificationDataImpl(org.mockito.internal.stubbing.InvocationContainer, org.mockito.internal.invocation.InvocationMatcher)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "wanted.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWanted()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "return.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.invocation.sequenceNumber == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.invocation.sequenceNumber == 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,927 @@
+{
+    "org.apache.commons.math.linear.OpenMapRealVector": [
+        {
+            "setEntry(int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.count one of { 0, 1, 2 }",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": [
+                                    "this.entries.values[] >= orig(this.entries.values[]) (elementwise)",
+                                    "this.entries.keys[] >= orig(this.entries.keys[]) (elementwise)",
+                                    "this.entries.states[] one of { [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }",
+                                    "this.entries.size one of { 1, 2, 3 }",
+                                    "this.entries.count one of { 1, 2, 3 }",
+                                    "this.entries.size >= orig(this.entries.size)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] >= orig(this.entries.keys[]) (elementwise)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": [
+                                    "this.entries.values[] >= orig(this.entries.values[]) (elementwise)",
+                                    "this.entries.keys[] >= orig(this.entries.keys[]) (elementwise)",
+                                    "this.entries.states[] one of { [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }",
+                                    "this.entries.size one of { 1, 2, 3 }",
+                                    "this.entries.count one of { 1, 2, 3 }",
+                                    "this.entries.size >= orig(this.entries.size)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.entries.values[] >= orig(this.entries.values[]) (elementwise)",
+                                    "this.entries.states[] one of { [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }",
+                                    "this.entries.size one of { 1, 2, 3 }",
+                                    "this.entries.count one of { 1, 2, 3 }",
+                                    "this.entries.size >= orig(this.entries.size)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": [
+                                    "this.entries.values[] >= orig(this.entries.values[]) (elementwise)",
+                                    "this.entries.keys[] >= orig(this.entries.keys[]) (elementwise)",
+                                    "this.entries.states[] one of { [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }",
+                                    "this.entries.size one of { 1, 2, 3 }",
+                                    "this.entries.count one of { 1, 2, 3 }",
+                                    "this.entries.size >= orig(this.entries.size)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": [
+                                    "this.entries.values[] >= orig(this.entries.values[]) (elementwise)",
+                                    "this.entries.keys[] >= orig(this.entries.keys[]) (elementwise)",
+                                    "this.entries.states[] one of { [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }",
+                                    "this.entries.size one of { 1, 2, 3 }",
+                                    "this.entries.count one of { 1, 2, 3 }",
+                                    "this.entries.size >= orig(this.entries.size)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEntry(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.count == 1",
+                                    "this.entries.size == 1",
+                                    "this.entries.size == 3",
+                                    "index one of { 0, 2 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "index one of { 0, 1, 2 }",
+                                    "this.entries.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "index == 0",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.count == 1",
+                                    "this.entries.size == 1",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.count == 1",
+                                    "this.entries.size == 1",
+                                    "this.entries.size == 3",
+                                    "index one of { 0, 2 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "index one of { 0, 1, 2 }",
+                                    "this.entries.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.count == 1",
+                                    "this.entries.size == 1",
+                                    "this.entries.size == 3",
+                                    "index one of { 0, 2 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "index one of { 0, 1, 2 }",
+                                    "this.entries.count == 3",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.count == 1",
+                                    "this.entries.size == 1",
+                                    "this.entries.size == 3",
+                                    "index one of { 0, 2 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "index one of { 0, 1, 2 }",
+                                    "this.entries.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": [
+                                    "this.entries.size == 3",
+                                    "index one of { 0, 2 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "index one of { 0, 1, 2 }",
+                                    "this.entries.count == 3"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 1",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.size == 3",
+                                    "this.entries.size == 1",
+                                    "this.entries.count == 3",
+                                    "return one of { 0.0, 3.0 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 1",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.size == 1",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return == 0.0",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 1",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.size == 3",
+                                    "this.entries.size == 1",
+                                    "this.entries.count == 3",
+                                    "return one of { 0.0, 3.0 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 1",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.size == 3",
+                                    "this.entries.size == 1",
+                                    "this.entries.count == 3",
+                                    "return one of { 0.0, 3.0 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return == 0.0",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": [
+                                    "this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 1",
+                                    "this.entries.keys[] elements one of { 0, 1 }",
+                                    "this.entries.size == 3",
+                                    "this.entries.size == 1",
+                                    "this.entries.count == 3",
+                                    "return one of { 0.0, 3.0 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": [
+                                    "this.entries.size == 3",
+                                    "this.entries.count == 3",
+                                    "return one of { 0.0, 3.0 }",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "OpenMapRealVector(org.apache.commons.math.linear.OpenMapRealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": [
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "v.entries.size == 3",
+                                    "v.entries.count == 3",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": [
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "v.entries.size == 3",
+                                    "v.entries.count == 3",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "v.entries.size == 3",
+                                    "v.entries.count == 3",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": [
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "v.entries.size == 3",
+                                    "v.entries.count == 3",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": [
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 3",
+                                    "v.entries.count == 3",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.count == 2",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "this.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "v.entries.count == 3",
+                                    "this.entries.size == 3",
+                                    "v.entries.size == 3",
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.count == 2",
+                                    "this.entries.values has only one value",
+                                    "this.entries has only one value",
+                                    "this.entries.states[] elements one of { 0, 1 }",
+                                    "this.entries.states has only one value",
+                                    "this.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "this.entries.keys has only one value",
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.count == 2",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "this.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "v.entries.count == 3",
+                                    "this.entries.size == 3",
+                                    "v.entries.size == 3",
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.count == 2",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "this.entries.states[] elements one of { 0, 1 }",
+                                    "this.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "v.entries.count == 3",
+                                    "this.entries.size == 3",
+                                    "v.entries.size == 3",
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.count == 2",
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "this.entries.size == 2",
+                                    "v.entries.keys[] elements one of { 0, 2 }",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 2",
+                                    "v.entries.count == 3",
+                                    "this.entries.size == 3",
+                                    "v.entries.size == 3",
+                                    "v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.size == 2",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": [
+                                    "v.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "v.entries.keys[] elements one of { 0, 1, 2 }",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "v.entries.count == 3",
+                                    "this.entries.size == 3",
+                                    "v.entries.size == 3",
+                                    "v.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isDefaultValue(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.count one of { 0, 1, 2 }",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (this.entries.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "(return == true)  ==>  (this.entries.states[] elements one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.states[] elements one of { 0, 1 })",
+                                    "(return == false)  ==>  (this.entries.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "(return == false)  ==>  (this.entries.count one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.keys[] elements one of { 0, 2 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "orig(value) one of { 1.0, 2.0, 3.0 }",
+                                    "(return == false)  ==>  (this.entries.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "this.entries.states[] elements one of { 0, 1 }",
+                                    "this.entries.keys[] elements == 0",
+                                    "(return == true)  ==>  (this.entries.count one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.values[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] })",
+                                    "this.entries.values[] elements one of { 0.0, 1.0 }",
+                                    "this.entries.count one of { 0, 1 }",
+                                    "(return == false)  ==>  (this.entries.size one of { 0, 1 })",
+                                    "this.entries.keys[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "(return == false)  <==>  (orig(value) one of { 1.0, 2.0, 3.0 })",
+                                    "(return == true)  ==>  (this.entries.size one of { 0, 1, 2 })",
+                                    "this.entries.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }",
+                                    "(return == false)  ==>  (this.entries.values[] elements one of { 0.0, 1.0 })",
+                                    "this.entries.values[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }",
+                                    "(return == false)  ==>  (this.entries.keys[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])",
+                                    "(return == false)  ==>  (this.entries.count one of { 0, 1 })",
+                                    "this.entries.count one of { 0, 1, 2 }",
+                                    "this.entries.size one of { 0, 1 }",
+                                    "(return == false)  ==>  (this.entries.keys[] elements == 0)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (this.entries.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "(return == true)  ==>  (this.entries.states[] elements one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.states[] elements one of { 0, 1 })",
+                                    "(return == false)  ==>  (this.entries.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "(return == false)  ==>  (this.entries.count one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.keys[] elements one of { 0, 2 })"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (this.entries.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "(return == true)  ==>  (this.entries.states[] elements one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.states[] elements one of { 0, 1 })",
+                                    "(return == false)  ==>  (this.entries.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "(return == false)  ==>  (this.entries.count one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.keys[] elements one of { 0, 2 })"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (this.entries.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "(return == true)  ==>  (this.entries.states[] elements one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.states[] elements one of { 0, 1 })",
+                                    "(return == false)  ==>  (this.entries.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })",
+                                    "(return == false)  ==>  (this.entries.count one of { 0, 1, 2 })",
+                                    "(return == false)  ==>  (this.entries.keys[] elements one of { 0, 2 })"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDimension()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.count one of { 0, 1, 2 }",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.count one of { 0, 1, 2 }",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEntries()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.size == 2",
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.size == 3",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 2",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.size == 2",
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 2",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.size == 2",
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.size == 3",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 2",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": [
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.size == 2",
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "this.entries.size == 3",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 2",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": [
+                                    "this.entries.size == 3",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch43.inv.output": {
+                                "invs": [
+                                    "return.count == 2",
+                                    "return.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return.keys[] elements one of { 0, 2 }",
+                                    "return.size == 2",
+                                    "return.keys[] elements one of { 0, 1, 2 }",
+                                    "this.entries.size == 2",
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "return.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.size == 3",
+                                    "return.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return.size == 3",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 2",
+                                    "return.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "return.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.count == 2",
+                                    "return.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return.keys[] elements one of { 0, 2 }",
+                                    "return.size == 2",
+                                    "this.entries.size == 2",
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "return.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 2",
+                                    "this.entries.states[] elements one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch165.inv.output": {
+                                "invs": [
+                                    "return.count == 2",
+                                    "return.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return.keys[] elements one of { 0, 2 }",
+                                    "return.size == 2",
+                                    "return.keys[] elements one of { 0, 1, 2 }",
+                                    "this.entries.size == 2",
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "return.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.size == 3",
+                                    "return.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return.size == 3",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 2",
+                                    "return.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "return.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch41.inv.output": {
+                                "invs": [
+                                    "return.count == 2",
+                                    "return.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return.keys[] elements one of { 0, 2 }",
+                                    "return.size == 2",
+                                    "return.keys[] elements one of { 0, 1, 2 }",
+                                    "this.entries.size == 2",
+                                    "this.entries.keys[] elements one of { 0, 2 }",
+                                    "return.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.size == 3",
+                                    "return.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return.size == 3",
+                                    "this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 2",
+                                    "return.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "return.count == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch42.inv.output": {
+                                "invs": [
+                                    "return.keys[] elements one of { 0, 1, 2 }",
+                                    "this.entries.size == 3",
+                                    "return.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "return.size == 3",
+                                    "return.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.states[] == [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.keys[] == [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+                                    "this.entries.count == 3",
+                                    "return.count == 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,450 @@
+{
+    "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator": [
+        {
+            "setMaxGrowth(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMaxGrowth()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "integrate(org.apache.commons.math.ode.FirstOrderDifferentialEquations, double, double[], double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "y[] elements == 0.0",
+                                    "this.stepSize one of { 0.0, 1.2649110640673518, 2.23606797749979 }",
+                                    "size(y[]) one of { 2, 4 }",
+                                    "this.minStep one of { 0.0, 0.4, 1.25 }",
+                                    "size(y0[]) one of { 2, 4 }",
+                                    "y[] one of { [0.0, 0.0], [0.0, 0.0, 0.0, 0.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y[] sorted by ==",
+                                    "y[] elements one of { 0.0, Double.NaN }",
+                                    "size(y0[]) one of { 1, 2, 4 }",
+                                    "size(y[]) one of { 1, 2, 4 }",
+                                    "y[] one of { [0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [NaN] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "y[] elements == 0.0",
+                                    "this.stepSize one of { 0.0, 1.2649110640673518, 2.23606797749979 }",
+                                    "size(y[]) one of { 2, 4 }",
+                                    "this.minStep one of { 0.0, 0.4, 1.25 }",
+                                    "size(y0[]) one of { 2, 4 }",
+                                    "y[] one of { [0.0, 0.0], [0.0, 0.0, 0.0, 0.0] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.minStep one of { 0.0, 0.4, 1.25 }",
+                                    "this.stepSize one of { 0.0, 1.2649110640673518, 2.23606797749979 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.minStep one of { 0.0, 0.4, 1.25 }",
+                                    "this.stepSize one of { 0.0, 1.2649110640673518, 2.23606797749979 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EmbeddedRungeKuttaIntegrator(java.lang.String, boolean, double[], double[][], double[], org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator, double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMinReduction()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getSafety()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setSafety(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMinReduction(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EmbeddedRungeKuttaIntegrator(java.lang.String, boolean, double[], double[][], double[], org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator, double, double, double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

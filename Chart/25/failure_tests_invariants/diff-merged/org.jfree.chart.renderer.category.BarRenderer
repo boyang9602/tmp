@@ -1,0 +1,198 @@
+{
+    "org.jfree.chart.renderer.category.BarRenderer": [
+        {
+            "isDrawBarOutline()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.upperClip == 0.0",
+                                    "this.columnCount == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.upperClip == 0.0",
+                                    "this.columnCount == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.upperClip == 0.0",
+                                    "this.columnCount == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.upperClip == 0.0",
+                                    "this.columnCount == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "findRangeBounds(org.jfree.data.category.CategoryDataset)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.rangeCrosshairPaint == null",
+                                    "this.plot.rangeGridlinePaint == null",
+                                    "this.plot.annotations == null",
+                                    "this.upperClip == 0.0",
+                                    "this.paintList.size == 0",
+                                    "this.plot.backgroundDomainMarkers == null",
+                                    "this.plot.orientation.name.toString == \"PlotOrientation.VERTICAL\"",
+                                    "this.lowerClip == 0.0",
+                                    "this.paintList.objects[] elements == null",
+                                    "this.plot.foregroundRangeMarkers == null",
+                                    "this.plot.orientation has only one value",
+                                    "this.plot.rangeGridlinesVisible == false",
+                                    "this.plot.domainGridlinePosition == null",
+                                    "this.plot.rangeCrosshairStroke == null",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.columnCount == 0",
+                                    "this.plot.domainGridlineStroke == null",
+                                    "this.plot.orientation.name has only one value",
+                                    "this.rowCount == 0",
+                                    "this.plot.backgroundRangeMarkers == null",
+                                    "this.plot.foregroundDomainMarkers == null",
+                                    "this.plot.rangeGridlineStroke == null",
+                                    "this.plot.domainGridlinePaint == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plot.rangeCrosshairPaint == null",
+                                    "this.plot.rangeGridlinePaint == null",
+                                    "this.plot.annotations == null",
+                                    "this.upperClip == 0.0",
+                                    "this.paintList.size == 0",
+                                    "this.plot.backgroundDomainMarkers == null",
+                                    "this.plot.orientation.name.toString == \"PlotOrientation.VERTICAL\"",
+                                    "this.lowerClip == 0.0",
+                                    "this.paintList.objects[] elements == null",
+                                    "this.plot.foregroundRangeMarkers == null",
+                                    "this.plot.orientation has only one value",
+                                    "this.plot.rangeGridlinesVisible == false",
+                                    "this.plot.domainGridlinePosition == null",
+                                    "this.plot.rangeCrosshairStroke == null",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.columnCount == 0",
+                                    "this.plot.domainGridlineStroke == null",
+                                    "this.plot.orientation.name has only one value",
+                                    "this.rowCount == 0",
+                                    "this.plot.backgroundRangeMarkers == null",
+                                    "this.plot.foregroundDomainMarkers == null",
+                                    "this.plot.rangeGridlineStroke == null",
+                                    "this.plot.domainGridlinePaint == null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "BarRenderer()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] elements == null",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.columnCount == 0",
+                                    "this.rowCount == 0",
+                                    "this.upperClip == 0.0",
+                                    "this.paintList.size == 0",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.lowerClip == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLegendItem(int, int)": [
+                {
+                    "EXITNN": [
+                        {
+                            "699": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

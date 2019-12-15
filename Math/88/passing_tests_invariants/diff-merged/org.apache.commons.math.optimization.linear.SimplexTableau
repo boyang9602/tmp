@@ -1,0 +1,335 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexTableau": [
+        {
+            "getSolution()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.f.constantTerm one of { 0.0, 7.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "size(return.point[]) one of { 2, 3, 216 }",
+                                    "this.f.constantTerm one of { 0.0, 7.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return.point[]) >= 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "divideRow(int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "divisor >= 1.0",
+                                    "dividendRow >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "discardArtificialVariables()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.numArtificialVariables one of { 0, 1, 93 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "(orig(this.numArtificialVariables) one of { 1, 93 })  ==>  (this.f.constantTerm one of { -5.0, 0.0, 7.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(orig(this.numArtificialVariables) one of { 1, 2, 93 })  <==>  (this.numArtificialVariables < orig(this.numArtificialVariables))",
+                                    "(orig(this.numArtificialVariables) one of { 1, 2, 93 })  ==>  (this.f.constantTerm one of { -5.0, 0.0, 7.0 })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "291": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "304": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": [
+                                            "orig(this.numArtificialVariables) one of { 1, 93 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.numArtificialVariables < orig(this.numArtificialVariables)",
+                                            "orig(this.numArtificialVariables) one of { 1, 2, 93 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getBasicRow(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "279": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": [
+                                            "this.numDecisionVariables one of { 3, 4, 216 }",
+                                            "this.numSlackVariables one of { 2, 3, 12 }",
+                                            "this.f.constantTerm one of { 0.0, 7.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.numSlackVariables >= 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "283": [
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRhsOffset()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.numArtificialVariables one of { 0, 1, 93 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.numArtificialVariables one of { 0, 1, 93 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getOriginalNumDecisionVariables()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.f.constantTerm one of { 0.0, 7.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "this.f.constantTerm one of { 0.0, 7.0 }",
+                                    "return one of { 2, 3, 216 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getNumObjectiveFunctions()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.numDecisionVariables >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.numDecisionVariables >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "org.jfree.chart.text.TextBlock": [
+        {
+            "calculateDimensions(java.awt.Graphics2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "return.height one of { 13.96875, 20.953125 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.height one of { 11.640625, 13.96875, 20.953125 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, float, float, org.jfree.chart.text.TextBlockAnchor, float, float, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "anchorY one of { 1.0, 81.03125, 181.03125 }",
+                                    "rotateX == 0.0",
+                                    "anchor.name.toString one of { \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }",
+                                    "rotateY == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rotateX one of { 0.0, 66.96875, 122.984375 }",
+                                    "rotateY one of { 0.0, 36.421875, 55.820312 }",
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }",
+                                    "anchorY >= 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateOffsets(org.jfree.chart.text.TextBlockAnchor, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }",
+                                    "height one of { 13.96875, 20.953125 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }",
+                                    "height one of { 11.640625, 13.96875, 20.953125 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

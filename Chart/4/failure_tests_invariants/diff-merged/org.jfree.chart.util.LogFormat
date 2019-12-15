@@ -1,0 +1,117 @@
+{
+    "org.jfree.chart.util.LogFormat": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.baseLabel has only one value",
+                            "this.powerLabel.toString == \"^\"",
+                            "this.baseLabel.toString == \"10\"",
+                            "this.powerLabel has only one value",
+                            "this.formatter.getClass().getName() == java.text.DecimalFormat.class",
+                            "this.baseLog == 2.302585092994046",
+                            "this.base == 10.0",
+                            "this.showBase == true"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "LogFormat(double, java.lang.String, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "showBase == true",
+                                    "base == 10.0",
+                                    "baseLabel has only one value",
+                                    "baseLabel.toString == \"10\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "baseLabel.toString == orig(baseLabel.toString)",
+                                    "baseLabel.toString == \"10\""
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LogFormat(double, java.lang.String, java.lang.String, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "powerLabel has only one value",
+                                    "showBase == true",
+                                    "powerLabel.toString == \"^\"",
+                                    "base == 10.0",
+                                    "baseLabel has only one value",
+                                    "baseLabel.toString == \"10\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "baseLabel.toString == orig(baseLabel.toString)",
+                                    "powerLabel.toString == \"^\"",
+                                    "powerLabel.toString == orig(powerLabel.toString)",
+                                    "baseLabel.toString == \"10\""
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LogFormat()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

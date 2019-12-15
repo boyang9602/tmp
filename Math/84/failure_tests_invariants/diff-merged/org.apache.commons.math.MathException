@@ -1,0 +1,406 @@
+{
+    "org.apache.commons.math.MathException": [
+        {
+            "CLASS": [
+                {
+                    "Patch69.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch68.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch69.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.arguments[].getClass().getName() one of { [], [java.lang.Integer] }",
+                            "this.arguments[].getClass().getName() elements == java.lang.Integer.class",
+                            "this.pattern.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"org.apache.commons.math.MaxIterationsExceededException: Maximal number of iterations (100) exceeded\" }",
+                            "size(this.arguments[]) one of { 0, 1 }",
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.arguments[] elements has only one value"
+                        ]
+                    }
+                },
+                {
+                    "Patch68.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "MathException(java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "arguments[] elements has only one value",
+                                    "pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "arguments[] contains no nulls and has only one value, of length 1",
+                                    "size(arguments[]) == 1",
+                                    "pattern has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "arguments has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.arguments has only one value",
+                                    "arguments[] == orig(arguments[])",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer]",
+                                    "size(this.arguments[]) == 1",
+                                    "arguments[] elements has only one value",
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "this.pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "arguments[] contains no nulls and has only one value, of length 1",
+                                    "this.arguments[] contains no nulls and has only one value, of length 1",
+                                    "this.pattern has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLocalizedMessage()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.arguments has only one value",
+                                    "this has only one value",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer]",
+                                    "size(this.arguments[]) == 1",
+                                    "this.pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "this.arguments[] contains no nulls and has only one value, of length 1",
+                                    "this.pattern has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.arguments has only one value",
+                                    "this.arguments.getClass().getName() == orig(this.arguments.getClass().getName())",
+                                    "this.arguments == orig(this.arguments)",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer]",
+                                    "size(this.arguments[]) == 1",
+                                    "this.pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "return has only one value",
+                                    "this.pattern == orig(this.pattern)",
+                                    "this.pattern.toString == orig(this.pattern.toString)",
+                                    "return.toString == \"Maximal number of iterations (100) exceeded\"",
+                                    "this.arguments[] contains no nulls and has only one value, of length 1",
+                                    "this.pattern has only one value",
+                                    "this.arguments[] == orig(this.arguments[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMessage(java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.arguments has only one value",
+                                    "this has only one value",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer]",
+                                    "size(this.arguments[]) == 1",
+                                    "this.pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "locale has only one value",
+                                    "this.arguments[] contains no nulls and has only one value, of length 1",
+                                    "this.pattern has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.arguments has only one value",
+                                    "this.arguments.getClass().getName() == orig(this.arguments.getClass().getName())",
+                                    "this.arguments == orig(this.arguments)",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer]",
+                                    "size(this.arguments[]) == 1",
+                                    "this.pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "return has only one value",
+                                    "this.pattern == orig(this.pattern)",
+                                    "this.pattern.toString == orig(this.pattern.toString)",
+                                    "return.toString == \"Maximal number of iterations (100) exceeded\"",
+                                    "this.arguments[] contains no nulls and has only one value, of length 1",
+                                    "this.pattern has only one value",
+                                    "this.arguments[] == orig(this.arguments[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "translate(java.lang.String, java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "locale has only one value",
+                                    "s.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "s has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return has only one value",
+                                    "s.toString == orig(s.toString)",
+                                    "return.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "s.toString == \"Maximal number of iterations ({0}) exceeded\""
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "73": [
+                                {
+                                    "Patch69.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch68.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildMessage(java.util.Locale, java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "arguments[] elements has only one value",
+                                    "pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "locale has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 1",
+                                    "size(arguments[]) == 1",
+                                    "pattern has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "arguments[] == orig(arguments[])",
+                                    "arguments[] elements has only one value",
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                                    "arguments[] contains no nulls and has only one value, of length 1",
+                                    "return.toString == \"Maximal number of iterations (100) exceeded\""
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "MathException(java.lang.Throwable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rootCause has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.arguments has only one value",
+                                    "this.pattern.toString == \"org.apache.commons.math.MaxIterationsExceededException: Maximal number of iterations (100) exceeded\"",
+                                    "this.arguments[] == []",
+                                    "this.pattern has only one value",
+                                    "this.arguments[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

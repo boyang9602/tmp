@@ -1,0 +1,978 @@
+{
+    "org.jfree.chart.block.AbstractBlock": [
+        {
+            "trimToContentHeight(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.margin.right == 0.0",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "fixedHeight one of { 100.0, 200.0 }",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.margin.right == 0.0",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0",
+                                    "return one of { 98.0, 198.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setPadding(org.jfree.chart.util.RectangleInsets)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.padding.top one of { 0.0, 2.0 }",
+                                    "padding.bottom one of { 1.0, 2.0 }",
+                                    "padding.top one of { 1.0, 2.0 }",
+                                    "padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.left one of { 0.0, 2.0 }",
+                                    "this.padding.right one of { 0.0, 2.0 }",
+                                    "this.padding.bottom one of { 0.0, 2.0 }",
+                                    "padding.right one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "padding.top == 1.0",
+                                    "this.padding.right == 0.0",
+                                    "this.padding has only one value",
+                                    "padding.right == 1.0",
+                                    "this.padding.bottom == 0.0",
+                                    "padding has only one value",
+                                    "this.padding.top == 0.0",
+                                    "padding.left == 1.0",
+                                    "padding.bottom == 1.0",
+                                    "this.padding.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.padding.top one of { 0.0, 2.0 }",
+                                    "padding.bottom one of { 1.0, 2.0 }",
+                                    "padding.top one of { 1.0, 2.0 }",
+                                    "padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.left one of { 0.0, 2.0 }",
+                                    "this.padding.right one of { 0.0, 2.0 }",
+                                    "this.padding.bottom one of { 0.0, 2.0 }",
+                                    "padding.right one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "padding.bottom one of { 1.0, 2.0 }",
+                                    "this.padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.top one of { 1.0, 2.0 }",
+                                    "padding.right one of { 1.0, 2.0 }",
+                                    "this.padding.bottom one of { 1.0, 2.0 }",
+                                    "this.padding.right one of { 1.0, 2.0 }",
+                                    "this.padding.bottom >= orig(this.padding.bottom)",
+                                    "this.padding.right >= orig(this.padding.right)",
+                                    "this.padding.left >= orig(this.padding.left)",
+                                    "padding.top one of { 1.0, 2.0 }",
+                                    "padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.top >= orig(this.padding.top)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.top == 1.0",
+                                    "this.padding.right == 1.0",
+                                    "padding.top == 1.0",
+                                    "this.padding.left == 1.0",
+                                    "padding.left == 1.0",
+                                    "this.padding has only one value",
+                                    "padding.bottom == 1.0",
+                                    "this.padding.bottom == 1.0",
+                                    "padding.right == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "padding.bottom one of { 1.0, 2.0 }",
+                                    "this.padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.top one of { 1.0, 2.0 }",
+                                    "padding.right one of { 1.0, 2.0 }",
+                                    "this.padding.bottom one of { 1.0, 2.0 }",
+                                    "this.padding.right one of { 1.0, 2.0 }",
+                                    "this.padding.bottom >= orig(this.padding.bottom)",
+                                    "this.padding.right >= orig(this.padding.right)",
+                                    "this.padding.left >= orig(this.padding.left)",
+                                    "padding.top one of { 1.0, 2.0 }",
+                                    "padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.top >= orig(this.padding.top)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateTotalWidth(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.left == 1.0",
+                                    "this.padding.bottom == 1.0",
+                                    "this.padding.top == 1.0",
+                                    "this.margin.right == 0.0",
+                                    "this.padding.right == 1.0",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.left == 1.0",
+                                    "this.padding.bottom == 1.0",
+                                    "this.padding.top == 1.0",
+                                    "this.margin.right == 0.0",
+                                    "this.padding.right == 1.0",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "trimToContentWidth(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.margin.right == 0.0",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.margin.right == 0.0",
+                                    "return one of { 198.0, 298.0 }",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "trimToContentHeight(org.jfree.data.Range)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.margin.right == 0.0",
+                                    "r.upper one of { 100.0, 200.0 }",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.upper one of { 98.0, 198.0 }",
+                                    "this.margin.right == 0.0",
+                                    "r.upper one of { 100.0, 200.0 }",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "463": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "readObject(java.io.ObjectInputStream)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom one of { 0.0, 1.0 }",
+                                    "this.padding.top one of { 0.0, 1.0 }",
+                                    "this.padding.right one of { 0.0, 1.0 }",
+                                    "this.padding.left one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom one of { 0.0, 1.0 }",
+                                    "this.padding.top one of { 0.0, 1.0 }",
+                                    "this.padding.right one of { 0.0, 1.0 }",
+                                    "this.padding.left one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "writeObject(java.io.ObjectOutputStream)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom one of { 0.0, 1.0 }",
+                                    "this.padding.top one of { 0.0, 1.0 }",
+                                    "this.padding.right one of { 0.0, 1.0 }",
+                                    "this.padding.left one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom one of { 0.0, 1.0 }",
+                                    "this.padding.top one of { 0.0, 1.0 }",
+                                    "this.padding.right one of { 0.0, 1.0 }",
+                                    "this.padding.left one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom one of { 0.0, 1.0 }",
+                                    "this.padding.top one of { 0.0, 1.0 }",
+                                    "this.padding.right one of { 0.0, 1.0 }",
+                                    "this.padding.left one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom one of { 0.0, 1.0 }",
+                                    "this.padding.top one of { 0.0, 1.0 }",
+                                    "this.padding.right one of { 0.0, 1.0 }",
+                                    "this.padding.left one of { 0.0, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "toContentConstraint(org.jfree.chart.block.RectangleConstraint)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "c.height >= 0.0",
+                                    "c.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "c.heightConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "c.width one of { 0.0, 200.0, 300.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "c.height one of { 100.0, 200.0 }",
+                                    "this.padding.top == 1.0",
+                                    "this.padding.right == 1.0",
+                                    "c.heightRange.upper one of { 100.0, 200.0 }",
+                                    "this.padding.left == 1.0",
+                                    "c.widthRange != null",
+                                    "c.heightConstraintType has only one value",
+                                    "c.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "c.heightConstraintType.name has only one value",
+                                    "this.margin.bottom == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "c.widthConstraintType has only one value",
+                                    "c.heightRange != null",
+                                    "this.margin.left == 0.0",
+                                    "c.widthConstraintType.name has only one value",
+                                    "c.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.padding.bottom == 1.0",
+                                    "this.margin.right == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "c.width one of { 200.0, 300.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "c.height >= 0.0",
+                                    "c.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "c.heightConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "c.width one of { 0.0, 200.0, 300.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(this.padding.top == 1.0)  <==>  (return.heightRange != null)",
+                                    "(this.padding.top == 1.0)  ==>  (this.margin.top one of { 0.0, 1.0 })",
+                                    "return.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.height == 0.0)",
+                                    "(this.padding.top == 1.0)  <==>  (this.padding.bottom == 1.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.widthRange == null)",
+                                    "(this.padding.top == 1.0)  <==>  (this.padding.right == 1.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin has only one value)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class)",
+                                    "(this.padding.top == 1.0)  <==>  (return.widthRange != null)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (this.padding.bottom one of { 0.0, 2.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.widthConstraintType.name.toString == \"LengthConstraintType.NONE\")",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin.left == 0.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.heightConstraintType.name.toString == \"LengthConstraintType.NONE\")",
+                                    "return.height >= 0.0",
+                                    "(this.padding.top == 1.0)  <==>  (c.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\")",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.width == 0.0)",
+                                    "(this.padding.top == 1.0)  <==>  (return.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\")",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.heightConstraintType.name.toString == \"LengthConstraintType.NONE\")",
+                                    "(this.padding.top == 1.0)  ==>  (c.widthRange.upper one of { 200.0, 300.0 })",
+                                    "(this.padding.top == 1.0)  ==>  (this.margin.bottom one of { 0.0, 1.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (this.padding.right one of { 0.0, 2.0 })",
+                                    "c.height >= 0.0",
+                                    "(this.padding.top == 1.0)  <==>  (c.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\")",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.heightRange == null)",
+                                    "(this.padding.top == 1.0)  <==>  (c.width one of { 200.0, 300.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (this.padding.left one of { 0.0, 2.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin.bottom == 0.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.frame has only one value)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.height == 0.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.width == 0.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (return has only one value)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.heightRange == null)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.widthConstraintType.name.toString == \"LengthConstraintType.NONE\")",
+                                    "(this.padding.top == 1.0)  <==>  (c.widthRange != null)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin.top == 0.0)",
+                                    "c.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "(this.padding.top == 1.0)  <==>  (c.heightRange != null)",
+                                    "(this.padding.top == 1.0)  ==>  (this.margin.right one of { 0.0, 1.0 })",
+                                    "return.heightConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (orig(c) has only one value)",
+                                    "(this.padding.top == 1.0)  <==>  (return.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\")",
+                                    "(this.padding.top == 1.0)  <==>  (this.padding.left == 1.0)",
+                                    "c.heightConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "return.width >= 0.0",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin.right == 0.0)",
+                                    "(this.padding.top == 1.0)  ==>  (this.margin.left one of { 0.0, 1.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.widthRange == null)",
+                                    "c.width one of { 0.0, 200.0, 300.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "c.height one of { 100.0, 200.0 }",
+                                    "this.padding.top == 1.0",
+                                    "return.heightConstraintType has only one value",
+                                    "this.padding.right == 1.0",
+                                    "return.heightRange != null",
+                                    "c.heightRange.upper one of { 100.0, 200.0 }",
+                                    "this.padding.left == 1.0",
+                                    "return.widthConstraintType.name has only one value",
+                                    "return.widthRange != null",
+                                    "return.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "return.widthConstraintType has only one value",
+                                    "c.widthRange != null",
+                                    "return.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "c.heightConstraintType has only one value",
+                                    "c.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "c.heightConstraintType.name has only one value",
+                                    "this.margin.bottom == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "c.widthConstraintType has only one value",
+                                    "c.heightRange != null",
+                                    "this.margin.left == 0.0",
+                                    "c.widthConstraintType.name has only one value",
+                                    "return.heightConstraintType.name has only one value",
+                                    "return.heightRange.upper one of { 98.0, 198.0 }",
+                                    "this.padding.bottom == 1.0",
+                                    "return.width one of { 198.0, 298.0 }",
+                                    "c.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.margin.right == 0.0",
+                                    "return.widthRange.upper one of { 198.0, 298.0 }",
+                                    "this.margin.top == 0.0",
+                                    "c.width one of { 200.0, 300.0 }",
+                                    "return.height one of { 98.0, 198.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "(this.padding.top == 1.0)  <==>  (return.heightRange != null)",
+                                    "(this.padding.top == 1.0)  ==>  (this.margin.top one of { 0.0, 1.0 })",
+                                    "return.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.height == 0.0)",
+                                    "(this.padding.top == 1.0)  <==>  (this.padding.bottom == 1.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.widthRange == null)",
+                                    "(this.padding.top == 1.0)  <==>  (this.padding.right == 1.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin has only one value)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class)",
+                                    "(this.padding.top == 1.0)  <==>  (return.widthRange != null)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (this.padding.bottom one of { 0.0, 2.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.widthConstraintType.name.toString == \"LengthConstraintType.NONE\")",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin.left == 0.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.heightConstraintType.name.toString == \"LengthConstraintType.NONE\")",
+                                    "return.height >= 0.0",
+                                    "(this.padding.top == 1.0)  <==>  (c.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\")",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.width == 0.0)",
+                                    "(this.padding.top == 1.0)  <==>  (return.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\")",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.heightConstraintType.name.toString == \"LengthConstraintType.NONE\")",
+                                    "(this.padding.top == 1.0)  ==>  (c.widthRange.upper one of { 200.0, 300.0 })",
+                                    "(this.padding.top == 1.0)  ==>  (this.margin.bottom one of { 0.0, 1.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (this.padding.right one of { 0.0, 2.0 })",
+                                    "c.height >= 0.0",
+                                    "(this.padding.top == 1.0)  <==>  (c.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\")",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.heightRange == null)",
+                                    "(this.padding.top == 1.0)  <==>  (c.width one of { 200.0, 300.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (this.padding.left one of { 0.0, 2.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin.bottom == 0.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.frame has only one value)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.height == 0.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (return.width == 0.0)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (return has only one value)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.heightRange == null)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.widthConstraintType.name.toString == \"LengthConstraintType.NONE\")",
+                                    "(this.padding.top == 1.0)  <==>  (c.widthRange != null)",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin.top == 0.0)",
+                                    "c.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "(this.padding.top == 1.0)  <==>  (c.heightRange != null)",
+                                    "(this.padding.top == 1.0)  ==>  (this.margin.right one of { 0.0, 1.0 })",
+                                    "return.heightConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (orig(c) has only one value)",
+                                    "(this.padding.top == 1.0)  <==>  (return.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\")",
+                                    "(this.padding.top == 1.0)  <==>  (this.padding.left == 1.0)",
+                                    "c.heightConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "return.width >= 0.0",
+                                    "(this.padding.top one of { 0.0, 2.0 })  ==>  (this.margin.right == 0.0)",
+                                    "(this.padding.top == 1.0)  ==>  (this.margin.left one of { 0.0, 1.0 })",
+                                    "(this.padding.top one of { 0.0, 2.0 })  <==>  (c.widthRange == null)",
+                                    "c.width one of { 0.0, 200.0, 300.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "430": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.padding.top == 1.0",
+                                            "return.heightConstraintType has only one value",
+                                            "this.padding.right == 1.0",
+                                            "return.heightRange != null",
+                                            "this.padding.left == 1.0",
+                                            "return.widthConstraintType.name has only one value",
+                                            "return.widthRange != null",
+                                            "return.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "return.widthConstraintType has only one value",
+                                            "c.widthRange != null",
+                                            "return.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "c.heightConstraintType has only one value",
+                                            "c.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "c.heightConstraintType.name has only one value",
+                                            "c.widthConstraintType has only one value",
+                                            "c.heightRange != null",
+                                            "c.widthConstraintType.name has only one value",
+                                            "return.heightConstraintType.name has only one value",
+                                            "this.padding.bottom == 1.0",
+                                            "c.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "c.width one of { 200.0, 300.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": [
+                                            "this.padding.top == 1.0",
+                                            "return.heightConstraintType has only one value",
+                                            "this.padding.right == 1.0",
+                                            "return.heightRange != null",
+                                            "this.padding.left == 1.0",
+                                            "return.widthConstraintType.name has only one value",
+                                            "return.widthRange != null",
+                                            "return.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "return.widthConstraintType has only one value",
+                                            "c.widthRange != null",
+                                            "return.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "c.heightConstraintType has only one value",
+                                            "c.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "c.heightConstraintType.name has only one value",
+                                            "c.widthConstraintType has only one value",
+                                            "c.heightRange != null",
+                                            "c.widthConstraintType.name has only one value",
+                                            "return.heightConstraintType.name has only one value",
+                                            "this.padding.bottom == 1.0",
+                                            "c.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "c.width one of { 200.0, 300.0 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "420": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return.heightRange == null",
+                                            "this.padding.top one of { 0.0, 2.0 }",
+                                            "return.heightConstraintType has only one value",
+                                            "c.heightConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "return has only one value",
+                                            "this.padding.left one of { 0.0, 2.0 }",
+                                            "this.padding.bottom one of { 0.0, 2.0 }",
+                                            "return.widthConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "return.heightConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "this.margin has only one value",
+                                            "return.widthConstraintType.name has only one value",
+                                            "this.padding.right one of { 0.0, 2.0 }",
+                                            "return.widthConstraintType has only one value",
+                                            "return.height == 0.0",
+                                            "c.heightConstraintType has only one value",
+                                            "return.widthRange == null",
+                                            "c.width == 0.0",
+                                            "c.heightConstraintType.name has only one value",
+                                            "this.margin.bottom == 0.0",
+                                            "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                            "c.widthConstraintType has only one value",
+                                            "this.frame has only one value",
+                                            "this.margin.left == 0.0",
+                                            "return.width == 0.0",
+                                            "orig(c) has only one value",
+                                            "c.widthConstraintType.name has only one value",
+                                            "return.heightConstraintType.name has only one value",
+                                            "c.widthConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "c.height == 0.0",
+                                            "c.heightRange == null",
+                                            "this.margin.right == 0.0",
+                                            "this.margin.top == 0.0",
+                                            "c.widthRange == null"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": [
+                                            "return.heightRange == null",
+                                            "this.padding.top one of { 0.0, 2.0 }",
+                                            "return.heightConstraintType has only one value",
+                                            "c.heightConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "return has only one value",
+                                            "this.padding.left one of { 0.0, 2.0 }",
+                                            "this.padding.bottom one of { 0.0, 2.0 }",
+                                            "return.widthConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "return.heightConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "this.margin has only one value",
+                                            "return.widthConstraintType.name has only one value",
+                                            "this.padding.right one of { 0.0, 2.0 }",
+                                            "return.widthConstraintType has only one value",
+                                            "return.height == 0.0",
+                                            "c.heightConstraintType has only one value",
+                                            "return.widthRange == null",
+                                            "c.width == 0.0",
+                                            "c.heightConstraintType.name has only one value",
+                                            "this.margin.bottom == 0.0",
+                                            "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                            "c.widthConstraintType has only one value",
+                                            "this.frame has only one value",
+                                            "this.margin.left == 0.0",
+                                            "return.width == 0.0",
+                                            "orig(c) has only one value",
+                                            "c.widthConstraintType.name has only one value",
+                                            "return.heightConstraintType.name has only one value",
+                                            "c.widthConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "c.height == 0.0",
+                                            "c.heightRange == null",
+                                            "this.margin.right == 0.0",
+                                            "this.margin.top == 0.0",
+                                            "c.widthRange == null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "trimToContentWidth(org.jfree.data.Range)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.margin.right == 0.0",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.margin.right == 0.0",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "return.upper one of { 198.0, 298.0 }",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "448": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateTotalHeight(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "contentHeight one of { 23.28125, 46.5625 }",
+                                    "this.padding.left == 1.0",
+                                    "this.padding.bottom == 1.0",
+                                    "this.padding.top == 1.0",
+                                    "this.margin.right == 0.0",
+                                    "this.padding.right == 1.0",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.left == 1.0",
+                                    "this.padding.bottom == 1.0",
+                                    "this.padding.top == 1.0",
+                                    "this.margin.right == 0.0",
+                                    "this.padding.right == 1.0",
+                                    "return one of { 25.28125, 48.5625 }",
+                                    "this.margin.bottom == 0.0",
+                                    "this.margin.top == 0.0",
+                                    "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                    "this.margin.left == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

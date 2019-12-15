@@ -1,0 +1,814 @@
+{
+    "org.jfree.chart.text.TextBlock": [
+        {
+            "CLASS": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.lines.getClass().getName() == java.util.ArrayList.class",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT has only one value",
+                            "size(this.lines[]) one of { 0, 1 }",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString == \"HorizontalAlignment.RIGHT\"",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT.name != null",
+                            "this.lineAlignment.name != null",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT.name has only one value",
+                            "this.lineAlignment.name has only one value",
+                            "this.lines[].getClass().getName() one of { [], [org.jfree.chart.text.TextLine] }",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT has only one value",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT != null",
+                            "this.lines[].getClass().getName() elements == org.jfree.chart.text.TextLine.class",
+                            "this.lines[] elements != null",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString == \"HorizontalAlignment.LEFT\"",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT.name != null",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER.name != null",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT.name has only one value",
+                            "this.lineAlignment != null",
+                            "this.lineAlignment.name.toString == \"HorizontalAlignment.CENTER\"",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER.name has only one value",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString == \"HorizontalAlignment.CENTER\"",
+                            "this.lines != null",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER has only one value",
+                            "this.lineAlignment has only one value",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT != null",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "calculateDimensions(java.awt.Graphics2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "g2 has only one value",
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lines == orig(this.lines)",
+                                    "size(this.lines[]) == 1",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString)",
+                                    "return.width one of { 14.0, 16.0 }",
+                                    "this.lines[] == orig(this.lines[])",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name)",
+                                    "this.lineAlignment.name.toString == orig(this.lineAlignment.name.toString)",
+                                    "this.lineAlignment == orig(this.lineAlignment)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name)",
+                                    "return.height one of { 11.640625, 13.96875 }",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "this.lines.getClass().getName() == orig(this.lines.getClass().getName())",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.lineAlignment.name == orig(this.lineAlignment.name)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TextBlock()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lines[] == []",
+                                    "this.lines[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addLine(java.lang.String, java.awt.Font, java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lines[].getClass().getName() == []",
+                                    "text.toString one of { \"C1\", \"C2\", \"S1\" }",
+                                    "this.lines[] == []",
+                                    "paint has only one value",
+                                    "paint.getClass().getName() == java.awt.Color.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lines == orig(this.lines)",
+                                    "text.toString == orig(text.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name)",
+                                    "size(this.lines[])-1 == orig(size(this.lines[]))",
+                                    "size(this.lines[]) == 1",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name)",
+                                    "this.lineAlignment.name.toString == orig(this.lineAlignment.name.toString)",
+                                    "this.lineAlignment == orig(this.lineAlignment)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name)",
+                                    "text.toString one of { \"C1\", \"C2\", \"S1\" }",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "this.lines.getClass().getName() == orig(this.lines.getClass().getName())",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.lineAlignment.name == orig(this.lineAlignment.name)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, float, float, org.jfree.chart.text.TextBlockAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "g2 has only one value",
+                                    "size(this.lines[]) == 1",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == \"TextBlockAnchor.BOTTOM_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT has only one value",
+                                    "anchor.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == \"TextBlockAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "this.lines[] contains no nulls and has only one value, of length 1",
+                                    "anchor.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == \"TextBlockAnchor.CENTER_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT has only one value",
+                                    "this.lines[] elements has only one value",
+                                    "x == 148.0",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == \"TextBlockAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == \"TextBlockAnchor.CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == \"TextBlockAnchor.CENTER_RIGHT\"",
+                                    "y == 181.03125",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name has only one value",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name has only one value",
+                                    "anchor has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT has only one value",
+                                    "this has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == \"TextBlockAnchor.TOP_RIGHT\"",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "this.lines has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == \"TextBlockAnchor.BOTTOM_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER has only one value",
+                                    "anchor.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == \"TextBlockAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "this.lines.getClass().getName() == orig(this.lines.getClass().getName())",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT)",
+                                    "this.lines[] contains no nulls and has only one value, of length 1",
+                                    "anchor.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "anchor.name == orig(anchor.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == \"TextBlockAnchor.CENTER_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT has only one value",
+                                    "this.lineAlignment.name == orig(this.lineAlignment.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name)",
+                                    "this.lines[] elements has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name)",
+                                    "this.lineAlignment == orig(this.lineAlignment)",
+                                    "anchor.name.toString == orig(anchor.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == \"TextBlockAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == \"TextBlockAnchor.CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == \"TextBlockAnchor.CENTER_RIGHT\"",
+                                    "this.lineAlignment.name.toString == orig(this.lineAlignment.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString)",
+                                    "this.lines == orig(this.lines)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name)",
+                                    "this.lines[] == orig(this.lines[])",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER == orig(org.jfree.chart.text.TextBlockAnchor.CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == \"TextBlockAnchor.TOP_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "this.lines has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, float, float, org.jfree.chart.text.TextBlockAnchor, float, float, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "g2 has only one value",
+                                    "size(this.lines[]) == 1",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == \"TextBlockAnchor.BOTTOM_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == \"TextBlockAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "rotateX one of { 0.0, 103.52578, 234.44296 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == \"TextBlockAnchor.CENTER_LEFT\"",
+                                    "rotateY one of { 0.0, 136.42188 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT has only one value",
+                                    "anchorY one of { 136.42188, 181.03125 }",
+                                    "anchorX one of { 103.52578, 148.0, 234.44296 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == \"TextBlockAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == \"TextBlockAnchor.CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == \"TextBlockAnchor.CENTER_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name has only one value",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name has only one value",
+                                    "angle == 0.0",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == \"TextBlockAnchor.TOP_RIGHT\"",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "anchor.name.toString one of { \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == \"TextBlockAnchor.BOTTOM_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == \"TextBlockAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "this.lines.getClass().getName() == orig(this.lines.getClass().getName())",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT)",
+                                    "anchor.name == orig(anchor.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == \"TextBlockAnchor.CENTER_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT has only one value",
+                                    "this.lineAlignment.name == orig(this.lineAlignment.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name)",
+                                    "this.lineAlignment == orig(this.lineAlignment)",
+                                    "anchor.name.toString == orig(anchor.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == \"TextBlockAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == \"TextBlockAnchor.CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == \"TextBlockAnchor.CENTER_RIGHT\"",
+                                    "this.lineAlignment.name.toString == orig(this.lineAlignment.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString)",
+                                    "this.lines == orig(this.lines)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name)",
+                                    "this.lines[] == orig(this.lines[])",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER == orig(org.jfree.chart.text.TextBlockAnchor.CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == \"TextBlockAnchor.TOP_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "anchor.name.toString one of { \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateBounds(java.awt.Graphics2D, float, float, org.jfree.chart.text.TextBlockAnchor, float, float, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "g2 has only one value",
+                                    "size(this.lines[]) == 1",
+                                    "anchorY == 136.42188",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == \"TextBlockAnchor.BOTTOM_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER has only one value",
+                                    "rotateX one of { 103.52578, 234.44296 }",
+                                    "anchor.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == \"TextBlockAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == \"TextBlockAnchor.CENTER_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT has only one value",
+                                    "anchorX one of { 103.52578, 234.44296 }",
+                                    "anchor.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == \"TextBlockAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == \"TextBlockAnchor.CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == \"TextBlockAnchor.CENTER_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name has only one value",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name has only one value",
+                                    "anchor has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT has only one value",
+                                    "rotateY == 136.42188",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name has only one value",
+                                    "angle == 0.0",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == \"TextBlockAnchor.TOP_RIGHT\"",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == \"TextBlockAnchor.BOTTOM_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER has only one value",
+                                    "anchor.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == \"TextBlockAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "this.lines.getClass().getName() == orig(this.lines.getClass().getName())",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT)",
+                                    "anchor.name == orig(anchor.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == \"TextBlockAnchor.CENTER_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT has only one value",
+                                    "this.lineAlignment.name == orig(this.lineAlignment.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString)",
+                                    "anchor.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name)",
+                                    "this.lineAlignment == orig(this.lineAlignment)",
+                                    "anchor.name.toString == orig(anchor.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == \"TextBlockAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == \"TextBlockAnchor.CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == \"TextBlockAnchor.CENTER_RIGHT\"",
+                                    "this.lineAlignment.name.toString == orig(this.lineAlignment.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString)",
+                                    "this.lines == orig(this.lines)",
+                                    "return.getClass().getName() == java.awt.geom.Path2D$Double.class",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name)",
+                                    "this.lines[] == orig(this.lines[])",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER == orig(org.jfree.chart.text.TextBlockAnchor.CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == \"TextBlockAnchor.TOP_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addLine(org.jfree.chart.text.TextLine)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "line.fragments.getClass().getName() == java.util.ArrayList.class",
+                                    "line.fragments[].getClass().getName() == [org.jfree.chart.text.TextFragment]",
+                                    "this.lines[].getClass().getName() == []",
+                                    "this.lines[] == []",
+                                    "size(line.fragments[]) == 1",
+                                    "line.fragments[].getClass().getName() elements == org.jfree.chart.text.TextFragment.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "line.fragments[].getClass().getName() == [org.jfree.chart.text.TextFragment]",
+                                    "line.fragments == orig(line.fragments)",
+                                    "this.lines.getClass().getName() == orig(this.lines.getClass().getName())",
+                                    "line.fragments[].getClass().getName() elements == org.jfree.chart.text.TextFragment.class",
+                                    "this.lineAlignment.name == orig(this.lineAlignment.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name)",
+                                    "size(this.lines[])-1 == orig(size(this.lines[]))",
+                                    "line.fragments.getClass().getName() == orig(line.fragments.getClass().getName())",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name)",
+                                    "this.lineAlignment == orig(this.lineAlignment)",
+                                    "line.fragments[] == orig(line.fragments[])",
+                                    "size(line.fragments[]) == 1",
+                                    "line.fragments.getClass().getName() == java.util.ArrayList.class",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "this.lineAlignment.name.toString == orig(this.lineAlignment.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.lines == orig(this.lines)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateOffsets(org.jfree.chart.text.TextBlockAnchor, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "width one of { 14.0, 16.0 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == \"TextBlockAnchor.BOTTOM_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == \"TextBlockAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "height one of { 11.640625, 13.96875 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == \"TextBlockAnchor.CENTER_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == \"TextBlockAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == \"TextBlockAnchor.CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == \"TextBlockAnchor.CENTER_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name has only one value",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == \"TextBlockAnchor.TOP_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "anchor.name.toString one of { \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == \"TextBlockAnchor.BOTTOM_CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == \"TextBlockAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "this.lines.getClass().getName() == orig(this.lines.getClass().getName())",
+                                    "return[] elements one of { -7.0, 0.0 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT)",
+                                    "anchor.name == orig(anchor.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == \"TextBlockAnchor.CENTER_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT has only one value",
+                                    "this.lineAlignment.name == orig(this.lineAlignment.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name)",
+                                    "return[] one of { [-7.0, 0.0], [0.0, 0.0] }",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name)",
+                                    "this.lineAlignment == orig(this.lineAlignment)",
+                                    "anchor.name.toString == orig(anchor.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == \"TextBlockAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name.toString == \"TextBlockAnchor.CENTER\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name.toString == \"TextBlockAnchor.CENTER_RIGHT\"",
+                                    "this.lineAlignment.name.toString == orig(this.lineAlignment.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER.name == orig(org.jfree.chart.util.HorizontalAlignment.CENTER.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name.toString)",
+                                    "size(return[]) == 2",
+                                    "this.lines == orig(this.lines)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name)",
+                                    "this.lines[] == orig(this.lines[])",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER == orig(org.jfree.chart.text.TextBlockAnchor.CENTER)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == \"TextBlockAnchor.TOP_RIGHT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name.toString)",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name == orig(org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name)",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name.toString == \"TextBlockAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "anchor.name.toString one of { \"TextBlockAnchor.TOP_CENTER\", \"TextBlockAnchor.TOP_LEFT\" }",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

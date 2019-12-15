@@ -1,0 +1,147 @@
+{
+    "org.apache.commons.math.analysis.solvers.BrentSolver": [
+        {
+            "solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "orig(this.result) % this.result == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "orig(this.result) % this.result == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "orig(this.result) % this.result == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "orig(this.result) % this.result == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "240": [
+                                {
+                                    "Patch57.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch56.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "247": [
+                                {
+                                    "Patch57.inv.output": {
+                                        "invs": [
+                                            "orig(x0) one of { -4.0000000000000036, 0.0 }",
+                                            "orig(x2) one of { -4.0000000000000036, 0.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.iterationCount >= 1",
+                                            "orig(this.result) % this.result == 0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch56.inv.output": {
+                                        "invs": [
+                                            "orig(x0) one of { -4.0000000000000036, 0.0 }",
+                                            "orig(x2) one of { -4.0000000000000036, 0.0 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

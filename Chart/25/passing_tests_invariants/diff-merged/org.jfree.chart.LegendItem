@@ -1,0 +1,1773 @@
+{
+    "org.jfree.chart.LegendItem": [
+        {
+            "CLASS": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.LegendItem.UNUSED_STROKE != null",
+                            "org.jfree.chart.LegendItem.UNUSED_SHAPE has only one value",
+                            "org.jfree.chart.LegendItem.UNUSED_STROKE has only one value",
+                            "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                            "org.jfree.chart.LegendItem.UNUSED_SHAPE != null",
+                            "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == java.awt.geom.Line2D$Float.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.fillPaintTransformer.getClass().getName() == org.jfree.chart.util.StandardGradientPaintTransformer.class",
+                            "this.shapeFilled == true",
+                            "this.datasetIndex == 0",
+                            "this.label != null",
+                            "this.lineStroke has only one value",
+                            "this.linePaint has only one value",
+                            "this.outlinePaint != null",
+                            "this.shape.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                            "this.label has only one value",
+                            "this.fillPaint != null",
+                            "this.linePaint.getClass().getName() == java.awt.Color.class",
+                            "this.outlinePaint has only one value",
+                            "this.description has only one value",
+                            "this.series == 0",
+                            "this.label.toString == \"S1\"",
+                            "this.line.getClass().getName() == java.awt.geom.Line2D$Float.class",
+                            "this.lineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                            "this.outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                            "this.line != null",
+                            "this.linePaint != null",
+                            "this.description != null",
+                            "this.lineVisible == false",
+                            "this.urlText == null",
+                            "this.fillPaint.getClass().getName() == java.awt.Color.class",
+                            "this.shapeOutlineVisible == false",
+                            "this.shapeVisible == true",
+                            "this.outlineStroke != null",
+                            "this.line has only one value",
+                            "this.toolTipText == null",
+                            "this.shape has only one value",
+                            "this has only one value",
+                            "this.fillPaintTransformer != null",
+                            "this.outlinePaint.getClass().getName() == java.awt.Color.class",
+                            "this.fillPaint has only one value",
+                            "this.shape != null",
+                            "this.seriesKey.getClass().getName() == java.lang.String.class",
+                            "this.lineStroke != null",
+                            "this.outlineStroke has only one value",
+                            "this.attributedLabel == null",
+                            "this.dataset.getClass().getName() == org.jfree.data.statistics.DefaultStatisticalCategoryDataset.class",
+                            "this.description.toString == \"S1\""
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "getFillPaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "return.getClass().getName() == java.awt.Color.class",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getOutlinePaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "return.getClass().getName() == java.awt.Color.class",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LegendItem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, java.awt.Shape, boolean, java.awt.Paint, boolean, java.awt.Paint, java.awt.Stroke, boolean, java.awt.Shape, java.awt.Stroke, java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "description has only one value",
+                                    "shape has only one value",
+                                    "label has only one value",
+                                    "fillPaint has only one value",
+                                    "shapeVisible == true",
+                                    "linePaint.getClass().getName() == java.awt.Color.class",
+                                    "fillPaint.getClass().getName() == java.awt.Color.class",
+                                    "outlinePaint has only one value",
+                                    "urlText == null",
+                                    "line.getClass().getName() == java.awt.geom.Line2D$Float.class",
+                                    "shapeOutlineVisible == false",
+                                    "outlineStroke has only one value",
+                                    "shape.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "line has only one value",
+                                    "lineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "lineStroke has only one value",
+                                    "label.toString == \"S1\"",
+                                    "description.toString == \"S1\"",
+                                    "shapeFilled == true",
+                                    "lineVisible == false",
+                                    "outlinePaint.getClass().getName() == java.awt.Color.class",
+                                    "outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "toolTipText == null",
+                                    "linePaint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.fillPaintTransformer has only one value",
+                                    "description.toString == orig(description.toString)",
+                                    "this.dataset == null",
+                                    "this.seriesKey == null",
+                                    "label.toString == \"S1\"",
+                                    "description.toString == \"S1\"",
+                                    "label.toString == orig(label.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setSeriesKey(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value",
+                                    "key has only one value",
+                                    "this.seriesKey == null",
+                                    "key.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isShapeFilled()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "return == true",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setSeriesIndex(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value",
+                                    "index == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setDatasetIndex(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey == null",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value",
+                                    "index == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "this.seriesKey == null",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLineStroke()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "return.getClass().getName() == java.awt.BasicStroke.class",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getToolTipText()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "return == null",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getURLText()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "return == null",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setDataset(org.jfree.data.general.Dataset)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.fillPaintTransformer has only one value",
+                                    "dataset has only one value",
+                                    "this.dataset == null",
+                                    "this.seriesKey == null",
+                                    "dataset.getClass().getName() == org.jfree.data.statistics.DefaultStatisticalCategoryDataset.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "this.seriesKey == null",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getFillPaintTransformer()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "return.getClass().getName() == org.jfree.chart.util.StandardGradientPaintTransformer.class",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getShape()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "return.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDataset()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "return.getClass().getName() == org.jfree.data.statistics.DefaultStatisticalCategoryDataset.class",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isShapeVisible()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "return == true",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLine()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "return.getClass().getName() == java.awt.geom.Line2D$Float.class",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLinePaint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "return.getClass().getName() == java.awt.Color.class",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isShapeOutlineVisible()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "return == false",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setFillPaintTransformer(org.jfree.chart.util.GradientPaintTransformer)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "transformer has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.seriesKey has only one value",
+                                    "transformer.getClass().getName() == org.jfree.chart.util.StandardGradientPaintTransformer.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLabel()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "return.toString == \"S1\"",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getSeriesKey()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "return.getClass().getName() == java.lang.String.class",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getOutlineStroke()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "return has only one value",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "return.getClass().getName() == java.awt.BasicStroke.class",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isLineVisible()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.seriesKey has only one value",
+                                    "this.dataset has only one value",
+                                    "this.fillPaintTransformer has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.line == orig(this.line)",
+                                    "this.series == orig(this.series)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.lineStroke.getClass().getName() == orig(this.lineStroke.getClass().getName())",
+                                    "this.fillPaint.getClass().getName() == orig(this.fillPaint.getClass().getName())",
+                                    "this.linePaint == orig(this.linePaint)",
+                                    "this.line.getClass().getName() == orig(this.line.getClass().getName())",
+                                    "this.description.toString == orig(this.description.toString)",
+                                    "this.datasetIndex == orig(this.datasetIndex)",
+                                    "this.shape.getClass().getName() == orig(this.shape.getClass().getName())",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.linePaint.getClass().getName() == orig(this.linePaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.label.toString == orig(this.label.toString)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)",
+                                    "this.lineVisible == orig(this.lineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.shapeOutlineVisible == orig(this.shapeOutlineVisible)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.shapeFilled == orig(this.shapeFilled)",
+                                    "this.fillPaintTransformer has only one value",
+                                    "this.fillPaintTransformer.getClass().getName() == orig(this.fillPaintTransformer.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "this.fillPaint == orig(this.fillPaint)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.lineStroke == orig(this.lineStroke)",
+                                    "this.seriesKey has only one value",
+                                    "this.label == orig(this.label)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.shape == orig(this.shape)",
+                                    "return == false",
+                                    "this.dataset has only one value",
+                                    "this.attributedLabel == orig(this.attributedLabel)",
+                                    "this.shapeVisible == orig(this.shapeVisible)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.description == orig(this.description)",
+                                    "this.fillPaintTransformer == orig(this.fillPaintTransformer)",
+                                    "this.outlinePaint == orig(this.outlinePaint)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

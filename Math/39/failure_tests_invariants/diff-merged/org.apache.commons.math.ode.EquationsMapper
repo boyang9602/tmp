@@ -1,0 +1,107 @@
+{
+    "org.apache.commons.math.ode.EquationsMapper": [
+        {
+            "insertEquationData(double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "complete != null",
+                                    "equationData != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "complete[] one of { [-99.0], [0.0] }",
+                                    "complete[] elements one of { -99.0, 0.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "complete != null",
+                                    "complete[] one of { [-99.0], [0.0] }",
+                                    "equationData != null",
+                                    "complete[] elements one of { -99.0, 0.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "extractEquationData(double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "complete != null",
+                                    "equationData != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "equationData has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "complete != null",
+                                    "equationData != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

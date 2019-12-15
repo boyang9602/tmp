@@ -1,0 +1,128 @@
+{
+    "org.apache.commons.math.ode.nonstiff.GillStepInterpolator": [
+        {
+            "GillStepInterpolator()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.forward == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "computeInterpolatedStateAndDerivatives(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "oneMinusThetaH >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "GillStepInterpolator(org.apache.commons.math.ode.nonstiff.GillStepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.forward == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doCopy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.forward == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.forward == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

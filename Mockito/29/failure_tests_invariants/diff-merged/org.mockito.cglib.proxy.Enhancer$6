@@ -1,0 +1,80 @@
+{
+    "org.mockito.cglib.proxy.Enhancer$6": [
+        {
+            "beginMethod(org.mockito.cglib.core.ClassEmitter, org.mockito.cglib.core.MethodInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "return.state.exceptionTypes[].buf sorted by >"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.state.exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "emitCallback(org.mockito.cglib.core.CodeEmitter, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "e.state.exceptionTypes[].buf sorted by >"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "e.state.exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "e.state.exceptionTypes[].buf sorted by >"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "e.state.exceptionTypes[].buf sorted by <"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

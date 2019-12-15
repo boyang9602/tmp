@@ -1,0 +1,182 @@
+{
+    "org.jfree.chart.plot.PiePlotState": [
+        {
+            "OBJECT": [
+                {
+                    "Patch13.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.pieWRadius == 0.0",
+                            "this.linkArea == null",
+                            "this has only one value",
+                            "this.latestAngle == 0.0",
+                            "this.total == 0.0",
+                            "this.pieCenterY == 0.0",
+                            "this.explodedPieArea == null",
+                            "this.pieCenterX == 0.0",
+                            "this.info == null",
+                            "this.pieArea == null",
+                            "this.passesRequired one of { 1, 2 }",
+                            "this.pieHRadius == 0.0"
+                        ]
+                    }
+                },
+                {
+                    "Patch12.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "setPassesRequired(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.passesRequired == 1",
+                                    "passes == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.pieWRadius == 0.0",
+                                    "this.linkArea == null",
+                                    "this.latestAngle == 0.0",
+                                    "this.pieCenterY == 0.0",
+                                    "this.explodedPieArea == null",
+                                    "this.pieCenterX == 0.0",
+                                    "this.passesRequired == 1",
+                                    "passes == 2",
+                                    "this.pieArea == null",
+                                    "this.pieHRadius == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.total == orig(this.total)",
+                                    "this.pieCenterY == orig(this.pieCenterY)",
+                                    "this.latestAngle == orig(this.latestAngle)",
+                                    "this.passesRequired == 2",
+                                    "this.info == orig(this.info)",
+                                    "this.pieHRadius == orig(this.pieHRadius)",
+                                    "this.pieCenterX == orig(this.pieCenterX)",
+                                    "this.linkArea == orig(this.linkArea)",
+                                    "this.explodedPieArea == orig(this.explodedPieArea)",
+                                    "this.pieWRadius == orig(this.pieWRadius)",
+                                    "this.pieArea == orig(this.pieArea)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.total == orig(this.total)",
+                                    "this.pieCenterY == orig(this.pieCenterY)",
+                                    "this.pieWRadius == 0.0",
+                                    "this.latestAngle == orig(this.latestAngle)",
+                                    "this.passesRequired == 2",
+                                    "this.linkArea == null",
+                                    "this.info == orig(this.info)",
+                                    "this.latestAngle == 0.0",
+                                    "this.pieHRadius == orig(this.pieHRadius)",
+                                    "this.pieCenterY == 0.0",
+                                    "this.explodedPieArea == null",
+                                    "this.pieCenterX == orig(this.pieCenterX)",
+                                    "this.pieCenterX == 0.0",
+                                    "this.linkArea == orig(this.linkArea)",
+                                    "this.explodedPieArea == orig(this.explodedPieArea)",
+                                    "this.pieWRadius == orig(this.pieWRadius)",
+                                    "this.pieArea == null",
+                                    "this.pieArea == orig(this.pieArea)",
+                                    "this.pieHRadius == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "PiePlotState(org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "info == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "info == null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.passesRequired == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.pieWRadius == 0.0",
+                                    "this.linkArea == null",
+                                    "this.latestAngle == 0.0",
+                                    "this.pieCenterY == 0.0",
+                                    "this.explodedPieArea == null",
+                                    "this.pieCenterX == 0.0",
+                                    "this.passesRequired == 1",
+                                    "this.pieArea == null",
+                                    "this.pieHRadius == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

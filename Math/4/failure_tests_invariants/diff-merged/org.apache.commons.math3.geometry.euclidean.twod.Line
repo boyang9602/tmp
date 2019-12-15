@@ -1,0 +1,69 @@
+{
+    "org.apache.commons.math3.geometry.euclidean.twod.Line": [
+        {
+            "intersection(org.apache.commons.math3.geometry.euclidean.twod.Line)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": [
+                                    "return.x == -Infinity",
+                                    "return.y == -Infinity"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "200": [
+                                {
+                                    "Patch155.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "204": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch155.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

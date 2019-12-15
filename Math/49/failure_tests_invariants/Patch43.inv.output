@@ -1,0 +1,1303 @@
+===========================================================================
+org.apache.commons.math.linear.AbstractRealVector:::OBJECT
+this.getClass().getName() == org.apache.commons.math.linear.OpenMapRealVector.class
+===========================================================================
+org.apache.commons.math.linear.AbstractRealVector.AbstractRealVector():::EXIT
+===========================================================================
+org.apache.commons.math.linear.AbstractRealVector.checkIndex(int):::ENTER
+index one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.linear.AbstractRealVector.checkIndex(int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.AbstractRealVector.checkVectorDimensions(int):::ENTER
+this has only one value
+n == 3
+===========================================================================
+org.apache.commons.math.linear.AbstractRealVector.checkVectorDimensions(int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector:::CLASS
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector:::OBJECT
+this.entries != null
+this.entries.keys != null
+this.entries.keys[] elements one of { 0, 1, 2 }
+this.entries.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.entries.values != null
+this.entries.values[] elements >= 0.0
+this.entries.states != null
+this.entries.states[] elements one of { 0, 1 }
+this.entries.missingEntries == 0.0
+this.entries.size one of { 0, 1, 2 }
+this.entries.mask == 31
+this.entries.count one of { 0, 1, 2 }
+this.virtualSize == 3
+this.epsilon == 1.0E-6
+size(this.entries.keys[]) == 32
+size(this.entries.values[]) == 32
+size(this.entries.states[]) == 32
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.OpenMapRealVector(int, double):::ENTER
+dimension == 3
+epsilon == 1.0E-6
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.OpenMapRealVector(int, double):::EXIT
+this.entries.keys[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements == 0
+this.entries.values[] == [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements == 0.0
+this.entries.states[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.states[] elements == 0
+this.entries.size == 0
+this.entries.count == 0
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.OpenMapRealVector(org.apache.commons.math.linear.OpenMapRealVector):::ENTER
+v has only one value
+v.entries has only one value
+v.entries.keys has only one value
+v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+v.entries.keys[] elements one of { 0, 2 }
+v.entries.values has only one value
+v.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+v.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+v.entries.states has only one value
+v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+v.entries.states[] elements one of { 0, 1 }
+v.entries.missingEntries == 0.0
+v.entries.size == 2
+v.entries.mask == 31
+v.entries.count == 2
+v.virtualSize == 3
+v.epsilon == 1.0E-6
+size(v.entries.keys[]) == 32
+size(v.entries.values[]) == 32
+size(v.entries.states[]) == 32
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.OpenMapRealVector(org.apache.commons.math.linear.OpenMapRealVector):::EXIT
+v.entries == orig(v.entries)
+v.entries.keys == orig(v.entries.keys)
+v.entries.keys[] == orig(v.entries.keys[])
+v.entries.values == orig(v.entries.values)
+v.entries.values[] == orig(v.entries.values[])
+v.entries.states == orig(v.entries.states)
+v.entries.states[] == orig(v.entries.states[])
+v.entries.missingEntries == orig(v.entries.missingEntries)
+v.entries.size == orig(v.entries.size)
+v.entries.mask == orig(v.entries.mask)
+v.entries.count == orig(v.entries.count)
+v.virtualSize == orig(v.virtualSize)
+v.epsilon == orig(v.epsilon)
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+v.entries has only one value
+v.entries.keys has only one value
+v.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+v.entries.keys[] elements one of { 0, 2 }
+v.entries.values has only one value
+v.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+v.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+v.entries.states has only one value
+v.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+v.entries.states[] elements one of { 0, 1 }
+v.entries.missingEntries == 0.0
+v.entries.size == 2
+v.entries.mask == 31
+v.entries.count == 2
+v.virtualSize == 3
+v.epsilon == 1.0E-6
+size(v.entries.keys[]) == 32
+size(v.entries.values[]) == 32
+size(v.entries.states[]) == 32
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.ebeDivide(double[]):::ENTER
+this has only one value
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+v has only one value
+v[] == [0.0, 3.0, 0.0]
+v[] elements one of { 0.0, 3.0 }
+size(v[]) == 3
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.ebeDivide(double[]):::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.keys[] == orig(this.entries.keys[])
+this.entries.values == orig(this.entries.values)
+this.entries.values[] == orig(this.entries.values[])
+this.entries.states == orig(this.entries.states)
+this.entries.states[] == orig(this.entries.states[])
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.size == orig(this.entries.size)
+this.entries.mask == orig(this.entries.mask)
+this.entries.count == orig(this.entries.count)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+v[] == orig(v[])
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+v[] == [0.0, 3.0, 0.0]
+v[] elements one of { 0.0, 3.0 }
+return has only one value
+return.entries has only one value
+return.entries.keys has only one value
+return.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.entries.keys[] elements one of { 0, 2 }
+return.entries.values has only one value
+return.entries.values[] == [Infinity, 0.0, Infinity, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+return.entries.values[] elements one of { 0.0, Infinity }
+return.entries.states has only one value
+return.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.entries.states[] elements one of { 0, 1 }
+return.entries.missingEntries == 0.0
+return.entries.size == 2
+return.entries.mask == 31
+return.entries.count == 2
+return.virtualSize == 3
+return.epsilon == 1.0E-6
+size(return.entries.keys[]) == 32
+size(return.entries.values[]) == 32
+size(return.entries.states[]) == 32
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.ebeDivide(org.apache.commons.math.linear.RealVector):::ENTER
+this has only one value
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+v has only one value
+v.getClass().getName() == org.apache.commons.math.linear.OpenMapRealVector.class
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.ebeDivide(org.apache.commons.math.linear.RealVector):::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.keys[] == orig(this.entries.keys[])
+this.entries.values == orig(this.entries.values)
+this.entries.values[] == orig(this.entries.values[])
+this.entries.states == orig(this.entries.states)
+this.entries.states[] == orig(this.entries.states[])
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.size == orig(this.entries.size)
+this.entries.mask == orig(this.entries.mask)
+this.entries.count == orig(this.entries.count)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+return has only one value
+return.entries has only one value
+return.entries.keys has only one value
+return.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.entries.keys[] elements one of { 0, 2 }
+return.entries.values has only one value
+return.entries.values[] == [Infinity, 0.0, Infinity, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+return.entries.values[] elements one of { 0.0, Infinity }
+return.entries.states has only one value
+return.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.entries.states[] elements one of { 0, 1 }
+return.entries.missingEntries == 0.0
+return.entries.size == 2
+return.entries.mask == 31
+return.entries.count == 2
+return.virtualSize == 3
+return.epsilon == 1.0E-6
+size(return.entries.keys[]) == 32
+size(return.entries.values[]) == 32
+size(return.entries.states[]) == 32
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.ebeMultiply(double[]):::ENTER
+this has only one value
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+v has only one value
+v[] == [0.0, 3.0, 0.0]
+v[] elements one of { 0.0, 3.0 }
+size(v[]) == 3
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.ebeMultiply(double[]):::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.keys[] == orig(this.entries.keys[])
+this.entries.values == orig(this.entries.values)
+this.entries.values[] == orig(this.entries.values[])
+this.entries.states == orig(this.entries.states)
+this.entries.states[] == orig(this.entries.states[])
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.size == orig(this.entries.size)
+this.entries.mask == orig(this.entries.mask)
+this.entries.count == orig(this.entries.count)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+v[] == orig(v[])
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+v[] == [0.0, 3.0, 0.0]
+v[] elements one of { 0.0, 3.0 }
+return has only one value
+return.entries has only one value
+return.entries.keys has only one value
+return.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.entries.keys[] elements one of { 0, 2 }
+return.entries.values has only one value
+return.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+return.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+return.entries.states has only one value
+return.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.entries.states[] elements one of { 0, 1 }
+return.entries.missingEntries == 0.0
+return.entries.size == 2
+return.entries.mask == 31
+return.entries.count == 2
+return.virtualSize == 3
+return.epsilon == 1.0E-6
+size(return.entries.keys[]) == 32
+size(return.entries.values[]) == 32
+size(return.entries.states[]) == 32
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.ebeMultiply(org.apache.commons.math.linear.RealVector):::ENTER
+this has only one value
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+v has only one value
+v.getClass().getName() == org.apache.commons.math.linear.OpenMapRealVector.class
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.ebeMultiply(org.apache.commons.math.linear.RealVector):::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.keys[] == orig(this.entries.keys[])
+this.entries.values == orig(this.entries.values)
+this.entries.values[] == orig(this.entries.values[])
+this.entries.states == orig(this.entries.states)
+this.entries.states[] == orig(this.entries.states[])
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.size == orig(this.entries.size)
+this.entries.mask == orig(this.entries.mask)
+this.entries.count == orig(this.entries.count)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+return has only one value
+return.entries has only one value
+return.entries.keys has only one value
+return.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.entries.keys[] elements one of { 0, 2 }
+return.entries.values has only one value
+return.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+return.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+return.entries.states has only one value
+return.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.entries.states[] elements one of { 0, 1 }
+return.entries.missingEntries == 0.0
+return.entries.size == 2
+return.entries.mask == 31
+return.entries.count == 2
+return.virtualSize == 3
+return.epsilon == 1.0E-6
+size(return.entries.keys[]) == 32
+size(return.entries.values[]) == 32
+size(return.entries.states[]) == 32
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.getDimension():::ENTER
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.getDimension():::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.keys[] == orig(this.entries.keys[])
+this.entries.values == orig(this.entries.values)
+this.entries.values[] == orig(this.entries.values[])
+this.entries.states == orig(this.entries.states)
+this.entries.states[] == orig(this.entries.states[])
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.size == orig(this.entries.size)
+this.entries.mask == orig(this.entries.mask)
+this.entries.count == orig(this.entries.count)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+return == 3
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.getEntries():::ENTER
+this has only one value
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.getEntries():::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.keys[] == orig(this.entries.keys[])
+this.entries.values == orig(this.entries.values)
+this.entries.values[] == orig(this.entries.values[])
+this.entries.states == orig(this.entries.states)
+this.entries.states[] == orig(this.entries.states[])
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.size == orig(this.entries.size)
+this.entries.mask == orig(this.entries.mask)
+this.entries.count == orig(this.entries.count)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.values has only one value
+this.entries.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 1.0, 2.0 }
+this.entries.states has only one value
+this.entries.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 2
+this.entries.count == 2
+return has only one value
+return.keys has only one value
+return.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.keys[] elements one of { 0, 2 }
+return.values has only one value
+return.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+return.values[] elements one of { 0.0, 1.0, 2.0 }
+return.states has only one value
+return.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return.states[] elements one of { 0, 1 }
+return.missingEntries == 0.0
+return.size == 2
+return.mask == 31
+return.count == 2
+size(return.keys[]) == 32
+size(return.values[]) == 32
+size(return.states[]) == 32
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.getEntry(int):::ENTER
+this has only one value
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 1 }
+this.entries.values has only one value
+this.entries.values[] == [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 3.0 }
+this.entries.states has only one value
+this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 1
+this.entries.count == 1
+index one of { 0, 2 }
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.getEntry(int):::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.keys[] == orig(this.entries.keys[])
+this.entries.values == orig(this.entries.values)
+this.entries.values[] == orig(this.entries.values[])
+this.entries.states == orig(this.entries.states)
+this.entries.states[] == orig(this.entries.states[])
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.size == orig(this.entries.size)
+this.entries.mask == orig(this.entries.mask)
+this.entries.count == orig(this.entries.count)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+this.entries has only one value
+this.entries.keys has only one value
+this.entries.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.keys[] elements one of { 0, 1 }
+this.entries.values has only one value
+this.entries.values[] == [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.entries.values[] elements one of { 0.0, 3.0 }
+this.entries.states has only one value
+this.entries.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.entries.size == 1
+this.entries.count == 1
+return == 0.0
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.isDefaultValue(double):::ENTER
+value >= 0.0
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.isDefaultValue(double):::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.keys[] == orig(this.entries.keys[])
+this.entries.values == orig(this.entries.values)
+this.entries.values[] == orig(this.entries.values[])
+this.entries.states == orig(this.entries.states)
+this.entries.states[] == orig(this.entries.states[])
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.size == orig(this.entries.size)
+this.entries.mask == orig(this.entries.mask)
+this.entries.count == orig(this.entries.count)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+(return == false)  ==>  (this.entries.keys[] elements one of { 0, 2 })
+(return == false)  ==>  (this.entries.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+(return == false)  ==>  (this.entries.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+(return == true)  <==>  (orig(value) == 0.0)
+(return == true)  ==>  (this.entries.keys[] elements one of { 0, 1, 2 })
+(return == true)  ==>  (this.entries.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.isDefaultValue(double):::EXIT;condition="return == true"
+return == true
+orig(value) == 0.0
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.isDefaultValue(double):::EXIT;condition="not(return == true)"
+this.entries.keys[] elements one of { 0, 2 }
+this.entries.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.entries.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+return == false
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.setEntry(int, double):::ENTER
+index one of { 0, 1, 2 }
+value >= 0.0
+===========================================================================
+org.apache.commons.math.linear.OpenMapRealVector.setEntry(int, double):::EXIT
+this.entries == orig(this.entries)
+this.entries.keys == orig(this.entries.keys)
+this.entries.values == orig(this.entries.values)
+this.entries.states == orig(this.entries.states)
+this.entries.missingEntries == orig(this.entries.missingEntries)
+this.entries.mask == orig(this.entries.mask)
+this.virtualSize == orig(this.virtualSize)
+this.epsilon == orig(this.epsilon)
+size(this.entries.keys[]) == orig(size(this.entries.keys[]))
+size(this.entries.values[]) == orig(size(this.entries.values[]))
+size(this.entries.states[]) == orig(size(this.entries.states[]))
+this.entries.keys[] >= orig(this.entries.keys[]) (elementwise)
+this.entries.values[] >= orig(this.entries.values[]) (elementwise)
+this.entries.states[] >= orig(this.entries.states[]) (elementwise)
+this.entries.size >= orig(this.entries.size)
+this.entries.count >= orig(this.entries.count)
+===========================================================================
+org.apache.commons.math.linear.SparseRealVectorTest:::OBJECT
+this has only one value
+this.ma1 has only one value
+this.ma1.getClass().getName() == double[][].class
+this.ma1[] contains no nulls and has only one value, of length 3
+this.vec1 has only one value
+this.vec1[] == [1.0, 2.0, 3.0]
+this.vec1[] elements one of { 1.0, 2.0, 3.0 }
+this.vec2 has only one value
+this.vec2[] == [4.0, 5.0, 6.0]
+this.vec2[] elements one of { 4.0, 5.0, 6.0 }
+this.vec3 has only one value
+this.vec3[] == [7.0, 8.0, 9.0]
+this.vec3[] elements one of { 7.0, 8.0, 9.0 }
+this.vec4 has only one value
+this.vec4[] == [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0]
+this.vec4[] elements >= 1.0
+this.vec5 has only one value
+this.vec5[] == [-4.0, 0.0, 3.0, 1.0, -6.0, 3.0]
+this.vec_null has only one value
+this.vec_null[] == [0.0, 0.0, 0.0]
+this.vec_null[] elements == 0.0
+this.dvec1 has only one value
+this.dvec1.getClass().getName() == java.lang.Double[].class
+this.dvec1[] contains no nulls and has only one value, of length 9
+this.dvec1[].getClass().getName() == [java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double]
+this.dvec1[].getClass().getName() elements == java.lang.Double.class
+this.mat1 has only one value
+this.mat1.getClass().getName() == double[][].class
+this.mat1[] contains no nulls and has only one value, of length 3
+this.entryTolerance == 1.0E-15
+this.normTolerance == 1.0E-13
+size(this.ma1[]) == 3
+size(this.vec1[]) == 3
+size(this.vec2[]) == 3
+size(this.vec3[]) == 3
+size(this.vec4[]) == 9
+size(this.vec5[]) == 6
+size(this.vec_null[]) == 3
+size(this.dvec1[]) == 9
+size(this.mat1[]) == 3
+===========================================================================
+org.apache.commons.math.linear.SparseRealVectorTest.SparseRealVectorTest():::EXIT
+===========================================================================
+org.apache.commons.math.linear.SparseRealVectorTest.testConcurrentModification():::ENTER
+===========================================================================
+org.apache.commons.math.linear.SparseRealVectorTest.testConcurrentModification():::EXIT
+this.ma1 == orig(this.ma1)
+this.ma1.getClass().getName() == orig(this.ma1.getClass().getName())
+this.ma1[] == orig(this.ma1[])
+this.vec1 == orig(this.vec1)
+this.vec1[] == orig(this.vec1[])
+this.vec2 == orig(this.vec2)
+this.vec2[] == orig(this.vec2[])
+this.vec3 == orig(this.vec3)
+this.vec3[] == orig(this.vec3[])
+this.vec4 == orig(this.vec4)
+this.vec4[] == orig(this.vec4[])
+this.vec5 == orig(this.vec5)
+this.vec5[] == orig(this.vec5[])
+this.vec_null == orig(this.vec_null)
+this.vec_null[] == orig(this.vec_null[])
+this.dvec1 == orig(this.dvec1)
+this.dvec1.getClass().getName() == orig(this.dvec1.getClass().getName())
+this.dvec1[] == orig(this.dvec1[])
+this.mat1 == orig(this.mat1)
+this.mat1.getClass().getName() == orig(this.mat1.getClass().getName())
+this.mat1[] == orig(this.mat1[])
+this.entryTolerance == orig(this.entryTolerance)
+this.normTolerance == orig(this.normTolerance)
+===========================================================================
+org.apache.commons.math.util.FastMath:::CLASS
+===========================================================================
+org.apache.commons.math.util.FastMath.buildSinCosTables():::ENTER
+===========================================================================
+org.apache.commons.math.util.FastMath.buildSinCosTables():::EXIT
+===========================================================================
+org.apache.commons.math.util.FastMath.expint(int, double[]):::ENTER
+result has only one value
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.expint(int, double[]):::EXIT
+===========================================================================
+org.apache.commons.math.util.FastMath.quadMult(double[], double[], double[]):::ENTER
+a[] sorted by >
+b[] sorted by >
+size(a[]) == 2
+size(b[]) == 2
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.quadMult(double[], double[], double[]):::EXIT
+a[] == orig(a[])
+b[] == orig(b[])
+a[] sorted by >
+b[] sorted by >
+===========================================================================
+org.apache.commons.math.util.FastMath.resplit(double[]):::ENTER
+size(a[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.resplit(double[]):::EXIT
+===========================================================================
+org.apache.commons.math.util.FastMath.slowCos(double, double[]):::ENTER
+result has only one value
+result[] sorted by >=
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.slowCos(double, double[]):::EXIT
+result[] sorted by >
+result[] > orig(result[]) (lexically)
+result[] >= orig(result[]) (lexically)
+===========================================================================
+org.apache.commons.math.util.FastMath.slowLog(double):::ENTER
+===========================================================================
+org.apache.commons.math.util.FastMath.slowLog(double):::EXIT
+return[] sorted by >=
+size(return[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.slowSin(double, double[]):::ENTER
+result has only one value
+result[] sorted by >=
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.slowSin(double, double[]):::EXIT
+result[] sorted by >=
+result[] <= orig(result[]) (lexically)
+===========================================================================
+org.apache.commons.math.util.FastMath.slowexp(double, double[]):::ENTER
+result has only one value
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.slowexp(double, double[]):::EXIT
+result[] sorted by >
+===========================================================================
+org.apache.commons.math.util.FastMath.split(double, double[]):::ENTER
+size(split[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.split(double, double[]):::EXIT
+===========================================================================
+org.apache.commons.math.util.FastMath.splitAdd(double[], double[], double[]):::ENTER
+b[] elements <= 2.0
+ans[] sorted by >=
+size(a[]) == 2
+size(b[]) == 2
+size(ans[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.splitAdd(double[], double[], double[]):::EXIT
+b[] == orig(b[])
+b[] elements <= 2.0
+===========================================================================
+org.apache.commons.math.util.FastMath.splitMult(double[], double[], double[]):::ENTER
+size(a[]) == 2
+size(b[]) == 2
+size(ans[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.splitMult(double[], double[], double[]):::EXIT
+a[] == orig(a[])
+b[] == orig(b[])
+===========================================================================
+org.apache.commons.math.util.FastMath.splitReciprocal(double[], double[]):::ENTER
+result[] elements <= 1.0
+size(in[]) == 2
+size(result[]) == 2
+===========================================================================
+org.apache.commons.math.util.FastMath.splitReciprocal(double[], double[]):::EXIT
+in[] == orig(in[])
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator:::OBJECT
+this.referenceCount == 2
+this.current one of { -1, 0, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] elements one of { 0, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, Infinity, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] elements >= 0.0
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] elements one of { 0, 1 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries == 0.0
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size == 2
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask == 31
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count == 2
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[]) == 32
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[]) == 32
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[]) == 32
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.Iterator(org.apache.commons.math.util.OpenIntToDoubleHashMap):::ENTER
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] elements one of { 0, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] elements one of { 0.0, 1.0, 2.0 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] elements one of { 0, 1 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries == 0.0
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size == 2
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask == 31
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count == 2
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[]) == 32
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[]) == 32
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[]) == 32
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.Iterator(org.apache.commons.math.util.OpenIntToDoubleHashMap):::EXIT
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count)
+this.current == -1
+this.next == 0
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] elements one of { 0.0, 1.0, 2.0 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.advance():::ENTER
+this.current one of { -1, 0 }
+this.next one of { -1, 0, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.advance():::EXIT
+this.referenceCount == orig(this.referenceCount)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count)
+this.next one of { -2, 0, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+this.current != orig(this.current)
+this.next != orig(this.next)
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.hasNext():::ENTER
+this.next one of { -2, 0, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.hasNext():::EXIT
+this.referenceCount == orig(this.referenceCount)
+this.current == orig(this.current)
+this.next == orig(this.next)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count)
+(this.current == 2)  <==>  (return == false)
+(this.current == 2)  <==>  (this.next == -2)
+(this.current == 2)  ==>  (org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, Infinity, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] })
+(this.current one of { -1, 0 })  <==>  (return == true)
+(this.current one of { -1, 0 })  <==>  (this.next one of { 0, 2 })
+(this.current one of { -1, 0 })  ==>  (org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] })
+this.next one of { -2, 0, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.hasNext():::EXIT;condition="return == true"
+this.current one of { -1, 0 }
+this.next one of { 0, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+return == true
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.hasNext():::EXIT;condition="not(return == true)"
+this.current == 2
+this.next == -2
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, Infinity, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+return == false
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.key():::ENTER
+this.current one of { 0, 2 }
+this.next one of { -2, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.key():::EXIT
+this.referenceCount == orig(this.referenceCount)
+this.current == orig(this.current)
+this.next == orig(this.next)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count)
+this.current one of { 0, 2 }
+this.next one of { -2, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+return one of { 0, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.value():::ENTER
+this.current one of { 0, 2 }
+this.next one of { -2, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator.value():::EXIT
+this.referenceCount == orig(this.referenceCount)
+this.current == orig(this.current)
+this.next == orig(this.next)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[])
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask)
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count == orig(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count)
+this.current one of { 0, 2 }
+this.next one of { -2, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] one of { [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [Infinity, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+return one of { 1.0, 2.0 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap:::CLASS
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap:::OBJECT
+this.keys[] elements one of { 0, 1, 2 }
+this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.values[] elements >= 0.0
+this.states[] elements one of { 0, 1 }
+this.missingEntries == 0.0
+this.size one of { 0, 1, 2 }
+this.mask == 31
+this.count one of { 0, 1, 2 }
+size(this.keys[]) == 32
+size(this.values[]) == 32
+size(this.states[]) == 32
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.OpenIntToDoubleHashMap(double):::ENTER
+missingEntries == 0.0
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.OpenIntToDoubleHashMap(double):::EXIT
+this.keys[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements == 0
+this.values[] == [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements == 0.0
+this.states[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.states[] elements == 0
+this.size == 0
+this.count == 0
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.OpenIntToDoubleHashMap(int, double):::ENTER
+expectedSize == 16
+missingEntries == 0.0
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.OpenIntToDoubleHashMap(int, double):::EXIT
+this.keys[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements == 0
+this.values[] == [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements == 0.0
+this.states[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.states[] elements == 0
+this.size == 0
+this.count == 0
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.OpenIntToDoubleHashMap(org.apache.commons.math.util.OpenIntToDoubleHashMap):::ENTER
+source has only one value
+source.keys has only one value
+source.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+source.keys[] elements one of { 0, 2 }
+source.values has only one value
+source.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+source.values[] elements one of { 0.0, 1.0, 2.0 }
+source.states has only one value
+source.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+source.states[] elements one of { 0, 1 }
+source.missingEntries == 0.0
+source.size == 2
+source.mask == 31
+source.count == 2
+size(source.keys[]) == 32
+size(source.values[]) == 32
+size(source.states[]) == 32
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.OpenIntToDoubleHashMap(org.apache.commons.math.util.OpenIntToDoubleHashMap):::EXIT
+source.keys == orig(source.keys)
+source.keys[] == orig(source.keys[])
+source.values == orig(source.values)
+source.values[] == orig(source.values[])
+source.states == orig(source.states)
+source.states[] == orig(source.states[])
+source.missingEntries == orig(source.missingEntries)
+source.size == orig(source.size)
+source.mask == orig(source.mask)
+source.count == orig(source.count)
+this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements one of { 0, 2 }
+this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements one of { 0.0, 1.0, 2.0 }
+this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 2
+this.count == 2
+source.keys has only one value
+source.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+source.keys[] elements one of { 0, 2 }
+source.values has only one value
+source.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+source.values[] elements one of { 0.0, 1.0, 2.0 }
+source.states has only one value
+source.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+source.states[] elements one of { 0, 1 }
+source.missingEntries == 0.0
+source.size == 2
+source.mask == 31
+source.count == 2
+size(source.keys[]) == 32
+size(source.values[]) == 32
+size(source.states[]) == 32
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.changeIndexSign(int):::ENTER
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.changeIndexSign(int):::EXIT
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.computeCapacity(int):::ENTER
+expectedSize == 16
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.computeCapacity(int):::EXIT159
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.computeCapacity(int):::EXIT
+return == 32
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int):::ENTER
+key one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int):::EXIT213
+this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements one of { 0, 2 }
+this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements one of { 0.0, 1.0, 2.0 }
+this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 2
+this.count == 2
+return == true
+orig(key) one of { 0, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int):::EXIT213;condition="return == true"
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int):::EXIT217
+this.keys[] elements one of { 0, 1 }
+this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.values[] elements one of { 0.0, 1.0, 3.0 }
+this.values[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+this.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.size one of { 0, 1 }
+this.count one of { 0, 1 }
+return == false
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int):::EXIT217;condition="not(return == true)"
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int):::EXIT
+this.keys == orig(this.keys)
+this.keys[] == orig(this.keys[])
+this.values == orig(this.values)
+this.values[] == orig(this.values[])
+this.states == orig(this.states)
+this.states[] == orig(this.states[])
+this.missingEntries == orig(this.missingEntries)
+this.size == orig(this.size)
+this.mask == orig(this.mask)
+this.count == orig(this.count)
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (return == true)
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (this.count == 2)
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (this.size == 2)
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  ==>  (orig(key) one of { 0, 2 })
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  ==>  (this.keys[] elements one of { 0, 2 })
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  ==>  (this.values[] elements one of { 0.0, 1.0, 2.0 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (return == false)
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (this.count one of { 0, 1 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (this.size one of { 0, 1 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (this.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (this.values[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  ==>  (orig(key) one of { 0, 1, 2 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  ==>  (this.keys[] elements one of { 0, 1 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  ==>  (this.values[] elements one of { 0.0, 1.0, 3.0 })
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int):::EXIT;condition="return == true"
+this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements one of { 0, 2 }
+this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements one of { 0.0, 1.0, 2.0 }
+this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 2
+this.count == 2
+return == true
+orig(key) one of { 0, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int):::EXIT;condition="not(return == true)"
+this.keys[] elements one of { 0, 1 }
+this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.values[] elements one of { 0.0, 1.0, 3.0 }
+this.values[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+this.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.size one of { 0, 1 }
+this.count one of { 0, 1 }
+return == false
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int, int):::ENTER
+key one of { 0, 1, 2 }
+index one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int, int):::EXIT
+this.keys == orig(this.keys)
+this.keys[] == orig(this.keys[])
+this.values == orig(this.values)
+this.values[] == orig(this.values[])
+this.states == orig(this.states)
+this.states[] == orig(this.states[])
+this.missingEntries == orig(this.missingEntries)
+this.size == orig(this.size)
+this.mask == orig(this.mask)
+this.count == orig(this.count)
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (return == true)
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (this.count == 2)
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (this.size == 2)
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  <==>  (this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  ==>  (orig(index) one of { 0, 2 })
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  ==>  (orig(key) one of { 0, 2 })
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  ==>  (this.keys[] elements one of { 0, 2 })
+(this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])  ==>  (this.values[] elements one of { 0.0, 1.0, 2.0 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (return == false)
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (this.count one of { 0, 1 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (this.size one of { 0, 1 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (this.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  <==>  (this.values[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  ==>  (orig(index) one of { 0, 1, 2 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  ==>  (orig(key) one of { 0, 1, 2 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  ==>  (this.keys[] elements one of { 0, 1 })
+(this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })  ==>  (this.values[] elements one of { 0.0, 1.0, 3.0 })
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int, int):::EXIT;condition="return == true"
+this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements one of { 0, 2 }
+this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements one of { 0.0, 1.0, 2.0 }
+this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 2
+this.count == 2
+return == true
+orig(key) one of { 0, 2 }
+orig(index) one of { 0, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.containsKey(int, int):::EXIT;condition="not(return == true)"
+this.keys[] elements one of { 0, 1 }
+this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.values[] elements one of { 0.0, 1.0, 3.0 }
+this.values[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+this.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.size one of { 0, 1 }
+this.count one of { 0, 1 }
+return == false
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.findInsertionIndex(int):::ENTER
+this.keys[] elements one of { 0, 2 }
+this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+key one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.findInsertionIndex(int):::EXIT
+this.keys == orig(this.keys)
+this.keys[] == orig(this.keys[])
+this.values == orig(this.values)
+this.values[] == orig(this.values[])
+this.states == orig(this.states)
+this.states[] == orig(this.states[])
+this.missingEntries == orig(this.missingEntries)
+this.size == orig(this.size)
+this.mask == orig(this.mask)
+this.count == orig(this.count)
+this.keys[] elements one of { 0, 2 }
+this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.findInsertionIndex(int[], byte[], int, int):::ENTER
+keys[] elements one of { 0, 2 }
+keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+states[] elements one of { 0, 1 }
+states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+key one of { 0, 1, 2 }
+mask == 31
+size(keys[]) == 32
+size(states[]) == 32
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.findInsertionIndex(int[], byte[], int, int):::EXIT275
+keys[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+keys[] elements == 0
+states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+return one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.findInsertionIndex(int[], byte[], int, int):::EXIT277
+keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+return one of { -3, -1 }
+orig(key) one of { 0, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.findInsertionIndex(int[], byte[], int, int):::EXIT
+keys[] == orig(keys[])
+states[] == orig(states[])
+keys[] elements one of { 0, 2 }
+keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+states[] elements one of { 0, 1 }
+states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.get(int):::ENTER
+this has only one value
+this.keys has only one value
+this.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements one of { 0, 1 }
+this.values has only one value
+this.values[] == [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements one of { 0.0, 3.0 }
+this.states has only one value
+this.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 1
+this.count == 1
+key one of { 0, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.get(int):::EXIT187
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.get(int):::EXIT
+this.keys == orig(this.keys)
+this.keys[] == orig(this.keys[])
+this.values == orig(this.values)
+this.values[] == orig(this.values[])
+this.states == orig(this.states)
+this.states[] == orig(this.states[])
+this.missingEntries == orig(this.missingEntries)
+this.size == orig(this.size)
+this.mask == orig(this.mask)
+this.count == orig(this.count)
+this.keys has only one value
+this.keys[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements one of { 0, 1 }
+this.values has only one value
+this.values[] == [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements one of { 0.0, 3.0 }
+this.states has only one value
+this.states[] == [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 1
+this.count == 1
+return == 0.0
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.hashOf(int):::ENTER
+key one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.hashOf(int):::EXIT
+return one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.iterator():::ENTER
+this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements one of { 0, 2 }
+this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements one of { 0.0, 1.0, 2.0 }
+this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 2
+this.count == 2
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.iterator():::EXIT
+this.keys == orig(this.keys)
+this.keys[] == orig(this.keys[])
+this.values == orig(this.values)
+this.values[] == orig(this.values[])
+this.states == orig(this.states)
+this.states[] == orig(this.states[])
+this.missingEntries == orig(this.missingEntries)
+this.size == orig(this.size)
+this.mask == orig(this.mask)
+this.count == orig(this.count)
+this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.keys[] elements one of { 0, 2 }
+this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+this.values[] elements one of { 0.0, 1.0, 2.0 }
+this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 2
+this.count == 2
+return.referenceCount == 2
+return.current == -1
+return.next == 0
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] == [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[] elements one of { 0, 2 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] == [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[] elements one of { 0.0, 1.0, 2.0 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] == [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[] elements one of { 0, 1 }
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.missingEntries == 0.0
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.size == 2
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.mask == 31
+org.apache.commons.math.util.OpenIntToDoubleHashMap.this.count == 2
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.keys[]) == 32
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.values[]) == 32
+size(org.apache.commons.math.util.OpenIntToDoubleHashMap.this.states[]) == 32
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.put(int, double):::ENTER
+this.keys[] elements one of { 0, 2 }
+this.keys[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.states[] one of { [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+key one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.put(int, double):::EXIT
+this.keys == orig(this.keys)
+this.values == orig(this.values)
+this.states == orig(this.states)
+this.missingEntries == orig(this.missingEntries)
+this.mask == orig(this.mask)
+size(this.keys[]) == orig(size(this.keys[]))
+size(this.values[]) == orig(size(this.values[]))
+size(this.states[]) == orig(size(this.states[]))
+this.states[] one of { [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.size one of { 1, 2 }
+this.count one of { 1, 2 }
+return one of { 0.0, 1.0, 2.0 }
+this.keys[] >= orig(this.keys[]) (elementwise)
+this.values[] > orig(this.values[]) (lexically)
+this.values[] >= orig(this.values[]) (elementwise)
+this.states[] >= orig(this.states[]) (elementwise)
+this.size >= orig(this.size)
+this.count >= orig(this.count)
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.shouldGrowTable():::ENTER
+this.values[] one of { [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+this.states[] one of { [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.size one of { 1, 2 }
+this.count one of { 0, 1 }
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.shouldGrowTable():::EXIT
+this.keys == orig(this.keys)
+this.keys[] == orig(this.keys[])
+this.values == orig(this.values)
+this.values[] == orig(this.values[])
+this.states == orig(this.states)
+this.states[] == orig(this.states[])
+this.missingEntries == orig(this.missingEntries)
+this.size == orig(this.size)
+this.mask == orig(this.mask)
+this.count == orig(this.count)
+this.values[] one of { [0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+this.states[] one of { [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+this.size one of { 1, 2 }
+this.count one of { 0, 1 }
+return == false
+===========================================================================
+org.apache.commons.math.util.OpenIntToDoubleHashMap.shouldGrowTable():::EXIT;condition="not(return == true)"

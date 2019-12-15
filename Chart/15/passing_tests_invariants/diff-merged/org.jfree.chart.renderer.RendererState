@@ -1,0 +1,94 @@
+{
+    "org.jfree.chart.renderer.RendererState": [
+        {
+            "getInfo()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "return == null",
+                                    "this.info == orig(this.info)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == null",
+                                    "this.info == orig(this.info)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch12.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.info == null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "RendererState(org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "info == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

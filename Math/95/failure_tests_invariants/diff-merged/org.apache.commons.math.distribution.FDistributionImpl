@@ -1,0 +1,509 @@
+{
+    "org.apache.commons.math.distribution.FDistributionImpl": [
+        {
+            "getInitialDomain(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom == 1.0",
+                                    "p == 0.4959706533253018"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == 0.0",
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "return == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == -1.0",
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "return == 0.0",
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "return == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "return == 0.0",
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "return == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDenominatorDegreesOfFreedom()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { 1.0, 2.0 }",
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 1.0",
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "return one of { 1.0, 2.0 }",
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "return one of { 1.0, 2.0 }",
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDomainLowerBound(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom == 1.0",
+                                    "p == 0.4959706533253018"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDomainUpperBound(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom == 1.0",
+                                    "p == 0.4959706533253018"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }",
+                                    "p one of { 0.4959706533253018, 0.5724780279076003 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cumulativeProbability(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x == 0.975",
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 0.4959706533253018",
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getNumeratorDegreesOfFreedom()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setDenominatorDegreesOfFreedom(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 0.0, 1.0 }",
+                                    "degreesOfFreedom one of { 1.0, 2.0, 6.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "degreesOfFreedom one of { 1.0, 6.0 }",
+                                    "this.denominatorDegreesOfFreedom == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 0.0, 1.0 }",
+                                    "degreesOfFreedom one of { 1.0, 2.0, 6.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 0.0, 1.0 }",
+                                    "degreesOfFreedom one of { 1.0, 2.0, 6.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0, 6.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 6.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0, 6.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "this.denominatorDegreesOfFreedom one of { 1.0, 2.0, 6.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

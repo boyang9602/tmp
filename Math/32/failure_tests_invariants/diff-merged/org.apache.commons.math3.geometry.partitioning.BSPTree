@@ -1,0 +1,693 @@
+{
+    "org.apache.commons.math3.geometry.partitioning.BSPTree": [
+        {
+            "getCut()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.plus.minus == null",
+                                    "this.minus.plus.attribute has only one value",
+                                    "this.plus.attribute has only one value",
+                                    "this.minus.plus.minus == null",
+                                    "this.minus.plus.attribute != null",
+                                    "this.minus.plus.plus == null",
+                                    "this.plus.plus == null",
+                                    "this.plus.attribute != null",
+                                    "this.plus.cut == null",
+                                    "this.minus.plus.cut == null",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plus.minus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plus.minus == null",
+                                    "this.minus.plus.attribute has only one value",
+                                    "this.plus.attribute has only one value",
+                                    "this.minus.plus.minus == null",
+                                    "this.minus.plus.attribute != null",
+                                    "this.minus.plus.plus == null",
+                                    "this.plus.plus == null",
+                                    "this.plus.attribute != null",
+                                    "this.plus.cut == null",
+                                    "this.minus.plus.cut == null",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.plus.minus == null",
+                                    "this.minus.plus.attribute has only one value",
+                                    "this.plus.attribute has only one value",
+                                    "this.minus.plus.minus == null",
+                                    "this.minus.plus.attribute != null",
+                                    "this.minus.plus.plus == null",
+                                    "this.plus.plus == null",
+                                    "this.plus.attribute != null",
+                                    "this.plus.cut == null",
+                                    "this.minus.plus.cut == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch34.inv.output": {
+                                "invs": [
+                                    "this.plus.attribute has only one value",
+                                    "this.minus.plus.minus == null",
+                                    "this.minus.plus.attribute has only one value",
+                                    "this.plus.minus.attribute.getClass().getName() == orig(this.plus.minus.attribute.getClass().getName())",
+                                    "this.plus.plus.plus == orig(this.plus.plus.plus)",
+                                    "this.plus.plus == null",
+                                    "this.plus.minus.plus == orig(this.plus.minus.plus)",
+                                    "this.minus.plus.cut == null",
+                                    "this.plus.plus.minus == orig(this.plus.plus.minus)",
+                                    "this.plus.cut.getClass().getName() == orig(this.plus.cut.getClass().getName())",
+                                    "this.minus.plus.attribute != null",
+                                    "this.plus.plus.cut == orig(this.plus.plus.cut)",
+                                    "this.plus.minus.minus == orig(this.plus.minus.minus)",
+                                    "this.minus.plus.cut.getClass().getName() == orig(this.minus.plus.cut.getClass().getName())",
+                                    "this.plus.cut == null",
+                                    "this.plus.minus == null",
+                                    "this.minus.plus.plus == null",
+                                    "this.plus.plus.cut.getClass().getName() == orig(this.plus.plus.cut.getClass().getName())",
+                                    "this.plus.plus.parent == orig(this.plus.plus.parent)",
+                                    "this.plus.plus.attribute.getClass().getName() == orig(this.plus.plus.attribute.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == orig(this.plus.minus.cut.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "this.plus.minus.parent == orig(this.plus.minus.parent)",
+                                    "this.plus.minus.attribute == orig(this.plus.minus.attribute)",
+                                    "this.plus.attribute != null",
+                                    "this.plus.plus.attribute == orig(this.plus.plus.attribute)",
+                                    "this.plus.minus.cut == orig(this.plus.minus.cut)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plus.minus.attribute.getClass().getName() == orig(this.plus.minus.attribute.getClass().getName())",
+                                    "this.plus.plus.plus == orig(this.plus.plus.plus)",
+                                    "this.plus.minus.plus == orig(this.plus.minus.plus)",
+                                    "this.plus.plus.minus == orig(this.plus.plus.minus)",
+                                    "this.plus.cut.getClass().getName() == orig(this.plus.cut.getClass().getName())",
+                                    "this.plus.minus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.plus.plus.cut == orig(this.plus.plus.cut)",
+                                    "this.plus.minus.minus == orig(this.plus.minus.minus)",
+                                    "this.minus.plus.cut.getClass().getName() == orig(this.minus.plus.cut.getClass().getName())",
+                                    "this.plus.plus.cut.getClass().getName() == orig(this.plus.plus.cut.getClass().getName())",
+                                    "this.plus.plus.parent == orig(this.plus.plus.parent)",
+                                    "this.plus.plus.attribute.getClass().getName() == orig(this.plus.plus.attribute.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == orig(this.plus.minus.cut.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "this.plus.minus.parent == orig(this.plus.minus.parent)",
+                                    "this.plus.minus.attribute == orig(this.plus.minus.attribute)",
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.plus.plus.attribute == orig(this.plus.plus.attribute)",
+                                    "this.plus.minus.cut == orig(this.plus.minus.cut)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plus.attribute has only one value",
+                                    "this.minus.plus.minus == null",
+                                    "this.minus.plus.attribute has only one value",
+                                    "this.plus.minus.attribute.getClass().getName() == orig(this.plus.minus.attribute.getClass().getName())",
+                                    "this.plus.plus.plus == orig(this.plus.plus.plus)",
+                                    "this.plus.plus == null",
+                                    "this.plus.minus.plus == orig(this.plus.minus.plus)",
+                                    "this.minus.plus.cut == null",
+                                    "this.plus.plus.minus == orig(this.plus.plus.minus)",
+                                    "this.plus.cut.getClass().getName() == orig(this.plus.cut.getClass().getName())",
+                                    "this.minus.plus.attribute != null",
+                                    "this.plus.plus.cut == orig(this.plus.plus.cut)",
+                                    "this.plus.minus.minus == orig(this.plus.minus.minus)",
+                                    "this.minus.plus.cut.getClass().getName() == orig(this.minus.plus.cut.getClass().getName())",
+                                    "this.plus.cut == null",
+                                    "this.plus.minus == null",
+                                    "this.minus.plus.plus == null",
+                                    "this.plus.plus.cut.getClass().getName() == orig(this.plus.plus.cut.getClass().getName())",
+                                    "this.plus.plus.parent == orig(this.plus.plus.parent)",
+                                    "this.plus.plus.attribute.getClass().getName() == orig(this.plus.plus.attribute.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == orig(this.plus.minus.cut.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "this.plus.minus.parent == orig(this.plus.minus.parent)",
+                                    "this.plus.minus.attribute == orig(this.plus.minus.attribute)",
+                                    "this.plus.attribute != null",
+                                    "this.plus.plus.attribute == orig(this.plus.plus.attribute)",
+                                    "this.plus.minus.cut == orig(this.plus.minus.cut)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.plus.attribute has only one value",
+                                    "this.minus.plus.minus == null",
+                                    "this.minus.plus.attribute has only one value",
+                                    "this.plus.plus == null",
+                                    "this.minus.plus.cut == null",
+                                    "this.minus.plus.attribute != null",
+                                    "this.plus.cut == null",
+                                    "this.plus.minus == null",
+                                    "this.minus.plus.plus == null",
+                                    "this.plus.attribute != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "insertCut(org.apache.commons.math3.geometry.partitioning.Hyperplane)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.minus == null",
+                                    "this.parent.plus.cut == null",
+                                    "this.parent.plus.plus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.minus == null",
+                                    "this.parent.plus.cut == null",
+                                    "this.parent.plus.cut == orig(this.parent.plus.cut)",
+                                    "this.parent.plus.plus == orig(this.parent.plus.plus)",
+                                    "this.parent.minus.cut != null",
+                                    "this.parent.minus.minus != null",
+                                    "this.parent.minus.plus != null",
+                                    "this.parent.plus.plus == null",
+                                    "this.parent.plus.minus == orig(this.parent.plus.minus)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.cut.getClass().getName() == orig(this.parent.plus.cut.getClass().getName())",
+                                    "this.parent.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "168": [
+                                {
+                                    "Patch35.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getParent()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setAttribute(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAttribute()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.plus.minus == null",
+                                    "this.plus.attribute has only one value",
+                                    "this.plus.plus == null",
+                                    "this.plus.attribute != null",
+                                    "this.plus.cut == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plus.minus.cut has only one value",
+                                    "this.plus.plus.parent has only one value",
+                                    "this.plus.plus.cut == null",
+                                    "this.plus.plus.plus == null",
+                                    "this.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "this.plus.minus.parent has only one value",
+                                    "this.plus.minus.minus has only one value",
+                                    "this.plus.plus.attribute has only one value",
+                                    "this.plus.minus.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "this.plus.plus.minus == null",
+                                    "this.plus.minus.plus has only one value",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.plus.attribute has only one value",
+                                    "this.plus.plus == null",
+                                    "this.plus.cut == null",
+                                    "this.plus.minus == null",
+                                    "this.plus.attribute != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plus.minus.attribute.getClass().getName() == orig(this.plus.minus.attribute.getClass().getName())",
+                                    "this.plus.plus.plus == orig(this.plus.plus.plus)",
+                                    "this.plus.minus.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "this.plus.minus.plus == orig(this.plus.minus.plus)",
+                                    "this.plus.plus.minus == null",
+                                    "this.plus.plus.minus == orig(this.plus.plus.minus)",
+                                    "this.plus.minus.cut has only one value",
+                                    "this.plus.cut.getClass().getName() == orig(this.plus.cut.getClass().getName())",
+                                    "this.plus.plus.parent has only one value",
+                                    "this.plus.plus.attribute has only one value",
+                                    "this.plus.plus.cut == orig(this.plus.plus.cut)",
+                                    "this.plus.minus.minus == orig(this.plus.minus.minus)",
+                                    "this.plus.minus.plus has only one value",
+                                    "this.plus.plus.plus == null",
+                                    "this.plus.minus.minus has only one value",
+                                    "this.plus.plus.parent == orig(this.plus.plus.parent)",
+                                    "this.plus.plus.attribute.getClass().getName() == orig(this.plus.plus.attribute.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == orig(this.plus.minus.cut.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "this.plus.plus.cut == null",
+                                    "this.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "this.plus.minus.parent has only one value",
+                                    "this.plus.minus.parent == orig(this.plus.minus.parent)",
+                                    "this.plus.minus.attribute == orig(this.plus.minus.attribute)",
+                                    "this.plus.plus.attribute == orig(this.plus.plus.attribute)",
+                                    "this.plus.minus.cut == orig(this.plus.minus.cut)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMinus()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.minus.plus.minus == null",
+                                    "this.plus.plus.plus == null",
+                                    "this.minus.plus.attribute has only one value",
+                                    "this.minus.plus.attribute != null",
+                                    "this.minus.plus.plus == null",
+                                    "this.plus.plus.cut == null",
+                                    "this.plus.plus.attribute has only one value",
+                                    "this.plus.plus.attribute != null",
+                                    "this.plus.plus.minus == null",
+                                    "this.minus.plus.cut == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.minus.plus.attribute has only one value",
+                                    "this.plus.plus.plus == null",
+                                    "this.plus.plus.cut == null",
+                                    "return.plus.cut == null",
+                                    "this.minus.plus.plus == null",
+                                    "return.plus.plus == null",
+                                    "this.minus.plus.attribute != null",
+                                    "this.minus.plus.minus == null",
+                                    "this.plus.plus.attribute has only one value",
+                                    "this.plus.plus.attribute != null",
+                                    "this.plus.plus.minus == null",
+                                    "this.minus.plus.cut == null",
+                                    "return.plus.minus == null",
+                                    "return.plus.attribute != null",
+                                    "return.plus.attribute has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class",
+                                    "this.plus.plus.cut.getClass().getName() == orig(this.plus.plus.cut.getClass().getName())",
+                                    "this.minus.plus.cut.getClass().getName() == orig(this.minus.plus.cut.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "copySelf()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.attribute has only one value",
+                                    "this.parent.plus.minus == null",
+                                    "this.parent.plus.cut == null",
+                                    "this.parent.plus.attribute != null",
+                                    "this.parent.plus.plus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class",
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.parent.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.attribute has only one value",
+                                    "this.parent.plus.minus == null",
+                                    "this.parent.plus.cut == null",
+                                    "this.parent.plus.attribute != null",
+                                    "this.parent.plus.plus == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.cut.getClass().getName() == orig(this.parent.plus.cut.getClass().getName())",
+                                    "this.parent.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class",
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class",
+                                    "this.parent.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "182": [
+                                {
+                                    "Patch35.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "185": [
+                                {
+                                    "Patch35.inv.output": {
+                                        "invs": [
+                                            "this.parent.minus.attribute == null"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.parent.minus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "BSPTree(org.apache.commons.math3.geometry.partitioning.SubHyperplane, org.apache.commons.math3.geometry.partitioning.BSPTree, org.apache.commons.math3.geometry.partitioning.BSPTree, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "plus.plus.attribute has only one value",
+                                    "plus.minus.minus == null",
+                                    "plus.minus.cut == null",
+                                    "plus.minus.plus == null",
+                                    "plus.minus.attribute != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "plus.plus.attribute has only one value",
+                                    "plus.minus.minus == null",
+                                    "this.plus.minus.attribute != null",
+                                    "this.plus.plus.attribute has only one value",
+                                    "plus.minus.cut == null",
+                                    "this.plus.minus.minus == null",
+                                    "plus.minus.plus == null",
+                                    "this.plus.minus.plus == null",
+                                    "this.plus.minus.cut == null",
+                                    "plus.minus.attribute != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class",
+                                    "plus.minus.cut.getClass().getName() == orig(plus.minus.cut.getClass().getName())",
+                                    "this.plus.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class",
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getPlus()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.minus == null",
+                                    "this.parent.plus.cut == null",
+                                    "this.minus.plus.minus == null",
+                                    "this.plus.plus.plus == null",
+                                    "this.plus.plus.cut == null",
+                                    "this.minus.plus.plus == null",
+                                    "this.plus.plus.attribute has only one value",
+                                    "this.parent.minus.cut != null",
+                                    "this.plus.plus.attribute != null",
+                                    "this.parent.minus.minus != null",
+                                    "this.parent.minus.plus != null",
+                                    "this.parent.plus.plus == null",
+                                    "this.parent.minus.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "this.plus.plus.minus == null",
+                                    "this.minus.plus.cut == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.parent.plus.cut == null",
+                                    "this.minus.plus.minus == null",
+                                    "return.plus.cut == null",
+                                    "return.plus.plus == null",
+                                    "this.plus.plus.minus == null",
+                                    "this.parent.minus.minus != null",
+                                    "this.parent.minus.attribute.getClass().getName() == org.apache.commons.math3.geometry.partitioning.BoundaryAttribute.class",
+                                    "return.plus.attribute != null",
+                                    "this.minus.plus.cut == null",
+                                    "this.plus.plus.attribute has only one value",
+                                    "this.plus.plus.attribute != null",
+                                    "this.parent.minus.plus != null",
+                                    "this.parent.plus.plus == null",
+                                    "return.minus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class",
+                                    "this.plus.plus.plus == null",
+                                    "this.minus.plus.plus == null",
+                                    "this.parent.minus.cut != null",
+                                    "this.parent.plus.minus == null",
+                                    "this.plus.plus.cut == null",
+                                    "return.plus.minus == null",
+                                    "return.plus.attribute has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.plus.cut.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class",
+                                    "this.minus.plus.cut.getClass().getName() == orig(this.minus.plus.cut.getClass().getName())",
+                                    "this.plus.plus.cut.getClass().getName() == orig(this.plus.plus.cut.getClass().getName())",
+                                    "this.parent.plus.cut.getClass().getName() == orig(this.parent.plus.cut.getClass().getName())",
+                                    "this.plus.attribute.getClass().getName() == java.lang.Boolean.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

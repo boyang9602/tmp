@@ -1,0 +1,120 @@
+{
+    "org.jfree.chart.util.ObjectList": [
+        {
+            "set(int, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.objects[] elements == null",
+                                    "this.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.size == 0",
+                                    "this.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.objects[].getClass().getName() elements == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.objects[].getClass().getName() one of { [null, null, null, null, null, null, null, null], [org.jfree.chart.renderer.xy.XYLineAndShapeRenderer, null, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.objects[] elements == null",
+                                    "this.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.size == 0",
+                                    "this.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.objects[].getClass().getName() elements == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size >= orig(this.size)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.size >= orig(this.size)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ObjectList()": [
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.objects[]) == 8"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "get(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size == 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

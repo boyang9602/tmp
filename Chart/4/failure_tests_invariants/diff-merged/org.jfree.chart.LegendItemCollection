@@ -1,0 +1,323 @@
+{
+    "org.jfree.chart.LegendItemCollection": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.items[] elements != null",
+                            "size(this.items[]) one of { 0, 1 }",
+                            "this.items.getClass().getName() == java.util.ArrayList.class",
+                            "this.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                            "this.items != null",
+                            "this.items has only one value",
+                            "this.items[] == []",
+                            "this.items[].getClass().getName() == []",
+                            "this.items[].getClass().getName() one of { [], [org.jfree.chart.LegendItem] }"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.items[] elements != null",
+                            "size(this.items[]) one of { 0, 1 }",
+                            "this.items.getClass().getName() == java.util.ArrayList.class",
+                            "this.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                            "this.items != null",
+                            "this.items has only one value",
+                            "this.items[] == []",
+                            "this.items[].getClass().getName() == []",
+                            "this.items[].getClass().getName() one of { [], [org.jfree.chart.LegendItem] }"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "LegendItemCollection()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.items[] == []",
+                                    "this.items[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.items[] == []",
+                                    "this.items[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getItemCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.items == orig(this.items)",
+                                    "return one of { 0, 1 }",
+                                    "this.items[] == orig(this.items[])",
+                                    "return == 0",
+                                    "this.items.getClass().getName() == orig(this.items.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.items == orig(this.items)",
+                                    "return one of { 0, 1 }",
+                                    "this.items[] == orig(this.items[])",
+                                    "return == 0",
+                                    "this.items.getClass().getName() == orig(this.items.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(org.jfree.chart.LegendItem)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "item.toolTipText == null",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE has only one value",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "item.seriesKey.getClass().getName() == java.lang.String.class",
+                                    "item.description.toString == \"Series 1\"",
+                                    "item.fillPaint.getClass().getName() == java.awt.Color.class",
+                                    "item.datasetIndex == 0",
+                                    "item.fillPaint has only one value",
+                                    "item.lineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "item.fillPaintTransformer.getClass().getName() == org.jfree.chart.util.StandardGradientPaintTransformer.class",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == java.awt.geom.Line2D$Float.class",
+                                    "item.outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "item.seriesKey has only one value",
+                                    "item.label.toString == \"Series 1\"",
+                                    "item.labelFont == null",
+                                    "this.items[].getClass().getName() == []",
+                                    "item.urlText == null",
+                                    "item.dataset.getClass().getName() == org.jfree.data.xy.XYSeriesCollection.class",
+                                    "item.series == 0",
+                                    "item.shapeFilled == true",
+                                    "item.labelPaint == null",
+                                    "this.items[] == []",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE has only one value",
+                                    "item.attributedLabel == null",
+                                    "item.linePaint.getClass().getName() == java.awt.Color.class",
+                                    "item.outlinePaint.getClass().getName() == java.awt.Color.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "item.outlinePaint == orig(item.outlinePaint)",
+                                    "item.toolTipText == null",
+                                    "item.outlinePaint.getClass().getName() == java.awt.Color.class",
+                                    "item.series == orig(item.series)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE has only one value",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "item.outlinePaint.getClass().getName() == orig(item.outlinePaint.getClass().getName())",
+                                    "item.seriesKey.getClass().getName() == java.lang.String.class",
+                                    "item.description.toString == \"Series 1\"",
+                                    "item.fillPaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName())",
+                                    "item.datasetIndex == 0",
+                                    "item.fillPaint.getClass().getName() == orig(item.fillPaint.getClass().getName())",
+                                    "item.shapeVisible == orig(item.shapeVisible)",
+                                    "item.seriesKey.getClass().getName() == orig(item.seriesKey.getClass().getName())",
+                                    "item.linePaint == orig(item.linePaint)",
+                                    "item.shapeOutlineVisible == orig(item.shapeOutlineVisible)",
+                                    "this.items.getClass().getName() == orig(this.items.getClass().getName())",
+                                    "item.fillPaint has only one value",
+                                    "item.lineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "this.items == orig(this.items)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName())",
+                                    "item.shape == orig(item.shape)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == java.awt.geom.Line2D$Float.class",
+                                    "item.seriesKey has only one value",
+                                    "item.lineStroke.getClass().getName() == orig(item.lineStroke.getClass().getName())",
+                                    "item.lineVisible == orig(item.lineVisible)",
+                                    "item.outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "item.shape.getClass().getName() == orig(item.shape.getClass().getName())",
+                                    "item.label.toString == \"Series 1\"",
+                                    "item.line == orig(item.line)",
+                                    "item.labelFont == orig(item.labelFont)",
+                                    "item.datasetIndex == orig(item.datasetIndex)",
+                                    "item.labelFont == null",
+                                    "item.dataset.getClass().getName() == orig(item.dataset.getClass().getName())",
+                                    "item.label.toString == orig(item.label.toString)",
+                                    "item.description == orig(item.description)",
+                                    "item.urlText == null",
+                                    "item.toolTipText == orig(item.toolTipText)",
+                                    "item.dataset.getClass().getName() == org.jfree.data.xy.XYSeriesCollection.class",
+                                    "item.series == 0",
+                                    "this.items[].getClass().getName() == [org.jfree.chart.LegendItem]",
+                                    "item.shapeFilled == orig(item.shapeFilled)",
+                                    "item.outlineStroke.getClass().getName() == orig(item.outlineStroke.getClass().getName())",
+                                    "item.dataset == orig(item.dataset)",
+                                    "item.lineStroke == orig(item.lineStroke)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE == orig(org.jfree.chart.LegendItem.UNUSED_SHAPE)",
+                                    "item.outlineStroke == orig(item.outlineStroke)",
+                                    "item.urlText == orig(item.urlText)",
+                                    "item.shapeFilled == true",
+                                    "item.fillPaint == orig(item.fillPaint)",
+                                    "item.labelPaint == orig(item.labelPaint)",
+                                    "size(this.items[]) == 1",
+                                    "item.labelPaint == null",
+                                    "item.description.toString == orig(item.description.toString)",
+                                    "item.linePaint.getClass().getName() == orig(item.linePaint.getClass().getName())",
+                                    "item.fillPaintTransformer == orig(item.fillPaintTransformer)",
+                                    "item.fillPaintTransformer.getClass().getName() == orig(item.fillPaintTransformer.getClass().getName())",
+                                    "item.seriesKey == orig(item.seriesKey)",
+                                    "item.line.getClass().getName() == orig(item.line.getClass().getName())",
+                                    "item.label == orig(item.label)",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE has only one value",
+                                    "item.attributedLabel == orig(item.attributedLabel)",
+                                    "item.attributedLabel == null",
+                                    "item.linePaint.getClass().getName() == java.awt.Color.class",
+                                    "size(this.items[])-1 == orig(size(this.items[]))",
+                                    "item.fillPaintTransformer.getClass().getName() == org.jfree.chart.util.StandardGradientPaintTransformer.class",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE == orig(org.jfree.chart.LegendItem.UNUSED_STROKE)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "get(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "index == 0",
+                                    "this.items[].getClass().getName() == [org.jfree.chart.LegendItem]",
+                                    "size(this.items[]) == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.linePaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE has only one value",
+                                    "return.fillPaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "return.lineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "return.labelFont == null",
+                                    "this.items.getClass().getName() == orig(this.items.getClass().getName())",
+                                    "this.items == orig(this.items)",
+                                    "org.jfree.chart.LegendItem.UNUSED_SHAPE.getClass().getName() == java.awt.geom.Line2D$Float.class",
+                                    "return.seriesKey.getClass().getName() == java.lang.String.class",
+                                    "return.toolTipText == null",
+                                    "this.items[].getClass().getName() == [org.jfree.chart.LegendItem]",
+                                    "return.datasetIndex == 0",
+                                    "return.dataset.getClass().getName() == org.jfree.data.xy.XYSeriesCollection.class",
+                                    "this.items[] == orig(this.items[])",
+                                    "return.label.toString == \"Series 1\"",
+                                    "return.series == 0",
+                                    "size(this.items[]) == 1",
+                                    "return.outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "return.outlinePaint.getClass().getName() == java.awt.Color.class",
+                                    "return.description.toString == \"Series 1\"",
+                                    "return.shapeFilled == true",
+                                    "return.fillPaint has only one value",
+                                    "org.jfree.chart.LegendItem.UNUSED_STROKE has only one value",
+                                    "return.attributedLabel == null",
+                                    "return.urlText == null",
+                                    "return.labelPaint == null",
+                                    "return.seriesKey has only one value",
+                                    "return.fillPaintTransformer.getClass().getName() == org.jfree.chart.util.StandardGradientPaintTransformer.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

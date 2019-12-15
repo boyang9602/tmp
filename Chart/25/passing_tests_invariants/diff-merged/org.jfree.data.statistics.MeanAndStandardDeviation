@@ -1,0 +1,62 @@
+{
+    "org.jfree.data.statistics.MeanAndStandardDeviation": [
+        {
+            "getMean()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.mean has only one value",
+                                    "this.standardDeviation has only one value",
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.mean has only one value",
+                                    "this.standardDeviation has only one value",
+                                    "this has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "return has only one value",
+                                    "this.standardDeviation has only one value",
+                                    "this.mean has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "return has only one value",
+                                    "this.standardDeviation has only one value",
+                                    "this.mean has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "org.apache.commons.math3.exception.util.LocalizedFormats": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch197.inv.output": {
+                        "invs": [
+                            "this.sourceFormat != null"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.sourceFormat != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "LocalizedFormats(java.lang.String, int, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch197.inv.output": {
+                                "invs": [
+                                    "sourceFormat != null",
+                                    "$hidden$1 != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "sourceFormat != null",
+                                    "$hidden$1 != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch197.inv.output": {
+                                "invs": [
+                                    "$hidden$1.toString == orig($hidden$1.toString)",
+                                    "sourceFormat.toString == orig(sourceFormat.toString)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "$hidden$1.toString == orig($hidden$1.toString)",
+                                    "sourceFormat.toString == orig(sourceFormat.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

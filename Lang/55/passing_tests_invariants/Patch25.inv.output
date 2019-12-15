@@ -1,0 +1,359 @@
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token:::OBJECT
+this.value != null
+this.count one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.Token(java.lang.Object):::ENTER
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.Token(java.lang.Object):::EXIT
+this.count == 1
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.containsTokenWithValue(org.apache.commons.lang.time.DurationFormatUtils$Token[], java.lang.Object):::ENTER
+tokens has only one value
+tokens.getClass().getName() == org.apache.commons.lang.time.DurationFormatUtils$Token[].class
+tokens[] contains no nulls and has only one value, of length 7
+tokens[].value contains no nulls and has only one value, of length 7
+tokens[].value.getClass().getName() == [java.lang.String, java.lang.StringBuffer, java.lang.String, java.lang.StringBuffer, java.lang.String, java.lang.StringBuffer, java.lang.String]
+tokens[].count == [1, 1, 2, 1, 2, 1, 3]
+tokens[].count elements one of { 1, 2, 3 }
+value.getClass().getName() == java.lang.String.class
+size(tokens[]) == 7
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.containsTokenWithValue(org.apache.commons.lang.time.DurationFormatUtils$Token[], java.lang.Object):::EXIT562
+return == true
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.containsTokenWithValue(org.apache.commons.lang.time.DurationFormatUtils$Token[], java.lang.Object):::EXIT562;condition="return == true"
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.containsTokenWithValue(org.apache.commons.lang.time.DurationFormatUtils$Token[], java.lang.Object):::EXIT565
+return == false
+orig(value) has only one value
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.containsTokenWithValue(org.apache.commons.lang.time.DurationFormatUtils$Token[], java.lang.Object):::EXIT565;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.containsTokenWithValue(org.apache.commons.lang.time.DurationFormatUtils$Token[], java.lang.Object):::EXIT
+tokens[] == orig(tokens[])
+tokens[].value == orig(tokens[].value)
+tokens[].count == orig(tokens[].count)
+(return == false)  ==>  (orig(value) has only one value)
+tokens[] contains no nulls and has only one value, of length 7
+tokens[].value contains no nulls and has only one value, of length 7
+tokens[].value.getClass().getName() == [java.lang.String, java.lang.StringBuffer, java.lang.String, java.lang.StringBuffer, java.lang.String, java.lang.StringBuffer, java.lang.String]
+tokens[].count == [1, 1, 2, 1, 2, 1, 3]
+tokens[].count elements one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.containsTokenWithValue(org.apache.commons.lang.time.DurationFormatUtils$Token[], java.lang.Object):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.containsTokenWithValue(org.apache.commons.lang.time.DurationFormatUtils$Token[], java.lang.Object):::EXIT;condition="not(return == true)"
+return == false
+orig(value) has only one value
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.getCount():::ENTER
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.getCount():::EXIT
+this.value == orig(this.value)
+this.value.getClass().getName() == orig(this.value.getClass().getName())
+this.count == orig(this.count)
+return one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.getValue():::ENTER
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.getValue():::EXIT
+this.value == orig(this.value)
+this.value.getClass().getName() == orig(this.value.getClass().getName())
+this.count == orig(this.count)
+return != null
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.increment():::ENTER
+this.value.getClass().getName() == java.lang.String.class
+this.count one of { 1, 2 }
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils$Token.increment():::EXIT
+this.value == orig(this.value)
+this.value.getClass().getName() == orig(this.value.getClass().getName())
+this.value.getClass().getName() == java.lang.String.class
+this.count one of { 2, 3 }
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils.format(org.apache.commons.lang.time.DurationFormatUtils$Token[], int, int, int, int, int, int, int, boolean):::ENTER
+tokens has only one value
+tokens.getClass().getName() == org.apache.commons.lang.time.DurationFormatUtils$Token[].class
+tokens[] contains no nulls and has only one value, of length 7
+tokens[].value contains no nulls and has only one value, of length 7
+tokens[].value.getClass().getName() == [java.lang.String, java.lang.StringBuffer, java.lang.String, java.lang.StringBuffer, java.lang.String, java.lang.StringBuffer, java.lang.String]
+tokens[].count == [1, 1, 2, 1, 2, 1, 3]
+tokens[].count elements one of { 1, 2, 3 }
+years == 0
+months == 0
+days == 0
+hours == 0
+minutes == 0
+seconds == 0
+milliseconds == 551
+padWithZeros == true
+size(tokens[]) == 7
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils.format(org.apache.commons.lang.time.DurationFormatUtils$Token[], int, int, int, int, int, int, int, boolean):::EXIT
+tokens[] == orig(tokens[])
+tokens[].value == orig(tokens[].value)
+tokens[].count == orig(tokens[].count)
+tokens[] contains no nulls and has only one value, of length 7
+tokens[].value contains no nulls and has only one value, of length 7
+tokens[].value.getClass().getName() == [java.lang.String, java.lang.StringBuffer, java.lang.String, java.lang.StringBuffer, java.lang.String, java.lang.StringBuffer, java.lang.String]
+tokens[].count == [1, 1, 2, 1, 2, 1, 3]
+tokens[].count elements one of { 1, 2, 3 }
+return has only one value
+return.toString == "0:00:00.551"
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils.formatDuration(long, java.lang.String):::ENTER
+durationMillis == 551
+format has only one value
+format.toString == "H:mm:ss.SSS"
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils.formatDuration(long, java.lang.String):::EXIT
+format.toString == orig(format.toString)
+format.toString == "H:mm:ss.SSS"
+return has only one value
+return.toString == "0:00:00.551"
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils.formatDuration(long, java.lang.String, boolean):::ENTER
+durationMillis == 551
+format has only one value
+format.toString == "H:mm:ss.SSS"
+padWithZeros == true
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils.formatDuration(long, java.lang.String, boolean):::EXIT
+format.toString == orig(format.toString)
+format.toString == "H:mm:ss.SSS"
+return has only one value
+return.toString == "0:00:00.551"
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils.formatDurationHMS(long):::ENTER
+durationMillis == 551
+===========================================================================
+org.apache.commons.lang.time.DurationFormatUtils.formatDurationHMS(long):::EXIT
+return has only one value
+return.toString == "0:00:00.551"
+===========================================================================
+org.apache.commons.lang.time.StopWatch:::CLASS
+===========================================================================
+org.apache.commons.lang.time.StopWatch:::OBJECT
+this.runningState >= 0
+this.splitState one of { 10, 11 }
+this.startTime >= -1
+this.stopTime >= -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.StopWatch():::EXIT
+this.runningState == 0
+this.splitState == 10
+this.startTime == -1
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getSplitTime():::ENTER
+this has only one value
+this.runningState == 1
+this.splitState == 11
+this.startTime == 1575935984226L
+this.stopTime == 1575935984777L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getSplitTime():::EXIT
+this.runningState == orig(this.runningState)
+this.splitState == orig(this.splitState)
+this.startTime == orig(this.startTime)
+this.stopTime == orig(this.stopTime)
+this.runningState == 1
+this.splitState == 11
+this.startTime == 1575935984226L
+this.stopTime == 1575935984777L
+return == 551
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getTime():::ENTER
+this.runningState one of { 0, 2, 3 }
+this.splitState == 10
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getTime():::EXIT211
+this.runningState one of { 2, 3 }
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getTime():::EXIT214
+this.runningState == 0
+this.startTime == -1
+this.stopTime == -1
+return == 0
+orig(this) has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getTime():::EXIT
+this.runningState == orig(this.runningState)
+this.splitState == orig(this.splitState)
+this.startTime == orig(this.startTime)
+this.stopTime == orig(this.stopTime)
+this.runningState one of { 0, 2, 3 }
+this.splitState == 10
+===========================================================================
+org.apache.commons.lang.time.StopWatch.reset():::ENTER
+this has only one value
+this.runningState == 2
+this.splitState == 10
+this.startTime == 1575935987755L
+this.stopTime == 1575935988306L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.reset():::EXIT
+this.splitState == orig(this.splitState)
+this.runningState == 0
+this.splitState == 10
+this.startTime == -1
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.resume():::ENTER
+this has only one value
+this.runningState == 3
+this.splitState == 10
+this.startTime == 1575935986101L
+this.stopTime == 1575935986651L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.resume():::EXIT
+this.splitState == orig(this.splitState)
+this.runningState == 1
+this.splitState == 10
+this.startTime == 1575935986652L
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.split():::ENTER
+this has only one value
+this.runningState == 1
+this.splitState == 10
+this.startTime == 1575935984226L
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.split():::EXIT
+this.runningState == orig(this.runningState)
+this.startTime == orig(this.startTime)
+this.runningState == 1
+this.splitState == 11
+this.startTime == 1575935984226L
+this.stopTime == 1575935984777L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.start():::ENTER
+this.runningState == 0
+this.splitState == 10
+this.startTime == -1
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.start():::EXIT
+this.splitState == orig(this.splitState)
+this.stopTime == orig(this.stopTime)
+this.runningState == 1
+this.splitState == 10
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.stop():::ENTER
+this.runningState == 1
+this.splitState == 10
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.stop():::EXIT
+this.splitState == orig(this.splitState)
+this.startTime == orig(this.startTime)
+this.runningState == 2
+this.splitState == 10
+===========================================================================
+org.apache.commons.lang.time.StopWatch.suspend():::ENTER
+this has only one value
+this.runningState == 1
+this.splitState == 10
+this.startTime == 1575935986101L
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.suspend():::EXIT
+this.splitState == orig(this.splitState)
+this.startTime == orig(this.startTime)
+this.runningState == 3
+this.splitState == 10
+this.startTime == 1575935986101L
+this.stopTime == 1575935986651L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.toSplitString():::ENTER
+this has only one value
+this.runningState == 1
+this.splitState == 11
+this.startTime == 1575935984226L
+this.stopTime == 1575935984777L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.toSplitString():::EXIT
+this.runningState == orig(this.runningState)
+this.splitState == orig(this.splitState)
+this.startTime == orig(this.startTime)
+this.stopTime == orig(this.stopTime)
+this.runningState == 1
+this.splitState == 11
+this.startTime == 1575935984226L
+this.stopTime == 1575935984777L
+return has only one value
+return.toString == "0:00:00.551"
+===========================================================================
+org.apache.commons.lang.time.StopWatch.unsplit():::ENTER
+this has only one value
+this.runningState == 1
+this.splitState == 11
+this.startTime == 1575935984226L
+this.stopTime == 1575935984777L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.unsplit():::EXIT
+this.runningState == orig(this.runningState)
+this.startTime == orig(this.startTime)
+this.runningState == 1
+this.splitState == 10
+this.startTime == 1575935984226L
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest:::CLASS
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest:::OBJECT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest has only one value
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest != null
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.StopWatchTest(java.lang.String):::ENTER
+s != null
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.StopWatchTest(java.lang.String):::EXIT
+s.toString == orig(s.toString)
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.class$(java.lang.String):::ENTER
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == null
+x0 has only one value
+x0.toString == "org.apache.commons.lang.time.StopWatchTest"
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.class$(java.lang.String):::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == orig(org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest)
+x0.toString == orig(x0.toString)
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == null
+x0.toString == "org.apache.commons.lang.time.StopWatchTest"
+return has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.suite():::ENTER
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.suite():::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testBadStates():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testBadStates():::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == orig(org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest)
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testStopWatchSimple():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testStopWatchSimple():::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == orig(org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest)
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testStopWatchSplit():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testStopWatchSplit():::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == orig(org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest)
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testStopWatchSuspend():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testStopWatchSuspend():::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == orig(org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest)

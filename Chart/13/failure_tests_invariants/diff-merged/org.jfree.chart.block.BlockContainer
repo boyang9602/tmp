@@ -1,0 +1,442 @@
+{
+    "org.jfree.chart.block.BlockContainer": [
+        {
+            "add(org.jfree.chart.block.Block)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 0, 3, 4 }",
+                                    "block != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.blocks[] == []",
+                                    "this.blocks[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 0, 3, 4 }",
+                                    "block != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 0, 3, 4 }",
+                                    "block != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 0, 3, 4 }",
+                                    "block != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 1, 4, 5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) == 1",
+                                    "this.blocks[].getClass().getName() == [org.jfree.chart.block.EmptyBlock]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 1, 4, 5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 1, 4, 5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 1, 4, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(org.jfree.chart.block.Block, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "block != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 0, 1 }",
+                                    "this.blocks[].getClass().getName() one of { [], [org.jfree.chart.block.EmptyBlock] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "block != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "block != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "block != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 1, 2 }",
+                                    "this.blocks[].getClass().getName() one of { [org.jfree.chart.block.EmptyBlock], [org.jfree.chart.block.EmptyBlock, org.jfree.chart.block.EmptyBlock] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "arrange(java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "constraint.widthConstraintType.name != null",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED != null",
+                                    "constraint.widthRange != null",
+                                    "constraint.heightConstraintType != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType != null",
+                                    "g2 != null",
+                                    "constraint != null",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE != null",
+                                    "constraint.heightConstraintType.name != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType != null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE != null",
+                                    "constraint.heightRange != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE != null",
+                                    "constraint.widthConstraintType != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.blocks[].getClass().getName() one of { [org.jfree.chart.block.EmptyBlock], [org.jfree.chart.block.EmptyBlock, org.jfree.chart.block.EmptyBlock] }",
+                                    "size(this.blocks[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "constraint.widthConstraintType.name != null",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED != null",
+                                    "constraint.widthRange != null",
+                                    "constraint.heightConstraintType != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType != null",
+                                    "g2 != null",
+                                    "constraint != null",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE != null",
+                                    "constraint.heightConstraintType.name != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType != null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE != null",
+                                    "constraint.heightRange != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE != null",
+                                    "constraint.widthConstraintType != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "constraint.widthConstraintType.name != null",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED != null",
+                                    "constraint.widthRange != null",
+                                    "constraint.heightConstraintType != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType != null",
+                                    "g2 != null",
+                                    "constraint != null",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE != null",
+                                    "constraint.heightConstraintType.name != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType != null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE != null",
+                                    "constraint.heightRange != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE != null",
+                                    "constraint.widthConstraintType != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "constraint.widthConstraintType.name != null",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED != null",
+                                    "constraint.widthRange != null",
+                                    "constraint.heightConstraintType != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType != null",
+                                    "g2 != null",
+                                    "constraint != null",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE != null",
+                                    "constraint.heightConstraintType.name != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType != null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE != null",
+                                    "constraint.heightRange != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE != null",
+                                    "constraint.widthConstraintType != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "constraint.widthConstraintType.name != null",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED != null",
+                                    "return != null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE != null",
+                                    "constraint.widthRange != null",
+                                    "constraint.heightConstraintType != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType != null",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE != null",
+                                    "constraint.heightConstraintType.name != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType != null",
+                                    "constraint.heightRange != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE != null",
+                                    "constraint.widthConstraintType != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.height one of { 6.0, 16.0, 45.6 }",
+                                    "this.blocks[].getClass().getName() one of { [org.jfree.chart.block.EmptyBlock], [org.jfree.chart.block.EmptyBlock, org.jfree.chart.block.EmptyBlock] }",
+                                    "size(this.blocks[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "constraint.widthConstraintType.name != null",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED != null",
+                                    "return != null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE != null",
+                                    "constraint.widthRange != null",
+                                    "constraint.heightConstraintType != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType != null",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE != null",
+                                    "constraint.heightConstraintType.name != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType != null",
+                                    "constraint.heightRange != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE != null",
+                                    "constraint.widthConstraintType != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "constraint.widthConstraintType.name != null",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED != null",
+                                    "return != null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE != null",
+                                    "constraint.widthRange != null",
+                                    "constraint.heightConstraintType != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType != null",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE != null",
+                                    "constraint.heightConstraintType.name != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType != null",
+                                    "constraint.heightRange != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE != null",
+                                    "constraint.widthConstraintType != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "constraint.widthConstraintType.name != null",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED != null",
+                                    "return != null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE != null",
+                                    "constraint.widthRange != null",
+                                    "constraint.heightConstraintType != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType != null",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE != null",
+                                    "constraint.heightConstraintType.name != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType != null",
+                                    "constraint.heightRange != null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE != null",
+                                    "constraint.widthConstraintType != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "clear()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) one of { 1, 2 }",
+                                    "this.blocks[].getClass().getName() one of { [org.jfree.chart.block.EmptyBlock], [org.jfree.chart.block.EmptyBlock, org.jfree.chart.block.EmptyBlock] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch89.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) <= orig(size(this.blocks[]))-1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch11.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) <= orig(size(this.blocks[]))-1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) <= orig(size(this.blocks[]))-1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch10.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) <= orig(size(this.blocks[]))-1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

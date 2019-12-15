@@ -1,0 +1,594 @@
+{
+    "org.jfree.chart.text.TextUtilities": [
+        {
+            "createTextBlock(java.lang.String, java.awt.Font, java.awt.Paint, float, org.jfree.chart.text.TextMeasurer)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "maxWidth == 198.0",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "maxWidth one of { 40.790314, 198.0 }",
+                                    "font has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "paint.getClass().getName() != measurer.getClass().getName()",
+                                    "maxWidth one of { 22.6, 40.790314, 198.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "maxWidth == 198.0",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "maxWidth one of { 40.790314, 198.0 }",
+                                    "font has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(return.lines[]) == 1",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "return.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return.lines[]) one of { 1, 3 }",
+                                    "return.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "return.lines.getClass().getName() != orig(measurer.getClass().getName())",
+                                    "return.lines.getClass().getName() != orig(paint.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "size(return.lines[]) == 1",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "return.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawRotatedString(java.lang.String, java.awt.Graphics2D, float, float, double, float, float)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "textY one of { 17.708008, 72.20117, 92.16992 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "text != null",
+                                    "g2 != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "textY one of { 17.708008, 72.20117, 92.16992 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "499": [
+                                {
+                                    "Patch13.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deriveTextBoundsAnchorOffsets(java.awt.Graphics2D, java.lang.String, org.jfree.chart.text.TextAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "g2 != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "text != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "anchor.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "anchor != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER.name != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "anchor.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "return != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER.name != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nextLineBreak(java.lang.String, int, float, java.text.BreakIterator, org.jfree.chart.text.TextMeasurer)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "start == 0",
+                                    "width == 198.0",
+                                    "width one of { 40.790314, 198.0 }",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "iterator != null",
+                                    "width one of { 22.6, 40.790314, 198.0 }",
+                                    "start one of { 0, 4, 8 }",
+                                    "text != null",
+                                    "iterator.getClass().getName() != measurer.getClass().getName()",
+                                    "measurer != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "start == 0",
+                                    "width == 198.0",
+                                    "width one of { 40.790314, 198.0 }",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "return == -1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "return == -1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "271": [
+                                {
+                                    "Patch13.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == -1",
+                                            "orig(start) one of { 0, 8 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "260": [
+                                {
+                                    "Patch13.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(start) one of { 0, 4 }",
+                                            "text.toString one of { \"Section 1\", \"Section 2\", \"Section 3\" }",
+                                            "orig(width) == 22.6",
+                                            "return one of { 4, 8 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawRotatedString(java.lang.String, java.awt.Graphics2D, float, float, org.jfree.chart.text.TextAnchor, double, float, float)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "y one of { 17.708008, 72.20117, 92.16992 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT.name != null",
+                                    "textAnchor.name != null",
+                                    "g2 != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "text != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "textAnchor != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER.name != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "y one of { 17.708008, 72.20117, 92.16992 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT.name != null",
+                                    "textAnchor.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_LEFT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextAnchor.BASELINE_LEFT != null",
+                                    "org.jfree.chart.text.TextAnchor.HALF_ASCENT_CENTER != null",
+                                    "org.jfree.chart.text.TextAnchor.BOTTOM_CENTER.name != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "524": [
+                                {
+                                    "Patch13.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createTextBlock(java.lang.String, java.awt.Font, java.awt.Paint, float, int, org.jfree.chart.text.TextMeasurer)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "maxWidth == 198.0",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "maxWidth one of { 40.790314, 198.0 }",
+                                    "font has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "paint.getClass().getName() != measurer.getClass().getName()",
+                                    "maxWidth one of { 22.6, 40.790314, 198.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "maxWidth == 198.0",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "maxWidth one of { 40.790314, 198.0 }",
+                                    "font has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(return.lines[]) == 1",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "return.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return.lines[]) one of { 1, 3 }",
+                                    "return.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "return.lines.getClass().getName() != orig(measurer.getClass().getName())",
+                                    "return.lines.getClass().getName() != orig(paint.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "size(return.lines[]) == 1",
+                                    "text.toString one of { \"Pie Chart\", \"Test\" }",
+                                    "return.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "197": [
+                                {
+                                    "Patch13.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

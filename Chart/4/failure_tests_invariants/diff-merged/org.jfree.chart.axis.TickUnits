@@ -1,0 +1,44 @@
+{
+    "org.jfree.chart.axis.TickUnits": [
+        {
+            "add(org.jfree.chart.axis.TickUnit)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "unit.minorTickCount >= 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "unit.minorTickCount one of { 0, 2, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "unit.minorTickCount >= 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "unit.minorTickCount one of { 0, 2, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,186 @@
+{
+    "org.jfree.chart.util.Layer": [
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "obj != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.name.toString == \"Layer.BACKGROUND\"",
+                                    "this has only one value",
+                                    "this.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "obj != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "obj != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "obj != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (orig(this) has only one value)",
+                                    "(return == false)  ==>  (this.name has only one value)",
+                                    "(return == false)  ==>  (this.name.toString == \"Layer.BACKGROUND\")",
+                                    "(return == true)  ==>  (this.name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" })",
+                                    "(return == false)  ==>  (orig(obj) has only one value)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.name.toString == \"Layer.BACKGROUND\"",
+                                    "orig(obj) has only one value",
+                                    "this.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (orig(this) has only one value)",
+                                    "(return == false)  ==>  (this.name has only one value)",
+                                    "(return == false)  ==>  (this.name.toString == \"Layer.BACKGROUND\")",
+                                    "(return == true)  ==>  (this.name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" })",
+                                    "(return == false)  ==>  (orig(obj) has only one value)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (orig(this) has only one value)",
+                                    "(return == false)  ==>  (this.name has only one value)",
+                                    "(return == false)  ==>  (this.name.toString == \"Layer.BACKGROUND\")",
+                                    "(return == true)  ==>  (this.name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" })",
+                                    "(return == false)  ==>  (orig(obj) has only one value)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (orig(this) has only one value)",
+                                    "(return == false)  ==>  (this.name has only one value)",
+                                    "(return == false)  ==>  (this.name.toString == \"Layer.BACKGROUND\")",
+                                    "(return == true)  ==>  (this.name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" })",
+                                    "(return == false)  ==>  (orig(obj) has only one value)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "70": [
+                                {
+                                    "Patch16.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(obj) has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch17.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "78": [
+                                {
+                                    "Patch16.inv.output": {
+                                        "invs": [
+                                            "this.name.toString == \"Layer.BACKGROUND\"",
+                                            "orig(this) has only one value",
+                                            "this.name has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.name.toString == \"Layer.BACKGROUND\"",
+                                            "orig(this) has only one value",
+                                            "this.name has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch15.inv.output": {
+                                        "invs": [
+                                            "this.name.toString == \"Layer.BACKGROUND\"",
+                                            "orig(this) has only one value",
+                                            "this.name has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch17.inv.output": {
+                                        "invs": [
+                                            "this.name.toString == \"Layer.BACKGROUND\"",
+                                            "orig(this) has only one value",
+                                            "this.name has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

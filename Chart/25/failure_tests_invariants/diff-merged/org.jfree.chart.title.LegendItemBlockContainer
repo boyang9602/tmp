@@ -1,0 +1,362 @@
+{
+    "org.jfree.chart.title.LegendItemBlockContainer": [
+        {
+            "CLASS": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.padding.top == 0.0",
+                            "size(this.blocks[]) one of { 0, 2 }",
+                            "this.padding.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                            "this.margin.unitType.name has only one value",
+                            "this.seriesKey has only one value",
+                            "this.arrangement.getClass().getName() == org.jfree.chart.block.BorderArrangement.class",
+                            "this.margin.left == 0.0",
+                            "this.margin.unitType.name != null",
+                            "this.padding.left == 0.0",
+                            "this.padding.bottom == 0.0",
+                            "org.jfree.chart.util.UnitType.ABSOLUTE != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS != null",
+                            "this.margin.right == 0.0",
+                            "size(this.blocks[])-1 != 0",
+                            "this.padding.right == 0.0",
+                            "this.margin.bottom == 0.0",
+                            "this.margin.unitType != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType has only one value",
+                            "this.margin != null",
+                            "this.padding != null",
+                            "this.padding has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == 0.0",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS has only one value",
+                            "this.padding.unitType.name has only one value",
+                            "this.margin.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                            "this.margin.top == 0.0",
+                            "this.toolTipText == null",
+                            "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                            "this.arrangement != null",
+                            "this.urlText == null",
+                            "this.id == null",
+                            "this.seriesKey != null",
+                            "this.blocks != null",
+                            "this.frame != null",
+                            "this.padding.unitType.name != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType != null",
+                            "this.margin.unitType has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == 0.0",
+                            "this.margin has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == 0.0",
+                            "org.jfree.chart.util.UnitType.ABSOLUTE has only one value",
+                            "this.bounds != null",
+                            "org.jfree.chart.util.UnitType.RELATIVE has only one value",
+                            "this.frame has only one value",
+                            "org.jfree.chart.util.UnitType.RELATIVE != null",
+                            "this.blocks[] elements != null",
+                            "this.blocks.getClass().getName() == java.util.ArrayList.class",
+                            "this.dataset != null",
+                            "this.dataset.getClass().getName() == org.jfree.data.statistics.DefaultStatisticalCategoryDataset.class",
+                            "this.padding.unitType has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == 0.0",
+                            "this.height == 0.0",
+                            "this.width == 0.0",
+                            "this.seriesKey.getClass().getName() == java.lang.String.class",
+                            "this.padding.unitType != null",
+                            "this.blocks[].getClass().getName() one of { [], [org.jfree.chart.title.LegendGraphic, org.jfree.chart.block.LabelBlock] }"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "LegendItemBlockContainer(org.jfree.chart.block.Arrangement, org.jfree.data.general.Dataset, java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "dataset.getClass().getName() == org.jfree.data.statistics.DefaultStatisticalCategoryDataset.class",
+                                    "seriesKey.getClass().getName() == java.lang.String.class",
+                                    "seriesKey has only one value",
+                                    "arrangement.getClass().getName() == org.jfree.chart.block.BorderArrangement.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.blocks[].getClass().getName() == []",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.blocks[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, java.awt.geom.Rectangle2D, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) == 2",
+                                    "area.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "this.blocks[].getClass().getName() == [org.jfree.chart.title.LegendGraphic, org.jfree.chart.block.LabelBlock]",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "params.getClass().getName() == org.jfree.chart.block.BlockParams.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.unitType == orig(this.padding.unitType)",
+                                    "this.bounds == orig(this.bounds)",
+                                    "this.blocks == orig(this.blocks)",
+                                    "this.padding == orig(this.padding)",
+                                    "this.margin == orig(this.margin)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.padding.unitType.name == orig(this.padding.unitType.name)",
+                                    "this.blocks[] == orig(this.blocks[])",
+                                    "this.padding.bottom == orig(this.padding.bottom)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.margin.unitType == orig(this.margin.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "size(this.blocks[]) == 2",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.height == orig(this.height)",
+                                    "this.bounds.getClass().getName() == orig(this.bounds.getClass().getName())",
+                                    "this.padding.top == orig(this.padding.top)",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.blocks[].getClass().getName() == [org.jfree.chart.title.LegendGraphic, org.jfree.chart.block.LabelBlock]",
+                                    "this.id == orig(this.id)",
+                                    "this.margin.unitType.name == orig(this.margin.unitType.name)",
+                                    "this.margin.unitType.name.toString == orig(this.margin.unitType.name.toString)",
+                                    "this.margin.left == orig(this.margin.left)",
+                                    "this.margin.right == orig(this.margin.right)",
+                                    "this.padding.unitType.name.toString == orig(this.padding.unitType.name.toString)",
+                                    "this.width == orig(this.width)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "return.getClass().getName() == org.jfree.chart.block.BlockResult.class",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.frame.getClass().getName() == orig(this.frame.getClass().getName())",
+                                    "this.padding.left == orig(this.padding.left)",
+                                    "this.arrangement == orig(this.arrangement)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)",
+                                    "this.margin.bottom == orig(this.margin.bottom)",
+                                    "this.arrangement.getClass().getName() == orig(this.arrangement.getClass().getName())",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.padding.right == orig(this.padding.right)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "this.frame == orig(this.frame)",
+                                    "this.margin.top == orig(this.margin.top)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setToolTipText(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) == 2",
+                                    "text == null",
+                                    "this.blocks[].getClass().getName() == [org.jfree.chart.title.LegendGraphic, org.jfree.chart.block.LabelBlock]",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.unitType == orig(this.padding.unitType)",
+                                    "this.bounds == orig(this.bounds)",
+                                    "this.blocks == orig(this.blocks)",
+                                    "this.padding == orig(this.padding)",
+                                    "this.margin == orig(this.margin)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.padding.unitType.name == orig(this.padding.unitType.name)",
+                                    "this.blocks[] == orig(this.blocks[])",
+                                    "this.padding.bottom == orig(this.padding.bottom)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.margin.unitType == orig(this.margin.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "size(this.blocks[]) == 2",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.height == orig(this.height)",
+                                    "this.bounds.getClass().getName() == orig(this.bounds.getClass().getName())",
+                                    "this.padding.top == orig(this.padding.top)",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.blocks[].getClass().getName() == [org.jfree.chart.title.LegendGraphic, org.jfree.chart.block.LabelBlock]",
+                                    "this.id == orig(this.id)",
+                                    "this.margin.unitType.name == orig(this.margin.unitType.name)",
+                                    "this.margin.unitType.name.toString == orig(this.margin.unitType.name.toString)",
+                                    "this.margin.left == orig(this.margin.left)",
+                                    "this.margin.right == orig(this.margin.right)",
+                                    "this.padding.unitType.name.toString == orig(this.padding.unitType.name.toString)",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.width == orig(this.width)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.frame.getClass().getName() == orig(this.frame.getClass().getName())",
+                                    "this.padding.left == orig(this.padding.left)",
+                                    "this.arrangement == orig(this.arrangement)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)",
+                                    "this.margin.bottom == orig(this.margin.bottom)",
+                                    "this.arrangement.getClass().getName() == orig(this.arrangement.getClass().getName())",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.padding.right == orig(this.padding.right)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.frame == orig(this.frame)",
+                                    "this.margin.top == orig(this.margin.top)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setURLText(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.blocks[]) == 2",
+                                    "text == null",
+                                    "this.blocks[].getClass().getName() == [org.jfree.chart.title.LegendGraphic, org.jfree.chart.block.LabelBlock]",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.unitType == orig(this.padding.unitType)",
+                                    "this.bounds == orig(this.bounds)",
+                                    "this.blocks == orig(this.blocks)",
+                                    "this.padding == orig(this.padding)",
+                                    "this.margin == orig(this.margin)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.padding.unitType.name == orig(this.padding.unitType.name)",
+                                    "this.blocks[] == orig(this.blocks[])",
+                                    "this.padding.bottom == orig(this.padding.bottom)",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.margin.unitType == orig(this.margin.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "size(this.blocks[]) == 2",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.height == orig(this.height)",
+                                    "this.bounds.getClass().getName() == orig(this.bounds.getClass().getName())",
+                                    "this.padding.top == orig(this.padding.top)",
+                                    "this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.blocks[].getClass().getName() == [org.jfree.chart.title.LegendGraphic, org.jfree.chart.block.LabelBlock]",
+                                    "this.id == orig(this.id)",
+                                    "this.margin.unitType.name == orig(this.margin.unitType.name)",
+                                    "this.margin.unitType.name.toString == orig(this.margin.unitType.name.toString)",
+                                    "this.margin.left == orig(this.margin.left)",
+                                    "this.margin.right == orig(this.margin.right)",
+                                    "this.padding.unitType.name.toString == orig(this.padding.unitType.name.toString)",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.width == orig(this.width)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.frame.getClass().getName() == orig(this.frame.getClass().getName())",
+                                    "this.padding.left == orig(this.padding.left)",
+                                    "this.arrangement == orig(this.arrangement)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)",
+                                    "this.margin.bottom == orig(this.margin.bottom)",
+                                    "this.arrangement.getClass().getName() == orig(this.arrangement.getClass().getName())",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.padding.right == orig(this.padding.right)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.frame == orig(this.frame)",
+                                    "this.margin.top == orig(this.margin.top)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

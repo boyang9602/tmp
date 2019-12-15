@@ -1,0 +1,52 @@
+{
+    "org.apache.commons.math3.genetics.ListPopulation": [
+        {
+            "iterator()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair4.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair4.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == java.util.Collections$UnmodifiableCollection$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == java.util.ArrayList$Itr.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == java.util.Collections$UnmodifiableCollection$1.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

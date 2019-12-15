@@ -1,0 +1,51 @@
+{
+    "org.apache.commons.lang.StringUtils": [
+        {
+            "isEmpty(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "str.toString one of { \"01\", \"1\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "str.toString one of { \"\", \"1\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "str.toString one of { \"01\", \"1\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "str.toString == \"\"",
+                                    "(str.toString == \"1\")  <==>  (return == false)",
+                                    "(str.toString == \"\")  <==>  (return == true)",
+                                    "(str.toString == \"\")  ==>  (orig(str) has only one value)",
+                                    "orig(str) has only one value",
+                                    "str.toString == \"1\"",
+                                    "str.toString one of { \"\", \"1\" }",
+                                    "return == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,352 @@
+{
+    "org.jfree.chart.plot.CategoryPlot": [
+        {
+            "getDataset(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawDomainMarkers(java.awt.Graphics2D, java.awt.geom.Rectangle2D, int, org.jfree.chart.util.Layer)": [
+                {
+                    "EXITNN": [
+                        {
+                            "2955": [
+                                {
+                                    "Patch93.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, java.awt.geom.Rectangle2D, java.awt.geom.Point2D, org.jfree.chart.plot.PlotState, org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "state.dataArea == orig(state.dataArea)",
+                                    "state.plotArea == orig(state.plotArea)",
+                                    "state.plotArea == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.plotArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "2651": [
+                                {
+                                    "Patch93.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "2539": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRenderer(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rangeGridlinePaint != null",
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.domainGridlinePosition != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "this.annotations != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "this.domainGridlinePaint != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.backgroundRangeMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.backgroundDomainMarkers != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.domainGridlinePosition != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "this.annotations != null",
+                                    "this.domainGridlinePaint != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "return != null",
+                                    "this.backgroundRangeMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.foregroundRangeMarkers != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawRangeMarkers(java.awt.Graphics2D, java.awt.geom.Rectangle2D, int, org.jfree.chart.util.Layer)": [
+                {
+                    "EXITNN": [
+                        {
+                            "2986": [
+                                {
+                                    "Patch93.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRangeAxis(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.backgroundDomainMarkers == null",
+                                    "this.foregroundDomainMarkers == null",
+                                    "this.foregroundRangeMarkers == null",
+                                    "this.rangeGridlinePaint == null",
+                                    "this.rangeGridlinesVisible == false",
+                                    "this.rangeGridlineStroke == null",
+                                    "this.backgroundRangeMarkers == null",
+                                    "this.domainGridlinePaint == null",
+                                    "this.domainGridlinePosition == null",
+                                    "this.rangeCrosshairPaint == null",
+                                    "this.orientation.name.toString == \"PlotOrientation.VERTICAL\"",
+                                    "this.rangeCrosshairStroke == null",
+                                    "this.orientation has only one value",
+                                    "this.annotations == null",
+                                    "this.domainGridlineStroke == null",
+                                    "this.orientation.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.rangeCrosshairPaint == null",
+                                    "this.domainGridlinePaint == null",
+                                    "this.annotations == null",
+                                    "return.range has only one value",
+                                    "return.plot == null",
+                                    "this.domainGridlinePosition == null",
+                                    "this.backgroundDomainMarkers == null",
+                                    "this.rangeCrosshairStroke == null",
+                                    "this.orientation.name has only one value",
+                                    "this.foregroundDomainMarkers == null",
+                                    "this.backgroundRangeMarkers == null",
+                                    "this.orientation has only one value",
+                                    "this.domainGridlineStroke == null",
+                                    "this.orientation.name.toString == \"PlotOrientation.VERTICAL\"",
+                                    "this.rangeGridlinePaint == null",
+                                    "this.rangeGridlineStroke == null",
+                                    "this.foregroundRangeMarkers == null",
+                                    "return.range.upper == 1.0",
+                                    "this.rangeGridlinesVisible == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.plot.backgroundImage == null",
+                                    "return.labelFont != null",
+                                    "return.plot.parent == null",
+                                    "return.axisLineStroke != null",
+                                    "return.range.upper one of { 1.0, 105.0 }",
+                                    "return.plot.backgroundPaint != null",
+                                    "return.defaultAutoRange != null",
+                                    "return.label != null",
+                                    "return.rightArrow != null",
+                                    "return.tickMarkPaint != null",
+                                    "this.rangeCrosshairPaint.getClass().getName() == orig(this.rangeCrosshairPaint.getClass().getName())",
+                                    "return.range != null",
+                                    "return.tickLabelPaint != null",
+                                    "return.standardTickUnits != null",
+                                    "return != null",
+                                    "return.tickLabelFont != null",
+                                    "return.plot.backgroundPaint has only one value",
+                                    "return.plot.outlinePaint has only one value",
+                                    "return.plot.backgroundImageAlignment == 15",
+                                    "return.plot.insets != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE != null",
+                                    "return.plot.outlineStroke has only one value",
+                                    "return.plot.getClass().getName() == org.jfree.chart.plot.CategoryPlot.class",
+                                    "return.plot.outlineStroke != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT != null",
+                                    "return.plot.outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "return.plot.listenerList != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT != null",
+                                    "this.rangeGridlineStroke.getClass().getName() == orig(this.rangeGridlineStroke.getClass().getName())",
+                                    "return.plot.noDataMessagePaint != null",
+                                    "return.plot.drawingSupplier.getClass().getName() == org.jfree.chart.plot.DefaultDrawingSupplier.class",
+                                    "return.plot.drawingSupplier != null",
+                                    "return.tickLabelInsets.unitType != null",
+                                    "this.foregroundDomainMarkers.getClass().getName() == orig(this.foregroundDomainMarkers.getClass().getName())",
+                                    "return.axisLinePaint != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT != null",
+                                    "return.plot.outlineVisible == true",
+                                    "return.plot.datasetGroup == null",
+                                    "this.domainGridlinePosition.name == orig(this.domainGridlinePosition.name)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.unitType != null",
+                                    "return.plot.noDataMessage == null",
+                                    "return.labelInsets != null",
+                                    "this.domainGridlineStroke.getClass().getName() == orig(this.domainGridlineStroke.getClass().getName())",
+                                    "this.annotations[] == orig(this.annotations[])",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS != null",
+                                    "return.plot.backgroundImageAlpha == 0.5",
+                                    "this.rangeCrosshairStroke.getClass().getName() == orig(this.rangeCrosshairStroke.getClass().getName())",
+                                    "return.plot.noDataMessagePaint has only one value",
+                                    "return.plot.backgroundPaint.getClass().getName() == java.awt.Color.class",
+                                    "return.plot.noDataMessagePaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.annotations.getClass().getName() == orig(this.annotations.getClass().getName())",
+                                    "return.tickMarkStroke != null",
+                                    "return.plot.outlinePaint.getClass().getName() == java.awt.Color.class",
+                                    "return.leftArrow != null",
+                                    "return.plot.outlinePaint != null",
+                                    "return.plot.noDataMessageFont != null",
+                                    "return.labelInsets.unitType != null",
+                                    "this.rangeGridlinePaint.getClass().getName() == orig(this.rangeGridlinePaint.getClass().getName())",
+                                    "return.plot.insets has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT != null",
+                                    "return.labelPaint != null",
+                                    "this.backgroundDomainMarkers.getClass().getName() == orig(this.backgroundDomainMarkers.getClass().getName())",
+                                    "this.backgroundRangeMarkers.getClass().getName() == orig(this.backgroundRangeMarkers.getClass().getName())",
+                                    "return.plot.backgroundAlpha == 1.0",
+                                    "return.listenerList != null",
+                                    "this.domainGridlinePaint.getClass().getName() == orig(this.domainGridlinePaint.getClass().getName())",
+                                    "this.foregroundRangeMarkers.getClass().getName() == orig(this.foregroundRangeMarkers.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE != null",
+                                    "return.downArrow != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.unitType != null",
+                                    "return.upArrow != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS != null",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE != null",
+                                    "return.tickLabelInsets != null",
+                                    "return.plot.foregroundAlpha == 1.0",
+                                    "this.domainGridlinePosition.name.toString == orig(this.domainGridlinePosition.name.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

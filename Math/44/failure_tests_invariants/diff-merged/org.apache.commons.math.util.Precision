@@ -1,0 +1,56 @@
+{
+    "org.apache.commons.math.util.Precision": [
+        {
+            "equals(double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) one of { 0.0, 30.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "orig(y) == 0.0",
+                                    "(return == false)  ==>  (orig(y) one of { 0.0, 30.0 })",
+                                    "(return == true)  ==>  (orig(x) == 0.0)",
+                                    "(return == true)  ==>  (orig(y) == 0.0)",
+                                    "orig(x) == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(x) one of { 0.0, 30.0 })"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

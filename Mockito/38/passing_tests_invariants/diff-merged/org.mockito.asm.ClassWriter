@@ -1,0 +1,883 @@
+{
+    "org.mockito.asm.ClassWriter": [
+        {
+            "newFieldItem(java.lang.String, java.lang.String, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastMethod.cw.threshold % orig(this.lastMethod.cw.threshold) == 0",
+                                    "this.firstMethod.cw.threshold % orig(this.firstMethod.cw.threshold) == 0",
+                                    "return.next.type >= 1",
+                                    "this.lastField.cw.threshold % orig(this.lastField.cw.threshold) == 0",
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "this.firstField.cw.threshold % orig(this.firstField.cw.threshold) == 0",
+                                    "this.threshold % orig(this.threshold) == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.lastMethod.cw.threshold % orig(this.lastMethod.cw.threshold) == 0",
+                                    "this.firstMethod.cw.threshold % orig(this.firstMethod.cw.threshold) == 0",
+                                    "return.next.type >= 1",
+                                    "this.lastField.cw.threshold % orig(this.lastField.cw.threshold) == 0",
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "this.firstField.cw.threshold % orig(this.firstField.cw.threshold) == 0",
+                                    "this.threshold % orig(this.threshold) == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visitEnd()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "get(org.mockito.asm.Item)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.next.index >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visitField(int, java.lang.String, java.lang.String, java.lang.String, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastField.cw.threshold >= orig(this.lastField.cw.threshold)",
+                                    "size(this.lastField.cw.items[])-1 >= orig(size(this.lastField.cw.items[]))-1",
+                                    "size(this.lastMethod.cw.items[]) >= orig(size(this.lastMethod.cw.items[]))",
+                                    "size(this.firstMethod.cw.items[])-1 != orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstMethod.cw.items[]) >= orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstField.cw.items[])-1 >= orig(size(this.firstField.cw.items[]))-1",
+                                    "size(this.firstField.cw.items[]) >= orig(size(this.firstField.cw.items[]))",
+                                    "size(this.lastField.cw.items[])-1 != orig(size(this.lastField.cw.items[]))",
+                                    "this.threshold >= orig(this.threshold)",
+                                    "size(this.items[])-1 != orig(size(this.items[]))",
+                                    "this.firstMethod.cw.threshold >= orig(this.firstMethod.cw.threshold)",
+                                    "size(this.lastField.cw.items[]) >= orig(size(this.lastField.cw.items[]))",
+                                    "size(this.firstField.cw.items[])-1 != orig(size(this.firstField.cw.items[]))",
+                                    "this.firstField.cw.threshold >= orig(this.firstField.cw.threshold)",
+                                    "size(this.items[]) >= orig(size(this.items[]))",
+                                    "this.lastMethod.cw.threshold >= orig(this.lastMethod.cw.threshold)",
+                                    "size(this.lastMethod.cw.items[])-1 >= orig(size(this.lastMethod.cw.items[]))-1",
+                                    "size(this.items[])-1 >= orig(size(this.items[]))-1",
+                                    "size(this.firstMethod.cw.items[])-1 >= orig(size(this.firstMethod.cw.items[]))-1",
+                                    "size(this.lastMethod.cw.items[])-1 != orig(size(this.lastMethod.cw.items[]))",
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lastField.cw.items[]) == orig(size(this.lastField.cw.items[]))",
+                                    "this.lastMethod.cw.threshold == orig(this.lastMethod.cw.threshold)",
+                                    "size(this.items[]) == orig(size(this.items[]))",
+                                    "this.items == orig(this.items)",
+                                    "size(this.lastMethod.cw.items[]) == orig(size(this.lastMethod.cw.items[]))",
+                                    "this.firstField.cw.items == orig(this.firstField.cw.items)",
+                                    "this.lastField.cw.items == orig(this.lastField.cw.items)",
+                                    "size(this.firstMethod.cw.items[]) == orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstField.cw.items[]) == orig(size(this.firstField.cw.items[]))",
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }",
+                                    "this.firstMethod.cw.threshold == orig(this.firstMethod.cw.threshold)",
+                                    "this.threshold == orig(this.threshold)",
+                                    "this.lastMethod.cw.items == orig(this.lastMethod.cw.items)",
+                                    "this.firstMethod.cw.items == orig(this.firstMethod.cw.items)",
+                                    "this.lastField.cw.threshold == orig(this.lastField.cw.threshold)",
+                                    "this.firstField.cw.threshold == orig(this.firstField.cw.threshold)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.lastField.cw.threshold >= orig(this.lastField.cw.threshold)",
+                                    "size(this.lastField.cw.items[]) == orig(size(this.lastField.cw.items[]))",
+                                    "this.lastMethod.cw.threshold == orig(this.lastMethod.cw.threshold)",
+                                    "size(this.items[]) == orig(size(this.items[]))",
+                                    "this.items == orig(this.items)",
+                                    "size(this.lastMethod.cw.items[]) == orig(size(this.lastMethod.cw.items[]))",
+                                    "this.firstField.cw.items == orig(this.firstField.cw.items)",
+                                    "size(this.lastField.cw.items[])-1 >= orig(size(this.lastField.cw.items[]))-1",
+                                    "this.lastField.cw.items == orig(this.lastField.cw.items)",
+                                    "size(this.firstMethod.cw.items[]) == orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.lastMethod.cw.items[]) >= orig(size(this.lastMethod.cw.items[]))",
+                                    "size(this.firstMethod.cw.items[])-1 != orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstMethod.cw.items[]) >= orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstField.cw.items[])-1 >= orig(size(this.firstField.cw.items[]))-1",
+                                    "size(this.firstField.cw.items[]) >= orig(size(this.firstField.cw.items[]))",
+                                    "size(this.lastField.cw.items[])-1 != orig(size(this.lastField.cw.items[]))",
+                                    "this.threshold >= orig(this.threshold)",
+                                    "size(this.firstField.cw.items[]) == orig(size(this.firstField.cw.items[]))",
+                                    "this.firstMethod.cw.threshold == orig(this.firstMethod.cw.threshold)",
+                                    "size(this.items[])-1 != orig(size(this.items[]))",
+                                    "this.firstMethod.cw.threshold >= orig(this.firstMethod.cw.threshold)",
+                                    "size(this.lastField.cw.items[]) >= orig(size(this.lastField.cw.items[]))",
+                                    "this.threshold == orig(this.threshold)",
+                                    "size(this.firstField.cw.items[])-1 != orig(size(this.firstField.cw.items[]))",
+                                    "this.lastMethod.cw.items == orig(this.lastMethod.cw.items)",
+                                    "this.firstField.cw.threshold >= orig(this.firstField.cw.threshold)",
+                                    "this.firstMethod.cw.items == orig(this.firstMethod.cw.items)",
+                                    "size(this.items[]) >= orig(size(this.items[]))",
+                                    "this.lastMethod.cw.threshold >= orig(this.lastMethod.cw.threshold)",
+                                    "size(this.lastMethod.cw.items[])-1 >= orig(size(this.lastMethod.cw.items[]))-1",
+                                    "size(this.items[])-1 >= orig(size(this.items[]))-1",
+                                    "this.lastField.cw.threshold == orig(this.lastField.cw.threshold)",
+                                    "size(this.firstMethod.cw.items[])-1 >= orig(size(this.firstMethod.cw.items[]))-1",
+                                    "size(this.lastMethod.cw.items[])-1 != orig(size(this.lastMethod.cw.items[]))",
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "this.firstField.cw.threshold == orig(this.firstField.cw.threshold)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "put122(int, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "newMethodItem(java.lang.String, java.lang.String, java.lang.String, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "newNameType(java.lang.String, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastMethod.cw.threshold % orig(this.lastMethod.cw.threshold) == 0",
+                                    "this.firstMethod.cw.threshold % orig(this.firstMethod.cw.threshold) == 0",
+                                    "this.lastField.cw.threshold % orig(this.lastField.cw.threshold) == 0",
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "this.firstField.cw.threshold % orig(this.firstField.cw.threshold) == 0",
+                                    "this.threshold % orig(this.threshold) == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.lastMethod.cw.threshold % orig(this.lastMethod.cw.threshold) == 0",
+                                    "this.firstMethod.cw.threshold % orig(this.firstMethod.cw.threshold) == 0",
+                                    "this.lastField.cw.threshold % orig(this.lastField.cw.threshold) == 0",
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "this.firstField.cw.threshold % orig(this.firstField.cw.threshold) == 0",
+                                    "this.threshold % orig(this.threshold) == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "toByteArray()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "843": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch179.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.lastField.cw.items[]) == orig(size(this.lastField.cw.items[]))",
+                                    "this.lastMethod.cw.threshold == orig(this.lastMethod.cw.threshold)",
+                                    "size(this.items[]) == orig(size(this.items[]))",
+                                    "this.items == orig(this.items)",
+                                    "size(this.lastMethod.cw.items[]) == orig(size(this.lastMethod.cw.items[]))",
+                                    "this.firstField.cw.items == orig(this.firstField.cw.items)",
+                                    "this.lastField.cw.items == orig(this.lastField.cw.items)",
+                                    "size(this.firstMethod.cw.items[]) == orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstField.cw.items[]) == orig(size(this.firstField.cw.items[]))",
+                                    "this.firstMethod.cw.threshold == orig(this.firstMethod.cw.threshold)",
+                                    "this.threshold == orig(this.threshold)",
+                                    "this.lastMethod.cw.items == orig(this.lastMethod.cw.items)",
+                                    "this.firstMethod.cw.items == orig(this.firstMethod.cw.items)",
+                                    "this.lastField.cw.threshold == orig(this.lastField.cw.threshold)",
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "this.firstField.cw.threshold == orig(this.firstField.cw.threshold)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lastField.cw.threshold >= orig(this.lastField.cw.threshold)",
+                                    "size(this.lastField.cw.items[])-1 >= orig(size(this.lastField.cw.items[]))-1",
+                                    "size(this.lastMethod.cw.items[]) >= orig(size(this.lastMethod.cw.items[]))",
+                                    "size(this.firstMethod.cw.items[])-1 != orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstMethod.cw.items[]) >= orig(size(this.firstMethod.cw.items[]))",
+                                    "this.firstMethod.next.maxLocals % orig(this.firstMethod.next.maxLocals) == 0",
+                                    "size(this.firstField.cw.items[])-1 >= orig(size(this.firstField.cw.items[]))-1",
+                                    "size(this.firstField.cw.items[]) >= orig(size(this.firstField.cw.items[]))",
+                                    "size(this.lastField.cw.items[])-1 != orig(size(this.lastField.cw.items[]))",
+                                    "this.threshold >= orig(this.threshold)",
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }",
+                                    "size(this.items[])-1 != orig(size(this.items[]))",
+                                    "this.firstMethod.cw.threshold >= orig(this.firstMethod.cw.threshold)",
+                                    "size(this.lastField.cw.items[]) >= orig(size(this.lastField.cw.items[]))",
+                                    "size(this.firstField.cw.items[])-1 != orig(size(this.firstField.cw.items[]))",
+                                    "this.firstField.cw.threshold >= orig(this.firstField.cw.threshold)",
+                                    "size(this.items[]) >= orig(size(this.items[]))",
+                                    "this.lastMethod.cw.threshold >= orig(this.lastMethod.cw.threshold)",
+                                    "size(this.lastMethod.cw.items[])-1 >= orig(size(this.lastMethod.cw.items[]))-1",
+                                    "size(this.items[])-1 >= orig(size(this.items[]))-1",
+                                    "size(this.firstMethod.cw.items[])-1 >= orig(size(this.firstMethod.cw.items[]))-1",
+                                    "size(this.lastMethod.cw.items[])-1 != orig(size(this.lastMethod.cw.items[]))",
+                                    "orig(this.firstMethod.next.maxLocals) % this.firstMethod.next.maxLocals == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.lastField.cw.threshold >= orig(this.lastField.cw.threshold)",
+                                    "size(this.lastField.cw.items[]) == orig(size(this.lastField.cw.items[]))",
+                                    "this.lastMethod.cw.threshold == orig(this.lastMethod.cw.threshold)",
+                                    "size(this.items[]) == orig(size(this.items[]))",
+                                    "this.items == orig(this.items)",
+                                    "size(this.lastMethod.cw.items[]) == orig(size(this.lastMethod.cw.items[]))",
+                                    "this.firstField.cw.items == orig(this.firstField.cw.items)",
+                                    "size(this.lastField.cw.items[])-1 >= orig(size(this.lastField.cw.items[]))-1",
+                                    "this.lastField.cw.items == orig(this.lastField.cw.items)",
+                                    "size(this.firstMethod.cw.items[]) == orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.lastMethod.cw.items[]) >= orig(size(this.lastMethod.cw.items[]))",
+                                    "size(this.firstMethod.cw.items[])-1 != orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstMethod.cw.items[]) >= orig(size(this.firstMethod.cw.items[]))",
+                                    "size(this.firstField.cw.items[])-1 >= orig(size(this.firstField.cw.items[]))-1",
+                                    "size(this.firstField.cw.items[]) >= orig(size(this.firstField.cw.items[]))",
+                                    "size(this.lastField.cw.items[])-1 != orig(size(this.lastField.cw.items[]))",
+                                    "this.threshold >= orig(this.threshold)",
+                                    "size(this.firstField.cw.items[]) == orig(size(this.firstField.cw.items[]))",
+                                    "this.firstMethod.cw.threshold == orig(this.firstMethod.cw.threshold)",
+                                    "size(this.items[])-1 != orig(size(this.items[]))",
+                                    "this.firstMethod.cw.threshold >= orig(this.firstMethod.cw.threshold)",
+                                    "size(this.lastField.cw.items[]) >= orig(size(this.lastField.cw.items[]))",
+                                    "size(this.firstField.cw.items[])-1 != orig(size(this.firstField.cw.items[]))",
+                                    "this.threshold == orig(this.threshold)",
+                                    "this.lastMethod.cw.items == orig(this.lastMethod.cw.items)",
+                                    "this.firstField.cw.threshold >= orig(this.firstField.cw.threshold)",
+                                    "this.firstMethod.cw.items == orig(this.firstMethod.cw.items)",
+                                    "size(this.items[]) >= orig(size(this.items[]))",
+                                    "this.lastMethod.cw.threshold >= orig(this.lastMethod.cw.threshold)",
+                                    "size(this.lastMethod.cw.items[])-1 >= orig(size(this.lastMethod.cw.items[]))-1",
+                                    "size(this.items[])-1 >= orig(size(this.items[]))-1",
+                                    "this.lastField.cw.threshold == orig(this.lastField.cw.threshold)",
+                                    "size(this.firstMethod.cw.items[])-1 >= orig(size(this.firstMethod.cw.items[]))-1",
+                                    "size(this.lastMethod.cw.items[])-1 != orig(size(this.lastMethod.cw.items[]))",
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "this.firstField.cw.threshold == orig(this.firstField.cw.threshold)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "newString(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "return.next.index >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "return.next.index >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "newConstItem(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "return.next.index >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals one of { 1, 4, 8 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.firstMethod.next.maxLocals >= 1",
+                                    "return.next.index >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "863": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch179.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "886": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch179.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "newClassItem(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.next.intVal one of { 0, 9 }",
+                                    "return.next.strVal3.toString one of { \"(Ljava/lang/Object;)Z\", \"Ljava/lang/reflect/Method;\", \"Lorg/mockito/cglib/proxy/MethodProxy;\" }",
+                                    "return.next.intVal >= 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.next.type >= 1",
+                                    "return.next.intVal one of { 0, 6, 9 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "return.next.type >= 1",
+                                    "return.next.intVal one of { 0, 9 }",
+                                    "return.next.strVal3.toString one of { \"(Ljava/lang/Object;)Z\", \"Ljava/lang/reflect/Method;\", \"Lorg/mockito/cglib/proxy/MethodProxy;\" }",
+                                    "return.next.intVal >= 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "put(org.mockito.asm.Item)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "i.next.index >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

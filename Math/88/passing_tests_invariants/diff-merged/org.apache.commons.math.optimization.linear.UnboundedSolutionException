@@ -1,0 +1,50 @@
+{
+    "org.apache.commons.math.optimization.linear.UnboundedSolutionException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch74.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch74.inv.output": {
+                        "invs": [
+                            "this.arguments[] == []",
+                            "this.pattern.toString == \"unbounded solution\"",
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.arguments[].getClass().getName() == []",
+                            "this.pattern has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "UnboundedSolutionException()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

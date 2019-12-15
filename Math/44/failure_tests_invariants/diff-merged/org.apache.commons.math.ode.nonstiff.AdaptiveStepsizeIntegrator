@@ -1,0 +1,491 @@
+{
+    "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator": [
+        {
+            "AdaptiveStepsizeIntegrator(java.lang.String, double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filterStep(double, boolean, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 16, 31, 47 }",
+                                    "this.expandable.primaryState[] one of { [2.333333333333337], [6.653294802391118], [11.989999999999997] }",
+                                    "this.statesInitialized == true",
+                                    "acceptSmall == false",
+                                    "h one of { 4.697093317360001, 7.662366090153938, 12.72416363844809 }",
+                                    "this.stepStart one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "this.stepSize one of { 3.0, 4.697093317360001, 7.662366090153938 }",
+                                    "this.expandable.primaryState[] elements one of { 2.333333333333337, 6.653294802391118, 11.989999999999997 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 16, 31, 47 }",
+                                    "this.expandable.primaryState[] one of { [2.333333333333337], [6.653294802391118], [11.989999999999997] }",
+                                    "this.statesInitialized == true",
+                                    "return one of { 4.697093317360001, 7.662366090153938, 12.72416363844809 }",
+                                    "this.stepStart one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "this.stepSize one of { 3.0, 4.697093317360001, 7.662366090153938 }",
+                                    "this.expandable.primaryState[] elements one of { 2.333333333333337, 6.653294802391118, 11.989999999999997 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setInitialStepSize(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "resetInternalState()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryState[] elements == 32.0",
+                                    "this.evaluations.count one of { 0, 78 }",
+                                    "this.expandable.time == 30.0",
+                                    "this.stepSize one of { 18.990000000000002, Double.NaN }",
+                                    "this.initialStep one of { -1.0, 3.0 }",
+                                    "this.expandable.primaryState[] == [32.0]",
+                                    "this.stepStart one of { 30.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.initialStep == -1.0",
+                                    "this.expandable == null",
+                                    "this.statesInitialized == false",
+                                    "this.stepSize == Double.NaN",
+                                    "this.mainSetDimension == 0",
+                                    "this.stepStart == Double.NaN",
+                                    "this.evaluations.count == 0",
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryState[] elements == 32.0",
+                                    "this.evaluations.count one of { 0, 78 }",
+                                    "this.expandable.time == 30.0",
+                                    "this.stepSize one of { 18.990000000000002, Double.NaN }",
+                                    "this.initialStep one of { -1.0, 3.0 }",
+                                    "this.expandable.primaryState[] == [32.0]",
+                                    "this.stepStart one of { 30.0, Double.NaN }",
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryState[] elements == 32.0",
+                                    "this.initialStep one of { -1.0, 3.0 }",
+                                    "this.expandable.primaryStateDot == orig(this.expandable.primaryStateDot)",
+                                    "this.expandable.primaryMapper == orig(this.expandable.primaryMapper)",
+                                    "this.expandable.primary.getClass().getName() == orig(this.expandable.primary.getClass().getName())",
+                                    "this.expandable.primaryStateDot[] == orig(this.expandable.primaryStateDot[])",
+                                    "this.expandable.primaryState[] == orig(this.expandable.primaryState[])",
+                                    "this.expandable.primaryMapper.dimension == orig(this.expandable.primaryMapper.dimension)",
+                                    "this.expandable.primary == orig(this.expandable.primary)",
+                                    "this.expandable.time == orig(this.expandable.time)",
+                                    "this.expandable.primaryMapper.firstIndex == orig(this.expandable.primaryMapper.firstIndex)",
+                                    "this.expandable.components == orig(this.expandable.components)",
+                                    "this.expandable.components[] == orig(this.expandable.components[])",
+                                    "this.evaluations.count one of { 0, 78 }",
+                                    "this.expandable.primaryState == orig(this.expandable.primaryState)",
+                                    "this.expandable.time == 30.0",
+                                    "this.expandable.primaryState[] == [32.0]",
+                                    "this.expandable.components.getClass().getName() == orig(this.expandable.components.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.initialStep == -1.0",
+                                    "this.expandable == null",
+                                    "this.statesInitialized == false",
+                                    "this.mainSetDimension == 0",
+                                    "this.evaluations.count == 0",
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryState[] elements == 32.0",
+                                    "this.initialStep one of { -1.0, 3.0 }",
+                                    "this.expandable.primaryStateDot == orig(this.expandable.primaryStateDot)",
+                                    "this.expandable.primaryMapper == orig(this.expandable.primaryMapper)",
+                                    "this.expandable.primary.getClass().getName() == orig(this.expandable.primary.getClass().getName())",
+                                    "this.expandable.primaryStateDot[] == orig(this.expandable.primaryStateDot[])",
+                                    "this.expandable.primaryState[] == orig(this.expandable.primaryState[])",
+                                    "this.expandable.primaryMapper.dimension == orig(this.expandable.primaryMapper.dimension)",
+                                    "this.expandable.primary == orig(this.expandable.primary)",
+                                    "this.expandable.time == orig(this.expandable.time)",
+                                    "this.expandable.primaryMapper.firstIndex == orig(this.expandable.primaryMapper.firstIndex)",
+                                    "this.expandable.components == orig(this.expandable.components)",
+                                    "this.expandable.components[] == orig(this.expandable.components[])",
+                                    "this.resetOccurred == false",
+                                    "this.evaluations.count one of { 0, 78 }",
+                                    "this.expandable.primaryState == orig(this.expandable.primaryState)",
+                                    "this.expandable.time == 30.0",
+                                    "this.expandable.primaryState[] == [32.0]",
+                                    "this.expandable.components.getClass().getName() == orig(this.expandable.components.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "initializeStep(boolean, int, double[], double, double[], double[], double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "252": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sanityChecks(org.apache.commons.math.ode.ExpandableStatefulODE, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setStepSizeControl(double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

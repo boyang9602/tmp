@@ -1,0 +1,83 @@
+{
+    "org.apache.commons.math.util.Incrementor": [
+        {
+            "setMaximalCount(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.count == 0",
+                                    "this.maximalCount == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.count one of { 0, 2, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.count == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.count one of { 0, 2, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "resetCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.count == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.count one of { 0, 2, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.count == orig(this.count)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "org.apache.commons.math.analysis.UnivariateRealSolverUtils": [
+        {
+            "solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "x0 == 0.0",
+                                    "x1 >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x0 one of { 0.0, 2.000040000793568E-5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "x0 == 0.0",
+                                    "x1 >= 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "initial one of { 5.0, 100000.0 }",
+                                    "initial == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "initial one of { 1.000020000400008, 1.5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "initial one of { 5.0, 100000.0 }",
+                                    "initial == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "initial one of { 5.0, 100000.0 }",
+                                    "initial == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "initial one of { 1.000020000400008, 1.5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "initial one of { 5.0, 100000.0 }",
+                                    "initial == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch75.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

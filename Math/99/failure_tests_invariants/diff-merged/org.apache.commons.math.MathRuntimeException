@@ -1,0 +1,242 @@
+{
+    "org.apache.commons.math.MathRuntimeException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "org.apache.commons.math.MathRuntimeException.cachedResources == null"
+                        ]
+                    }
+                },
+                {
+                    "Patch209.inv.output": {
+                        "invs": [
+                            "org.apache.commons.math.MathRuntimeException.cachedResources == null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "createArithmeticException(java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "pattern has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "size(arguments[]) == 2",
+                                    "arguments has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 2"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch209.inv.output": {
+                                "invs": [
+                                    "pattern has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "size(arguments[]) == 2",
+                                    "arguments has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)",
+                                    "pattern.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "arguments[] == orig(arguments[])",
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch209.inv.output": {
+                                "invs": [
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)",
+                                    "pattern.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "arguments[] == orig(arguments[])",
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "return has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildMessage(java.lang.String, java.lang.Object[], java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "pattern has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "size(arguments[]) == 2",
+                                    "arguments has only one value",
+                                    "locale has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 2"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch209.inv.output": {
+                                "invs": [
+                                    "pattern has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "size(arguments[]) == 2",
+                                    "arguments has only one value",
+                                    "locale has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "return.toString == \"overflow: gcd(-2,147,483,648, -2,147,483,648) is 2^31\"",
+                                    "org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)",
+                                    "pattern.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "arguments[] == orig(arguments[])",
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "return has only one value",
+                                    "return.toString one of { \"overflow: gcd(-2,147,483,648, -2,147,483,648) is 2^31\", \"overflow: gcd(-2,147,483,648, 0) is 2^31\", \"overflow: gcd(0, -2,147,483,648) is 2^31\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch209.inv.output": {
+                                "invs": [
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "return.toString == \"overflow: gcd(-2,147,483,648, -2,147,483,648) is 2^31\"",
+                                    "org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)",
+                                    "pattern.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "arguments[] == orig(arguments[])",
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "return has only one value",
+                                    "return.toString one of { \"overflow: gcd(-2,147,483,648, -2,147,483,648) is 2^31\", \"overflow: gcd(-2,147,483,648, 0) is 2^31\", \"overflow: gcd(0, -2,147,483,648) is 2^31\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "translate(java.lang.String, java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "s has only one value",
+                                    "s.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "locale has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch209.inv.output": {
+                                "invs": [
+                                    "s has only one value",
+                                    "s.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "locale has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "s.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "s.toString == orig(s.toString)",
+                                    "org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)",
+                                    "return.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch209.inv.output": {
+                                "invs": [
+                                    "s.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "s.toString == orig(s.toString)",
+                                    "org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)",
+                                    "return.toString == \"overflow: gcd({0}, {1}) is 2^31\"",
+                                    "return has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "81": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch209.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

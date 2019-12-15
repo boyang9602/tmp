@@ -1,0 +1,309 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexTableau": [
+        {
+            "getSolution()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 10.0",
+                                    "return.point[] == [10.0]",
+                                    "return.value == 30.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.point[] == [0.0]",
+                                    "return.value == 0.0",
+                                    "return.point[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 10.0",
+                                    "return.point[] == [10.0]",
+                                    "return.value == 30.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 10.0",
+                                    "return.point[] == [10.0]",
+                                    "return.value == 30.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getBasicRow(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": [
+                                    "(return has only one value)  <==>  (orig(col) == 1)",
+                                    "(return == null)  <==>  (orig(col) == 2)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return has only one value)  <==>  (orig(col) == 1)",
+                                    "(return == null)  <==>  (orig(col) == 2)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": [
+                                    "(return has only one value)  <==>  (orig(col) == 1)",
+                                    "(return == null)  <==>  (orig(col) == 2)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "283": [
+                                {
+                                    "Patch175.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch73.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "285": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch175.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "278": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return == null",
+                                            "orig(col) == 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "281": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return has only one value",
+                                            "orig(col) == 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "284": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch73.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getInvertedCoeffiecientSum(org.apache.commons.math.linear.RealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": [
+                                    "coefficients has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": [
+                                    "coefficients has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": [
+                                    "return == 3.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0, 3.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": [
+                                    "return == 3.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEntry(int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": [
+                                    "column >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": [
+                                    "column >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

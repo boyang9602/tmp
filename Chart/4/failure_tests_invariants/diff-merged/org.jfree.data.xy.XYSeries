@@ -1,0 +1,364 @@
+{
+    "org.jfree.data.xy.XYSeries": [
+        {
+            "add(org.jfree.data.xy.XYDataItem, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 1.0, 1.1, 10.0 }",
+                                    "this.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 100.0 }",
+                                    "this.minY one of { 1.0, 1.1 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "minIgnoreNaN(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 1.0, 1.1, 100.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "700": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(this.maxX) one of { 1.0, 100.0, Double.NaN }",
+                                            "this.maxX one of { 1.0, 100.0, Double.NaN }",
+                                            "orig(b) one of { 1.0, 1.1, 100.0 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "707": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.minX one of { 1.0, 10.0, 100.0 }",
+                                            "this.minY one of { 1.0, 1.1, 10.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(a) one of { 1.0, 1.1, 100.0 }",
+                                            "this.maxY one of { 1.0, 1.1, 2.0 }",
+                                            "this.minY one of { 1.0, 1.1 }",
+                                            "this.minX one of { 1.0, 100.0 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 1.0, 1.1, 10.0 }",
+                                    "this.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 100.0 }",
+                                    "this.minY one of { 1.0, 1.1 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "maxIgnoreNaN(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 100.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 100.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "723": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return one of { 1.0, 1.1, 100.0 }",
+                                            "orig(this.maxX) one of { 1.0, 100.0, Double.NaN }",
+                                            "this.maxX one of { 1.0, 100.0, Double.NaN }",
+                                            "orig(b) one of { 1.0, 1.1, 100.0 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "730": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.minY one of { 1.0, 1.1, 10.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.maxY one of { 1.0, 1.1, 2.0 }",
+                                            "this.minY one of { 1.0, 1.1 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "updateBoundsForAddedItem(org.jfree.data.xy.XYDataItem)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 10.0, 100.0 }",
+                                    "this.minY one of { 1.0, 1.1, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 1.0, 1.1 }",
+                                    "this.minX one of { 1.0, 100.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(java.lang.Number, java.lang.Number, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 1.0, 1.1, 10.0 }",
+                                    "this.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 100.0 }",
+                                    "this.minY one of { 1.0, 1.1 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getItemCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 1.0, 1.1, 10.0 }",
+                                    "this.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 100.0 }",
+                                    "this.minY one of { 1.0, 1.1 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 1.0, 1.1, 10.0 }",
+                                    "this.minX one of { 1.0, 10.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minX one of { 1.0, 100.0 }",
+                                    "this.minY one of { 1.0, 1.1 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

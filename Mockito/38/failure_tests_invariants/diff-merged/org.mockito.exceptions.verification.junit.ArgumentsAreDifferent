@@ -1,0 +1,80 @@
+{
+    "org.mockito.exceptions.verification.junit.ArgumentsAreDifferent": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.unfilteredStackTrace[].getClass().getName() elements == java.lang.StackTraceElement.class",
+                            "this has only one value",
+                            "this.unfilteredStackTrace has only one value",
+                            "this.message has only one value",
+                            "size(this.unfilteredStackTrace[]) == 34",
+                            "this.message.toString == \"\\nArgument(s) are different! Wanted:\\nfun.doFun(\\\"hello\\\");\\n-> at org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest.shouldAllowPassingNullArgument(ActualInvocationHasNullArgumentNPEBugTest.java:30)\\nActual invocation has different arguments:\\nfun.doFun(null);\\n-> at org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest.shouldAllowPassingNullArgument(ActualInvocationHasNullArgumentNPEBugTest.java:26)\\n\"",
+                            "this.unfilteredStackTrace[].getClass().getName() == [java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement]",
+                            "this.unfilteredStackTrace.getClass().getName() == java.lang.StackTraceElement[].class",
+                            "this.unfilteredStackTrace[] contains no nulls and has only one value, of length 34"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ArgumentsAreDifferent(java.lang.String, java.lang.String, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nfun.doFun(\\\"hello\\\");\\n-> at org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest.shouldAllowPassingNullArgument(ActualInvocationHasNullArgumentNPEBugTest.java:30)\\nActual invocation has different arguments:\\nfun.doFun(null);\\n-> at org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest.shouldAllowPassingNullArgument(ActualInvocationHasNullArgumentNPEBugTest.java:26)\\n\"",
+                                    "message has only one value",
+                                    "wanted has only one value",
+                                    "wanted.toString == \"fun.doFun(\\\"hello\\\");\"",
+                                    "actual.toString == \"fun.doFun(null);\"",
+                                    "actual has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "actual.toString == orig(actual.toString)",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nfun.doFun(\\\"hello\\\");\\n-> at org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest.shouldAllowPassingNullArgument(ActualInvocationHasNullArgumentNPEBugTest.java:30)\\nActual invocation has different arguments:\\nfun.doFun(null);\\n-> at org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest.shouldAllowPassingNullArgument(ActualInvocationHasNullArgumentNPEBugTest.java:26)\\n\"",
+                                    "wanted.toString == orig(wanted.toString)",
+                                    "wanted.toString == \"fun.doFun(\\\"hello\\\");\"",
+                                    "actual.toString == \"fun.doFun(null);\"",
+                                    "message.toString == orig(message.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

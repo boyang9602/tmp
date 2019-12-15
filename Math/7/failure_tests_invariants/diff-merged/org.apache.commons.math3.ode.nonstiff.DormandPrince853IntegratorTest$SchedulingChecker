@@ -1,0 +1,159 @@
+{
+    "org.apache.commons.math3.ode.nonstiff.DormandPrince853IntegratorTest$SchedulingChecker": [
+        {
+            "handleStep(org.apache.commons.math3.ode.sampling.StepInterpolator, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "isLast == false"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "eventOccurred(double, double[], boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y has only one value",
+                                    "t == 1.5707963267949083",
+                                    "y[] == [0.9999999999991328, -1.1102230246251565E-16]",
+                                    "this.index == 1",
+                                    "this.tMin == 1.4376543296199715",
+                                    "increasing == false",
+                                    "this has only one value",
+                                    "y[] elements one of { -1.1102230246251565E-16, 0.9999999999991328 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tMin == 1.4376543296199715",
+                                    "this.index == 1",
+                                    "y[] == [0.9999999999991328, -1.1102230246251565E-16]",
+                                    "y[] elements one of { -1.1102230246251565E-16, 0.9999999999991328 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "resetState(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y has only one value",
+                                    "t == 1.5707963267949083",
+                                    "y[] == [0.9999999999991328, -1.1102230246251565E-16]",
+                                    "this.tMin == 1.5707963267949083",
+                                    "this.index == 1",
+                                    "this has only one value",
+                                    "y[] elements one of { -1.1102230246251565E-16, 0.9999999999991328 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tMin == 1.5707963267949083",
+                                    "this.index == 1",
+                                    "y[] == [0.9999999999991328, -1.1102230246251565E-16]",
+                                    "y[] elements one of { -1.1102230246251565E-16, 0.9999999999991328 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

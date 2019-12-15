@@ -1,0 +1,257 @@
+{
+    "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer": [
+        {
+            "updateResidualsAndCost()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.objective[] elements one of { 0.0, Infinity }",
+                                    "this.weightedResiduals != null",
+                                    "this.jF != null",
+                                    "this.objective[] elements == 0.0",
+                                    "this.weight != null",
+                                    "this.weightedResiduals[] elements == 0.0",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.weightedResiduals[] elements one of { -Infinity, 0.0 }",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.objective[] elements == 0.0",
+                                    "this.weightedResiduals[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.objective[] elements one of { 0.0, Infinity }",
+                                    "this.weightedResiduals != null",
+                                    "this.jF != null",
+                                    "this.weight != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.weightedResiduals[] elements one of { -Infinity, 0.0 }",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.objective[] elements one of { 0.0, Infinity }",
+                                    "this.weightedResiduals != null",
+                                    "this.jF != null",
+                                    "this.objective[] elements == 0.0",
+                                    "this.weight != null",
+                                    "this.weightedResiduals[] elements == 0.0",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.weightedResiduals[] elements one of { -Infinity, 0.0 }",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.objective[] sorted by <",
+                                    "this.jF != null",
+                                    "this.weight != null",
+                                    "this.cost % orig(this.cost) == 0",
+                                    "this.start != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.weightedResiduals != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.cost != orig(this.cost)",
+                                    "this.objective[] sorted by <",
+                                    "this.cost % orig(this.cost) == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.jF != null",
+                                    "this.weight != null",
+                                    "this.start != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.weightedResiduals != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.jF != null",
+                                    "this.weight != null",
+                                    "this.cost % orig(this.cost) == 0",
+                                    "this.start != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.weightedResiduals != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "updateJacobian()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.weightedResiduals != null",
+                                    "this.jF != null",
+                                    "this.weight != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.weightedResiduals != null",
+                                    "this.jF != null",
+                                    "this.weight != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.weightedResiduals != null",
+                                    "this.jF != null",
+                                    "this.weight != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.jF != null",
+                                    "this.weightedResiduals != null",
+                                    "this.weight != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.jF != null",
+                                    "this.weightedResiduals != null",
+                                    "this.weight != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "this.point != null",
+                                    "this.jF != null",
+                                    "this.weightedResiduals != null",
+                                    "this.weight != null",
+                                    "this.weightedResidualJacobian != null",
+                                    "this.objective != null",
+                                    "this.function != null",
+                                    "this.residuals != null",
+                                    "this.target != null",
+                                    "this.start != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

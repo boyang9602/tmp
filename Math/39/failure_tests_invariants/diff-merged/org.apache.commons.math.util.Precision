@@ -1,0 +1,83 @@
+{
+    "org.apache.commons.math.util.Precision": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch160.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "equals(double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "y == 0.001",
+                                    "x one of { 9.999999999999999E-5, 0.001 }",
+                                    "maxUlps == 1",
+                                    "x == 0.001"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y == 0.001",
+                                    "x one of { 9.999999999999999E-5, 0.001 }",
+                                    "maxUlps == 1",
+                                    "x == 0.001"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "return == false",
+                                    "orig(x) == 0.001",
+                                    "orig(x) == 9.999999999999999E-5",
+                                    "(return == false)  <==>  (orig(x) == 9.999999999999999E-5)",
+                                    "return == true",
+                                    "(return == true)  <==>  (orig(x) == 0.001)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == false",
+                                    "orig(x) == 0.001",
+                                    "orig(x) == 9.999999999999999E-5",
+                                    "(return == false)  <==>  (orig(x) == 9.999999999999999E-5)",
+                                    "return == true",
+                                    "(return == true)  <==>  (orig(x) == 0.001)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

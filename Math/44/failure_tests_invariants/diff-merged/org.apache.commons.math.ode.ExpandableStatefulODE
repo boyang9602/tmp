@@ -1,0 +1,243 @@
+{
+    "org.apache.commons.math.ode.ExpandableStatefulODE": [
+        {
+            "getTotalDimension()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] one of { [0.0], [27.780000000000015] }",
+                                    "this.primaryState[] elements one of { 0.0, 27.780000000000015 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.primaryStateDot[] elements == 0.0",
+                                    "this.primaryState[] == [0.0]",
+                                    "this.primaryStateDot[] == [0.0]",
+                                    "this.primaryState[] elements == 0.0",
+                                    "this.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] one of { [0.0], [27.780000000000015] }",
+                                    "this.primaryState[] elements one of { 0.0, 27.780000000000015 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] one of { [0.0], [27.780000000000015] }",
+                                    "this.primaryState[] elements one of { 0.0, 27.780000000000015 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.primaryStateDot[] elements == 0.0",
+                                    "this.primaryState[] == [0.0]",
+                                    "this.primaryStateDot[] == [0.0]",
+                                    "this.primaryState[] elements == 0.0",
+                                    "this.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] one of { [0.0], [27.780000000000015] }",
+                                    "this.primaryState[] elements one of { 0.0, 27.780000000000015 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "98": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTime()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.primaryState[] one of { [0.0], [32.0] }",
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] elements one of { 0.0, 32.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.primaryStateDot[] elements == 0.0",
+                                    "this.primaryState[] == [0.0]",
+                                    "this.primaryStateDot[] == [0.0]",
+                                    "this.primaryState[] elements == 0.0",
+                                    "this.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.primaryState[] one of { [0.0], [32.0] }",
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] elements one of { 0.0, 32.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.primaryState[] one of { [0.0], [32.0] }",
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] elements one of { 0.0, 32.0 }",
+                                    "return one of { 0.0, 30.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.primaryStateDot[] elements == 0.0",
+                                    "return == 0.0",
+                                    "this.primaryState[] == [0.0]",
+                                    "this.primaryStateDot[] == [0.0]",
+                                    "this.primaryState[] elements == 0.0",
+                                    "this.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.primaryState[] one of { [0.0], [32.0] }",
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] elements one of { 0.0, 32.0 }",
+                                    "return one of { 0.0, 30.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setTime(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.time one of { 0.0, Double.NaN }",
+                                    "this.primaryState[] one of { [0.0], [27.780000000000015] }",
+                                    "time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] elements one of { 0.0, 27.780000000000015 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.primaryStateDot[] elements == 0.0",
+                                    "this.time == Double.NaN",
+                                    "this.primaryState[] == [0.0]",
+                                    "this.primaryStateDot[] == [0.0]",
+                                    "this.primaryState[] elements == 0.0",
+                                    "time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.time one of { 0.0, Double.NaN }",
+                                    "this.primaryState[] one of { [0.0], [27.780000000000015] }",
+                                    "time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] elements one of { 0.0, 27.780000000000015 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] one of { [0.0], [27.780000000000015] }",
+                                    "this.primaryState[] elements one of { 0.0, 27.780000000000015 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.primaryStateDot[] elements == 0.0",
+                                    "this.primaryState[] == [0.0]",
+                                    "this.primaryStateDot[] == [0.0]",
+                                    "this.primaryState[] elements == 0.0",
+                                    "this.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.time one of { 0.0, 30.0 }",
+                                    "this.primaryState[] one of { [0.0], [27.780000000000015] }",
+                                    "this.primaryState[] elements one of { 0.0, 27.780000000000015 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

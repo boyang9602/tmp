@@ -1,0 +1,1161 @@
+{
+    "org.apache.commons.math.ode.events.CombinedEventsManager": [
+        {
+            "addEventHandler(org.apache.commons.math.ode.events.EventHandler, double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }",
+                                    "convergence one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "size(this.states[]) one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "convergence == 2.384185791015625E-7",
+                                    "handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.states[].getClass().getName() == []",
+                                    "this.states[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }",
+                                    "convergence one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "size(this.states[]) one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }",
+                                    "convergence one of { 1.0E-20, 2.384185791015625E-7 }",
+                                    "size(this.states[]) one of { 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) == 1",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEventTime()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.pendingEvent == true",
+                                    "size(this.states[]) == 1",
+                                    "this.first.g0 one of { -59.999995708465576, -4.5299530029296875E-6 }",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.nextAction == 3",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]",
+                                    "this.first.pendingEventTime == 1.878250380000003E9",
+                                    "this.first.g0Positive == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.nextAction == 3",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.pendingEventTime == 1.878250380000003E9",
+                                    "this.first.g0Positive == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "return == 1.8782503799999986E9",
+                                    "return == 1.878250380000003E9",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.pendingEvent == true",
+                                    "size(this.states[]) == 1",
+                                    "return == 1.878250380000003E9",
+                                    "this.first.g0 one of { -59.999995708465576, -4.5299530029296875E-6 }",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.nextAction == 3",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]",
+                                    "this.first.pendingEventTime == 1.878250380000003E9",
+                                    "this.first.g0Positive == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "return == 1.8782503799999986E9",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.pendingEvent == true",
+                                    "return == 1.8782503799999986E9",
+                                    "return == 1.878250380000003E9",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.nextAction == 3",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.pendingEventTime == 1.878250380000003E9",
+                                    "this.first.g0Positive == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isEmpty()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() == []",
+                                    "this.states[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "(this.states[].getClass().getName() == [])  <==>  (return == true)",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  <==>  (return == false)",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  <==>  (size(this.states[]) == 1)",
+                                    "(this.states[].getClass().getName() == [])  ==>  (this.states[] == [])",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  ==>  (this.states[].getClass().getName() elements == org.apache.commons.math.ode.events.EventState.class)",
+                                    "size(this.states[]) one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == true",
+                                    "this.states[].getClass().getName() == []",
+                                    "this.states[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "(this.states[].getClass().getName() == [])  <==>  (return == true)",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  <==>  (return == false)",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  <==>  (size(this.states[]) == 1)",
+                                    "(this.states[].getClass().getName() == [])  ==>  (this.states[] == [])",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  ==>  (this.states[].getClass().getName() elements == org.apache.commons.math.ode.events.EventState.class)",
+                                    "size(this.states[]) one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(this.states[].getClass().getName() == [])  <==>  (return == true)",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  <==>  (return == false)",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  <==>  (size(this.states[]) == 1)",
+                                    "(this.states[].getClass().getName() == [])  ==>  (this.states[] == [])",
+                                    "(this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState])  ==>  (this.states[].getClass().getName() elements == org.apache.commons.math.ode.events.EventState.class)",
+                                    "size(this.states[]) one of { 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "reset(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "t == 1.878250380000003E9",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "t == 1.8782503799999986E9",
+                                    "y[] sorted by <",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.g0 == -4.5299530029296875E-6"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.g0 one of { 59.999995470047, 99.999995470047 }",
+                                    "this.first.g0Positive == true",
+                                    "this.first.pendingEvent == true",
+                                    "size(this.states[]) == 1",
+                                    "this.first.previousEventTime == 1.878250439999994E9",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.nextAction == 0",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]",
+                                    "t == 1.878250379999994E9"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "t == 1.878250380000003E9",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "t == 1.8782503799999986E9",
+                                    "y[] sorted by <",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.g0 == -4.5299530029296875E-6"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.g0Positive == true",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "this.first.pendingEvent == true",
+                                    "t == 1.878250380000003E9",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.first.nextAction == 0",
+                                    "t == 1.8782503799999986E9",
+                                    "y[] sorted by <",
+                                    "t == 1.878250379999994E9",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.g0 == -4.5299530029296875E-6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "y[] sorted by <",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "this.first == null",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.handler == orig(this.first.handler)",
+                                    "this.first.g0Positive == true",
+                                    "this.first.forward == orig(this.first.forward)",
+                                    "this.first.increasing == orig(this.first.increasing)",
+                                    "this.first.nextAction == 0",
+                                    "this.first.t0 == orig(this.first.t0)",
+                                    "this.first.g0 one of { 59.999995470047, 99.999995470047 }",
+                                    "this.first.pendingEvent == false",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "size(this.states[]) == 1",
+                                    "this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName())",
+                                    "this.first.nextAction == orig(this.first.nextAction)",
+                                    "this.first.convergence == orig(this.first.convergence)",
+                                    "this.first.maxIterationCount == orig(this.first.maxIterationCount)",
+                                    "this.first.g0Positive == orig(this.first.g0Positive)",
+                                    "this.first.pendingEventTime == Double.NaN",
+                                    "this.first.previousEventTime == 1.878250439999994E9",
+                                    "this.first.maxCheckInterval == orig(this.first.maxCheckInterval)",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]",
+                                    "this.first.previousEventTime == orig(this.first.previousEventTime)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "y[] sorted by <",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "this.first == null",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.first.handler == orig(this.first.handler)",
+                                    "this.first.g0Positive == true",
+                                    "this.first.forward == orig(this.first.forward)",
+                                    "this.first.increasing == orig(this.first.increasing)",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.nextAction == 0",
+                                    "this.first.t0 == orig(this.first.t0)",
+                                    "y[] sorted by <",
+                                    "this.first.pendingEvent == false",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName())",
+                                    "this.first.nextAction == orig(this.first.nextAction)",
+                                    "this.first.convergence == orig(this.first.convergence)",
+                                    "this.first.maxIterationCount == orig(this.first.maxIterationCount)",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "this.first == null",
+                                    "this.first.g0Positive == orig(this.first.g0Positive)",
+                                    "this.first.pendingEventTime == Double.NaN",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.maxCheckInterval == orig(this.first.maxCheckInterval)",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.previousEventTime == orig(this.first.previousEventTime)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "stop()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.g0 == -4.5299530029296875E-6"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.g0 one of { 59.999995470047, 99.999995470047 }",
+                                    "this.first.g0Positive == true",
+                                    "this.first.pendingEvent == true",
+                                    "size(this.states[]) == 1",
+                                    "this.first.previousEventTime == 1.878250439999994E9",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.nextAction == 0",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.g0 == -4.5299530029296875E-6"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.g0Positive == true",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.first.nextAction == 0",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.g0 == -4.5299530029296875E-6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "(return == true)  ==>  (this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] })",
+                                    "(return == true)  ==>  (size(this.states[]) one of { 1, 2 })",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "(return == false)  ==>  (this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState])",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "(return == false)  ==>  (size(this.states[]) == 2)",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.handler == orig(this.first.handler)",
+                                    "this.first.g0Positive == true",
+                                    "this.first.forward == orig(this.first.forward)",
+                                    "this.first.increasing == orig(this.first.increasing)",
+                                    "this.first.nextAction == 0",
+                                    "this.first.t0 == orig(this.first.t0)",
+                                    "this.first.g0 one of { 59.999995470047, 99.999995470047 }",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "size(this.states[]) == 1",
+                                    "this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName())",
+                                    "this.first.nextAction == orig(this.first.nextAction)",
+                                    "this.first.pendingEvent == orig(this.first.pendingEvent)",
+                                    "this.first.convergence == orig(this.first.convergence)",
+                                    "this.first.maxIterationCount == orig(this.first.maxIterationCount)",
+                                    "(return == false)  ==>  (this.first == null)",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.g0Positive == orig(this.first.g0Positive)",
+                                    "(return == true)  ==>  (this.first.g0 one of { 59.999995470047, 99.999995470047 })",
+                                    "this.first.previousEventTime == 1.878250439999994E9",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.pendingEventTime == orig(this.first.pendingEventTime)",
+                                    "this.first.maxCheckInterval == orig(this.first.maxCheckInterval)",
+                                    "(return == true)  ==>  (this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]",
+                                    "this.first.previousEventTime == orig(this.first.previousEventTime)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "(return == true)  ==>  (this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] })",
+                                    "(return == true)  ==>  (size(this.states[]) one of { 1, 2 })",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "(return == false)  ==>  (this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState])",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "(return == false)  ==>  (size(this.states[]) == 2)",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.first.handler == orig(this.first.handler)",
+                                    "this.first.g0Positive == true",
+                                    "this.first.forward == orig(this.first.forward)",
+                                    "this.first.increasing == orig(this.first.increasing)",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.nextAction == 0",
+                                    "this.first.t0 == orig(this.first.t0)",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "(return == true)  ==>  (this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] })",
+                                    "this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName())",
+                                    "this.first.nextAction == orig(this.first.nextAction)",
+                                    "this.first.pendingEvent == orig(this.first.pendingEvent)",
+                                    "(return == true)  ==>  (size(this.states[]) one of { 1, 2 })",
+                                    "this.first.convergence == orig(this.first.convergence)",
+                                    "this.first.maxIterationCount == orig(this.first.maxIterationCount)",
+                                    "(return == false)  ==>  (this.first == null)",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "this.first == null",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.g0Positive == orig(this.first.g0Positive)",
+                                    "(return == false)  ==>  (this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState])",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "(return == false)  ==>  (size(this.states[]) == 2)",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.pendingEventTime == orig(this.first.pendingEventTime)",
+                                    "this.first.maxCheckInterval == orig(this.first.maxCheckInterval)",
+                                    "(return == true)  ==>  (this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.previousEventTime == orig(this.first.previousEventTime)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "217": [
+                                {
+                                    "Patch52.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch53.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "220": [
+                                {
+                                    "Patch52.inv.output": {
+                                        "invs": [
+                                            "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState]",
+                                            "size(this.states[]) == 2"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.first == null"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch53.inv.output": {
+                                        "invs": [
+                                            "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState]",
+                                            "size(this.states[]) == 2"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState]",
+                                            "size(this.states[]) == 2",
+                                            "this.first == null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEventsStates()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() == []",
+                                    "this.states[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() == []",
+                                    "this.states[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) one of { 0, 1 }",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "stepAccepted(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "t == 1.878250380000003E9",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "y[] sorted by <",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "t == 1.8782503799999986E9"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.pendingEvent == true",
+                                    "size(this.states[]) == 1",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.nextAction == 3",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]",
+                                    "t == 1.878250379999994E9",
+                                    "this.first.g0Positive == false",
+                                    "this.first.g0 == -4.5299530029296875E-6"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "t == 1.878250380000003E9",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "y[] sorted by <",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "t == 1.8782503799999986E9"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first == null",
+                                    "this.first.pendingEvent == true",
+                                    "t == 1.878250380000003E9",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.nextAction == 3",
+                                    "y[] sorted by <",
+                                    "t == 1.878250379999994E9",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "t == 1.8782503799999986E9",
+                                    "this.first.g0Positive == false",
+                                    "this.first.g0 == -4.5299530029296875E-6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "y[] sorted by <",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "this.first == null",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.handler == orig(this.first.handler)",
+                                    "this.first.g0Positive == true",
+                                    "this.first.forward == orig(this.first.forward)",
+                                    "this.first.increasing == orig(this.first.increasing)",
+                                    "this.first.nextAction == 0",
+                                    "this.first.t0 == orig(this.first.t0)",
+                                    "this.first.g0 one of { 59.999995470047, 99.999995470047 }",
+                                    "size(this.states[]) == 1",
+                                    "this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName())",
+                                    "this.first.pendingEvent == orig(this.first.pendingEvent)",
+                                    "this.first.convergence == orig(this.first.convergence)",
+                                    "this.first.maxIterationCount == orig(this.first.maxIterationCount)",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.previousEventTime == 1.878250439999994E9",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.pendingEventTime == orig(this.first.pendingEventTime)",
+                                    "this.first.maxCheckInterval == orig(this.first.maxCheckInterval)",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "y[] sorted by <",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "this.first == null",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.first.handler == orig(this.first.handler)",
+                                    "this.first.g0Positive == true",
+                                    "this.first.forward == orig(this.first.forward)",
+                                    "this.first.increasing == orig(this.first.increasing)",
+                                    "this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class",
+                                    "this.first.nextAction == 0",
+                                    "this.first.t0 == orig(this.first.t0)",
+                                    "y[] sorted by <",
+                                    "this.first.previousEventTime == 1.878250379999994E9",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName())",
+                                    "this.first.pendingEvent == orig(this.first.pendingEvent)",
+                                    "this.first.convergence == orig(this.first.convergence)",
+                                    "this.first.maxIterationCount == orig(this.first.maxIterationCount)",
+                                    "this.first.g0 == -4.5299530029296875E-6",
+                                    "this.first == null",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.convergence == 2.384185791015625E-7",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.pendingEventTime == 1.878250379999994E9",
+                                    "this.first.pendingEventTime == orig(this.first.pendingEventTime)",
+                                    "this.first.maxCheckInterval == orig(this.first.maxCheckInterval)",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.g0 one of { -59.999995708465576, -19.999995708465576 }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.first.pendingEvent == true",
+                                    "size(this.states[]) == 1",
+                                    "interpolator.getClass().getName() == org.apache.commons.math.ode.sampling.DummyStepInterpolator.class",
+                                    "this.first.g0 == -59.999995708465576",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.nextAction == 3",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]",
+                                    "this.first.pendingEventTime == 1.878250380000003E9",
+                                    "this.first.g0Positive == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.g0 one of { -59.999995708465576, -19.999995708465576 }",
+                                    "size(this.states[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.nextAction == 3",
+                                    "this.first.g0 one of { -59.999995708465576, -19.999995708465576 }",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "this.first.pendingEventTime == 1.878250380000003E9",
+                                    "this.first.g0Positive == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(this.first) == null)",
+                                    "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -20.0 })",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576, -4.5299530029296875E-6 })",
+                                    "(return == true)  ==>  (orig(this.first.convergence) == 2.384185791015625E-7)",
+                                    "(return == false)  ==>  (orig(this.first.convergence) one of { 1.0E-20, 2.384185791015625E-7 })",
+                                    "(return == true)  ==>  (orig(this.first.g0) == -59.999995708465576)",
+                                    "(return == true)  ==>  (this.first.convergence one of { 1.0E-20, 2.384185791015625E-7 })",
+                                    "(return == true)  ==>  (this.first.convergence == orig(this.first.convergence))",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576 })",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -19.999995708465576 })",
+                                    "(return == true)  ==>  (orig(this.first.handler.getClass().getName()) == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -20.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (this.first.handler == orig(this.first.handler))",
+                                    "this.first.handler == orig(this.first.handler)",
+                                    "(return == true)  ==>  (this.first.g0 == orig(this.first.g0))",
+                                    "this.first.forward == orig(this.first.forward)",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -4.5299530029296875E-6 })",
+                                    "this.first.increasing == orig(this.first.increasing)",
+                                    "this.first.t0 == orig(this.first.t0)",
+                                    "(return == true)  ==>  (this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName()))",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "size(this.states[]) == 1",
+                                    "this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName())",
+                                    "this.first.nextAction == orig(this.first.nextAction)",
+                                    "this.first.pendingEvent == orig(this.first.pendingEvent)",
+                                    "this.first.convergence == orig(this.first.convergence)",
+                                    "this.first.maxIterationCount == orig(this.first.maxIterationCount)",
+                                    "this.first.g0Positive == false",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.g0Positive == orig(this.first.g0Positive)",
+                                    "this.first.g0 one of { -59.999995708465576, -4.5299530029296875E-6 }",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "this.first.pendingEventTime == 1.878250380000003E9",
+                                    "this.first.pendingEventTime == orig(this.first.pendingEventTime)",
+                                    "this.first.maxCheckInterval == orig(this.first.maxCheckInterval)",
+                                    "this.first.nextAction == 3",
+                                    "(return == true)  ==>  (this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                    "this.states[].getClass().getName() == [org.apache.commons.math.ode.events.EventState]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (orig(this.first) == null)",
+                                    "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -20.0 })",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576, -4.5299530029296875E-6 })",
+                                    "(return == true)  ==>  (orig(this.first.convergence) == 2.384185791015625E-7)",
+                                    "(return == false)  ==>  (orig(this.first.convergence) one of { 1.0E-20, 2.384185791015625E-7 })",
+                                    "(return == true)  ==>  (orig(this.first.g0) == -59.999995708465576)",
+                                    "(return == true)  ==>  (this.first.convergence one of { 1.0E-20, 2.384185791015625E-7 })",
+                                    "(return == true)  ==>  (this.first.convergence == orig(this.first.convergence))",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576 })",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -19.999995708465576 })",
+                                    "(return == true)  ==>  (orig(this.first.handler.getClass().getName()) == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -20.0 })"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (this.first.handler == orig(this.first.handler))",
+                                    "this.first.handler == orig(this.first.handler)",
+                                    "(return == true)  ==>  (this.first.g0 == orig(this.first.g0))",
+                                    "this.first.forward == orig(this.first.forward)",
+                                    "(return == true)  ==>  (orig(this.first) == null)",
+                                    "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -20.0 })",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576, -4.5299530029296875E-6 })",
+                                    "this.first.increasing == orig(this.first.increasing)",
+                                    "this.first.t0 == orig(this.first.t0)",
+                                    "(return == true)  ==>  (this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName()))",
+                                    "this.first.g0 == orig(this.first.g0)",
+                                    "this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName())",
+                                    "this.first.nextAction == orig(this.first.nextAction)",
+                                    "this.first.pendingEvent == orig(this.first.pendingEvent)",
+                                    "this.first.convergence == orig(this.first.convergence)",
+                                    "this.first.maxIterationCount == orig(this.first.maxIterationCount)",
+                                    "this.first.g0Positive == false",
+                                    "(return == true)  ==>  (orig(this.first.convergence) == 2.384185791015625E-7)",
+                                    "(return == false)  ==>  (orig(this.first.convergence) one of { 1.0E-20, 2.384185791015625E-7 })",
+                                    "this.first.pendingEvent == true",
+                                    "this.first.g0Positive == orig(this.first.g0Positive)",
+                                    "(return == true)  ==>  (orig(this.first.g0) == -59.999995708465576)",
+                                    "(return == true)  ==>  (this.first.convergence one of { 1.0E-20, 2.384185791015625E-7 })",
+                                    "this.first.previousEventTime == Double.NaN",
+                                    "(return == true)  ==>  (this.first.convergence == orig(this.first.convergence))",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576 })",
+                                    "this.first.pendingEventTime == 1.878250380000003E9",
+                                    "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "this.first.pendingEventTime == orig(this.first.pendingEventTime)",
+                                    "this.first.maxCheckInterval == orig(this.first.maxCheckInterval)",
+                                    "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -19.999995708465576 })",
+                                    "this.first.nextAction == 3",
+                                    "(return == true)  ==>  (orig(this.first.handler.getClass().getName()) == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                    "size(this.states[]) one of { 1, 2 }",
+                                    "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -20.0 })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "170": [
+                                {
+                                    "Patch52.inv.output": {
+                                        "invs": [
+                                            "(return == true)  ==>  (orig(this.first) == null)",
+                                            "(return == false)  ==>  (orig(this.first.convergence) one of { 1.0E-20, 2.384185791015625E-7 })",
+                                            "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -20.0 })",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576, -4.5299530029296875E-6 })",
+                                            "(return == true)  ==>  (orig(this.first.g0) == -59.999995708465576)",
+                                            "(return == true)  ==>  (this.first.convergence one of { 1.0E-20, 2.384185791015625E-7 })",
+                                            "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -19.999995708465576 })",
+                                            "(return == true)  ==>  (this.first.convergence == orig(this.first.convergence))",
+                                            "(return == true)  ==>  (orig(this.first.handler.getClass().getName()) == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576 })",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -20.0 })",
+                                            "(return == true)  ==>  (orig(this.first.convergence) == 2.384185791015625E-7)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "(return == true)  ==>  (this.first.handler == orig(this.first.handler))",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -4.5299530029296875E-6 })",
+                                            "(return == true)  ==>  (this.first.g0 == orig(this.first.g0))",
+                                            "(return == true)  ==>  (this.first.handler.getClass().getName() == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                            "(return == true)  ==>  (this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName()))"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch53.inv.output": {
+                                        "invs": [
+                                            "(return == true)  ==>  (orig(this.first) == null)",
+                                            "(return == false)  ==>  (orig(this.first.convergence) one of { 1.0E-20, 2.384185791015625E-7 })",
+                                            "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -20.0 })",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576, -4.5299530029296875E-6 })",
+                                            "(return == true)  ==>  (orig(this.first.g0) == -59.999995708465576)",
+                                            "(return == true)  ==>  (this.first.convergence one of { 1.0E-20, 2.384185791015625E-7 })",
+                                            "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -19.999995708465576 })",
+                                            "(return == true)  ==>  (this.first.convergence == orig(this.first.convergence))",
+                                            "(return == true)  ==>  (orig(this.first.handler.getClass().getName()) == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576 })",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -20.0 })",
+                                            "(return == true)  ==>  (orig(this.first.convergence) == 2.384185791015625E-7)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "(return == true)  ==>  (this.first.handler == orig(this.first.handler))",
+                                            "(return == true)  ==>  (this.first.g0 == orig(this.first.g0))",
+                                            "(return == true)  ==>  (orig(this.first) == null)",
+                                            "(return == false)  ==>  (orig(this.first.convergence) one of { 1.0E-20, 2.384185791015625E-7 })",
+                                            "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -20.0 })",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576, -4.5299530029296875E-6 })",
+                                            "(return == true)  ==>  (orig(this.first.g0) == -59.999995708465576)",
+                                            "(return == true)  ==>  (this.first.convergence one of { 1.0E-20, 2.384185791015625E-7 })",
+                                            "(return == false)  ==>  (orig(this.first.g0) one of { -59.999995708465576, -19.999995708465576 })",
+                                            "(return == true)  ==>  (this.first.convergence == orig(this.first.convergence))",
+                                            "(return == true)  ==>  (orig(this.first.handler.getClass().getName()) == org.apache.commons.math.ode.AbstractIntegrator$EndTimeChecker.class)",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -19.999995708465576 })",
+                                            "(return == true)  ==>  (this.first.g0 one of { -59.999995708465576, -20.0 })",
+                                            "(return == true)  ==>  (orig(this.first.convergence) == 2.384185791015625E-7)",
+                                            "(return == true)  ==>  (this.first.handler.getClass().getName() == orig(this.first.handler.getClass().getName()))"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

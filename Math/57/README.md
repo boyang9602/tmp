@@ -1,0 +1,6 @@
+Patch167 Incorrect  
+Patch48 Incorrect  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.stat.clustering.Cluster.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/57/failure_tests_invariants/diff-merged/org.apache.commons.math.stat.clustering.Cluster.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/57/failure_tests_invariants/diff-merged/org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest$CloseIntegerPoint.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/57/failure_tests_invariants/diff-merged/org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest$CloseIntegerPoint.json)  
+[passing_tests_invariants/diff-merged/org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/57/passing_tests_invariants/diff-merged/org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.json)  

@@ -1,0 +1,420 @@
+{
+    "org.apache.commons.math.ode.AbstractIntegrator": [
+        {
+            "setMaxEvaluations(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "computeDerivatives(double, double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "yDot != null",
+                                    "this.expandable.time == 0.0",
+                                    "this.stepSize one of { 0.001, Double.NaN }",
+                                    "this.expandable != null",
+                                    "this.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "y != null",
+                                    "this.stepSize one of { 9.999999999999999E-5, 9.0E-4, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "yDot[] one of { [-99.0], [0.0] }",
+                                    "this.expandable.primaryState[] one of { [0.9473998480412322], [0.99], [1.0] }",
+                                    "yDot[] elements one of { -99.0, 0.0 }",
+                                    "this.expandable.primaryState[] elements one of { 0.9473998480412322, 0.99, 1.0 }",
+                                    "this.stepStart == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "yDot[] one of { [-99.0], [0.0] }",
+                                    "this.isLastStep == false",
+                                    "yDot != null",
+                                    "this.expandable.time == 0.0",
+                                    "this.stepSize one of { 0.001, Double.NaN }",
+                                    "this.expandable != null",
+                                    "this.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "yDot[] elements one of { -99.0, 0.0 }",
+                                    "y != null",
+                                    "this.stepSize one of { 9.999999999999999E-5, 9.0E-4, Double.NaN }",
+                                    "this.stepStart == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0",
+                                    "this.stepSize one of { 0.001, Double.NaN }",
+                                    "this.expandable != null",
+                                    "this.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "yDot[] < orig(yDot[]) (elementwise)",
+                                    "this.stepSize one of { 9.999999999999999E-5, 9.0E-4, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.stepStart == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0",
+                                    "this.stepSize one of { 0.001, Double.NaN }",
+                                    "this.expandable != null",
+                                    "this.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "yDot[] < orig(yDot[]) (elementwise)",
+                                    "this.stepSize one of { 9.999999999999999E-5, 9.0E-4, Double.NaN }",
+                                    "this.stepStart == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractIntegrator(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setEquations(org.apache.commons.math.ode.ExpandableStatefulODE)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "initIntegration(double, double[], double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setStateInitialized(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sanityChecks(org.apache.commons.math.ode.ExpandableStatefulODE, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

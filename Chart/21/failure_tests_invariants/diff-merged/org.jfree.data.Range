@@ -1,0 +1,146 @@
+{
+    "org.jfree.data.Range": [
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch91.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "orig(this) has only one value",
+                                    "(this.lower == 8.5)  <==>  (this.upper == 9.6)",
+                                    "(this.lower one of { 7.0, 7.5 })  <==>  (return == true)",
+                                    "this.lower == 8.5",
+                                    "(this.lower == 8.5)  ==>  (orig(this) has only one value)",
+                                    "this.upper one of { 8.0, 8.5, 9.5 }",
+                                    "(this.lower == 8.5)  <==>  (return == false)",
+                                    "(this.lower one of { 7.0, 7.5 })  <==>  (this.upper one of { 8.0, 8.5, 9.5 })",
+                                    "return == false",
+                                    "this.upper == 9.6",
+                                    "orig(obj) has only one value",
+                                    "(this.lower == 8.5)  ==>  (orig(obj) has only one value)",
+                                    "this.lower one of { 7.0, 7.5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch14.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "335": [
+                                {
+                                    "Patch91.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(this) has only one value",
+                                            "this.lower == 8.5",
+                                            "return == false",
+                                            "this.upper == 9.6",
+                                            "orig(obj) has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch14.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "340": [
+                                {
+                                    "Patch91.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.upper one of { 8.0, 8.5, 9.5 }",
+                                            "return == true",
+                                            "this.lower one of { 7.0, 7.5 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch14.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "342": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch91.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "341": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch14.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

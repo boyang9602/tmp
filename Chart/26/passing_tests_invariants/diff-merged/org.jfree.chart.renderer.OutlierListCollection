@@ -1,0 +1,146 @@
+{
+    "org.jfree.chart.renderer.OutlierListCollection": [
+        {
+            "OBJECT": [
+                {
+                    "Patch93.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this has only one value",
+                            "this.outlierLists has only one value",
+                            "this.outlierLists[].getClass().getName() == []",
+                            "this.highFarOut == false",
+                            "this.outlierLists[] == []",
+                            "this.lowFarOut == false",
+                            "this.outlierLists.getClass().getName() == java.util.ArrayList.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "OutlierListCollection()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "iterator()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.outlierLists[] == orig(this.outlierLists[])",
+                                    "this.outlierLists.getClass().getName() == orig(this.outlierLists.getClass().getName())",
+                                    "this.outlierLists == orig(this.outlierLists)",
+                                    "return.getClass().getName() == java.util.ArrayList$Itr.class",
+                                    "this.highFarOut == orig(this.highFarOut)",
+                                    "return has only one value",
+                                    "this.lowFarOut == orig(this.lowFarOut)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isHighFarOut()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.outlierLists[] == orig(this.outlierLists[])",
+                                    "this.outlierLists.getClass().getName() == orig(this.outlierLists.getClass().getName())",
+                                    "this.outlierLists == orig(this.outlierLists)",
+                                    "this.highFarOut == orig(this.highFarOut)",
+                                    "return == false",
+                                    "this.lowFarOut == orig(this.lowFarOut)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isLowFarOut()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.outlierLists[] == orig(this.outlierLists[])",
+                                    "this.outlierLists.getClass().getName() == orig(this.outlierLists.getClass().getName())",
+                                    "this.outlierLists == orig(this.outlierLists)",
+                                    "this.highFarOut == orig(this.highFarOut)",
+                                    "return == false",
+                                    "this.lowFarOut == orig(this.lowFarOut)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

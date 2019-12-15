@@ -1,0 +1,154 @@
+{
+    "org.apache.commons.math.exception.MaxCountExceededException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair6.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair6.inv.output": {
+                        "invs": [
+                            "size(this.context.msgArguments[]) == 2",
+                            "this.context.msgArguments[].getClass().getName() elements == java.lang.Object[].class",
+                            "this.context.msgPatterns[].getClass().getName() elements == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.context.msgPatterns[] elements != null",
+                            "this.context.context.getClass().getName() == java.util.HashMap.class",
+                            "this.context.msgPatterns.getClass().getName() == java.util.ArrayList.class",
+                            "this.context.msgArguments[].getClass().getName() == [java.lang.Object[], java.lang.Object[]]",
+                            "size(this.context.msgPatterns[]) == 2",
+                            "this.max.getClass().getName() == java.lang.Integer.class",
+                            "this.context.msgArguments[] elements != null",
+                            "this.max has only one value",
+                            "this.context.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                            "this.context.msgPatterns[] contains no nulls and has only one value, of length 2",
+                            "this.context.msgPatterns[].getClass().getName() == [org.apache.commons.math.exception.util.LocalizedFormats, org.apache.commons.math.exception.util.LocalizedFormats]"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "getMax()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.context.msgPatterns.getClass().getName() == orig(this.context.msgPatterns.getClass().getName())",
+                                    "this.context.msgPatterns == orig(this.context.msgPatterns)",
+                                    "this.context.msgArguments == orig(this.context.msgArguments)",
+                                    "this.context.msgArguments.getClass().getName() == orig(this.context.msgArguments.getClass().getName())",
+                                    "return has only one value",
+                                    "return.getClass().getName() == java.lang.Integer.class",
+                                    "this.context.msgPatterns[] == orig(this.context.msgPatterns[])",
+                                    "this.context.msgArguments[] == orig(this.context.msgArguments[])",
+                                    "this.context.context == orig(this.context.context)",
+                                    "this.context == orig(this.context)",
+                                    "this.max == orig(this.max)",
+                                    "this.max.getClass().getName() == orig(this.max.getClass().getName())",
+                                    "this.context.context.getClass().getName() == orig(this.context.context.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "MaxCountExceededException(org.apache.commons.math.exception.util.Localizable, java.lang.Number, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "args[] == []",
+                                    "args.getClass().getName() == java.lang.Object[].class",
+                                    "specific.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "max has only one value",
+                                    "max.getClass().getName() == java.lang.Integer.class",
+                                    "specific has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "args[] == orig(args[])",
+                                    "args[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "MaxCountExceededException(java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "max.getClass().getName() == java.lang.Integer.class",
+                                    "max has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

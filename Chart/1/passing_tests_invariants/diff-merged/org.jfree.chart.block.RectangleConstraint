@@ -1,0 +1,388 @@
+{
+    "org.jfree.chart.block.RectangleConstraint": [
+        {
+            "getHeightRange()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType has only one value",
+                                    "this.widthConstraintType.name has only one value",
+                                    "this.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\""
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType has only one value",
+                                    "this.widthConstraintType.name has only one value",
+                                    "this.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\""
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "RectangleConstraint(double, org.jfree.data.Range, org.jfree.chart.block.LengthConstraintType, double, org.jfree.data.Range, org.jfree.chart.block.LengthConstraintType)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getHeightConstraintType()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.heightConstraintType.name has only one value",
+                                    "this.widthConstraintType has only one value",
+                                    "this.heightRange != null",
+                                    "this.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.heightConstraintType has only one value",
+                                    "this.widthRange != null",
+                                    "this.widthConstraintType.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "return.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.heightConstraintType.name has only one value",
+                                    "return.name has only one value",
+                                    "this.widthConstraintType has only one value",
+                                    "this.heightRange != null",
+                                    "this.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "return has only one value",
+                                    "this.heightConstraintType has only one value",
+                                    "this.widthRange != null",
+                                    "return.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.widthConstraintType.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "return.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWidth()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.width one of { 194.0, 200.0, 300.0 }",
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"RectangleConstraintType.RANGE\" }",
+                                    "this.widthRange.upper one of { 194.0, 200.0, 300.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.height one of { 100.0, 200.0 }",
+                                    "this.widthConstraintType has only one value",
+                                    "this.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.width one of { 200.0, 300.0 }",
+                                    "this.widthConstraintType.name has only one value",
+                                    "this.widthRange.upper one of { 200.0, 300.0 }",
+                                    "this.heightRange.upper one of { 100.0, 200.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.width one of { 194.0, 200.0, 300.0 }",
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"RectangleConstraintType.RANGE\" }",
+                                    "this.widthRange.upper one of { 194.0, 200.0, 300.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.width one of { 194.0, 200.0, 300.0 }",
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"RectangleConstraintType.RANGE\" }",
+                                    "this.widthRange.upper one of { 194.0, 200.0, 300.0 }",
+                                    "return one of { 194.0, 200.0, 300.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.height one of { 100.0, 200.0 }",
+                                    "this.widthConstraintType has only one value",
+                                    "this.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.width one of { 200.0, 300.0 }",
+                                    "return one of { 200.0, 300.0 }",
+                                    "this.widthConstraintType.name has only one value",
+                                    "this.widthRange.upper one of { 200.0, 300.0 }",
+                                    "this.heightRange.upper one of { 100.0, 200.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.width one of { 194.0, 200.0, 300.0 }",
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.FIXED\", \"RectangleConstraintType.RANGE\" }",
+                                    "this.widthRange.upper one of { 194.0, 200.0, 300.0 }",
+                                    "return one of { 194.0, 200.0, 300.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWidthConstraintType()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.heightConstraintType.name has only one value",
+                                    "this.widthConstraintType has only one value",
+                                    "this.heightRange != null",
+                                    "this.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.heightConstraintType has only one value",
+                                    "this.widthRange != null",
+                                    "this.widthConstraintType.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "return.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.heightConstraintType.name has only one value",
+                                    "return.name has only one value",
+                                    "this.widthConstraintType has only one value",
+                                    "this.heightRange != null",
+                                    "this.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "return has only one value",
+                                    "this.heightConstraintType has only one value",
+                                    "this.widthRange != null",
+                                    "return.name.toString == \"RectangleConstraintType.RANGE\"",
+                                    "this.widthConstraintType.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.widthConstraintType.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }",
+                                    "return.name.toString one of { \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getHeight()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.heightRange.upper one of { 100.0, 200.0 }",
+                                    "this.height one of { 100.0, 200.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.heightRange.upper one of { 100.0, 200.0 }",
+                                    "return one of { 100.0, 200.0 }",
+                                    "this.height one of { 100.0, 200.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

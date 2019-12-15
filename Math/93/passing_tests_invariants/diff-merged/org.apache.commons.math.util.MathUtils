@@ -1,0 +1,180 @@
+{
+    "org.apache.commons.math.util.MathUtils": [
+        {
+            "factorialDouble(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch207.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch207.inv.output": {
+                                "invs": [
+                                    "(return one of { 2.43290200817664E18, 5.109094217170942E19, Infinity })  <==>  (orig(n) one of { 20, 21, 171 })",
+                                    "(return == Infinity)  <==>  (orig(n) == 171)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return one of { 2.43290200817664E18, 5.109094217170942E19, Infinity })  <==>  (orig(n) one of { 20, 21, 171 })",
+                                    "(return == Infinity)  <==>  (orig(n) == 171)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "385": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch207.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "387": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch207.inv.output": {
+                                        "invs": [
+                                            "orig(n) one of { 20, 21, 171 }",
+                                            "return one of { 2.43290200817664E18, 5.109094217170942E19, Infinity }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "380": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "382": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(n) == 171",
+                                            "return == Infinity"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "factorialLog(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch207.inv.output": {
+                                "invs": [
+                                    "n one of { 20, 21, 171 }",
+                                    "n == 171"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "n one of { 20, 21, 171 }",
+                                    "n == 171"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch207.inv.output": {
+                                "invs": [
+                                    "return == 711.7147258022902",
+                                    "return one of { 42.335616460753485, 45.38013889847691, 711.7147258022902 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == 711.7147258022902",
+                                    "return one of { 42.335616460753485, 45.38013889847691, 711.7147258022902 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "409": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

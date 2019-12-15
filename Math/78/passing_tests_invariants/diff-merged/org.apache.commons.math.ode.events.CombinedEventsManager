@@ -1,0 +1,353 @@
+{
+    "org.apache.commons.math.ode.events.CombinedEventsManager": [
+        {
+            "getEventTime()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "return != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "return != 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "clearEventsHandlers()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.initialized == false",
+                                    "this.states[] == []",
+                                    "this.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.states[])-1 != 0",
+                                    "this.states[].getClass().getName() one of { [], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }",
+                                    "size(this.states[]) one of { 0, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.initialized == false",
+                                    "this.states[] == []",
+                                    "this.states[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.states[] == orig(this.states[])",
+                                    "this.initialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.states[]) != orig(size(this.states[]))-1",
+                                    "size(this.states[]) <= orig(size(this.states[]))",
+                                    "size(this.states[])-1 <= orig(size(this.states[]))-1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.states[] == orig(this.states[])",
+                                    "this.initialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "stop()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] })",
+                                    "(return == true)  ==>  (size(this.states[]) one of { 1, 3 })",
+                                    "(return == false)  ==>  (size(this.states[]) one of { 1, 2, 3 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] })",
+                                    "(return == true)  ==>  (size(this.states[]) one of { 1, 3 })",
+                                    "(return == false)  ==>  (size(this.states[]) one of { 1, 2, 3 })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "217": [
+                                {
+                                    "Patch57.inv.output": {
+                                        "invs": [
+                                            "size(this.states[]) one of { 1, 3 }",
+                                            "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch56.inv.output": {
+                                        "invs": [
+                                            "size(this.states[]) one of { 1, 3 }",
+                                            "this.states[].getClass().getName() one of { [org.apache.commons.math.ode.events.EventState], [org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState, org.apache.commons.math.ode.events.EventState] }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "220": [
+                                {
+                                    "Patch57.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch56.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "(this.first == null)  ==>  (orig(this.first.pendingEventTime) != 0)",
+                                    "(this.first == null)  ==>  (orig(this.first.t0) one of { 0.0, 3.141592653589793, 6.283185307179586 })",
+                                    "(this.first != null)  ==>  (this.first.t0 one of { 0.0, 3.141592653589793, 6.283185307179586 })",
+                                    "(this.first != null)  ==>  (this.first.pendingEventTime != 0)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(this.first == null)  ==>  (orig(this.first.t0) != 0)",
+                                    "(this.first != null)  ==>  (this.first.t0 != 0)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "(this.first == null)  ==>  (orig(this.first.pendingEventTime) != 0)",
+                                    "(this.first == null)  ==>  (orig(this.first.t0) one of { 0.0, 3.141592653589793, 6.283185307179586 })",
+                                    "(this.first != null)  ==>  (this.first.t0 one of { 0.0, 3.141592653589793, 6.283185307179586 })",
+                                    "(this.first != null)  ==>  (this.first.pendingEventTime != 0)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "170": [
+                                {
+                                    "Patch57.inv.output": {
+                                        "invs": [
+                                            "(this.first == null)  ==>  (orig(this.first.pendingEventTime) != 0)",
+                                            "(this.first == null)  ==>  (orig(this.first.t0) one of { 0.0, 3.141592653589793, 6.283185307179586 })",
+                                            "(this.first != null)  ==>  (this.first.t0 one of { 0.0, 3.141592653589793, 6.283185307179586 })",
+                                            "(this.first != null)  ==>  (this.first.pendingEventTime != 0)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "(this.first == null)  ==>  (orig(this.first.t0) != 0)",
+                                            "(this.first != null)  ==>  (this.first.t0 != 0)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch56.inv.output": {
+                                        "invs": [
+                                            "(this.first == null)  ==>  (orig(this.first.pendingEventTime) != 0)",
+                                            "(this.first == null)  ==>  (orig(this.first.t0) one of { 0.0, 3.141592653589793, 6.283185307179586 })",
+                                            "(this.first != null)  ==>  (this.first.t0 one of { 0.0, 3.141592653589793, 6.283185307179586 })",
+                                            "(this.first != null)  ==>  (this.first.pendingEventTime != 0)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEventsHandlers()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.initialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.initialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.initialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.initialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

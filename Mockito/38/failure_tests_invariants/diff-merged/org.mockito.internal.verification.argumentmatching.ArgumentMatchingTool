@@ -1,0 +1,60 @@
+{
+    "org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool": [
+        {
+            "safelyMatches(org.hamcrest.Matcher, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "m has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "return == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "41": [
+                                {
+                                    "Patch179.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

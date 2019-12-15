@@ -1,0 +1,75 @@
+{
+    "org.apache.commons.math.special.Gamma": [
+        {
+            "logGamma(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "x one of { 0.5, 1.0, 1.5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x one of { 0.5, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "x one of { 0.5, 1.0, 1.5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "x one of { 0.5, 1.0, 1.5 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return != 0",
+                                    "return one of { -0.1207822376352452, -4.440892098500626E-16, 0.5723649429247 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -4.440892098500626E-16, 0.5723649429247 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "return != 0",
+                                    "return one of { -0.1207822376352452, -4.440892098500626E-16, 0.5723649429247 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "return != 0",
+                                    "return one of { -0.1207822376352452, -4.440892098500626E-16, 0.5723649429247 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

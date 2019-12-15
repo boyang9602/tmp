@@ -1,0 +1,99 @@
+{
+    "org.jfree.chart.axis.NumberTickUnit": [
+        {
+            "NumberTickUnit(double, java.text.NumberFormat)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "formatter != null",
+                                    "formatter.getClass().getName() == java.text.DecimalFormat.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "formatter.getClass().getName() == java.text.DecimalFormat.class",
+                                    "size == 1.0",
+                                    "formatter has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "formatter != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.formatter has only one value",
+                                    "this.size == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NumberTickUnit(double, java.text.NumberFormat, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "minorTickCount >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "minorTickCount one of { 2, 5 }",
+                                    "formatter.getClass().getName() == java.text.DecimalFormat.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minorTickCount >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.minorTickCount one of { 2, 5 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

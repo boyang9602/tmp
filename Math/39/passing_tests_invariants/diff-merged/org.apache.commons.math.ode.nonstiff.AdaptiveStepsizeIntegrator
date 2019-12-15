@@ -1,0 +1,140 @@
+{
+    "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator": [
+        {
+            "initializeStep(boolean, int, double[], double, double[], double[], double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "252": [
+                                {
+                                    "Patch160.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "305": [
+                                {
+                                    "Patch160.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.initialStep == -1.0",
+                                            "this.evaluations.count == 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "307": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch160.inv.output": {
+                                        "invs": [
+                                            "this.initialStep == -1.0",
+                                            "this.evaluations.count == 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setInitialStepSize(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 16 }",
+                                    "this.expandable.primaryState[] elements one of { 1.0060180356223287, 2.0012003599861288, 3.0001800053872327 }",
+                                    "this.expandable.primaryState[] == [1.0060180356223287, 2.0012003599861288, 3.0001800053872327]",
+                                    "this.expandable.primaryStateDot[] == [1.0046775721782596E-4, 2.0009335510782034E-5, 3.0001400032567033E-6]",
+                                    "this.expandable.primaryStateDot[] elements one of { 3.0001400032567033E-6, 2.0009335510782034E-5, 1.0046775721782596E-4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 31 }",
+                                    "this.expandable.primaryState[] elements one of { 1.0060180356223287, 2.0012003599861283, 3.0001800053872327 }",
+                                    "this.expandable.primaryStateDot[] elements one of { 3.0001800053900937E-6, 2.0012003600052132E-5, 1.0060180357182701E-4 }",
+                                    "this.expandable.primaryState[] == [1.0060180356223287, 2.0012003599861283, 3.0001800053872327]",
+                                    "this.expandable.primaryStateDot[] == [1.0060180357182701E-4, 2.0012003600052132E-5, 3.0001800053900937E-6]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 16 }",
+                                    "this.expandable.primaryState[] elements one of { 1.0060180356223287, 2.0012003599861288, 3.0001800053872327 }",
+                                    "this.expandable.primaryState[] == [1.0060180356223287, 2.0012003599861288, 3.0001800053872327]",
+                                    "this.expandable.primaryStateDot[] == [1.0046775721782596E-4, 2.0009335510782034E-5, 3.0001400032567033E-6]",
+                                    "this.expandable.primaryStateDot[] elements one of { 3.0001400032567033E-6, 2.0009335510782034E-5, 1.0046775721782596E-4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count one of { 0, 31 }",
+                                    "this.expandable.primaryState[] elements one of { 1.0060180356223287, 2.0012003599861283, 3.0001800053872327 }",
+                                    "this.expandable.primaryStateDot[] elements one of { 3.0001800053900937E-6, 2.0012003600052132E-5, 1.0060180357182701E-4 }",
+                                    "this.expandable.primaryState[] == [1.0060180356223287, 2.0012003599861283, 3.0001800053872327]",
+                                    "this.expandable.primaryStateDot[] == [1.0060180357182701E-4, 2.0012003600052132E-5, 3.0001800053900937E-6]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

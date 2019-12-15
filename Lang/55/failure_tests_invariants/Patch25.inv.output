@@ -1,0 +1,104 @@
+===========================================================================
+org.apache.commons.lang.time.StopWatch:::CLASS
+===========================================================================
+org.apache.commons.lang.time.StopWatch:::OBJECT
+this has only one value
+this.runningState >= 0
+this.splitState == 10
+this.startTime one of { -1, 1575933846239L }
+this.stopTime one of { -1, 1575933846440L }
+===========================================================================
+org.apache.commons.lang.time.StopWatch.StopWatch():::EXIT
+this.runningState == 0
+this.startTime == -1
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getTime():::ENTER
+this.runningState one of { 2, 3 }
+this.startTime == 1575933846239L
+this.stopTime == 1575933846440L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getTime():::EXIT211
+===========================================================================
+org.apache.commons.lang.time.StopWatch.getTime():::EXIT
+this.runningState == orig(this.runningState)
+this.splitState == orig(this.splitState)
+this.startTime == orig(this.startTime)
+this.stopTime == orig(this.stopTime)
+this.runningState one of { 2, 3 }
+this.startTime == 1575933846239L
+this.stopTime == 1575933846440L
+return == 201
+===========================================================================
+org.apache.commons.lang.time.StopWatch.start():::ENTER
+this.runningState == 0
+this.startTime == -1
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.start():::EXIT
+this.splitState == orig(this.splitState)
+this.stopTime == orig(this.stopTime)
+this.runningState == 1
+this.startTime == 1575933846239L
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.stop():::ENTER
+this.runningState == 3
+this.startTime == 1575933846239L
+this.stopTime == 1575933846440L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.stop():::EXIT
+this.splitState == orig(this.splitState)
+this.startTime == orig(this.startTime)
+this.stopTime == orig(this.stopTime)
+this.runningState == 2
+this.startTime == 1575933846239L
+this.stopTime == 1575933846440L
+===========================================================================
+org.apache.commons.lang.time.StopWatch.suspend():::ENTER
+this.runningState == 1
+this.startTime == 1575933846239L
+this.stopTime == -1
+===========================================================================
+org.apache.commons.lang.time.StopWatch.suspend():::EXIT
+this.splitState == orig(this.splitState)
+this.startTime == orig(this.startTime)
+this.runningState == 3
+this.startTime == 1575933846239L
+this.stopTime == 1575933846440L
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest:::CLASS
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest:::OBJECT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.StopWatchTest(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.StopWatchTest(java.lang.String):::EXIT
+s.toString == orig(s.toString)
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.class$(java.lang.String):::ENTER
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == null
+x0 has only one value
+x0.toString == "org.apache.commons.lang.time.StopWatchTest"
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.class$(java.lang.String):::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == orig(org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest)
+x0.toString == orig(x0.toString)
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == null
+x0.toString == "org.apache.commons.lang.time.StopWatchTest"
+return has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.suite():::ENTER
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == null
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.suite():::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest has only one value
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testLang315():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.time.StopWatchTest.testLang315():::EXIT
+org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest == orig(org.apache.commons.lang.time.StopWatchTest.class$org$apache$commons$lang$time$StopWatchTest)

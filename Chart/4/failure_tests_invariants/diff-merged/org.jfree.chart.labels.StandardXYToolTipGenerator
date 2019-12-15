@@ -1,0 +1,68 @@
+{
+    "org.jfree.chart.labels.StandardXYToolTipGenerator": [
+        {
+            "StandardXYToolTipGenerator()": [
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.xDateFormat == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "StandardXYToolTipGenerator(java.lang.String, java.text.NumberFormat, java.text.NumberFormat)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "yFormat.getClass().getName() == java.text.DecimalFormat.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "xFormat.getClass().getName() == yFormat.getClass().getName()"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.xDateFormat == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.xFormat.getClass().getName() == orig(xFormat.getClass().getName())",
+                                    "org.jfree.chart.labels.StandardXYToolTipGenerator.DEFAULT_TOOL_TIP_FORMAT == orig(formatString)",
+                                    "this.xFormat == orig(xFormat)",
+                                    "this.xFormat.getClass().getName() == orig(yFormat.getClass().getName())",
+                                    "this.yFormat == orig(yFormat)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

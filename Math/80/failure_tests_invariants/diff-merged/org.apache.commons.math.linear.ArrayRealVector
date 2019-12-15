@@ -1,0 +1,1013 @@
+{
+    "org.apache.commons.math.linear.ArrayRealVector": [
+        {
+            "dotProduct(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this has only one value",
+                                    "v[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "v has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "v[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "return == 1.0",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtract(org.apache.commons.math.linear.ArrayRealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this has only one value",
+                                    "v.data has only one value",
+                                    "v.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "v has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "return.data has only one value",
+                                    "v.data has only one value",
+                                    "return.data[] == [9.686128288333151E-9, 1.7728623014079403E-9, 1.601538901496724E-9, 2.3375747726372964E-9, 1.0405018860404347E-10, 4.677795897487479E-12, -4.08041215562132E-14]",
+                                    "v.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "return has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dotProduct(org.apache.commons.math.linear.ArrayRealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this has only one value",
+                                    "v.data has only one value",
+                                    "v.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "v has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "return == 1.0",
+                                    "v.data has only one value",
+                                    "v.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ArrayRealVector(org.apache.commons.math.linear.ArrayRealVector, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "v.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "v has only one value",
+                                    "v.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0",
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "v.data has only one value",
+                                    "v.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0",
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0",
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0",
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0",
+                                    "v.data[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "copy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "this has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != return.getClass().getName()",
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != return.getClass().getName()",
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != return.getClass().getName()",
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != return.getClass().getName()",
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != return.getClass().getName()",
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dotProduct(org.apache.commons.math.linear.RealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != v.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this has only one value",
+                                    "v has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != v.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != v.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != v.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != v.getClass().getName()"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }",
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != orig(v.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "return == 1.0",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }",
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != orig(v.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }",
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != orig(v.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }",
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != orig(v.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "return one of { -1.0000000000000002, 1.0 }",
+                                    "org.apache.commons.math.linear.ArrayRealVector.DEFAULT_FORMAT.format.getClass().getName() != orig(v.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "870": [
+                                {
+                                    "Patch172.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch60.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch61.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch59.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtract(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this has only one value",
+                                    "v[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "v has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "v[] == [-0.2703563517130323, 0.8528110895541346, 0.3996394891005381, 0.19879465547641523, 0.01973932320361581, 1.0698301764920411E-4, -1.2166362801958785E-6]",
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this.data has only one value",
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "checkVectorDimensions(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": [
+                                    "this.data[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtract(org.apache.commons.math.linear.RealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "v has only one value",
+                                    "this has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [-0.270356342026904, 0.852811091326997, 0.399639490702077, 0.19879465781399, 0.019739323307666, 1.06983022327E-4, -1.216636321E-6]",
+                                    "this.data has only one value",
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "269": [
+                                {
+                                    "Patch172.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch60.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch61.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch59.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getNorm()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [9.686128288333151E-9, 1.7728623014079403E-9, 1.601538901496724E-9, 2.3375747726372964E-9, 1.0405018860404347E-10, 4.677795897487479E-12, -4.08041215562132E-14]",
+                                    "this has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch172.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [9.686128288333151E-9, 1.7728623014079403E-9, 1.601538901496724E-9, 2.3375747726372964E-9, 1.0405018860404347E-10, 4.677795897487479E-12, -4.08041215562132E-14]",
+                                    "return == 1.0247153407345222E-8",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch60.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch61.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch59.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

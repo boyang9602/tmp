@@ -1,0 +1,730 @@
+{
+    "org.jfree.chart.axis.NumberAxis": [
+        {
+            "getAutoRangeStickyZero()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "configure()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "valueToJava2D(double, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "EXITNN": [
+                        {
+                            "544": [
+                                {
+                                    "Patch93.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tickUnit.size one of { 1.0, 2.5 }",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size <= this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tickUnit.size one of { 1.0, 2.5 }",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size <= this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "autoAdjustRange()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "424": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "506": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAutoRangeIncludesZero()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NumberAxis(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size",
+                                    "this.plot.foregroundAlpha == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1359": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "refreshTicksVertical(java.awt.Graphics2D, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "g2 != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "dataArea != null",
+                                    "edge != null",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= orig(this.tickUnit.size)",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "return[] elements != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "edge.name != null",
+                                    "return != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == orig(this.tickUnit.size)",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "estimateMaximumTickLabelHeight(java.awt.Graphics2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.tickUnit.size == orig(this.tickUnit.size)",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == orig(this.tickUnit.size)",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "refreshTicks(java.awt.Graphics2D, org.jfree.chart.axis.AxisState, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "state.cursor >= 0.0",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.cursor one of { 0.0, 62.5625, 83.515625 }",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= orig(this.tickUnit.size)",
+                                    "state.cursor >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.cursor one of { 0.0, 62.5625, 83.515625 }",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == orig(this.tickUnit.size)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "selectAutoTickUnit(java.awt.Graphics2D, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= orig(this.tickUnit.size)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == orig(this.tickUnit.size)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "selectVerticalAutoTickUnit(java.awt.Graphics2D, java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "g2 != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "dataArea != null",
+                                    "edge != null",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= orig(this.tickUnit.size)",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "edge.name != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == orig(this.tickUnit.size)",
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setTickUnit(org.jfree.chart.axis.NumberTickUnit, boolean, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= this.tickUnit.size",
+                                    "this.tickUnit.size one of { 0.1, 0.25, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == this.tickUnit.size"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size >= orig(this.tickUnit.size)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT.size == orig(this.tickUnit.size)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

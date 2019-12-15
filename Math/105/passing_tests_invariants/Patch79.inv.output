@@ -1,0 +1,1242 @@
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver:::CLASS
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver:::OBJECT
+this.absoluteAccuracy == 1.0E-6
+this.relativeAccuracy == 1.0E-14
+this.functionValueAccuracy == 1.0E-15
+this.maximalIterationCount == 100
+this.defaultAbsoluteAccuracy == 1.0E-6
+this.defaultRelativeAccuracy == 1.0E-14
+this.defaultFunctionValueAccuracy == 1.0E-15
+this.defaultMaximalIterationCount == 100
+this.iterationCount one of { 0, 6, 8 }
+this.f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.BrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.BrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::EXIT
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+min one of { -5.0, -3.0 }
+max one of { 3.0, 5.0 }
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double):::EXIT132
+===========================================================================
+org.apache.commons.math.analysis.BrentSolver.solve(double, double):::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.resultComputed == true
+this.result one of { 2.36462424919593, 2.7764451025626204, 4.604094755962435 }
+this.iterationCount one of { 6, 8 }
+return one of { 2.36462424919593, 2.7764451025626204, 4.604094755962435 }
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactory:::OBJECT
+this has only one value
+this.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactory.UnivariateRealSolverFactory():::EXIT
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance():::EXIT65
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance():::EXIT
+return has only one value
+return.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.UnivariateRealSolverFactoryImpl():::EXIT
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.newBrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.newBrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::EXIT
+return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.newDefaultSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.newDefaultSolver(org.apache.commons.math.analysis.UnivariateRealFunction):::EXIT
+return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl:::CLASS
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl:::OBJECT
+this.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class
+this.absoluteAccuracy == 1.0E-6
+this.relativeAccuracy == 1.0E-14
+this.functionValueAccuracy == 1.0E-15
+this.maximalIterationCount == 100
+this.defaultAbsoluteAccuracy == 1.0E-6
+this.defaultRelativeAccuracy == 1.0E-14
+this.defaultFunctionValueAccuracy == 1.0E-15
+this.defaultMaximalIterationCount == 100
+this.iterationCount one of { 0, 6, 8 }
+this.f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.UnivariateRealSolverImpl(org.apache.commons.math.analysis.UnivariateRealFunction, int, double):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+defaultMaximalIterationCount == 100
+defaultAbsoluteAccuracy == 1.0E-6
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.UnivariateRealSolverImpl(org.apache.commons.math.analysis.UnivariateRealFunction, int, double):::EXIT
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.clearResult():::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.clearResult():::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.resultComputed == orig(this.resultComputed)
+this.result == orig(this.result)
+this.iterationCount == orig(this.iterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.setResult(double, int):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+result one of { 2.36462424919593, 2.7764451025626204, 4.604094755962435 }
+iterationCount one of { 6, 8 }
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.setResult(double, int):::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.resultComputed == true
+this.result one of { 2.36462424919593, 2.7764451025626204, 4.604094755962435 }
+this.iterationCount one of { 6, 8 }
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.verifyInterval(double, double):::ENTER
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+lower one of { -5.0, -3.0 }
+upper one of { 3.0, 5.0 }
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverImpl.verifyInterval(double, double):::EXIT
+this.absoluteAccuracy == orig(this.absoluteAccuracy)
+this.relativeAccuracy == orig(this.relativeAccuracy)
+this.functionValueAccuracy == orig(this.functionValueAccuracy)
+this.maximalIterationCount == orig(this.maximalIterationCount)
+this.defaultAbsoluteAccuracy == orig(this.defaultAbsoluteAccuracy)
+this.defaultRelativeAccuracy == orig(this.defaultRelativeAccuracy)
+this.defaultFunctionValueAccuracy == orig(this.defaultFunctionValueAccuracy)
+this.defaultMaximalIterationCount == orig(this.defaultMaximalIterationCount)
+this.resultComputed == orig(this.resultComputed)
+this.result == orig(this.result)
+this.iterationCount == orig(this.iterationCount)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.resultComputed == false
+this.result == 0.0
+this.iterationCount == 0
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils:::CLASS
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double):::ENTER
+function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+initial == 0.0
+lowerBound == -1.7976931348623157E308
+upperBound == 1.7976931348623157E308
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double):::EXIT
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())
+return[] one of { [-5.0, 5.0], [-3.0, 3.0] }
+size(return[]) == 2
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, int):::ENTER
+function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+initial == 0.0
+lowerBound == -1.7976931348623157E308
+upperBound == 1.7976931348623157E308
+maximumIterations == 2147483647
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, int):::EXIT
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())
+return[] one of { [-5.0, 5.0], [-3.0, 3.0] }
+size(return[]) == 2
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(org.apache.commons.math.analysis.UnivariateRealFunction):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(org.apache.commons.math.analysis.UnivariateRealFunction):::EXIT
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double):::ENTER
+f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class
+x0 one of { -5.0, -3.0 }
+x1 one of { 3.0, 5.0 }
+===========================================================================
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double):::EXIT
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())
+org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value
+return one of { 2.36462424919593, 2.7764451025626204, 4.604094755962435 }
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1:::OBJECT
+this.val$p one of { 0.975, 0.995 }
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1.(org.apache.commons.math.distribution.AbstractContinuousDistribution, double):::ENTER
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+$hidden$2 one of { 0.975, 0.995 }
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1.(org.apache.commons.math.distribution.AbstractContinuousDistribution, double):::EXIT
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this == orig(org.apache.commons.math.distribution.AbstractContinuousDistribution.this)
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName() == orig(org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName())
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1.value(double):::ENTER
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution$1.value(double):::EXIT
+this.val$p == orig(this.val$p)
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this == orig(org.apache.commons.math.distribution.AbstractContinuousDistribution.this)
+org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName() == orig(org.apache.commons.math.distribution.AbstractContinuousDistribution.this.getClass().getName())
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.AbstractContinuousDistribution():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(double):::ENTER
+p one of { 0.975, 0.995 }
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(double):::EXIT109
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(double):::EXIT
+return one of { 2.36462424919593, 2.7764451025626204, 4.604094755962435 }
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution.AbstractDistribution():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.DistributionFactory:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.DistributionFactoryImpl.class
+===========================================================================
+org.apache.commons.math.distribution.DistributionFactory.DistributionFactory():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.DistributionFactory.newInstance():::EXIT68
+===========================================================================
+org.apache.commons.math.distribution.DistributionFactory.newInstance():::EXIT
+return.getClass().getName() == org.apache.commons.math.distribution.DistributionFactoryImpl.class
+===========================================================================
+org.apache.commons.math.distribution.DistributionFactoryImpl:::OBJECT
+===========================================================================
+org.apache.commons.math.distribution.DistributionFactoryImpl.DistributionFactoryImpl():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.DistributionFactoryImpl.createTDistribution(double):::ENTER
+degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+===========================================================================
+org.apache.commons.math.distribution.DistributionFactoryImpl.createTDistribution(double):::EXIT
+return.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl:::OBJECT
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double):::ENTER
+degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double):::EXIT
+this.degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.cumulativeProbability(double):::ENTER
+this.degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.cumulativeProbability(double):::EXIT
+this.degreesOfFreedom == orig(this.degreesOfFreedom)
+this.degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.getDegreesOfFreedom():::ENTER
+this.degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.getDegreesOfFreedom():::EXIT
+this.degreesOfFreedom == orig(this.degreesOfFreedom)
+this.degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+return one of { 4.0, 7.0, 98.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.getDomainLowerBound(double):::ENTER
+this.degreesOfFreedom one of { 4.0, 7.0 }
+p one of { 0.975, 0.995 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.getDomainLowerBound(double):::EXIT
+this.degreesOfFreedom == orig(this.degreesOfFreedom)
+this.degreesOfFreedom one of { 4.0, 7.0 }
+return == -1.7976931348623157E308
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.getDomainUpperBound(double):::ENTER
+this.degreesOfFreedom one of { 4.0, 7.0 }
+p one of { 0.975, 0.995 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.getDomainUpperBound(double):::EXIT
+this.degreesOfFreedom == orig(this.degreesOfFreedom)
+this.degreesOfFreedom one of { 4.0, 7.0 }
+return == 1.7976931348623157E308
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.getInitialDomain(double):::ENTER
+this.degreesOfFreedom one of { 4.0, 7.0 }
+p one of { 0.975, 0.995 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.getInitialDomain(double):::EXIT
+this.degreesOfFreedom == orig(this.degreesOfFreedom)
+this.degreesOfFreedom one of { 4.0, 7.0 }
+return == 0.0
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.inverseCumulativeProbability(double):::ENTER
+this.degreesOfFreedom one of { 4.0, 7.0 }
+p one of { 0.975, 0.995 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.inverseCumulativeProbability(double):::EXIT116
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.inverseCumulativeProbability(double):::EXIT
+this.degreesOfFreedom == orig(this.degreesOfFreedom)
+this.degreesOfFreedom one of { 4.0, 7.0 }
+return one of { 2.36462424919593, 2.7764451025626204, 4.604094755962435 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedom(double):::ENTER
+this.degreesOfFreedom == 0.0
+degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedom(double):::EXIT
+this.degreesOfFreedom one of { 4.0, 7.0, 98.0 }
+this.degreesOfFreedom > orig(this.degreesOfFreedom)
+===========================================================================
+org.apache.commons.math.special.Beta$1:::CLASS
+===========================================================================
+org.apache.commons.math.special.Beta$1:::OBJECT
+this.val$b >= 0.5
+this.val$a >= 0.5
+===========================================================================
+org.apache.commons.math.special.Beta$1.(double, double):::ENTER
+$hidden$1 >= 0.5
+$hidden$3 >= 0.5
+===========================================================================
+org.apache.commons.math.special.Beta$1.(double, double):::EXIT
+===========================================================================
+org.apache.commons.math.special.Beta$1.getA(int, double):::ENTER
+n >= 0
+===========================================================================
+org.apache.commons.math.special.Beta$1.getA(int, double):::EXIT
+this.val$b == orig(this.val$b)
+this.val$a == orig(this.val$a)
+return == 1.0
+===========================================================================
+org.apache.commons.math.special.Beta$1.getB(int, double):::ENTER
+n >= 1
+===========================================================================
+org.apache.commons.math.special.Beta$1.getB(int, double):::EXIT
+this.val$b == orig(this.val$b)
+this.val$a == orig(this.val$a)
+===========================================================================
+org.apache.commons.math.special.Beta:::CLASS
+===========================================================================
+org.apache.commons.math.special.Beta.logBeta(double, double, double, int):::ENTER
+a >= 0.5
+b >= 0.5
+epsilon == 1.0E-8
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.special.Beta.logBeta(double, double, double, int):::EXIT
+return one of { -1.3709942299870193, -0.018420923956280033, 0.28768207245178046 }
+return != 0
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double):::ENTER
+a one of { 2.0, 3.5, 49.0 }
+b == 0.5
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double):::EXIT
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double, double, int):::ENTER
+a >= 0.5
+b >= 0.5
+epsilon == 1.0E-8
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double, double, int):::EXIT
+===========================================================================
+org.apache.commons.math.special.Gamma:::CLASS
+org.apache.commons.math.special.Gamma.lanczos has only one value
+org.apache.commons.math.special.Gamma.lanczos != null
+org.apache.commons.math.special.Gamma.lanczos[] == [0.9999999999999971, 57.15623566586292, -59.59796035547549, 14.136097974741746, -0.4919138160976202, 3.399464998481189E-5, 4.652362892704858E-5, -9.837447530487956E-5, 1.580887032249125E-4, -2.1026444172410488E-4, 2.1743961811521265E-4, -1.643181065367639E-4, 8.441822398385275E-5, -2.6190838401581408E-5, 3.6899182659531625E-6]
+org.apache.commons.math.special.Gamma.HALF_LOG_2_PI == 0.9189385332046727
+size(org.apache.commons.math.special.Gamma.lanczos[]) == 15
+===========================================================================
+org.apache.commons.math.special.Gamma.logGamma(double):::ENTER
+x >= 0.5
+===========================================================================
+org.apache.commons.math.special.Gamma.logGamma(double):::EXIT
+org.apache.commons.math.special.Gamma.lanczos == orig(org.apache.commons.math.special.Gamma.lanczos)
+org.apache.commons.math.special.Gamma.lanczos[] == orig(org.apache.commons.math.special.Gamma.lanczos[])
+org.apache.commons.math.special.Gamma.HALF_LOG_2_PI == orig(org.apache.commons.math.special.Gamma.HALF_LOG_2_PI)
+return >= 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression:::CLASS
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression:::OBJECT
+this.sumXX >= 0.0
+this.sumY >= 0.0
+this.sumYY >= 0.0
+this.n >= 0
+this.xbar >= -0.49999999999999956
+this.ybar >= 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.SimpleRegression():::EXIT
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.addData(double, double):::ENTER
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.addData(double, double):::EXIT
+this.n >= 1
+this.sumXX >= orig(this.sumXX)
+this.sumYY >= orig(this.sumYY)
+this.n - orig(this.n) - 1 == 0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.addData(double[][]):::ENTER
+this.sumX one of { 0.0, 1297.3 }
+this.sumXX one of { 0.0, 4551.517647058822 }
+this.sumY one of { 0.0, 2286.6 }
+this.sumYY one of { 0.0, 8894.249411764715 }
+this.sumXY one of { -6023.051176470592, 0.0 }
+this.n one of { 0, 17 }
+this.xbar one of { 0.0, 76.31176470588235 }
+this.ybar one of { 0.0, 134.50588235294117 }
+data.getClass().getName() == double[][].class
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.addData(double[][]):::EXIT
+data[] == orig(data[])
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.clear():::ENTER
+this has only one value
+this.sumX == 1297.3
+this.sumXX == 4551.517647058822
+this.sumY == 2286.6
+this.sumYY == 8894.249411764715
+this.sumXY == -6023.051176470592
+this.n == 17
+this.xbar == 76.31176470588235
+this.ybar == 134.50588235294117
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.clear():::EXIT
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 76.31176470588235
+this.ybar == 134.50588235294117
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getIntercept():::ENTER
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getIntercept():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+return one of { -0.26232307377414243, 1.5, Double.NaN }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getIntercept(double):::ENTER
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+slope one of { 0.5, 1.0021168180204547, Double.NaN }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getIntercept(double):::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+return one of { -0.26232307377414243, 1.5, Double.NaN }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getInterceptStdErr():::ENTER
+this.sumXY >= 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getInterceptStdErr():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXY >= 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getMeanSquareError():::ENTER
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getMeanSquareError():::EXIT317
+this.sumX one of { 0.0, 2.0, 4.0 }
+this.sumXX one of { 0.0, 2.0 }
+this.sumY one of { 0.0, 5.0 }
+this.sumYY one of { 0.0, 0.5 }
+this.sumXY one of { 0.0, 1.0 }
+this.n one of { 0, 2 }
+this.xbar one of { 0.0, 1.0, 2.0 }
+this.ybar one of { 0.0, 2.5 }
+return == Double.NaN
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getMeanSquareError():::EXIT319
+this.sumYY >= 2.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getMeanSquareError():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+(this.sumXX one of { 0.0, 2.0 })  <==>  (this.n one of { 0, 2 })
+(this.sumXX one of { 0.0, 2.0 })  <==>  (this.sumY one of { 0.0, 5.0 })
+(this.sumXX one of { 0.0, 2.0 })  <==>  (this.sumYY one of { 0.0, 0.5 })
+(this.sumXX one of { 0.0, 2.0 })  ==>  (return == Double.NaN)
+(this.sumXX one of { 0.0, 2.0 })  ==>  (this.sumX one of { 0.0, 2.0, 4.0 })
+(this.sumXX one of { 0.0, 2.0 })  ==>  (this.sumXY one of { 0.0, 1.0 })
+(this.sumXX one of { 0.0, 2.0 })  ==>  (this.xbar one of { 0.0, 1.0, 2.0 })
+(this.sumXX one of { 0.0, 2.0 })  ==>  (this.ybar one of { 0.0, 2.5 })
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getN():::ENTER
+this.xbar one of { 76.31176470588235, 309.6264150943396, 419.1777777777778 }
+this.ybar one of { 134.50588235294117, 327.8679245283019, 419.80277777777786 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getN():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.xbar one of { 76.31176470588235, 309.6264150943396, 419.1777777777778 }
+this.ybar one of { 134.50588235294117, 327.8679245283019, 419.80277777777786 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getR():::ENTER
+this.sumXX one of { 0.0, 2.0, 4551.517647058822 }
+this.sumY one of { 0.0, 5.0, 2286.6 }
+this.sumYY one of { 0.0, 0.5, 8894.249411764715 }
+this.sumXY one of { -6023.051176470592, 0.0, 1.0 }
+this.n one of { 0, 2, 17 }
+this.ybar one of { 0.0, 2.5, 134.50588235294117 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getR():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXX one of { 0.0, 2.0, 4551.517647058822 }
+this.sumY one of { 0.0, 5.0, 2286.6 }
+this.sumYY one of { 0.0, 0.5, 8894.249411764715 }
+this.sumXY one of { -6023.051176470592, 0.0, 1.0 }
+this.n one of { 0, 2, 17 }
+this.ybar one of { 0.0, 2.5, 134.50588235294117 }
+return one of { -0.9466376774204126, 1.0, Double.NaN }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRSquare():::ENTER
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRSquare():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+return one of { 0.8961228923119132, 0.9999937458837121, Double.NaN }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRegressionSumSquares():::ENTER
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRegressionSumSquares():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+return one of { 0.5, 4255954.132323695, Double.NaN }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRegressionSumSquares(double):::ENTER
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+slope one of { 0.5, 1.0021168180204547, Double.NaN }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRegressionSumSquares(double):::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+return one of { 0.5, 4255954.132323695, Double.NaN }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSignificance():::ENTER
+this.sumXX one of { 8.501683501683512, 17.5, 1440.6422222222218 }
+this.n one of { 6, 9, 100 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSignificance():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXX one of { 8.501683501683512, 17.5, 1440.6422222222218 }
+this.n one of { 6, 9, 100 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::ENTER
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::EXIT227
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+return == Double.NaN
+orig(this) has only one value
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::EXIT230
+this.sumX == 2.0
+this.sumXX == 0.0
+this.sumY == 5.0
+this.sumYY == 0.5
+this.sumXY == 0.0
+this.n == 2
+this.xbar == 1.0
+this.ybar == 2.5
+return == Double.NaN
+orig(this) has only one value
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::EXIT232
+this.sumXX >= 2.0
+this.sumYY >= 0.5
+this.n >= 2
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlopeConfidenceInterval():::ENTER
+this.sumX one of { 21.0, 193.9 }
+this.sumXX one of { 17.5, 1440.6422222222218 }
+this.sumY one of { 19.0, 50.3 }
+this.sumYY one of { 60.22888888888889, 114.83333333333333 }
+this.sumXY one of { 24.5, 291.3144444444444 }
+this.n one of { 6, 9 }
+this.xbar one of { 3.5, 21.54444444444444 }
+this.ybar one of { 3.1666666666666665, 5.5888888888888895 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlopeConfidenceInterval():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX one of { 21.0, 193.9 }
+this.sumXX one of { 17.5, 1440.6422222222218 }
+this.sumY one of { 19.0, 50.3 }
+this.sumYY one of { 60.22888888888889, 114.83333333333333 }
+this.sumXY one of { 24.5, 291.3144444444444 }
+this.n one of { 6, 9 }
+this.xbar one of { 3.5, 21.54444444444444 }
+this.ybar one of { 3.1666666666666665, 5.5888888888888895 }
+return one of { 0.027071379401282732, 2.9780220454448174 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlopeConfidenceInterval(double):::ENTER
+this.sumX one of { 21.0, 193.9 }
+this.sumXX one of { 17.5, 1440.6422222222218 }
+this.sumY one of { 19.0, 50.3 }
+this.sumYY one of { 60.22888888888889, 114.83333333333333 }
+this.sumXY one of { 24.5, 291.3144444444444 }
+this.n one of { 6, 9 }
+this.xbar one of { 3.5, 21.54444444444444 }
+this.ybar one of { 3.1666666666666665, 5.5888888888888895 }
+alpha one of { 0.01, 0.05 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlopeConfidenceInterval(double):::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX one of { 21.0, 193.9 }
+this.sumXX one of { 17.5, 1440.6422222222218 }
+this.sumY one of { 19.0, 50.3 }
+this.sumYY one of { 60.22888888888889, 114.83333333333333 }
+this.sumXY one of { 24.5, 291.3144444444444 }
+this.n one of { 6, 9 }
+this.xbar one of { 3.5, 21.54444444444444 }
+this.ybar one of { 3.1666666666666665, 5.5888888888888895 }
+return one of { 0.027071379401282732, 2.9780220454448174, 4.938363690287936 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlopeStdErr():::ENTER
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlopeStdErr():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSumSquaredErrors():::ENTER
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSumSquaredErrors():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+return >= 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTDistribution():::ENTER
+this.sumXX one of { 8.501683501683512, 17.5, 1440.6422222222218 }
+this.n one of { 6, 9, 100 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTDistribution():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXX one of { 8.501683501683512, 17.5, 1440.6422222222218 }
+this.n one of { 6, 9, 100 }
+return.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::ENTER
+this.sumX >= 0.0
+this.xbar >= 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::EXIT280
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+return == Double.NaN
+orig(this) has only one value
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::EXIT282
+this.sumX >= 2.0
+this.sumY one of { 5.0, 2286.6, 15112.900000000001 }
+this.sumYY one of { 0.5, 8894.249411764715, 4255980.749722223 }
+this.n one of { 2, 17, 36 }
+this.xbar >= 1.0
+this.ybar one of { 2.5, 134.50588235294117, 419.80277777777786 }
+return one of { 0.5, 8894.249411764715, 4255980.749722223 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+(this.sumX == 0.0)  <==>  (return == Double.NaN)
+(this.sumX == 0.0)  <==>  (this.n == 0)
+(this.sumX == 0.0)  <==>  (this.sumY == 0.0)
+(this.sumX == 0.0)  <==>  (this.sumYY == 0.0)
+(this.sumX == 0.0)  <==>  (this.xbar == 0.0)
+(this.sumX == 0.0)  <==>  (this.ybar == 0.0)
+(this.sumX == 0.0)  ==>  (orig(this) has only one value)
+(this.sumX == 0.0)  ==>  (this.sumXX == 0.0)
+(this.sumX == 0.0)  ==>  (this.sumXY == 0.0)
+(this.sumX >= 2.0)  <==>  (return one of { 0.5, 8894.249411764715, 4255980.749722223 })
+(this.sumX >= 2.0)  <==>  (this.n one of { 2, 17, 36 })
+(this.sumX >= 2.0)  <==>  (this.sumY one of { 5.0, 2286.6, 15112.900000000001 })
+(this.sumX >= 2.0)  <==>  (this.sumYY one of { 0.5, 8894.249411764715, 4255980.749722223 })
+(this.sumX >= 2.0)  <==>  (this.xbar >= 1.0)
+(this.sumX >= 2.0)  <==>  (this.ybar one of { 2.5, 134.50588235294117, 419.80277777777786 })
+this.sumX >= 0.0
+this.xbar >= 0.0
+return >= 0.5
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.predict(double):::ENTER
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+x one of { 0.0, 1.0 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.predict(double):::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumXX one of { 0.0, 2.0, 4237993.022222222 }
+this.sumY one of { 0.0, 5.0, 15112.900000000001 }
+this.sumYY one of { 0.0, 0.5, 4255980.749722223 }
+this.sumXY one of { 0.0, 1.0, 4246964.082222223 }
+this.n one of { 0, 2, 36 }
+this.ybar one of { 0.0, 2.5, 419.80277777777786 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest:::OBJECT
+this.data.getClass().getName() == this.corrData.getClass().getName()
+this.data.getClass().getName() == this.infData.getClass().getName()
+this.data.getClass().getName() == this.infData2.getClass().getName()
+this.data != null
+this.data.getClass().getName() == double[][].class
+this.data[] elements != null
+this.corrData != null
+this.corrData[] elements != null
+this.infData != null
+this.infData[] elements != null
+this.infData2 != null
+this.infData2[] elements != null
+size(this.data[]) == 36
+size(this.corrData[]) == 17
+size(this.infData[]) == 9
+size(this.infData2[]) == 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.SimpleRegressionTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.SimpleRegressionTest(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.setUp():::ENTER
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.setUp():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.suite():::EXIT
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testClear():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testClear():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testCorr():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testCorr():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testInference():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testInference():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testNaNs():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testNaNs():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testNorris():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testNorris():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testPerfect():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testPerfect():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testPerfectNegative():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testPerfectNegative():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testRandom():::ENTER
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testRandom():::EXIT
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.data.getClass().getName() == orig(this.corrData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData.getClass().getName())
+this.data.getClass().getName() == orig(this.infData2.getClass().getName())
+this.data[] == orig(this.data[])
+this.corrData == orig(this.corrData)
+this.corrData[] == orig(this.corrData[])
+this.infData == orig(this.infData)
+this.infData[] == orig(this.infData[])
+this.infData2 == orig(this.infData2)
+this.infData2[] == orig(this.infData2[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 36
+this.corrData has only one value
+this.corrData[] contains no nulls and has only one value, of length 17
+this.infData has only one value
+this.infData[] contains no nulls and has only one value, of length 9
+this.infData2 has only one value
+this.infData2[] contains no nulls and has only one value, of length 6
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction:::CLASS
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction:::OBJECT
+this.getClass().getName() == org.apache.commons.math.special.Beta$1.class
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.ContinuedFraction():::EXIT
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.evaluate(double, double, int):::ENTER
+epsilon == 1.0E-8
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.evaluate(double, double, int):::EXIT

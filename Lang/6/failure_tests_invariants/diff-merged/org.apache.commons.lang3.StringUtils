@@ -1,0 +1,94 @@
+{
+    "org.apache.commons.lang3.StringUtils": [
+        {
+            "CLASS": [
+                {
+                    "PatchHDRepair2.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "containsNone(java.lang.CharSequence, char[])": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(searchChars[]) == 4",
+                                    "searchChars[] == [44, 34, 13, 10]",
+                                    "searchChars has only one value",
+                                    "cs.getClass().getName() == java.lang.String.class",
+                                    "cs has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(searchChars[]) == 4",
+                                    "searchChars[] == [44, 34, 13, 10]",
+                                    "searchChars has only one value",
+                                    "cs.getClass().getName() == java.lang.String.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "searchChars[] == [44, 34, 13, 10]",
+                                    "searchChars[] == orig(searchChars[])",
+                                    "return == true"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "searchChars[] == [44, 34, 13, 10]",
+                                    "searchChars[] == orig(searchChars[])",
+                                    "return == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1763": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

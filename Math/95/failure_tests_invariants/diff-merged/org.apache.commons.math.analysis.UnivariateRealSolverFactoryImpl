@@ -1,0 +1,178 @@
+{
+    "org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this has only one value"
+                        ]
+                    }
+                },
+                {
+                    "Patch75.inv.output": {
+                        "invs": [
+                            "this has only one value"
+                        ]
+                    }
+                },
+                {
+                    "Patch76.inv.output": {
+                        "invs": [
+                            "this has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "newBrentSolver(org.apache.commons.math.analysis.UnivariateRealFunction)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "UnivariateRealSolverFactoryImpl()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "newDefaultSolver(org.apache.commons.math.analysis.UnivariateRealFunction)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.apache.commons.math.analysis.BrentSolver.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

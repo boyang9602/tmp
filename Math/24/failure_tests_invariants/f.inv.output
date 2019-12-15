@@ -1,0 +1,867 @@
+===========================================================================
+org.apache.commons.math3.analysis.FunctionUtils$4:::OBJECT
+this has only one value
+this.val$f has only one value
+this.val$f != null
+this.val$f.getClass().getName() == org.apache.commons.math3.analysis.UnivariateFunction[].class
+this.val$f[] contains no nulls and has only one value, of length 2
+this.val$f[] elements != null
+this.val$f[].getClass().getName() == [org.apache.commons.math3.analysis.function.Sin, org.apache.commons.math3.analysis.function.StepFunction]
+size(this.val$f[]) == 2
+===========================================================================
+org.apache.commons.math3.analysis.FunctionUtils$4.(org.apache.commons.math3.analysis.UnivariateFunction[]):::ENTER
+$hidden$1 has only one value
+$hidden$1.getClass().getName() == org.apache.commons.math3.analysis.UnivariateFunction[].class
+$hidden$1[] contains no nulls and has only one value, of length 2
+size($hidden$1[]) == 2
+===========================================================================
+org.apache.commons.math3.analysis.FunctionUtils$4.(org.apache.commons.math3.analysis.UnivariateFunction[]):::EXIT
+$hidden$1[] == orig($hidden$1[])
+$hidden$1[] contains no nulls and has only one value, of length 2
+===========================================================================
+org.apache.commons.math3.analysis.FunctionUtils$4.value(double):::ENTER
+x == 4.712389134734689
+===========================================================================
+org.apache.commons.math3.analysis.FunctionUtils$4.value(double):::EXIT
+this.val$f == orig(this.val$f)
+this.val$f.getClass().getName() == orig(this.val$f.getClass().getName())
+this.val$f[] == orig(this.val$f[])
+return one of { -1.999999999999999, -0.9999999999999881 }
+===========================================================================
+org.apache.commons.math3.analysis.FunctionUtils.add(org.apache.commons.math3.analysis.UnivariateFunction[]):::ENTER
+f has only one value
+f.getClass().getName() == org.apache.commons.math3.analysis.UnivariateFunction[].class
+f[] contains no nulls and has only one value, of length 2
+size(f[]) == 2
+===========================================================================
+org.apache.commons.math3.analysis.FunctionUtils.add(org.apache.commons.math3.analysis.UnivariateFunction[]):::EXIT
+f[] == orig(f[])
+f[] contains no nulls and has only one value, of length 2
+return has only one value
+return.getClass().getName() == org.apache.commons.math3.analysis.FunctionUtils$4.class
+===========================================================================
+org.apache.commons.math3.analysis.function.Sin:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math3.analysis.function.Sin.Sin():::EXIT
+===========================================================================
+org.apache.commons.math3.analysis.function.Sin.value(double):::ENTER
+x == 4.712389134734689
+===========================================================================
+org.apache.commons.math3.analysis.function.Sin.value(double):::EXIT
+return == -0.9999999999999881
+===========================================================================
+org.apache.commons.math3.analysis.function.StepFunction:::OBJECT
+this has only one value
+this.abscissa has only one value
+this.abscissa != null
+this.abscissa[] == [4.71238898038469, 4.71238899038469, 4.712389030384689]
+this.abscissa[] elements == 4.71238898038469
+this.ordinate has only one value
+this.ordinate != null
+this.ordinate[] == [0.0, -1.0, 0.0]
+this.ordinate[] elements one of { -1.0, 0.0 }
+size(this.abscissa[]) == 3
+size(this.ordinate[]) == 3
+===========================================================================
+org.apache.commons.math3.analysis.function.StepFunction.StepFunction(double[], double[]):::ENTER
+x has only one value
+x[] == [4.71238898038469, 4.71238899038469, 4.712389030384689]
+x[] elements == 4.71238898038469
+y has only one value
+y[] == [0.0, -1.0, 0.0]
+y[] elements one of { -1.0, 0.0 }
+size(x[]) == 3
+size(y[]) == 3
+===========================================================================
+org.apache.commons.math3.analysis.function.StepFunction.StepFunction(double[], double[]):::EXIT
+x[] == orig(x[])
+y[] == orig(y[])
+x[] == [4.71238898038469, 4.71238899038469, 4.712389030384689]
+x[] elements == 4.71238898038469
+y[] == [0.0, -1.0, 0.0]
+y[] elements one of { -1.0, 0.0 }
+===========================================================================
+org.apache.commons.math3.analysis.function.StepFunction.value(double):::ENTER
+x == 4.712389134734689
+===========================================================================
+org.apache.commons.math3.analysis.function.StepFunction.value(double):::EXIT
+this.abscissa == orig(this.abscissa)
+this.abscissa[] == orig(this.abscissa[])
+this.ordinate == orig(this.ordinate)
+this.ordinate[] == orig(this.ordinate[])
+return one of { -1.0, 0.0 }
+===========================================================================
+org.apache.commons.math3.optimization.GoalType:::OBJECT
+===========================================================================
+org.apache.commons.math3.optimization.GoalType.GoalType(java.lang.String, int):::ENTER
+$hidden$1.toString one of { "MAXIMIZE", "MINIMIZE" }
+$hidden$2 one of { 0, 1 }
+===========================================================================
+org.apache.commons.math3.optimization.GoalType.GoalType(java.lang.String, int):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+$hidden$1.toString one of { "MAXIMIZE", "MINIMIZE" }
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:::OBJECT
+this has only one value
+this.getClass().getName() == org.apache.commons.math3.optimization.univariate.BrentOptimizer.class
+this.checker == null
+this.evaluations has only one value
+this.evaluations != null
+this.evaluations.maximalCount one of { 0, 200 }
+this.evaluations.count >= 0
+this.evaluations.maxCountCallback has only one value
+this.evaluations.maxCountCallback != null
+this.evaluations.maxCountCallback.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE != null
+org.apache.commons.math3.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math3.optimization.GoalType.MINIMIZE != null
+org.apache.commons.math3.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math3.optimization.GoalType.$VALUES != null
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math3.optimization.GoalType[].class
+org.apache.commons.math3.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math3.optimization.GoalType.$VALUES[] elements != null
+org.apache.commons.math3.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math3.optimization.GoalType, org.apache.commons.math3.optimization.GoalType]
+org.apache.commons.math3.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math3.optimization.GoalType.class
+this.searchMin one of { 0.0, 4.7123883014846895 }
+this.searchMax one of { 0.0, 4.71238996798469 }
+this.searchStart one of { 0.0, 4.712389134734689 }
+this.function.getClass().getName() == org.apache.commons.math3.analysis.FunctionUtils$4.class
+size(org.apache.commons.math3.optimization.GoalType.$VALUES[]) == 2
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.BaseAbstractUnivariateOptimizer(org.apache.commons.math3.optimization.ConvergenceChecker):::ENTER
+checker == null
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.BaseAbstractUnivariateOptimizer(org.apache.commons.math3.optimization.ConvergenceChecker):::EXIT
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.goal == null
+this.searchMin == 0.0
+this.searchMax == 0.0
+this.searchStart == 0.0
+this.function == null
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.computeObjectiveValue(double):::ENTER
+this.evaluations.maximalCount == 200
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+point == 4.712389134734689
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.computeObjectiveValue(double):::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 200
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return one of { -1.999999999999999, -0.9999999999999881 }
+this.evaluations.count - orig(this.evaluations.count) - 1 == 0
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getConvergenceChecker():::ENTER
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getConvergenceChecker():::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return == null
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getEvaluations():::ENTER
+this.evaluations.maximalCount == 200
+this.evaluations.count == 6
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getEvaluations():::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 200
+this.evaluations.count == 6
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return == 6
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getGoalType():::ENTER
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getGoalType():::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMax():::ENTER
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMax():::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return == 4.71238996798469
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMin():::ENTER
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMin():::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return == 4.7123883014846895
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getStartValue():::ENTER
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getStartValue():::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return == 4.712389134734689
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.optimize(int, org.apache.commons.math3.analysis.UnivariateFunction, org.apache.commons.math3.optimization.GoalType, double, double):::ENTER
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.goal == null
+this.searchMin == 0.0
+this.searchMax == 0.0
+this.searchStart == 0.0
+this.function == null
+maxEval == 200
+f has only one value
+f.getClass().getName() == org.apache.commons.math3.analysis.FunctionUtils$4.class
+goalType has only one value
+min == 4.7123883014846895
+max == 4.71238996798469
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.optimize(int, org.apache.commons.math3.analysis.UnivariateFunction, org.apache.commons.math3.optimization.GoalType, double, double):::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.evaluations.maximalCount == 200
+this.evaluations.count == 6
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return has only one value
+return.point == 4.712389027602411
+return.value == -1.999999999999999
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.optimize(int, org.apache.commons.math3.analysis.UnivariateFunction, org.apache.commons.math3.optimization.GoalType, double, double, double):::ENTER
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.goal == null
+this.searchMin == 0.0
+this.searchMax == 0.0
+this.searchStart == 0.0
+this.function == null
+maxEval == 200
+f has only one value
+f.getClass().getName() == org.apache.commons.math3.analysis.FunctionUtils$4.class
+goalType has only one value
+min == 4.7123883014846895
+max == 4.71238996798469
+startValue == 4.712389134734689
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.optimize(int, org.apache.commons.math3.analysis.UnivariateFunction, org.apache.commons.math3.optimization.GoalType, double, double, double):::EXIT
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.evaluations.maximalCount == 200
+this.evaluations.count == 6
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return has only one value
+return.point == 4.712389027602411
+return.value == -1.999999999999999
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer:::CLASS
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.GOLDEN_SECTION == 0.3819660112501051
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.MIN_RELATIVE_TOLERANCE == 4.440892098500626E-16
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer:::OBJECT
+this has only one value
+this.relativeThreshold == 1.0E-8
+this.absoluteThreshold == 1.0E-100
+this.checker == null
+this.evaluations has only one value
+this.evaluations.maximalCount one of { 0, 200 }
+this.evaluations.count one of { 0, 6 }
+this.evaluations.maxCountCallback has only one value
+this.evaluations.maxCountCallback.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math3.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math3.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math3.optimization.GoalType[].class
+org.apache.commons.math3.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math3.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math3.optimization.GoalType, org.apache.commons.math3.optimization.GoalType]
+org.apache.commons.math3.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math3.optimization.GoalType.class
+this.searchMin one of { 0.0, 4.7123883014846895 }
+this.searchMax one of { 0.0, 4.71238996798469 }
+this.searchStart one of { 0.0, 4.712389134734689 }
+this.function.getClass().getName() == org.apache.commons.math3.analysis.FunctionUtils$4.class
+size(org.apache.commons.math3.optimization.GoalType.$VALUES[]) == 2
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer(double, double):::ENTER
+rel == 1.0E-8
+abs == 1.0E-100
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer(double, double):::EXIT
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.goal == null
+this.searchMin == 0.0
+this.searchMax == 0.0
+this.searchStart == 0.0
+this.function == null
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer(double, double, org.apache.commons.math3.optimization.ConvergenceChecker):::ENTER
+rel == 1.0E-8
+abs == 1.0E-100
+checker == null
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer(double, double, org.apache.commons.math3.optimization.ConvergenceChecker):::EXIT
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.goal == null
+this.searchMin == 0.0
+this.searchMax == 0.0
+this.searchStart == 0.0
+this.function == null
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.best(org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair, org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair, boolean):::ENTER
+this.evaluations.maximalCount == 200
+this.evaluations.count == 6
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+a has only one value
+a.point == 4.7123890747263015
+a.value == -0.9999999999999956
+b has only one value
+b.point == 4.712389027602411
+b.value == -1.999999999999999
+isMinim == true
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.best(org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair, org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair, boolean):::EXIT294
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.best(org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair, org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair, boolean):::EXIT
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.GOLDEN_SECTION == orig(org.apache.commons.math3.optimization.univariate.BrentOptimizer.GOLDEN_SECTION)
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.MIN_RELATIVE_TOLERANCE == orig(org.apache.commons.math3.optimization.univariate.BrentOptimizer.MIN_RELATIVE_TOLERANCE)
+this.relativeThreshold == orig(this.relativeThreshold)
+this.absoluteThreshold == orig(this.absoluteThreshold)
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+a.point == orig(a.point)
+a.value == orig(a.value)
+b.point == orig(b.point)
+b.value == orig(b.value)
+this.evaluations.maximalCount == 200
+this.evaluations.count == 6
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+a.point == 4.7123890747263015
+a.value == -0.9999999999999956
+b.point == 4.712389027602411
+b.value == -1.999999999999999
+return has only one value
+return.point == 4.712389027602411
+return.value == -1.999999999999999
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.doOptimize():::ENTER
+this.evaluations.maximalCount == 200
+this.evaluations.count == 0
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.doOptimize():::EXIT267
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.doOptimize():::EXIT
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.GOLDEN_SECTION == orig(org.apache.commons.math3.optimization.univariate.BrentOptimizer.GOLDEN_SECTION)
+org.apache.commons.math3.optimization.univariate.BrentOptimizer.MIN_RELATIVE_TOLERANCE == orig(org.apache.commons.math3.optimization.univariate.BrentOptimizer.MIN_RELATIVE_TOLERANCE)
+this.relativeThreshold == orig(this.relativeThreshold)
+this.absoluteThreshold == orig(this.absoluteThreshold)
+this.checker == orig(this.checker)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.goal == orig(this.goal)
+org.apache.commons.math3.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math3.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math3.optimization.GoalType.MINIMIZE)
+org.apache.commons.math3.optimization.GoalType.$VALUES == orig(org.apache.commons.math3.optimization.GoalType.$VALUES)
+org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math3.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math3.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math3.optimization.GoalType.$VALUES[])
+this.searchMin == orig(this.searchMin)
+this.searchMax == orig(this.searchMax)
+this.searchStart == orig(this.searchStart)
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 200
+this.evaluations.count == 6
+this.goal has only one value
+this.searchMin == 4.7123883014846895
+this.searchMax == 4.71238996798469
+this.searchStart == 4.712389134734689
+this.function has only one value
+return has only one value
+return.point == 4.712389027602411
+return.value == -1.999999999999999
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest.BrentOptimizerTest():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest.testMath855():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest.testMath855():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair:::CLASS
+===========================================================================
+org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair:::OBJECT
+this.point == 4.712389134734689
+this.value one of { -1.999999999999999, -0.9999999999999881 }
+===========================================================================
+org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.UnivariatePointValuePair(double, double):::ENTER
+point == 4.712389134734689
+value one of { -1.999999999999999, -0.9999999999999881 }
+===========================================================================
+org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.UnivariatePointValuePair(double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getPoint():::ENTER
+this has only one value
+this.value == -1.999999999999999
+===========================================================================
+org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getPoint():::EXIT
+this.point == orig(this.point)
+this.value == orig(this.value)
+this.value == -1.999999999999999
+return == 4.712389027602411
+===========================================================================
+org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getValue():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getValue():::EXIT
+this.point == orig(this.point)
+this.value == orig(this.value)
+return one of { -1.999999999999999, -0.9999999999999956 }
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite:::OBJECT
+this.finalK one of { 2, 3 }
+this.finalRemB != 0
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.CodyWaite(double, double):::ENTER
+xa == 4.712389134734689
+xb == 0.0
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.CodyWaite(double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getK():::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getK():::EXIT
+this.finalK == orig(this.finalK)
+this.finalRemA == orig(this.finalRemA)
+this.finalRemB == orig(this.finalRemB)
+return one of { 2, 3 }
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getRemA():::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getRemA():::EXIT
+this.finalK == orig(this.finalK)
+this.finalRemA == orig(this.finalRemA)
+this.finalRemB == orig(this.finalRemB)
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getRemB():::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getRemB():::EXIT
+this.finalK == orig(this.finalK)
+this.finalRemA == orig(this.finalRemA)
+this.finalRemB == orig(this.finalRemB)
+return != 0
+===========================================================================
+org.apache.commons.math3.util.FastMath:::CLASS
+===========================================================================
+org.apache.commons.math3.util.FastMath.cosQ(double, double):::ENTER
+xb != 0
+===========================================================================
+org.apache.commons.math3.util.FastMath.cosQ(double, double):::EXIT
+return == 0.9999999999999881
+===========================================================================
+org.apache.commons.math3.util.FastMath.polyCosine(double):::ENTER
+x == -0.05420382755510267
+===========================================================================
+org.apache.commons.math3.util.FastMath.polyCosine(double):::EXIT
+return == -0.0014686678224210636
+===========================================================================
+org.apache.commons.math3.util.FastMath.polySine(double):::ENTER
+x == -0.05420382755510267
+===========================================================================
+org.apache.commons.math3.util.FastMath.polySine(double):::EXIT
+return == 2.6538404855292546E-5
+===========================================================================
+org.apache.commons.math3.util.FastMath.sinQ(double, double):::ENTER
+xa == 1.5707961724448973
+xb one of { 2.288475490443932E-17, 9.957992501029599E-17 }
+===========================================================================
+org.apache.commons.math3.util.FastMath.sinQ(double, double):::EXIT
+return == 0.9999999999999881
+===========================================================================
+org.apache.commons.math3.util.FastMath.sqrt(double):::ENTER
+a == 5.0
+===========================================================================
+org.apache.commons.math3.util.FastMath.sqrt(double):::EXIT
+return == 2.23606797749979
+===========================================================================
+org.apache.commons.math3.util.Incrementor$1:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math3.util.Incrementor$1.():::EXIT
+===========================================================================
+org.apache.commons.math3.util.Incrementor:::OBJECT
+this has only one value
+this.maximalCount one of { 0, 200 }
+this.count >= 0
+this.maxCountCallback has only one value
+this.maxCountCallback != null
+this.maxCountCallback.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor():::EXIT
+this.maximalCount == 0
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor(int):::ENTER
+max == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor(int):::EXIT
+this.maximalCount == 0
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor(int, org.apache.commons.math3.util.Incrementor$MaxCountExceededCallback):::ENTER
+max == 0
+cb has only one value
+cb.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor(int, org.apache.commons.math3.util.Incrementor$MaxCountExceededCallback):::EXIT
+this.maximalCount == 0
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.getCount():::ENTER
+this.maximalCount == 200
+this.count == 6
+===========================================================================
+org.apache.commons.math3.util.Incrementor.getCount():::EXIT
+this.maximalCount == orig(this.maximalCount)
+this.count == orig(this.count)
+this.maxCountCallback == orig(this.maxCountCallback)
+this.maxCountCallback.getClass().getName() == orig(this.maxCountCallback.getClass().getName())
+this.maximalCount == 200
+this.count == 6
+return == 6
+===========================================================================
+org.apache.commons.math3.util.Incrementor.incrementCount():::ENTER
+this.maximalCount == 200
+===========================================================================
+org.apache.commons.math3.util.Incrementor.incrementCount():::EXIT
+this.maximalCount == orig(this.maximalCount)
+this.maxCountCallback == orig(this.maxCountCallback)
+this.maxCountCallback.getClass().getName() == orig(this.maxCountCallback.getClass().getName())
+this.maximalCount == 200
+this.count - orig(this.count) - 1 == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.resetCount():::ENTER
+this.maximalCount == 200
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.resetCount():::EXIT
+this.maximalCount == orig(this.maximalCount)
+this.count == orig(this.count)
+this.maxCountCallback == orig(this.maxCountCallback)
+this.maxCountCallback.getClass().getName() == orig(this.maxCountCallback.getClass().getName())
+this.maximalCount == 200
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.setMaximalCount(int):::ENTER
+this.maximalCount == 0
+this.count == 0
+max == 200
+===========================================================================
+org.apache.commons.math3.util.Incrementor.setMaximalCount(int):::EXIT
+this.count == orig(this.count)
+this.maxCountCallback == orig(this.maxCountCallback)
+this.maxCountCallback.getClass().getName() == orig(this.maxCountCallback.getClass().getName())
+this.maximalCount == 200
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.MathArrays$OrderDirection:::CLASS
+org.apache.commons.math3.util.MathArrays$OrderDirection.INCREASING has only one value
+org.apache.commons.math3.util.MathArrays$OrderDirection.DECREASING has only one value
+org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES has only one value
+org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES.getClass().getName() == org.apache.commons.math3.util.MathArrays$OrderDirection[].class
+org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES[].getClass().getName() == [org.apache.commons.math3.util.MathArrays.OrderDirection, org.apache.commons.math3.util.MathArrays.OrderDirection]
+org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES[].getClass().getName() elements == org.apache.commons.math3.util.MathArrays.OrderDirection.class
+size(org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES[]) == 2
+===========================================================================
+org.apache.commons.math3.util.MathArrays$OrderDirection:::OBJECT
+===========================================================================
+org.apache.commons.math3.util.MathArrays$OrderDirection.OrderDirection(java.lang.String, int):::ENTER
+$hidden$1.toString one of { "DECREASING", "INCREASING" }
+$hidden$2 one of { 0, 1 }
+===========================================================================
+org.apache.commons.math3.util.MathArrays$OrderDirection.OrderDirection(java.lang.String, int):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+$hidden$1.toString one of { "DECREASING", "INCREASING" }
+===========================================================================
+org.apache.commons.math3.util.MathArrays$OrderDirection.values():::ENTER
+===========================================================================
+org.apache.commons.math3.util.MathArrays$OrderDirection.values():::EXIT
+org.apache.commons.math3.util.MathArrays$OrderDirection.INCREASING == orig(org.apache.commons.math3.util.MathArrays$OrderDirection.INCREASING)
+org.apache.commons.math3.util.MathArrays$OrderDirection.DECREASING == orig(org.apache.commons.math3.util.MathArrays$OrderDirection.DECREASING)
+org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES == orig(org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES)
+org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES.getClass().getName() == orig(org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES.getClass().getName())
+org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES[] == orig(org.apache.commons.math3.util.MathArrays$OrderDirection.$VALUES[])
+return has only one value
+return.getClass().getName() == org.apache.commons.math3.util.MathArrays$OrderDirection[].class
+return[] contains no nulls and has only one value, of length 2
+size(return[]) == 2
+===========================================================================
+org.apache.commons.math3.util.Precision:::CLASS
+===========================================================================
+org.apache.commons.math3.util.Precision.equals(double, double):::ENTER
+x == 4.712389134734689
+y == 4.712389134734689
+===========================================================================
+org.apache.commons.math3.util.Precision.equals(double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.util.Precision.equals(double, double):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.math3.util.Precision.equals(double, double):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.math3.util.Precision.equals(double, double, int):::ENTER
+x == 4.712389134734689
+y == 4.712389134734689
+maxUlps == 1
+===========================================================================
+org.apache.commons.math3.util.Precision.equals(double, double, int):::EXIT
+===========================================================================
+org.apache.commons.math3.util.Precision.equals(double, double, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.math3.util.Precision.equals(double, double, int):::EXIT;condition="not(return == true)"
+return == false

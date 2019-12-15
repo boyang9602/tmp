@@ -1,0 +1,1132 @@
+===========================================================================
+org.apache.commons.math.TestUtils.assertEquals(java.lang.String, org.apache.commons.math.linear.RealMatrix, org.apache.commons.math.linear.RealMatrix, double):::ENTER
+msg != null
+expected != null
+expected.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+observed != null
+observed.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+tolerance == 1.0E-14
+===========================================================================
+org.apache.commons.math.TestUtils.assertEquals(java.lang.String, org.apache.commons.math.linear.RealMatrix, org.apache.commons.math.linear.RealMatrix, double):::EXIT
+msg.toString == orig(msg.toString)
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+this.solverAbsoluteAccuracy == 1.0E-6
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.AbstractContinuousDistribution():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution.AbstractDistribution():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl:::OBJECT
+this.degreesOfFreedom >= 0.0
+this.solverAbsoluteAccuracy == 1.0E-9
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double):::ENTER
+degreesOfFreedom one of { 1.0, 14.0, 45.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double):::EXIT
+this.degreesOfFreedom one of { 1.0, 14.0, 45.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double, double):::ENTER
+degreesOfFreedom one of { 1.0, 14.0, 45.0 }
+inverseCumAccuracy == 1.0E-9
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double, double):::EXIT
+this.degreesOfFreedom one of { 1.0, 14.0, 45.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.cumulativeProbability(double):::ENTER
+this.degreesOfFreedom one of { 14.0, 45.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.cumulativeProbability(double):::EXIT
+this.degreesOfFreedom == orig(this.degreesOfFreedom)
+this.solverAbsoluteAccuracy == orig(this.solverAbsoluteAccuracy)
+this.degreesOfFreedom one of { 14.0, 45.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedom(double):::ENTER
+this.degreesOfFreedom >= 1.0
+degreesOfFreedom >= 1.0
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedom(double):::EXIT
+this.solverAbsoluteAccuracy == orig(this.solverAbsoluteAccuracy)
+this.degreesOfFreedom >= 1.0
+this.degreesOfFreedom >= orig(this.degreesOfFreedom)
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedomInternal(double):::ENTER
+newDegreesOfFreedom >= 1.0
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedomInternal(double):::EXIT
+this.solverAbsoluteAccuracy == orig(this.solverAbsoluteAccuracy)
+this.degreesOfFreedom >= 1.0
+this.degreesOfFreedom >= orig(this.degreesOfFreedom)
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix:::OBJECT
+this.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+this.lu == null
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.AbstractRealMatrix(int, int):::ENTER
+columnDimension one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.AbstractRealMatrix(int, int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix:::CLASS
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix:::OBJECT
+this.blocks != null
+this.blocks.getClass().getName() == double[][].class
+this.blocks[] elements != null
+this.columns one of { 5, 7 }
+this.blockRows == 1
+this.blockColumns == 1
+this.lu == null
+size(this.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(double[][]):::ENTER
+rawData != null
+rawData.getClass().getName() == double[][].class
+rawData[] elements != null
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(double[][]):::EXIT
+rawData[] == orig(rawData[])
+rawData[] elements != null
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(int, int):::ENTER
+rows one of { 5, 7 }
+columns one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(int, int):::EXIT
+this.rows one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(int, int, double[][], boolean):::ENTER
+columns one of { 5, 7 }
+blockData != null
+blockData.getClass().getName() == double[][].class
+blockData[] elements != null
+copyArray == false
+size(blockData[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(int, int, double[][], boolean):::EXIT
+blockData[] == orig(blockData[])
+blockData[] elements != null
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.blockHeight(int):::ENTER
+blockRow == 0
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.blockHeight(int):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.blockWidth(int):::ENTER
+blockColumn == 0
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.blockWidth(int):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+return one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.createBlocksLayout(int, int):::ENTER
+rows one of { 5, 7 }
+columns one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.createBlocksLayout(int, int):::EXIT
+return != null
+return.getClass().getName() == double[][].class
+return[] elements != null
+size(return[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getColumn(int):::ENTER
+this.rows one of { 16, 47 }
+column >= 0
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getColumn(int):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows one of { 16, 47 }
+return != null
+return[] elements >= 1.0
+size(return[]) one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getColumnDimension():::ENTER
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getColumnDimension():::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+return one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getEntry(int, int):::ENTER
+this.rows one of { 5, 7 }
+row >= 0
+column >= 0
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getEntry(int, int):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows one of { 5, 7 }
+return != 0
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getNorm():::ENTER
+this.rows one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getNorm():::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getRowDimension():::ENTER
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getRowDimension():::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.setEntry(int, int, double):::ENTER
+this.rows one of { 5, 7 }
+row >= 0
+column >= 0
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.setEntry(int, int, double):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.subtract(org.apache.commons.math.linear.BlockRealMatrix):::ENTER
+this.rows one of { 5, 7 }
+m != null
+m.blocks != null
+m.blocks.getClass().getName() == double[][].class
+m.blocks[] elements != null
+m.rows one of { 5, 7 }
+m.columns one of { 5, 7 }
+m.blockRows == 1
+m.blockColumns == 1
+m.lu == null
+size(m.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.subtract(org.apache.commons.math.linear.BlockRealMatrix):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+m.blocks == orig(m.blocks)
+m.blocks.getClass().getName() == orig(m.blocks.getClass().getName())
+m.blocks[] == orig(m.blocks[])
+m.rows == orig(m.rows)
+m.columns == orig(m.columns)
+m.blockRows == orig(m.blockRows)
+m.blockColumns == orig(m.blockColumns)
+m.lu == orig(m.lu)
+this.rows one of { 5, 7 }
+m.blocks != null
+m.blocks.getClass().getName() == double[][].class
+m.blocks[] elements != null
+m.rows one of { 5, 7 }
+m.columns one of { 5, 7 }
+m.blockRows == 1
+m.blockColumns == 1
+m.lu == null
+return != null
+return.blocks != null
+return.blocks.getClass().getName() == double[][].class
+return.blocks[] elements != null
+return.rows one of { 5, 7 }
+return.columns one of { 5, 7 }
+return.blockRows == 1
+return.blockColumns == 1
+return.lu == null
+size(m.blocks[]) == 1
+size(return.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.subtract(org.apache.commons.math.linear.RealMatrix):::ENTER
+this.rows one of { 5, 7 }
+m != null
+m.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.subtract(org.apache.commons.math.linear.RealMatrix):::EXIT390
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.subtract(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows one of { 5, 7 }
+return != null
+return.blocks != null
+return.blocks.getClass().getName() == double[][].class
+return.blocks[] elements != null
+return.rows one of { 5, 7 }
+return.columns one of { 5, 7 }
+return.blockRows == 1
+return.blockColumns == 1
+return.lu == null
+size(return.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.toBlocksLayout(double[][]):::ENTER
+rawData != null
+rawData.getClass().getName() == double[][].class
+rawData[] elements != null
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.toBlocksLayout(double[][]):::EXIT
+rawData[] == orig(rawData[])
+rawData[] elements != null
+return != null
+return.getClass().getName() == double[][].class
+return[] elements != null
+size(return[]) == 1
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkColumnIndex(org.apache.commons.math.linear.AnyMatrix, int):::ENTER
+m != null
+m.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+column >= 0
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkColumnIndex(org.apache.commons.math.linear.AnyMatrix, int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkSubtractionCompatible(org.apache.commons.math.linear.AnyMatrix, org.apache.commons.math.linear.AnyMatrix):::ENTER
+left != null
+left.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+right != null
+right.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkSubtractionCompatible(org.apache.commons.math.linear.AnyMatrix, org.apache.commons.math.linear.AnyMatrix):::EXIT
+===========================================================================
+org.apache.commons.math.special.Beta$1:::CLASS
+===========================================================================
+org.apache.commons.math.special.Beta$1:::OBJECT
+this.val$b one of { 0.5, 7.0, 22.5 }
+this.val$a one of { 0.5, 7.0, 22.5 }
+===========================================================================
+org.apache.commons.math.special.Beta$1.(double, double):::ENTER
+$hidden$1 one of { 0.5, 7.0, 22.5 }
+$hidden$3 one of { 0.5, 7.0, 22.5 }
+===========================================================================
+org.apache.commons.math.special.Beta$1.(double, double):::EXIT
+===========================================================================
+org.apache.commons.math.special.Beta$1.getA(int, double):::ENTER
+n >= 0
+===========================================================================
+org.apache.commons.math.special.Beta$1.getA(int, double):::EXIT
+this.val$b == orig(this.val$b)
+this.val$a == orig(this.val$a)
+return == 1.0
+===========================================================================
+org.apache.commons.math.special.Beta$1.getB(int, double):::ENTER
+n >= 1
+===========================================================================
+org.apache.commons.math.special.Beta$1.getB(int, double):::EXIT
+this.val$b == orig(this.val$b)
+this.val$a == orig(this.val$a)
+return != 0
+===========================================================================
+org.apache.commons.math.special.Beta:::CLASS
+===========================================================================
+org.apache.commons.math.special.Beta.logBeta(double, double, double, int):::ENTER
+a one of { 0.5, 7.0, 22.5 }
+b one of { 0.5, 7.0, 22.5 }
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.special.Beta.logBeta(double, double, double, int):::EXIT
+return one of { -0.9788376131017458, -0.38274808182393105 }
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double):::ENTER
+a one of { 7.0, 22.5 }
+b == 0.5
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double):::EXIT
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double, double, int):::ENTER
+a one of { 0.5, 7.0, 22.5 }
+b one of { 0.5, 7.0, 22.5 }
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double, double, int):::EXIT
+===========================================================================
+org.apache.commons.math.special.Gamma:::CLASS
+org.apache.commons.math.special.Gamma.LANCZOS has only one value
+org.apache.commons.math.special.Gamma.LANCZOS != null
+org.apache.commons.math.special.Gamma.LANCZOS[] == [0.9999999999999971, 57.15623566586292, -59.59796035547549, 14.136097974741746, -0.4919138160976202, 3.399464998481189E-5, 4.652362892704858E-5, -9.837447530487956E-5, 1.580887032249125E-4, -2.1026444172410488E-4, 2.1743961811521265E-4, -1.643181065367639E-4, 8.441822398385275E-5, -2.6190838401581408E-5, 3.6899182659531625E-6]
+org.apache.commons.math.special.Gamma.LANCZOS[] elements != 0
+org.apache.commons.math.special.Gamma.HALF_LOG_2_PI == 0.9189385332046727
+size(org.apache.commons.math.special.Gamma.LANCZOS[]) == 15
+===========================================================================
+org.apache.commons.math.special.Gamma.logGamma(double):::ENTER
+x >= 0.5
+===========================================================================
+org.apache.commons.math.special.Gamma.logGamma(double):::EXIT
+org.apache.commons.math.special.Gamma.LANCZOS == orig(org.apache.commons.math.special.Gamma.LANCZOS)
+org.apache.commons.math.special.Gamma.LANCZOS[] == orig(org.apache.commons.math.special.Gamma.LANCZOS[])
+org.apache.commons.math.special.Gamma.HALF_LOG_2_PI == orig(org.apache.commons.math.special.Gamma.HALF_LOG_2_PI)
+return >= 0.5723649429247
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance:::OBJECT
+this has only one value
+this.covarianceMatrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+this.n one of { 0, 16 }
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.Covariance(org.apache.commons.math.linear.RealMatrix):::ENTER
+matrix has only one value
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.Covariance(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.covarianceMatrix has only one value
+this.n == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.Covariance(org.apache.commons.math.linear.RealMatrix, boolean):::ENTER
+matrix has only one value
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+biasCorrected == true
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.Covariance(org.apache.commons.math.linear.RealMatrix, boolean):::EXIT
+this.covarianceMatrix has only one value
+this.n == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.checkSufficientData(org.apache.commons.math.linear.RealMatrix):::ENTER
+this.covarianceMatrix == null
+this.n == 0
+matrix has only one value
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.checkSufficientData(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.covarianceMatrix == orig(this.covarianceMatrix)
+this.n == orig(this.n)
+this.covarianceMatrix == null
+this.n == 0
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix(org.apache.commons.math.linear.RealMatrix, boolean):::ENTER
+this.covarianceMatrix == null
+this.n == 16
+matrix has only one value
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+biasCorrected == true
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix(org.apache.commons.math.linear.RealMatrix, boolean):::EXIT
+this.covarianceMatrix == orig(this.covarianceMatrix)
+this.n == orig(this.n)
+this.covarianceMatrix == null
+this.n == 16
+return has only one value
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.covariance(double[], double[], boolean):::ENTER
+this.covarianceMatrix == null
+this.n == 16
+xArray != null
+yArray != null
+biasCorrected == true
+size(xArray[]) == 16
+size(yArray[]) == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.covariance(double[], double[], boolean):::EXIT
+this.covarianceMatrix == orig(this.covarianceMatrix)
+this.n == orig(this.n)
+xArray[] == orig(xArray[])
+yArray[] == orig(yArray[])
+this.covarianceMatrix == null
+this.n == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.getCovarianceMatrix():::ENTER
+this.covarianceMatrix has only one value
+this.n == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.getCovarianceMatrix():::EXIT
+this.covarianceMatrix == orig(this.covarianceMatrix)
+this.covarianceMatrix.getClass().getName() == orig(this.covarianceMatrix.getClass().getName())
+this.n == orig(this.n)
+this.covarianceMatrix has only one value
+this.n == 16
+return has only one value
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.getN():::ENTER
+this.covarianceMatrix has only one value
+this.n == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.Covariance.getN():::EXIT
+this.covarianceMatrix == orig(this.covarianceMatrix)
+this.covarianceMatrix.getClass().getName() == orig(this.covarianceMatrix.getClass().getName())
+this.n == orig(this.n)
+this.covarianceMatrix has only one value
+this.n == 16
+return == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation:::OBJECT
+this.correlationMatrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+this.nObs one of { 0, 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(org.apache.commons.math.linear.RealMatrix):::ENTER
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.nObs one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(org.apache.commons.math.linear.RealMatrix, int):::ENTER
+covarianceMatrix has only one value
+covarianceMatrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+numberOfObservations == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(org.apache.commons.math.linear.RealMatrix, int):::EXIT
+this.correlationMatrix has only one value
+this.nObs == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(org.apache.commons.math.stat.correlation.Covariance):::ENTER
+covariance has only one value
+covariance.covarianceMatrix has only one value
+covariance.covarianceMatrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+covariance.n == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(org.apache.commons.math.stat.correlation.Covariance):::EXIT
+covariance.covarianceMatrix == orig(covariance.covarianceMatrix)
+covariance.covarianceMatrix.getClass().getName() == orig(covariance.covarianceMatrix.getClass().getName())
+covariance.n == orig(covariance.n)
+this.correlationMatrix has only one value
+this.nObs == 16
+covariance.covarianceMatrix has only one value
+covariance.covarianceMatrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+covariance.n == 16
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.checkSufficientData(org.apache.commons.math.linear.RealMatrix):::ENTER
+this.correlationMatrix == null
+this.nObs == 0
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.checkSufficientData(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.nObs == orig(this.nObs)
+this.correlationMatrix == null
+this.nObs == 0
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix(org.apache.commons.math.linear.RealMatrix):::ENTER
+this.correlationMatrix == null
+this.nObs one of { 16, 47 }
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.nObs == orig(this.nObs)
+this.correlationMatrix == null
+this.nObs one of { 16, 47 }
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.correlation(double[], double[]):::ENTER
+this.correlationMatrix == null
+this.nObs one of { 16, 47 }
+xArray != null
+xArray[] elements >= 1.0
+yArray != null
+yArray[] elements >= 1.0
+size(xArray[]) one of { 16, 47 }
+size(yArray[]) one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.correlation(double[], double[]):::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.nObs == orig(this.nObs)
+xArray[] == orig(xArray[])
+yArray[] == orig(yArray[])
+this.correlationMatrix == null
+this.nObs one of { 16, 47 }
+xArray[] elements >= 1.0
+yArray[] elements >= 1.0
+return != 0
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.covarianceToCorrelation(org.apache.commons.math.linear.RealMatrix):::ENTER
+this.correlationMatrix == null
+this.nObs == 16
+covarianceMatrix has only one value
+covarianceMatrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.covarianceToCorrelation(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.nObs == orig(this.nObs)
+this.correlationMatrix == null
+this.nObs == 16
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationMatrix():::ENTER
+this.nObs one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationMatrix():::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.correlationMatrix.getClass().getName() == orig(this.correlationMatrix.getClass().getName())
+this.nObs == orig(this.nObs)
+this.nObs one of { 16, 47 }
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationPValues():::ENTER
+this.nObs one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationPValues():::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.correlationMatrix.getClass().getName() == orig(this.correlationMatrix.getClass().getName())
+this.nObs == orig(this.nObs)
+this.nObs one of { 16, 47 }
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationStandardErrors():::ENTER
+this.nObs one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationStandardErrors():::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.correlationMatrix.getClass().getName() == orig(this.correlationMatrix.getClass().getName())
+this.nObs == orig(this.nObs)
+this.nObs one of { 16, 47 }
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest:::OBJECT
+this.longleyData != null
+this.longleyData[] == [60323.0, 83.0, 234289.0, 2356.0, 1590.0, 107608.0, 1947.0, 61122.0, 88.5, 259426.0, 2325.0, 1456.0, 108632.0, 1948.0, 60171.0, 88.2, 258054.0, 3682.0, 1616.0, 109773.0, 1949.0, 61187.0, 89.5, 284599.0, 3351.0, 1650.0, 110929.0, 1950.0, 63221.0, 96.2, 328975.0, 2099.0, 3099.0, 112075.0, 1951.0, 63639.0, 98.1, 346999.0, 1932.0, 3594.0, 113270.0, 1952.0, 64989.0, 99.0, 365385.0, 1870.0, 3547.0, 115094.0, 1953.0, 63761.0, 100.0, 363112.0, 3578.0, 3350.0, 116219.0, 1954.0, 66019.0, 101.2, 397469.0, 2904.0, 3048.0, 117388.0, 1955.0, 67857.0, 104.6, 419180.0, 2822.0, 2857.0, 118734.0, 1956.0, 68169.0, 108.4, 442769.0, 2936.0, 2798.0, 120445.0, 1957.0, 66513.0, 110.8, 444546.0, 4681.0, 2637.0, 121950.0, 1958.0, 68655.0, 112.6, 482704.0, 3813.0, 2552.0, 123366.0, 1959.0, 69564.0, 114.2, 502601.0, 3931.0, 2514.0, 125368.0, 1960.0, 69331.0, 115.7, 518173.0, 4806.0, 2572.0, 127852.0, 1961.0, 70551.0, 116.9, 554894.0, 4007.0, 2827.0, 130081.0, 1962.0]
+this.swissData != null
+this.swissData[] == [80.2, 17.0, 15.0, 12.0, 9.96, 83.1, 45.1, 6.0, 9.0, 84.84, 92.5, 39.7, 5.0, 5.0, 93.4, 85.8, 36.5, 12.0, 7.0, 33.77, 76.9, 43.5, 17.0, 15.0, 5.16, 76.1, 35.3, 9.0, 7.0, 90.57, 83.8, 70.2, 16.0, 7.0, 92.85, 92.4, 67.8, 14.0, 8.0, 97.16, 82.4, 53.3, 12.0, 7.0, 97.67, 82.9, 45.2, 16.0, 13.0, 91.38, 87.1, 64.5, 14.0, 6.0, 98.61, 64.1, 62.0, 21.0, 12.0, 8.52, 66.9, 67.5, 14.0, 7.0, 2.27, 68.9, 60.7, 19.0, 12.0, 4.43, 61.7, 69.3, 22.0, 5.0, 2.82, 68.3, 72.6, 18.0, 2.0, 24.2, 71.7, 34.0, 17.0, 8.0, 3.3, 55.7, 19.4, 26.0, 28.0, 12.11, 54.3, 15.2, 31.0, 20.0, 2.15, 65.1, 73.0, 19.0, 9.0, 2.84, 65.5, 59.8, 22.0, 10.0, 5.23, 65.0, 55.1, 14.0, 3.0, 4.52, 56.6, 50.9, 22.0, 12.0, 15.14, 57.4, 54.1, 20.0, 6.0, 4.2, 72.5, 71.2, 12.0, 1.0, 2.4, 74.2, 58.1, 14.0, 8.0, 5.23, 72.0, 63.5, 6.0, 3.0, 2.56, 60.5, 60.8, 16.0, 10.0, 7.72, 58.3, 26.8, 25.0, 19.0, 18.46, 65.4, 49.5, 15.0, 8.0, 6.1, 75.5, 85.9, 3.0, 2.0, 99.71, 69.3, 84.9, 7.0, 6.0, 99.68, 77.3, 89.7, 5.0, 2.0, 100.0, 70.5, 78.2, 12.0, 6.0, 98.96, 79.4, 64.9, 7.0, 3.0, 98.22, 65.0, 75.9, 9.0, 9.0, 99.06, 92.2, 84.6, 3.0, 3.0, 99.46, 79.3, 63.1, 13.0, 13.0, 96.83, 70.4, 38.4, 26.0, 12.0, 5.62, 65.7, 7.7, 29.0, 11.0, 13.79, 72.7, 16.7, 22.0, 13.0, 11.22, 64.4, 17.6, 35.0, 32.0, 16.92, 77.6, 37.6, 15.0, 7.0, 4.97, 67.6, 18.7, 25.0, 7.0, 8.65, 35.0, 1.2, 37.0, 53.0, 42.34, 44.7, 46.6, 16.0, 29.0, 50.43, 42.8, 27.7, 22.0, 29.0, 58.33]
+this.swissData[] elements >= 1.0
+size(this.longleyData[]) == 112
+size(this.swissData[]) == 235
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.PearsonsCorrelationTest():::EXIT
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.createLowerTriangularRealMatrix(double[], int):::ENTER
+data[] one of { [4.38904690369668E-10, 8.36353208910623E-12, 7.8159700933611E-14, 0.0472894097790304, 0.01030636128354301, 0.01316878049026582, 0.0749178049642416, 0.06971758330341182, 0.0830166169296545, 0.510948586323452, 3.693245043123738E-9, 4.327782576751815E-11, 1.167954621905665E-13, 0.00331028281967516, 0.1652293725106684, 3.95834476307755E-10, 1.114663916723657E-13, 1.332267629550188E-15, 0.00466039138541463, 0.1078477071581498, 7.771561172376096E-15], [0.01491720061472623, 9.45043734069043E-7, 9.95151527133974E-8, 3.658616965962355E-7, 1.304590105694471E-6, 4.811397236181847E-8, 0.001028523190118147, 0.005204433539191644, 2.588307925380906E-5, 0.301807756132683] }
+dimension one of { 5, 7 }
+size(data[]) one of { 10, 21 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.createLowerTriangularRealMatrix(double[], int):::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+data[] == orig(data[])
+data[] one of { [4.38904690369668E-10, 8.36353208910623E-12, 7.8159700933611E-14, 0.0472894097790304, 0.01030636128354301, 0.01316878049026582, 0.0749178049642416, 0.06971758330341182, 0.0830166169296545, 0.510948586323452, 3.693245043123738E-9, 4.327782576751815E-11, 1.167954621905665E-13, 0.00331028281967516, 0.1652293725106684, 3.95834476307755E-10, 1.114663916723657E-13, 1.332267629550188E-15, 0.00466039138541463, 0.1078477071581498, 7.771561172376096E-15], [0.01491720061472623, 9.45043734069043E-7, 9.95151527133974E-8, 3.658616965962355E-7, 1.304590105694471E-6, 4.811397236181847E-8, 0.001028523190118147, 0.005204433539191644, 2.588307925380906E-5, 0.301807756132683] }
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.createRealMatrix(double[], int, int):::ENTER
+data[] elements >= -0.6865422086171366
+nCols one of { 5, 7 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.createRealMatrix(double[], int, int):::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+data[] == orig(data[])
+data[] elements >= -0.6865422086171366
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.fillUpper(org.apache.commons.math.linear.RealMatrix, double):::ENTER
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+diagonalValue == 0.0
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.fillUpper(org.apache.commons.math.linear.RealMatrix, double):::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testCovarianceConsistency():::ENTER
+this has only one value
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testCovarianceConsistency():::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testLongly():::ENTER
+this has only one value
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testLongly():::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testStdErrorConsistency():::ENTER
+this has only one value
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testStdErrorConsistency():::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testSwissFertility():::ENTER
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testSwissFertility():::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest:::OBJECT
+this.longleyData != null
+this.longleyData[] == [60323.0, 83.0, 234289.0, 2356.0, 1590.0, 107608.0, 1947.0, 61122.0, 88.5, 259426.0, 2325.0, 1456.0, 108632.0, 1948.0, 60171.0, 88.2, 258054.0, 3682.0, 1616.0, 109773.0, 1949.0, 61187.0, 89.5, 284599.0, 3351.0, 1650.0, 110929.0, 1950.0, 63221.0, 96.2, 328975.0, 2099.0, 3099.0, 112075.0, 1951.0, 63639.0, 98.1, 346999.0, 1932.0, 3594.0, 113270.0, 1952.0, 64989.0, 99.0, 365385.0, 1870.0, 3547.0, 115094.0, 1953.0, 63761.0, 100.0, 363112.0, 3578.0, 3350.0, 116219.0, 1954.0, 66019.0, 101.2, 397469.0, 2904.0, 3048.0, 117388.0, 1955.0, 67857.0, 104.6, 419180.0, 2822.0, 2857.0, 118734.0, 1956.0, 68169.0, 108.4, 442769.0, 2936.0, 2798.0, 120445.0, 1957.0, 66513.0, 110.8, 444546.0, 4681.0, 2637.0, 121950.0, 1958.0, 68655.0, 112.6, 482704.0, 3813.0, 2552.0, 123366.0, 1959.0, 69564.0, 114.2, 502601.0, 3931.0, 2514.0, 125368.0, 1960.0, 69331.0, 115.7, 518173.0, 4806.0, 2572.0, 127852.0, 1961.0, 70551.0, 116.9, 554894.0, 4007.0, 2827.0, 130081.0, 1962.0]
+this.swissData != null
+this.swissData[] == [80.2, 17.0, 15.0, 12.0, 9.96, 83.1, 45.1, 6.0, 9.0, 84.84, 92.5, 39.7, 5.0, 5.0, 93.4, 85.8, 36.5, 12.0, 7.0, 33.77, 76.9, 43.5, 17.0, 15.0, 5.16, 76.1, 35.3, 9.0, 7.0, 90.57, 83.8, 70.2, 16.0, 7.0, 92.85, 92.4, 67.8, 14.0, 8.0, 97.16, 82.4, 53.3, 12.0, 7.0, 97.67, 82.9, 45.2, 16.0, 13.0, 91.38, 87.1, 64.5, 14.0, 6.0, 98.61, 64.1, 62.0, 21.0, 12.0, 8.52, 66.9, 67.5, 14.0, 7.0, 2.27, 68.9, 60.7, 19.0, 12.0, 4.43, 61.7, 69.3, 22.0, 5.0, 2.82, 68.3, 72.6, 18.0, 2.0, 24.2, 71.7, 34.0, 17.0, 8.0, 3.3, 55.7, 19.4, 26.0, 28.0, 12.11, 54.3, 15.2, 31.0, 20.0, 2.15, 65.1, 73.0, 19.0, 9.0, 2.84, 65.5, 59.8, 22.0, 10.0, 5.23, 65.0, 55.1, 14.0, 3.0, 4.52, 56.6, 50.9, 22.0, 12.0, 15.14, 57.4, 54.1, 20.0, 6.0, 4.2, 72.5, 71.2, 12.0, 1.0, 2.4, 74.2, 58.1, 14.0, 8.0, 5.23, 72.0, 63.5, 6.0, 3.0, 2.56, 60.5, 60.8, 16.0, 10.0, 7.72, 58.3, 26.8, 25.0, 19.0, 18.46, 65.4, 49.5, 15.0, 8.0, 6.1, 75.5, 85.9, 3.0, 2.0, 99.71, 69.3, 84.9, 7.0, 6.0, 99.68, 77.3, 89.7, 5.0, 2.0, 100.0, 70.5, 78.2, 12.0, 6.0, 98.96, 79.4, 64.9, 7.0, 3.0, 98.22, 65.0, 75.9, 9.0, 9.0, 99.06, 92.2, 84.6, 3.0, 3.0, 99.46, 79.3, 63.1, 13.0, 13.0, 96.83, 70.4, 38.4, 26.0, 12.0, 5.62, 65.7, 7.7, 29.0, 11.0, 13.79, 72.7, 16.7, 22.0, 13.0, 11.22, 64.4, 17.6, 35.0, 32.0, 16.92, 77.6, 37.6, 15.0, 7.0, 4.97, 67.6, 18.7, 25.0, 7.0, 8.65, 35.0, 1.2, 37.0, 53.0, 42.34, 44.7, 46.6, 16.0, 29.0, 50.43, 42.8, 27.7, 22.0, 29.0, 58.33]
+this.swissData[] elements >= 1.0
+size(this.longleyData[]) == 112
+size(this.swissData[]) == 235
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.SpearmansRankCorrelationTest():::EXIT
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.setUp():::ENTER
+this has only one value
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.setUp():::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.tearDown():::ENTER
+this has only one value
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.tearDown():::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic:::OBJECT
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic.AbstractStorelessUnivariateStatistic():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic.evaluate(double[]):::ENTER
+this.getClass().getName() == org.apache.commons.math.stat.descriptive.moment.Mean.class
+values != null
+size(values[]) == 16
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic.evaluate(double[]):::EXIT
+values[] == orig(values[])
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:::OBJECT
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic.AbstractUnivariateStatistic():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic.test(double[], int, int):::ENTER
+values != null
+begin == 0
+length == 16
+size(values[]) == 16
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic.test(double[], int, int):::EXIT102
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic.test(double[], int, int):::EXIT102;condition="return == true"
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic.test(double[], int, int):::EXIT
+values[] == orig(values[])
+return == true
+===========================================================================
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic.test(double[], int, int):::EXIT;condition="return == true"
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment:::CLASS
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment:::OBJECT
+this.n == 0
+this.m1 == Double.NaN
+this.dev == Double.NaN
+this.nDev == Double.NaN
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment.FirstMoment():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment.clear():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.FirstMoment.clear():::EXIT
+this.n == orig(this.n)
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Mean:::CLASS
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Mean:::OBJECT
+this.moment != null
+this.moment.n == 0
+this.moment.m1 == Double.NaN
+this.moment.dev == Double.NaN
+this.moment.nDev == Double.NaN
+this.incMoment == true
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Mean.Mean():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Mean.evaluate(double[], int, int):::ENTER
+values != null
+begin == 0
+length == 16
+size(values[]) == 16
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Mean.evaluate(double[], int, int):::EXIT167
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Mean.evaluate(double[], int, int):::EXIT
+this.moment == orig(this.moment)
+this.moment.n == orig(this.moment.n)
+this.incMoment == orig(this.incMoment)
+values[] == orig(values[])
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment:::CLASS
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment:::OBJECT
+this has only one value
+this.m2 == Double.NaN
+this.n == 0
+this.m1 == Double.NaN
+this.dev == Double.NaN
+this.nDev == Double.NaN
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment.SecondMoment():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment.clear():::ENTER
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.SecondMoment.clear():::EXIT
+this.n == orig(this.n)
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance:::CLASS
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance:::OBJECT
+this has only one value
+this.moment has only one value
+this.moment != null
+this.moment.m2 == Double.NaN
+this.moment.n == 0
+this.moment.m1 == Double.NaN
+this.moment.dev == Double.NaN
+this.moment.nDev == Double.NaN
+this.incMoment == true
+this.isBiasCorrected == true
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.Variance(boolean):::ENTER
+isBiasCorrected == true
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.Variance(boolean):::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.clear():::ENTER
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.clear():::EXIT
+this.moment == orig(this.moment)
+this.moment.n == orig(this.moment.n)
+this.incMoment == orig(this.incMoment)
+this.isBiasCorrected == orig(this.isBiasCorrected)
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(double[]):::ENTER
+size(values[]) == 16
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(double[]):::EXIT
+this.moment == orig(this.moment)
+this.moment.n == orig(this.moment.n)
+this.incMoment == orig(this.incMoment)
+this.isBiasCorrected == orig(this.isBiasCorrected)
+values[] == orig(values[])
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(double[], double, int, int):::ENTER
+begin == 0
+length == 16
+size(values[]) == 16
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(double[], double, int, int):::EXIT
+this.moment == orig(this.moment)
+this.moment.n == orig(this.moment.n)
+this.incMoment == orig(this.incMoment)
+this.isBiasCorrected == orig(this.isBiasCorrected)
+values[] == orig(values[])
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(double[], int, int):::ENTER
+begin == 0
+length == 16
+size(values[]) == 16
+===========================================================================
+org.apache.commons.math.stat.descriptive.moment.Variance.evaluate(double[], int, int):::EXIT
+this.moment == orig(this.moment)
+this.moment.n == orig(this.moment.n)
+this.incMoment == orig(this.incMoment)
+this.isBiasCorrected == orig(this.isBiasCorrected)
+values[] == orig(values[])
+===========================================================================
+org.apache.commons.math.stat.descriptive.summary.Sum:::CLASS
+===========================================================================
+org.apache.commons.math.stat.descriptive.summary.Sum:::OBJECT
+this.n == 0
+this.value == Double.NaN
+===========================================================================
+org.apache.commons.math.stat.descriptive.summary.Sum.Sum():::EXIT
+===========================================================================
+org.apache.commons.math.stat.descriptive.summary.Sum.evaluate(double[], int, int):::ENTER
+values != null
+begin == 0
+length == 16
+size(values[]) == 16
+===========================================================================
+org.apache.commons.math.stat.descriptive.summary.Sum.evaluate(double[], int, int):::EXIT
+this.n == orig(this.n)
+values[] == orig(values[])
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression:::CLASS
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression:::OBJECT
+this.distribution.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+this.sumX >= 0.0
+this.sumXX >= 0.0
+this.sumY >= 0.0
+this.sumYY >= 0.0
+this.n >= 0
+this.xbar >= 0.0
+this.ybar >= 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.SimpleRegression():::EXIT
+this.distribution != null
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.SimpleRegression(org.apache.commons.math.distribution.TDistribution):::ENTER
+t != null
+t.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.SimpleRegression(org.apache.commons.math.distribution.TDistribution):::EXIT
+this.distribution != null
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.addData(double, double):::ENTER
+this.distribution != null
+x >= 1.0
+y >= 1.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.addData(double, double):::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.distribution != null
+this.n >= 1
+this.sumX > orig(this.sumX)
+this.sumXX >= orig(this.sumXX)
+this.sumY > orig(this.sumY)
+this.sumYY >= orig(this.sumYY)
+this.n - orig(this.n) - 1 == 0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getR():::ENTER
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getR():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.distribution != null
+this.n one of { 16, 47 }
+return != 0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRSquare():::ENTER
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRSquare():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::ENTER
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::EXIT304
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSumSquaredErrors():::ENTER
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSumSquaredErrors():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::ENTER
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::EXIT354
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.distribution != null
+this.n one of { 16, 47 }
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.setDistribution(org.apache.commons.math.distribution.TDistribution):::ENTER
+this.distribution == null
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+value != null
+value.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.setDistribution(org.apache.commons.math.distribution.TDistribution):::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.distribution != null
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction:::CLASS
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction:::OBJECT
+this.getClass().getName() == org.apache.commons.math.special.Beta$1.class
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.ContinuedFraction():::EXIT
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.evaluate(double, double, int):::ENTER
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.evaluate(double, double, int):::EXIT

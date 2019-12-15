@@ -1,0 +1,112 @@
+{
+    "org.apache.commons.math.exception.util.ExceptionContext": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair6.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair6.inv.output": {
+                        "invs": [
+                            "this.msgPatterns.getClass().getName() == java.util.ArrayList.class",
+                            "this.context.getClass().getName() == java.util.HashMap.class",
+                            "this.msgPatterns != null",
+                            "this.msgPatterns[] elements != null",
+                            "this.msgArguments[] elements != null",
+                            "this.context != null",
+                            "this.msgArguments != null",
+                            "this.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                            "this.msgPatterns[].getClass().getName() elements == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.msgArguments[].getClass().getName() elements == java.lang.Object[].class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "addMessage(org.apache.commons.math.exception.util.Localizable, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "size(this.msgPatterns[]) one of { 0, 1, 2 }",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern != null",
+                                    "size(arguments[])-1 != 0",
+                                    "size(arguments[]) one of { 0, 2 }",
+                                    "arguments != null",
+                                    "arguments[] elements != null",
+                                    "pattern.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "size(this.msgArguments[]) one of { 0, 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.msgPatterns.getClass().getName() == orig(this.msgPatterns.getClass().getName())",
+                                    "arguments[] elements != null",
+                                    "size(this.msgArguments[])-1 == orig(size(this.msgArguments[]))",
+                                    "size(this.msgArguments[]) one of { 1, 2, 3 }",
+                                    "size(arguments[])-1 != 0",
+                                    "size(this.msgPatterns[]) one of { 1, 2, 3 }",
+                                    "this.msgPatterns == orig(this.msgPatterns)",
+                                    "arguments[] == orig(arguments[])",
+                                    "this.msgArguments.getClass().getName() == orig(this.msgArguments.getClass().getName())",
+                                    "this.context.getClass().getName() == orig(this.context.getClass().getName())",
+                                    "size(this.msgPatterns[])-1 == orig(size(this.msgPatterns[]))",
+                                    "this.msgArguments == orig(this.msgArguments)",
+                                    "this.context == orig(this.context)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ExceptionContext()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.msgArguments[] == []",
+                                    "this.msgPatterns[] == []",
+                                    "this.msgPatterns[].getClass().getName() == []",
+                                    "this.msgArguments[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

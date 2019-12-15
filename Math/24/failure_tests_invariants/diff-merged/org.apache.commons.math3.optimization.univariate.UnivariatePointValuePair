@@ -1,0 +1,99 @@
+{
+    "org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair": [
+        {
+            "UnivariatePointValuePair(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch157.inv.output": {
+                                "invs": [
+                                    "value == -0.9999999999999881"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "value one of { -1.999999999999999, -0.9999999999999881 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch157.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getPoint()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch157.inv.output": {
+                                "invs": [
+                                    "this.value == -1.999999999999999"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.value == -0.9999999999999956"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.value == -1.999999999999999"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch157.inv.output": {
+                                "invs": [
+                                    "this.value == -1.999999999999999",
+                                    "return == 4.712388933354632",
+                                    "return == 4.712389027602411"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 4.7123890747263015",
+                                    "this.value == -0.9999999999999956"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.value == -1.999999999999999",
+                                    "return == 4.712388933354632",
+                                    "return == 4.712389027602411"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

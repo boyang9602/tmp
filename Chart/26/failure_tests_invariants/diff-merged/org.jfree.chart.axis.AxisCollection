@@ -1,0 +1,689 @@
+{
+    "org.jfree.chart.axis.AxisCollection": [
+        {
+            "OBJECT": [
+                {
+                    "Patch93.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.axesAtRight != null",
+                            "this.axesAtLeft != null",
+                            "this.axesAtLeft[] elements != null",
+                            "this.axesAtRight.getClass().getName() == java.util.ArrayList.class",
+                            "this.axesAtTop[] elements != null",
+                            "size(this.axesAtTop[]) one of { 0, 1 }",
+                            "size(this.axesAtLeft[]) one of { 0, 1 }",
+                            "this.axesAtBottom != null",
+                            "this.axesAtTop != null",
+                            "this.axesAtBottom[].getClass().getName() one of { [], [org.jfree.chart.axis.CategoryAxis] }",
+                            "this.axesAtTop.getClass().getName() == java.util.ArrayList.class",
+                            "this.axesAtBottom[].getClass().getName() elements == org.jfree.chart.axis.CategoryAxis.class",
+                            "this.axesAtRight[] == []",
+                            "this.axesAtLeft.getClass().getName() == java.util.ArrayList.class",
+                            "size(this.axesAtBottom[]) one of { 0, 1 }",
+                            "this.axesAtBottom.getClass().getName() == java.util.ArrayList.class",
+                            "this.axesAtRight[].getClass().getName() == []",
+                            "this.axesAtBottom[] elements != null"
+                        ]
+                    }
+                },
+                {
+                    "Patch18.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "getAxesAtTop()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtLeft[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == java.util.ArrayList.class",
+                                    "size(this.axesAtLeft[]) == 1",
+                                    "this.axesAtBottom == orig(this.axesAtBottom)",
+                                    "this.axesAtLeft[] == orig(this.axesAtLeft[])",
+                                    "this.axesAtBottom.getClass().getName() == orig(this.axesAtBottom.getClass().getName())",
+                                    "return[] elements != null",
+                                    "this.axesAtLeft.getClass().getName() == orig(this.axesAtLeft.getClass().getName())",
+                                    "size(return[]) one of { 0, 1 }",
+                                    "this.axesAtRight.getClass().getName() == orig(this.axesAtRight.getClass().getName())",
+                                    "this.axesAtBottom[] == orig(this.axesAtBottom[])",
+                                    "this.axesAtTop.getClass().getName() == orig(this.axesAtTop.getClass().getName())",
+                                    "return != null",
+                                    "this.axesAtRight[] == orig(this.axesAtRight[])",
+                                    "this.axesAtTop[] == orig(this.axesAtTop[])",
+                                    "this.axesAtRight == orig(this.axesAtRight)",
+                                    "this.axesAtLeft == orig(this.axesAtLeft)",
+                                    "this.axesAtTop == orig(this.axesAtTop)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(org.jfree.chart.axis.Axis, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "axis.tickLabelInsets.bottom == 2.0",
+                                    "axis.plot.outlinePaint != null",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_INSETS has only one value",
+                                    "axis.plot.backgroundImageAlignment == 15",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE has only one value",
+                                    "axis.labelInsets != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE != null",
+                                    "org.jfree.chart.plot.Plot.ZERO != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.unitType has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "axis.labelPaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name.toString == \"RectangleEdge.RIGHT\"",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT has only one value",
+                                    "axis.plot.drawingSupplier.getClass().getName() == org.jfree.chart.plot.DefaultDrawingSupplier.class",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "axis.plot.listenerList != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.bottom == 3.0",
+                                    "axis.plot.noDataMessagePaint != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT has only one value",
+                                    "axis.plot.datasetGroup == null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT != null",
+                                    "axis.plot.outlineVisible == true",
+                                    "axis.plot.outlinePaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "axis.tickMarkStroke != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.left == 3.0",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT has only one value",
+                                    "axis.axisLineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "axis != null",
+                                    "axis.tickLabelInsets.left == 4.0",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "axis.label != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT has only one value",
+                                    "axis.tickLabelFont != null",
+                                    "axis.plot.backgroundImage == null",
+                                    "axis.tickLabelPaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "axis.tickLabelInsets.unitType != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE has only one value",
+                                    "axis.plot.noDataMessage == null",
+                                    "axis.labelInsets.unitType != null",
+                                    "axis.tickLabelInsets.top == 2.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "axis.tickMarkInsideLength == 0.0",
+                                    "axis.labelPaint != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name.toString == \"RectangleEdge.BOTTOM\"",
+                                    "axis.axisLineStroke != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "axis.tickLabelInsets.right == 4.0",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.left == 4.0",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name has only one value",
+                                    "axis.fixedDimension == 0.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.unitType has only one value",
+                                    "axis.plot.noDataMessagePaint.getClass().getName() == java.awt.Color.class",
+                                    "axis.plot.backgroundPaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "axis.tickLabelInsets.unitType has only one value",
+                                    "axis.tickLabelsVisible == true",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.unitType != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.right == 4.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT has only one value",
+                                    "axis.tickLabelPaint != null",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "axis.labelInsets.top == 3.0",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT has only one value",
+                                    "org.jfree.chart.plot.Plot.ZERO.getClass().getName() == java.lang.Integer.class",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE != null",
+                                    "axis.tickMarkPaint != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX has only one value",
+                                    "axis.plot.backgroundPaint != null",
+                                    "axis.visible == true",
+                                    "axis.plot.noDataMessageFont != null",
+                                    "axis.labelInsets.left == 3.0",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE has only one value",
+                                    "axis.plot.backgroundImageAlpha == 0.5",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.right == 3.0",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE != null",
+                                    "axis.tickMarkPaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT has only one value",
+                                    "axis.labelInsets.right == 3.0",
+                                    "axis.plot.parent == null",
+                                    "axis.labelInsets.unitType has only one value",
+                                    "axis.labelInsets.bottom == 3.0",
+                                    "axis.tickMarkStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT != null",
+                                    "axis.plot.backgroundAlpha == 1.0",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_INSETS != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name has only one value",
+                                    "axis.tickMarkOutsideLength == 2.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.bottom == 2.0",
+                                    "axis.axisLinePaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.top == 2.0",
+                                    "axis.plot.insets != null",
+                                    "axis.plot.drawingSupplier != null",
+                                    "org.jfree.chart.plot.Plot.ZERO has only one value",
+                                    "axis.tickLabelInsets != null",
+                                    "axis.labelToolTip == null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT != null",
+                                    "axis.plot.foregroundAlpha one of { 0.75, 1.0 }",
+                                    "this.axesAtTop[].getClass().getName() == []",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name.toString == \"RectangleEdge.TOP\"",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX != null",
+                                    "axis.labelURL == null",
+                                    "axis.plot.outlineStroke != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "axis.plot.getClass().getName() == org.jfree.chart.plot.CategoryPlot.class",
+                                    "axis.plot != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name has only one value",
+                                    "this.axesAtTop[] == []",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.top == 3.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "edge.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.unitType != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT has only one value",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "axis.labelAngle == 0.0",
+                                    "axis.plot.outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() == java.awt.geom.Ellipse2D$Double.class",
+                                    "axis.axisLinePaint != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name.toString == \"RectangleEdge.LEFT\"",
+                                    "edge != null",
+                                    "axis.labelFont != null",
+                                    "axis.listenerList != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT has only one value",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "axis.tickLabelInsets.bottom == 2.0",
+                                    "axis.plot.outlinePaint != null",
+                                    "axis.plot.insets == orig(axis.plot.insets)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_INSETS has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT.getClass().getName() == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT.getClass().getName())",
+                                    "axis.tickMarkOutsideLength == orig(axis.tickMarkOutsideLength)",
+                                    "axis.plot.backgroundImageAlignment == 15",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE has only one value",
+                                    "axis.plot.noDataMessage == orig(axis.plot.noDataMessage)",
+                                    "axis.tickMarkPaint == orig(axis.tickMarkPaint)",
+                                    "org.jfree.chart.util.RectangleEdge.TOP == orig(org.jfree.chart.util.RectangleEdge.TOP)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE != null",
+                                    "axis.labelInsets != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.unitType has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS has only one value",
+                                    "axis.plot.backgroundImageAlignment == orig(axis.plot.backgroundImageAlignment)",
+                                    "axis.labelPaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name.toString == \"RectangleEdge.RIGHT\"",
+                                    "axis.plot.noDataMessagePaint.getClass().getName() == orig(axis.plot.noDataMessagePaint.getClass().getName())",
+                                    "org.jfree.chart.plot.Plot.ZERO != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name == orig(org.jfree.chart.util.RectangleEdge.LEFT.name)",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name == orig(org.jfree.chart.util.RectangleEdge.BOTTOM.name)",
+                                    "axis.plot.drawingSupplier == orig(axis.plot.drawingSupplier)",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name.toString == orig(org.jfree.chart.util.RectangleEdge.BOTTOM.name.toString)",
+                                    "axis.labelPaint == orig(axis.labelPaint)",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name == orig(org.jfree.chart.util.RectangleEdge.TOP.name)",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT has only one value",
+                                    "axis.plot.drawingSupplier.getClass().getName() == org.jfree.chart.plot.DefaultDrawingSupplier.class",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX == orig(org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX)",
+                                    "axis.plot.listenerList != null",
+                                    "this.axesAtRight.getClass().getName() == orig(this.axesAtRight.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.top == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.top)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.bottom == 3.0",
+                                    "axis.plot.outlineStroke.getClass().getName() == orig(axis.plot.outlineStroke.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT == orig(org.jfree.chart.util.RectangleEdge.LEFT)",
+                                    "axis.plot.noDataMessagePaint != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT has only one value",
+                                    "axis.plot.datasetGroup == null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT != null",
+                                    "axis.plot.outlineStroke == orig(axis.plot.outlineStroke)",
+                                    "axis.plot.outlinePaint.getClass().getName() == java.awt.Color.class",
+                                    "axis.plot.outlineVisible == true",
+                                    "axis.tickMarkInsideLength == orig(axis.tickMarkInsideLength)",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener == orig(org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "axis.tickMarkStroke != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.left == 3.0",
+                                    "axis.labelFont == orig(axis.labelFont)",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT has only one value",
+                                    "axis.axisLineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "axis.labelInsets.top == orig(axis.labelInsets.top)",
+                                    "axis.tickLabelInsets.left == orig(axis.tickLabelInsets.left)",
+                                    "axis.tickLabelInsets.left == 4.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.unitType == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.unitType)",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "axis.axisLineStroke == orig(axis.axisLineStroke)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE == orig(org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE)",
+                                    "axis.plot.outlinePaint.getClass().getName() == orig(axis.plot.outlinePaint.getClass().getName())",
+                                    "axis.label != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name.toString == orig(org.jfree.chart.util.RectangleEdge.LEFT.name.toString)",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name == orig(org.jfree.chart.util.RectangleEdge.RIGHT.name)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT has only one value",
+                                    "axis.tickLabelFont != null",
+                                    "axis.plot.backgroundImage == null",
+                                    "axis.tickLabelPaint.getClass().getName() == java.awt.Color.class",
+                                    "axis.plot.noDataMessageFont == orig(axis.plot.noDataMessageFont)",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE.getClass().getName() == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE.getClass().getName())",
+                                    "axis.tickLabelInsets.unitType != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE has only one value",
+                                    "axis.labelAngle == orig(axis.labelAngle)",
+                                    "axis.plot.noDataMessage == null",
+                                    "axis.plot.listenerList == orig(axis.plot.listenerList)",
+                                    "axis.labelInsets.unitType != null",
+                                    "axis.tickLabelInsets.top == 2.0",
+                                    "size(this.axesAtBottom[]) >= orig(size(this.axesAtBottom[]))",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "axis.tickMarkInsideLength == 0.0",
+                                    "size(this.axesAtTop[])-1 >= orig(size(this.axesAtTop[]))-1",
+                                    "axis.labelPaint != null",
+                                    "axis.axisLinePaint.getClass().getName() == orig(axis.axisLinePaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name.toString == \"RectangleEdge.BOTTOM\"",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT)",
+                                    "axis.axisLineStroke != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "axis.tickLabelInsets.right == 4.0",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.left == 4.0",
+                                    "size(this.axesAtBottom[])-1 <= orig(size(this.axesAtBottom[]))",
+                                    "axis.fixedDimension == 0.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.unitType has only one value",
+                                    "axis.tickMarksVisible == orig(axis.tickMarksVisible)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "axis.plot.backgroundPaint.getClass().getName() == java.awt.Color.class",
+                                    "axis.tickLabelInsets.right == orig(axis.tickLabelInsets.right)",
+                                    "axis.plot.noDataMessagePaint.getClass().getName() == java.awt.Color.class",
+                                    "this.axesAtRight == orig(this.axesAtRight)",
+                                    "axis.tickLabelsVisible == true",
+                                    "axis.label == orig(axis.label)",
+                                    "axis.labelInsets.right == orig(axis.labelInsets.right)",
+                                    "axis.tickLabelInsets.unitType has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.unitType != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.right == 4.0",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name.toString == orig(org.jfree.chart.util.RectangleEdge.RIGHT.name.toString)",
+                                    "axis.tickLabelFont == orig(axis.tickLabelFont)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT has only one value",
+                                    "axis.tickLabelPaint != null",
+                                    "axis.labelToolTip == orig(axis.labelToolTip)",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "axis.labelInsets.top == 3.0",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT.getClass().getName() == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.bottom == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.bottom)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT has only one value",
+                                    "this.axesAtBottom.getClass().getName() == orig(this.axesAtBottom.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE != null",
+                                    "org.jfree.chart.plot.Plot.ZERO.getClass().getName() == java.lang.Integer.class",
+                                    "org.jfree.chart.util.RectangleEdge.TOP has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE != null",
+                                    "axis.tickMarkPaint != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX has only one value",
+                                    "axis.plot.datasetGroup == orig(axis.plot.datasetGroup)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT)",
+                                    "axis.plot.backgroundPaint != null",
+                                    "axis.visible == true",
+                                    "this.axesAtLeft.getClass().getName() == orig(this.axesAtLeft.getClass().getName())",
+                                    "axis.tickMarkStroke.getClass().getName() == orig(axis.tickMarkStroke.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE.getClass().getName() == orig(org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE.getClass().getName())",
+                                    "axis.plot.noDataMessageFont != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT == orig(org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT)",
+                                    "axis.labelInsets.left == 3.0",
+                                    "this.axesAtRight[] == orig(this.axesAtRight[])",
+                                    "axis.label.toString == orig(axis.label.toString)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.left == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.left)",
+                                    "axis.plot.backgroundPaint.getClass().getName() == orig(axis.plot.backgroundPaint.getClass().getName())",
+                                    "size(this.axesAtTop[])-1 <= orig(size(this.axesAtTop[]))",
+                                    "axis.plot.backgroundImageAlpha == 0.5",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.right == 3.0",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener has only one value",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE != null",
+                                    "axis.labelPaint.getClass().getName() == orig(axis.labelPaint.getClass().getName())",
+                                    "axis.tickMarkPaint.getClass().getName() == java.awt.Color.class",
+                                    "axis.labelURL == orig(axis.labelURL)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT has only one value",
+                                    "axis.labelInsets.right == 3.0",
+                                    "axis.labelInsets.bottom == orig(axis.labelInsets.bottom)",
+                                    "axis.plot.backgroundImageAlpha == orig(axis.plot.backgroundImageAlpha)",
+                                    "axis.plot.parent == null",
+                                    "axis.labelInsets.unitType has only one value",
+                                    "this.axesAtLeft == orig(this.axesAtLeft)",
+                                    "axis.labelInsets.bottom == 3.0",
+                                    "size(this.axesAtLeft[])-1 <= orig(size(this.axesAtLeft[]))",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName() == orig(org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT != null",
+                                    "axis.tickMarkStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() == orig(org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName())",
+                                    "axis.listenerList == orig(axis.listenerList)",
+                                    "axis.plot.backgroundAlpha == 1.0",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_INSETS != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.top == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.top)",
+                                    "axis.tickMarkOutsideLength == 2.0",
+                                    "axis.plot.parent == orig(axis.plot.parent)",
+                                    "axis.plot.outlineVisible == orig(axis.plot.outlineVisible)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.bottom == 2.0",
+                                    "axis.tickLabelPaint == orig(axis.tickLabelPaint)",
+                                    "axis.axisLinePaint.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.top == 2.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.right == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.right)",
+                                    "axis.plot.backgroundPaint == orig(axis.plot.backgroundPaint)",
+                                    "axis.plot.insets != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE == orig(org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE)",
+                                    "axis.plot.drawingSupplier != null",
+                                    "axis.fixedDimension == orig(axis.fixedDimension)",
+                                    "axis.tickLabelInsets != null",
+                                    "org.jfree.chart.plot.Plot.ZERO has only one value",
+                                    "edge.name == orig(edge.name)",
+                                    "axis.labelToolTip == null",
+                                    "this.axesAtBottom == orig(this.axesAtBottom)",
+                                    "axis.tickLabelInsets == orig(axis.tickLabelInsets)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT != null",
+                                    "axis.plot.foregroundAlpha one of { 0.75, 1.0 }",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT)",
+                                    "axis.tickMarkStroke == orig(axis.tickMarkStroke)",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name.toString == orig(org.jfree.chart.util.RectangleEdge.TOP.name.toString)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_INSETS == orig(org.jfree.chart.plot.Plot.DEFAULT_INSETS)",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "axis.plot.outlinePaint == orig(axis.plot.outlinePaint)",
+                                    "axis.plot.drawingSupplier.getClass().getName() == orig(axis.plot.drawingSupplier.getClass().getName())",
+                                    "size(this.axesAtBottom[])-1 >= orig(size(this.axesAtBottom[]))-1",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT.getClass().getName() == orig(org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_PAINT.getClass().getName())",
+                                    "axis.tickLabelInsets.bottom == orig(axis.tickLabelInsets.bottom)",
+                                    "axis.axisLineVisible == orig(axis.axisLineVisible)",
+                                    "axis.plot.backgroundAlpha == orig(axis.plot.backgroundAlpha)",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener == orig(org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName() == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE.getClass().getName())",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT == orig(org.jfree.chart.util.RectangleEdge.RIGHT)",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name.toString == \"RectangleEdge.TOP\"",
+                                    "edge.name.toString == orig(edge.name.toString)",
+                                    "axis.tickLabelInsets.unitType == orig(axis.tickLabelInsets.unitType)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_BOX != null",
+                                    "axis.plot.noDataMessagePaint == orig(axis.plot.noDataMessagePaint)",
+                                    "axis.plot.getClass().getName() == orig(axis.plot.getClass().getName())",
+                                    "size(this.axesAtLeft[])-1 >= orig(size(this.axesAtLeft[]))-1",
+                                    "axis.labelURL == null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.unitType == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.unitType)",
+                                    "size(this.axesAtLeft[]) >= orig(size(this.axesAtLeft[]))",
+                                    "axis.tickLabelInsets.top == orig(axis.tickLabelInsets.top)",
+                                    "axis.tickMarkPaint.getClass().getName() == orig(axis.tickMarkPaint.getClass().getName())",
+                                    "axis.plot.outlineStroke != null",
+                                    "axis.plot.foregroundAlpha == orig(axis.plot.foregroundAlpha)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT == orig(org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT)",
+                                    "axis.labelInsets.unitType == orig(axis.labelInsets.unitType)",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE.getClass().getName() == java.awt.BasicStroke.class",
+                                    "axis.axisLineStroke.getClass().getName() == orig(axis.axisLineStroke.getClass().getName())",
+                                    "axis.plot.getClass().getName() == org.jfree.chart.plot.CategoryPlot.class",
+                                    "this.axesAtTop == orig(this.axesAtTop)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.bottom == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.bottom)",
+                                    "axis.plot != null",
+                                    "axis.plot == orig(axis.plot)",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name has only one value",
+                                    "axis.tickLabelPaint.getClass().getName() == orig(axis.tickLabelPaint.getClass().getName())",
+                                    "this.axesAtTop.getClass().getName() == orig(this.axesAtTop.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT.getClass().getName() == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT.getClass().getName())",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.left == orig(org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.left)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.top == 3.0",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT.getClass().getName() == java.awt.Color.class",
+                                    "edge.name != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "axis.labelInsets == orig(axis.labelInsets)",
+                                    "axis.labelInsets.left == orig(axis.labelInsets.left)",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_OUTLINE_STROKE has only one value",
+                                    "size(this.axesAtTop[]) >= orig(size(this.axesAtTop[]))",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT.getClass().getName() == orig(org.jfree.chart.plot.Plot.DEFAULT_BACKGROUND_PAINT.getClass().getName())",
+                                    "axis.tickLabelsVisible == orig(axis.tickLabelsVisible)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.unitType != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.right == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.right)",
+                                    "axis.visible == orig(axis.visible)",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM == orig(org.jfree.chart.util.RectangleEdge.BOTTOM)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT has only one value",
+                                    "axis.labelAngle == 0.0",
+                                    "axis.plot.outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS != null",
+                                    "org.jfree.chart.plot.Plot.DEFAULT_LEGEND_ITEM_CIRCLE.getClass().getName() == java.awt.geom.Ellipse2D$Double.class",
+                                    "axis.axisLinePaint != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name.toString == \"RectangleEdge.LEFT\"",
+                                    "org.jfree.chart.plot.Plot.ZERO.getClass().getName() == orig(org.jfree.chart.plot.Plot.ZERO.getClass().getName())",
+                                    "axis.axisLinePaint == orig(axis.axisLinePaint)",
+                                    "axis.labelFont != null",
+                                    "axis.listenerList != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM has only one value",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE == orig(org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE)",
+                                    "axis.plot.backgroundImage == orig(axis.plot.backgroundImage)",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT has only one value",
+                                    "org.jfree.chart.plot.Plot.ZERO == orig(org.jfree.chart.plot.Plot.ZERO)",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AxisCollection()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axesAtLeft[] == []",
+                                    "this.axesAtBottom[].getClass().getName() == []",
+                                    "this.axesAtTop[].getClass().getName() == []",
+                                    "this.axesAtLeft[].getClass().getName() == []",
+                                    "this.axesAtTop[] == []",
+                                    "this.axesAtBottom[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAxesAtBottom()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtLeft[]) == 1",
+                                    "this.axesAtTop[].getClass().getName() == []",
+                                    "size(this.axesAtBottom[]) == 1",
+                                    "this.axesAtTop[] == []",
+                                    "this.axesAtLeft[].getClass().getName() elements == org.jfree.chart.axis.NumberAxis.class",
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "this.axesAtBottom[].getClass().getName() == [org.jfree.chart.axis.CategoryAxis]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtLeft[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == java.util.ArrayList.class",
+                                    "this.axesAtLeft == orig(this.axesAtLeft)",
+                                    "return[].getClass().getName() elements == org.jfree.chart.axis.CategoryAxis.class",
+                                    "this.axesAtTop == orig(this.axesAtTop)",
+                                    "this.axesAtRight.getClass().getName() == orig(this.axesAtRight.getClass().getName())",
+                                    "this.axesAtTop[] == []",
+                                    "this.axesAtLeft[].getClass().getName() elements == org.jfree.chart.axis.NumberAxis.class",
+                                    "this.axesAtTop.getClass().getName() == orig(this.axesAtTop.getClass().getName())",
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "this.axesAtTop[] == orig(this.axesAtTop[])",
+                                    "this.axesAtRight == orig(this.axesAtRight)",
+                                    "this.axesAtBottom == orig(this.axesAtBottom)",
+                                    "this.axesAtLeft[] == orig(this.axesAtLeft[])",
+                                    "return[].getClass().getName() == [org.jfree.chart.axis.CategoryAxis]",
+                                    "this.axesAtTop[].getClass().getName() == []",
+                                    "this.axesAtBottom.getClass().getName() == orig(this.axesAtBottom.getClass().getName())",
+                                    "this.axesAtBottom[].getClass().getName() == [org.jfree.chart.axis.CategoryAxis]",
+                                    "this.axesAtBottom[] == orig(this.axesAtBottom[])",
+                                    "size(this.axesAtLeft[]) == 1",
+                                    "size(this.axesAtBottom[]) == 1",
+                                    "this.axesAtLeft.getClass().getName() == orig(this.axesAtLeft.getClass().getName())",
+                                    "size(return[]) == 1",
+                                    "this.axesAtRight[] == orig(this.axesAtRight[])"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == java.util.ArrayList.class",
+                                    "return[] elements != null",
+                                    "this.axesAtLeft == orig(this.axesAtLeft)",
+                                    "return[].getClass().getName() elements == org.jfree.chart.axis.CategoryAxis.class",
+                                    "this.axesAtTop == orig(this.axesAtTop)",
+                                    "this.axesAtRight.getClass().getName() == orig(this.axesAtRight.getClass().getName())",
+                                    "size(return[]) one of { 0, 1 }",
+                                    "this.axesAtTop.getClass().getName() == orig(this.axesAtTop.getClass().getName())",
+                                    "this.axesAtTop[] == orig(this.axesAtTop[])",
+                                    "this.axesAtRight == orig(this.axesAtRight)",
+                                    "this.axesAtBottom == orig(this.axesAtBottom)",
+                                    "this.axesAtLeft[] == orig(this.axesAtLeft[])",
+                                    "this.axesAtBottom.getClass().getName() == orig(this.axesAtBottom.getClass().getName())",
+                                    "return != null",
+                                    "this.axesAtBottom[] == orig(this.axesAtBottom[])",
+                                    "size(this.axesAtLeft[]) == 1",
+                                    "this.axesAtLeft.getClass().getName() == orig(this.axesAtLeft.getClass().getName())",
+                                    "this.axesAtRight[] == orig(this.axesAtRight[])",
+                                    "return[].getClass().getName() one of { [], [org.jfree.chart.axis.CategoryAxis] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

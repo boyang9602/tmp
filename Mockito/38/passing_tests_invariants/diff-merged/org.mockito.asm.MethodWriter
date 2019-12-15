@@ -1,0 +1,45 @@
+{
+    "org.mockito.asm.MethodWriter": [
+        {
+            "MethodWriter(org.mockito.asm.ClassWriter, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[], boolean, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(cw.items[]) == orig(size(cw.items[]))",
+                                    "cw.threshold == orig(cw.threshold)",
+                                    "cw.items == orig(cw.items)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "cw.threshold >= orig(cw.threshold)",
+                                    "size(cw.items[])-1 >= orig(size(cw.items[]))-1",
+                                    "size(cw.items[])-1 != orig(size(cw.items[]))",
+                                    "size(cw.items[]) >= orig(size(cw.items[]))"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

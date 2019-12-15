@@ -1,0 +1,76 @@
+{
+    "org.jfree.data.KeyedObjects2D": [
+        {
+            "getColumnIndex(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowKeys[].getClass().getName() == [java.lang.String]",
+                                    "this.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "size(this.rowKeys[]) == 1",
+                                    "size(this.rows[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rows[].getClass().getName() one of { [org.jfree.data.KeyedObjects], [org.jfree.data.KeyedObjects, org.jfree.data.KeyedObjects, org.jfree.data.KeyedObjects] }",
+                                    "this.rowKeys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.rowKeys[]) one of { 1, 3 }",
+                                    "size(this.rows[]) one of { 1, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.rowKeys[].getClass().getName() == [java.lang.String]",
+                                    "this.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "size(this.rowKeys[]) == 1",
+                                    "size(this.rows[]) == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowKeys[].getClass().getName() == [java.lang.String]",
+                                    "this.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "size(this.rowKeys[]) == 1",
+                                    "size(this.rows[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rows[].getClass().getName() one of { [org.jfree.data.KeyedObjects], [org.jfree.data.KeyedObjects, org.jfree.data.KeyedObjects, org.jfree.data.KeyedObjects] }",
+                                    "this.rowKeys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.rowKeys[]) one of { 1, 3 }",
+                                    "size(this.rows[]) one of { 1, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.rowKeys[].getClass().getName() == [java.lang.String]",
+                                    "this.rows[].getClass().getName() == [org.jfree.data.KeyedObjects]",
+                                    "size(this.rowKeys[]) == 1",
+                                    "size(this.rows[]) == 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

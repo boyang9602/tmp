@@ -1,0 +1,921 @@
+{
+    "org.apache.commons.math.stat.regression.SimpleRegression": [
+        {
+            "getInterceptStdErr()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumXY >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumXY >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRegressionSumSquares(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "slope one of { 1.0021168180204547, 1.5, Double.NaN }",
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }",
+                                    "slope one of { 0.5, 1.0021168180204547, Double.NaN }",
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }",
+                                    "return one of { 4.5, 4255954.132323695, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "return one of { 0.5, 4255954.132323695, Double.NaN }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }",
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getSlope()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch79.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch79.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "231": [
+                                {
+                                    "Patch177.inv.output": {
+                                        "invs": [
+                                            "this.xbar == 1.0",
+                                            "this.sumYY == 4.5",
+                                            "this.sumY == 5.0",
+                                            "this.sumXX == 0.0",
+                                            "this.n == 2",
+                                            "this.ybar == 1.5",
+                                            "return == Double.NaN",
+                                            "this.sumX == 2.0",
+                                            "orig(this) has only one value",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.sumXX >= 2.0",
+                                            "this.sumYY >= 0.5",
+                                            "this.n >= 2"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch79.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "226": [
+                                {
+                                    "Patch177.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.n == 0",
+                                            "this.sumYY == 0.0",
+                                            "this.sumY == 0.0",
+                                            "this.sumXX == 0.0",
+                                            "return == Double.NaN",
+                                            "this.sumX == 0.0",
+                                            "this.ybar == 0.0",
+                                            "this.xbar == 0.0",
+                                            "orig(this) has only one value",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch79.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "229": [
+                                {
+                                    "Patch177.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.xbar == 1.0",
+                                            "this.ybar == 2.5",
+                                            "this.sumY == 5.0",
+                                            "this.sumXX == 0.0",
+                                            "this.n == 2",
+                                            "this.sumYY == 0.5",
+                                            "return == Double.NaN",
+                                            "this.sumX == 2.0",
+                                            "orig(this) has only one value",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch79.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "228": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch177.inv.output": {
+                                        "invs": [
+                                            "this.n == 0",
+                                            "this.sumYY == 0.0",
+                                            "this.sumY == 0.0",
+                                            "this.sumXX == 0.0",
+                                            "return == Double.NaN",
+                                            "this.sumX == 0.0",
+                                            "this.ybar == 0.0",
+                                            "this.xbar == 0.0",
+                                            "orig(this) has only one value",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "233": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch177.inv.output": {
+                                        "invs": [
+                                            "this.sumXX >= 2.0",
+                                            "this.n >= 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "227": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch79.inv.output": {
+                                        "invs": [
+                                            "this.n == 0",
+                                            "this.sumYY == 0.0",
+                                            "this.sumY == 0.0",
+                                            "this.sumXX == 0.0",
+                                            "return == Double.NaN",
+                                            "this.sumX == 0.0",
+                                            "this.ybar == 0.0",
+                                            "this.xbar == 0.0",
+                                            "orig(this) has only one value",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "230": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch79.inv.output": {
+                                        "invs": [
+                                            "this.xbar == 1.0",
+                                            "this.ybar == 2.5",
+                                            "this.sumY == 5.0",
+                                            "this.sumXX == 0.0",
+                                            "this.n == 2",
+                                            "this.sumYY == 0.5",
+                                            "return == Double.NaN",
+                                            "this.sumX == 2.0",
+                                            "orig(this) has only one value",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "232": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch79.inv.output": {
+                                        "invs": [
+                                            "this.sumYY >= 0.5",
+                                            "this.sumXX >= 2.0",
+                                            "this.n >= 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMeanSquareError()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch79.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "(this.sumXX one of { 0.0, 2.0 })  ==>  (this.sumXY one of { 0.0, 3.0 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  ==>  (this.ybar one of { 0.0, 1.5 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  <==>  (this.sumYY one of { 0.0, 4.5 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(this.sumXX one of { 0.0, 2.0 })  <==>  (this.sumYY one of { 0.0, 0.5 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  ==>  (this.sumXY one of { 0.0, 1.0 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  ==>  (this.ybar one of { 0.0, 2.5 })"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch79.inv.output": {
+                                "invs": [
+                                    "(this.sumXX one of { 0.0, 2.0 })  ==>  (this.sumXY one of { 0.0, 3.0 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  ==>  (this.ybar one of { 0.0, 1.5 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  <==>  (this.sumYY one of { 0.0, 0.5 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  ==>  (this.sumXY one of { 0.0, 1.0 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  <==>  (this.sumYY one of { 0.0, 4.5 })",
+                                    "(this.sumXX one of { 0.0, 2.0 })  ==>  (this.ybar one of { 0.0, 2.5 })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "318": [
+                                {
+                                    "Patch177.inv.output": {
+                                        "invs": [
+                                            "this.sumX one of { 0.0, 2.0, 4.0 }",
+                                            "this.n one of { 0, 2 }",
+                                            "this.ybar one of { 0.0, 1.5 }",
+                                            "this.sumXX one of { 0.0, 2.0 }",
+                                            "this.xbar one of { 0.0, 1.0, 2.0 }",
+                                            "this.sumXY one of { 0.0, 3.0 }",
+                                            "this.sumYY one of { 0.0, 4.5 }",
+                                            "return == Double.NaN",
+                                            "this.sumY one of { 0.0, 5.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.sumYY >= 2.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch79.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "316": [
+                                {
+                                    "Patch177.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.sumX one of { 0.0, 2.0, 4.0 }",
+                                            "this.sumXX one of { 0.0, 2.0 }",
+                                            "this.xbar one of { 0.0, 1.0, 2.0 }",
+                                            "this.sumXY one of { 0.0, 1.0 }",
+                                            "return == Double.NaN",
+                                            "this.ybar one of { 0.0, 2.5 }",
+                                            "this.sumYY one of { 0.0, 0.5 }",
+                                            "this.n one of { 0, 2 }",
+                                            "this.sumY one of { 0.0, 5.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch79.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "320": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch177.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "317": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch79.inv.output": {
+                                        "invs": [
+                                            "this.sumX one of { 0.0, 2.0, 4.0 }",
+                                            "this.sumXX one of { 0.0, 2.0 }",
+                                            "this.xbar one of { 0.0, 1.0, 2.0 }",
+                                            "this.sumXY one of { 0.0, 1.0 }",
+                                            "return == Double.NaN",
+                                            "this.ybar one of { 0.0, 2.5 }",
+                                            "this.sumYY one of { 0.0, 0.5 }",
+                                            "this.n one of { 0, 2 }",
+                                            "this.sumY one of { 0.0, 5.0 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "319": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch79.inv.output": {
+                                        "invs": [
+                                            "this.sumYY >= 2.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getR()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "this.sumXY one of { -6023.051176470592, 0.0, 3.0 }",
+                                    "this.ybar one of { 0.0, 1.5, 134.50588235294117 }",
+                                    "this.sumYY one of { 0.0, 4.5, 8894.249411764715 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumXY one of { -6023.051176470592, 0.0, 1.0 }",
+                                    "this.ybar one of { 0.0, 2.5, 134.50588235294117 }",
+                                    "this.sumYY one of { 0.0, 0.5, 8894.249411764715 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "this.sumXY one of { -6023.051176470592, 0.0, 3.0 }",
+                                    "this.ybar one of { 0.0, 1.5, 134.50588235294117 }",
+                                    "this.sumYY one of { 0.0, 4.5, 8894.249411764715 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumXY one of { -6023.051176470592, 0.0, 1.0 }",
+                                    "this.ybar one of { 0.0, 2.5, 134.50588235294117 }",
+                                    "this.sumYY one of { 0.0, 0.5, 8894.249411764715 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getIntercept(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "slope one of { 1.0021168180204547, 1.5, Double.NaN }",
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }",
+                                    "slope one of { 0.5, 1.0021168180204547, Double.NaN }",
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "return one of { -0.5, -0.26232307377414243, Double.NaN }",
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -0.26232307377414243, 1.5, Double.NaN }",
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }",
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getIntercept()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }",
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "return one of { -0.5, -0.26232307377414243, Double.NaN }",
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -0.26232307377414243, 1.5, Double.NaN }",
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }",
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRegressionSumSquares()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }",
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }",
+                                    "return one of { 4.5, 4255954.132323695, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "return one of { 0.5, 4255954.132323695, Double.NaN }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }",
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTotalSumSquares()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch79.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "(this.sumX >= 2.0)  <==>  (this.sumYY one of { 4.5, 8894.249411764715, 4255980.749722223 })",
+                                    "(this.sumX >= 2.0)  <==>  (return one of { 4.5, 8894.249411764715, 4255980.749722223 })",
+                                    "(this.sumX >= 2.0)  <==>  (this.ybar one of { 1.5, 134.50588235294117, 419.80277777777786 })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(this.sumX >= 2.0)  <==>  (this.ybar one of { 2.5, 134.50588235294117, 419.80277777777786 })",
+                                    "(this.sumX >= 2.0)  <==>  (return one of { 0.5, 8894.249411764715, 4255980.749722223 })",
+                                    "return >= 0.5",
+                                    "(this.sumX >= 2.0)  <==>  (this.sumYY one of { 0.5, 8894.249411764715, 4255980.749722223 })"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch79.inv.output": {
+                                "invs": [
+                                    "(this.sumX >= 2.0)  <==>  (this.sumYY one of { 4.5, 8894.249411764715, 4255980.749722223 })",
+                                    "(this.sumX >= 2.0)  <==>  (this.ybar one of { 2.5, 134.50588235294117, 419.80277777777786 })",
+                                    "(this.sumX >= 2.0)  <==>  (return one of { 0.5, 8894.249411764715, 4255980.749722223 })",
+                                    "(this.sumX >= 2.0)  <==>  (return one of { 4.5, 8894.249411764715, 4255980.749722223 })",
+                                    "return >= 0.5",
+                                    "(this.sumX >= 2.0)  <==>  (this.sumYY one of { 0.5, 8894.249411764715, 4255980.749722223 })",
+                                    "(this.sumX >= 2.0)  <==>  (this.ybar one of { 1.5, 134.50588235294117, 419.80277777777786 })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "281": [
+                                {
+                                    "Patch177.inv.output": {
+                                        "invs": [
+                                            "this.n == 0",
+                                            "this.sumYY == 0.0",
+                                            "this.sumY == 0.0",
+                                            "this.sumXX == 0.0",
+                                            "return == Double.NaN",
+                                            "this.ybar == 0.0",
+                                            "this.sumX == 0.0",
+                                            "orig(this) has only one value",
+                                            "this.xbar == 0.0",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return one of { 0.5, 8894.249411764715, 4255980.749722223 }",
+                                            "this.sumYY one of { 0.5, 8894.249411764715, 4255980.749722223 }",
+                                            "this.n one of { 2, 17, 36 }",
+                                            "this.ybar one of { 2.5, 134.50588235294117, 419.80277777777786 }",
+                                            "this.xbar >= 1.0",
+                                            "this.sumX >= 2.0",
+                                            "this.sumY one of { 5.0, 2286.6, 15112.900000000001 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch79.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "279": [
+                                {
+                                    "Patch177.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.n == 0",
+                                            "this.sumYY == 0.0",
+                                            "this.sumY == 0.0",
+                                            "this.sumXX == 0.0",
+                                            "return == Double.NaN",
+                                            "this.sumX == 0.0",
+                                            "this.ybar == 0.0",
+                                            "this.xbar == 0.0",
+                                            "orig(this) has only one value",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch79.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "283": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch177.inv.output": {
+                                        "invs": [
+                                            "return one of { 4.5, 8894.249411764715, 4255980.749722223 }",
+                                            "this.sumYY one of { 4.5, 8894.249411764715, 4255980.749722223 }",
+                                            "this.n one of { 2, 17, 36 }",
+                                            "this.xbar >= 1.0",
+                                            "this.ybar one of { 1.5, 134.50588235294117, 419.80277777777786 }",
+                                            "this.sumX >= 2.0",
+                                            "this.sumY one of { 5.0, 2286.6, 15112.900000000001 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "280": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch79.inv.output": {
+                                        "invs": [
+                                            "this.n == 0",
+                                            "this.sumYY == 0.0",
+                                            "this.sumY == 0.0",
+                                            "this.sumXX == 0.0",
+                                            "return == Double.NaN",
+                                            "this.sumX == 0.0",
+                                            "this.ybar == 0.0",
+                                            "this.xbar == 0.0",
+                                            "orig(this) has only one value",
+                                            "this.sumXY == 0.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "282": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch79.inv.output": {
+                                        "invs": [
+                                            "return one of { 0.5, 8894.249411764715, 4255980.749722223 }",
+                                            "this.sumYY one of { 0.5, 8894.249411764715, 4255980.749722223 }",
+                                            "this.n one of { 2, 17, 36 }",
+                                            "this.ybar one of { 2.5, 134.50588235294117, 419.80277777777786 }",
+                                            "this.xbar >= 1.0",
+                                            "this.sumX >= 2.0",
+                                            "this.sumY one of { 5.0, 2286.6, 15112.900000000001 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "predict(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }",
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch177.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 4.5, 4255980.749722223 }",
+                                    "this.ybar one of { 0.0, 1.5, 419.80277777777786 }",
+                                    "this.sumXY one of { 0.0, 3.0, 4246964.082222223 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.sumYY one of { 0.0, 0.5, 4255980.749722223 }",
+                                    "this.sumXY one of { 0.0, 1.0, 4246964.082222223 }",
+                                    "this.ybar one of { 0.0, 2.5, 419.80277777777786 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

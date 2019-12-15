@@ -1,0 +1,52 @@
+{
+    "org.apache.commons.math3.distribution.FDistribution": [
+        {
+            "isSupportLowerBoundInclusive()": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair3.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair3.inv.output": {
+                                "invs": [
+                                    "return == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == true"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator": [
+        {
+            "RungeKuttaStepInterpolator()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.currentState == null",
+                                    "this.yDotK == null",
+                                    "this.interpolatedState == null",
+                                    "this.integrator == null",
+                                    "this.interpolatedDerivatives == null",
+                                    "this.finalized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.currentState == null",
+                                    "this.yDotK == null",
+                                    "this.interpolatedState == null",
+                                    "this.integrator == null",
+                                    "this.interpolatedDerivatives == null",
+                                    "this.finalized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.currentState == null",
+                                    "this.yDotK == null",
+                                    "this.interpolatedState == null",
+                                    "this.integrator == null",
+                                    "this.interpolatedDerivatives == null",
+                                    "this.finalized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "org.apache.commons.math.MathRuntimeException": [
+        {
+            "CLASS": [
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch200.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "createIllegalArgumentException(org.apache.commons.math.exception.util.Localizable, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(arguments[]) == 1",
+                                    "pattern.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "arguments has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern has only one value",
+                                    "arguments[] elements has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "arguments[] == orig(arguments[])",
+                                    "return has only one value",
+                                    "arguments[] elements has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

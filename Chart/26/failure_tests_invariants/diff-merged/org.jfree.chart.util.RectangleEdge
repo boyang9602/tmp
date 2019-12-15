@@ -1,0 +1,175 @@
+{
+    "org.jfree.chart.util.RectangleEdge": [
+        {
+            "isTopOrBottom(org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "edge has only one value",
+                                    "edge.name has only one value",
+                                    "edge.name.toString == \"RectangleEdge.BOTTOM\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "edge has only one value",
+                                    "edge.name has only one value",
+                                    "edge.name.toString == \"RectangleEdge.BOTTOM\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "edge.name.toString == \"RectangleEdge.BOTTOM\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(edge.name.toString == \"RectangleEdge.LEFT\")  <==>  (return == false)",
+                                    "(edge.name.toString == \"RectangleEdge.LEFT\")  ==>  (edge.name has only one value)",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "(edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.TOP\" })  <==>  (return == true)",
+                                    "orig(edge) has only one value",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.TOP\" }",
+                                    "edge.name.toString == \"RectangleEdge.LEFT\"",
+                                    "(edge.name.toString == \"RectangleEdge.LEFT\")  ==>  (orig(edge) has only one value)",
+                                    "return == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "edge.name.toString == \"RectangleEdge.BOTTOM\""
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "89": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "92": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "81": [
+                                {
+                                    "Patch93.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(this) has only one value",
+                                            "this.name.toString == \"RectangleEdge.BOTTOM\"",
+                                            "return == true",
+                                            "orig(obj) has only one value",
+                                            "this.name has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

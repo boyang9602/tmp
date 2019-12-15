@@ -1,0 +1,63 @@
+{
+    "org.jfree.data.DomainOrder": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"DomainOrder.ASCENDING\", \"DomainOrder.DESCENDING\", \"DomainOrder.NONE\" }"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "DomainOrder(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"DomainOrder.ASCENDING\", \"DomainOrder.DESCENDING\", \"DomainOrder.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "name.toString == orig(name.toString)",
+                                    "name.toString one of { \"DomainOrder.ASCENDING\", \"DomainOrder.DESCENDING\", \"DomainOrder.NONE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

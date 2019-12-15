@@ -1,0 +1,832 @@
+{
+    "org.apache.commons.math.ode.events.EventState": [
+        {
+            "EventState(org.apache.commons.math.ode.events.EventHandler, double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEventTime()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.t0 == 67.5",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.previousEventTime == Double.NaN",
+                                    "this.g0Positive == false",
+                                    "this.g0 == -1518.75"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.t0 == 67.5",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.t0 == 67.5",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "return one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "return one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "return one of { 90.00033407572384, 135.00339335737863 }",
+                                    "return one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 89.99854388107069",
+                                    "this.t0 == 67.5",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.previousEventTime == Double.NaN",
+                                    "this.g0Positive == false",
+                                    "this.g0 == -1518.75"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "return one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 == 67.5",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "return one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "return one of { 90.00033407572384, 135.00339335737863 }",
+                                    "return one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "return one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "return one of { 90.00033407572384, 135.00339335737863 }",
+                                    "return one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "return one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "return one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "return one of { 90.00033407572384, 135.00339335737863 }",
+                                    "return one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "return one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 == 67.5",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "return one of { 89.99854388107069, 134.97924895863147 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "return one of { 90.00033407572384, 135.00339335737863 }",
+                                    "return one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "reinitializeBegin(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.increasing == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "stepAccepted(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "t == 90.01045447531122",
+                                    "this.increasing == true",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "t == 90.00033407572384"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "t == 89.99854388107069",
+                                    "this.pendingEventTime == 89.99854388107069"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "t == 90.01045447531122",
+                                    "this.increasing == true",
+                                    "t == 89.99854388107069",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "t == 90.00033407572384"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "t == 90.01045447531122",
+                                    "this.increasing == true",
+                                    "t == 89.99854388107069",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "t == 90.00033407572384"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "t == 90.01045447531122",
+                                    "this.increasing == true",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "t == 90.00033407572384"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "t == 90.01045447531122",
+                                    "this.increasing == true",
+                                    "t == 89.99854388107069",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "t == 90.00033407572384"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.g0 == 0.4703420929509026",
+                                    "this.previousEventTime == 90.01045447531122",
+                                    "this.t0 == 67.5",
+                                    "this.increasing == true",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.t0 == 90.01045447531122",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "this.t0 == 90.00033407572384",
+                                    "this.previousEventTime == 90.00033407572384",
+                                    "this.t0 == orig(this.t0)",
+                                    "this.g0 == 0.015033295966297143"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.t0 == 89.99854388107069",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.g0 == -0.06552747210136982",
+                                    "this.previousEventTime == 89.99854388107069"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.g0 == 0.4703420929509026",
+                                    "this.previousEventTime == 90.01045447531122",
+                                    "this.t0 == 67.5",
+                                    "this.increasing == true",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.t0 == 90.01045447531122",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "this.t0 == 90.00033407572384",
+                                    "this.g0 == -0.06552747210136982",
+                                    "this.previousEventTime == 90.00033407572384",
+                                    "this.t0 == orig(this.t0)",
+                                    "this.g0 == 0.015033295966297143",
+                                    "this.previousEventTime == 89.99854388107069"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.t0 == 89.99854388107069",
+                                    "this.g0 == 0.4703420929509026",
+                                    "this.previousEventTime == 90.01045447531122",
+                                    "this.t0 == 67.5",
+                                    "this.increasing == true",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.t0 == 90.01045447531122",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "this.t0 == 90.00033407572384",
+                                    "this.g0 == -0.06552747210136982",
+                                    "this.previousEventTime == 90.00033407572384",
+                                    "this.t0 == orig(this.t0)",
+                                    "this.g0 == 0.015033295966297143",
+                                    "this.previousEventTime == 89.99854388107069"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.g0 == 0.4703420929509026",
+                                    "this.previousEventTime == 90.01045447531122",
+                                    "this.t0 == 67.5",
+                                    "this.increasing == true",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.t0 == 90.01045447531122",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "this.t0 == 90.00033407572384",
+                                    "this.previousEventTime == 90.00033407572384",
+                                    "this.t0 == orig(this.t0)",
+                                    "this.g0 == 0.015033295966297143"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.g0 == 0.4703420929509026",
+                                    "this.previousEventTime == 90.01045447531122",
+                                    "this.t0 == 67.5",
+                                    "this.increasing == true",
+                                    "this.pendingEventTime == 90.01045447531122",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.t0 == 90.01045447531122",
+                                    "this.pendingEventTime == 90.00033407572384",
+                                    "this.t0 == 90.00033407572384",
+                                    "this.g0 == -0.06552747210136982",
+                                    "this.previousEventTime == 90.00033407572384",
+                                    "this.t0 == orig(this.t0)",
+                                    "this.g0 == 0.015033295966297143",
+                                    "this.previousEventTime == 89.99854388107069"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, Double.NaN }",
+                                    "this.pendingEventTime one of { 90.00033407572384, Double.NaN }",
+                                    "this.increasing == true",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, Double.NaN }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.t0 == 67.5",
+                                    "this.pendingEvent == false",
+                                    "this.previousEventTime == Double.NaN",
+                                    "this.g0Positive == false",
+                                    "this.g0 == -1518.75",
+                                    "this.forward == false",
+                                    "this.pendingEventTime == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.t0 == 67.5",
+                                    "this.pendingEventTime one of { 89.99854388107069, Double.NaN }",
+                                    "this.pendingEventTime one of { 90.00033407572384, Double.NaN }",
+                                    "this.increasing == true",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, Double.NaN }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, Double.NaN }",
+                                    "this.pendingEventTime one of { 90.00033407572384, Double.NaN }",
+                                    "this.increasing == true",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, Double.NaN }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, Double.NaN }",
+                                    "this.pendingEventTime one of { 90.00033407572384, Double.NaN }",
+                                    "this.increasing == true",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, Double.NaN }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.t0 == 67.5",
+                                    "this.pendingEventTime one of { 89.99854388107069, Double.NaN }",
+                                    "this.pendingEventTime one of { 90.00033407572384, Double.NaN }",
+                                    "this.increasing == true",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, Double.NaN }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.t0 == 67.5",
+                                    "this.increasing == orig(this.increasing)",
+                                    "this.pendingEventTime == 89.99854388107069",
+                                    "this.previousEventTime == Double.NaN",
+                                    "this.g0Positive == false",
+                                    "this.g0 == -1518.75"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "this.t0 == 67.5",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "this.t0 == 67.5",
+                                    "this.g0 one of { -1518.75, -0.06552747210136982 }",
+                                    "this.t0 one of { 67.5, 89.99854388107069 }",
+                                    "this.g0 one of { -1518.75, 0.4703420929509026 }",
+                                    "this.pendingEventTime one of { 90.01045447531122, 135.00332256270696 }",
+                                    "this.t0 one of { 67.5, 90.00033407572384 }",
+                                    "this.g0 one of { -1518.75, 0.015033295966297143 }",
+                                    "this.pendingEventTime one of { 90.00033407572384, 135.00339335737863 }",
+                                    "this.t0 one of { 67.5, 90.01045447531122 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 135.00323100940778 }",
+                                    "this.pendingEventTime one of { 89.99854388107069, 134.97924895863147 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "237": [
+                                {
+                                    "Patch58.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch57.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch171.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch56.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "248": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

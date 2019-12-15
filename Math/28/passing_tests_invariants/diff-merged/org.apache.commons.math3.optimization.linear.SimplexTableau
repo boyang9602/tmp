@@ -1,0 +1,136 @@
+{
+    "org.apache.commons.math3.optimization.linear.SimplexTableau": [
+        {
+            "getBasicRow(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch198.inv.output": {
+                                "invs": [
+                                    "this.numDecisionVariables >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.numDecisionVariables >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch32.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch198.inv.output": {
+                                "invs": [
+                                    "this.numDecisionVariables >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.numDecisionVariables >= 2"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch32.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "322": [
+                                {
+                                    "Patch198.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch32.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "325": [
+                                {
+                                    "Patch198.inv.output": {
+                                        "invs": [
+                                            "this.numArtificialVariables one of { 0, 2, 5 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch32.inv.output": {
+                                        "invs": [
+                                            "this.numArtificialVariables one of { 0, 2, 5 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getArtificialVariableOffset()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch32.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.numArtificialVariables >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch32.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.numArtificialVariables >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

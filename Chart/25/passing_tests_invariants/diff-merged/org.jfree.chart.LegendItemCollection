@@ -1,0 +1,68 @@
+{
+    "org.jfree.chart.LegendItemCollection": [
+        {
+            "LegendItemCollection()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items[] == []",
+                                    "this.items[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getItemCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.items[].getClass().getName() == [org.jfree.chart.LegendItem]",
+                                    "size(this.items[]) == 1",
+                                    "this.items[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.items[]) == 1",
+                                    "return == 1",
+                                    "this.items[].getClass().getName() == [org.jfree.chart.LegendItem]",
+                                    "this.items[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

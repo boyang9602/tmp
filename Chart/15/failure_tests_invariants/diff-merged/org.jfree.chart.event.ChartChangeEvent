@@ -1,0 +1,46 @@
+{
+    "org.jfree.chart.event.ChartChangeEvent": [
+        {
+            "ChartChangeEvent(java.lang.Object, org.jfree.chart.JFreeChart, org.jfree.chart.event.ChartChangeEventType)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.title.TextTitle.DEFAULT_FONT has only one value",
+                                    "org.jfree.chart.title.TextTitle.DEFAULT_TEXT_PAINT has only one value",
+                                    "org.jfree.chart.title.TextTitle.DEFAULT_TEXT_PAINT.getClass().getName() == java.awt.Color.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.title.Title.class$org$jfree$chart$event$TitleChangeListener == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.title.TextTitle.DEFAULT_FONT == orig(org.jfree.chart.title.TextTitle.DEFAULT_FONT)",
+                                    "org.jfree.chart.title.TextTitle.DEFAULT_TEXT_PAINT == orig(org.jfree.chart.title.TextTitle.DEFAULT_TEXT_PAINT)",
+                                    "org.jfree.chart.title.TextTitle.DEFAULT_TEXT_PAINT.getClass().getName() == orig(org.jfree.chart.title.TextTitle.DEFAULT_TEXT_PAINT.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

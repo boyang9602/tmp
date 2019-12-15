@@ -1,0 +1,468 @@
+{
+    "org.jfree.chart.block.AbstractBlock": [
+        {
+            "getFrame()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setPadding(org.jfree.chart.util.RectangleInsets)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.padding.left == 0.0",
+                                    "this.padding.right == 0.0",
+                                    "padding.top == 1.0",
+                                    "this.padding.bottom == 0.0",
+                                    "padding.bottom == 1.0",
+                                    "padding.left == 1.0",
+                                    "this.padding.top == 0.0",
+                                    "this has only one value",
+                                    "this.bounds has only one value",
+                                    "this.padding has only one value",
+                                    "padding has only one value",
+                                    "padding.right == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.left one of { 0.0, 2.0 }",
+                                    "this.padding.top one of { 0.0, 2.0 }",
+                                    "this.padding.bottom one of { 0.0, 2.0 }",
+                                    "padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.right one of { 0.0, 2.0 }",
+                                    "padding.bottom one of { 1.0, 2.0 }",
+                                    "padding.right one of { 1.0, 2.0 }",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "padding.top one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "padding.bottom == 1.0",
+                                    "this.padding.top == 1.0",
+                                    "padding.top == 1.0",
+                                    "this.bounds has only one value",
+                                    "this.padding has only one value",
+                                    "this.padding.right == 1.0",
+                                    "this.padding.left == 1.0",
+                                    "padding.left == 1.0",
+                                    "padding.right == 1.0",
+                                    "this.padding.bottom == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.right one of { 1.0, 2.0 }",
+                                    "padding.right one of { 1.0, 2.0 }",
+                                    "padding.bottom one of { 1.0, 2.0 }",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "padding.top one of { 1.0, 2.0 }",
+                                    "this.padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.bottom one of { 1.0, 2.0 }",
+                                    "padding.left one of { 1.0, 2.0 }",
+                                    "this.padding.top one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setFrame(org.jfree.chart.block.BlockFrame)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "toContentConstraint(org.jfree.chart.block.RectangleConstraint)": [
+                {
+                    "EXITNN": [
+                        {
+                            "422": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return.heightConstraintType has only one value",
+                                            "c.widthConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "return has only one value",
+                                            "this.padding.left one of { 0.0, 2.0 }",
+                                            "c.heightConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "return.widthConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "this.margin.top == 0.0",
+                                            "this.padding.top one of { 0.0, 2.0 }",
+                                            "orig(c) has only one value",
+                                            "this.frame has only one value",
+                                            "this.margin.left == 0.0",
+                                            "return.width == 0.0",
+                                            "this.margin.bottom == 0.0",
+                                            "c.height == 0.0",
+                                            "c.widthRange == null",
+                                            "c.heightConstraintType.name has only one value",
+                                            "return.height == 0.0",
+                                            "this.padding.bottom one of { 0.0, 2.0 }",
+                                            "return.widthConstraintType has only one value",
+                                            "this.padding.right one of { 0.0, 2.0 }",
+                                            "c.width == 0.0",
+                                            "return.heightRange == null",
+                                            "this.margin.right == 0.0",
+                                            "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                                            "c.widthConstraintType has only one value",
+                                            "c.widthConstraintType.name has only one value",
+                                            "return.widthRange == null",
+                                            "return.widthConstraintType.name has only one value",
+                                            "c.heightConstraintType has only one value",
+                                            "c.heightRange == null",
+                                            "return.heightConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                            "this.margin has only one value",
+                                            "return.heightConstraintType.name has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "432": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return.heightConstraintType has only one value",
+                                            "this.margin.bottom == 1.0",
+                                            "return has only one value",
+                                            "orig(this) has only one value",
+                                            "c.widthRange has only one value",
+                                            "return.height == 194.0",
+                                            "this.padding.left == 1.0",
+                                            "orig(c) has only one value",
+                                            "this.frame has only one value",
+                                            "return.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "this.margin.left == 1.0",
+                                            "return.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "c.heightConstraintType.name has only one value",
+                                            "return.widthConstraintType has only one value",
+                                            "c.height == 200.0",
+                                            "this.margin.top == 1.0",
+                                            "c.widthConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "this.padding.right == 1.0",
+                                            "c.widthConstraintType has only one value",
+                                            "this.margin has only one value",
+                                            "c.widthConstraintType.name has only one value",
+                                            "this.margin.right == 1.0",
+                                            "return.widthConstraintType.name has only one value",
+                                            "c.heightConstraintType has only one value",
+                                            "return.heightRange has only one value",
+                                            "return.widthRange has only one value",
+                                            "c.heightConstraintType.name.toString == \"RectangleConstraintType.RANGE\"",
+                                            "c.width == 300.0",
+                                            "this.padding.top == 1.0",
+                                            "this.frame.getClass().getName() == org.jfree.chart.block.LineBorder.class",
+                                            "this.bounds has only one value",
+                                            "return.width == 294.0",
+                                            "this.padding has only one value",
+                                            "c.heightRange has only one value",
+                                            "return.heightConstraintType.name has only one value",
+                                            "this.padding.bottom == 1.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "trimToContentWidth(org.jfree.data.Range)": [
+                {
+                    "EXITNN": [
+                        {
+                            "450": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "trimBorder(java.awt.geom.Rectangle2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.padding.left == 0.0",
+                                    "this.padding.right == 0.0",
+                                    "this.bounds has only one value",
+                                    "this.padding has only one value",
+                                    "this.padding.bottom == 0.0",
+                                    "this.padding.top == 0.0",
+                                    "area has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.right one of { 0.0, 2.0 }",
+                                    "this.padding.left one of { 0.0, 2.0 }",
+                                    "this.padding.bottom one of { 0.0, 2.0 }",
+                                    "this.padding.top one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.padding.left == 0.0",
+                                    "this.padding.right == 0.0",
+                                    "return has only one value",
+                                    "this.bounds has only one value",
+                                    "this.padding has only one value",
+                                    "this.padding.bottom == 0.0",
+                                    "this.padding.top == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.right one of { 0.0, 2.0 }",
+                                    "this.padding.left one of { 0.0, 2.0 }",
+                                    "this.padding.bottom one of { 0.0, 2.0 }",
+                                    "this.padding.top one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "trimToContentHeight(org.jfree.data.Range)": [
+                {
+                    "EXITNN": [
+                        {
+                            "465": [
+                                {
+                                    "Patch15.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractBlock()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMargin(org.jfree.chart.util.RectangleInsets)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawBorder(java.awt.Graphics2D, java.awt.geom.Rectangle2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.padding.left == 0.0",
+                                    "this.padding.right == 0.0",
+                                    "this.bounds has only one value",
+                                    "this.padding has only one value",
+                                    "this.padding.bottom == 0.0",
+                                    "this.padding.top == 0.0",
+                                    "area has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.right one of { 0.0, 2.0 }",
+                                    "this.padding.left one of { 0.0, 2.0 }",
+                                    "this.padding.bottom one of { 0.0, 2.0 }",
+                                    "this.padding.top one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.padding.left == 0.0",
+                                    "this.padding.right == 0.0",
+                                    "this.bounds has only one value",
+                                    "this.padding has only one value",
+                                    "this.padding.bottom == 0.0",
+                                    "this.padding.top == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.right one of { 0.0, 2.0 }",
+                                    "this.padding.left one of { 0.0, 2.0 }",
+                                    "this.padding.bottom one of { 0.0, 2.0 }",
+                                    "this.padding.top one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

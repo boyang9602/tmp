@@ -1,0 +1,171 @@
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser:::OBJECT
+this has only one value
+this.observations has only one value
+this.observations.getClass().getName() == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[].class
+this.observations[] contains no nulls and has only one value, of length 31
+this.observations[].getClass().getName() == [org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint, org.apache.commons.math3.optimization.fitting.WeightedObservedPoint]
+this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+this.observations[].weight == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+this.observations[].weight elements == 1.0
+this.observations[].x == [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0]
+this.observations[].x elements >= 0.0
+this.observations[].x sorted by <
+this.observations[].y == [0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0]
+this.a one of { 0.0, Infinity }
+this.omega == 0.0
+this.phi == 0.0
+size(this.observations[]) == 31
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.ParameterGuesser(org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[]):::ENTER
+observations has only one value
+observations.getClass().getName() == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[].class
+observations[] contains no nulls and has only one value, of length 31
+observations[].weight == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+observations[].weight elements == 1.0
+observations[].x == [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0]
+observations[].y == [0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0]
+size(observations[]) == 31
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.ParameterGuesser(org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[]):::EXIT
+observations[] == orig(observations[])
+observations[].weight == orig(observations[].weight)
+observations[].x == orig(observations[].x)
+observations[].y == orig(observations[].y)
+this.a == 0.0
+observations[] contains no nulls and has only one value, of length 31
+observations[].weight == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+observations[].weight elements == 1.0
+observations[].x == [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0]
+observations[].y == [0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0, -1.0, -2.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 2.0, 1.0, 0.0]
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guess():::ENTER
+this.a == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guess():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[] == orig(this.observations[])
+this.observations[].weight == orig(this.observations[].weight)
+this.observations[].x == orig(this.observations[].x)
+this.observations[].y == orig(this.observations[].y)
+this.omega == orig(this.omega)
+this.phi == orig(this.phi)
+this.a == Infinity
+return has only one value
+return[] == [Infinity, 0.0, -0.0]
+return[] elements one of { 0.0, Infinity }
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guessAOmega():::ENTER
+this.a == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guessAOmega():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[] == orig(this.observations[])
+this.observations[].weight == orig(this.observations[].weight)
+this.observations[].x == orig(this.observations[].x)
+this.observations[].y == orig(this.observations[].y)
+this.omega == orig(this.omega)
+this.phi == orig(this.phi)
+this.a == Infinity
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guessPhi():::ENTER
+this.a == Infinity
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guessPhi():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[] == orig(this.observations[])
+this.observations[].weight == orig(this.observations[].weight)
+this.observations[].x == orig(this.observations[].x)
+this.observations[].y == orig(this.observations[].y)
+this.a == orig(this.a)
+this.omega == orig(this.omega)
+this.phi == orig(this.phi)
+this.a == Infinity
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.sortObservations():::ENTER
+this.a == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.sortObservations():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[] == orig(this.observations[])
+this.observations[].weight == orig(this.observations[].weight)
+this.observations[].x == orig(this.observations[].x)
+this.observations[].y == orig(this.observations[].y)
+this.a == orig(this.a)
+this.omega == orig(this.omega)
+this.phi == orig(this.phi)
+this.a == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.HarmonicFitterTest():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.testMath844():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.testMath844():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint:::CLASS
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint:::OBJECT
+this.weight == 1.0
+this.x >= 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint(double, double, double):::ENTER
+weight == 1.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint(double, double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getX():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getX():::EXIT
+this.weight == orig(this.weight)
+this.x == orig(this.x)
+this.y == orig(this.y)
+return >= 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getY():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getY():::EXIT
+this.weight == orig(this.weight)
+this.x == orig(this.x)
+this.y == orig(this.y)
+===========================================================================
+org.apache.commons.math3.util.FastMath:::CLASS
+===========================================================================
+org.apache.commons.math3.util.FastMath.cosQ(double, double):::ENTER
+xa == 0.0
+xb == 0.0
+===========================================================================
+org.apache.commons.math3.util.FastMath.cosQ(double, double):::EXIT
+return == 1.0
+===========================================================================
+org.apache.commons.math3.util.FastMath.polyCosine(double):::ENTER
+x == -0.05420367320510344
+===========================================================================
+org.apache.commons.math3.util.FastMath.polyCosine(double):::EXIT
+return == -0.0014686594601684196
+===========================================================================
+org.apache.commons.math3.util.FastMath.polySine(double):::ENTER
+x == -0.05420367320510344
+===========================================================================
+org.apache.commons.math3.util.FastMath.polySine(double):::EXIT
+return == 2.6538178167060653E-5
+===========================================================================
+org.apache.commons.math3.util.FastMath.sinQ(double, double):::ENTER
+xa == 1.5707963267948966
+xb == 6.123233995736766E-17
+===========================================================================
+org.apache.commons.math3.util.FastMath.sinQ(double, double):::EXIT
+return == 1.0
+===========================================================================
+org.apache.commons.math3.util.FastMath.sqrt(double):::ENTER
+a one of { 0.0, Infinity }
+===========================================================================
+org.apache.commons.math3.util.FastMath.sqrt(double):::EXIT
+return one of { 0.0, Infinity }

@@ -1,0 +1,299 @@
+{
+    "org.apache.commons.math3.complex.Complex": [
+        {
+            "reciprocal()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch29.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch196.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch29.inv.output": {
+                                "invs": [
+                                    "return.real == Infinity",
+                                    "return.isInfinite == true",
+                                    "return.imaginary == Infinity",
+                                    "return.isNaN == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.isInfinite == false",
+                                    "return.real == Double.NaN",
+                                    "return.imaginary == Double.NaN",
+                                    "return.isNaN == true"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.real == Infinity",
+                                    "return.isInfinite == true",
+                                    "return.imaginary == Infinity",
+                                    "return.isNaN == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch196.inv.output": {
+                                "invs": [
+                                    "return.real == Infinity",
+                                    "return.isInfinite == true",
+                                    "return.imaginary == Infinity",
+                                    "return.isNaN == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "305": [
+                                {
+                                    "Patch29.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch29.inv.output": {
+                                "invs": [
+                                    "this.imaginary == Infinity",
+                                    "this has only one value",
+                                    "this.isNaN == false",
+                                    "this.imaginary one of { 0.0, Infinity }",
+                                    "other has only one value",
+                                    "this.isInfinite == true",
+                                    "this.real one of { 0.0, Infinity }",
+                                    "this.real == Infinity"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.isNaN == true",
+                                    "this.real == Double.NaN",
+                                    "this.isInfinite == false",
+                                    "this has only one value",
+                                    "other has only one value",
+                                    "this.imaginary == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.imaginary == Infinity",
+                                    "this has only one value",
+                                    "this.isNaN == false",
+                                    "this.imaginary one of { 0.0, Infinity }",
+                                    "other has only one value",
+                                    "this.isInfinite == true",
+                                    "this.real one of { 0.0, Infinity }",
+                                    "this.real == Infinity"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch196.inv.output": {
+                                "invs": [
+                                    "this.imaginary == Infinity",
+                                    "this.isNaN == false",
+                                    "this.imaginary one of { 0.0, Infinity }",
+                                    "this.isInfinite == true",
+                                    "this.real one of { 0.0, Infinity }",
+                                    "this.real == Infinity"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch29.inv.output": {
+                                "invs": [
+                                    "this.real == orig(this.real)",
+                                    "this.imaginary == Infinity",
+                                    "this.imaginary == orig(this.imaginary)",
+                                    "this.imaginary one of { 0.0, Infinity }",
+                                    "this.isNaN == false",
+                                    "this.isInfinite == true",
+                                    "return == true",
+                                    "this.real one of { 0.0, Infinity }",
+                                    "this.real == Infinity"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.isNaN == true",
+                                    "this.imaginary == Double.NaN",
+                                    "this.isInfinite == false",
+                                    "return == false",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.real == orig(this.real)",
+                                    "this.imaginary == Infinity",
+                                    "this.imaginary == orig(this.imaginary)",
+                                    "this.imaginary one of { 0.0, Infinity }",
+                                    "this.isNaN == false",
+                                    "this.isInfinite == true",
+                                    "return == true",
+                                    "this.real one of { 0.0, Infinity }",
+                                    "this.real == Infinity"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch196.inv.output": {
+                                "invs": [
+                                    "this.real == orig(this.real)",
+                                    "this.imaginary == Infinity",
+                                    "this.imaginary == orig(this.imaginary)",
+                                    "this.imaginary one of { 0.0, Infinity }",
+                                    "this.isNaN == false",
+                                    "this.isInfinite == true",
+                                    "return == true",
+                                    "this.real one of { 0.0, Infinity }",
+                                    "this.real == Infinity"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "348": [
+                                {
+                                    "Patch29.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch196.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "341": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch29.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "342": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": [
+                                            "this.imaginary == Infinity",
+                                            "orig(other) has only one value",
+                                            "orig(this) has only one value",
+                                            "this.isInfinite == true",
+                                            "this.real == Infinity"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "349": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch196.inv.output": {
+                                        "invs": [
+                                            "this.imaginary == 0.0",
+                                            "orig(other) has only one value",
+                                            "orig(this) has only one value",
+                                            "this.isInfinite == false",
+                                            "this.real == 0.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

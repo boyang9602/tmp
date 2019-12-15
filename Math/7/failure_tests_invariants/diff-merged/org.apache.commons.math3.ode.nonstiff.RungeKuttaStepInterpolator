@@ -1,0 +1,99 @@
+{
+    "org.apache.commons.math3.ode.nonstiff.RungeKuttaStepInterpolator": [
+        {
+            "shift()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.currentState != null",
+                                    "this.interpolatedDerivatives != null",
+                                    "this.integrator != null",
+                                    "this.interpolatedSecondaryDerivatives != null",
+                                    "this.interpolatedPrimaryDerivatives != null",
+                                    "this.interpolatedState != null",
+                                    "this.interpolatedSecondaryState != null",
+                                    "this.interpolatedPrimaryState != null",
+                                    "this.primaryMapper != null",
+                                    "this.secondaryMappers != null",
+                                    "this.yDotK != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.currentState != null",
+                                    "this.interpolatedDerivatives != null",
+                                    "this.integrator != null",
+                                    "this.interpolatedSecondaryDerivatives != null",
+                                    "this.interpolatedPrimaryDerivatives != null",
+                                    "this.interpolatedState != null",
+                                    "this.interpolatedSecondaryState != null",
+                                    "this.interpolatedPrimaryState != null",
+                                    "this.primaryMapper != null",
+                                    "this.secondaryMappers != null",
+                                    "this.yDotK != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.currentState != null",
+                                    "this.integrator != null",
+                                    "this.previousState != null",
+                                    "this.interpolatedDerivatives != null",
+                                    "this.secondaryMappers != null",
+                                    "this.interpolatedSecondaryDerivatives != null",
+                                    "this.interpolatedPrimaryDerivatives != null",
+                                    "this.interpolatedState != null",
+                                    "this.interpolatedSecondaryState != null",
+                                    "this.interpolatedPrimaryState != null",
+                                    "this.primaryMapper != null",
+                                    "this.yDotK != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.previousState[] >= orig(this.previousState[]) (lexically)",
+                                    "this.previousState[] > orig(this.previousState[]) (lexically)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.currentState != null",
+                                    "this.integrator != null",
+                                    "this.previousState != null",
+                                    "this.interpolatedDerivatives != null",
+                                    "this.secondaryMappers != null",
+                                    "this.interpolatedSecondaryDerivatives != null",
+                                    "this.interpolatedPrimaryDerivatives != null",
+                                    "this.interpolatedState != null",
+                                    "this.interpolatedSecondaryState != null",
+                                    "this.interpolatedPrimaryState != null",
+                                    "this.primaryMapper != null",
+                                    "this.yDotK != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

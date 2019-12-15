@@ -1,0 +1,212 @@
+{
+    "org.jfree.chart.entity.LegendItemEntity": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch1.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.area.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                            "this.urlText == null",
+                            "this.toolTipText == null",
+                            "this.seriesKey.getClass().getName() == java.lang.String.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch1.inv.output": {
+                        "invs": [
+                            "this.area.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                            "this.urlText == null",
+                            "this.toolTipText == null",
+                            "this.seriesKey.getClass().getName() == java.lang.String.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "LegendItemEntity(java.awt.Shape)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "area.getClass().getName() == java.awt.geom.Rectangle2D$Double.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "area.getClass().getName() == java.awt.geom.Rectangle2D$Double.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.seriesKey == null",
+                                    "this.dataset == null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.seriesKey == null",
+                                    "this.dataset == null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setSeriesKey(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.seriesKey == null",
+                                    "key.getClass().getName() == java.lang.String.class",
+                                    "this.dataset == null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.seriesKey == null",
+                                    "key.getClass().getName() == java.lang.String.class",
+                                    "this.dataset == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.area == orig(this.area)",
+                                    "this.urlText == orig(this.urlText)",
+                                    "this.dataset == null",
+                                    "this.area.getClass().getName() == orig(this.area.getClass().getName())",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.toolTipText == orig(this.toolTipText)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.area == orig(this.area)",
+                                    "this.urlText == orig(this.urlText)",
+                                    "this.dataset == null",
+                                    "this.area.getClass().getName() == orig(this.area.getClass().getName())",
+                                    "this.dataset == orig(this.dataset)",
+                                    "this.toolTipText == orig(this.toolTipText)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setDataset(org.jfree.data.general.Dataset)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.dataset == null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.dataset == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.area == orig(this.area)",
+                                    "this.urlText == orig(this.urlText)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.area.getClass().getName() == orig(this.area.getClass().getName())",
+                                    "this.toolTipText == orig(this.toolTipText)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.seriesKey.getClass().getName() == orig(this.seriesKey.getClass().getName())",
+                                    "this.area == orig(this.area)",
+                                    "this.urlText == orig(this.urlText)",
+                                    "this.seriesKey == orig(this.seriesKey)",
+                                    "this.area.getClass().getName() == orig(this.area.getClass().getName())",
+                                    "this.toolTipText == orig(this.toolTipText)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

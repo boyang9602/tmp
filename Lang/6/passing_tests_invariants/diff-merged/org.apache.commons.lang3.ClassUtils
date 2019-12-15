@@ -1,0 +1,360 @@
+{
+    "org.apache.commons.lang3.ClassUtils": [
+        {
+            "CLASS": [
+                {
+                    "PatchHDRepair2.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == java.util.HashMap.class",
+                            "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName() == java.util.HashMap.class",
+                            "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == \".\"",
+                            "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap has only one value",
+                            "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == \"$\"",
+                            "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName() == java.util.HashMap.class",
+                            "org.apache.commons.lang3.ClassUtils.abbreviationMap has only one value",
+                            "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap has only one value",
+                            "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR has only one value",
+                            "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap has only one value",
+                            "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName() == java.util.HashMap.class",
+                            "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "isAssignable(java.lang.Class, java.lang.Class)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)",
+                                    "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)",
+                                    "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)",
+                                    "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)",
+                                    "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)",
+                                    "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)",
+                                    "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)",
+                                    "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())",
+                                    "return == true",
+                                    "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)",
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addAbbreviation(java.lang.String, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "abbreviation.toString == orig(abbreviation.toString)",
+                                    "primitive.toString == orig(primitive.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isAssignable(java.lang.Class, java.lang.Class, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "autoboxing == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)",
+                                    "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)",
+                                    "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)",
+                                    "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)",
+                                    "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)",
+                                    "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)",
+                                    "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)",
+                                    "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())",
+                                    "return == true",
+                                    "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)",
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "640": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "647": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "652": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(toClass) has only one value",
+                                            "orig(cls) has only one value",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "662": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(toClass) has only one value",
+                                            "orig(cls) has only one value",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "665": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(toClass) has only one value",
+                                            "orig(cls) has only one value",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "671": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(toClass) has only one value",
+                                            "orig(cls) has only one value",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "677": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(toClass) has only one value",
+                                            "orig(cls) has only one value",
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "686": [
+                                {
+                                    "PatchHDRepair2.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "primitiveToWrapper(java.lang.Class)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "cls has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)",
+                                    "return has only one value",
+                                    "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)",
+                                    "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)",
+                                    "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)",
+                                    "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)",
+                                    "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)",
+                                    "org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)",
+                                    "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "wrapperToPrimitive(java.lang.Class)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "cls has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)",
+                                    "return has only one value",
+                                    "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)",
+                                    "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)",
+                                    "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)",
+                                    "org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)",
+                                    "org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)",
+                                    "org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())",
+                                    "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)",
+                                    "org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

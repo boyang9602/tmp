@@ -1,0 +1,799 @@
+{
+    "org.apache.commons.math.ode.AbstractIntegrator": [
+        {
+            "getCurrentStepStart()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "integrate(org.apache.commons.math.ode.FirstOrderDifferentialEquations, double, double[], double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false",
+                                    "this.resetOccurred == orig(this.resetOccurred)",
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false",
+                                    "this.resetOccurred == orig(this.resetOccurred)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "clearEventHandlers()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEventHandlers()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getCurrentSignedStepsize()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false",
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false",
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acceptStep(org.apache.commons.math.ode.sampling.AbstractStepInterpolator, double[], double[], double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "334": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(size(yDot[])) == 2",
+                                            "size(interpolator.interpolatedPrimaryDerivatives[]) == 2",
+                                            "interpolator.forward == true",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == orig(interpolator.interpolatedPrimaryDerivatives[])",
+                                            "this.expandable.primaryStateDot[] >= orig(this.expandable.primaryStateDot[]) (elementwise)",
+                                            "this.expandable.primaryMapper.dimension == 2",
+                                            "size(this.expandable.primaryState[]) == 2",
+                                            "interpolator.interpolatedPrimaryDerivatives[] elements == 0.0",
+                                            "interpolator.secondaryMappers[].getClass().getName() == []",
+                                            "this.expandable.components[].getClass().getName() == []",
+                                            "this.evaluations.maximalCount == 2147483647",
+                                            "interpolator.primaryMapper.dimension == 2",
+                                            "interpolator.interpolatedSecondaryState[] == []",
+                                            "size(interpolator.interpolatedPrimaryState[]) == 2",
+                                            "interpolator.interpolatedSecondaryDerivatives[] == []",
+                                            "orig(this.isLastStep) == false",
+                                            "this.expandable.components[] == []",
+                                            "this.isLastStep == true",
+                                            "this.expandable.primaryState[] <= orig(this.expandable.primaryState[]) (lexically)",
+                                            "interpolator.secondaryMappers[].firstIndex == []",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == [0.0, 0.0]",
+                                            "orig(tEnd) one of { 10.0, 15.0 }",
+                                            "size(interpolator.currentState[]) == 2",
+                                            "size(interpolator.interpolatedDerivatives[]) == 2",
+                                            "this.resetOccurred == false",
+                                            "interpolator.softCurrentTime < orig(interpolator.softCurrentTime)",
+                                            "interpolator.secondaryMappers[] == []",
+                                            "interpolator.secondaryMappers[].dimension == []",
+                                            "interpolator.interpolatedTime < orig(interpolator.interpolatedTime)",
+                                            "orig(size(y[])) == 2",
+                                            "size(interpolator.interpolatedState[]) == 2",
+                                            "yDot[] == orig(yDot[])",
+                                            "size(this.expandable.primaryStateDot[]) == 2"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "343": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "size(interpolator.interpolatedDerivatives[]) one of { 1, 2 }",
+                                            "interpolator.forward == true",
+                                            "yDot[] sorted by >",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == orig(interpolator.interpolatedPrimaryDerivatives[])",
+                                            "size(this.expandable.primaryStateDot[]) one of { 1, 2 }",
+                                            "interpolator.secondaryMappers[].getClass().getName() == []",
+                                            "this.expandable.components[].getClass().getName() == []",
+                                            "interpolator.primaryMapper.dimension one of { 1, 2 }",
+                                            "orig(yDot[]) sorted by <",
+                                            "y[] >= orig(y[]) (elementwise)",
+                                            "interpolator.interpolatedState[] <= orig(interpolator.interpolatedState[]) (elementwise)",
+                                            "this.evaluations.maximalCount == 2147483647",
+                                            "interpolator.interpolatedPrimaryDerivatives[] one of { [0.0], [0.0, 0.0] }",
+                                            "size(interpolator.interpolatedPrimaryDerivatives[]) one of { 1, 2 }",
+                                            "this.expandable.time == 0.0",
+                                            "interpolator.interpolatedState[] sorted by >",
+                                            "this.expandable.primaryState[] sorted by <",
+                                            "y[] sorted by <",
+                                            "interpolator.interpolatedPrimaryState[] <= orig(interpolator.interpolatedPrimaryState[]) (lexically)",
+                                            "interpolator.interpolatedSecondaryState[] == []",
+                                            "orig(interpolator.interpolatedState[]) sorted by >",
+                                            "interpolator.interpolatedSecondaryDerivatives[] == []",
+                                            "orig(this.resetOccurred) == false",
+                                            "this.expandable.components[] == []",
+                                            "size(this.expandable.primaryState[]) one of { 1, 2 }",
+                                            "this.expandable.primaryStateDot[] >= orig(this.expandable.primaryStateDot[]) (lexically)",
+                                            "interpolator.interpolatedPrimaryState[] sorted by <",
+                                            "interpolator.secondaryMappers[].firstIndex == []",
+                                            "this.isLastStep == orig(this.isLastStep)",
+                                            "orig(tEnd) one of { 10.0, 15.0 }",
+                                            "this.expandable.primaryMapper.dimension one of { 1, 2 }",
+                                            "size(interpolator.currentState[]) one of { 1, 2 }",
+                                            "this.evaluations.count > orig(this.evaluations.count)",
+                                            "this.expandable.primaryStateDot[] > orig(this.expandable.primaryStateDot[]) (lexically)",
+                                            "this.expandable.primaryStateDot[] sorted by >",
+                                            "size(interpolator.interpolatedState[]) one of { 1, 2 }",
+                                            "interpolator.softCurrentTime < orig(interpolator.softCurrentTime)",
+                                            "interpolator.interpolatedDerivatives[] sorted by <",
+                                            "orig(interpolator.interpolatedPrimaryState[]) sorted by >",
+                                            "interpolator.secondaryMappers[] == []",
+                                            "orig(this.expandable.primaryStateDot[]) sorted by <",
+                                            "interpolator.secondaryMappers[].dimension == []",
+                                            "interpolator.interpolatedTime < orig(interpolator.interpolatedTime)",
+                                            "this.statesInitialized == orig(this.statesInitialized)",
+                                            "this.isLastStep == false",
+                                            "this.resetOccurred == true",
+                                            "orig(size(y[])) one of { 1, 2 }",
+                                            "size(interpolator.interpolatedPrimaryState[]) one of { 1, 2 }",
+                                            "orig(size(yDot[])) one of { 1, 2 }",
+                                            "interpolator.interpolatedPrimaryDerivatives[] elements == 0.0",
+                                            "yDot[] > orig(yDot[]) (lexically)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "372": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "y[] == orig(y[])",
+                                            "this.resetOccurred == false",
+                                            "interpolator.softCurrentTime == orig(interpolator.softCurrentTime)",
+                                            "yDot[] == orig(yDot[])"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "336": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(size(yDot[])) == 2",
+                                            "this.resetOccurred == orig(this.resetOccurred)",
+                                            "size(interpolator.interpolatedPrimaryDerivatives[]) == 2",
+                                            "interpolator.forward == true",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == orig(interpolator.interpolatedPrimaryDerivatives[])",
+                                            "this.expandable.primaryStateDot[] >= orig(this.expandable.primaryStateDot[]) (elementwise)",
+                                            "this.expandable.primaryMapper.dimension == 2",
+                                            "size(this.expandable.primaryState[]) == 2",
+                                            "interpolator.interpolatedPrimaryDerivatives[] elements == 0.0",
+                                            "interpolator.secondaryMappers[].getClass().getName() == []",
+                                            "this.expandable.components[].getClass().getName() == []",
+                                            "this.evaluations.maximalCount == 2147483647",
+                                            "interpolator.primaryMapper.dimension == 2",
+                                            "interpolator.interpolatedSecondaryState[] == []",
+                                            "size(interpolator.interpolatedPrimaryState[]) == 2",
+                                            "interpolator.interpolatedSecondaryDerivatives[] == []",
+                                            "orig(this.isLastStep) == false",
+                                            "this.expandable.components[] == []",
+                                            "this.isLastStep == true",
+                                            "this.expandable.primaryState[] <= orig(this.expandable.primaryState[]) (lexically)",
+                                            "interpolator.secondaryMappers[].firstIndex == []",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == [0.0, 0.0]",
+                                            "orig(tEnd) one of { 10.0, 15.0 }",
+                                            "size(interpolator.currentState[]) == 2",
+                                            "size(interpolator.interpolatedDerivatives[]) == 2",
+                                            "this.resetOccurred == false",
+                                            "interpolator.softCurrentTime < orig(interpolator.softCurrentTime)",
+                                            "interpolator.secondaryMappers[] == []",
+                                            "interpolator.secondaryMappers[].dimension == []",
+                                            "interpolator.interpolatedTime < orig(interpolator.interpolatedTime)",
+                                            "orig(size(y[])) == 2",
+                                            "this.statesInitialized == orig(this.statesInitialized)",
+                                            "size(interpolator.interpolatedState[]) == 2",
+                                            "yDot[] == orig(yDot[])",
+                                            "size(this.expandable.primaryStateDot[]) == 2"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": [
+                                            "orig(size(yDot[])) == 2",
+                                            "this.resetOccurred == orig(this.resetOccurred)",
+                                            "size(interpolator.interpolatedPrimaryDerivatives[]) == 2",
+                                            "interpolator.forward == true",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == orig(interpolator.interpolatedPrimaryDerivatives[])",
+                                            "this.expandable.primaryStateDot[] >= orig(this.expandable.primaryStateDot[]) (elementwise)",
+                                            "this.expandable.primaryMapper.dimension == 2",
+                                            "size(this.expandable.primaryState[]) == 2",
+                                            "interpolator.interpolatedPrimaryDerivatives[] elements == 0.0",
+                                            "interpolator.secondaryMappers[].getClass().getName() == []",
+                                            "this.expandable.components[].getClass().getName() == []",
+                                            "this.evaluations.maximalCount == 2147483647",
+                                            "interpolator.primaryMapper.dimension == 2",
+                                            "interpolator.interpolatedSecondaryState[] == []",
+                                            "size(interpolator.interpolatedPrimaryState[]) == 2",
+                                            "interpolator.interpolatedSecondaryDerivatives[] == []",
+                                            "orig(this.isLastStep) == false",
+                                            "this.expandable.components[] == []",
+                                            "this.isLastStep == true",
+                                            "this.expandable.primaryState[] <= orig(this.expandable.primaryState[]) (lexically)",
+                                            "interpolator.secondaryMappers[].firstIndex == []",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == [0.0, 0.0]",
+                                            "orig(tEnd) one of { 10.0, 15.0 }",
+                                            "size(interpolator.currentState[]) == 2",
+                                            "size(interpolator.interpolatedDerivatives[]) == 2",
+                                            "this.resetOccurred == false",
+                                            "interpolator.softCurrentTime < orig(interpolator.softCurrentTime)",
+                                            "interpolator.secondaryMappers[] == []",
+                                            "interpolator.secondaryMappers[].dimension == []",
+                                            "interpolator.interpolatedTime < orig(interpolator.interpolatedTime)",
+                                            "orig(size(y[])) == 2",
+                                            "this.statesInitialized == orig(this.statesInitialized)",
+                                            "size(interpolator.interpolatedState[]) == 2",
+                                            "yDot[] == orig(yDot[])",
+                                            "size(this.expandable.primaryStateDot[]) == 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "348": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "size(interpolator.interpolatedDerivatives[]) one of { 1, 2 }",
+                                            "interpolator.forward == true",
+                                            "yDot[] sorted by >",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == orig(interpolator.interpolatedPrimaryDerivatives[])",
+                                            "size(this.expandable.primaryStateDot[]) one of { 1, 2 }",
+                                            "interpolator.secondaryMappers[].getClass().getName() == []",
+                                            "this.expandable.components[].getClass().getName() == []",
+                                            "interpolator.primaryMapper.dimension one of { 1, 2 }",
+                                            "orig(yDot[]) sorted by <",
+                                            "y[] >= orig(y[]) (elementwise)",
+                                            "interpolator.interpolatedState[] <= orig(interpolator.interpolatedState[]) (elementwise)",
+                                            "this.evaluations.maximalCount == 2147483647",
+                                            "interpolator.interpolatedPrimaryDerivatives[] one of { [0.0], [0.0, 0.0] }",
+                                            "size(interpolator.interpolatedPrimaryDerivatives[]) one of { 1, 2 }",
+                                            "this.expandable.time == 0.0",
+                                            "interpolator.interpolatedState[] sorted by >",
+                                            "this.expandable.primaryState[] sorted by <",
+                                            "y[] sorted by <",
+                                            "interpolator.interpolatedPrimaryState[] <= orig(interpolator.interpolatedPrimaryState[]) (lexically)",
+                                            "interpolator.interpolatedSecondaryState[] == []",
+                                            "orig(interpolator.interpolatedState[]) sorted by >",
+                                            "interpolator.interpolatedSecondaryDerivatives[] == []",
+                                            "this.expandable.components[] == []",
+                                            "size(this.expandable.primaryState[]) one of { 1, 2 }",
+                                            "this.expandable.primaryStateDot[] >= orig(this.expandable.primaryStateDot[]) (lexically)",
+                                            "interpolator.interpolatedPrimaryState[] sorted by <",
+                                            "interpolator.secondaryMappers[].firstIndex == []",
+                                            "this.isLastStep == orig(this.isLastStep)",
+                                            "orig(tEnd) one of { 10.0, 15.0 }",
+                                            "this.expandable.primaryMapper.dimension one of { 1, 2 }",
+                                            "size(interpolator.currentState[]) one of { 1, 2 }",
+                                            "this.evaluations.count > orig(this.evaluations.count)",
+                                            "this.expandable.primaryStateDot[] > orig(this.expandable.primaryStateDot[]) (lexically)",
+                                            "this.expandable.primaryStateDot[] sorted by >",
+                                            "size(interpolator.interpolatedState[]) one of { 1, 2 }",
+                                            "interpolator.softCurrentTime < orig(interpolator.softCurrentTime)",
+                                            "interpolator.interpolatedDerivatives[] sorted by <",
+                                            "orig(interpolator.interpolatedPrimaryState[]) sorted by >",
+                                            "interpolator.secondaryMappers[] == []",
+                                            "orig(this.expandable.primaryStateDot[]) sorted by <",
+                                            "interpolator.secondaryMappers[].dimension == []",
+                                            "interpolator.interpolatedTime < orig(interpolator.interpolatedTime)",
+                                            "this.statesInitialized == orig(this.statesInitialized)",
+                                            "this.isLastStep == false",
+                                            "this.resetOccurred == true",
+                                            "orig(size(y[])) one of { 1, 2 }",
+                                            "size(interpolator.interpolatedPrimaryState[]) one of { 1, 2 }",
+                                            "orig(size(yDot[])) one of { 1, 2 }",
+                                            "interpolator.interpolatedPrimaryDerivatives[] elements == 0.0",
+                                            "yDot[] > orig(yDot[]) (lexically)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "377": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "y[] == orig(y[])",
+                                            "interpolator.softCurrentTime == orig(interpolator.softCurrentTime)",
+                                            "this.resetOccurred == orig(this.resetOccurred)",
+                                            "yDot[] == orig(yDot[])"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "345": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": [
+                                            "size(interpolator.interpolatedDerivatives[]) one of { 1, 2 }",
+                                            "interpolator.forward == true",
+                                            "yDot[] sorted by >",
+                                            "interpolator.interpolatedPrimaryDerivatives[] == orig(interpolator.interpolatedPrimaryDerivatives[])",
+                                            "size(this.expandable.primaryStateDot[]) one of { 1, 2 }",
+                                            "interpolator.secondaryMappers[].getClass().getName() == []",
+                                            "this.expandable.components[].getClass().getName() == []",
+                                            "interpolator.primaryMapper.dimension one of { 1, 2 }",
+                                            "orig(yDot[]) sorted by <",
+                                            "y[] >= orig(y[]) (elementwise)",
+                                            "interpolator.interpolatedState[] <= orig(interpolator.interpolatedState[]) (elementwise)",
+                                            "this.evaluations.maximalCount == 2147483647",
+                                            "interpolator.interpolatedPrimaryDerivatives[] one of { [0.0], [0.0, 0.0] }",
+                                            "size(interpolator.interpolatedPrimaryDerivatives[]) one of { 1, 2 }",
+                                            "this.expandable.time == 0.0",
+                                            "interpolator.interpolatedState[] sorted by >",
+                                            "this.expandable.primaryState[] sorted by <",
+                                            "y[] sorted by <",
+                                            "interpolator.interpolatedPrimaryState[] <= orig(interpolator.interpolatedPrimaryState[]) (lexically)",
+                                            "interpolator.interpolatedSecondaryState[] == []",
+                                            "orig(interpolator.interpolatedState[]) sorted by >",
+                                            "interpolator.interpolatedSecondaryDerivatives[] == []",
+                                            "orig(this.resetOccurred) == false",
+                                            "this.expandable.components[] == []",
+                                            "size(this.expandable.primaryState[]) one of { 1, 2 }",
+                                            "this.expandable.primaryStateDot[] >= orig(this.expandable.primaryStateDot[]) (lexically)",
+                                            "interpolator.interpolatedPrimaryState[] sorted by <",
+                                            "interpolator.secondaryMappers[].firstIndex == []",
+                                            "this.isLastStep == orig(this.isLastStep)",
+                                            "orig(tEnd) one of { 10.0, 15.0 }",
+                                            "this.expandable.primaryMapper.dimension one of { 1, 2 }",
+                                            "size(interpolator.currentState[]) one of { 1, 2 }",
+                                            "this.evaluations.count > orig(this.evaluations.count)",
+                                            "this.expandable.primaryStateDot[] > orig(this.expandable.primaryStateDot[]) (lexically)",
+                                            "this.expandable.primaryStateDot[] sorted by >",
+                                            "size(interpolator.interpolatedState[]) one of { 1, 2 }",
+                                            "interpolator.softCurrentTime < orig(interpolator.softCurrentTime)",
+                                            "interpolator.interpolatedDerivatives[] sorted by <",
+                                            "orig(interpolator.interpolatedPrimaryState[]) sorted by >",
+                                            "interpolator.secondaryMappers[] == []",
+                                            "orig(this.expandable.primaryStateDot[]) sorted by <",
+                                            "interpolator.secondaryMappers[].dimension == []",
+                                            "interpolator.interpolatedTime < orig(interpolator.interpolatedTime)",
+                                            "this.statesInitialized == orig(this.statesInitialized)",
+                                            "this.isLastStep == false",
+                                            "this.resetOccurred == true",
+                                            "orig(size(y[])) one of { 1, 2 }",
+                                            "size(interpolator.interpolatedPrimaryState[]) one of { 1, 2 }",
+                                            "orig(size(yDot[])) one of { 1, 2 }",
+                                            "interpolator.interpolatedPrimaryDerivatives[] elements == 0.0",
+                                            "yDot[] > orig(yDot[]) (lexically)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "374": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": [
+                                            "y[] == orig(y[])",
+                                            "this.resetOccurred == false",
+                                            "interpolator.softCurrentTime == orig(interpolator.softCurrentTime)",
+                                            "yDot[] == orig(yDot[])"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addEventHandler(org.apache.commons.math.ode.events.EventHandler, double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMaxEvaluations(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEvaluations()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addEventHandler(org.apache.commons.math.ode.events.EventHandler, double, double, int, org.apache.commons.math.analysis.solvers.UnivariateRealSolver)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

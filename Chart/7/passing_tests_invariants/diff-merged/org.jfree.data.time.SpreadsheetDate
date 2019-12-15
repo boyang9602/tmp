@@ -1,0 +1,132 @@
+{
+    "org.jfree.data.time.SpreadsheetDate": [
+        {
+            "SpreadsheetDate(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch8.inv.output": {
+                                "invs": [
+                                    "serial == 43810"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "serial == 43806"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch8.inv.output": {
+                                "invs": [
+                                    "this.serial == 43810",
+                                    "this.day == 11"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.day == 7",
+                                    "this.serial == 43806"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calcSerial(int, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch8.inv.output": {
+                                "invs": [
+                                    "this.serial one of { 0, 43810 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.serial one of { 0, 43806 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch8.inv.output": {
+                                "invs": [
+                                    "this.serial one of { 0, 43810 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.serial one of { 0, 43806 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "toSerial()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch8.inv.output": {
+                                "invs": [
+                                    "this.serial == 43809",
+                                    "this.day == 10"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.serial == 43805",
+                                    "this.day == 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch8.inv.output": {
+                                "invs": [
+                                    "this.day == 10",
+                                    "this.serial == 43809",
+                                    "return == 43809"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.serial == 43805",
+                                    "return == 43805",
+                                    "this.day == 6"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

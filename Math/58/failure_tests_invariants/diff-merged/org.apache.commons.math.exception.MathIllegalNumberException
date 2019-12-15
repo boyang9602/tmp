@@ -1,0 +1,98 @@
+{
+    "org.apache.commons.math.exception.MathIllegalNumberException": [
+        {
+            "MathIllegalNumberException(org.apache.commons.math.exception.util.Localizable, org.apache.commons.math.exception.util.Localizable, java.lang.Number, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "wrong has only one value",
+                                    "size(arguments[]) == 2",
+                                    "wrong != null",
+                                    "general has only one value",
+                                    "arguments != null",
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "arguments has only one value",
+                                    "general != null",
+                                    "arguments[] elements != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(arguments[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "wrong has only one value",
+                                    "size(arguments[]) one of { 1, 2 }",
+                                    "size(arguments[]) == 2",
+                                    "wrong != null",
+                                    "general has only one value",
+                                    "arguments != null",
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "arguments has only one value",
+                                    "general != null",
+                                    "arguments[] elements != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "wrong has only one value",
+                                    "size(arguments[]) == 2",
+                                    "wrong != null",
+                                    "general has only one value",
+                                    "arguments != null",
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "arguments has only one value",
+                                    "general != null",
+                                    "arguments[] elements != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "arguments[] elements != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "arguments[] elements != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "arguments[] contains no nulls and has only one value, of length 2",
+                                    "arguments[] elements != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

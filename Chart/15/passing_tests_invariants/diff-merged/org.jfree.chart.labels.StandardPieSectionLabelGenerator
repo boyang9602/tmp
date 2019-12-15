@@ -1,0 +1,83 @@
+{
+    "org.jfree.chart.labels.StandardPieSectionLabelGenerator": [
+        {
+            "generateSectionLabel(org.jfree.data.general.PieDataset, java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.percentFormat has only one value",
+                                    "this.numberFormat has only one value",
+                                    "dataset has only one value",
+                                    "this.attributedLabels.objects has only one value",
+                                    "this.attributedLabels has only one value",
+                                    "this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.attributedLabels.objects.getClass().getName() != dataset.getClass().getName()",
+                                    "this.numberFormat.getClass().getName() != key.getClass().getName()",
+                                    "this.attributedLabels.objects.getClass().getName() != key.getClass().getName()",
+                                    "this.numberFormat.getClass().getName() != dataset.getClass().getName()",
+                                    "dataset.getClass().getName() != key.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.percentFormat has only one value",
+                                    "this.numberFormat has only one value",
+                                    "dataset has only one value",
+                                    "this.attributedLabels.objects has only one value",
+                                    "this.attributedLabels has only one value",
+                                    "this has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "return.toString one of { \"Section 1\", \"Section 2\", \"Section 3\" }",
+                                    "this.percentFormat has only one value",
+                                    "this.attributedLabels.objects has only one value",
+                                    "this.attributedLabels has only one value",
+                                    "this.numberFormat has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.attributedLabels.objects.getClass().getName() != orig(key.getClass().getName())",
+                                    "this.numberFormat.getClass().getName() != orig(dataset.getClass().getName())",
+                                    "this.attributedLabels.objects.getClass().getName() != orig(dataset.getClass().getName())",
+                                    "this.numberFormat.getClass().getName() != orig(key.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "return.toString one of { \"Section 1\", \"Section 2\", \"Section 3\" }",
+                                    "this.percentFormat has only one value",
+                                    "this.attributedLabels.objects has only one value",
+                                    "this.attributedLabels has only one value",
+                                    "this.numberFormat has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

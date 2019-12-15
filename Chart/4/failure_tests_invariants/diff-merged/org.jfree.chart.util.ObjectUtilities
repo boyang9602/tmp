@@ -1,0 +1,353 @@
+{
+    "org.jfree.chart.util.ObjectUtilities": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.util.ObjectUtilities.classLoader == null",
+                            "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == \"ThreadContext\"",
+                            "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == \"ThreadContext\"",
+                            "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT has only one value",
+                            "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == org.jfree.chart.util.ObjectUtilities.classLoaderSource",
+                            "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == \"ClassContext\"",
+                            "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT has only one value"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.util.ObjectUtilities.classLoader == null",
+                            "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == \"ThreadContext\"",
+                            "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == \"ThreadContext\"",
+                            "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT has only one value",
+                            "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == org.jfree.chart.util.ObjectUtilities.classLoaderSource",
+                            "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == \"ClassContext\"",
+                            "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "isJDK14()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource)",
+                                    "return == true",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities has only one value",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoader == orig(org.jfree.chart.util.ObjectUtilities.classLoader)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource)",
+                                    "return == true",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities has only one value",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoader == orig(org.jfree.chart.util.ObjectUtilities.classLoader)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "443": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class$(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "x0.toString == \"org.jfree.chart.util.ObjectUtilities\"",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == null",
+                                    "x0 has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "x0.toString == \"org.jfree.chart.util.ObjectUtilities\"",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == null",
+                                    "x0 has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString)",
+                                    "x0.toString == orig(x0.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == orig(org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities)",
+                                    "x0.toString == \"org.jfree.chart.util.ObjectUtilities\"",
+                                    "return has only one value",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == null",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoader == orig(org.jfree.chart.util.ObjectUtilities.classLoader)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString)",
+                                    "x0.toString == orig(x0.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == orig(org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities)",
+                                    "x0.toString == \"org.jfree.chart.util.ObjectUtilities\"",
+                                    "return has only one value",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == null",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoader == orig(org.jfree.chart.util.ObjectUtilities.classLoader)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getClassLoader(java.lang.Class)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities has only one value",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == c"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities has only one value",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == c"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == orig(org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities)",
+                                    "return has only one value",
+                                    "return.getClass().getName() == sun.misc.Launcher$AppClassLoader.class",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities has only one value",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == orig(c)",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoader == orig(org.jfree.chart.util.ObjectUtilities.classLoader)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == orig(org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities)",
+                                    "return has only one value",
+                                    "return.getClass().getName() == sun.misc.Launcher$AppClassLoader.class",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities has only one value",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == orig(c)",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoader == orig(org.jfree.chart.util.ObjectUtilities.classLoader)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "262": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equal(java.lang.Object, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == null",
+                                    "o1.getClass().getName() == o2.getClass().getName()"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource)",
+                                    "return == true",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString == orig(org.jfree.chart.util.ObjectUtilities.classLoaderSource.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == orig(org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities)",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.class$org$jfree$chart$util$ObjectUtilities == null",
+                                    "org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT == orig(org.jfree.chart.util.ObjectUtilities.CLASS_CONTEXT)",
+                                    "org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString == orig(org.jfree.chart.util.ObjectUtilities.THREAD_CONTEXT.toString)",
+                                    "org.jfree.chart.util.ObjectUtilities.classLoader == orig(org.jfree.chart.util.ObjectUtilities.classLoader)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "126": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "129": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

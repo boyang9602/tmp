@@ -1,0 +1,1147 @@
+{
+    "org.jfree.chart.text.TextBox": [
+        {
+            "TextBox(org.jfree.chart.text.TextBlock)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "block.lineAlignment.name has only one value",
+                                    "block.lineAlignment has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT has only one value",
+                                    "block.lines.getClass().getName() == java.util.ArrayList.class",
+                                    "size(block.lines[]) == 1",
+                                    "block.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT has only one value",
+                                    "block.lines[].getClass().getName() elements == org.jfree.chart.text.TextLine.class",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER has only one value",
+                                    "block.lineAlignment.name.toString == \"HorizontalAlignment.CENTER\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(block.lines[]) one of { 1, 3 }",
+                                    "block.lineAlignment.name has only one value",
+                                    "block.lineAlignment has only one value",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT has only one value",
+                                    "block.lines.getClass().getName() == java.util.ArrayList.class",
+                                    "block.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT has only one value",
+                                    "block.lines[].getClass().getName() elements == org.jfree.chart.text.TextLine.class",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER has only one value",
+                                    "block.lineAlignment.name.toString == \"HorizontalAlignment.CENTER\""
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "block.lineAlignment.name has only one value",
+                                    "block.lineAlignment.name.toString == \"HorizontalAlignment.CENTER\"",
+                                    "block.lines.getClass().getName() == orig(block.lines.getClass().getName())",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "block.lineAlignment.name == orig(block.lineAlignment.name)",
+                                    "this.shadowPaint has only one value",
+                                    "block.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "this.interiorGap.right == 3.0",
+                                    "block.lineAlignment == orig(block.lineAlignment)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "block.lineAlignment.name.toString == orig(block.lineAlignment.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "block.lines == orig(block.lines)",
+                                    "block.lines.getClass().getName() == java.util.ArrayList.class",
+                                    "size(block.lines[]) == 1",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap.top == 1.0",
+                                    "block.lineAlignment has only one value",
+                                    "block.lines[] == orig(block.lines[])",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "block.lines[].getClass().getName() elements == org.jfree.chart.text.TextLine.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(block.lines[]) one of { 1, 3 }",
+                                    "block.lineAlignment.name has only one value",
+                                    "block.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "block.lineAlignment.name.toString == \"HorizontalAlignment.CENTER\"",
+                                    "block.lines.getClass().getName() == orig(block.lines.getClass().getName())",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "block.lineAlignment.name == orig(block.lineAlignment.name)",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.right == 3.0",
+                                    "block.lineAlignment == orig(block.lineAlignment)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "block.lineAlignment.name.toString == orig(block.lineAlignment.name.toString)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "block.lines == orig(block.lines)",
+                                    "block.lines.getClass().getName() == java.util.ArrayList.class",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap.top == 1.0",
+                                    "block.lineAlignment has only one value",
+                                    "block.lines[] == orig(block.lines[])",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "block.lines[].getClass().getName() elements == org.jfree.chart.text.TextLine.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getHeight(java.awt.Graphics2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.interiorGap.bottom == 2.0",
+                                    "g2 has only one value",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "this.backgroundPaint has only one value",
+                                    "this.outlineStroke has only one value",
+                                    "this.interiorGap.left == 2.0",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.right == 2.0",
+                                    "this.interiorGap.top == 2.0",
+                                    "this.interiorGap has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interiorGap.bottom == 2.0",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "this.backgroundPaint has only one value",
+                                    "this.outlineStroke has only one value",
+                                    "this.interiorGap.left == 2.0",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.right == 2.0",
+                                    "this.interiorGap.top == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.outlineStroke has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.interiorGap.bottom == 2.0",
+                                    "this.interiorGap.bottom == orig(this.interiorGap.bottom)",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "this.interiorGap.left == orig(this.interiorGap.left)",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "this.interiorGap.left == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "this.interiorGap.right == orig(this.interiorGap.right)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "this.interiorGap has only one value",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "this.interiorGap.top == orig(this.interiorGap.top)",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "return == 15.640625",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.interiorGap.right == 2.0",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "this.interiorGap == orig(this.interiorGap)",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.backgroundPaint has only one value",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "this.interiorGap.top == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.outlineStroke has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.interiorGap.bottom == 2.0",
+                                    "this.interiorGap.bottom == orig(this.interiorGap.bottom)",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "this.interiorGap.left == orig(this.interiorGap.left)",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "this.interiorGap.left == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "this.interiorGap.right == orig(this.interiorGap.right)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "return one of { 15.640625, 38.921875 }",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "this.interiorGap.top == orig(this.interiorGap.top)",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.interiorGap.right == 2.0",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "this.interiorGap == orig(this.interiorGap)",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.backgroundPaint has only one value",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "this.interiorGap.top == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, float, float, org.jfree.chart.util.RectangleAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name.toString == \"RectangleAnchor.TOP\"",
+                                    "this.outlineStroke has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name.toString == \"RectangleAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER has only one value",
+                                    "x one of { 64.99585, 135.00415 }",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name has only one value",
+                                    "this.interiorGap.bottom == 2.0",
+                                    "g2 has only one value",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "this.interiorGap.left == 2.0",
+                                    "y one of { 56.911568, 61.041557 }",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name.toString == \"RectangleAnchor.CENTER\"",
+                                    "this.interiorGap has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name.toString == \"RectangleAnchor.TOP_RIGHT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name.toString == \"RectangleAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT has only one value",
+                                    "this.interiorGap.right == 2.0",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name.toString == \"RectangleAnchor.TOP_LEFT\"",
+                                    "anchor.name.toString one of { \"RectangleAnchor.LEFT\", \"RectangleAnchor.RIGHT\" }",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name.toString == \"RectangleAnchor.RIGHT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name.toString == \"RectangleAnchor.BOTTOM\"",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name has only one value",
+                                    "this.backgroundPaint has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name.toString == \"RectangleAnchor.LEFT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name has only one value",
+                                    "this.interiorGap.top == 2.0",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name.toString == \"RectangleAnchor.TOP\"",
+                                    "this.outlineStroke has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name.toString == \"RectangleAnchor.BOTTOM_LEFT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name has only one value",
+                                    "this.interiorGap.bottom == 2.0",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "this.interiorGap.left == 2.0",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name.toString == \"RectangleAnchor.CENTER\"",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name.toString == \"RectangleAnchor.TOP_RIGHT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name.toString == \"RectangleAnchor.BOTTOM_RIGHT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT has only one value",
+                                    "this.interiorGap.right == 2.0",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name.toString == \"RectangleAnchor.TOP_LEFT\"",
+                                    "anchor.name.toString one of { \"RectangleAnchor.LEFT\", \"RectangleAnchor.RIGHT\" }",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name.toString == \"RectangleAnchor.RIGHT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name.toString == \"RectangleAnchor.BOTTOM\"",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name has only one value",
+                                    "this.backgroundPaint has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name.toString == \"RectangleAnchor.LEFT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name has only one value",
+                                    "this.interiorGap.top == 2.0",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name.toString == \"RectangleAnchor.TOP\"",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name.toString == orig(org.jfree.chart.util.RectangleAnchor.TOP.name.toString)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT)",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "this.interiorGap.left == 2.0",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name.toString == \"RectangleAnchor.CENTER\"",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM)",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name == orig(org.jfree.chart.util.RectangleAnchor.LEFT.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name.toString == \"RectangleAnchor.BOTTOM_RIGHT\"",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.interiorGap.right == 2.0",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name.toString == \"RectangleAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM.name)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT)",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name.toString == \"RectangleAnchor.LEFT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name has only one value",
+                                    "this.interiorGap.top == 2.0",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP == orig(org.jfree.chart.util.RectangleAnchor.TOP)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name)",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name == orig(org.jfree.chart.util.RectangleAnchor.TOP.name)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name.toString == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM.name.toString)",
+                                    "anchor.name.toString == orig(anchor.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name.toString == orig(org.jfree.chart.util.RectangleAnchor.CENTER.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT == orig(org.jfree.chart.util.RectangleAnchor.TOP_RIGHT)",
+                                    "this.interiorGap has only one value",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name.toString == \"RectangleAnchor.TOP_RIGHT\"",
+                                    "this.interiorGap.top == orig(this.interiorGap.top)",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.interiorGap == orig(this.interiorGap)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name.toString == \"RectangleAnchor.BOTTOM\"",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT == orig(org.jfree.chart.util.RectangleAnchor.TOP_LEFT)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT has only one value",
+                                    "this.outlineStroke has only one value",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name == orig(org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name)",
+                                    "this.interiorGap.bottom == orig(this.interiorGap.bottom)",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name == orig(org.jfree.chart.util.RectangleAnchor.CENTER.name)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP has only one value",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.LEFT.name.toString)",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name == orig(org.jfree.chart.util.RectangleAnchor.RIGHT.name)",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name.toString == \"RectangleAnchor.RIGHT\"",
+                                    "this.backgroundPaint has only one value",
+                                    "anchor.name == orig(anchor.name)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name.toString == \"RectangleAnchor.BOTTOM_LEFT\"",
+                                    "this.interiorGap.bottom == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.interiorGap.left == orig(this.interiorGap.left)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.interiorGap.right == orig(this.interiorGap.right)",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name has only one value",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT == orig(org.jfree.chart.util.RectangleAnchor.RIGHT)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name.toString)",
+                                    "anchor.name.toString one of { \"RectangleAnchor.LEFT\", \"RectangleAnchor.RIGHT\" }",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.RIGHT.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name == orig(org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name)",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER == orig(org.jfree.chart.util.RectangleAnchor.CENTER)",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT == orig(org.jfree.chart.util.RectangleAnchor.LEFT)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name.toString == \"RectangleAnchor.TOP\"",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name.toString == orig(org.jfree.chart.util.RectangleAnchor.TOP.name.toString)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT)",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "this.interiorGap.left == 2.0",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name.toString == \"RectangleAnchor.CENTER\"",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM)",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name == orig(org.jfree.chart.util.RectangleAnchor.LEFT.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name.toString == \"RectangleAnchor.BOTTOM_RIGHT\"",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.interiorGap.right == 2.0",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name.toString == \"RectangleAnchor.TOP_LEFT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM.name)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT)",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name.toString == \"RectangleAnchor.LEFT\"",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name has only one value",
+                                    "this.interiorGap.top == 2.0",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP == orig(org.jfree.chart.util.RectangleAnchor.TOP)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name)",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name == orig(org.jfree.chart.util.RectangleAnchor.TOP.name)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name.toString == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM.name.toString)",
+                                    "anchor.name.toString == orig(anchor.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name.toString == orig(org.jfree.chart.util.RectangleAnchor.CENTER.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT == orig(org.jfree.chart.util.RectangleAnchor.TOP_RIGHT)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name.toString == \"RectangleAnchor.TOP_RIGHT\"",
+                                    "this.interiorGap.top == orig(this.interiorGap.top)",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.interiorGap == orig(this.interiorGap)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name.toString == \"RectangleAnchor.BOTTOM\"",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT == orig(org.jfree.chart.util.RectangleAnchor.TOP_LEFT)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT has only one value",
+                                    "this.outlineStroke has only one value",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name == orig(org.jfree.chart.util.RectangleAnchor.TOP_LEFT.name)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name)",
+                                    "this.interiorGap.bottom == orig(this.interiorGap.bottom)",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER.name == orig(org.jfree.chart.util.RectangleAnchor.CENTER.name)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP has only one value",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.LEFT.name.toString)",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name == orig(org.jfree.chart.util.RectangleAnchor.RIGHT.name)",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name.toString == \"RectangleAnchor.RIGHT\"",
+                                    "this.backgroundPaint has only one value",
+                                    "anchor.name == orig(anchor.name)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name.toString == \"RectangleAnchor.BOTTOM_LEFT\"",
+                                    "this.interiorGap.bottom == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.interiorGap.left == orig(this.interiorGap.left)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "this.interiorGap.right == orig(this.interiorGap.right)",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name has only one value",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT == orig(org.jfree.chart.util.RectangleAnchor.RIGHT)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_RIGHT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT.name has only one value",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.BOTTOM_LEFT.name.toString)",
+                                    "anchor.name.toString one of { \"RectangleAnchor.LEFT\", \"RectangleAnchor.RIGHT\" }",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleAnchor.RIGHT.name.toString == orig(org.jfree.chart.util.RectangleAnchor.RIGHT.name.toString)",
+                                    "org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name == orig(org.jfree.chart.util.RectangleAnchor.TOP_RIGHT.name)",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "org.jfree.chart.util.RectangleAnchor.CENTER == orig(org.jfree.chart.util.RectangleAnchor.CENTER)",
+                                    "org.jfree.chart.util.RectangleAnchor.LEFT == orig(org.jfree.chart.util.RectangleAnchor.LEFT)",
+                                    "org.jfree.chart.util.RectangleAnchor.BOTTOM.name has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setInteriorGap(org.jfree.chart.util.RectangleInsets)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "gap.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                                    "gap.bottom == 2.0",
+                                    "this.interiorGap.top == 1.0",
+                                    "gap.right == 2.0",
+                                    "this.backgroundPaint has only one value",
+                                    "this.outlineStroke has only one value",
+                                    "gap.top == 2.0",
+                                    "gap.unitType has only one value",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "gap.unitType.name has only one value",
+                                    "gap.left == 2.0",
+                                    "gap has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "gap.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                                    "gap.bottom == 2.0",
+                                    "this.interiorGap.top == 1.0",
+                                    "gap.right == 2.0",
+                                    "this.backgroundPaint has only one value",
+                                    "this.outlineStroke has only one value",
+                                    "gap.top == 2.0",
+                                    "gap.unitType has only one value",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "gap.unitType.name has only one value",
+                                    "gap.left == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "gap.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                                    "this.outlineStroke has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "gap.right == orig(gap.right)",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "gap.left == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.interiorGap.bottom == 2.0",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "gap.unitType == orig(gap.unitType)",
+                                    "this.interiorGap.left == 2.0",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "gap.unitType has only one value",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "gap.unitType.name.toString == orig(gap.unitType.name.toString)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "this.interiorGap has only one value",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "gap.bottom == 2.0",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "gap.right == 2.0",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "gap.top == 2.0",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.interiorGap.right == 2.0",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "gap.unitType.name has only one value",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "gap.left == orig(gap.left)",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.backgroundPaint has only one value",
+                                    "gap.bottom == orig(gap.bottom)",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "this.interiorGap.top == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)",
+                                    "gap.top == orig(gap.top)",
+                                    "gap.unitType.name == orig(gap.unitType.name)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "gap.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                                    "this.outlineStroke has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "gap.right == orig(gap.right)",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "gap.left == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.interiorGap.bottom == 2.0",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "gap.unitType == orig(gap.unitType)",
+                                    "this.interiorGap.left == 2.0",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "gap.unitType has only one value",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "gap.unitType.name.toString == orig(gap.unitType.name.toString)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "gap.bottom == 2.0",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "gap.right == 2.0",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "gap.top == 2.0",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.interiorGap.right == 2.0",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "gap.unitType.name has only one value",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "gap.left == orig(gap.left)",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.backgroundPaint has only one value",
+                                    "gap.bottom == orig(gap.bottom)",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "this.interiorGap.top == 2.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)",
+                                    "gap.top == orig(gap.top)",
+                                    "gap.unitType.name == orig(gap.unitType.name)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CLASS": [
+                {
+                    "Patch12.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch12.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.textBlock.lines != null",
+                            "this.interiorGap.right one of { 2.0, 3.0 }",
+                            "this.interiorGap.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                            "this.interiorGap.unitType.name != null",
+                            "this.interiorGap.top one of { 1.0, 2.0 }",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType has only one value",
+                            "this.interiorGap != null",
+                            "this.outlinePaint != null",
+                            "this.backgroundPaint != null",
+                            "this.shadowPaint.getClass().getName() == java.awt.Color.class",
+                            "this.textBlock.lines[].getClass().getName() elements == org.jfree.chart.text.TextLine.class",
+                            "this.textBlock.lines.getClass().getName() == java.util.ArrayList.class",
+                            "this.textBlock.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                            "this.textBlock.lineAlignment != null",
+                            "this.outlineStroke.getClass().getName() == java.awt.BasicStroke.class",
+                            "this.outlinePaint has only one value",
+                            "this.backgroundPaint.getClass().getName() == java.awt.Color.class",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == 0.0",
+                            "this.shadowPaint != null",
+                            "this.textBlock.lineAlignment has only one value",
+                            "this.textBlock.lineAlignment.name has only one value",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT has only one value",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER has only one value",
+                            "this.interiorGap.left one of { 2.0, 3.0 }",
+                            "this.interiorGap.unitType.name has only one value",
+                            "this.shadowYOffset == 2.0",
+                            "this.textBlock.lineAlignment.name.toString == \"HorizontalAlignment.CENTER\"",
+                            "this.textBlock.lines[] elements != null",
+                            "this.textBlock.lineAlignment.name != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == 0.0",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS != null",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == 0.0",
+                            "org.jfree.chart.util.UnitType.RELATIVE has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType != null",
+                            "this.outlineStroke != null",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT != null",
+                            "this.interiorGap.bottom one of { 1.0, 2.0 }",
+                            "org.jfree.chart.util.UnitType.ABSOLUTE has only one value",
+                            "this.interiorGap.unitType has only one value",
+                            "this.interiorGap.unitType != null",
+                            "this.outlinePaint.getClass().getName() == java.awt.Color.class",
+                            "size(this.textBlock.lines[]) one of { 1, 3 }",
+                            "org.jfree.chart.util.UnitType.ABSOLUTE != null",
+                            "this.textBlock != null",
+                            "this.shadowXOffset == 2.0",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == 0.0",
+                            "org.jfree.chart.util.UnitType.RELATIVE != null",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "setOutlinePaint(java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "paint.getClass().getName() == java.awt.Color.class",
+                                    "this.interiorGap.top == 1.0",
+                                    "this.backgroundPaint has only one value",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "paint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.interiorGap.bottom == orig(this.interiorGap.bottom)",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "this.interiorGap.left == orig(this.interiorGap.left)",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "this.interiorGap.right == orig(this.interiorGap.right)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "this.interiorGap.top == orig(this.interiorGap.top)",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "this.interiorGap == orig(this.interiorGap)",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "this.interiorGap.top == 1.0",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.backgroundPaint has only one value",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setOutlineStroke(java.awt.Stroke)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interiorGap.top == 1.0",
+                                    "stroke has only one value",
+                                    "this.backgroundPaint has only one value",
+                                    "stroke.getClass().getName() == java.awt.BasicStroke.class",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.interiorGap.bottom == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.outlineStroke has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.interiorGap.bottom == orig(this.interiorGap.bottom)",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "this.interiorGap.left == orig(this.interiorGap.left)",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "this.interiorGap.right == orig(this.interiorGap.right)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "this.interiorGap.top == orig(this.interiorGap.top)",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "this.interiorGap == orig(this.interiorGap)",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "this.interiorGap.top == 1.0",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.backgroundPaint has only one value",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setShadowPaint(java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "paint.getClass().getName() == java.awt.Color.class",
+                                    "this.interiorGap.top == 1.0",
+                                    "this.backgroundPaint has only one value",
+                                    "this.outlineStroke has only one value",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "paint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.outlineStroke has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.interiorGap.bottom == orig(this.interiorGap.bottom)",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "this.interiorGap.left == orig(this.interiorGap.left)",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "this.interiorGap.right == orig(this.interiorGap.right)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "this.interiorGap.top == orig(this.interiorGap.top)",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.backgroundPaint == orig(this.backgroundPaint)",
+                                    "this.interiorGap == orig(this.interiorGap)",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "this.interiorGap.top == 1.0",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.backgroundPaint has only one value",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setBackgroundPaint(java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "paint.getClass().getName() == java.awt.Color.class",
+                                    "this.interiorGap.top == 1.0",
+                                    "this.shadowPaint has only one value",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "paint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.textBlock.lines[] == orig(this.textBlock.lines[])",
+                                    "this.backgroundPaint.getClass().getName() == orig(this.backgroundPaint.getClass().getName())",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.interiorGap.bottom == orig(this.interiorGap.bottom)",
+                                    "this.interiorGap.unitType.name == orig(this.interiorGap.unitType.name)",
+                                    "this.interiorGap.left == orig(this.interiorGap.left)",
+                                    "this.interiorGap.unitType.name.toString == orig(this.interiorGap.unitType.name.toString)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.textBlock == orig(this.textBlock)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.shadowPaint == orig(this.shadowPaint)",
+                                    "this.shadowPaint has only one value",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.outlineStroke == orig(this.outlineStroke)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.interiorGap.right == 3.0",
+                                    "this.shadowXOffset == orig(this.shadowXOffset)",
+                                    "this.interiorGap.right == orig(this.interiorGap.right)",
+                                    "this.outlinePaint == orig(this.outlinePaint)",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.textBlock.lines.getClass().getName() == orig(this.textBlock.lines.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name.toString == orig(this.textBlock.lineAlignment.name.toString)",
+                                    "this.interiorGap.unitType == orig(this.interiorGap.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "this.interiorGap.top == orig(this.interiorGap.top)",
+                                    "this.textBlock.lines == orig(this.textBlock.lines)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.outlineStroke.getClass().getName() == orig(this.outlineStroke.getClass().getName())",
+                                    "this.textBlock.lineAlignment.name == orig(this.textBlock.lineAlignment.name)",
+                                    "this.interiorGap.left == 3.0",
+                                    "this.interiorGap == orig(this.interiorGap)",
+                                    "this.shadowYOffset == orig(this.shadowYOffset)",
+                                    "this.shadowPaint.getClass().getName() == orig(this.shadowPaint.getClass().getName())",
+                                    "this.interiorGap.top == 1.0",
+                                    "this.outlinePaint.getClass().getName() == orig(this.outlinePaint.getClass().getName())",
+                                    "this.backgroundPaint has only one value",
+                                    "this.textBlock.lineAlignment == orig(this.textBlock.lineAlignment)",
+                                    "this.interiorGap.bottom == 1.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

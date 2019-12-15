@@ -1,0 +1,104 @@
+{
+    "org.jfree.chart.renderer.xy.XYLineAndShapeRenderer$State": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.workingLine.getClass().getName() == java.awt.geom.Line2D$Double.class",
+                            "this.crosshairState == null",
+                            "this.lastPointGood == false",
+                            "this.processVisibleItemsOnly == true",
+                            "this.lastItemIndex one of { 0, 2 }",
+                            "this.selectionState == null",
+                            "this.firstItemIndex == 0",
+                            "this.info == null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "startSeriesPass(org.jfree.data.xy.XYDataset, int, int, int, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "passCount == 2",
+                                    "series == 0",
+                                    "dataset.getClass().getName() == org.jfree.data.xy.XYSeriesCollection.class",
+                                    "firstItem == 0",
+                                    "pass one of { 0, 1 }",
+                                    "lastItem == 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.processVisibleItemsOnly == orig(this.processVisibleItemsOnly)",
+                                    "this.lastItemIndex == 2",
+                                    "this.selectionState == orig(this.selectionState)",
+                                    "this.crosshairState == orig(this.crosshairState)",
+                                    "this.seriesPath == orig(this.seriesPath)",
+                                    "this.lastPointGood == orig(this.lastPointGood)",
+                                    "this.info == orig(this.info)",
+                                    "this.workingLine.getClass().getName() == orig(this.workingLine.getClass().getName())",
+                                    "this.workingLine == orig(this.workingLine)",
+                                    "this.firstItemIndex == orig(this.firstItemIndex)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "State(org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "info == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.seriesPath == null",
+                                    "this.lastItemIndex == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

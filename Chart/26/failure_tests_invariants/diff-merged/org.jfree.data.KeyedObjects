@@ -1,0 +1,45 @@
+{
+    "org.jfree.data.KeyedObjects": [
+        {
+            "getIndex(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.KeyedObject] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { -1, 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == -1",
+                                    "size(this.data[]) one of { 0, 1 }",
+                                    "this.data[].getClass().getName() one of { [], [org.jfree.data.KeyedObject] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

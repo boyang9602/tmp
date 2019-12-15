@@ -1,0 +1,140 @@
+{
+    "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset": [
+        {
+            "getRangeBounds(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rangeBounds.lower one of { 7.0, 7.5, 8.5 }",
+                                    "this.minimumRangeValue one of { 7.0, 7.5, 8.5 }",
+                                    "this.minimumRangeValueRow one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rangeBounds.lower one of { 7.0, 7.5, 8.6 }",
+                                    "this.minimumRangeValue one of { 7.0, 7.5, 8.6 }",
+                                    "this.minimumRangeValueRow == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rangeBounds.lower one of { 7.0, 7.5, 8.5 }",
+                                    "this.minimumRangeValue one of { 7.0, 7.5, 8.5 }",
+                                    "this.minimumRangeValueRow one of { 0, 1 }",
+                                    "return.lower one of { 7.0, 7.5, 8.5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rangeBounds.lower one of { 7.0, 7.5, 8.6 }",
+                                    "return.lower one of { 7.0, 7.5, 8.6 }",
+                                    "this.minimumRangeValue one of { 7.0, 7.5, 8.6 }",
+                                    "this.minimumRangeValueRow == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "updateBounds()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minimumRangeValue one of { 7.5, 8.5 }",
+                                    "this.maximumRangeValueRow == 0",
+                                    "this.minimumRangeValueRow one of { 0, 1 }",
+                                    "this.maximumRangeValue one of { 8.5, 9.6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.maximumRangeValueRow == orig(this.maximumRangeValueRow)",
+                                    "this.minimumRangeValue == Double.NaN",
+                                    "this.minimumRangeValueRow == 0",
+                                    "this.maximumRangeValueRow one of { 0, 1 }",
+                                    "this.minimumRangeValueRow == orig(this.minimumRangeValueRow)",
+                                    "this.maximumRangeValue == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(org.jfree.data.statistics.BoxAndWhiskerItem, java.lang.Comparable, java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minimumRangeValueRow one of { -1, 0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rangeBounds.lower one of { 7.0, 7.5, 8.5 }",
+                                    "this.minimumRangeValue one of { 7.0, 7.5, 8.5 }",
+                                    "this.minimumRangeValueRow one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rangeBounds.lower one of { 7.0, 7.5, 8.6 }",
+                                    "this.minimumRangeValue one of { 7.0, 7.5, 8.6 }",
+                                    "this.minimumRangeValueRow == 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "org.jfree.chart.renderer.RendererState": [
+        {
+            "OBJECT": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.info.subplotInfo[].getClass().getName() == []",
+                            "this has only one value",
+                            "this.info.owner == null",
+                            "this.info has only one value",
+                            "this.info.subplotInfo has only one value",
+                            "this.info.plotArea has only one value",
+                            "this.info.dataArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                            "this.info.subplotInfo.getClass().getName() == java.util.ArrayList.class",
+                            "this.info.dataArea has only one value",
+                            "this.info.subplotInfo[] == []",
+                            "this.info.plotArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "RendererState(org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "info.plotArea has only one value",
+                                    "info has only one value",
+                                    "info.dataArea has only one value",
+                                    "info.subplotInfo[].getClass().getName() == []",
+                                    "info.subplotInfo.getClass().getName() == java.util.ArrayList.class",
+                                    "info.owner == null",
+                                    "info.dataArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "info.subplotInfo has only one value",
+                                    "info.subplotInfo[] == []",
+                                    "info.plotArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "info.subplotInfo == orig(info.subplotInfo)",
+                                    "info.plotArea has only one value",
+                                    "info.dataArea has only one value",
+                                    "info.owner == orig(info.owner)",
+                                    "info.plotArea.getClass().getName() == orig(info.plotArea.getClass().getName())",
+                                    "info.subplotInfo.getClass().getName() == java.util.ArrayList.class",
+                                    "info.subplotInfo[].getClass().getName() == []",
+                                    "info.owner == null",
+                                    "info.plotArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "info.dataArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "info.subplotInfo.getClass().getName() == orig(info.subplotInfo.getClass().getName())",
+                                    "info.plotArea == orig(info.plotArea)",
+                                    "info.dataArea == orig(info.dataArea)",
+                                    "info.subplotInfo has only one value",
+                                    "info.subplotInfo[] == orig(info.subplotInfo[])",
+                                    "info.subplotInfo[] == []",
+                                    "info.dataArea.getClass().getName() == orig(info.dataArea.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEntityCollection()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.info.plotArea == orig(this.info.plotArea)",
+                                    "this.info.plotArea.getClass().getName() == orig(this.info.plotArea.getClass().getName())",
+                                    "this.info == orig(this.info)",
+                                    "this.info.owner == orig(this.info.owner)",
+                                    "this.info.dataArea == orig(this.info.dataArea)",
+                                    "this.info.subplotInfo.getClass().getName() == orig(this.info.subplotInfo.getClass().getName())",
+                                    "this.info.subplotInfo[] == orig(this.info.subplotInfo[])",
+                                    "this.info.subplotInfo == orig(this.info.subplotInfo)",
+                                    "return == null",
+                                    "this.info.dataArea.getClass().getName() == orig(this.info.dataArea.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

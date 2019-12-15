@@ -1,0 +1,148 @@
+{
+    "org.jfree.chart.block.BlockParams": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "this.translateX == 0.0",
+                            "this.translateY == 0.0",
+                            "this.generateEntities == false"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.translateX == 0.0",
+                            "this.translateY == 0.0",
+                            "this.generateEntities == false"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "setGenerateEntities(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "generate == false"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "generate == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.generateEntities == orig(this.generateEntities)",
+                                    "this.translateY == orig(this.translateY)",
+                                    "this.translateX == orig(this.translateX)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.generateEntities == orig(this.generateEntities)",
+                                    "this.translateY == orig(this.translateY)",
+                                    "this.translateX == orig(this.translateX)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "BlockParams()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getGenerateEntities()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.generateEntities == orig(this.generateEntities)",
+                                    "this.translateY == orig(this.translateY)",
+                                    "return == false",
+                                    "this.translateX == orig(this.translateX)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.generateEntities == orig(this.generateEntities)",
+                                    "this.translateY == orig(this.translateY)",
+                                    "return == false",
+                                    "this.translateX == orig(this.translateX)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

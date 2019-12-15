@@ -1,0 +1,407 @@
+{
+    "org.jfree.chart.axis.AxisState": [
+        {
+            "OBJECT": [
+                {
+                    "Patch93.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.ticks[] elements != null",
+                            "this.max >= 0.0",
+                            "this.ticks != null",
+                            "this.cursor >= 0.0",
+                            "this.ticks.getClass().getName() == java.util.ArrayList.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch18.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "AxisState(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "cursor >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.max == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setTicks(java.util.List)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "ticks[] elements != null",
+                                    "ticks != null",
+                                    "ticks.getClass().getName() == java.util.ArrayList.class",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.max one of { 0.0, 15.640625 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "ticks[] elements != null",
+                                    "ticks != null",
+                                    "ticks.getClass().getName() == java.util.ArrayList.class",
+                                    "this.ticks[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "ticks[] elements != null",
+                                    "this.max == orig(this.max)",
+                                    "this.cursor == orig(this.cursor)",
+                                    "size(this.ticks[])-1 >= orig(size(this.ticks[]))-1",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "this.max one of { 0.0, 15.640625 }",
+                                    "size(this.ticks[]) >= orig(size(this.ticks[]))",
+                                    "ticks[] == orig(ticks[])"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "ticks[] elements != null",
+                                    "this.max == orig(this.max)",
+                                    "this.cursor == orig(this.cursor)",
+                                    "size(this.ticks[])-1 >= orig(size(this.ticks[]))-1",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "size(this.ticks[]) >= orig(size(this.ticks[]))",
+                                    "ticks[] == orig(ticks[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMax()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() elements == org.jfree.chart.axis.CategoryTick.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "return >= 0.0",
+                                    "this.max == orig(this.max)",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "this.ticks[].getClass().getName() elements == org.jfree.chart.axis.CategoryTick.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getCursor()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.max one of { 0.0, 15.640625 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.cursor >= 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "this.max == orig(this.max)",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "this.max one of { 0.0, 15.640625 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "return >= 2.0",
+                                    "this.max == orig(this.max)",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "this.cursor >= 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMax(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "max >= 0.0",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.max == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "this.max >= orig(this.max)",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cursorDown(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() elements == org.jfree.chart.axis.CategoryTick.class",
+                                    "units one of { 4.0, 19.640625, 19.96875 }",
+                                    "this.max one of { 0.0, 15.640625 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "this.cursor > orig(this.cursor)",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "this.max one of { 0.0, 15.640625 }",
+                                    "this.ticks[].getClass().getName() elements == org.jfree.chart.axis.CategoryTick.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cursorUp(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.max == 0.0",
+                                    "units one of { 15.640625, 19.96875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "this.max == orig(this.max)",
+                                    "this.max == 0.0",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "this.cursor < orig(this.cursor)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AxisState()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.cursor == 0.0",
+                                    "this.max == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "org.jfree.chart.util.RectangleAnchor": [
+        {
+            "coordinates(java.awt.geom.Rectangle2D, org.jfree.chart.util.RectangleAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "anchor has only one value",
+                                    "anchor.name.toString == \"RectangleAnchor.CENTER\"",
+                                    "anchor.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"RectangleAnchor.CENTER\", \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString == \"RectangleAnchor.CENTER\"",
+                                    "anchor.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"RectangleAnchor.CENTER\", \"RectangleAnchor.RIGHT\", \"RectangleAnchor.TOP\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

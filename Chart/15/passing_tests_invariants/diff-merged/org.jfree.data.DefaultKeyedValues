@@ -1,0 +1,379 @@
+{
+    "org.jfree.data.DefaultKeyedValues": [
+        {
+            "addValue(java.lang.Comparable, java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.keys[] == []",
+                                    "this.keys[].getClass().getName() == []",
+                                    "this.values[].getClass().getName() == []",
+                                    "this.values[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.values[].getClass().getName() elements == java.lang.Double.class",
+                                    "size(this.keys[]) one of { 0, 1 }",
+                                    "this.keys[] elements has only one value",
+                                    "this.values[].getClass().getName() one of { [], [java.lang.Double] }",
+                                    "this.keys[].getClass().getName() one of { [], [java.lang.String] }",
+                                    "size(this.values[]) one of { 0, 1 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.values[].getClass().getName() == [java.lang.Double]",
+                                    "size(this.keys[]) == 1",
+                                    "this.keys[].getClass().getName() == [java.lang.String]",
+                                    "size(this.values[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.keys[]) one of { 1, 2 }",
+                                    "this.keys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String] }",
+                                    "this.values[].getClass().getName() one of { [java.lang.Double], [java.lang.Double, java.lang.Double] }",
+                                    "size(this.values[]) one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setValue(java.lang.Comparable, java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.values[] elements != null",
+                                    "key != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getKey(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(this.keys[]) one of { 1, 2 }",
+                                    "this.keys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String] }",
+                                    "this.values[].getClass().getName() one of { [java.lang.Double], [java.lang.Double, java.lang.Double] }",
+                                    "this.values[].getClass().getName() elements == java.lang.Double.class",
+                                    "size(this.values[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.values[]) one of { 1, 2, 3 }",
+                                    "size(this.keys[]) one of { 1, 2, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(this.keys[]) one of { 1, 2 }",
+                                    "this.keys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String] }",
+                                    "this.values[].getClass().getName() one of { [java.lang.Double], [java.lang.Double, java.lang.Double] }",
+                                    "this.values[].getClass().getName() elements == java.lang.Double.class",
+                                    "size(this.values[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.values[]) one of { 1, 2, 3 }",
+                                    "return != null",
+                                    "size(this.keys[]) one of { 1, 2, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getIndex(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == -1)  ==>  (this.values[] elements != null)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "155": [
+                                {
+                                    "Patch13.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.values[] elements != null"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "157": [
+                                {
+                                    "Patch13.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch12.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getItemCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(this.keys[]) one of { 1, 2 }",
+                                    "this.keys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String] }",
+                                    "this.values[].getClass().getName() one of { [java.lang.Double], [java.lang.Double, java.lang.Double] }",
+                                    "this.values[].getClass().getName() elements == java.lang.Double.class",
+                                    "this.values[] elements != null",
+                                    "size(this.values[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.values[]) one of { 1, 2, 3 }",
+                                    "size(this.keys[]) one of { 1, 2, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(this.keys[]) one of { 1, 2 }",
+                                    "this.keys[].getClass().getName() one of { [java.lang.String], [java.lang.String, java.lang.String] }",
+                                    "this.values[].getClass().getName() one of { [java.lang.Double], [java.lang.Double, java.lang.Double] }",
+                                    "this.values[].getClass().getName() elements == java.lang.Double.class",
+                                    "return one of { 1, 2 }",
+                                    "this.values[] elements != null",
+                                    "size(this.values[]) one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.values[]) one of { 1, 2, 3 }",
+                                    "return one of { 1, 2, 3 }",
+                                    "size(this.keys[]) one of { 1, 2, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getValue(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.values[].getClass().getName() one of { [java.lang.Double, java.lang.Double], [java.lang.Double, java.lang.Double, null] }",
+                                    "size(this.values[]) one of { 2, 3 }",
+                                    "this.keys[].getClass().getName() one of { [java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.keys[]) one of { 2, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.keys[]) one of { 1, 2, 3 }",
+                                    "size(this.values[]) one of { 1, 2, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.values[].getClass().getName() one of { [java.lang.Double, java.lang.Double], [java.lang.Double, java.lang.Double, null] }",
+                                    "size(this.values[]) one of { 2, 3 }",
+                                    "this.keys[].getClass().getName() one of { [java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.keys[]) one of { 2, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.keys[]) one of { 1, 2, 3 }",
+                                    "size(this.values[]) one of { 1, 2, 3 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getKeys()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return[] elements != null",
+                                    "return != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

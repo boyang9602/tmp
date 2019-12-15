@@ -1,0 +1,75 @@
+{
+    "org.jfree.chart.plot.PlotOrientation": [
+        {
+            "CLASS": [
+                {
+                    "Patch13.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch12.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch13.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"PlotOrientation.HORIZONTAL\", \"PlotOrientation.VERTICAL\" }"
+                        ]
+                    }
+                },
+                {
+                    "Patch12.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "PlotOrientation(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"PlotOrientation.HORIZONTAL\", \"PlotOrientation.VERTICAL\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "name.toString == orig(name.toString)",
+                                    "name.toString one of { \"PlotOrientation.HORIZONTAL\", \"PlotOrientation.VERTICAL\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

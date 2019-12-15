@@ -1,0 +1,659 @@
+{
+    "org.jfree.chart.text.TextUtilities": [
+        {
+            "drawRotatedString(java.lang.String, java.awt.Graphics2D, float, float, org.jfree.chart.text.TextAnchor, double, org.jfree.chart.text.TextAnchor)": [
+                {
+                    "EXITNN": [
+                        {
+                            "554": [
+                                {
+                                    "Patch93.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }",
+                                    "angle one of { -1.5707963267948966, 0.0 }",
+                                    "rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\" }",
+                                    "angle == 0.0",
+                                    "textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }",
+                                    "rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rotationAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\" }",
+                                    "textAnchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawRotatedString(java.lang.String, java.awt.Graphics2D, float, float, double, float, float)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "rotateX == 0.0",
+                                    "textX != 0",
+                                    "angle one of { -1.5707963267948966, 0.0 }",
+                                    "rotateY == 0.0",
+                                    "angle == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rotateX >= 0.0",
+                                    "rotateY >= 0.0",
+                                    "angle == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "rotateX >= 0.0",
+                                    "rotateX == 0.0",
+                                    "textX != 0",
+                                    "rotateY >= 0.0",
+                                    "angle one of { -1.5707963267948966, 0.0 }",
+                                    "rotateY == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "rotateX == 0.0",
+                                    "textX != 0",
+                                    "angle one of { -1.5707963267948966, 0.0 }",
+                                    "rotateY == 0.0",
+                                    "angle == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "501": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deriveTextBoundsAnchorOffsets(java.awt.Graphics2D, java.lang.String, org.jfree.chart.text.TextAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "anchor has only one value",
+                                    "anchor.name.toString == \"TextAnchor.BASELINE_LEFT\"",
+                                    "anchor.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextAnchor.BASELINE_LEFT\", \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor has only one value",
+                                    "anchor.name.toString == \"TextAnchor.BASELINE_LEFT\"",
+                                    "anchor.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "anchor has only one value",
+                                    "anchor.name.toString == \"TextAnchor.BASELINE_LEFT\"",
+                                    "anchor.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "return[] elements == 0.0",
+                                    "anchor.name.toString == \"TextAnchor.BASELINE_LEFT\"",
+                                    "anchor.name has only one value",
+                                    "return[] == [0.0, 0.0]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return[] sorted by <=",
+                                    "anchor.name.toString one of { \"TextAnchor.BASELINE_LEFT\", \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return[] elements == 0.0",
+                                    "anchor.name.toString == \"TextAnchor.BASELINE_LEFT\"",
+                                    "return[] sorted by <=",
+                                    "anchor.name has only one value",
+                                    "return[] == [0.0, 0.0]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "return[] elements == 0.0",
+                                    "anchor.name.toString == \"TextAnchor.BASELINE_LEFT\"",
+                                    "anchor.name has only one value",
+                                    "return[] == [0.0, 0.0]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nextLineBreak(java.lang.String, int, float, java.text.BreakIterator, org.jfree.chart.text.TextMeasurer)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "width one of { 198.0, 298.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "width one of { 198.0, 298.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "width one of { 198.0, 298.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "return one of { -1, 18 }",
+                                    "return != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= -1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { -1, 18 }",
+                                    "return >= -1",
+                                    "return != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "return one of { -1, 18 }",
+                                    "return != 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "266": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": [
+                                            "orig(iterator) has only one value",
+                                            "return == 18",
+                                            "text.toString == \"Stacked Bar Chart 3D\"",
+                                            "orig(measurer) has only one value",
+                                            "orig(width) == 198.0",
+                                            "orig(text) has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(width) one of { 85.200005, 198.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(iterator) has only one value",
+                                            "return == 18",
+                                            "text.toString == \"Stacked Bar Chart 3D\"",
+                                            "orig(measurer) has only one value",
+                                            "orig(width) == 198.0",
+                                            "orig(width) one of { 85.200005, 198.0 }",
+                                            "orig(text) has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": [
+                                            "orig(iterator) has only one value",
+                                            "return == 18",
+                                            "text.toString == \"Stacked Bar Chart 3D\"",
+                                            "orig(measurer) has only one value",
+                                            "orig(width) == 198.0",
+                                            "orig(text) has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "273": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "262": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(iterator) has only one value",
+                                            "return == 11",
+                                            "orig(width) == 85.200005",
+                                            "text.toString == \"Requirements Analysis\"",
+                                            "orig(start) == 0",
+                                            "orig(text) has only one value",
+                                            "orig(measurer) has only one value"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawRotatedString(java.lang.String, java.awt.Graphics2D, float, float, org.jfree.chart.text.TextAnchor, double, float, float)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "rotationX == 0.0",
+                                    "rotationY == 0.0",
+                                    "rotationY >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rotationX >= 0.0",
+                                    "rotationY one of { 0.0, 136.42188 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "rotationX >= 0.0",
+                                    "rotationX == 0.0",
+                                    "rotationY == 0.0",
+                                    "rotationY >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "rotationX == 0.0",
+                                    "rotationY == 0.0",
+                                    "rotationY >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "526": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createTextBlock(java.lang.String, java.awt.Font, java.awt.Paint, float, int, org.jfree.chart.text.TextMeasurer)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "maxLines == 2147483647",
+                                    "maxWidth one of { 198.0, 298.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "maxLines one of { 1, 2147483647 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": [
+                                    "maxLines == 2147483647",
+                                    "maxWidth one of { 198.0, 298.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch18.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "199": [
+                                {
+                                    "Patch93.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "222": [
+                                {
+                                    "Patch93.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(font) has only one value",
+                                            "size(return.lines[]) == 1",
+                                            "orig(maxLines) == 1",
+                                            "return.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                            "orig(paint) has only one value",
+                                            "orig(maxWidth) == 85.200005"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch18.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deriveRotationAnchorOffsets(java.awt.Graphics2D, java.lang.String, org.jfree.chart.text.TextAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextAnchor.BOTTOM_CENTER\", \"TextAnchor.CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

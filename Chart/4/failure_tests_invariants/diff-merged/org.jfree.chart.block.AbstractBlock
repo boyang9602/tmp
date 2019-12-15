@@ -1,0 +1,213 @@
+{
+    "org.jfree.chart.block.AbstractBlock": [
+        {
+            "setPadding(org.jfree.chart.util.RectangleInsets)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "padding.unitType != null",
+                                    "this.padding.right one of { 0.0, 2.0 }",
+                                    "padding != null",
+                                    "padding.bottom one of { 1.0, 2.0 }",
+                                    "padding.right one of { 1.0, 2.0 }",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.margin != null",
+                                    "this.bounds != null",
+                                    "this.padding != null",
+                                    "this.padding.bottom one of { 0.0, 2.0 }",
+                                    "padding.left one of { 1.0, 2.0 }",
+                                    "padding.unitType.name != null",
+                                    "this.padding.left one of { 0.0, 2.0 }",
+                                    "this.padding.top one of { 0.0, 2.0 }",
+                                    "this.frame != null",
+                                    "padding.top one of { 1.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "padding.right == 1.0",
+                                    "padding.top == 1.0",
+                                    "this.padding has only one value",
+                                    "this.padding.left == 0.0",
+                                    "padding.left == 1.0",
+                                    "this.padding.top == 0.0",
+                                    "this.padding.bottom == 0.0",
+                                    "this.padding.right == 0.0",
+                                    "padding has only one value",
+                                    "padding.bottom == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "padding.unitType != null",
+                                    "this.padding.top one of { 1.0, 2.0 }",
+                                    "this.padding.left one of { 1.0, 2.0 }",
+                                    "padding.bottom one of { 1.0, 2.0 }",
+                                    "padding.right one of { 1.0, 2.0 }",
+                                    "this.padding.bottom one of { 1.0, 2.0 }",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.padding.right >= orig(this.padding.right)",
+                                    "this.margin != null",
+                                    "this.bounds != null",
+                                    "this.padding.top >= orig(this.padding.top)",
+                                    "this.padding != null",
+                                    "padding.left one of { 1.0, 2.0 }",
+                                    "padding.unitType.name != null",
+                                    "this.padding.right one of { 1.0, 2.0 }",
+                                    "this.padding.left >= orig(this.padding.left)",
+                                    "this.frame != null",
+                                    "padding.top one of { 1.0, 2.0 }",
+                                    "this.padding.bottom >= orig(this.padding.bottom)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.right == 1.0",
+                                    "padding.right == 1.0",
+                                    "padding.top == 1.0",
+                                    "this.padding has only one value",
+                                    "padding.left == 1.0",
+                                    "padding.bottom == 1.0",
+                                    "this.padding.left == 1.0",
+                                    "this.padding.bottom == 1.0",
+                                    "this.padding.top == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractBlock()": [
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.frame != null",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.margin != null",
+                                    "this.bounds != null",
+                                    "this.padding != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMargin(org.jfree.chart.util.RectangleInsets)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.frame != null",
+                                    "this.margin != null",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "margin.unitType != null",
+                                    "margin.unitType.name != null",
+                                    "margin != null",
+                                    "this.bounds != null",
+                                    "this.padding != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.frame != null",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "margin.unitType != null",
+                                    "margin.unitType.name != null",
+                                    "this.margin != null",
+                                    "this.bounds != null",
+                                    "this.padding != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setFrame(org.jfree.chart.block.BlockFrame)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.frame != null",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.margin != null",
+                                    "this.bounds != null",
+                                    "frame != null",
+                                    "this.padding != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.frame != null",
+                                    "this.frame.getClass().getName() != orig(this.frame.getClass().getName())",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.margin != null",
+                                    "this.bounds != null",
+                                    "this.padding != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

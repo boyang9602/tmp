@@ -1,0 +1,16 @@
+Patch174 Incorrect  
+Patch204 Correct  
+Patch70 Unknown  
+Patch71 Unknown  
+Patch72 Incorrect  
+PatchHDRepair9 Incorrect  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.solvers.BrentSolver.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.solvers.BrentSolver.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImpl.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImpl.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactory.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactory.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.ConvergenceException.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.ConvergenceException.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.ConvergingAlgorithmImpl.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.ConvergingAlgorithmImpl.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.distribution.AbstractContinuousDistribution$1.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.distribution.AbstractContinuousDistribution$1.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.distribution.NormalDistributionImpl.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.distribution.NormalDistributionImpl.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.MathException.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.MathException.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.math.MaxIterationsExceededException.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Math/85/failure_tests_invariants/diff-merged/org.apache.commons.math.MaxIterationsExceededException.json)  

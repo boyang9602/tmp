@@ -1,0 +1,100 @@
+{
+    "org.jfree.chart.util.RectangleInsets": [
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "obj != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.top == 4.0",
+                                    "obj has only one value",
+                                    "this.left == 8.0",
+                                    "this.bottom == 4.0",
+                                    "this.right == 8.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (this.right == 8.0)",
+                                    "(return == true)  ==>  (this.top >= 0.0)",
+                                    "(return == false)  ==>  (orig(this) has only one value)",
+                                    "(return == true)  ==>  (this.bottom >= 0.0)",
+                                    "(return == false)  ==>  (this.left == 8.0)",
+                                    "(return == false)  ==>  (this.top == 4.0)",
+                                    "(return == false)  ==>  (orig(obj) has only one value)",
+                                    "(return == false)  ==>  (this.bottom == 4.0)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.top == 4.0",
+                                    "this.left == 8.0",
+                                    "this.bottom == 4.0",
+                                    "this.right == 8.0",
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "192": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this) has only one value",
+                                            "this.top == 4.0",
+                                            "orig(obj) has only one value",
+                                            "this.left == 8.0",
+                                            "this.bottom == 4.0",
+                                            "this.right == 8.0",
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "203": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

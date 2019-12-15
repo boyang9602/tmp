@@ -1,0 +1,235 @@
+{
+    "org.apache.commons.math.exception.MathIllegalStateException": [
+        {
+            "CLASS": [
+                {
+                    "Patch39.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch38.inv.output": "N/A"
+                },
+                {
+                    "Patch37.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "Patch161.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch39.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "size(this.context.msgArguments[]) one of { 1, 2 }",
+                            "this.context.context.getClass().getName() == java.util.HashMap.class",
+                            "size(this.context.msgPatterns[]) one of { 1, 2 }",
+                            "this.context.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                            "this.context.msgArguments[].getClass().getName() elements == java.lang.Object[].class",
+                            "this.context.msgArguments[].getClass().getName() one of { [java.lang.Object[]], [java.lang.Object[], java.lang.Object[]] }",
+                            "this.context.msgPatterns[].getClass().getName() elements == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.context.msgPatterns[].getClass().getName() one of { [org.apache.commons.math.exception.util.LocalizedFormats], [org.apache.commons.math.exception.util.LocalizedFormats, org.apache.commons.math.exception.util.LocalizedFormats] }",
+                            "this.context.msgPatterns.getClass().getName() == java.util.ArrayList.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch38.inv.output": "N/A"
+                },
+                {
+                    "Patch37.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "Patch161.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "MathIllegalStateException(org.apache.commons.math.exception.util.Localizable, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch39.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "pattern.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "args.getClass().getName() == java.lang.Object[].class",
+                                    "args[] == []",
+                                    "pattern has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch38.inv.output": "N/A"
+                        },
+                        {
+                            "Patch37.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch161.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch39.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "args[] == orig(args[])",
+                                    "this.context.msgPatterns[] contains no nulls and has only one value, of length 1",
+                                    "args[] == []",
+                                    "this.context.msgArguments[].getClass().getName() == [java.lang.Object[]]",
+                                    "this.context.msgPatterns[] elements has only one value",
+                                    "size(this.context.msgPatterns[]) == 1",
+                                    "size(this.context.msgArguments[]) == 1",
+                                    "this.context.msgPatterns[].getClass().getName() == [org.apache.commons.math.exception.util.LocalizedFormats]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch38.inv.output": "N/A"
+                        },
+                        {
+                            "Patch37.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch161.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getContext()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch39.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch38.inv.output": "N/A"
+                        },
+                        {
+                            "Patch37.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch161.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch39.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.context.msgArguments.getClass().getName() == orig(this.context.msgArguments.getClass().getName())",
+                                    "this.context.throwable == orig(this.context.throwable)",
+                                    "size(return.msgArguments[]) one of { 1, 2 }",
+                                    "this.context.msgArguments == orig(this.context.msgArguments)",
+                                    "this.context.msgPatterns[] == orig(this.context.msgPatterns[])",
+                                    "this.context.context == orig(this.context.context)",
+                                    "size(return.msgPatterns[]) one of { 1, 2 }",
+                                    "this.context == orig(this.context)",
+                                    "return.context.getClass().getName() == java.util.HashMap.class",
+                                    "return.msgArguments[].getClass().getName() elements == java.lang.Object[].class",
+                                    "this.context.msgPatterns.getClass().getName() == orig(this.context.msgPatterns.getClass().getName())",
+                                    "return.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                                    "this.context.msgArguments[] == orig(this.context.msgArguments[])",
+                                    "this.context.context.getClass().getName() == orig(this.context.context.getClass().getName())",
+                                    "return.msgPatterns[].getClass().getName() elements == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "this.context.msgPatterns == orig(this.context.msgPatterns)",
+                                    "return.msgPatterns[].getClass().getName() one of { [org.apache.commons.math.exception.util.LocalizedFormats], [org.apache.commons.math.exception.util.LocalizedFormats, org.apache.commons.math.exception.util.LocalizedFormats] }",
+                                    "return.msgArguments[].getClass().getName() one of { [java.lang.Object[]], [java.lang.Object[], java.lang.Object[]] }",
+                                    "return.msgPatterns.getClass().getName() == java.util.ArrayList.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch38.inv.output": "N/A"
+                        },
+                        {
+                            "Patch37.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch161.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "MathIllegalStateException()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch39.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.context.msgPatterns[] contains no nulls and has only one value, of length 1",
+                                    "this.context.msgArguments[].getClass().getName() == [java.lang.Object[]]",
+                                    "this.context.msgPatterns[] elements has only one value",
+                                    "size(this.context.msgPatterns[]) == 1",
+                                    "size(this.context.msgArguments[]) == 1",
+                                    "this.context.msgPatterns[].getClass().getName() == [org.apache.commons.math.exception.util.LocalizedFormats]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch38.inv.output": "N/A"
+                        },
+                        {
+                            "Patch37.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch161.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

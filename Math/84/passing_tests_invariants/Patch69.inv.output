@@ -1,0 +1,742 @@
+===========================================================================
+org.apache.commons.math.optimization.GoalType:::OBJECT
+===========================================================================
+org.apache.commons.math.optimization.GoalType.GoalType(java.lang.String, int):::ENTER
+$hidden$1.toString one of { "MAXIMIZE", "MINIMIZE" }
+$hidden$2 one of { 0, 1 }
+===========================================================================
+org.apache.commons.math.optimization.GoalType.GoalType(java.lang.String, int):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+$hidden$1.toString one of { "MAXIMIZE", "MINIMIZE" }
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair:::OBJECT
+this.value >= 0.010852087010871944
+size(this.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.RealPointValuePair(double[], double):::ENTER
+value == Double.NaN
+size(point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.RealPointValuePair(double[], double):::EXIT
+point[] == orig(point[])
+this.value == Double.NaN
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.RealPointValuePair(double[], double, boolean):::ENTER
+copyArray == false
+size(point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.RealPointValuePair(double[], double, boolean):::EXIT
+point[] == orig(point[])
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.getPointRef():::ENTER
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.getPointRef():::EXIT
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+size(return[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.getValue():::ENTER
+===========================================================================
+org.apache.commons.math.optimization.RealPointValuePair.getValue():::EXIT
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+return >= 0.010852087010871944
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker:::OBJECT
+this.relativeThreshold one of { -1.0, 1.1102230246251565E-14 }
+this.absoluteThreshold one of { 2.2250738585072014E-306, 0.001 }
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker.SimpleScalarValueChecker():::EXIT
+this.relativeThreshold == 1.1102230246251565E-14
+this.absoluteThreshold == 2.2250738585072014E-306
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker.SimpleScalarValueChecker(double, double):::ENTER
+relativeThreshold == -1.0
+absoluteThreshold == 0.001
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker.SimpleScalarValueChecker(double, double):::EXIT
+this.relativeThreshold == -1.0
+this.absoluteThreshold == 0.001
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker.converged(int, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair):::ENTER
+this.relativeThreshold == -1.0
+this.absoluteThreshold == 0.001
+iteration >= 1
+size(previous.point[]) one of { 2, 4 }
+size(current.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker.converged(int, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair):::EXIT
+this.relativeThreshold == orig(this.relativeThreshold)
+this.absoluteThreshold == orig(this.absoluteThreshold)
+previous.point == orig(previous.point)
+previous.point[] == orig(previous.point[])
+previous.value == orig(previous.value)
+current.point == orig(current.point)
+current.point[] == orig(current.point[])
+current.value == orig(current.value)
+(return == true)  ==>  (current.point[] elements != 0)
+(return == true)  ==>  (previous.point[] elements != 0)
+this.relativeThreshold == -1.0
+this.absoluteThreshold == 0.001
+size(previous.point[]) one of { 2, 4 }
+size(current.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker.converged(int, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair):::EXIT;condition="return == true"
+previous.point[] elements != 0
+current.point[] elements != 0
+return == true
+===========================================================================
+org.apache.commons.math.optimization.SimpleScalarValueChecker.converged(int, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1:::OBJECT
+this.val$goalType has only one value
+org.apache.commons.math.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math.optimization.GoalType[].class
+org.apache.commons.math.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math.optimization.GoalType.$VALUES[] elements != null
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math.optimization.GoalType, org.apache.commons.math.optimization.GoalType]
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math.optimization.GoalType.class
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectional.class
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex.getClass().getName() == org.apache.commons.math.optimization.RealPointValuePair[].class
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[] elements != null
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[].getClass().getName() elements == org.apache.commons.math.optimization.RealPointValuePair.class
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[].getClass().getName() one of { [org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair], [org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair] }
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[].point elements != null
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[].value elements >= 0.010852087010871944
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker.getClass().getName() == org.apache.commons.math.optimization.SimpleScalarValueChecker.class
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxIterations one of { 100, 1000 }
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.iterations >= 0
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxEvaluations == 2147483647
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration.getClass().getName() == double[][].class
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration[] elements != null
+size(org.apache.commons.math.optimization.GoalType.$VALUES[]) == 2
+size(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[]) one of { 3, 5 }
+size(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1.(org.apache.commons.math.optimization.direct.DirectSearchOptimizer, org.apache.commons.math.optimization.GoalType):::ENTER
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectional.class
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex == null
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker.getClass().getName() == org.apache.commons.math.optimization.SimpleScalarValueChecker.class
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxIterations one of { 100, 1000 }
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.iterations == 0
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxEvaluations == 2147483647
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.evaluations == 0
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration.getClass().getName() == double[][].class
+$hidden$2 has only one value
+org.apache.commons.math.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math.optimization.GoalType[].class
+org.apache.commons.math.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math.optimization.GoalType, org.apache.commons.math.optimization.GoalType]
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math.optimization.GoalType.class
+size(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration[]) one of { 2, 4 }
+size(org.apache.commons.math.optimization.GoalType.$VALUES[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1.(org.apache.commons.math.optimization.direct.DirectSearchOptimizer, org.apache.commons.math.optimization.GoalType):::EXIT
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.f == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.f)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.f.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.f.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxIterations == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxIterations)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.iterations == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.iterations)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxEvaluations == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxEvaluations)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.evaluations == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.evaluations)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration[] == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration[])
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex == null
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.iterations == 0
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.evaluations == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1.compare(org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair):::ENTER
+o1.value >= 0.010852087010871944
+o2.value >= 0.010852087010871944
+size(o1.point[]) one of { 2, 4 }
+size(o2.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1.compare(org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair):::EXIT
+this.val$goalType == orig(this.val$goalType)
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[] == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[])
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[].point == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[].point)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[].value == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.simplex[].value)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.f == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.f)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.f.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.f.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.checker.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxIterations == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxIterations)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.iterations == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.iterations)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxEvaluations == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.maxEvaluations)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.evaluations == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.evaluations)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration)
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration.getClass().getName() == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration.getClass().getName())
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration[] == orig(org.apache.commons.math.optimization.direct.DirectSearchOptimizer.this.startConfiguration[])
+o1.point == orig(o1.point)
+o1.point[] == orig(o1.point[])
+o1.value == orig(o1.value)
+o2.point == orig(o2.point)
+o2.point[] == orig(o2.point[])
+o2.value == orig(o2.value)
+o1.value >= 0.010852087010871944
+o2.value >= 0.010852087010871944
+return one of { -1, 0, 1 }
+size(o1.point[]) one of { 2, 4 }
+size(o2.point[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer:::OBJECT
+this.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectional.class
+this.simplex.getClass().getName() == org.apache.commons.math.optimization.RealPointValuePair[].class
+this.simplex[] elements != null
+this.simplex[].getClass().getName() elements == org.apache.commons.math.optimization.RealPointValuePair.class
+this.simplex[].getClass().getName() one of { [org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair], [org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair] }
+this.simplex[].point elements != null
+this.simplex[].value elements >= 0.010852087010871944
+this.checker.getClass().getName() == org.apache.commons.math.optimization.SimpleScalarValueChecker.class
+this.maxIterations >= 0
+this.iterations >= 0
+this.maxEvaluations one of { 0, 2147483647 }
+this.evaluations >= 0
+this.startConfiguration.getClass().getName() == double[][].class
+this.startConfiguration[] elements != null
+size(this.simplex[]) one of { 3, 5 }
+size(this.startConfiguration[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.DirectSearchOptimizer():::EXIT
+this.simplex == null
+this.f == null
+this.maxIterations == 2147483647
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+this.startConfiguration == null
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.buildSimplex(double[]):::ENTER
+this.simplex == null
+this.maxIterations one of { 100, 1000 }
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+startPoint[] one of { [-1.2, 1.0], [3.0, -1.0, 0.0, 1.0] }
+size(startPoint[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.buildSimplex(double[]):::EXIT
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.evaluations == orig(this.evaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())
+this.startConfiguration[] == orig(this.startConfiguration[])
+startPoint[] == orig(startPoint[])
+this.simplex[].value elements == Double.NaN
+this.simplex[].value one of { [NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN] }
+this.maxIterations one of { 100, 1000 }
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+startPoint[] one of { [-1.2, 1.0], [3.0, -1.0, 0.0, 1.0] }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.evaluate(double[]):::ENTER
+this.maxIterations one of { 100, 1000 }
+this.maxEvaluations == 2147483647
+size(x[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.evaluate(double[]):::EXIT
+this.simplex == orig(this.simplex)
+this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())
+this.simplex[] == orig(this.simplex[])
+this.simplex[].point == orig(this.simplex[].point)
+this.simplex[].value == orig(this.simplex[].value)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())
+this.startConfiguration[] == orig(this.startConfiguration[])
+x[] == orig(x[])
+this.maxIterations one of { 100, 1000 }
+this.maxEvaluations == 2147483647
+this.evaluations - orig(this.evaluations) - 1 == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.evaluateSimplex(java.util.Comparator):::ENTER
+this.maxIterations one of { 100, 1000 }
+this.maxEvaluations == 2147483647
+comparator.getClass().getName() == org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1.class
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.evaluateSimplex(java.util.Comparator):::EXIT
+this.simplex == orig(this.simplex)
+this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())
+this.startConfiguration[] == orig(this.startConfiguration[])
+size(this.simplex[]) == orig(size(this.simplex[]))
+this.simplex[].value sorted by <=
+this.maxIterations one of { 100, 1000 }
+this.maxEvaluations == 2147483647
+this.simplex[].value < orig(this.simplex[].value) (lexically)
+this.simplex[].value <= orig(this.simplex[].value) (lexically)
+this.evaluations > orig(this.evaluations)
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getEvaluations():::ENTER
+this.simplex[].value one of { [0.010852087010871944, 0.010880548950206903, 0.011026424261289152], [0.016124422196298838, 0.016134124249219894, 0.01624862104654312, 0.017290190095081925, 0.01832565921358764] }
+this.maxIterations one of { 100, 1000 }
+this.iterations one of { 15, 105 }
+this.maxEvaluations == 2147483647
+this.evaluations one of { 63, 845 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getEvaluations():::EXIT
+this.simplex == orig(this.simplex)
+this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())
+this.simplex[] == orig(this.simplex[])
+this.simplex[].point == orig(this.simplex[].point)
+this.simplex[].value == orig(this.simplex[].value)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.evaluations == orig(this.evaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())
+this.startConfiguration[] == orig(this.startConfiguration[])
+this.simplex[].value one of { [0.010852087010871944, 0.010880548950206903, 0.011026424261289152], [0.016124422196298838, 0.016134124249219894, 0.01624862104654312, 0.017290190095081925, 0.01832565921358764] }
+this.maxIterations one of { 100, 1000 }
+this.iterations one of { 15, 105 }
+this.maxEvaluations == 2147483647
+this.evaluations one of { 63, 845 }
+return one of { 63, 845 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.incrementIterationsCounter():::ENTER
+this.simplex[].value sorted by <=
+this.maxIterations one of { 100, 1000 }
+this.maxEvaluations == 2147483647
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.incrementIterationsCounter():::EXIT
+this.simplex == orig(this.simplex)
+this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())
+this.simplex[] == orig(this.simplex[])
+this.simplex[].point == orig(this.simplex[].point)
+this.simplex[].value == orig(this.simplex[].value)
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.evaluations == orig(this.evaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())
+this.startConfiguration[] == orig(this.startConfiguration[])
+this.simplex[].value sorted by <=
+this.maxIterations one of { 100, 1000 }
+this.maxEvaluations == 2147483647
+this.iterations - orig(this.iterations) - 1 == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.optimize(org.apache.commons.math.analysis.MultivariateRealFunction, org.apache.commons.math.optimization.GoalType, double[]):::ENTER
+this.simplex == null
+this.f == null
+this.maxIterations one of { 100, 1000 }
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+this.startConfiguration[] contains no nulls and has only one value, of length 2
+goalType has only one value
+org.apache.commons.math.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math.optimization.GoalType[].class
+org.apache.commons.math.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math.optimization.GoalType, org.apache.commons.math.optimization.GoalType]
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math.optimization.GoalType.class
+startPoint[] one of { [-1.2, 1.0], [3.0, -1.0, 0.0, 1.0] }
+size(this.startConfiguration[]) == 2
+size(org.apache.commons.math.optimization.GoalType.$VALUES[]) == 2
+size(startPoint[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.optimize(org.apache.commons.math.analysis.MultivariateRealFunction, org.apache.commons.math.optimization.GoalType, double[]):::EXIT
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())
+org.apache.commons.math.optimization.GoalType.MAXIMIZE == orig(org.apache.commons.math.optimization.GoalType.MAXIMIZE)
+org.apache.commons.math.optimization.GoalType.MINIMIZE == orig(org.apache.commons.math.optimization.GoalType.MINIMIZE)
+org.apache.commons.math.optimization.GoalType.$VALUES == orig(org.apache.commons.math.optimization.GoalType.$VALUES)
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == orig(org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName())
+org.apache.commons.math.optimization.GoalType.$VALUES[] == orig(org.apache.commons.math.optimization.GoalType.$VALUES[])
+startPoint[] == orig(startPoint[])
+this.simplex[].value one of { [0.010852087010871944, 0.010880548950206903, 0.011026424261289152], [0.016124422196298838, 0.016134124249219894, 0.01624862104654312, 0.017290190095081925, 0.01832565921358764] }
+this.maxIterations one of { 100, 1000 }
+this.iterations one of { 15, 105 }
+this.maxEvaluations == 2147483647
+this.evaluations one of { 63, 845 }
+org.apache.commons.math.optimization.GoalType.MAXIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.MINIMIZE has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES has only one value
+org.apache.commons.math.optimization.GoalType.$VALUES.getClass().getName() == org.apache.commons.math.optimization.GoalType[].class
+org.apache.commons.math.optimization.GoalType.$VALUES[] contains no nulls and has only one value, of length 2
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() == [org.apache.commons.math.optimization.GoalType, org.apache.commons.math.optimization.GoalType]
+org.apache.commons.math.optimization.GoalType.$VALUES[].getClass().getName() elements == org.apache.commons.math.optimization.GoalType.class
+startPoint[] one of { [-1.2, 1.0], [3.0, -1.0, 0.0, 1.0] }
+return.point[] one of { [0.3125, -0.03125, 0.125, 0.14453125], [1.104052734375, 1.2194335937499998] }
+return.value one of { 0.010852087010871944, 0.016124422196298838 }
+size(org.apache.commons.math.optimization.GoalType.$VALUES[]) == 2
+size(return.point[]) one of { 2, 4 }
+this.startConfiguration[] == orig(this.startConfiguration[]) (elementwise)
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setConvergenceChecker(org.apache.commons.math.optimization.RealConvergenceChecker):::ENTER
+this.simplex == null
+this.f == null
+this.maxIterations one of { 0, 2147483647 }
+this.iterations == 0
+this.evaluations == 0
+this.startConfiguration == null
+checker.getClass().getName() == org.apache.commons.math.optimization.SimpleScalarValueChecker.class
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setConvergenceChecker(org.apache.commons.math.optimization.RealConvergenceChecker):::EXIT
+this.simplex == orig(this.simplex)
+this.f == orig(this.f)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.evaluations == orig(this.evaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.simplex == null
+this.f == null
+this.maxIterations one of { 0, 2147483647 }
+this.iterations == 0
+this.evaluations == 0
+this.startConfiguration == null
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setMaxEvaluations(int):::ENTER
+this.simplex == null
+this.f == null
+this.maxIterations == 2147483647
+this.iterations == 0
+this.maxEvaluations == 0
+this.evaluations == 0
+this.startConfiguration == null
+maxEvaluations == 2147483647
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setMaxEvaluations(int):::EXIT
+this.simplex == orig(this.simplex)
+this.f == orig(this.f)
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.evaluations == orig(this.evaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.simplex == null
+this.f == null
+this.maxIterations == 2147483647
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+this.startConfiguration == null
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setMaxIterations(int):::ENTER
+this.simplex == null
+this.f == null
+this.maxIterations one of { 0, 2147483647 }
+this.iterations == 0
+this.evaluations == 0
+this.startConfiguration == null
+maxIterations one of { 100, 1000, 2147483647 }
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setMaxIterations(int):::EXIT
+this.simplex == orig(this.simplex)
+this.f == orig(this.f)
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.evaluations == orig(this.evaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.simplex == null
+this.f == null
+this.maxIterations one of { 100, 1000, 2147483647 }
+this.iterations == 0
+this.evaluations == 0
+this.startConfiguration == null
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setStartConfiguration(double[]):::ENTER
+this has only one value
+this.simplex == null
+this.f == null
+this.checker has only one value
+this.maxIterations == 1000
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+this.startConfiguration == null
+steps has only one value
+steps[] == [1.0, 1.0, 1.0, 1.0]
+steps[] elements == 1.0
+size(steps[]) == 4
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setStartConfiguration(double[]):::EXIT
+this.simplex == orig(this.simplex)
+this.f == orig(this.f)
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.evaluations == orig(this.evaluations)
+steps[] == orig(steps[])
+this.simplex == null
+this.f == null
+this.checker has only one value
+this.maxIterations == 1000
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+this.startConfiguration has only one value
+this.startConfiguration[] contains no nulls and has only one value, of length 4
+steps[] == [1.0, 1.0, 1.0, 1.0]
+steps[] elements == 1.0
+size(this.startConfiguration[]) == 4
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setStartConfiguration(double[][]):::ENTER
+this has only one value
+this.simplex == null
+this.f == null
+this.checker has only one value
+this.maxIterations == 100
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+this.startConfiguration == null
+referenceSimplex has only one value
+referenceSimplex.getClass().getName() == double[][].class
+referenceSimplex[] contains no nulls and has only one value, of length 3
+size(referenceSimplex[]) == 3
+===========================================================================
+org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setStartConfiguration(double[][]):::EXIT
+this.simplex == orig(this.simplex)
+this.f == orig(this.f)
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.evaluations == orig(this.evaluations)
+referenceSimplex[] == orig(referenceSimplex[])
+this.simplex == null
+this.f == null
+this.checker has only one value
+this.maxIterations == 100
+this.iterations == 0
+this.maxEvaluations == 2147483647
+this.evaluations == 0
+this.startConfiguration has only one value
+this.startConfiguration[] contains no nulls and has only one value, of length 2
+referenceSimplex[] contains no nulls and has only one value, of length 3
+size(this.startConfiguration[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectional:::OBJECT
+this.khi == 2.0
+this.gamma == 0.5
+this.simplex.getClass().getName() == org.apache.commons.math.optimization.RealPointValuePair[].class
+this.simplex[] elements != null
+this.simplex[].getClass().getName() elements == org.apache.commons.math.optimization.RealPointValuePair.class
+this.simplex[].getClass().getName() one of { [org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair], [org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair] }
+this.simplex[].point elements != null
+this.simplex[].value elements >= 0.010852087010871944
+this.simplex[].value sorted by <=
+this.checker.getClass().getName() == org.apache.commons.math.optimization.SimpleScalarValueChecker.class
+this.maxIterations one of { 100, 1000, 2147483647 }
+this.iterations >= 0
+this.maxEvaluations == 2147483647
+this.startConfiguration.getClass().getName() == double[][].class
+this.startConfiguration[] elements != null
+size(this.simplex[]) one of { 3, 5 }
+size(this.startConfiguration[]) one of { 2, 4 }
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectional.MultiDirectional():::EXIT
+this.simplex == null
+this.f == null
+this.maxIterations == 2147483647
+this.iterations == 0
+this.evaluations == 0
+this.startConfiguration == null
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectional.evaluateNewSimplex(org.apache.commons.math.optimization.RealPointValuePair[], double, java.util.Comparator):::ENTER
+this.maxIterations one of { 100, 1000 }
+this.iterations >= 1
+original.getClass().getName() == org.apache.commons.math.optimization.RealPointValuePair[].class
+original[] elements != null
+original[].point elements != null
+original[].value elements >= 0.010852087010871944
+original[].value sorted by <=
+coeff one of { 0.5, 1.0, 2.0 }
+comparator.getClass().getName() == org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1.class
+size(original[]) one of { 3, 5 }
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectional.evaluateNewSimplex(org.apache.commons.math.optimization.RealPointValuePair[], double, java.util.Comparator):::EXIT
+this.khi == orig(this.khi)
+this.gamma == orig(this.gamma)
+this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.iterations == orig(this.iterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())
+this.startConfiguration[] == orig(this.startConfiguration[])
+original[] == orig(original[])
+original[].point == orig(original[].point)
+original[].value == orig(original[].value)
+size(this.simplex[]) == orig(size(this.simplex[]))
+this.maxIterations one of { 100, 1000 }
+this.iterations >= 1
+original[] elements != null
+original[].point elements != null
+original[].value elements >= 0.010852087010871944
+original[].value sorted by <=
+size(return.point[]) one of { 2, 4 }
+this.evaluations > orig(this.evaluations)
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(java.util.Comparator):::ENTER
+this.maxIterations one of { 100, 1000 }
+comparator.getClass().getName() == org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1.class
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(java.util.Comparator):::EXIT84
+this.simplex[].value < orig(this.simplex[].value) (lexically)
+this.simplex[].value <= orig(this.simplex[].value) (lexically)
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(java.util.Comparator):::EXIT91
+this.simplex[].value sorted by <
+orig(this.simplex[].value) sorted by <
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex(java.util.Comparator):::EXIT
+this.khi == orig(this.khi)
+this.gamma == orig(this.gamma)
+this.simplex.getClass().getName() == orig(this.simplex.getClass().getName())
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+this.checker == orig(this.checker)
+this.checker.getClass().getName() == orig(this.checker.getClass().getName())
+this.maxIterations == orig(this.maxIterations)
+this.maxEvaluations == orig(this.maxEvaluations)
+this.startConfiguration == orig(this.startConfiguration)
+this.startConfiguration.getClass().getName() == orig(this.startConfiguration.getClass().getName())
+this.startConfiguration[] == orig(this.startConfiguration[])
+size(this.simplex[]) == orig(size(this.simplex[]))
+this.maxIterations one of { 100, 1000 }
+this.iterations - orig(this.iterations) - 1 == 0
+this.evaluations > orig(this.evaluations)
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$3:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$3:::OBJECT
+this has only one value
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this has only one value
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$3.(org.apache.commons.math.optimization.direct.MultiDirectionalTest):::ENTER
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this has only one value
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$3.(org.apache.commons.math.optimization.direct.MultiDirectionalTest):::EXIT
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this == orig(org.apache.commons.math.optimization.direct.MultiDirectionalTest.this)
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count == orig(org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count)
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$3.value(double[]):::ENTER
+x[] elements != 0
+size(x[]) == 2
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$3.value(double[]):::EXIT
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this == orig(org.apache.commons.math.optimization.direct.MultiDirectionalTest.this)
+x[] == orig(x[])
+x[] elements != 0
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count - orig(org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count) - 1 == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$4:::CLASS
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$4:::OBJECT
+this has only one value
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this has only one value
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$4.(org.apache.commons.math.optimization.direct.MultiDirectionalTest):::ENTER
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this has only one value
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$4.(org.apache.commons.math.optimization.direct.MultiDirectionalTest):::EXIT
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this == orig(org.apache.commons.math.optimization.direct.MultiDirectionalTest.this)
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count == orig(org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count)
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$4.value(double[]):::ENTER
+size(x[]) == 4
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest$4.value(double[]):::EXIT
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this == orig(org.apache.commons.math.optimization.direct.MultiDirectionalTest.this)
+x[] == orig(x[])
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count - orig(org.apache.commons.math.optimization.direct.MultiDirectionalTest.this.count) - 1 == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:::OBJECT
+this.count one of { 0, 63, 845 }
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.MultiDirectionalTest():::EXIT
+this.count == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.testPowell():::ENTER
+this has only one value
+this.count == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.testPowell():::EXIT
+this.count == 845
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.testRosenbrock():::ENTER
+this has only one value
+this.count == 0
+===========================================================================
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.testRosenbrock():::EXIT
+this.count == 63

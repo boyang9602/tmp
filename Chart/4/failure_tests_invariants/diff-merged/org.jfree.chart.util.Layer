@@ -1,0 +1,252 @@
+{
+    "org.jfree.chart.util.Layer": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.util.Layer.BACKGROUND has only one value",
+                            "org.jfree.chart.util.Layer.FOREGROUND.name.toString == \"Layer.FOREGROUND\"",
+                            "org.jfree.chart.util.Layer.BACKGROUND.name.toString == \"Layer.BACKGROUND\"",
+                            "org.jfree.chart.util.Layer.BACKGROUND != null",
+                            "org.jfree.chart.util.Layer.FOREGROUND has only one value",
+                            "org.jfree.chart.util.Layer.FOREGROUND.name != null",
+                            "org.jfree.chart.util.Layer.BACKGROUND.name has only one value",
+                            "org.jfree.chart.util.Layer.FOREGROUND.name has only one value",
+                            "org.jfree.chart.util.Layer.BACKGROUND.name != null",
+                            "org.jfree.chart.util.Layer.FOREGROUND != null"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.util.Layer.BACKGROUND has only one value",
+                            "org.jfree.chart.util.Layer.FOREGROUND.name.toString == \"Layer.FOREGROUND\"",
+                            "org.jfree.chart.util.Layer.BACKGROUND.name.toString == \"Layer.BACKGROUND\"",
+                            "org.jfree.chart.util.Layer.BACKGROUND != null",
+                            "org.jfree.chart.util.Layer.FOREGROUND has only one value",
+                            "org.jfree.chart.util.Layer.FOREGROUND.name != null",
+                            "org.jfree.chart.util.Layer.BACKGROUND.name has only one value",
+                            "org.jfree.chart.util.Layer.FOREGROUND.name has only one value",
+                            "org.jfree.chart.util.Layer.BACKGROUND.name != null",
+                            "org.jfree.chart.util.Layer.FOREGROUND != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" }",
+                            "this.name != null"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" }",
+                            "this.name != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "Layer(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "name.toString == orig(name.toString)",
+                                    "name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "name.toString == orig(name.toString)",
+                                    "name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "obj.getClass().getName() == org.jfree.chart.util.Layer.class",
+                                    "obj != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "obj.getClass().getName() == org.jfree.chart.util.Layer.class",
+                                    "obj != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "return == true",
+                                    "org.jfree.chart.util.Layer.FOREGROUND.name.toString == orig(org.jfree.chart.util.Layer.FOREGROUND.name.toString)",
+                                    "orig(this) has only one value",
+                                    "org.jfree.chart.util.Layer.BACKGROUND.name.toString == orig(org.jfree.chart.util.Layer.BACKGROUND.name.toString)",
+                                    "(return == false)  ==>  (orig(this) has only one value)",
+                                    "this.name.toString == \"Layer.BACKGROUND\"",
+                                    "(return == false)  ==>  (this.name has only one value)",
+                                    "org.jfree.chart.util.Layer.FOREGROUND.name == orig(org.jfree.chart.util.Layer.FOREGROUND.name)",
+                                    "this.name == orig(this.name)",
+                                    "org.jfree.chart.util.Layer.BACKGROUND == orig(org.jfree.chart.util.Layer.BACKGROUND)",
+                                    "this.name.toString == orig(this.name.toString)",
+                                    "(return == false)  ==>  (this.name.toString == \"Layer.BACKGROUND\")",
+                                    "org.jfree.chart.util.Layer.FOREGROUND == orig(org.jfree.chart.util.Layer.FOREGROUND)",
+                                    "(return == true)  ==>  (this.name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" })",
+                                    "org.jfree.chart.util.Layer.BACKGROUND.name == orig(org.jfree.chart.util.Layer.BACKGROUND.name)",
+                                    "(return == false)  ==>  (orig(obj) has only one value)",
+                                    "this.name has only one value",
+                                    "orig(obj) has only one value",
+                                    "return == false"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == true",
+                                    "org.jfree.chart.util.Layer.FOREGROUND.name.toString == orig(org.jfree.chart.util.Layer.FOREGROUND.name.toString)",
+                                    "orig(this) has only one value",
+                                    "org.jfree.chart.util.Layer.BACKGROUND.name.toString == orig(org.jfree.chart.util.Layer.BACKGROUND.name.toString)",
+                                    "(return == false)  ==>  (orig(this) has only one value)",
+                                    "this.name.toString == \"Layer.BACKGROUND\"",
+                                    "(return == false)  ==>  (this.name has only one value)",
+                                    "org.jfree.chart.util.Layer.FOREGROUND.name == orig(org.jfree.chart.util.Layer.FOREGROUND.name)",
+                                    "this.name == orig(this.name)",
+                                    "org.jfree.chart.util.Layer.BACKGROUND == orig(org.jfree.chart.util.Layer.BACKGROUND)",
+                                    "this.name.toString == orig(this.name.toString)",
+                                    "(return == false)  ==>  (this.name.toString == \"Layer.BACKGROUND\")",
+                                    "org.jfree.chart.util.Layer.FOREGROUND == orig(org.jfree.chart.util.Layer.FOREGROUND)",
+                                    "(return == true)  ==>  (this.name.toString one of { \"Layer.BACKGROUND\", \"Layer.FOREGROUND\" })",
+                                    "org.jfree.chart.util.Layer.BACKGROUND.name == orig(org.jfree.chart.util.Layer.BACKGROUND.name)",
+                                    "(return == false)  ==>  (orig(obj) has only one value)",
+                                    "this.name has only one value",
+                                    "orig(obj) has only one value",
+                                    "return == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "101": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": [
+                                            "orig(this) has only one value",
+                                            "this.name.toString == \"Layer.BACKGROUND\"",
+                                            "orig(obj) has only one value",
+                                            "this.name has only one value",
+                                            "return == false"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this) has only one value",
+                                            "this.name.toString == \"Layer.BACKGROUND\"",
+                                            "orig(obj) has only one value",
+                                            "this.name has only one value",
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "93": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

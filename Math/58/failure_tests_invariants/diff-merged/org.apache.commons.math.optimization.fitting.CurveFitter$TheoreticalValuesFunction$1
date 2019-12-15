@@ -1,0 +1,98 @@
+{
+    "org.apache.commons.math.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1": [
+        {
+            "value(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch49.inv.output": {
+                                "invs": [
+                                    "return[] elements != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return[] elements != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch168.inv.output": {
+                                "invs": [
+                                    "return[] elements != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "(org.apache.commons.math.optimization.fitting.CurveFitter$TheoreticalValuesFunction)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f.getClass().getName() == org.apache.commons.math.optimization.fitting.GaussianFitter$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f.getClass().getName() == org.apache.commons.math.analysis.function.Gaussian$Parametric.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

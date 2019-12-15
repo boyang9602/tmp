@@ -1,0 +1,498 @@
+{
+    "org.jfree.chart.axis.AxisState": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "size(this.ticks[]) one of { 0, 3, 11 }",
+                            "this.ticks.getClass().getName() == java.util.ArrayList.class",
+                            "this.ticks[] elements != null",
+                            "this.ticks != null",
+                            "this.cursor >= 0.0",
+                            "this.max == 0.0",
+                            "this.ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "size(this.ticks[]) one of { 0, 3, 11 }",
+                            "this.ticks.getClass().getName() == java.util.ArrayList.class",
+                            "this.ticks[] elements != null",
+                            "this.ticks != null",
+                            "this.cursor >= 0.0",
+                            "this.max == 0.0",
+                            "this.ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "AxisState(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "cursor one of { 0.0, 55.734375, 58.296875 }",
+                                    "cursor >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "cursor one of { 0.0, 55.734375, 58.296875 }",
+                                    "cursor >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.cursor one of { 0.0, 55.734375, 58.296875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.cursor one of { 0.0, 55.734375, 58.296875 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTicks()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "this.cursor one of { 8.0, 96.0 }",
+                                    "size(this.ticks[]) one of { 3, 11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "this.cursor one of { 8.0, 96.0 }",
+                                    "size(this.ticks[]) one of { 3, 11 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "return.getClass().getName() == java.util.ArrayList.class",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "size(this.ticks[]) one of { 3, 11 }",
+                                    "return[] elements != null",
+                                    "this.cursor one of { 8.0, 96.0 }",
+                                    "return[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "return != null",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "return[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class",
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "size(return[]) one of { 3, 11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "return.getClass().getName() == java.util.ArrayList.class",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "size(this.ticks[]) one of { 3, 11 }",
+                                    "return[] elements != null",
+                                    "this.cursor one of { 8.0, 96.0 }",
+                                    "return[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "return != null",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "return[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class",
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "size(return[]) one of { 3, 11 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setTicks(java.util.List)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.cursor one of { 55.734375, 58.296875 }",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class",
+                                    "ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "size(ticks[]) one of { 3, 11 }",
+                                    "this.ticks[] == []",
+                                    "ticks[] elements != null",
+                                    "ticks != null",
+                                    "ticks.getClass().getName() == java.util.ArrayList.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.cursor one of { 55.734375, 58.296875 }",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class",
+                                    "ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "size(ticks[]) one of { 3, 11 }",
+                                    "this.ticks[] == []",
+                                    "ticks[] elements != null",
+                                    "ticks != null",
+                                    "ticks.getClass().getName() == java.util.ArrayList.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.cursor one of { 55.734375, 58.296875 }",
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class",
+                                    "size(this.ticks[]) one of { 3, 11 }",
+                                    "ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "ticks[] == orig(ticks[])",
+                                    "size(this.ticks[]) >= orig(size(this.ticks[]))",
+                                    "ticks[] elements != null",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.max == orig(this.max)",
+                                    "size(this.ticks[])-1 >= orig(size(this.ticks[]))-1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.cursor one of { 55.734375, 58.296875 }",
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "ticks[].getClass().getName() elements == org.jfree.chart.axis.NumberTick.class",
+                                    "size(this.ticks[]) one of { 3, 11 }",
+                                    "ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "ticks[] == orig(ticks[])",
+                                    "size(this.ticks[]) >= orig(size(this.ticks[]))",
+                                    "ticks[] elements != null",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.max == orig(this.max)",
+                                    "size(this.ticks[])-1 >= orig(size(this.ticks[]))-1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cursorLeft(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "size(this.ticks[]) one of { 0, 1, 3 }",
+                                    "size(this.ticks[]) == 3",
+                                    "this.ticks[] contains no nulls and has only one value, of length 3",
+                                    "this.ticks has only one value",
+                                    "units one of { 22.296875, 28.0 }",
+                                    "this.ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "this.cursor one of { 30.296875, 58.296875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "size(this.ticks[]) one of { 0, 1, 3 }",
+                                    "size(this.ticks[]) == 3",
+                                    "this.ticks[] contains no nulls and has only one value, of length 3",
+                                    "this.ticks has only one value",
+                                    "units one of { 22.296875, 28.0 }",
+                                    "this.ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "this.cursor one of { 30.296875, 58.296875 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "size(this.ticks[]) one of { 0, 1, 3 }",
+                                    "this.ticks[] contains no nulls and has only one value, of length 3",
+                                    "this.ticks has only one value",
+                                    "this.cursor <= orig(this.cursor)",
+                                    "this.cursor one of { 8.0, 30.296875 }",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "this.ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "size(this.ticks[]) == 3"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "size(this.ticks[]) one of { 0, 1, 3 }",
+                                    "this.ticks[] contains no nulls and has only one value, of length 3",
+                                    "this.ticks has only one value",
+                                    "this.cursor <= orig(this.cursor)",
+                                    "this.cursor one of { 8.0, 30.296875 }",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "this.ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "size(this.ticks[]) == 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getCursor()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "size(this.ticks[]) one of { 3, 11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "size(this.ticks[]) one of { 3, 11 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "size(this.ticks[]) one of { 3, 11 }",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks[] == orig(this.ticks[])"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks[].getClass().getName() one of { [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick], [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick] }",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "size(this.ticks[]) one of { 3, 11 }",
+                                    "this.cursor == orig(this.cursor)",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks[] == orig(this.ticks[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cursorDown(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.ticks[] contains no nulls and has only one value, of length 11",
+                                    "this.ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "size(this.ticks[]) one of { 0, 11, 23 }",
+                                    "this.ticks has only one value",
+                                    "units one of { 17.96875, 22.296875 }",
+                                    "this.cursor one of { 55.734375, 73.703125 }",
+                                    "size(this.ticks[]) == 11"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.ticks[] contains no nulls and has only one value, of length 11",
+                                    "this.ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "size(this.ticks[]) one of { 0, 11, 23 }",
+                                    "this.ticks has only one value",
+                                    "units one of { 17.96875, 22.296875 }",
+                                    "this.cursor one of { 55.734375, 73.703125 }",
+                                    "size(this.ticks[]) == 11"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "size(this.ticks[]) == 11",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "this.ticks[] contains no nulls and has only one value, of length 11",
+                                    "this.ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "this.cursor one of { 73.703125, 96.0 }",
+                                    "size(this.ticks[]) one of { 0, 11, 23 }",
+                                    "this.ticks has only one value",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "this.cursor > orig(this.cursor)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.ticks[]) == 11",
+                                    "this.ticks.getClass().getName() == orig(this.ticks.getClass().getName())",
+                                    "this.ticks[] contains no nulls and has only one value, of length 11",
+                                    "this.ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "this.cursor one of { 73.703125, 96.0 }",
+                                    "size(this.ticks[]) one of { 0, 11, 23 }",
+                                    "this.ticks has only one value",
+                                    "this.max == orig(this.max)",
+                                    "this.ticks == orig(this.ticks)",
+                                    "this.ticks[] == orig(this.ticks[])",
+                                    "this.cursor > orig(this.cursor)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AxisState()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.cursor == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.ticks[] == []",
+                                    "this.ticks[].getClass().getName() == []",
+                                    "this.cursor == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

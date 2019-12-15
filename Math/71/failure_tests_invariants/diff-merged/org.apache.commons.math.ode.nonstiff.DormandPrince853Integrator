@@ -1,0 +1,237 @@
+{
+    "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator": [
+        {
+            "getOrder()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.equations.getClass().getName() == orig(this.equations.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.equations.getClass().getName() == orig(this.equations.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.equations.getClass().getName() == orig(this.equations.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DormandPrince853Integrator(double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.prototype.finalized == false",
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.prototype.finalized == false",
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.prototype.finalized == false",
+                                    "this.eventsHandlersManager.states[] == []",
+                                    "this.eventsHandlersManager.states[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "estimateError(double[][], double[], double[], double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "y0[] sorted by <",
+                                    "h one of { 20.0, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.0060180356223287, 2.0012003599861288, 3.0001800053872327], [1.0161286849700197, 2.003202561279912, 3.0004800383891714] }",
+                                    "this.stepSize one of { 20.0, 60.0, 100.0 }",
+                                    "this.stepSize one of { 19.999995708465576, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.006018036054065, 2.0012003600720107, 3.000180005400108], [1.016128685406095, 2.0032025613658795, 3.0004800384020482] }",
+                                    "y1[] sorted by <",
+                                    "h one of { 19.999995708465576, 60.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "yDotK[] contains no nulls and has only one value, of length 13",
+                                    "y1 has only one value",
+                                    "yDotK has only one value",
+                                    "h one of { 60.0, 100.0 }",
+                                    "this.stepSize one of { 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.0060180351666073, 2.001200359895475, 3.000180005373642] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "y0[] sorted by <",
+                                    "h one of { 20.0, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.0060180356223287, 2.0012003599861288, 3.0001800053872327], [1.0161286849700197, 2.003202561279912, 3.0004800383891714] }",
+                                    "this.stepSize one of { 20.0, 60.0, 100.0 }",
+                                    "this.stepSize one of { 19.999995708465576, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.006018036054065, 2.0012003600720107, 3.000180005400108], [1.016128685406095, 2.0032025613658795, 3.0004800384020482] }",
+                                    "y1[] sorted by <",
+                                    "h one of { 19.999995708465576, 60.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y0[] sorted by <",
+                                    "h one of { 20.0, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.0060180356223287, 2.0012003599861288, 3.0001800053872327], [1.0161286849700197, 2.003202561279912, 3.0004800383891714] }",
+                                    "this.stepSize one of { 20.0, 60.0, 100.0 }",
+                                    "this.stepSize one of { 19.999995708465576, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.006018036054065, 2.0012003600720107, 3.000180005400108], [1.016128685406095, 2.0032025613658795, 3.0004800384020482] }",
+                                    "y1[] sorted by <",
+                                    "h one of { 19.999995708465576, 60.0, 100.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "y0[] sorted by <",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.0060180356223287, 2.0012003599861288, 3.0001800053872327], [1.0161286849700197, 2.003202561279912, 3.0004800383891714] }",
+                                    "this.stepSize one of { 20.0, 60.0, 100.0 }",
+                                    "this.stepSize one of { 19.999995708465576, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.006018036054065, 2.0012003600720107, 3.000180005400108], [1.016128685406095, 2.0032025613658795, 3.0004800384020482] }",
+                                    "y1[] sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "yDotK[] contains no nulls and has only one value, of length 13",
+                                    "this.stepSize one of { 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.0060180351666073, 2.001200359895475, 3.000180005373642] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "y0[] sorted by <",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.0060180356223287, 2.0012003599861288, 3.0001800053872327], [1.0161286849700197, 2.003202561279912, 3.0004800383891714] }",
+                                    "this.stepSize one of { 20.0, 60.0, 100.0 }",
+                                    "this.stepSize one of { 19.999995708465576, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.006018036054065, 2.0012003600720107, 3.000180005400108], [1.016128685406095, 2.0032025613658795, 3.0004800384020482] }",
+                                    "y1[] sorted by <"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y0[] sorted by <",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.0060180356223287, 2.0012003599861288, 3.0001800053872327], [1.0161286849700197, 2.003202561279912, 3.0004800383891714] }",
+                                    "this.stepSize one of { 20.0, 60.0, 100.0 }",
+                                    "this.stepSize one of { 19.999995708465576, 60.0, 100.0 }",
+                                    "y0[] one of { [1.0, 2.0, 3.0], [1.006018036054065, 2.0012003600720107, 3.000180005400108], [1.016128685406095, 2.0032025613658795, 3.0004800384020482] }",
+                                    "y1[] sorted by <"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

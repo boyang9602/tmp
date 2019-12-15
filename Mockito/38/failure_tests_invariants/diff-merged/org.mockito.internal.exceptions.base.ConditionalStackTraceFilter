@@ -1,0 +1,87 @@
+{
+    "org.mockito.internal.exceptions.base.ConditionalStackTraceFilter": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.filter has only one value",
+                            "this.config has only one value",
+                            "this has only one value",
+                            "this.config.getClass().getName() == org.mockito.internal.configuration.GlobalConfiguration.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "filter(java.lang.Throwable)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "throwable has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.filter == orig(this.filter)",
+                                    "this.config.getClass().getName() == orig(this.config.getClass().getName())",
+                                    "this.config == orig(this.config)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "17": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ConditionalStackTraceFilter()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

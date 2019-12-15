@@ -1,0 +1,547 @@
+{
+    "org.jfree.chart.plot.CategoryPlot": [
+        {
+            "getCategoriesForAxis(org.jfree.chart.axis.CategoryAxis)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return[].getClass().getName() == []",
+                                    "return[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return[]) == 2",
+                                    "return[].getClass().getName() == [java.lang.String, java.lang.String]",
+                                    "return[] contains no nulls and has only one value, of length 2",
+                                    "return[].getClass().getName() elements == java.lang.String.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRangeAxisLocation(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.backgroundRangeMarkers != null",
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.domainGridlinePosition != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "this.domainGridlinePaint != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "this.annotations != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.domainGridlinePosition != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "org.jfree.chart.axis.AxisLocation.BOTTOM_OR_RIGHT.name != null",
+                                    "org.jfree.chart.axis.AxisLocation.TOP_OR_RIGHT.name != null",
+                                    "this.domainGridlinePaint != null",
+                                    "return != null",
+                                    "org.jfree.chart.axis.AxisLocation.BOTTOM_OR_LEFT.name != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "org.jfree.chart.axis.AxisLocation.TOP_OR_LEFT != null",
+                                    "return.name != null",
+                                    "org.jfree.chart.axis.AxisLocation.TOP_OR_LEFT.name != null",
+                                    "org.jfree.chart.axis.AxisLocation.TOP_OR_RIGHT != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.backgroundRangeMarkers != null",
+                                    "org.jfree.chart.axis.AxisLocation.BOTTOM_OR_LEFT != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "org.jfree.chart.axis.AxisLocation.BOTTOM_OR_RIGHT != null",
+                                    "this.annotations != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateDomainAxisSpace(java.awt.Graphics2D, java.awt.geom.Rectangle2D, org.jfree.chart.axis.AxisSpace)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "space.bottom == 23.96875",
+                                    "return.bottom == 23.96875"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.bottom == 39.609375",
+                                    "space.bottom == 39.609375"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRangeAxis()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.backgroundRangeMarkers != null",
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.domainGridlinePosition != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "this.domainGridlinePaint != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "this.annotations != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.tickMarkPaint != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS.unitType != null",
+                                    "this.foregroundDomainMarkers != null",
+                                    "return.tickLabelPaint != null",
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.domainGridlinePosition != null",
+                                    "return.plot.backgroundPaint != null",
+                                    "return.plot.listenerList != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "return.listenerList != null",
+                                    "return.tickMarkStroke != null",
+                                    "return.tickLabelFont != null",
+                                    "return.plot.insets != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_STROKE != null",
+                                    "org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE != null",
+                                    "return.defaultAutoRange != null",
+                                    "return.plot.outlineStroke != null",
+                                    "return.tickLabelInsets != null",
+                                    "return.labelInsets != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS.unitType != null",
+                                    "return.range != null",
+                                    "return.plot.noDataMessageFont != null",
+                                    "return.leftArrow != null",
+                                    "return.tickLabelInsets.unitType != null",
+                                    "this.domainGridlinePaint != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_INSETS != null",
+                                    "return.plot.noDataMessagePaint != null",
+                                    "return.labelFont != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_MARK_PAINT != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_FONT != null",
+                                    "return != null",
+                                    "org.jfree.chart.axis.Axis.class$org$jfree$chart$event$AxisChangeListener != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "return.plot != null",
+                                    "return.labelInsets.unitType != null",
+                                    "return.axisLinePaint != null",
+                                    "return.downArrow != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_STROKE != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "return.labelPaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_PAINT != null",
+                                    "return.label != null",
+                                    "this.backgroundRangeMarkers != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_INSETS != null",
+                                    "return.upArrow != null",
+                                    "return.axisLineStroke != null",
+                                    "return.plot.drawingSupplier != null",
+                                    "return.plot.outlinePaint != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "return.standardTickUnits != null",
+                                    "org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT != null",
+                                    "this.annotations != null",
+                                    "return.rightArrow != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateAxisSpace(java.awt.Graphics2D, java.awt.geom.Rectangle2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.bottom == 23.96875"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.bottom == 39.609375"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawRangeGridlines(java.awt.Graphics2D, java.awt.geom.Rectangle2D, java.util.List)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "ticks[] contains no nulls and has only one value, of length 9",
+                                    "size(ticks[]) == 9",
+                                    "ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "ticks[] contains no nulls and has only one value, of length 3",
+                                    "size(ticks[]) == 3"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "ticks[] contains no nulls and has only one value, of length 9"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "ticks[].getClass().getName() == [org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick, org.jfree.chart.axis.NumberTick]",
+                                    "ticks[] contains no nulls and has only one value, of length 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "render(java.awt.Graphics2D, java.awt.geom.Rectangle2D, int, org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == true"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLegendItems()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return.items[].getClass().getName() == []",
+                                    "return.items[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                                    "return.items[].getClass().getName() == [org.jfree.chart.LegendItem]",
+                                    "size(return.items[]) == 1",
+                                    "return.items[] elements has only one value",
+                                    "return.items[] contains no nulls and has only one value, of length 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRenderer()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.backgroundRangeMarkers != null",
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.domainGridlinePosition != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "this.domainGridlinePaint != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "this.annotations != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.backgroundRangeMarkers != null",
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.domainGridlinePosition != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "this.domainGridlinePaint != null",
+                                    "return != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "this.annotations != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRangeAxisEdge(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.backgroundRangeMarkers != null",
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.domainGridlinePosition != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "this.domainGridlinePaint != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "this.annotations != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.foregroundDomainMarkers != null",
+                                    "this.backgroundDomainMarkers != null",
+                                    "this.domainGridlineStroke != null",
+                                    "this.rangeCrosshairStroke != null",
+                                    "this.domainGridlinePosition != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT.name != null",
+                                    "this.rangeCrosshairPaint != null",
+                                    "this.domainGridlinePaint != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM != null",
+                                    "org.jfree.chart.util.RectangleEdge.LEFT != null",
+                                    "return != null",
+                                    "this.foregroundRangeMarkers != null",
+                                    "return.name != null",
+                                    "org.jfree.chart.util.RectangleEdge.TOP.name != null",
+                                    "this.rangeGridlinePaint != null",
+                                    "org.jfree.chart.plot.Plot.class$org$jfree$chart$event$PlotChangeListener != null",
+                                    "this.backgroundRangeMarkers != null",
+                                    "this.rangeGridlineStroke != null",
+                                    "org.jfree.chart.util.RectangleEdge.RIGHT != null",
+                                    "org.jfree.chart.util.RectangleEdge.BOTTOM.name != null",
+                                    "this.annotations != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

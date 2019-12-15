@@ -1,0 +1,62 @@
+{
+    "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer": [
+        {
+            "optimize(org.apache.commons.math.optimization.linear.LinearObjectiveFunction, java.util.Collection, org.apache.commons.math.optimization.GoalType, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch65.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch67.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch66.inv.output": {
+                                "invs": [
+                                    "this.iterations >= 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

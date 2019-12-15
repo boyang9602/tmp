@@ -1,0 +1,246 @@
+{
+    "org.jfree.data.Range": [
+        {
+            "getUpperBound()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lower one of { 0.0, 1.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 1.0, 3.0, 200.0 }",
+                                    "this.lower one of { 0.0, 1.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lower one of { 0.0, 1.0, 100.0 }",
+                                    "return >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 1.0, 3.0, 200.0 }",
+                                    "this.upper one of { 1.0, 3.0, 200.0 }",
+                                    "this.lower one of { 0.0, 1.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return >= 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLowerBound()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lower one of { 0.0, 1.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 1.0, 3.0, 200.0 }",
+                                    "this.lower one of { 0.0, 1.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "return >= 0.0",
+                                    "return one of { 0.0, 1.0, 100.0 }",
+                                    "this.lower one of { 0.0, 1.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.upper one of { 1.0, 3.0, 200.0 }",
+                                    "return one of { 0.0, 1.0, 100.0 }",
+                                    "this.lower one of { 0.0, 1.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "combine(org.jfree.data.Range, org.jfree.data.Range)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "range2.upper one of { 3.5, 200.0, 1.576655999999E12 }",
+                                    "range2.lower one of { 0.5, 100.0, 1.5764832E12 }",
+                                    "range2.lower >= 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "range2.lower one of { 0.5, 100.0, 1.5758784E12 }",
+                                    "range2.upper one of { 3.5, 200.0, 1.576051199999E12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "range2.upper one of { 3.5, 200.0, 1.576655999999E12 }",
+                                    "range2.lower one of { 0.5, 100.0, 1.5764832E12 }",
+                                    "range2.lower >= 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "range2.upper one of { 3.5, 200.0, 1.576655999999E12 }",
+                                    "return.lower one of { 0.5, 100.0, 1.5764832E12 }",
+                                    "range2.lower >= 0.5",
+                                    "return.upper one of { 3.5, 200.0, 1.576655999999E12 }",
+                                    "return.lower >= 0.5",
+                                    "range2.lower one of { 0.5, 100.0, 1.5764832E12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "range2.upper one of { 3.5, 200.0, 1.576051199999E12 }",
+                                    "return.upper one of { 3.5, 200.0, 1.576051199999E12 }",
+                                    "return.lower one of { 0.5, 100.0, 1.5758784E12 }",
+                                    "range2.lower one of { 0.5, 100.0, 1.5758784E12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "range2.upper one of { 3.5, 200.0, 1.576655999999E12 }",
+                                    "return.lower one of { 0.5, 100.0, 1.5764832E12 }",
+                                    "range2.lower >= 0.5",
+                                    "return.upper one of { 3.5, 200.0, 1.576655999999E12 }",
+                                    "return.lower >= 0.5",
+                                    "range2.lower one of { 0.5, 100.0, 1.5764832E12 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "215": [
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Range(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "upper >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

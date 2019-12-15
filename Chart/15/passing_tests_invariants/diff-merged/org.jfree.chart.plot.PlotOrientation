@@ -1,0 +1,63 @@
+{
+    "org.jfree.chart.plot.PlotOrientation": [
+        {
+            "CLASS": [
+                {
+                    "Patch12.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch12.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"PlotOrientation.HORIZONTAL\", \"PlotOrientation.VERTICAL\" }"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "PlotOrientation(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"PlotOrientation.HORIZONTAL\", \"PlotOrientation.VERTICAL\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch12.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"PlotOrientation.HORIZONTAL\", \"PlotOrientation.VERTICAL\" }",
+                                    "name.toString == orig(name.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

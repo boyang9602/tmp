@@ -1,0 +1,91 @@
+{
+    "org.apache.commons.math3.geometry.euclidean.twod.Vector2D": [
+        {
+            "getX()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": [
+                                    "this.x one of { -Infinity, 0.0, 66.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.x one of { 0.0, 66.0 }",
+                                    "this.y >= 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": [
+                                    "return one of { -Infinity, 0.0, 66.0 }",
+                                    "this.x one of { -Infinity, 0.0, 66.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.x one of { 0.0, 66.0 }",
+                                    "this.y >= 1.0",
+                                    "return one of { 0.0, 66.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getY()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": [
+                                    "this.x one of { -Infinity, 0.0, 66.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.x one of { 0.0, 66.0 }",
+                                    "this.y >= 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": [
+                                    "this.x one of { -Infinity, 0.0, 66.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.x one of { 0.0, 66.0 }",
+                                    "return >= 1.0",
+                                    "this.y >= 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

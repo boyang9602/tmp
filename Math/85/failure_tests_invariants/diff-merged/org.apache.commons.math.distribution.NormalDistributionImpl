@@ -1,0 +1,212 @@
+{
+    "org.apache.commons.math.distribution.NormalDistributionImpl": [
+        {
+            "cumulativeProbability(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch71.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 2.0, 1.7976931348623157E308 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch204.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch70.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch174.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch71.inv.output": {
+                                "invs": [
+                                    "return one of { 0.5, 0.9772498680518209 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 0.5, 0.9772498680518209, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": {
+                                "invs": [
+                                    "return one of { 0.5, 0.9772498680518209 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch204.inv.output": {
+                                "invs": [
+                                    "return one of { 0.5, 0.9772498680518209 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch70.inv.output": {
+                                "invs": [
+                                    "return one of { 0.5, 0.9772498680518209 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { 0.5, 0.9772498680518209 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch174.inv.output": {
+                                "invs": [
+                                    "return one of { 0.5, 0.9772498680518209 }"
+                                ]
+                            }
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": {
+                                "invs": [
+                                    "return one of { 0.5, 0.9772498680518209 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "126": [
+                                {
+                                    "Patch71.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return one of { 0.5, 0.9772498680518209 }",
+                                            "orig(x) one of { 0.0, 2.0 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch72.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch204.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch70.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch174.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "PatchHDRepair9.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "132": [
+                                {
+                                    "Patch71.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == 1.0",
+                                            "orig(x) == 1.7976931348623157E308"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch72.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch204.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch70.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch174.inv.output": "N/A"
+                                },
+                                {
+                                    "PatchHDRepair9.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

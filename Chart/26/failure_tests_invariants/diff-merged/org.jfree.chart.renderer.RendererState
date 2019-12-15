@@ -1,0 +1,167 @@
+{
+    "org.jfree.chart.renderer.RendererState": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.info.dataArea != null",
+                            "this.info.plotArea != null",
+                            "this.info.dataArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                            "this.info.subplotInfo.getClass().getName() == java.util.ArrayList.class",
+                            "this.info.plotArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                            "this.info.owner == null",
+                            "this.info.subplotInfo[].getClass().getName() == []",
+                            "this.info != null",
+                            "this.info.subplotInfo[] == []",
+                            "this.info.subplotInfo != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "RendererState(org.jfree.chart.plot.PlotRenderingInfo)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "info.owner == null",
+                                    "info.dataArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "info.dataArea != null",
+                                    "info.subplotInfo != null",
+                                    "info.subplotInfo[] == []",
+                                    "info.plotArea != null",
+                                    "info.subplotInfo[].getClass().getName() == []",
+                                    "info.plotArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "info.subplotInfo.getClass().getName() == java.util.ArrayList.class",
+                                    "info != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "info.owner == null",
+                                    "info.subplotInfo == orig(info.subplotInfo)",
+                                    "info.dataArea != null",
+                                    "info.dataArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "info.subplotInfo.getClass().getName() == orig(info.subplotInfo.getClass().getName())",
+                                    "info.plotArea != null",
+                                    "info.subplotInfo != null",
+                                    "info.subplotInfo[].getClass().getName() == []",
+                                    "info.subplotInfo[] == []",
+                                    "info.plotArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "info.owner == orig(info.owner)",
+                                    "info.subplotInfo.getClass().getName() == java.util.ArrayList.class",
+                                    "info.plotArea.getClass().getName() == orig(info.plotArea.getClass().getName())",
+                                    "info.dataArea == orig(info.dataArea)",
+                                    "info.plotArea == orig(info.plotArea)",
+                                    "info.subplotInfo[] == orig(info.subplotInfo[])",
+                                    "info.dataArea.getClass().getName() == orig(info.dataArea.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEntityCollection()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.info.subplotInfo[] == orig(this.info.subplotInfo[])",
+                                    "this.info.plotArea == orig(this.info.plotArea)",
+                                    "this.info.dataArea.getClass().getName() == orig(this.info.dataArea.getClass().getName())",
+                                    "this.info.dataArea == orig(this.info.dataArea)",
+                                    "this.info.subplotInfo == orig(this.info.subplotInfo)",
+                                    "this.info == orig(this.info)",
+                                    "this.info.owner == orig(this.info.owner)",
+                                    "return == null",
+                                    "this.info.subplotInfo.getClass().getName() == orig(this.info.subplotInfo.getClass().getName())",
+                                    "this.info.plotArea.getClass().getName() == orig(this.info.plotArea.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getInfo()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.subplotInfo.getClass().getName() == java.util.ArrayList.class",
+                                    "this.info.subplotInfo[] == orig(this.info.subplotInfo[])",
+                                    "this.info.dataArea.getClass().getName() == orig(this.info.dataArea.getClass().getName())",
+                                    "this.info.plotArea == orig(this.info.plotArea)",
+                                    "return.subplotInfo[] == []",
+                                    "return.plotArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "return.dataArea.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "this.info.plotArea.getClass().getName() == orig(this.info.plotArea.getClass().getName())",
+                                    "return.subplotInfo[].getClass().getName() == []",
+                                    "this.info == orig(this.info)",
+                                    "this.info.subplotInfo == orig(this.info.subplotInfo)",
+                                    "return.owner == null",
+                                    "this.info.dataArea == orig(this.info.dataArea)",
+                                    "this.info.subplotInfo.getClass().getName() == orig(this.info.subplotInfo.getClass().getName())",
+                                    "this.info.owner == orig(this.info.owner)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "org.apache.commons.math.exception.NotStrictlyPositiveException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch200.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.specific.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.min.getClass().getName() == java.lang.Integer.class",
+                            "this.boundIsAllowed == false",
+                            "this.arguments has only one value",
+                            "this.arguments[] contains no nulls and has only one value, of length 2",
+                            "this.argument.getClass().getName() == java.lang.Double.class",
+                            "size(this.arguments[]) == 2",
+                            "this has only one value",
+                            "this.arguments[].getClass().getName() == [null, java.lang.Integer]",
+                            "this.arguments[] has only one value, of length 2",
+                            "this.specific has only one value",
+                            "this.argument == null",
+                            "this.specific == null",
+                            "this.min has only one value",
+                            "this.argument has only one value",
+                            "this.arguments[].getClass().getName() == [java.lang.Double, java.lang.Integer]",
+                            "this.general has only one value",
+                            "this.general.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch200.inv.output": {
+                        "invs": [
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.specific.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.min.getClass().getName() == java.lang.Integer.class",
+                            "this.boundIsAllowed == false",
+                            "this.arguments has only one value",
+                            "this.arguments[] contains no nulls and has only one value, of length 2",
+                            "this.argument.getClass().getName() == java.lang.Double.class",
+                            "size(this.arguments[]) == 2",
+                            "this has only one value",
+                            "this.arguments[].getClass().getName() == [null, java.lang.Integer]",
+                            "this.arguments[] has only one value, of length 2",
+                            "this.specific has only one value",
+                            "this.argument == null",
+                            "this.specific == null",
+                            "this.min has only one value",
+                            "this.argument has only one value",
+                            "this.arguments[].getClass().getName() == [java.lang.Double, java.lang.Integer]",
+                            "this.general has only one value",
+                            "this.general.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NotStrictlyPositiveException(org.apache.commons.math.exception.util.Localizable, java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "value has only one value",
+                                    "value.getClass().getName() == java.lang.Double.class",
+                                    "specific.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "specific has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NotStrictlyPositiveException(java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "value == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,756 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexTableau": [
+        {
+            "getSolution()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) == 4",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "size(this.columnLabels[]) == 5",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 4",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) == 4",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 4"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) == 5",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 5"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 0.0",
+                                    "return.point[] == [0.0, 0.0]",
+                                    "size(this.columnLabels[]) == 4",
+                                    "return.point[] elements one of { 0.0, 1.0 }",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "return.point[] == [1.0, 0.0]",
+                                    "size(this.columnLabels[]) == 5",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 4",
+                                    "return.value == 1.0",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.point[] == [1.0, -1.0]",
+                                    "size(this.columnLabels[]) == 4",
+                                    "return.value == 0.0",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 4",
+                                    "return.point[] elements one of { -1.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 0.0",
+                                    "return.point[] == [0.0, 0.0]",
+                                    "return.value == 0.0",
+                                    "return.point[] elements one of { 0.0, 1.0 }",
+                                    "return.point[] == [1.0, 0.0]",
+                                    "size(this.columnLabels[]) == 5",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "return.value == 1.0",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 5"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "divideRow(int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }",
+                                    "dividendRow one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tableau has only one value",
+                                    "size(this.columnLabels[]) == 6",
+                                    "dividendRow == 2",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.numArtificialVariables == 1",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tableau has only one value",
+                                    "size(this.columnLabels[]) == 6",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.numArtificialVariables == 1",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 6"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtractRow(int, int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }",
+                                    "subtrahendRow one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tableau has only one value",
+                                    "size(this.columnLabels[]) == 6",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.numArtificialVariables == 1",
+                                    "subtrahendRow == 2",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.tableau has only one value",
+                                    "size(this.columnLabels[]) == 6",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.numArtificialVariables == 1",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 6"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getNumObjectiveFunctions()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) one of { 0, 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) one of { 0, 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) one of { 0, 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) one of { 0, 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isOptimal()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "this.tableau has only one value",
+                                    "(return == false)  ==>  (this.tableau has only one value)",
+                                    "(return == false)  ==>  (this.columnLabels[] contains no nulls and has only one value, of length 6)",
+                                    "(return == false)  ==>  (size(this.columnLabels[]) == 6)",
+                                    "size(this.columnLabels[]) == 6",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 6",
+                                    "(return == false)  ==>  (this.numArtificialVariables == 1)",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "(return == true)  ==>  (this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] })",
+                                    "size(this.columnLabels[]) one of { 4, 6 }",
+                                    "this.numArtificialVariables == 1",
+                                    "(return == false)  ==>  (this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String])",
+                                    "(return == true)  ==>  (size(this.columnLabels[]) one of { 4, 6 })",
+                                    "(return == true)  ==>  (this.numArtificialVariables one of { 0, 1 })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "385": [
+                                {
+                                    "Patch163.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.tableau has only one value",
+                                            "size(this.columnLabels[]) == 6",
+                                            "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                            "this.numArtificialVariables == 1",
+                                            "return == false",
+                                            "this.columnLabels[] contains no nulls and has only one value, of length 6"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "388": [
+                                {
+                                    "Patch163.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "387": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "390": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getBasicRow(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "(return has only one value)  ==>  (this.numArtificialVariables == 0)",
+                                    "(return == null)  ==>  (size(this.columnLabels[]) one of { 5, 6 })",
+                                    "(return has only one value)  <==>  (orig(col) == 2)",
+                                    "(return == null)  ==>  (this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] })",
+                                    "(return == null)  ==>  (this.numArtificialVariables one of { 0, 1 })",
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "(return has only one value)  ==>  (this.tableau has only one value)",
+                                    "size(this.columnLabels[]) one of { 5, 6 }",
+                                    "(return has only one value)  ==>  (this.columnLabels[] contains no nulls and has only one value, of length 5)",
+                                    "(return == null)  <==>  (orig(col) one of { 1, 4 })",
+                                    "(return has only one value)  ==>  (size(this.columnLabels[]) == 5)",
+                                    "(return has only one value)  ==>  (this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 6)  <==>  (this.numArtificialVariables == 1)",
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 4)  <==>  (size(this.columnLabels[]) == 4)",
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 6)  <==>  (this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String])",
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 4)  <==>  (orig(col) one of { 1, 2 })",
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 4)  <==>  (this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String])",
+                                    "size(this.columnLabels[]) one of { 4, 6 }",
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 4)  <==>  (this.numArtificialVariables == 0)",
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 6)  <==>  (orig(col) == 4)",
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 6)  ==>  (return == null)",
+                                    "(this.columnLabels[] contains no nulls and has only one value, of length 6)  <==>  (size(this.columnLabels[]) == 6)",
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "317": [
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": [
+                                            "orig(col) one of { 1, 4 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.tableau has only one value",
+                                            "size(this.columnLabels[]) == 6",
+                                            "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                            "this.numArtificialVariables == 1",
+                                            "orig(col) == 4",
+                                            "this.columnLabels[] contains no nulls and has only one value, of length 6"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "320": [
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": [
+                                            "orig(col) == 2",
+                                            "size(this.columnLabels[]) == 5",
+                                            "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                            "this.columnLabels[] contains no nulls and has only one value, of length 5",
+                                            "return has only one value"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "size(this.columnLabels[]) == 4",
+                                            "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                            "orig(col) one of { 1, 2 }",
+                                            "this.columnLabels[] contains no nulls and has only one value, of length 4"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWidth()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }",
+                                    "return one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "return one of { 4, 6 }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRhsOffset()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }",
+                                    "return one of { 4, 5 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 3, 5 }",
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEntry(int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }",
+                                    "column >= 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getOriginalNumDecisionVariables()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) one of { 2, 3, 4 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) one of { 2, 3, 4 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getHeight()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "size(this.columnLabels[]) one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dropPhase1Objective()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) == orig(size(this.columnLabels[]))-1",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.columnLabels[]) == 4",
+                                    "this.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.columnLabels[] contains no nulls and has only one value, of length 4"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "367": [
+                                {
+                                    "Patch163.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "369": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

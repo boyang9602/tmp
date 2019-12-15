@@ -1,0 +1,510 @@
+{
+    "org.jfree.chart.text.TextBlock": [
+        {
+            "calculateDimensions(java.awt.Graphics2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "size(this.lines[]) one of { 1, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "return.height one of { 13.96875, 20.953125 }",
+                                    "size(this.lines[]) == 1",
+                                    "return.height one of { 11.640625, 13.96875, 20.953125 }",
+                                    "return.width one of { 44.0, 59.0, 93.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) one of { 1, 3 }",
+                                    "this.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "return.height one of { 13.96875, 20.953125 }",
+                                    "size(this.lines[]) == 1",
+                                    "return.height one of { 11.640625, 13.96875, 20.953125 }",
+                                    "return.width one of { 44.0, 59.0, 93.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addLine(java.lang.String, java.awt.Font, java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.lines[] == []",
+                                    "this.lines[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "font != null",
+                                    "size(this.lines[]) one of { 0, 1, 2 }",
+                                    "paint != null",
+                                    "text != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.lines[] == []",
+                                    "this.lines[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) one of { 1, 2, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, float, float, org.jfree.chart.text.TextBlockAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "y one of { 1.0, 61.0625, 81.03125 }",
+                                    "x one of { 17.0, 94.0, 100.0 }",
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "g2 != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name != null",
+                                    "anchor.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name != null",
+                                    "this.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "size(this.lines[]) one of { 1, 3 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER != null",
+                                    "anchor != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "y one of { 1.0, 61.0625, 81.03125 }",
+                                    "x one of { 17.0, 94.0, 100.0 }",
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name != null",
+                                    "anchor.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name != null",
+                                    "this.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "size(this.lines[]) one of { 1, 3 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, float, float, org.jfree.chart.text.TextBlockAnchor, float, float, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "anchorX one of { 17.0, 94.0, 100.0 }",
+                                    "size(this.lines[]) == 1",
+                                    "anchorY one of { 1.0, 61.0625, 81.03125 }",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "g2 != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name != null",
+                                    "anchor.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name != null",
+                                    "this.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "size(this.lines[]) one of { 1, 3 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER != null",
+                                    "anchor != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "anchorX one of { 17.0, 94.0, 100.0 }",
+                                    "size(this.lines[]) == 1",
+                                    "anchorY one of { 1.0, 61.0625, 81.03125 }",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name != null",
+                                    "anchor.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name != null",
+                                    "this.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "size(this.lines[]) one of { 1, 3 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addLine(org.jfree.chart.text.TextLine)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.lines[] == []",
+                                    "this.lines[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "line != null",
+                                    "size(this.lines[]) one of { 0, 1, 2 }",
+                                    "line.fragments != null",
+                                    "line.fragments[] elements != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.lines[] == []",
+                                    "this.lines[].getClass().getName() == []"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "size(this.lines[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) one of { 1, 2, 3 }",
+                                    "line.fragments != null",
+                                    "line.fragments[] elements != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                                    "size(this.lines[]) == 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateOffsets(org.jfree.chart.text.TextBlockAnchor, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "height one of { 11.640625, 13.96875, 20.953125 }",
+                                    "width one of { 44.0, 59.0, 93.0 }",
+                                    "height one of { 13.96875, 20.953125 }",
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name != null",
+                                    "anchor.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name != null",
+                                    "this.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "size(this.lines[]) one of { 1, 3 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER != null",
+                                    "anchor != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "height one of { 11.640625, 13.96875, 20.953125 }",
+                                    "width one of { 44.0, 59.0, 93.0 }",
+                                    "height one of { 13.96875, 20.953125 }",
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "return[] sorted by <=",
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT.name != null",
+                                    "return[] sorted by <=",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER.name != null",
+                                    "anchor.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER_LEFT.name != null",
+                                    "this.lines[].getClass().getName() one of { [org.jfree.chart.text.TextLine], [org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine, org.jfree.chart.text.TextLine] }",
+                                    "size(this.lines[]) one of { 1, 3 }",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_LEFT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_CENTER != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_RIGHT != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.CENTER != null",
+                                    "return != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.BOTTOM_LEFT.name != null",
+                                    "org.jfree.chart.text.TextBlockAnchor.TOP_RIGHT != null"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "size(this.lines[]) == 1",
+                                    "this.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

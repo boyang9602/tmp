@@ -1,0 +1,94 @@
+{
+    "org.apache.commons.math.MaxIterationsExceededException": [
+        {
+            "CLASS": [
+                {
+                    "Patch69.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch68.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch69.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.arguments has only one value",
+                            "this has only one value",
+                            "this.arguments[].getClass().getName() elements == java.lang.Integer.class",
+                            "this.arguments[].getClass().getName() == [java.lang.Integer]",
+                            "size(this.arguments[]) == 1",
+                            "this.pattern.toString == \"Maximal number of iterations ({0}) exceeded\"",
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.maxIterations == 100",
+                            "this.arguments[] contains no nulls and has only one value, of length 1",
+                            "this.pattern has only one value",
+                            "this.arguments[] elements has only one value"
+                        ]
+                    }
+                },
+                {
+                    "Patch68.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "MaxIterationsExceededException(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "maxIterations == 100"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

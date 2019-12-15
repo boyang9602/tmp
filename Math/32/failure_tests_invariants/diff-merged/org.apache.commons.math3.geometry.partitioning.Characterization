@@ -1,0 +1,95 @@
+{
+    "org.apache.commons.math3.geometry.partitioning.Characterization": [
+        {
+            "hasOut()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.out != null",
+                                    "this.in == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.in.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.in == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(this.out == null)  ==>  (orig(this) has only one value)",
+                                    "(this.out != null)  <==>  (return == true)",
+                                    "this.in.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class",
+                                    "(this.out == null)  <==>  (return == false)",
+                                    "return == false",
+                                    "this.in.getClass().getName() == orig(this.in.getClass().getName())",
+                                    "(this.out == null)  ==>  (this.in has only one value)",
+                                    "this.out == null",
+                                    "this.in has only one value",
+                                    "orig(this) has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getOut()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.in == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.in.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.in == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.in.getClass().getName() == orig(this.in.getClass().getName())",
+                                    "this.in.getClass().getName() == org.apache.commons.math3.geometry.euclidean.threed.SubPlane.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

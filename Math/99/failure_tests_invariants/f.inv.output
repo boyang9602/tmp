@@ -1,0 +1,136 @@
+===========================================================================
+org.apache.commons.math.MathRuntimeException$1:::CLASS
+===========================================================================
+org.apache.commons.math.MathRuntimeException$1:::OBJECT
+this.val$pattern has only one value
+this.val$pattern.toString == "overflow: gcd({0}, {1}) is 2^31"
+this.val$arguments.getClass().getName() == java.lang.Object[].class
+this.val$arguments[].getClass().getName() == [java.lang.Integer, java.lang.Integer]
+this.val$arguments[].getClass().getName() elements == java.lang.Integer.class
+size(this.val$arguments[]) == 2
+===========================================================================
+org.apache.commons.math.MathRuntimeException$1.(java.lang.String, java.lang.String, java.lang.Object[]):::ENTER
+x0.toString one of { "overflow: gcd(-2,147,483,648, -2,147,483,648) is 2^31", "overflow: gcd(-2,147,483,648, 0) is 2^31", "overflow: gcd(0, -2,147,483,648) is 2^31" }
+$hidden$2 has only one value
+$hidden$2.toString == "overflow: gcd({0}, {1}) is 2^31"
+$hidden$3.getClass().getName() == java.lang.Object[].class
+size($hidden$3[]) == 2
+===========================================================================
+org.apache.commons.math.MathRuntimeException$1.(java.lang.String, java.lang.String, java.lang.Object[]):::EXIT
+x0.toString == orig(x0.toString)
+$hidden$2.toString == orig($hidden$2.toString)
+$hidden$3[] == orig($hidden$3[])
+x0.toString one of { "overflow: gcd(-2,147,483,648, -2,147,483,648) is 2^31", "overflow: gcd(-2,147,483,648, 0) is 2^31", "overflow: gcd(0, -2,147,483,648) is 2^31" }
+$hidden$2.toString == "overflow: gcd({0}, {1}) is 2^31"
+===========================================================================
+org.apache.commons.math.MathRuntimeException:::CLASS
+org.apache.commons.math.MathRuntimeException.cachedResources == null
+===========================================================================
+org.apache.commons.math.MathRuntimeException.buildMessage(java.lang.String, java.lang.Object[], java.util.Locale):::ENTER
+pattern has only one value
+pattern.toString == "overflow: gcd({0}, {1}) is 2^31"
+arguments.getClass().getName() == java.lang.Object[].class
+locale has only one value
+size(arguments[]) == 2
+===========================================================================
+org.apache.commons.math.MathRuntimeException.buildMessage(java.lang.String, java.lang.Object[], java.util.Locale):::EXIT
+org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)
+pattern.toString == orig(pattern.toString)
+arguments[] == orig(arguments[])
+pattern.toString == "overflow: gcd({0}, {1}) is 2^31"
+return.toString one of { "overflow: gcd(-2,147,483,648, -2,147,483,648) is 2^31", "overflow: gcd(-2,147,483,648, 0) is 2^31", "overflow: gcd(0, -2,147,483,648) is 2^31" }
+===========================================================================
+org.apache.commons.math.MathRuntimeException.createArithmeticException(java.lang.String, java.lang.Object[]):::ENTER
+pattern has only one value
+pattern.toString == "overflow: gcd({0}, {1}) is 2^31"
+arguments.getClass().getName() == java.lang.Object[].class
+size(arguments[]) == 2
+===========================================================================
+org.apache.commons.math.MathRuntimeException.createArithmeticException(java.lang.String, java.lang.Object[]):::EXIT
+org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)
+pattern.toString == orig(pattern.toString)
+arguments[] == orig(arguments[])
+pattern.toString == "overflow: gcd({0}, {1}) is 2^31"
+===========================================================================
+org.apache.commons.math.MathRuntimeException.translate(java.lang.String, java.util.Locale):::ENTER
+s has only one value
+s.toString == "overflow: gcd({0}, {1}) is 2^31"
+locale has only one value
+===========================================================================
+org.apache.commons.math.MathRuntimeException.translate(java.lang.String, java.util.Locale):::EXIT81
+===========================================================================
+org.apache.commons.math.MathRuntimeException.translate(java.lang.String, java.util.Locale):::EXIT
+org.apache.commons.math.MathRuntimeException.cachedResources == orig(org.apache.commons.math.MathRuntimeException.cachedResources)
+s.toString == orig(s.toString)
+s.toString == "overflow: gcd({0}, {1}) is 2^31"
+return has only one value
+return.toString == "overflow: gcd({0}, {1}) is 2^31"
+===========================================================================
+org.apache.commons.math.util.MathUtils:::CLASS
+===========================================================================
+org.apache.commons.math.util.MathUtils.gcd(int, int):::ENTER
+===========================================================================
+org.apache.commons.math.util.MathUtils.gcd(int, int):::EXIT548
+orig(q) one of { -50, 0, 50 }
+===========================================================================
+org.apache.commons.math.util.MathUtils.gcd(int, int):::EXIT596
+return >= 1
+===========================================================================
+org.apache.commons.math.util.MathUtils.gcd(int, int):::EXIT
+===========================================================================
+org.apache.commons.math.util.MathUtils.lcm(int, int):::ENTER
+===========================================================================
+org.apache.commons.math.util.MathUtils.lcm(int, int):::EXIT716
+return == 0
+orig(a) one of { 0, 30 }
+orig(b) one of { 0, 50 }
+===========================================================================
+org.apache.commons.math.util.MathUtils.lcm(int, int):::EXIT722
+===========================================================================
+org.apache.commons.math.util.MathUtils.lcm(int, int):::EXIT
+(return == 0)  ==>  (orig(a) one of { 0, 30 })
+(return == 0)  ==>  (orig(b) one of { 0, 50 })
+return >= 0
+===========================================================================
+org.apache.commons.math.util.MathUtils.mulAndCheck(int, int):::ENTER
+===========================================================================
+org.apache.commons.math.util.MathUtils.mulAndCheck(int, int):::EXIT
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest:::CLASS
+org.apache.commons.math.util.MathUtilsTest.binomialCache has only one value
+org.apache.commons.math.util.MathUtilsTest.binomialCache != null
+org.apache.commons.math.util.MathUtilsTest.binomialCache[] == []
+org.apache.commons.math.util.MathUtilsTest.binomialCache[].getClass().getName() == []
+org.apache.commons.math.util.MathUtilsTest.binomialCache.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest:::OBJECT
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest.MathUtilsTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest.MathUtilsTest(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest.suite():::ENTER
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest.suite():::EXIT
+org.apache.commons.math.util.MathUtilsTest.binomialCache == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache)
+org.apache.commons.math.util.MathUtilsTest.binomialCache[] == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache[])
+org.apache.commons.math.util.MathUtilsTest.binomialCache.getClass().getName() == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache.getClass().getName())
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest.testGcd():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest.testGcd():::EXIT
+org.apache.commons.math.util.MathUtilsTest.binomialCache == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache)
+org.apache.commons.math.util.MathUtilsTest.binomialCache[] == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache[])
+org.apache.commons.math.util.MathUtilsTest.binomialCache.getClass().getName() == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache.getClass().getName())
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest.testLcm():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math.util.MathUtilsTest.testLcm():::EXIT
+org.apache.commons.math.util.MathUtilsTest.binomialCache == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache)
+org.apache.commons.math.util.MathUtilsTest.binomialCache[] == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache[])
+org.apache.commons.math.util.MathUtilsTest.binomialCache.getClass().getName() == orig(org.apache.commons.math.util.MathUtilsTest.binomialCache.getClass().getName())

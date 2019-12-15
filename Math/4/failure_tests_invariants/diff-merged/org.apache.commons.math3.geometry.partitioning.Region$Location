@@ -1,0 +1,50 @@
+{
+    "org.apache.commons.math3.geometry.partitioning.Region$Location": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch155.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "Location(java.lang.String, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch155.inv.output": {
+                                "invs": [
+                                    "$hidden$1.toString one of { \"BOUNDARY\", \"INSIDE\", \"OUTSIDE\" }",
+                                    "$hidden$2 one of { 0, 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch155.inv.output": {
+                                "invs": [
+                                    "$hidden$1.toString == orig($hidden$1.toString)",
+                                    "$hidden$1.toString one of { \"BOUNDARY\", \"INSIDE\", \"OUTSIDE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

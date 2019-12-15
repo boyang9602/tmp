@@ -1,0 +1,60 @@
+{
+    "org.apache.commons.lang.StringEscapeUtils": [
+        {
+            "escapeJavaStyleString(java.lang.String, boolean)": [
+                {
+                    "EXITNN": [
+                        {
+                            "161": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "escapeJava(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.toString == \"String with a slash (/) in it\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.toString == \"String with a slash (\\\\/) in it\""
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

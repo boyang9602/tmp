@@ -1,0 +1,81 @@
+{
+    "org.apache.commons.lang.StringEscapeUtils": [
+        {
+            "escapeJavaStyleString(java.lang.String, boolean)": [
+                {
+                    "EXITNN": [
+                        {
+                            "156": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(str) == null",
+                                            "return == null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "161": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(str) != null",
+                                            "return != null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "escapeJava(java.io.Writer, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch22.inv.output": {
+                                "invs": [
+                                    "str.toString one of { \"\", \"\\t\", \"foo\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "str != null",
+                                    "out != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch22.inv.output": {
+                                "invs": [
+                                    "str.toString one of { \"\", \"\\t\", \"foo\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

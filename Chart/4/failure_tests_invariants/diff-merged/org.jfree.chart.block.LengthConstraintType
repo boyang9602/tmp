@@ -1,0 +1,90 @@
+{
+    "org.jfree.chart.block.LengthConstraintType": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "LengthConstraintType(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "name.toString == orig(name.toString)",
+                                    "name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "name.toString == orig(name.toString)",
+                                    "name.toString one of { \"LengthConstraintType.FIXED\", \"LengthConstraintType.NONE\", \"RectangleConstraintType.RANGE\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

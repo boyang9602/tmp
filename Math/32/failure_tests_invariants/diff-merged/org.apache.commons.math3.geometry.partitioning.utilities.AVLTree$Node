@@ -1,0 +1,142 @@
+{
+    "org.apache.commons.math3.geometry.partitioning.utilities.AVLTree$Node": [
+        {
+            "insert(java.lang.Comparable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == true)  ==>  (this.left.right.parent has only one value)",
+                                    "(return == true)  ==>  (this.left.right.element has only one value)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "353": [
+                                {
+                                    "Patch35.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "355": [
+                                {
+                                    "Patch35.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "(return == true)  ==>  (this.left.right.parent has only one value)",
+                                            "(return == true)  ==>  (this.left.right.element has only one value)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "361": [
+                                {
+                                    "Patch35.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "363": [
+                                {
+                                    "Patch35.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getSmallest()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.parent.parent.left has only one value",
+                                    "this.parent.parent.right has only one value",
+                                    "this.parent.parent.element has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.parent.parent.left has only one value",
+                                    "this.parent.parent.right has only one value",
+                                    "this.parent.parent.element has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

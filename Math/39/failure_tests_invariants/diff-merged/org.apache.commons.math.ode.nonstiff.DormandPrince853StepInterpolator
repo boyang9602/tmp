@@ -1,0 +1,1203 @@
+{
+    "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator": [
+        {
+            "doFinalize()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "this.integrator.stepSize == 0.001",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.integrator.stepSize one of { 9.999999999999999E-5, 9.0E-4 }",
+                                    "this.integrator.statesInitialized == true",
+                                    "this.softCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.integrator.expandable.primaryStateDot[] elements one of { -99.0049833749168, -90.48374180359596 }",
+                                    "this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 }",
+                                    "this.integrator.evaluations.count == 14",
+                                    "this.integrator.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.integrator.expandable.primaryStateDot[] elements == -90.48374180359596",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.dirtyState == true",
+                                    "this.integrator.expandable.primaryState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "this.globalCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.integrator.expandable.primaryStateDot[] == [-90.48374180359596]",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.integrator.stepStart == 0.0",
+                                    "this.currentState[] == [0.9048374180359596]",
+                                    "this.currentState[] elements == 0.9048374180359596",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.integrator.expandable.primaryStateDot[] one of { [-99.0049833749168], [-90.48374180359596] }",
+                                    "this.vectorsInitialized == false",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.integrator.expandable.primaryState[] elements == 0.9048374180359596",
+                                    "this.integrator.expandable.primaryState[] == [0.9048374180359596]",
+                                    "this.integrator.evaluations.count one of { 14, 29 }",
+                                    "this.integrator.expandable.primaryState[] elements one of { 0.9048374180359596, 0.9900498337491681 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime == Double.NaN",
+                                    "this.primaryMapper == null",
+                                    "this.interpolatedPrimaryState == null",
+                                    "this.yDotK == null",
+                                    "this.globalCurrentTime == Double.NaN",
+                                    "this.integrator == null",
+                                    "this.interpolatedPrimaryDerivatives == null",
+                                    "this.currentState == null",
+                                    "this.interpolatedState == null",
+                                    "this.v == null",
+                                    "this.softCurrentTime == Double.NaN",
+                                    "this.yDotKLast == null",
+                                    "this.secondaryMappers == null",
+                                    "this.interpolatedDerivatives == null",
+                                    "this has only one value",
+                                    "this.interpolatedSecondaryDerivatives == null",
+                                    "this.interpolatedSecondaryState == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "this.integrator.stepSize == 0.001",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.integrator.stepSize one of { 9.999999999999999E-5, 9.0E-4 }",
+                                    "this.integrator.statesInitialized == true",
+                                    "this.softCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.integrator.expandable.primaryStateDot[] elements one of { -99.0049833749168, -90.48374180359596 }",
+                                    "this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 }",
+                                    "this.integrator.evaluations.count == 14",
+                                    "this.integrator.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "this.integrator.expandable.primaryStateDot[] elements == -90.48374180359596",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.dirtyState == true",
+                                    "this.integrator.expandable.primaryState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "this.globalCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.integrator.expandable.primaryStateDot[] == [-90.48374180359596]",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.integrator.stepStart == 0.0",
+                                    "this.currentState[] == [0.9048374180359596]",
+                                    "this.currentState[] elements == 0.9048374180359596",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.integrator.expandable.primaryStateDot[] one of { [-99.0049833749168], [-90.48374180359596] }",
+                                    "this.vectorsInitialized == false",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.integrator.expandable.primaryState[] elements == 0.9048374180359596",
+                                    "this.integrator.expandable.primaryState[] == [0.9048374180359596]",
+                                    "this.integrator.evaluations.count one of { 14, 29 }",
+                                    "this.integrator.expandable.primaryState[] elements one of { 0.9048374180359596, 0.9900498337491681 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) elements == -90.48374180359596)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers.getClass().getName() == org.apache.commons.math.ode.EquationsMapper[].class)",
+                                    "this.integrator.expandable.primaryState[] elements == 0.9251699970347586",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState[] elements one of { 0.9231163463869, 0.9922523908701208 })",
+                                    "size(this.integrator.expandable.primaryStateDot[]) == orig(size(this.integrator.expandable.primaryStateDot[]))",
+                                    "this.integrator.statesInitialized == orig(this.integrator.statesInitialized)",
+                                    "this.integrator.stepSize one of { 9.999999999999999E-5, 9.0E-4 }",
+                                    "this.yDotKLast.getClass().getName() == orig(this.yDotKLast.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.softCurrentTime) == 0.001)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] elements == -92.51699970347586)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.h == orig(this.h))",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalCurrentTime == orig(this.globalCurrentTime))",
+                                    "this.yDotK.getClass().getName() == orig(this.yDotK.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedState has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softCurrentTime == orig(this.softCurrentTime))",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalCurrentTime == 0.001)",
+                                    "this.interpolatedTime one of { 0.001, Double.NaN }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.previousState[] == [1.0])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState[] elements == 0.9251699970347586)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.previousState[] one of { [0.9900498337491681], [1.0] })",
+                                    "(this.yDotKLast == null)  <==>  (this.primaryMapper == null)",
+                                    "this.integrator.expandable.components[] == orig(this.integrator.expandable.components[])",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.h) == 0.001)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedSecondaryDerivatives[] == [])",
+                                    "this.dirtyState == true",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedTime == orig(this.interpolatedTime))",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedState[] == [0.0])",
+                                    "this.yDotKLast[] == orig(this.yDotKLast[])",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.integrator.name == orig(this.integrator.name)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] })",
+                                    "(this.yDotKLast has only one value)  <==>  (this.currentState has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.secondaryMappers has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepHandlers.getClass().getName() == java.util.ArrayList.class)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotK.getClass().getName() == double[][].class)",
+                                    "this.integrator.eventsStates == orig(this.integrator.eventsStates)",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components has only one value)",
+                                    "size(this.integrator.expandable.primaryState[]) == orig(size(this.integrator.expandable.primaryState[]))",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.eventsStates.getClass().getName() == java.util.ArrayList.class)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot has only one value)",
+                                    "this.secondaryMappers.getClass().getName() == orig(this.secondaryMappers.getClass().getName())",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.globalCurrentTime) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedState[] elements == 0.0)",
+                                    "this.previousState[] == orig(this.previousState[])",
+                                    "this.integrator.expandable.primaryStateDot[] one of { [-99.22523908701208], [-92.31163463869] }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers[].dimension == [])",
+                                    "(this.yDotKLast == null)  <==>  (this.softPreviousTime == Double.NaN)",
+                                    "this.secondaryMappers[] == orig(this.secondaryMappers[])",
+                                    "this.integrator.expandable == orig(this.integrator.expandable)",
+                                    "this.integrator.expandable.primaryState == orig(this.integrator.expandable.primaryState)",
+                                    "this.interpolatedTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.h) one of { 9.999999999999999E-5, 9.0E-4 })",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryState[]) one of { [0.9048374180359596], [0.9900498337491681] })",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.softPreviousTime) one of { 0.0, 9.999999999999999E-5 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotK[] contains no nulls and has only one value, of length 13)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotKLast.getClass().getName() == double[][].class)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedState[] one of { [0.0], [0.9900498337491681] })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.name has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 })",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.h) == Double.NaN)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedDerivatives == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] == [-92.51699970347586])",
+                                    "(this.yDotKLast == null)  <==>  (this.softCurrentTime == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryDerivatives[] elements == 0.0)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) one of { [-99.0049833749168], [-90.48374180359596] })",
+                                    "this.secondaryMappers[].dimension == orig(this.secondaryMappers[].dimension)",
+                                    "this.integrator.expandable.primary == orig(this.integrator.expandable.primary)",
+                                    "this.integrator.expandable.primaryStateDot[] elements one of { -99.22523908701208, -92.31163463869 }",
+                                    "this.primaryMapper.dimension == orig(this.primaryMapper.dimension)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.yDotK has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.softCurrentTime) one of { 9.999999999999999E-5, 0.001 })",
+                                    "this.interpolatedState[] == orig(this.interpolatedState[])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepSize one of { 9.999999999999999E-5, 9.0E-4 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.v.getClass().getName() == double[][].class)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) elements one of { -99.0049833749168, -90.48374180359596 })",
+                                    "this.v[] == orig(this.v[])",
+                                    "this.integrator.evaluations.count == 17",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) == [-90.48374180359596])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalCurrentTime one of { 9.999999999999999E-5, 0.001 })",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.globalPreviousTime) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.globalPreviousTime) one of { 0.0, 9.999999999999999E-5 })",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softCurrentTime == 0.001)",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalPreviousTime one of { 0.0, 9.999999999999999E-5 })",
+                                    "this.integrator.evaluations.maxCountCallback.getClass().getName() == orig(this.integrator.evaluations.maxCountCallback.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryState[]) == [0.9048374180359596])",
+                                    "this.integrator.evaluations.count one of { 17, 32 }",
+                                    "this.integrator.expandable.primaryState[] == [0.9251699970347586]",
+                                    "(this.yDotKLast has only one value)  ==>  (this.previousState[] elements == 1.0)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.h == 0.001)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedSecondaryDerivatives.getClass().getName() == double[][].class)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedTime == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.currentState[] elements == 0.9048374180359596)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedSecondaryState has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.previousState[] elements one of { 0.9900498337491681, 1.0 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState[] == [0.9251699970347586])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.h one of { 9.999999999999999E-5, 9.0E-4 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers[].getClass().getName() == [])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.integrator has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] elements one of { -99.22523908701208, -92.31163463869 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryState[] == [0.0])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedPrimaryState has only one value)",
+                                    "this.integrator.eventsStates.getClass().getName() == orig(this.integrator.eventsStates.getClass().getName())",
+                                    "this.integrator.name.toString == orig(this.integrator.name.toString)",
+                                    "this.integrator.stepSize == 0.001",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.integrator.expandable.primaryStateDot == orig(this.integrator.expandable.primaryStateDot)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.softPreviousTime) == 0.0)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.globalPreviousTime) == 0.0)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components[].getClass().getName() == [])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState[] one of { [0.9231163463869], [0.9922523908701208] })",
+                                    "this.integrator.expandable.time == orig(this.integrator.expandable.time)",
+                                    "this.softCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.yDotK[] == orig(this.yDotK[])",
+                                    "this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryMapper has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations.maxCountCallback.getClass().getName() == org.apache.commons.math.util.Incrementor$1.class)",
+                                    "this.integrator.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.getClass().getName() == org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.class)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softPreviousTime == orig(this.softPreviousTime))",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.interpolatedTime) == 0.001)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softPreviousTime one of { 0.0, 9.999999999999999E-5 })",
+                                    "this.integrator.evaluations.maxCountCallback == orig(this.integrator.evaluations.maxCountCallback)",
+                                    "this.primaryMapper.firstIndex == orig(this.primaryMapper.firstIndex)",
+                                    "this.integrator.expandable.primaryState[] elements one of { 0.9231163463869, 0.9922523908701208 }",
+                                    "this.integrator.isLastStep == orig(this.integrator.isLastStep)",
+                                    "this.integrator.expandable.primary.getClass().getName() == orig(this.integrator.expandable.primary.getClass().getName())",
+                                    "this.interpolatedPrimaryState[] == orig(this.interpolatedPrimaryState[])",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.evaluations.count) one of { 14, 29 })",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.globalCurrentTime) one of { 9.999999999999999E-5, 0.001 })",
+                                    "this.integrator.stepStart == orig(this.integrator.stepStart)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryState[]) elements == 0.9048374180359596)",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.integrator.expandable.components.getClass().getName() == orig(this.integrator.expandable.components.getClass().getName())",
+                                    "this.integrator.expandable.primaryMapper == orig(this.integrator.expandable.primaryMapper)",
+                                    "this.integrator.stepSize == orig(this.integrator.stepSize)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryState[] elements == 0.0)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.v has only one value)",
+                                    "(this.yDotKLast == null)  <==>  (this.yDotK == null)",
+                                    "this.integrator.stepStart == 0.0",
+                                    "this.currentState[] elements == 0.9048374180359596",
+                                    "this.integrator.stepHandlers == orig(this.integrator.stepHandlers)",
+                                    "(this.yDotKLast == null)  <==>  (this.globalPreviousTime == Double.NaN)",
+                                    "this.interpolatedSecondaryDerivatives[] == orig(this.interpolatedSecondaryDerivatives[])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalPreviousTime == orig(this.globalPreviousTime))",
+                                    "this.currentState[] == orig(this.currentState[])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedDerivatives has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers[].firstIndex == [])",
+                                    "(this.yDotKLast == null)  <==>  (this.secondaryMappers == null)",
+                                    "this.integrator.expandable.components == orig(this.integrator.expandable.components)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryState[]) elements one of { 0.9048374180359596, 0.9900498337491681 })",
+                                    "this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])",
+                                    "this.interpolatedSecondaryState[] == orig(this.interpolatedSecondaryState[])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] == [0.0])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 })",
+                                    "(this.yDotKLast == null)  <==>  (this.integrator == null)",
+                                    "this.integrator.expandable.primaryStateDot[] elements == -92.51699970347586",
+                                    "(this.yDotKLast has only one value)  <==>  (this.previousState has only one value)",
+                                    "this.interpolatedSecondaryState.getClass().getName() == orig(this.interpolatedSecondaryState.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.name.toString == \"Dormand-Prince 8 (5, 3)\")",
+                                    "this.secondaryMappers[].firstIndex == orig(this.secondaryMappers[].firstIndex)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedSecondaryState == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations.count one of { 17, 32 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryDerivatives[] == [0.0])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalPreviousTime == 0.0)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedPrimaryDerivatives == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 })",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedState == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components.getClass().getName() == java.util.ArrayList.class)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.interpolatedTime) one of { 9.999999999999999E-5, 0.001 })",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedPrimaryDerivatives has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedSecondaryDerivatives has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primary has only one value)",
+                                    "(this.yDotKLast == null)  <==>  (this.currentState == null)",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.softPreviousTime) == Double.NaN)",
+                                    "(this.yDotKLast == null)  <==>  (this.previousState == null)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedSecondaryDerivatives == null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedTime == 0.001)",
+                                    "this.integrator.statesInitialized == true",
+                                    "this.integrator.expandable.primaryStateDot[] == [-92.51699970347586]",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedPrimaryState == null)",
+                                    "this.integrator.resetOccurred == orig(this.integrator.resetOccurred)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] one of { [-99.22523908701208], [-92.31163463869] })",
+                                    "this.integrator.getClass().getName() == orig(this.integrator.getClass().getName())",
+                                    "this.integrator.stepHandlers.getClass().getName() == orig(this.integrator.stepHandlers.getClass().getName())",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] elements == 0.0)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepStart one of { 0.0, 9.999999999999999E-5 })",
+                                    "this.globalCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "(this.yDotKLast has only one value)  ==>  (this.currentState[] == [0.9048374180359596])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components[] == [])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softCurrentTime one of { 9.999999999999999E-5, 0.001 })",
+                                    "this.currentState[] == [0.9048374180359596]",
+                                    "this.interpolatedSecondaryDerivatives.getClass().getName() == orig(this.interpolatedSecondaryDerivatives.getClass().getName())",
+                                    "(this.yDotKLast == null)  <==>  (this.globalCurrentTime == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedSecondaryState.getClass().getName() == double[][].class)",
+                                    "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.integrator.evaluations.maximalCount == orig(this.integrator.evaluations.maximalCount)",
+                                    "(this.yDotKLast == null)  <==>  (this.h == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepHandlers has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers[] == [])",
+                                    "this.vectorsInitialized == false",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedTime one of { 9.999999999999999E-5, 0.001 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.eventsStates has only one value)",
+                                    "this.interpolatedPrimaryDerivatives[] == orig(this.interpolatedPrimaryDerivatives[])",
+                                    "(this.yDotKLast == null)  <==>  (this.v == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState has only one value)",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.interpolatedTime) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotKLast[] contains no nulls and has only one value, of length 3)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedSecondaryState[] == [])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primary.getClass().getName() == org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest$3.class)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations.maxCountCallback has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.v[] contains no nulls and has only one value, of length 7)",
+                                    "this.v.getClass().getName() == orig(this.v.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softPreviousTime == 0.0)",
+                                    "this.integrator.evaluations == orig(this.integrator.evaluations)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.primaryMapper has only one value)",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.softCurrentTime) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.globalCurrentTime) == 0.001)",
+                                    "this.integrator.expandable.primaryState[] one of { [0.9231163463869], [0.9922523908701208] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.v == null",
+                                    "this.softCurrentTime == Double.NaN",
+                                    "this.interpolatedDerivatives == null",
+                                    "this.interpolatedSecondaryState == null",
+                                    "this.primaryMapper == null",
+                                    "this.interpolatedPrimaryDerivatives == null",
+                                    "this.interpolatedState == null",
+                                    "this.interpolatedSecondaryDerivatives == null",
+                                    "this.interpolatedTime == Double.NaN",
+                                    "this.interpolatedPrimaryState == null",
+                                    "this.yDotK == null",
+                                    "this.currentState == null",
+                                    "this.yDotKLast == null",
+                                    "this.globalCurrentTime == Double.NaN",
+                                    "this.integrator == null",
+                                    "this.secondaryMappers == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) elements == -90.48374180359596)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers.getClass().getName() == org.apache.commons.math.ode.EquationsMapper[].class)",
+                                    "this.integrator.expandable.primaryState[] elements == 0.9251699970347586",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState[] elements one of { 0.9231163463869, 0.9922523908701208 })",
+                                    "size(this.integrator.expandable.primaryStateDot[]) == orig(size(this.integrator.expandable.primaryStateDot[]))",
+                                    "this.integrator.statesInitialized == orig(this.integrator.statesInitialized)",
+                                    "this.integrator.stepSize one of { 9.999999999999999E-5, 9.0E-4 }",
+                                    "this.yDotKLast.getClass().getName() == orig(this.yDotKLast.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.softCurrentTime) == 0.001)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] elements == -92.51699970347586)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.h == orig(this.h))",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalCurrentTime == orig(this.globalCurrentTime))",
+                                    "this.yDotK.getClass().getName() == orig(this.yDotK.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedState has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softCurrentTime == orig(this.softCurrentTime))",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalCurrentTime == 0.001)",
+                                    "this.interpolatedTime one of { 0.001, Double.NaN }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.previousState[] == [1.0])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState[] elements == 0.9251699970347586)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.previousState[] one of { [0.9900498337491681], [1.0] })",
+                                    "(this.yDotKLast == null)  <==>  (this.primaryMapper == null)",
+                                    "this.integrator.expandable.components[] == orig(this.integrator.expandable.components[])",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.h) == 0.001)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedSecondaryDerivatives[] == [])",
+                                    "this.dirtyState == true",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedTime == orig(this.interpolatedTime))",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedState[] == [0.0])",
+                                    "this.yDotKLast[] == orig(this.yDotKLast[])",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.integrator.name == orig(this.integrator.name)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryState[] one of { [0.0], [0.9900498337491681] })",
+                                    "(this.yDotKLast has only one value)  <==>  (this.currentState has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.secondaryMappers has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepHandlers.getClass().getName() == java.util.ArrayList.class)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotK.getClass().getName() == double[][].class)",
+                                    "this.integrator.eventsStates == orig(this.integrator.eventsStates)",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components has only one value)",
+                                    "size(this.integrator.expandable.primaryState[]) == orig(size(this.integrator.expandable.primaryState[]))",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.eventsStates.getClass().getName() == java.util.ArrayList.class)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot has only one value)",
+                                    "this.secondaryMappers.getClass().getName() == orig(this.secondaryMappers.getClass().getName())",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.globalCurrentTime) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedState[] elements == 0.0)",
+                                    "this.previousState[] == orig(this.previousState[])",
+                                    "this.integrator.expandable.primaryStateDot[] one of { [-99.22523908701208], [-92.31163463869] }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers[].dimension == [])",
+                                    "(this.yDotKLast == null)  <==>  (this.softPreviousTime == Double.NaN)",
+                                    "this.secondaryMappers[] == orig(this.secondaryMappers[])",
+                                    "this.integrator.expandable == orig(this.integrator.expandable)",
+                                    "this.integrator.expandable.primaryState == orig(this.integrator.expandable.primaryState)",
+                                    "this.interpolatedTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] }",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.h) one of { 9.999999999999999E-5, 9.0E-4 })",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryState[]) one of { [0.9048374180359596], [0.9900498337491681] })",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.softPreviousTime) one of { 0.0, 9.999999999999999E-5 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotK[] contains no nulls and has only one value, of length 13)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotKLast.getClass().getName() == double[][].class)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryState[] elements one of { 0.0, 0.9900498337491681 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedState[] one of { [0.0], [0.9900498337491681] })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.name has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 })",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.h) == Double.NaN)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedDerivatives == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] == [-92.51699970347586])",
+                                    "(this.yDotKLast == null)  <==>  (this.softCurrentTime == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryDerivatives[] elements == 0.0)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) one of { [-99.0049833749168], [-90.48374180359596] })",
+                                    "this.secondaryMappers[].dimension == orig(this.secondaryMappers[].dimension)",
+                                    "this.integrator.expandable.primary == orig(this.integrator.expandable.primary)",
+                                    "this.integrator.expandable.primaryStateDot[] elements one of { -99.22523908701208, -92.31163463869 }",
+                                    "this.primaryMapper.dimension == orig(this.primaryMapper.dimension)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.yDotK has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.softCurrentTime) one of { 9.999999999999999E-5, 0.001 })",
+                                    "this.interpolatedState[] == orig(this.interpolatedState[])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepSize one of { 9.999999999999999E-5, 9.0E-4 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.v.getClass().getName() == double[][].class)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) elements one of { -99.0049833749168, -90.48374180359596 })",
+                                    "this.v[] == orig(this.v[])",
+                                    "this.integrator.evaluations.count == 17",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) == [-90.48374180359596])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalCurrentTime one of { 9.999999999999999E-5, 0.001 })",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.globalPreviousTime) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.globalPreviousTime) one of { 0.0, 9.999999999999999E-5 })",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softCurrentTime == 0.001)",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalPreviousTime one of { 0.0, 9.999999999999999E-5 })",
+                                    "this.integrator.evaluations.maxCountCallback.getClass().getName() == orig(this.integrator.evaluations.maxCountCallback.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryState[]) == [0.9048374180359596])",
+                                    "this.integrator.evaluations.count one of { 17, 32 }",
+                                    "this.integrator.expandable.primaryState[] == [0.9251699970347586]",
+                                    "(this.yDotKLast has only one value)  ==>  (this.previousState[] elements == 1.0)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.h == 0.001)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedSecondaryDerivatives.getClass().getName() == double[][].class)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedTime == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.currentState[] elements == 0.9048374180359596)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedSecondaryState has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.previousState[] elements one of { 0.9900498337491681, 1.0 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState[] == [0.9251699970347586])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.h one of { 9.999999999999999E-5, 9.0E-4 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers[].getClass().getName() == [])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.integrator has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] elements one of { -99.22523908701208, -92.31163463869 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryState[] == [0.0])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedPrimaryState has only one value)",
+                                    "this.integrator.eventsStates.getClass().getName() == orig(this.integrator.eventsStates.getClass().getName())",
+                                    "this.integrator.name.toString == orig(this.integrator.name.toString)",
+                                    "this.integrator.stepSize == 0.001",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.integrator.expandable.primaryStateDot == orig(this.integrator.expandable.primaryStateDot)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.softPreviousTime) == 0.0)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.globalPreviousTime) == 0.0)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components[].getClass().getName() == [])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState[] one of { [0.9231163463869], [0.9922523908701208] })",
+                                    "this.integrator.expandable.time == orig(this.integrator.expandable.time)",
+                                    "this.softCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.yDotK[] == orig(this.yDotK[])",
+                                    "this.currentState[] elements one of { 0.9048374180359596, 0.9900498337491681 }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryMapper has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations.maxCountCallback.getClass().getName() == org.apache.commons.math.util.Incrementor$1.class)",
+                                    "this.integrator.stepStart one of { 0.0, 9.999999999999999E-5 }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.getClass().getName() == org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.class)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softPreviousTime == orig(this.softPreviousTime))",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.interpolatedTime) == 0.001)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softPreviousTime one of { 0.0, 9.999999999999999E-5 })",
+                                    "this.integrator.evaluations.maxCountCallback == orig(this.integrator.evaluations.maxCountCallback)",
+                                    "this.primaryMapper.firstIndex == orig(this.primaryMapper.firstIndex)",
+                                    "this.integrator.expandable.primaryState[] elements one of { 0.9231163463869, 0.9922523908701208 }",
+                                    "this.integrator.isLastStep == orig(this.integrator.isLastStep)",
+                                    "this.integrator.expandable.primary.getClass().getName() == orig(this.integrator.expandable.primary.getClass().getName())",
+                                    "this.interpolatedPrimaryState[] == orig(this.interpolatedPrimaryState[])",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.evaluations.count) one of { 14, 29 })",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.globalCurrentTime) one of { 9.999999999999999E-5, 0.001 })",
+                                    "this.integrator.stepStart == orig(this.integrator.stepStart)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryState[]) elements == 0.9048374180359596)",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.integrator.expandable.components.getClass().getName() == orig(this.integrator.expandable.components.getClass().getName())",
+                                    "this.integrator.expandable.primaryMapper == orig(this.integrator.expandable.primaryMapper)",
+                                    "this.integrator.stepSize == orig(this.integrator.stepSize)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryState[] elements == 0.0)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.v has only one value)",
+                                    "(this.yDotKLast == null)  <==>  (this.yDotK == null)",
+                                    "this.integrator.stepStart == 0.0",
+                                    "this.currentState[] elements == 0.9048374180359596",
+                                    "this.integrator.stepHandlers == orig(this.integrator.stepHandlers)",
+                                    "(this.yDotKLast == null)  <==>  (this.globalPreviousTime == Double.NaN)",
+                                    "this.interpolatedSecondaryDerivatives[] == orig(this.interpolatedSecondaryDerivatives[])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalPreviousTime == orig(this.globalPreviousTime))",
+                                    "this.currentState[] == orig(this.currentState[])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedDerivatives has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers[].firstIndex == [])",
+                                    "(this.yDotKLast == null)  <==>  (this.secondaryMappers == null)",
+                                    "this.integrator.expandable.components == orig(this.integrator.expandable.components)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryState[]) elements one of { 0.9048374180359596, 0.9900498337491681 })",
+                                    "this.interpolatedDerivatives[] == orig(this.interpolatedDerivatives[])",
+                                    "this.interpolatedSecondaryState[] == orig(this.interpolatedSecondaryState[])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] == [0.0])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 })",
+                                    "(this.yDotKLast == null)  <==>  (this.integrator == null)",
+                                    "this.integrator.expandable.primaryStateDot[] elements == -92.51699970347586",
+                                    "(this.yDotKLast has only one value)  <==>  (this.previousState has only one value)",
+                                    "this.interpolatedSecondaryState.getClass().getName() == orig(this.interpolatedSecondaryState.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.name.toString == \"Dormand-Prince 8 (5, 3)\")",
+                                    "this.secondaryMappers[].firstIndex == orig(this.secondaryMappers[].firstIndex)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedSecondaryState == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations.count one of { 17, 32 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedPrimaryDerivatives[] == [0.0])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.globalPreviousTime == 0.0)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedPrimaryDerivatives == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 })",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedState == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components.getClass().getName() == java.util.ArrayList.class)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.interpolatedTime) one of { 9.999999999999999E-5, 0.001 })",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedPrimaryDerivatives has only one value)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedSecondaryDerivatives has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primary has only one value)",
+                                    "(this.yDotKLast == null)  <==>  (this.currentState == null)",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.softPreviousTime) == Double.NaN)",
+                                    "(this.yDotKLast == null)  <==>  (this.previousState == null)",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedSecondaryDerivatives == null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedTime == 0.001)",
+                                    "this.integrator.statesInitialized == true",
+                                    "this.integrator.expandable.primaryStateDot[] == [-92.51699970347586]",
+                                    "(this.yDotKLast == null)  <==>  (this.interpolatedPrimaryState == null)",
+                                    "this.integrator.resetOccurred == orig(this.integrator.resetOccurred)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] one of { [-99.22523908701208], [-92.31163463869] })",
+                                    "this.integrator.getClass().getName() == orig(this.integrator.getClass().getName())",
+                                    "this.integrator.stepHandlers.getClass().getName() == orig(this.integrator.stepHandlers.getClass().getName())",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] elements == 0.0)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepStart one of { 0.0, 9.999999999999999E-5 })",
+                                    "this.globalCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "(this.yDotKLast has only one value)  ==>  (this.currentState[] == [0.9048374180359596])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components[] == [])",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softCurrentTime one of { 9.999999999999999E-5, 0.001 })",
+                                    "this.currentState[] == [0.9048374180359596]",
+                                    "this.interpolatedSecondaryDerivatives.getClass().getName() == orig(this.interpolatedSecondaryDerivatives.getClass().getName())",
+                                    "(this.yDotKLast == null)  <==>  (this.globalCurrentTime == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedSecondaryState.getClass().getName() == double[][].class)",
+                                    "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.001, Double.NaN }",
+                                    "this.integrator.evaluations.maximalCount == orig(this.integrator.evaluations.maximalCount)",
+                                    "(this.yDotKLast == null)  <==>  (this.h == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.currentState[] one of { [0.9048374180359596], [0.9900498337491681] })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepHandlers has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.secondaryMappers[] == [])",
+                                    "this.vectorsInitialized == false",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedTime one of { 9.999999999999999E-5, 0.001 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.eventsStates has only one value)",
+                                    "this.interpolatedPrimaryDerivatives[] == orig(this.interpolatedPrimaryDerivatives[])",
+                                    "(this.yDotKLast == null)  <==>  (this.v == null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState has only one value)",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.interpolatedTime) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotKLast[] contains no nulls and has only one value, of length 3)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedSecondaryState[] == [])",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primary.getClass().getName() == org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest$3.class)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations.maxCountCallback has only one value)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.v[] contains no nulls and has only one value, of length 7)",
+                                    "this.v.getClass().getName() == orig(this.v.getClass().getName())",
+                                    "(this.yDotKLast has only one value)  <==>  (this.softPreviousTime == 0.0)",
+                                    "this.integrator.evaluations == orig(this.integrator.evaluations)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.primaryMapper has only one value)",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.softCurrentTime) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.globalCurrentTime) == 0.001)",
+                                    "this.integrator.expandable.primaryState[] one of { [0.9231163463869], [0.9922523908701208] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "409": [
+                                {
+                                    "Patch160.inv.output": {
+                                        "invs": [
+                                            "this.interpolatedTime == Double.NaN",
+                                            "this.softPreviousTime == Double.NaN",
+                                            "this.globalPreviousTime == Double.NaN",
+                                            "this.primaryMapper == null",
+                                            "orig(this.softPreviousTime) == Double.NaN",
+                                            "orig(this.softCurrentTime) == Double.NaN",
+                                            "orig(this.h) == Double.NaN",
+                                            "this.interpolatedPrimaryState == null",
+                                            "this.h == Double.NaN",
+                                            "this.yDotK == null",
+                                            "this.globalCurrentTime == Double.NaN",
+                                            "this.interpolatedPrimaryDerivatives == null",
+                                            "this.integrator == null",
+                                            "orig(this.globalPreviousTime) == Double.NaN",
+                                            "orig(this) has only one value",
+                                            "this.currentState == null",
+                                            "this.previousState == null",
+                                            "orig(this.interpolatedTime) == Double.NaN",
+                                            "this.interpolatedState == null",
+                                            "this.v == null",
+                                            "orig(this.globalCurrentTime) == Double.NaN",
+                                            "this.softCurrentTime == Double.NaN",
+                                            "this.yDotKLast == null",
+                                            "this.secondaryMappers == null",
+                                            "this.interpolatedDerivatives == null",
+                                            "this.interpolatedSecondaryDerivatives == null",
+                                            "this.interpolatedSecondaryState == null"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.interpolatedTime == Double.NaN",
+                                            "this.softPreviousTime == Double.NaN",
+                                            "this.globalPreviousTime == Double.NaN",
+                                            "this.primaryMapper == null",
+                                            "orig(this.softPreviousTime) == Double.NaN",
+                                            "orig(this.softCurrentTime) == Double.NaN",
+                                            "orig(this.h) == Double.NaN",
+                                            "this.interpolatedPrimaryState == null",
+                                            "this.h == Double.NaN",
+                                            "this.yDotK == null",
+                                            "this.globalCurrentTime == Double.NaN",
+                                            "this.interpolatedPrimaryDerivatives == null",
+                                            "this.integrator == null",
+                                            "orig(this.globalPreviousTime) == Double.NaN",
+                                            "orig(this) has only one value",
+                                            "this.currentState == null",
+                                            "this.previousState == null",
+                                            "orig(this.interpolatedTime) == Double.NaN",
+                                            "this.interpolatedState == null",
+                                            "this.v == null",
+                                            "orig(this.globalCurrentTime) == Double.NaN",
+                                            "this.softCurrentTime == Double.NaN",
+                                            "this.yDotKLast == null",
+                                            "this.secondaryMappers == null",
+                                            "this.interpolatedDerivatives == null",
+                                            "this.interpolatedSecondaryDerivatives == null",
+                                            "this.interpolatedSecondaryState == null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "445": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch160.inv.output": {
+                                        "invs": [
+                                            "this.interpolatedPrimaryState has only one value",
+                                            "this.interpolatedDerivatives has only one value",
+                                            "this.softPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                            "this.interpolatedTime == 0.001",
+                                            "this.interpolatedTime one of { 9.999999999999999E-5, 0.001 }",
+                                            "this.softCurrentTime one of { 9.999999999999999E-5, 0.001 }",
+                                            "this.primaryMapper has only one value",
+                                            "this.h one of { 9.999999999999999E-5, 9.0E-4 }",
+                                            "this.globalPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                            "this.interpolatedPrimaryDerivatives has only one value",
+                                            "this.v has only one value",
+                                            "this.interpolatedState has only one value",
+                                            "this.softCurrentTime == 0.001",
+                                            "this.globalPreviousTime == 0.0",
+                                            "this.integrator has only one value",
+                                            "this.currentState has only one value",
+                                            "this.secondaryMappers has only one value",
+                                            "this.softPreviousTime == orig(this.softPreviousTime)",
+                                            "this.yDotK has only one value",
+                                            "this.interpolatedSecondaryDerivatives has only one value",
+                                            "this.interpolatedTime == orig(this.interpolatedTime)",
+                                            "this.h == orig(this.h)",
+                                            "orig(this) has only one value",
+                                            "this.globalCurrentTime == 0.001",
+                                            "this.interpolatedSecondaryState has only one value",
+                                            "this.previousState has only one value",
+                                            "this.h == 0.001",
+                                            "this.globalCurrentTime == orig(this.globalCurrentTime)",
+                                            "this.softCurrentTime == orig(this.softCurrentTime)",
+                                            "this.yDotKLast has only one value",
+                                            "this.softPreviousTime == 0.0",
+                                            "this.globalPreviousTime == orig(this.globalPreviousTime)",
+                                            "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.interpolatedPrimaryState has only one value",
+                                            "this.interpolatedDerivatives has only one value",
+                                            "this.softPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                            "this.interpolatedTime == 0.001",
+                                            "this.interpolatedTime one of { 9.999999999999999E-5, 0.001 }",
+                                            "this.softCurrentTime one of { 9.999999999999999E-5, 0.001 }",
+                                            "this.primaryMapper has only one value",
+                                            "this.h one of { 9.999999999999999E-5, 9.0E-4 }",
+                                            "this.globalPreviousTime one of { 0.0, 9.999999999999999E-5 }",
+                                            "this.interpolatedPrimaryDerivatives has only one value",
+                                            "this.v has only one value",
+                                            "this.interpolatedState has only one value",
+                                            "this.softCurrentTime == 0.001",
+                                            "this.globalPreviousTime == 0.0",
+                                            "this.integrator has only one value",
+                                            "this.currentState has only one value",
+                                            "this.secondaryMappers has only one value",
+                                            "this.softPreviousTime == orig(this.softPreviousTime)",
+                                            "this.yDotK has only one value",
+                                            "this.interpolatedSecondaryDerivatives has only one value",
+                                            "this.interpolatedTime == orig(this.interpolatedTime)",
+                                            "this.h == orig(this.h)",
+                                            "orig(this) has only one value",
+                                            "this.globalCurrentTime == 0.001",
+                                            "this.interpolatedSecondaryState has only one value",
+                                            "this.previousState has only one value",
+                                            "this.h == 0.001",
+                                            "this.globalCurrentTime == orig(this.globalCurrentTime)",
+                                            "this.softCurrentTime == orig(this.softCurrentTime)",
+                                            "this.yDotKLast has only one value",
+                                            "this.softPreviousTime == 0.0",
+                                            "this.globalPreviousTime == orig(this.globalPreviousTime)",
+                                            "this.globalCurrentTime one of { 9.999999999999999E-5, 0.001 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DormandPrince853StepInterpolator()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DormandPrince853StepInterpolator(org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "storeTime(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.integrator.statesInitialized == false",
+                                    "this.integrator.expandable.primaryState[] elements one of { 0.9048374180359596, 1.0 }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.h == Double.NaN",
+                                    "this.integrator.expandable.primaryStateDot[] one of { [-90.48374180359596], [0.0] }",
+                                    "this.integrator.expandable.primaryState[] one of { [0.9048374180359596], [1.0] }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, Double.NaN }",
+                                    "this.h one of { 9.999999999999999E-5, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.integrator.evaluations.count one of { 0, 14 }",
+                                    "t one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedTime one of { 0.0, Double.NaN }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.integrator.expandable.primaryStateDot[] elements one of { -90.48374180359596, 0.0 }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.vectorsInitialized == false",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.globalCurrentTime one of { 0.0, Double.NaN }",
+                                    "t one of { 0.0, 0.001 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime == Double.NaN",
+                                    "this.globalCurrentTime == Double.NaN",
+                                    "this.finalized == false",
+                                    "this.softCurrentTime == Double.NaN",
+                                    "t == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.integrator.statesInitialized == false",
+                                    "this.integrator.expandable.primaryState[] elements one of { 0.9048374180359596, 1.0 }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.h == Double.NaN",
+                                    "this.integrator.expandable.primaryStateDot[] one of { [-90.48374180359596], [0.0] }",
+                                    "this.integrator.expandable.primaryState[] one of { [0.9048374180359596], [1.0] }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.softCurrentTime one of { 0.0, Double.NaN }",
+                                    "this.h one of { 9.999999999999999E-5, Double.NaN }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.finalized == false",
+                                    "this.integrator.evaluations.count one of { 0, 14 }",
+                                    "t one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedTime one of { 0.0, Double.NaN }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.integrator.expandable.primaryStateDot[] elements one of { -90.48374180359596, 0.0 }",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, Double.NaN }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.vectorsInitialized == false",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.globalCurrentTime one of { 0.0, Double.NaN }",
+                                    "t one of { 0.0, 0.001 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.integrator.statesInitialized == false",
+                                    "this.integrator.expandable.primaryState[] elements one of { 0.9048374180359596, 1.0 }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.integrator.expandable.primaryState[] one of { [0.9048374180359596], [1.0] }",
+                                    "this.integrator.expandable.primaryStateDot[] one of { [-90.48374180359596], [0.0] }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.dirtyState == true",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.integrator.evaluations.count one of { 0, 14 }",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.integrator.expandable.primaryStateDot[] elements one of { -90.48374180359596, 0.0 }",
+                                    "this.globalCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 0.001 }",
+                                    "this.vectorsInitialized == false",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.previousState[] == orig(this.previousState[])",
+                                    "this.interpolatedTime one of { 0.0, 0.001 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.vectorsInitialized == orig(this.vectorsInitialized)",
+                                    "this.dirtyState == orig(this.dirtyState)",
+                                    "this.finalized == orig(this.finalized)",
+                                    "this.interpolatedTime == 0.0",
+                                    "this.globalCurrentTime == 0.0",
+                                    "this.softCurrentTime == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.vectorsInitialized == orig(this.vectorsInitialized)",
+                                    "this.dirtyState == orig(this.dirtyState)",
+                                    "this.integrator.statesInitialized == false",
+                                    "this.integrator.expandable.primaryState[] elements one of { 0.9048374180359596, 1.0 }",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.globalCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.finalized == orig(this.finalized)",
+                                    "this.softCurrentTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.integrator.expandable.primaryState[] one of { [0.9048374180359596], [1.0] }",
+                                    "this.integrator.expandable.primaryStateDot[] one of { [-90.48374180359596], [0.0] }",
+                                    "this.interpolatedState[] one of { [0.0], [0.9900498337491681] }",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.dirtyState == true",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.interpolatedDerivatives[] one of { [-99.0049833749168], [0.0] }",
+                                    "this.integrator.evaluations.count one of { 0, 14 }",
+                                    "this.interpolatedTime one of { 0.0, 9.999999999999999E-5, 0.001 }",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.integrator.expandable.primaryStateDot[] elements one of { -90.48374180359596, 0.0 }",
+                                    "this.globalCurrentTime one of { 0.0, 0.001 }",
+                                    "this.interpolatedState[] elements one of { 0.0, 0.9900498337491681 }",
+                                    "this.softCurrentTime one of { 0.0, 0.001 }",
+                                    "this.vectorsInitialized == false",
+                                    "this.interpolatedDerivatives[] elements one of { -99.0049833749168, 0.0 }",
+                                    "this.previousState[] == orig(this.previousState[])",
+                                    "this.interpolatedTime one of { 0.0, 0.001 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "reinitialize(org.apache.commons.math.ode.AbstractIntegrator, double[], double[][], boolean, org.apache.commons.math.ode.EquationsMapper, org.apache.commons.math.ode.EquationsMapper[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.integrator.expandable.primaryState[] elements == 1.0",
+                                    "this.integrator.statesInitialized == false",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.currentState[] elements == 1.0",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.h == Double.NaN",
+                                    "this.integrator.expandable.primaryStateDot[] == [0.0]",
+                                    "this.integrator.expandable.primaryState[] == [1.0]",
+                                    "this.integrator.stepSize == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.integrator.stepStart == Double.NaN",
+                                    "this.previousState == null",
+                                    "this.vectorsInitialized == false",
+                                    "this.integrator.evaluations.count == 0",
+                                    "this.integrator.expandable.primaryStateDot[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.integrator.expandable.primaryState[] elements == 1.0",
+                                    "this.integrator.statesInitialized == false",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.currentState[] elements == 1.0",
+                                    "this.interpolatedState[] == [0.0]",
+                                    "this.interpolatedPrimaryState[] == [0.0]",
+                                    "this.h == Double.NaN",
+                                    "this.integrator.expandable.primaryStateDot[] == [0.0]",
+                                    "this.integrator.expandable.primaryState[] == [1.0]",
+                                    "this.integrator.stepSize == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.interpolatedDerivatives[] == [0.0]",
+                                    "this.interpolatedState[] elements == 0.0",
+                                    "this.currentState[] == [1.0]",
+                                    "this.interpolatedDerivatives[] elements == 0.0",
+                                    "this.integrator.stepStart == Double.NaN",
+                                    "this.previousState == null",
+                                    "this.vectorsInitialized == false",
+                                    "this.integrator.evaluations.count == 0",
+                                    "this.integrator.expandable.primaryStateDot[] elements == 0.0",
+                                    "this.interpolatedPrimaryState[] elements == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doCopy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch160.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.softPreviousTime == Double.NaN",
+                                    "this.globalPreviousTime == Double.NaN",
+                                    "this.dirtyState == true",
+                                    "this.previousState == null",
+                                    "this.h == Double.NaN",
+                                    "this.vectorsInitialized == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

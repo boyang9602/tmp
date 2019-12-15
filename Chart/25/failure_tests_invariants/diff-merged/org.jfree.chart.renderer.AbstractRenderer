@@ -1,0 +1,132 @@
+{
+    "org.jfree.chart.renderer.AbstractRenderer": [
+        {
+            "lookupSeriesPaint(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] elements == null",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.paintList.size == 0",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] elements == null",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.paintList.size == 0",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch16.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.jfree.chart.renderer.AbstractRenderer.DEFAULT_STROKE.getClass().getName() != orig(this.getClass().getName())",
+                                    "this.paintList.size >= orig(this.paintList.size)",
+                                    "org.jfree.chart.renderer.AbstractRenderer.DEFAULT_PAINT.getClass().getName() != orig(this.getClass().getName())",
+                                    "this.seriesVisibleList.objects.getClass().getName() != orig(this.getClass().getName())",
+                                    "org.jfree.chart.renderer.AbstractRenderer.DEFAULT_SHAPE.getClass().getName() != orig(this.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch17.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addChangeListener(org.jfree.chart.event.RendererChangeListener)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] elements == null",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.paintList.size == 0",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] elements == null",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.paintList.size == 0",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractRenderer()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] elements == null",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.paintList.size == 0",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

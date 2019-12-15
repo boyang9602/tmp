@@ -1,0 +1,453 @@
+{
+    "org.apache.commons.math.linear.ArrayRealVector": [
+        {
+            "dotProduct(org.apache.commons.math.linear.RealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "454": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ArrayRealVector(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size == 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.data[] one of { [0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }",
+                                    "size(this.data[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ArrayRealVector(org.apache.commons.math.linear.ArrayRealVector, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "v.data[] one of { [0.0, 0.0, 1.0, 0.0, 1.0, 1.0], [0.0, 1.0, 0.0, 1.0, 1.0] }",
+                                    "size(v.data[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(v.data[]) == 6",
+                                    "v.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.data[] one of { [0.0, 0.0, 1.0, 0.0, 1.0, 1.0], [0.0, 1.0, 0.0, 1.0, 1.0] }",
+                                    "size(v.data[]) one of { 5, 6 }",
+                                    "size(this.data[]) one of { 5, 6 }",
+                                    "v.data[] one of { [0.0, 0.0, 1.0, 0.0, 1.0, 1.0], [0.0, 1.0, 0.0, 1.0, 1.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "v.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]",
+                                    "this.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]",
+                                    "size(v.data[]) == 6",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ArrayRealVector(double[], boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 2, 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 2, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "copy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 5, 6 }",
+                                    "this.data[] one of { [0.0, 0.0, 1.0, 0.0, 1.0, 1.0], [0.0, 1.0, 0.0, 1.0, 1.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "return.data[] one of { [0.0, 0.0, 1.0, 0.0, 1.0, 1.0], [0.0, 1.0, 0.0, 1.0, 1.0] }",
+                                    "this.data[] one of { [0.0, 0.0, 1.0, 0.0, 1.0, 1.0], [0.0, 1.0, 0.0, 1.0, 1.0] }",
+                                    "size(this.data[]) one of { 5, 6 }",
+                                    "size(return.data[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return.data[]) == 6",
+                                    "this.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]",
+                                    "return.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEntry(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 0.0, 1.0, -1.0, -1.0] }",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 0.0, 1.0, -1.0, -1.0] }",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDimension()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "return one of { 2, 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 2, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "mapMultiplyToSelf(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 5, 6 }",
+                                    "this.data[] one of { [0.0, 0.0, 1.0, 0.0, 1.0, 1.0], [0.0, 1.0, 0.0, 1.0, 1.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [0.0, 0.0, 1.0, 0.0, 1.0, 1.0]",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.data[] one of { [-0.0, -1.0, -0.0, -1.0, -1.0], [-0.0, -0.0, -1.0, -0.0, -1.0, -1.0], [0.0, 0.0, 1.0, 0.0, 1.0, 1.0] }",
+                                    "size(this.data[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] one of { [-0.0, -0.0, -1.0, -0.0, -1.0, -1.0], [0.0, 0.0, 1.0, 0.0, 1.0, 1.0] }",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "checkVectorDimensions(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "n one of { 2, 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "n one of { 2, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtract(org.apache.commons.math.linear.RealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 1.0, 1.0, 0.0, 0.0] }",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "size(return.data[]) one of { 5, 6 }",
+                                    "size(this.data[]) one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return.data[]) == 6",
+                                    "this.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 1.0, 1.0, 0.0, 0.0] }",
+                                    "return.data[] one of { [-1.0, 0.0, -1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, -1.0, 0.0, 1.0, -1.0, -1.0] }",
+                                    "size(this.data[]) == 6"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "324": [
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

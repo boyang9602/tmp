@@ -1,0 +1,755 @@
+{
+    "org.apache.commons.math3.linear.ArrayRealVector": [
+        {
+            "ArrayRealVector(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "size one of { 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size == 12"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "size one of { 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size one of { 9, 12 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "this.data[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] == [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",
+                                    "size(this.data[]) == 12"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "this.data[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "this.data[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtract(org.apache.commons.math3.linear.RealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "v != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 12"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "v != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "v != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "return.data != null",
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "return != null",
+                                    "size(return.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return.data[]) == 12",
+                                    "size(this.data[]) == 12"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "return.data != null",
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "return != null",
+                                    "size(return.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.data != null",
+                                    "size(this.data[]) one of { 9, 12 }",
+                                    "return != null",
+                                    "size(return.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "325": [
+                                {
+                                    "Patch36.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch159.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ArrayRealVector(double[], boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 3, 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 3, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 3, 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(d[]) one of { 3, 9, 12 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "copy()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "return.data != null",
+                                    "size(return.data[]) one of { 3, 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return.data[]) one of { 3, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "return.data != null",
+                                    "size(return.data[]) one of { 3, 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return != null",
+                                    "return.data != null",
+                                    "size(return.data[]) one of { 3, 9, 12 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getEntry(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 12"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) == 12"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.data[]) one of { 9, 12 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDimension()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "return one of { 3, 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 3, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "return one of { 3, 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { 3, 9, 12 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dotProduct(org.apache.commons.math3.linear.RealVector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "return == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == -6.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "return == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == 2.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "455": [
+                                {
+                                    "Patch36.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch159.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "mapMultiplyToSelf(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ArrayRealVector(org.apache.commons.math3.linear.ArrayRealVector, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.format != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.separator != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_PREFIX != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.suffix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.prefix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix != null",
+                                    "v.data != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_SEPARATOR != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_SUFFIX != null",
+                                    "size(v.data[]) one of { 3, 9, 12 }",
+                                    "v != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(v.data[]) one of { 3, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.format != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.separator != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_PREFIX != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.suffix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.prefix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix != null",
+                                    "v.data != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_SEPARATOR != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_SUFFIX != null",
+                                    "size(v.data[]) one of { 3, 9, 12 }",
+                                    "v != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.format != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.separator != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_PREFIX != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.suffix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSeparator != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.prefix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedSuffix != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT != null",
+                                    "org.apache.commons.math3.linear.ArrayRealVector.DEFAULT_FORMAT.trimmedPrefix != null",
+                                    "v.data != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_SEPARATOR != null",
+                                    "org.apache.commons.math3.linear.RealVectorFormat.DEFAULT_SUFFIX != null",
+                                    "size(v.data[]) one of { 3, 9, 12 }",
+                                    "v != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "size(v.data[]) one of { 3, 9, 12 }",
+                                    "v.data != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(v.data[]) one of { 3, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "size(v.data[]) one of { 3, 9, 12 }",
+                                    "v.data != null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(v.data[]) one of { 3, 9, 12 }",
+                                    "v.data != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "checkVectorDimensions(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": [
+                                    "n one of { 3, 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "n one of { 3, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": [
+                                    "n one of { 3, 9, 12 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "n one of { 3, 9, 12 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch36.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch159.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

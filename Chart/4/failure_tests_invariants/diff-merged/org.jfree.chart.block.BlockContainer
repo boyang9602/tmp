@@ -1,0 +1,44 @@
+{
+    "org.jfree.chart.block.BlockContainer": [
+        {
+            "BlockContainer(org.jfree.chart.block.Arrangement)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "arrangement != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "arrangement.getClass().getName() == org.jfree.chart.block.FlowArrangement.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.blocks[] == []",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.blocks[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

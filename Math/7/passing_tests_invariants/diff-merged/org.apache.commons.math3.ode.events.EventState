@@ -1,0 +1,147 @@
+{
+    "org.apache.commons.math3.ode.events.EventState": [
+        {
+            "reset(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.pendingEvent == true"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(this.g0 == 0.019999999999999574)  ==>  (y[] == [12.009999999999994])",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (orig(y) has only one value)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.t0 == 11.01)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.solver has only one value)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (orig(this) has only one value)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.maxCheckInterval == 0.1)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (orig(size(y[])) == 1)",
+                                    "(this.g0 == 0.019999999999999574)  <==>  (orig(this.pendingEvent) == false)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (y[] elements == 12.009999999999994)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.increasing == true)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (orig(this.pendingEventTime) == Double.NaN)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (orig(y[]) elements == 12.009999999999994)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.pendingEvent == orig(this.pendingEvent))",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (return == false)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.maxIterationCount == 1000)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.handler.getClass().getName() == org.apache.commons.math3.ode.events.EventStateTest$ResettingEvent.class)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.handler has only one value)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.previousEventTime == 10.99)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.nextAction has only one value)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (y[] == orig(y[]))",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (orig(t) == 11.01)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.convergence == 1.0E-9)",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (orig(y[]) == [12.009999999999994])",
+                                    "(this.g0 == 0.019999999999999574)  ==>  (this.g0Positive == true)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "orig(size(y[])) == 3",
+                                    "(this.convergence == 1.0E-20)  ==>  (orig(y[]) one of { [1.006018035622264, 2.0012003599861283, 3.0001800053872327], [1.0060180356223287, 2.0012003599861283, 3.0001800053872327] })",
+                                    "orig(t) == 1.8782503799999986E9",
+                                    "(this.convergence == 1.0E-20)  ==>  (this.g0 == 0.0)",
+                                    "(this.convergence == 1.0E-20)  <==>  (this.t0 == 1.8782503799999986E9)",
+                                    "this.maxIterationCount == 100",
+                                    "(this.convergence == 1.0E-20)  ==>  (this.nextAction has only one value)",
+                                    "orig(this.pendingEventTime) == 1.8782503799999986E9",
+                                    "this.previousEventTime == 1.8782503799999986E9",
+                                    "(this.convergence == 1.0E-20)  <==>  (this.previousEventTime == 1.8782503799999986E9)",
+                                    "(this.convergence == 1.0E-20)  ==>  (y[] one of { [1.006018035622264, 2.0012003599861283, 3.0001800053872327], [1.0060180356223287, 2.0012003599861283, 3.0001800053872327] })",
+                                    "this.convergence == 1.0E-20",
+                                    "(this.convergence == 1.0E-20)  <==>  (return == false)",
+                                    "(this.convergence == 1.0E-20)  <==>  (orig(t) == 1.8782503799999986E9)",
+                                    "(this.convergence == 1.0E-20)  ==>  (y[] elements one of { 1.006018035622264, 2.0012003599861283, 3.0001800053872327 })",
+                                    "(this.convergence == 1.0E-20)  ==>  (this.increasing == true)",
+                                    "(this.convergence == 1.0E-20)  <==>  (this.maxIterationCount == 100)",
+                                    "(this.convergence == 1.0E-20)  ==>  (orig(y[]) elements one of { 1.006018035622264, 2.0012003599861283, 3.0001800053872327 })",
+                                    "this.maxCheckInterval == Infinity",
+                                    "this.t0 == 1.8782503799999986E9",
+                                    "this.g0 == 0.0",
+                                    "(this.convergence == 1.0E-20)  <==>  (orig(size(y[])) == 3)",
+                                    "(this.convergence == 1.0E-20)  <==>  (orig(this.pendingEventTime) == 1.8782503799999986E9)",
+                                    "(this.convergence == 1.0E-20)  ==>  (y[] == orig(y[]))",
+                                    "y[] one of { [1.006018035622264, 2.0012003599861283, 3.0001800053872327], [1.0060180356223287, 2.0012003599861283, 3.0001800053872327] }",
+                                    "y[] elements one of { 1.006018035622264, 2.0012003599861283, 3.0001800053872327 }",
+                                    "(this.convergence == 1.0E-20)  ==>  (this.g0Positive == true)",
+                                    "(this.convergence == 1.0E-20)  ==>  (this.maxCheckInterval == Infinity)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "353": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this.pendingEvent) == true"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "344": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.maxIterationCount == 1000",
+                                            "this.handler has only one value",
+                                            "this.t0 == 11.01",
+                                            "this.solver has only one value",
+                                            "this.handler.getClass().getName() == org.apache.commons.math3.ode.events.EventStateTest$ResettingEvent.class",
+                                            "this.previousEventTime == 10.99",
+                                            "orig(size(y[])) == 1",
+                                            "y[] elements == 12.009999999999994",
+                                            "orig(y) has only one value",
+                                            "this.nextAction has only one value",
+                                            "this.maxCheckInterval == 0.1",
+                                            "this.g0Positive == true",
+                                            "this.increasing == true",
+                                            "y[] == [12.009999999999994]",
+                                            "y[] == orig(y[])",
+                                            "orig(this) has only one value",
+                                            "orig(this.pendingEventTime) == Double.NaN",
+                                            "return == false",
+                                            "this.pendingEvent == orig(this.pendingEvent)",
+                                            "orig(t) == 11.01",
+                                            "this.g0 == 0.019999999999999574",
+                                            "this.convergence == 1.0E-9"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

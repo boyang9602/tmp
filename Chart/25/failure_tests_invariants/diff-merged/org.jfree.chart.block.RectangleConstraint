@@ -1,0 +1,52 @@
+{
+    "org.jfree.chart.block.RectangleConstraint": [
+        {
+            "RectangleConstraint(double, org.jfree.data.Range, org.jfree.chart.block.LengthConstraintType, double, org.jfree.data.Range, org.jfree.chart.block.LengthConstraintType)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "h one of { 0.0, 200.0 }",
+                                    "w one of { 0.0, 300.0 }",
+                                    "heightRange.upper == 200.0",
+                                    "widthRange.upper == 300.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "widthRange.upper one of { 294.0, 300.0 }",
+                                    "w one of { 0.0, 294.0, 300.0 }",
+                                    "heightRange.upper one of { 194.0, 200.0 }",
+                                    "h one of { 0.0, 194.0, 200.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "heightRange.upper == 200.0",
+                                    "widthRange.upper == 300.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "widthRange.upper one of { 294.0, 300.0 }",
+                                    "heightRange.upper one of { 194.0, 200.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

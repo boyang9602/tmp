@@ -1,0 +1,700 @@
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+this.solverAbsoluteAccuracy == 1.0E-6
+===========================================================================
+org.apache.commons.math.distribution.AbstractContinuousDistribution.AbstractContinuousDistribution():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution:::OBJECT
+this.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.distribution.AbstractDistribution.AbstractDistribution():::EXIT
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl:::CLASS
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl:::OBJECT
+this.solverAbsoluteAccuracy == 1.0E-9
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double):::ENTER
+degreesOfFreedom one of { 1.0, 118.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double):::EXIT
+this.degreesOfFreedom one of { 1.0, 118.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double, double):::ENTER
+degreesOfFreedom one of { 1.0, 118.0 }
+inverseCumAccuracy == 1.0E-9
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.TDistributionImpl(double, double):::EXIT
+this.degreesOfFreedom one of { 1.0, 118.0 }
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.cumulativeProbability(double):::ENTER
+this.degreesOfFreedom == 118.0
+x == 3915.524971171073
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.cumulativeProbability(double):::EXIT
+this.degreesOfFreedom == orig(this.degreesOfFreedom)
+this.solverAbsoluteAccuracy == orig(this.solverAbsoluteAccuracy)
+this.degreesOfFreedom == 118.0
+return == 1.0
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedom(double):::ENTER
+this.degreesOfFreedom >= 1.0
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedom(double):::EXIT
+this.solverAbsoluteAccuracy == orig(this.solverAbsoluteAccuracy)
+this.degreesOfFreedom >= orig(this.degreesOfFreedom)
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedomInternal(double):::ENTER
+newDegreesOfFreedom >= 1.0
+===========================================================================
+org.apache.commons.math.distribution.TDistributionImpl.setDegreesOfFreedomInternal(double):::EXIT
+this.solverAbsoluteAccuracy == orig(this.solverAbsoluteAccuracy)
+this.degreesOfFreedom >= 1.0
+this.degreesOfFreedom >= orig(this.degreesOfFreedom)
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix:::OBJECT
+this.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+this.lu == null
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.AbstractRealMatrix(int, int):::ENTER
+rowDimension one of { 2, 120 }
+columnDimension == 2
+===========================================================================
+org.apache.commons.math.linear.AbstractRealMatrix.AbstractRealMatrix(int, int):::EXIT
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix:::CLASS
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix:::OBJECT
+this.blocks != null
+this.blocks.getClass().getName() == double[][].class
+this.blocks[] elements != null
+this.rows one of { 2, 120 }
+this.columns == 2
+this.blockRows one of { 1, 3 }
+this.blockColumns == 1
+this.lu == null
+size(this.blocks[]) one of { 1, 3 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(double[][]):::ENTER
+rawData.getClass().getName() == double[][].class
+size(rawData[]) one of { 2, 120 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(double[][]):::EXIT
+rawData[] == orig(rawData[])
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(int, int):::ENTER
+rows == 2
+columns == 2
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(int, int):::EXIT
+this.rows == 2
+this.blockRows == 1
+size(this.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(int, int, double[][], boolean):::ENTER
+rows one of { 2, 120 }
+columns == 2
+blockData.getClass().getName() == double[][].class
+copyArray == false
+size(blockData[]) one of { 1, 3 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.BlockRealMatrix(int, int, double[][], boolean):::EXIT
+blockData[] == orig(blockData[])
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.blockHeight(int):::ENTER
+blockRow one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.blockHeight(int):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+return one of { 2, 16, 52 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.blockWidth(int):::ENTER
+blockColumn == 0
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.blockWidth(int):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+return == 2
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.createBlocksLayout(int, int):::ENTER
+rows == 2
+columns == 2
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.createBlocksLayout(int, int):::EXIT
+return.getClass().getName() == double[][].class
+size(return[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getColumn(int):::ENTER
+this.rows == 120
+this.blockRows == 3
+column one of { 0, 1 }
+size(this.blocks[]) == 3
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getColumn(int):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows == 120
+this.blockRows == 3
+return[] one of { [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0, 101.0, 102.0, 103.0, 104.0, 105.0, 106.0, 107.0, 108.0, 109.0, 110.0, 111.0, 112.0, 113.0, 114.0, 115.0, 116.0, 117.0, 118.0, 119.0], [1.0, 1.5, 2.3333333333333335, 3.25, 4.2, 5.166666666666667, 6.142857142857143, 7.125, 8.11111111111111, 9.1, 10.090909090909092, 11.083333333333334, 12.076923076923077, 13.071428571428571, 14.066666666666666, 15.0625, 16.058823529411764, 17.055555555555557, 18.05263157894737, 19.05, 20.047619047619047, 21.045454545454547, 22.043478260869566, 23.041666666666668, 24.04, 25.03846153846154, 26.037037037037038, 27.035714285714285, 28.03448275862069, 29.033333333333335, 30.032258064516128, 31.03125, 32.03030303030303, 33.029411764705884, 34.02857142857143, 35.02777777777778, 36.027027027027025, 37.026315789473685, 38.02564102564103, 39.025, 40.02439024390244, 41.023809523809526, 42.02325581395349, 43.02272727272727, 44.022222222222226, 45.02173913043478, 46.02127659574468, 47.020833333333336, 48.02040816326531, 49.02, 50.01960784313726, 51.01923076923077, 52.0188679245283, 53.01851851851852, 54.018181818181816, 55.017857142857146, 56.01754385964912, 57.01724137931034, 58.016949152542374, 59.016666666666666, 60.01639344262295, 61.016129032258064, 62.01587301587302, 63.015625, 64.01538461538462, 65.01515151515152, 66.01492537313433, 67.01470588235294, 68.01449275362319, 69.01428571428572, 70.01408450704226, 71.01388888888889, 72.01369863013699, 73.01351351351352, 74.01333333333334, 75.01315789473684, 76.01298701298701, 77.01282051282051, 78.0126582278481, 79.0125, 80.01234567901234, 81.01219512195122, 82.01204819277109, 83.01190476190476, 84.01176470588236, 85.01162790697674, 86.01149425287356, 87.01136363636364, 88.01123595505618, 89.0111111111111, 90.01098901098901, 91.01086956521739, 92.01075268817205, 93.01063829787235, 94.01052631578948, 95.01041666666667, 96.01030927835052, 97.01020408163265, 98.01010101010101, 99.01, 100.00990099009901, 101.00980392156863, 102.00970873786407, 103.00961538461539, 104.00952380952381, 105.00943396226415, 106.00934579439253, 107.00925925925925, 108.0091743119266, 109.00909090909092, 110.009009009009, 111.00892857142857, 112.00884955752213, 113.00877192982456, 114.00869565217391, 115.00862068965517, 116.00854700854701, 117.00847457627118, 118.00840336134453, 119.00833333333334] }
+size(this.blocks[]) == 3
+size(return[]) == 120
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getColumnDimension():::ENTER
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getColumnDimension():::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+return == 2
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getEntry(int, int):::ENTER
+this.rows == 2
+this.blockRows == 1
+row one of { 0, 1 }
+column one of { 0, 1 }
+size(this.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getEntry(int, int):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows == 2
+this.blockRows == 1
+return one of { 0.0, 0.9999961516947906 }
+size(this.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getRowDimension():::ENTER
+this.rows == 120
+this.blockRows == 3
+size(this.blocks[]) == 3
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.getRowDimension():::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows == 120
+this.blockRows == 3
+return == 120
+size(this.blocks[]) == 3
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.setEntry(int, int, double):::ENTER
+this.rows == 2
+this.blockRows == 1
+row one of { 0, 1 }
+column one of { 0, 1 }
+value == 1.0
+size(this.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.setEntry(int, int, double):::EXIT
+this.blocks == orig(this.blocks)
+this.blocks.getClass().getName() == orig(this.blocks.getClass().getName())
+this.blocks[] == orig(this.blocks[])
+this.rows == orig(this.rows)
+this.columns == orig(this.columns)
+this.blockRows == orig(this.blockRows)
+this.blockColumns == orig(this.blockColumns)
+this.lu == orig(this.lu)
+this.rows == 2
+this.blockRows == 1
+size(this.blocks[]) == 1
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.toBlocksLayout(double[][]):::ENTER
+rawData.getClass().getName() == double[][].class
+size(rawData[]) one of { 2, 120 }
+===========================================================================
+org.apache.commons.math.linear.BlockRealMatrix.toBlocksLayout(double[][]):::EXIT
+rawData[] == orig(rawData[])
+return.getClass().getName() == double[][].class
+size(return[]) one of { 1, 3 }
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkColumnIndex(org.apache.commons.math.linear.AnyMatrix, int):::ENTER
+m.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+column one of { 0, 1 }
+===========================================================================
+org.apache.commons.math.linear.MatrixUtils.checkColumnIndex(org.apache.commons.math.linear.AnyMatrix, int):::EXIT
+===========================================================================
+org.apache.commons.math.special.Beta$1:::CLASS
+===========================================================================
+org.apache.commons.math.special.Beta$1:::OBJECT
+this.val$b == 0.5
+this.val$a == 59.0
+===========================================================================
+org.apache.commons.math.special.Beta$1.(double, double):::ENTER
+$hidden$1 == 0.5
+$hidden$3 == 59.0
+===========================================================================
+org.apache.commons.math.special.Beta$1.(double, double):::EXIT
+===========================================================================
+org.apache.commons.math.special.Beta$1.getA(int, double):::ENTER
+n one of { 0, 1, 2 }
+x == 7.696595609285595E-6
+===========================================================================
+org.apache.commons.math.special.Beta$1.getA(int, double):::EXIT
+this.val$b == orig(this.val$b)
+this.val$a == orig(this.val$a)
+return == 1.0
+===========================================================================
+org.apache.commons.math.special.Beta$1.getB(int, double):::ENTER
+n one of { 1, 2 }
+x == 7.696595609285595E-6
+===========================================================================
+org.apache.commons.math.special.Beta$1.getB(int, double):::EXIT
+this.val$b == orig(this.val$b)
+this.val$a == orig(this.val$a)
+return one of { -7.632457312541548E-6, -1.0514474876073217E-9 }
+===========================================================================
+org.apache.commons.math.special.Beta:::CLASS
+===========================================================================
+org.apache.commons.math.special.Beta.logBeta(double, double, double, int):::ENTER
+a == 59.0
+b == 0.5
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.special.Beta.logBeta(double, double, double, int):::EXIT
+return == -1.4642851603178428
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double):::ENTER
+x == 7.696595609285595E-6
+a == 59.0
+b == 0.5
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double):::EXIT
+return == 1.4345049414113397E-303
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double, double, int):::ENTER
+x == 7.696595609285595E-6
+a == 59.0
+b == 0.5
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.special.Beta.regularizedBeta(double, double, double, double, int):::EXIT
+return == 1.4345049414113397E-303
+===========================================================================
+org.apache.commons.math.special.Gamma:::CLASS
+org.apache.commons.math.special.Gamma.LANCZOS has only one value
+org.apache.commons.math.special.Gamma.LANCZOS != null
+org.apache.commons.math.special.Gamma.LANCZOS[] == [0.9999999999999971, 57.15623566586292, -59.59796035547549, 14.136097974741746, -0.4919138160976202, 3.399464998481189E-5, 4.652362892704858E-5, -9.837447530487956E-5, 1.580887032249125E-4, -2.1026444172410488E-4, 2.1743961811521265E-4, -1.643181065367639E-4, 8.441822398385275E-5, -2.6190838401581408E-5, 3.6899182659531625E-6]
+org.apache.commons.math.special.Gamma.HALF_LOG_2_PI == 0.9189385332046727
+size(org.apache.commons.math.special.Gamma.LANCZOS[]) == 15
+===========================================================================
+org.apache.commons.math.special.Gamma.logGamma(double):::ENTER
+x one of { 0.5, 59.0, 59.5 }
+===========================================================================
+org.apache.commons.math.special.Gamma.logGamma(double):::EXIT
+org.apache.commons.math.special.Gamma.LANCZOS == orig(org.apache.commons.math.special.Gamma.LANCZOS)
+org.apache.commons.math.special.Gamma.LANCZOS[] == orig(org.apache.commons.math.special.Gamma.LANCZOS[])
+org.apache.commons.math.special.Gamma.HALF_LOG_2_PI == orig(org.apache.commons.math.special.Gamma.HALF_LOG_2_PI)
+return one of { 0.5723649429247, 180.45629141754375, 182.4929415207863 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation:::OBJECT
+this.correlationMatrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+this.nObs one of { 0, 120 }
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(double[][]):::ENTER
+data.getClass().getName() == double[][].class
+size(data[]) == 120
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(double[][]):::EXIT
+data[] == orig(data[])
+this.nObs == 120
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(org.apache.commons.math.linear.RealMatrix):::ENTER
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.nObs == 120
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.checkSufficientData(org.apache.commons.math.linear.RealMatrix):::ENTER
+this.correlationMatrix == null
+this.nObs == 0
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.checkSufficientData(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.nObs == orig(this.nObs)
+this.correlationMatrix == null
+this.nObs == 0
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix(org.apache.commons.math.linear.RealMatrix):::ENTER
+this.correlationMatrix == null
+this.nObs == 120
+matrix.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix(org.apache.commons.math.linear.RealMatrix):::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.nObs == orig(this.nObs)
+this.correlationMatrix == null
+this.nObs == 120
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.correlation(double[], double[]):::ENTER
+this.correlationMatrix == null
+this.nObs == 120
+xArray[] == [1.0, 1.5, 2.3333333333333335, 3.25, 4.2, 5.166666666666667, 6.142857142857143, 7.125, 8.11111111111111, 9.1, 10.090909090909092, 11.083333333333334, 12.076923076923077, 13.071428571428571, 14.066666666666666, 15.0625, 16.058823529411764, 17.055555555555557, 18.05263157894737, 19.05, 20.047619047619047, 21.045454545454547, 22.043478260869566, 23.041666666666668, 24.04, 25.03846153846154, 26.037037037037038, 27.035714285714285, 28.03448275862069, 29.033333333333335, 30.032258064516128, 31.03125, 32.03030303030303, 33.029411764705884, 34.02857142857143, 35.02777777777778, 36.027027027027025, 37.026315789473685, 38.02564102564103, 39.025, 40.02439024390244, 41.023809523809526, 42.02325581395349, 43.02272727272727, 44.022222222222226, 45.02173913043478, 46.02127659574468, 47.020833333333336, 48.02040816326531, 49.02, 50.01960784313726, 51.01923076923077, 52.0188679245283, 53.01851851851852, 54.018181818181816, 55.017857142857146, 56.01754385964912, 57.01724137931034, 58.016949152542374, 59.016666666666666, 60.01639344262295, 61.016129032258064, 62.01587301587302, 63.015625, 64.01538461538462, 65.01515151515152, 66.01492537313433, 67.01470588235294, 68.01449275362319, 69.01428571428572, 70.01408450704226, 71.01388888888889, 72.01369863013699, 73.01351351351352, 74.01333333333334, 75.01315789473684, 76.01298701298701, 77.01282051282051, 78.0126582278481, 79.0125, 80.01234567901234, 81.01219512195122, 82.01204819277109, 83.01190476190476, 84.01176470588236, 85.01162790697674, 86.01149425287356, 87.01136363636364, 88.01123595505618, 89.0111111111111, 90.01098901098901, 91.01086956521739, 92.01075268817205, 93.01063829787235, 94.01052631578948, 95.01041666666667, 96.01030927835052, 97.01020408163265, 98.01010101010101, 99.01, 100.00990099009901, 101.00980392156863, 102.00970873786407, 103.00961538461539, 104.00952380952381, 105.00943396226415, 106.00934579439253, 107.00925925925925, 108.0091743119266, 109.00909090909092, 110.009009009009, 111.00892857142857, 112.00884955752213, 113.00877192982456, 114.00869565217391, 115.00862068965517, 116.00854700854701, 117.00847457627118, 118.00840336134453, 119.00833333333334]
+yArray[] == [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0, 101.0, 102.0, 103.0, 104.0, 105.0, 106.0, 107.0, 108.0, 109.0, 110.0, 111.0, 112.0, 113.0, 114.0, 115.0, 116.0, 117.0, 118.0, 119.0]
+size(xArray[]) == 120
+size(yArray[]) == 120
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.correlation(double[], double[]):::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.nObs == orig(this.nObs)
+xArray[] == orig(xArray[])
+yArray[] == orig(yArray[])
+this.correlationMatrix == null
+this.nObs == 120
+xArray[] == [1.0, 1.5, 2.3333333333333335, 3.25, 4.2, 5.166666666666667, 6.142857142857143, 7.125, 8.11111111111111, 9.1, 10.090909090909092, 11.083333333333334, 12.076923076923077, 13.071428571428571, 14.066666666666666, 15.0625, 16.058823529411764, 17.055555555555557, 18.05263157894737, 19.05, 20.047619047619047, 21.045454545454547, 22.043478260869566, 23.041666666666668, 24.04, 25.03846153846154, 26.037037037037038, 27.035714285714285, 28.03448275862069, 29.033333333333335, 30.032258064516128, 31.03125, 32.03030303030303, 33.029411764705884, 34.02857142857143, 35.02777777777778, 36.027027027027025, 37.026315789473685, 38.02564102564103, 39.025, 40.02439024390244, 41.023809523809526, 42.02325581395349, 43.02272727272727, 44.022222222222226, 45.02173913043478, 46.02127659574468, 47.020833333333336, 48.02040816326531, 49.02, 50.01960784313726, 51.01923076923077, 52.0188679245283, 53.01851851851852, 54.018181818181816, 55.017857142857146, 56.01754385964912, 57.01724137931034, 58.016949152542374, 59.016666666666666, 60.01639344262295, 61.016129032258064, 62.01587301587302, 63.015625, 64.01538461538462, 65.01515151515152, 66.01492537313433, 67.01470588235294, 68.01449275362319, 69.01428571428572, 70.01408450704226, 71.01388888888889, 72.01369863013699, 73.01351351351352, 74.01333333333334, 75.01315789473684, 76.01298701298701, 77.01282051282051, 78.0126582278481, 79.0125, 80.01234567901234, 81.01219512195122, 82.01204819277109, 83.01190476190476, 84.01176470588236, 85.01162790697674, 86.01149425287356, 87.01136363636364, 88.01123595505618, 89.0111111111111, 90.01098901098901, 91.01086956521739, 92.01075268817205, 93.01063829787235, 94.01052631578948, 95.01041666666667, 96.01030927835052, 97.01020408163265, 98.01010101010101, 99.01, 100.00990099009901, 101.00980392156863, 102.00970873786407, 103.00961538461539, 104.00952380952381, 105.00943396226415, 106.00934579439253, 107.00925925925925, 108.0091743119266, 109.00909090909092, 110.009009009009, 111.00892857142857, 112.00884955752213, 113.00877192982456, 114.00869565217391, 115.00862068965517, 116.00854700854701, 117.00847457627118, 118.00840336134453, 119.00833333333334]
+yArray[] == [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0, 101.0, 102.0, 103.0, 104.0, 105.0, 106.0, 107.0, 108.0, 109.0, 110.0, 111.0, 112.0, 113.0, 114.0, 115.0, 116.0, 117.0, 118.0, 119.0]
+return == 0.9999961516947906
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationPValues():::ENTER
+this.nObs == 120
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationPValues():::EXIT
+this.correlationMatrix == orig(this.correlationMatrix)
+this.correlationMatrix.getClass().getName() == orig(this.correlationMatrix.getClass().getName())
+this.nObs == orig(this.nObs)
+this.nObs == 120
+return.getClass().getName() == org.apache.commons.math.linear.BlockRealMatrix.class
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest:::OBJECT
+this.longleyData != null
+this.longleyData[] == [60323.0, 83.0, 234289.0, 2356.0, 1590.0, 107608.0, 1947.0, 61122.0, 88.5, 259426.0, 2325.0, 1456.0, 108632.0, 1948.0, 60171.0, 88.2, 258054.0, 3682.0, 1616.0, 109773.0, 1949.0, 61187.0, 89.5, 284599.0, 3351.0, 1650.0, 110929.0, 1950.0, 63221.0, 96.2, 328975.0, 2099.0, 3099.0, 112075.0, 1951.0, 63639.0, 98.1, 346999.0, 1932.0, 3594.0, 113270.0, 1952.0, 64989.0, 99.0, 365385.0, 1870.0, 3547.0, 115094.0, 1953.0, 63761.0, 100.0, 363112.0, 3578.0, 3350.0, 116219.0, 1954.0, 66019.0, 101.2, 397469.0, 2904.0, 3048.0, 117388.0, 1955.0, 67857.0, 104.6, 419180.0, 2822.0, 2857.0, 118734.0, 1956.0, 68169.0, 108.4, 442769.0, 2936.0, 2798.0, 120445.0, 1957.0, 66513.0, 110.8, 444546.0, 4681.0, 2637.0, 121950.0, 1958.0, 68655.0, 112.6, 482704.0, 3813.0, 2552.0, 123366.0, 1959.0, 69564.0, 114.2, 502601.0, 3931.0, 2514.0, 125368.0, 1960.0, 69331.0, 115.7, 518173.0, 4806.0, 2572.0, 127852.0, 1961.0, 70551.0, 116.9, 554894.0, 4007.0, 2827.0, 130081.0, 1962.0]
+this.swissData != null
+this.swissData[] == [80.2, 17.0, 15.0, 12.0, 9.96, 83.1, 45.1, 6.0, 9.0, 84.84, 92.5, 39.7, 5.0, 5.0, 93.4, 85.8, 36.5, 12.0, 7.0, 33.77, 76.9, 43.5, 17.0, 15.0, 5.16, 76.1, 35.3, 9.0, 7.0, 90.57, 83.8, 70.2, 16.0, 7.0, 92.85, 92.4, 67.8, 14.0, 8.0, 97.16, 82.4, 53.3, 12.0, 7.0, 97.67, 82.9, 45.2, 16.0, 13.0, 91.38, 87.1, 64.5, 14.0, 6.0, 98.61, 64.1, 62.0, 21.0, 12.0, 8.52, 66.9, 67.5, 14.0, 7.0, 2.27, 68.9, 60.7, 19.0, 12.0, 4.43, 61.7, 69.3, 22.0, 5.0, 2.82, 68.3, 72.6, 18.0, 2.0, 24.2, 71.7, 34.0, 17.0, 8.0, 3.3, 55.7, 19.4, 26.0, 28.0, 12.11, 54.3, 15.2, 31.0, 20.0, 2.15, 65.1, 73.0, 19.0, 9.0, 2.84, 65.5, 59.8, 22.0, 10.0, 5.23, 65.0, 55.1, 14.0, 3.0, 4.52, 56.6, 50.9, 22.0, 12.0, 15.14, 57.4, 54.1, 20.0, 6.0, 4.2, 72.5, 71.2, 12.0, 1.0, 2.4, 74.2, 58.1, 14.0, 8.0, 5.23, 72.0, 63.5, 6.0, 3.0, 2.56, 60.5, 60.8, 16.0, 10.0, 7.72, 58.3, 26.8, 25.0, 19.0, 18.46, 65.4, 49.5, 15.0, 8.0, 6.1, 75.5, 85.9, 3.0, 2.0, 99.71, 69.3, 84.9, 7.0, 6.0, 99.68, 77.3, 89.7, 5.0, 2.0, 100.0, 70.5, 78.2, 12.0, 6.0, 98.96, 79.4, 64.9, 7.0, 3.0, 98.22, 65.0, 75.9, 9.0, 9.0, 99.06, 92.2, 84.6, 3.0, 3.0, 99.46, 79.3, 63.1, 13.0, 13.0, 96.83, 70.4, 38.4, 26.0, 12.0, 5.62, 65.7, 7.7, 29.0, 11.0, 13.79, 72.7, 16.7, 22.0, 13.0, 11.22, 64.4, 17.6, 35.0, 32.0, 16.92, 77.6, 37.6, 15.0, 7.0, 4.97, 67.6, 18.7, 25.0, 7.0, 8.65, 35.0, 1.2, 37.0, 53.0, 42.34, 44.7, 46.6, 16.0, 29.0, 50.43, 42.8, 27.7, 22.0, 29.0, 58.33]
+this.swissData[] elements >= 1.0
+size(this.longleyData[]) == 112
+size(this.swissData[]) == 235
+===========================================================================
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.PearsonsCorrelationTest():::EXIT
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest:::OBJECT
+this.longleyData != null
+this.longleyData[] == [60323.0, 83.0, 234289.0, 2356.0, 1590.0, 107608.0, 1947.0, 61122.0, 88.5, 259426.0, 2325.0, 1456.0, 108632.0, 1948.0, 60171.0, 88.2, 258054.0, 3682.0, 1616.0, 109773.0, 1949.0, 61187.0, 89.5, 284599.0, 3351.0, 1650.0, 110929.0, 1950.0, 63221.0, 96.2, 328975.0, 2099.0, 3099.0, 112075.0, 1951.0, 63639.0, 98.1, 346999.0, 1932.0, 3594.0, 113270.0, 1952.0, 64989.0, 99.0, 365385.0, 1870.0, 3547.0, 115094.0, 1953.0, 63761.0, 100.0, 363112.0, 3578.0, 3350.0, 116219.0, 1954.0, 66019.0, 101.2, 397469.0, 2904.0, 3048.0, 117388.0, 1955.0, 67857.0, 104.6, 419180.0, 2822.0, 2857.0, 118734.0, 1956.0, 68169.0, 108.4, 442769.0, 2936.0, 2798.0, 120445.0, 1957.0, 66513.0, 110.8, 444546.0, 4681.0, 2637.0, 121950.0, 1958.0, 68655.0, 112.6, 482704.0, 3813.0, 2552.0, 123366.0, 1959.0, 69564.0, 114.2, 502601.0, 3931.0, 2514.0, 125368.0, 1960.0, 69331.0, 115.7, 518173.0, 4806.0, 2572.0, 127852.0, 1961.0, 70551.0, 116.9, 554894.0, 4007.0, 2827.0, 130081.0, 1962.0]
+this.swissData != null
+this.swissData[] == [80.2, 17.0, 15.0, 12.0, 9.96, 83.1, 45.1, 6.0, 9.0, 84.84, 92.5, 39.7, 5.0, 5.0, 93.4, 85.8, 36.5, 12.0, 7.0, 33.77, 76.9, 43.5, 17.0, 15.0, 5.16, 76.1, 35.3, 9.0, 7.0, 90.57, 83.8, 70.2, 16.0, 7.0, 92.85, 92.4, 67.8, 14.0, 8.0, 97.16, 82.4, 53.3, 12.0, 7.0, 97.67, 82.9, 45.2, 16.0, 13.0, 91.38, 87.1, 64.5, 14.0, 6.0, 98.61, 64.1, 62.0, 21.0, 12.0, 8.52, 66.9, 67.5, 14.0, 7.0, 2.27, 68.9, 60.7, 19.0, 12.0, 4.43, 61.7, 69.3, 22.0, 5.0, 2.82, 68.3, 72.6, 18.0, 2.0, 24.2, 71.7, 34.0, 17.0, 8.0, 3.3, 55.7, 19.4, 26.0, 28.0, 12.11, 54.3, 15.2, 31.0, 20.0, 2.15, 65.1, 73.0, 19.0, 9.0, 2.84, 65.5, 59.8, 22.0, 10.0, 5.23, 65.0, 55.1, 14.0, 3.0, 4.52, 56.6, 50.9, 22.0, 12.0, 15.14, 57.4, 54.1, 20.0, 6.0, 4.2, 72.5, 71.2, 12.0, 1.0, 2.4, 74.2, 58.1, 14.0, 8.0, 5.23, 72.0, 63.5, 6.0, 3.0, 2.56, 60.5, 60.8, 16.0, 10.0, 7.72, 58.3, 26.8, 25.0, 19.0, 18.46, 65.4, 49.5, 15.0, 8.0, 6.1, 75.5, 85.9, 3.0, 2.0, 99.71, 69.3, 84.9, 7.0, 6.0, 99.68, 77.3, 89.7, 5.0, 2.0, 100.0, 70.5, 78.2, 12.0, 6.0, 98.96, 79.4, 64.9, 7.0, 3.0, 98.22, 65.0, 75.9, 9.0, 9.0, 99.06, 92.2, 84.6, 3.0, 3.0, 99.46, 79.3, 63.1, 13.0, 13.0, 96.83, 70.4, 38.4, 26.0, 12.0, 5.62, 65.7, 7.7, 29.0, 11.0, 13.79, 72.7, 16.7, 22.0, 13.0, 11.22, 64.4, 17.6, 35.0, 32.0, 16.92, 77.6, 37.6, 15.0, 7.0, 4.97, 67.6, 18.7, 25.0, 7.0, 8.65, 35.0, 1.2, 37.0, 53.0, 42.34, 44.7, 46.6, 16.0, 29.0, 50.43, 42.8, 27.7, 22.0, 29.0, 58.33]
+this.swissData[] elements >= 1.0
+size(this.longleyData[]) == 112
+size(this.swissData[]) == 235
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.SpearmansRankCorrelationTest():::EXIT
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.setUp():::ENTER
+this has only one value
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.setUp():::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.tearDown():::ENTER
+this has only one value
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest.tearDown():::EXIT
+this.longleyData == orig(this.longleyData)
+this.longleyData[] == orig(this.longleyData[])
+this.swissData == orig(this.swissData)
+this.swissData[] == orig(this.swissData[])
+this.longleyData has only one value
+this.swissData has only one value
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression:::CLASS
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression:::OBJECT
+this.distribution.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+this.sumX >= 0.0
+this.sumXX >= 0.0
+this.sumY >= 0.0
+this.sumYY >= 0.0
+this.sumXY >= 0.0
+this.n >= 0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.SimpleRegression():::EXIT
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.SimpleRegression(org.apache.commons.math.distribution.TDistribution):::ENTER
+t.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.SimpleRegression(org.apache.commons.math.distribution.TDistribution):::EXIT
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.addData(double, double):::ENTER
+this.distribution != null
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.addData(double, double):::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.distribution != null
+this.sumX > orig(this.sumX)
+this.sumXX >= orig(this.sumXX)
+this.sumY >= orig(this.sumY)
+this.sumYY >= orig(this.sumYY)
+this.sumXY >= orig(this.sumXY)
+this.n - orig(this.n) - 1 == 0
+this.xbar > orig(this.xbar)
+this.ybar >= orig(this.ybar)
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getR():::ENTER
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getR():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+return == 0.9999961516947906
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRSquare():::ENTER
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getRSquare():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+return == 0.9999923034043907
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::ENTER
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::EXIT304
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSlope():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+return == 1.0014167544504164
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSumSquaredErrors():::ENTER
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getSumSquaredErrors():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+return == 1.1082328017801046
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::ENTER
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::EXIT354
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.getTotalSumSquares():::EXIT
+this.distribution == orig(this.distribution)
+this.distribution.getClass().getName() == orig(this.distribution.getClass().getName())
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX == 7145.368868287349
+this.sumXX == 143581.76336636717
+this.sumY == 7140.0
+this.sumYY == 143990.0
+this.sumXY == 143785.1834686151
+this.n == 120
+this.xbar == 59.54474056906127
+this.ybar == 59.5
+return == 143990.0
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.setDistribution(org.apache.commons.math.distribution.TDistribution):::ENTER
+this.distribution == null
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+value.getClass().getName() == org.apache.commons.math.distribution.TDistributionImpl.class
+===========================================================================
+org.apache.commons.math.stat.regression.SimpleRegression.setDistribution(org.apache.commons.math.distribution.TDistribution):::EXIT
+this.sumX == orig(this.sumX)
+this.sumXX == orig(this.sumXX)
+this.sumY == orig(this.sumY)
+this.sumYY == orig(this.sumYY)
+this.sumXY == orig(this.sumXY)
+this.n == orig(this.n)
+this.xbar == orig(this.xbar)
+this.ybar == orig(this.ybar)
+this.sumX == 0.0
+this.sumXX == 0.0
+this.sumY == 0.0
+this.sumYY == 0.0
+this.sumXY == 0.0
+this.n == 0
+this.xbar == 0.0
+this.ybar == 0.0
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction:::CLASS
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction:::OBJECT
+this.getClass().getName() == org.apache.commons.math.special.Beta$1.class
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.ContinuedFraction():::EXIT
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.evaluate(double, double, int):::ENTER
+x == 7.696595609285595E-6
+epsilon == 1.0E-14
+maxIterations == 2147483647
+===========================================================================
+org.apache.commons.math.util.ContinuedFraction.evaluate(double, double, int):::EXIT
+return == 0.9999923675426795

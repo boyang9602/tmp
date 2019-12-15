@@ -1,0 +1,915 @@
+{
+    "org.apache.commons.math.ode.AbstractIntegrator": [
+        {
+            "addEventHandler(org.apache.commons.math.ode.events.EventHandler, double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMaxEvaluations(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "computeDerivatives(double, double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractIntegrator(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setEquations(org.apache.commons.math.ode.ExpandableStatefulODE)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "acceptStep(org.apache.commons.math.ode.sampling.AbstractStepInterpolator, double[], double[], double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.expandable.time == 0.0",
+                                    "this.isLastStep == false",
+                                    "interpolator.interpolatedDerivatives[] one of { [0.0], [0.9999999999999983], [1.0] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "interpolator.interpolatedDerivatives[] one of { [0.0], [1.0] }",
+                                    "interpolator.globalCurrentTime one of { 3.0, 7.697093317360001, 15.359459407513938 }",
+                                    "interpolator.interpolatedState[] elements one of { 0.0, 3.0000000000000013, 7.697093317360004 }",
+                                    "this.stepSize one of { 3.0, 4.697093317360001, 7.662366090153938 }",
+                                    "interpolator.h one of { 3.0, 4.697093317360001, 7.662366090153937 }",
+                                    "interpolator.globalPreviousTime one of { 0.0, 3.0, 7.697093317360001 }",
+                                    "interpolator.interpolatedPrimaryState[] elements one of { 0.0, 3.0000000000000013, 7.697093317360004 }",
+                                    "interpolator.currentState[] elements one of { 3.0000000000000013, 7.697093317360004, 15.359459407513945 }",
+                                    "y[] one of { [3.0000000000000013], [7.697093317360004], [15.359459407513945] }",
+                                    "interpolator.currentState[] one of { [3.0000000000000013], [7.697093317360004], [15.359459407513945] }",
+                                    "this.evaluations.count one of { 13, 28, 43 }",
+                                    "this.expandable.primaryState[] elements one of { 3.0000000000000013, 7.697093317360004, 15.359459407513945 }",
+                                    "interpolator.interpolatedPrimaryState[] one of { [0.0], [3.0000000000000013], [7.697093317360004] }",
+                                    "y[] elements one of { 3.0000000000000013, 7.697093317360004, 15.359459407513945 }",
+                                    "this.resetOccurred == false",
+                                    "interpolator.interpolatedState[] one of { [0.0], [3.0000000000000013], [7.697093317360004] }",
+                                    "interpolator.softPreviousTime one of { 0.0, 3.0, 7.697093317360001 }",
+                                    "this.expandable.primaryState[] one of { [3.0000000000000013], [7.697093317360004], [15.359459407513945] }",
+                                    "this.stepStart one of { 0.0, 3.0, 7.697093317360001 }",
+                                    "interpolator.interpolatedTime one of { 3.0, 7.697093317360001, 15.359459407513938 }",
+                                    "interpolator.softCurrentTime one of { 3.0, 7.697093317360001, 15.359459407513938 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.expandable.time == 0.0",
+                                    "this.isLastStep == false",
+                                    "interpolator.interpolatedDerivatives[] one of { [0.0], [0.9999999999999983], [1.0] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == orig(this.statesInitialized)",
+                                    "this.expandable.time == 0.0",
+                                    "9.007199254740992E15 * interpolator.interpolatedDerivatives[] + 15 * orig(interpolator.interpolatedDerivatives[]) - 9.007199254740992E15 == 0",
+                                    "this.statesInitialized == true"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryState[] one of { [2.333333333333337], [6.653294802391118], [11.989999999999997] }",
+                                    "interpolator.interpolatedState[] one of { [3.0000000000000013], [7.697093317360004], [10.989999999999997] }",
+                                    "interpolator.globalCurrentTime one of { 3.0, 7.697093317360001, 15.359459407513938 }",
+                                    "this.stepSize one of { 3.0, 4.697093317360001, 7.662366090153938 }",
+                                    "this.expandable.primaryState[] elements one of { 2.333333333333337, 6.653294802391118, 11.989999999999997 }",
+                                    "interpolator.h one of { 3.0, 4.697093317360001, 7.662366090153937 }",
+                                    "interpolator.globalPreviousTime one of { 0.0, 3.0, 7.697093317360001 }",
+                                    "interpolator.interpolatedPrimaryState[] elements one of { 3.0000000000000013, 7.697093317360004, 11.989999999999997 }",
+                                    "interpolator.currentState[] elements one of { 3.0000000000000013, 7.697093317360004, 15.359459407513945 }",
+                                    "interpolator.currentState[] one of { [3.0000000000000013], [7.697093317360004], [15.359459407513945] }",
+                                    "y[] elements one of { 3.0000000000000013, 7.697093317360004, 11.989999999999997 }",
+                                    "interpolator.interpolatedTime one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "this.evaluations.count one of { 16, 31, 47 }",
+                                    "interpolator.softCurrentTime one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "interpolator.interpolatedPrimaryState[] one of { [3.0000000000000013], [7.697093317360004], [11.989999999999997] }",
+                                    "return one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "this.statesInitialized == true",
+                                    "interpolator.interpolatedState[] elements one of { 3.0000000000000013, 7.697093317360004, 10.989999999999997 }",
+                                    "this.isLastStep == orig(this.isLastStep)",
+                                    "interpolator.softPreviousTime one of { 0.0, 3.0, 7.697093317360001 }",
+                                    "y[] one of { [3.0000000000000013], [7.697093317360004], [11.989999999999997] }",
+                                    "this.stepStart one of { 0.0, 3.0, 7.697093317360001 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == orig(this.statesInitialized)",
+                                    "this.expandable.time == 0.0",
+                                    "9.007199254740992E15 * interpolator.interpolatedDerivatives[] + 15 * orig(interpolator.interpolatedDerivatives[]) - 9.007199254740992E15 == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "343": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(this.evaluations.count) == 43",
+                                            "this.expandable.primaryState[] == [11.989999999999997]",
+                                            "interpolator.interpolatedDerivatives[] == [0.9999999999999983]",
+                                            "interpolator.h == 7.662366090153937",
+                                            "orig(interpolator.interpolatedDerivatives[]) == [1.0]",
+                                            "orig(interpolator.interpolatedDerivatives[]) elements == 1.0",
+                                            "interpolator.interpolatedTime == 10.99",
+                                            "this.statesInitialized == orig(this.statesInitialized)",
+                                            "orig(interpolator.interpolatedTime) == 15.359459407513938",
+                                            "interpolator.globalCurrentTime == 15.359459407513938",
+                                            "orig(interpolator.interpolatedPrimaryState[]) elements == 7.697093317360004",
+                                            "interpolator.currentState[] == [15.359459407513945]",
+                                            "y[] elements == 11.989999999999997",
+                                            "orig(this.expandable.primaryState[]) == [15.359459407513945]",
+                                            "orig(interpolator.interpolatedState[]) elements == 7.697093317360004",
+                                            "orig(y[]) elements == 15.359459407513945",
+                                            "orig(interpolator.softCurrentTime) == 15.359459407513938",
+                                            "interpolator.interpolatedState[] == [10.989999999999997]",
+                                            "interpolator.softCurrentTime == 10.99",
+                                            "interpolator.interpolatedPrimaryState[] elements == 11.989999999999997",
+                                            "interpolator.globalPreviousTime == 7.697093317360001",
+                                            "return == 10.99",
+                                            "interpolator.interpolatedState[] elements == 10.989999999999997",
+                                            "orig(interpolator.interpolatedState[]) == [7.697093317360004]",
+                                            "interpolator.interpolatedDerivatives[] is the reverse of orig(interpolator.interpolatedDerivatives[])",
+                                            "this.stepSize == 7.662366090153938",
+                                            "this.evaluations.count == 47",
+                                            "interpolator.interpolatedPrimaryState[] == [11.989999999999997]",
+                                            "interpolator.currentState[] elements == 15.359459407513945",
+                                            "orig(interpolator.interpolatedPrimaryState[]) == [7.697093317360004]",
+                                            "this.resetOccurred == true",
+                                            "orig(y[]) == [15.359459407513945]",
+                                            "interpolator.softPreviousTime == 7.697093317360001",
+                                            "y[] == [11.989999999999997]",
+                                            "orig(this.expandable.primaryState[]) elements == 15.359459407513945",
+                                            "interpolator.interpolatedDerivatives[] == orig(interpolator.interpolatedDerivatives[]) (elementwise)",
+                                            "this.stepStart == 7.697093317360001",
+                                            "this.expandable.primaryState[] elements == 11.989999999999997"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "372": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "interpolator.interpolatedPrimaryState[] one of { [3.0000000000000013], [7.697093317360004] }",
+                                            "interpolator.softPreviousTime one of { 0.0, 3.0 }",
+                                            "interpolator.globalPreviousTime one of { 0.0, 3.0 }",
+                                            "interpolator.softCurrentTime one of { 3.0, 7.697093317360001 }",
+                                            "this.stepSize one of { 3.0, 4.697093317360001 }",
+                                            "this.resetOccurred == orig(this.resetOccurred)",
+                                            "interpolator.currentState[] one of { [3.0000000000000013], [7.697093317360004] }",
+                                            "interpolator.interpolatedDerivatives[] == [1.0]",
+                                            "interpolator.globalCurrentTime one of { 3.0, 7.697093317360001 }",
+                                            "interpolator.interpolatedTime == orig(interpolator.interpolatedTime)",
+                                            "orig(interpolator.interpolatedPrimaryState[]) one of { [0.0], [3.0000000000000013] }",
+                                            "orig(this.expandable.primaryState[]) elements one of { 3.0000000000000013, 7.697093317360004 }",
+                                            "orig(this.evaluations.count) one of { 13, 28 }",
+                                            "orig(this.expandable.primaryState[]) one of { [3.0000000000000013], [7.697093317360004] }",
+                                            "this.evaluations.count one of { 16, 31 }",
+                                            "this.expandable.primaryState[] one of { [2.333333333333337], [6.653294802391118] }",
+                                            "this.stepStart one of { 0.0, 3.0 }",
+                                            "orig(interpolator.interpolatedState[]) elements one of { 0.0, 3.0000000000000013 }",
+                                            "interpolator.interpolatedState[] elements one of { 3.0000000000000013, 7.697093317360004 }",
+                                            "interpolator.softCurrentTime == orig(interpolator.softCurrentTime)",
+                                            "y[] elements one of { 3.0000000000000013, 7.697093317360004 }",
+                                            "interpolator.interpolatedTime one of { 3.0, 7.697093317360001 }",
+                                            "this.resetOccurred == false",
+                                            "interpolator.h one of { 3.0, 4.697093317360001 }",
+                                            "interpolator.interpolatedPrimaryState[] elements one of { 3.0000000000000013, 7.697093317360004 }",
+                                            "y[] one of { [3.0000000000000013], [7.697093317360004] }",
+                                            "return one of { 3.0, 7.697093317360001 }",
+                                            "interpolator.currentState[] elements one of { 3.0000000000000013, 7.697093317360004 }",
+                                            "interpolator.interpolatedState[] one of { [3.0000000000000013], [7.697093317360004] }",
+                                            "orig(interpolator.interpolatedState[]) one of { [0.0], [3.0000000000000013] }",
+                                            "y[] == orig(y[])",
+                                            "orig(interpolator.interpolatedPrimaryState[]) elements one of { 0.0, 3.0000000000000013 }",
+                                            "this.expandable.primaryState[] elements one of { 2.333333333333337, 6.653294802391118 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "348": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this.expandable.primaryState[]) one of { [15.359459407513945], [24.714163638448092] }",
+                                            "interpolator.currentState[] one of { [15.359459407513945], [24.714163638448092] }",
+                                            "orig(interpolator.interpolatedDerivatives[]) elements == 1.0",
+                                            "interpolator.interpolatedState[] elements one of { 10.989999999999997, 12.009999999999994 }",
+                                            "orig(this.expandable.primaryState[]) elements one of { 15.359459407513945, 24.714163638448092 }",
+                                            "this.statesInitialized == orig(this.statesInitialized)",
+                                            "y[] one of { [11.989999999999997], [13.009999999999994] }",
+                                            "orig(interpolator.interpolatedState[]) elements one of { 7.697093317360004, 10.989999999999997 }",
+                                            "orig(interpolator.interpolatedDerivatives[]) one of { [0.9999999999999983], [1.0] }",
+                                            "orig(y[]) elements one of { 15.359459407513945, 24.714163638448092 }",
+                                            "return one of { 10.99, 11.01 }",
+                                            "this.stepSize one of { 7.662366090153938, 12.72416363844809 }",
+                                            "interpolator.interpolatedTime one of { 10.99, 11.01 }",
+                                            "orig(interpolator.softCurrentTime) one of { 15.359459407513938, 23.714163638448092 }",
+                                            "interpolator.globalCurrentTime one of { 15.359459407513938, 23.714163638448092 }",
+                                            "interpolator.currentState[] elements one of { 15.359459407513945, 24.714163638448092 }",
+                                            "orig(interpolator.interpolatedPrimaryState[]) elements one of { 7.697093317360004, 11.989999999999997 }",
+                                            "orig(interpolator.interpolatedState[]) one of { [7.697093317360004], [10.989999999999997] }",
+                                            "interpolator.interpolatedPrimaryState[] elements one of { 11.989999999999997, 13.009999999999994 }",
+                                            "this.stepStart one of { 7.697093317360001, 10.99 }",
+                                            "this.evaluations.count one of { 47, 63 }",
+                                            "orig(interpolator.interpolatedPrimaryState[]) one of { [7.697093317360004], [11.989999999999997] }",
+                                            "orig(this.evaluations.count) one of { 43, 59 }",
+                                            "interpolator.interpolatedPrimaryState[] one of { [11.989999999999997], [13.009999999999994] }",
+                                            "interpolator.interpolatedDerivatives[] == orig(interpolator.interpolatedDerivatives[]) (elementwise)",
+                                            "interpolator.h one of { 7.662366090153937, 12.724163638448092 }",
+                                            "interpolator.softPreviousTime one of { 7.697093317360001, 10.99 }",
+                                            "interpolator.interpolatedDerivatives[] is the reverse of orig(interpolator.interpolatedDerivatives[])",
+                                            "this.isLastStep == false",
+                                            "interpolator.interpolatedState[] one of { [10.989999999999997], [12.009999999999994] }",
+                                            "y[] elements one of { 11.989999999999997, 13.009999999999994 }",
+                                            "interpolator.softCurrentTime one of { 10.99, 11.01 }",
+                                            "orig(y[]) one of { [15.359459407513945], [24.714163638448092] }",
+                                            "this.isLastStep == orig(this.isLastStep)",
+                                            "this.resetOccurred == true",
+                                            "this.expandable.primaryState[] elements one of { 11.989999999999997, 13.009999999999994 }",
+                                            "orig(interpolator.interpolatedTime) one of { 15.359459407513938, 23.714163638448092 }",
+                                            "interpolator.globalPreviousTime one of { 7.697093317360001, 10.99 }",
+                                            "this.expandable.primaryState[] one of { [11.989999999999997], [13.009999999999994] }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "377": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(interpolator.interpolatedState[]) one of { [0.0], [3.0000000000000013], [12.009999999999994] }",
+                                            "orig(interpolator.interpolatedPrimaryState[]) one of { [0.0], [3.0000000000000013], [13.009999999999994] }",
+                                            "this.stepSize one of { 3.0, 4.697093317360001, 18.990000000000002 }",
+                                            "orig(this.expandable.primaryState[]) one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "interpolator.interpolatedTime one of { 3.0, 7.697093317360001, 30.0 }",
+                                            "this.expandable.primaryState[] elements one of { 2.333333333333337, 6.653294802391118, 27.780000000000015 }",
+                                            "interpolator.globalPreviousTime one of { 0.0, 3.0, 11.01 }",
+                                            "interpolator.globalCurrentTime one of { 3.0, 7.697093317360001, 30.0 }",
+                                            "this.stepStart one of { 0.0, 3.0, 11.01 }",
+                                            "this.evaluations.count one of { 16, 31, 78 }",
+                                            "interpolator.interpolatedPrimaryState[] elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "orig(interpolator.interpolatedPrimaryState[]) elements one of { 0.0, 3.0000000000000013, 13.009999999999994 }",
+                                            "this.resetOccurred == orig(this.resetOccurred)",
+                                            "interpolator.interpolatedDerivatives[] == [1.0]",
+                                            "interpolator.interpolatedState[] elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "interpolator.softCurrentTime one of { 3.0, 7.697093317360001, 30.0 }",
+                                            "y[] one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "return one of { 3.0, 7.697093317360001, 30.0 }",
+                                            "interpolator.currentState[] one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "interpolator.interpolatedTime == orig(interpolator.interpolatedTime)",
+                                            "orig(interpolator.interpolatedDerivatives[]) one of { [0.0], [1.0] }",
+                                            "interpolator.interpolatedState[] one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "orig(this.expandable.primaryState[]) elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "interpolator.softCurrentTime == orig(interpolator.softCurrentTime)",
+                                            "orig(this.evaluations.count) one of { 13, 28, 75 }",
+                                            "y[] elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "interpolator.currentState[] elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "orig(interpolator.interpolatedState[]) elements one of { 0.0, 3.0000000000000013, 12.009999999999994 }",
+                                            "interpolator.softPreviousTime one of { 0.0, 3.0, 11.01 }",
+                                            "y[] == orig(y[])",
+                                            "interpolator.h one of { 3.0, 4.697093317360001, 18.990000000000002 }",
+                                            "interpolator.interpolatedPrimaryState[] one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "this.expandable.primaryState[] one of { [2.333333333333337], [6.653294802391118], [27.780000000000015] }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "345": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": [
+                                            "orig(this.expandable.primaryState[]) one of { [15.359459407513945], [24.714163638448092] }",
+                                            "interpolator.currentState[] one of { [15.359459407513945], [24.714163638448092] }",
+                                            "orig(interpolator.interpolatedDerivatives[]) elements == 1.0",
+                                            "interpolator.interpolatedState[] elements one of { 10.989999999999997, 12.009999999999994 }",
+                                            "orig(this.expandable.primaryState[]) elements one of { 15.359459407513945, 24.714163638448092 }",
+                                            "y[] one of { [11.989999999999997], [13.009999999999994] }",
+                                            "orig(interpolator.interpolatedState[]) elements one of { 7.697093317360004, 10.989999999999997 }",
+                                            "orig(interpolator.interpolatedDerivatives[]) one of { [0.9999999999999983], [1.0] }",
+                                            "orig(y[]) elements one of { 15.359459407513945, 24.714163638448092 }",
+                                            "return one of { 10.99, 11.01 }",
+                                            "this.stepSize one of { 7.662366090153938, 12.72416363844809 }",
+                                            "interpolator.interpolatedTime one of { 10.99, 11.01 }",
+                                            "orig(interpolator.softCurrentTime) one of { 15.359459407513938, 23.714163638448092 }",
+                                            "interpolator.globalCurrentTime one of { 15.359459407513938, 23.714163638448092 }",
+                                            "interpolator.currentState[] elements one of { 15.359459407513945, 24.714163638448092 }",
+                                            "orig(interpolator.interpolatedPrimaryState[]) elements one of { 7.697093317360004, 11.989999999999997 }",
+                                            "orig(interpolator.interpolatedState[]) one of { [7.697093317360004], [10.989999999999997] }",
+                                            "interpolator.interpolatedPrimaryState[] elements one of { 11.989999999999997, 13.009999999999994 }",
+                                            "this.stepStart one of { 7.697093317360001, 10.99 }",
+                                            "this.evaluations.count one of { 47, 63 }",
+                                            "orig(interpolator.interpolatedPrimaryState[]) one of { [7.697093317360004], [11.989999999999997] }",
+                                            "orig(this.evaluations.count) one of { 43, 59 }",
+                                            "interpolator.interpolatedPrimaryState[] one of { [11.989999999999997], [13.009999999999994] }",
+                                            "interpolator.interpolatedDerivatives[] == orig(interpolator.interpolatedDerivatives[]) (elementwise)",
+                                            "interpolator.h one of { 7.662366090153937, 12.724163638448092 }",
+                                            "interpolator.softPreviousTime one of { 7.697093317360001, 10.99 }",
+                                            "interpolator.interpolatedDerivatives[] is the reverse of orig(interpolator.interpolatedDerivatives[])",
+                                            "this.isLastStep == false",
+                                            "interpolator.interpolatedState[] one of { [10.989999999999997], [12.009999999999994] }",
+                                            "y[] elements one of { 11.989999999999997, 13.009999999999994 }",
+                                            "interpolator.softCurrentTime one of { 10.99, 11.01 }",
+                                            "orig(y[]) one of { [15.359459407513945], [24.714163638448092] }",
+                                            "this.isLastStep == orig(this.isLastStep)",
+                                            "this.resetOccurred == true",
+                                            "this.expandable.primaryState[] elements one of { 11.989999999999997, 13.009999999999994 }",
+                                            "orig(interpolator.interpolatedTime) one of { 15.359459407513938, 23.714163638448092 }",
+                                            "interpolator.globalPreviousTime one of { 7.697093317360001, 10.99 }",
+                                            "this.expandable.primaryState[] one of { [11.989999999999997], [13.009999999999994] }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "374": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": [
+                                            "orig(interpolator.interpolatedState[]) one of { [0.0], [3.0000000000000013], [12.009999999999994] }",
+                                            "orig(interpolator.interpolatedPrimaryState[]) one of { [0.0], [3.0000000000000013], [13.009999999999994] }",
+                                            "this.stepSize one of { 3.0, 4.697093317360001, 18.990000000000002 }",
+                                            "orig(this.expandable.primaryState[]) one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "interpolator.interpolatedTime one of { 3.0, 7.697093317360001, 30.0 }",
+                                            "this.expandable.primaryState[] elements one of { 2.333333333333337, 6.653294802391118, 27.780000000000015 }",
+                                            "interpolator.globalPreviousTime one of { 0.0, 3.0, 11.01 }",
+                                            "interpolator.globalCurrentTime one of { 3.0, 7.697093317360001, 30.0 }",
+                                            "this.stepStart one of { 0.0, 3.0, 11.01 }",
+                                            "this.evaluations.count one of { 16, 31, 78 }",
+                                            "interpolator.interpolatedPrimaryState[] elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "orig(interpolator.interpolatedPrimaryState[]) elements one of { 0.0, 3.0000000000000013, 13.009999999999994 }",
+                                            "interpolator.interpolatedDerivatives[] == [1.0]",
+                                            "interpolator.interpolatedState[] elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "interpolator.softCurrentTime one of { 3.0, 7.697093317360001, 30.0 }",
+                                            "y[] one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "return one of { 3.0, 7.697093317360001, 30.0 }",
+                                            "interpolator.currentState[] one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "interpolator.interpolatedTime == orig(interpolator.interpolatedTime)",
+                                            "orig(interpolator.interpolatedDerivatives[]) one of { [0.0], [1.0] }",
+                                            "interpolator.interpolatedState[] one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "orig(this.expandable.primaryState[]) elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "interpolator.softCurrentTime == orig(interpolator.softCurrentTime)",
+                                            "this.resetOccurred == false",
+                                            "orig(this.evaluations.count) one of { 13, 28, 75 }",
+                                            "y[] elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "interpolator.currentState[] elements one of { 3.0000000000000013, 7.697093317360004, 32.0 }",
+                                            "orig(interpolator.interpolatedState[]) elements one of { 0.0, 3.0000000000000013, 12.009999999999994 }",
+                                            "interpolator.softPreviousTime one of { 0.0, 3.0, 11.01 }",
+                                            "y[] == orig(y[])",
+                                            "interpolator.h one of { 3.0, 4.697093317360001, 18.990000000000002 }",
+                                            "interpolator.interpolatedPrimaryState[] one of { [3.0000000000000013], [7.697093317360004], [32.0] }",
+                                            "this.expandable.primaryState[] one of { [2.333333333333337], [6.653294802391118], [27.780000000000015] }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "resetEvaluations()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setStateInitialized(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addEventHandler(org.apache.commons.math.ode.events.EventHandler, double, double, int, org.apache.commons.math.analysis.solvers.UnivariateRealSolver)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sanityChecks(org.apache.commons.math.ode.ExpandableStatefulODE, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.statesInitialized == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,494 @@
+{
+    "org.jfree.data.time.Day": [
+        {
+            "getSerialDate()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1576483200000L",
+                                    "this.lastMillisecond == 1576569599999L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575878400000L",
+                                    "this.lastMillisecond == 1575964799999L"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1576483200000L",
+                                    "this.lastMillisecond == 1576569599999L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575878400000L",
+                                    "this.lastMillisecond == 1575964799999L"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "peg(java.util.Calendar)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond one of { 1576483200000L, 1576569600000L }",
+                                    "this.lastMillisecond one of { 1576569599999L, 1576655999999L }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond one of { 1575878400000L, 1575964800000L }",
+                                    "this.lastMillisecond one of { 1575964799999L, 1576051199999L }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Day()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1576483200000L",
+                                    "this.lastMillisecond == 1576569599999L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575878400000L",
+                                    "this.lastMillisecond == 1575964799999L"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Day(java.util.Date, java.util.TimeZone)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1576483200000L",
+                                    "this.lastMillisecond == 1576569599999L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575878400000L",
+                                    "this.lastMillisecond == 1575964799999L"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Day(java.util.Date)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1576483200000L",
+                                    "this.lastMillisecond == 1576569599999L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575878400000L",
+                                    "this.lastMillisecond == 1575964799999L"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Day(org.jfree.data.time.SerialDate)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond == 1576655999999L",
+                                    "this.firstMillisecond == 1576569600000L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575964800000L",
+                                    "this.lastMillisecond == 1576051199999L"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLastMillisecond(java.util.Calendar)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond one of { 0, 1576655999999L }",
+                                    "this.firstMillisecond one of { 1576483200000L, 1576569600000L }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond one of { 1575878400000L, 1575964800000L }",
+                                    "this.lastMillisecond one of { 0, 1576051199999L }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond one of { 0, 1576655999999L }",
+                                    "return one of { 1576569599999L, 1576655999999L }",
+                                    "this.firstMillisecond one of { 1576483200000L, 1576569600000L }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 1575964799999L, 1576051199999L }",
+                                    "this.firstMillisecond one of { 1575878400000L, 1575964800000L }",
+                                    "this.lastMillisecond one of { 0, 1576051199999L }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "next()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1576483200000L",
+                                    "this.lastMillisecond == 1576569599999L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575878400000L",
+                                    "this.lastMillisecond == 1575964799999L"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1576483200000L",
+                                    "this.lastMillisecond == 1576569599999L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575878400000L",
+                                    "this.lastMillisecond == 1575964799999L"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "291": [
+                                {
+                                    "Patch86.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getFirstMillisecond(java.util.Calendar)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond one of { 0, 1576569599999L }",
+                                    "this.serialDate.getClass().getName() != calendar.getClass().getName()",
+                                    "this.firstMillisecond one of { 0, 1576483200000L }",
+                                    "org.jfree.data.time.Day.DATE_FORMAT.getClass().getName() != calendar.getClass().getName()"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond one of { 0, 1575964799999L }",
+                                    "this.firstMillisecond one of { 0, 1575878400000L }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond one of { 0, 1576569599999L }",
+                                    "this.serialDate.getClass().getName() != calendar.getClass().getName()",
+                                    "this.firstMillisecond one of { 0, 1576483200000L }",
+                                    "org.jfree.data.time.Day.DATE_FORMAT.getClass().getName() != calendar.getClass().getName()"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond one of { 0, 1576569599999L }",
+                                    "org.jfree.data.time.Day.DATE_FORMAT.getClass().getName() != orig(calendar.getClass().getName())",
+                                    "this.firstMillisecond one of { 0, 1576483200000L }",
+                                    "return one of { 1576483200000L, 1576569600000L }",
+                                    "this.serialDate.getClass().getName() != orig(calendar.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 1575878400000L, 1575964800000L }",
+                                    "this.lastMillisecond one of { 0, 1575964799999L }",
+                                    "this.firstMillisecond one of { 0, 1575878400000L }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond one of { 0, 1576569599999L }",
+                                    "return one of { 1575878400000L, 1575964800000L }",
+                                    "org.jfree.data.time.Day.DATE_FORMAT.getClass().getName() != orig(calendar.getClass().getName())",
+                                    "this.firstMillisecond one of { 0, 1576483200000L }",
+                                    "return one of { 1576483200000L, 1576569600000L }",
+                                    "this.serialDate.getClass().getName() != orig(calendar.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getSerialIndex()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond one of { 1576483200000L, 1576569600000L }",
+                                    "this.lastMillisecond one of { 1576569599999L, 1576655999999L }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond one of { 1575878400000L, 1575964800000L }",
+                                    "this.lastMillisecond one of { 1575964799999L, 1576051199999L }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond one of { 1576569599999L, 1576655999999L }",
+                                    "this.firstMillisecond one of { 1576483200000L, 1576569600000L }",
+                                    "return one of { 43815, 43816 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond one of { 1575878400000L, 1575964800000L }",
+                                    "this.lastMillisecond one of { 1575964799999L, 1576051199999L }",
+                                    "return one of { 43808, 43809 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "compareTo(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond == 1576655999999L",
+                                    "this.firstMillisecond == 1576569600000L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575964800000L",
+                                    "this.lastMillisecond == 1576051199999L"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.lastMillisecond == 1576655999999L",
+                                    "this.firstMillisecond == 1576569600000L"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.firstMillisecond == 1575964800000L",
+                                    "this.lastMillisecond == 1576051199999L"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

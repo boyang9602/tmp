@@ -1,0 +1,696 @@
+{
+    "org.jfree.chart.renderer.category.BarRenderer": [
+        {
+            "findRangeBounds(org.jfree.data.category.CategoryDataset)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.upperClip == 0.0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.rowCount == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lowerClip == 0.0",
+                                    "this.rowCount == 0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "BarRenderer()": [
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setGradientPaintTransformer(org.jfree.chart.util.GradientPaintTransformer)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lowerClip == 0.0",
+                                    "this.rowCount == 0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getBase()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plot.renderers.objects[].getClass().getName() one of { [org.jfree.chart.renderer.category.StackedBarRenderer, null, null, null, null, null, null, null], [org.jfree.chart.renderer.category.StackedBarRenderer3D, null, null, null, null, null, null, null] }",
+                                    "this.plot.rangeAxes.objects[].getClass().getName() one of { [org.jfree.chart.axis.NumberAxis, null, null, null, null, null, null, null], [org.jfree.chart.axis.NumberAxis3D, null, null, null, null, null, null, null] }",
+                                    "this.lowerClip one of { -4.4, 0.0 }",
+                                    "this.baseNegativeItemLabelPosition.itemLabelAnchor.name.toString one of { \"ItemLabelAnchor.CENTER\", \"ItemLabelAnchor.INSIDE12\" }",
+                                    "this.basePositiveItemLabelPosition.itemLabelAnchor.name.toString one of { \"ItemLabelAnchor.CENTER\", \"ItemLabelAnchor.INSIDE12\" }",
+                                    "this.paintList.objects[].getClass().getName() one of { [null, null, null, null, null, null, null, null], [java.awt.Color, java.awt.Color, java.awt.Color, null, null, null, null, null] }",
+                                    "this.rowCount one of { 0, 3 }",
+                                    "this.upperClip one of { 0.0, 4.4 }",
+                                    "this.baseURLGenerator != null",
+                                    "this.plot.domainAxes.objects[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis, null, null, null, null, null, null, null], [org.jfree.chart.axis.CategoryAxis3D, null, null, null, null, null, null, null] }",
+                                    "this.paintList.size one of { 0, 3 }",
+                                    "this.columnCount one of { 0, 2 }",
+                                    "this.baseNegativeItemLabelPosition.textAnchor.name.toString one of { \"TextAnchor.CENTER\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.basePositiveItemLabelPosition.textAnchor.name.toString one of { \"TextAnchor.CENTER\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.baseToolTipGenerator != null",
+                                    "this.plot != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.basePositiveItemLabelPosition.itemLabelAnchor.name.toString == \"ItemLabelAnchor.CENTER\"",
+                                    "this.plot.domainAxes.objects[] has only one value, of length 8",
+                                    "this.plot.domainAxes.objects has only one value",
+                                    "this.plot.orientation has only one value",
+                                    "this.legendItemLabelGenerator has only one value",
+                                    "this.plot.foregroundRangeMarkers == null",
+                                    "this.baseToolTipGenerator has only one value",
+                                    "this.baseNegativeItemLabelPosition.textAnchor.name has only one value",
+                                    "this.plot.datasetToRangeAxisMap has only one value",
+                                    "this.fillPaintList has only one value",
+                                    "this.shapeList.objects has only one value",
+                                    "this.seriesVisibleInLegendList.objects has only one value",
+                                    "this.baseNegativeItemLabelPosition.itemLabelAnchor.name.toString == \"ItemLabelAnchor.CENTER\"",
+                                    "this.plot.renderers.objects[] has only one value, of length 8",
+                                    "this.createEntitiesList has only one value",
+                                    "this.outlinePaintList.objects has only one value",
+                                    "this.plot.rangeGridlineStroke == null",
+                                    "this.plot.domainGridlinePaint == null",
+                                    "this.plot.renderers has only one value",
+                                    "this.listenerList has only one value",
+                                    "this.paintList.objects has only one value",
+                                    "this.plot.domainAxes.objects[].getClass().getName() == [org.jfree.chart.axis.CategoryAxis, null, null, null, null, null, null, null]",
+                                    "this.plot.columnRenderingOrder.name has only one value",
+                                    "this.plot.rangeAxes.objects has only one value",
+                                    "this.plot.rangeAxisLocations.objects has only one value",
+                                    "this.baseNegativeItemLabelPosition.textAnchor has only one value",
+                                    "this.plot.orientation.name.toString == \"PlotOrientation.VERTICAL\"",
+                                    "this.plot.orientation.name has only one value",
+                                    "this.itemLabelPaintList has only one value",
+                                    "this.baseNegativeItemLabelPosition.itemLabelAnchor has only one value",
+                                    "this.plot.rangeCrosshairStroke == null",
+                                    "this.negativeItemLabelPositionList has only one value",
+                                    "this.plot.datasetToRangeAxisMap.objects[] has only one value, of length 8",
+                                    "this.positiveItemLabelPositionList.objects has only one value",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.plot.datasets has only one value",
+                                    "this.plot.datasetToDomainAxisMap has only one value",
+                                    "this.itemLabelGeneratorList.objects has only one value",
+                                    "this.plot.rangeGridlinesVisible == false",
+                                    "this.plot.domainGridlineStroke == null",
+                                    "this.itemLabelPaintList.objects has only one value",
+                                    "this.baseNegativeItemLabelPosition has only one value",
+                                    "this.baseURLGenerator has only one value",
+                                    "this.plot.renderers.objects[].getClass().getName() == [org.jfree.chart.renderer.category.StackedBarRenderer, null, null, null, null, null, null, null]",
+                                    "this.plot.drawingSupplier has only one value",
+                                    "this.basePositiveItemLabelPosition.itemLabelAnchor has only one value",
+                                    "this.itemLabelsVisibleList has only one value",
+                                    "this.basePositiveItemLabelPosition.textAnchor.name has only one value",
+                                    "this.urlGeneratorList has only one value",
+                                    "this.plot.datasets.objects has only one value",
+                                    "this has only one value",
+                                    "this.plot.rangeAxes.objects[] has only one value, of length 8",
+                                    "this.plot.rangeAxes.objects[].getClass().getName() == [org.jfree.chart.axis.NumberAxis, null, null, null, null, null, null, null]",
+                                    "this.outlineStrokeList.objects has only one value",
+                                    "this.seriesVisibleList has only one value",
+                                    "this.paintList.size == 0",
+                                    "this.outlinePaintList has only one value",
+                                    "this.seriesVisibleInLegendList has only one value",
+                                    "this.baseItemLabelFont has only one value",
+                                    "this.itemLabelFontList has only one value",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.basePositiveItemLabelPosition.textAnchor has only one value",
+                                    "this.plot.datasetToRangeAxisMap.objects has only one value",
+                                    "this.toolTipGeneratorList.objects has only one value",
+                                    "this.basePositiveItemLabelPosition.itemLabelAnchor.name has only one value",
+                                    "this.seriesVisibleList.objects has only one value",
+                                    "this.plot.datasets.objects[] has only one value, of length 8",
+                                    "this.plot.backgroundRangeMarkers == null",
+                                    "this.urlGeneratorList.objects has only one value",
+                                    "this.plot.domainAxisLocations has only one value",
+                                    "this.itemLabelsVisibleList.objects has only one value",
+                                    "this.plot.rangeGridlinePaint == null",
+                                    "this.paintList has only one value",
+                                    "this.createEntitiesList.objects has only one value",
+                                    "this.positiveItemLabelPositionList has only one value",
+                                    "this.baseNegativeItemLabelPosition.textAnchor.name.toString == \"TextAnchor.CENTER\"",
+                                    "this.basePositiveItemLabelPosition.textAnchor.name.toString == \"TextAnchor.CENTER\"",
+                                    "this.strokeList.objects has only one value",
+                                    "this.shapeList has only one value",
+                                    "this.plot.noDataMessageFont has only one value",
+                                    "this.plot.rangeCrosshairPaint == null",
+                                    "this.baseNegativeItemLabelPosition.itemLabelAnchor.name has only one value",
+                                    "this.outlineStrokeList has only one value",
+                                    "this.toolTipGeneratorList has only one value",
+                                    "this.plot.renderers.objects has only one value",
+                                    "this.plot.backgroundDomainMarkers == null",
+                                    "this.plot.annotations == null",
+                                    "this.fillPaintList.objects has only one value",
+                                    "this.itemLabelFontList.objects has only one value",
+                                    "this.plot.listenerList has only one value",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] elements == null",
+                                    "this.plot.datasetToDomainAxisMap.objects has only one value",
+                                    "this.negativeItemLabelPositionList.objects has only one value",
+                                    "this.plot.datasetToDomainAxisMap.objects[] has only one value, of length 8",
+                                    "this.plot.rangeAxisLocations has only one value",
+                                    "this.plot.columnRenderingOrder.name.toString == \"SortOrder.ASCENDING\"",
+                                    "this.plot.columnRenderingOrder has only one value",
+                                    "this.basePositiveItemLabelPosition has only one value",
+                                    "this.plot.domainAxisLocations.objects has only one value",
+                                    "this.gradientPaintTransformer has only one value",
+                                    "this.plot.domainAxes has only one value",
+                                    "this.itemLabelGeneratorList has only one value",
+                                    "this.plot.domainGridlinePosition == null",
+                                    "this.plot has only one value",
+                                    "this.plot.foregroundDomainMarkers == null",
+                                    "this.strokeList has only one value",
+                                    "this.plot.rangeAxes has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.plot.domainGridlinePaint.getClass().getName() == orig(this.plot.domainGridlinePaint.getClass().getName())",
+                                    "this.plot.foregroundDomainMarkers.getClass().getName() == orig(this.plot.foregroundDomainMarkers.getClass().getName())",
+                                    "this.plot.domainGridlinePosition.name.toString == orig(this.plot.domainGridlinePosition.name.toString)",
+                                    "this.plot.rangeCrosshairStroke.getClass().getName() == orig(this.plot.rangeCrosshairStroke.getClass().getName())",
+                                    "this.plot.renderers.objects[].getClass().getName() one of { [org.jfree.chart.renderer.category.StackedBarRenderer, null, null, null, null, null, null, null], [org.jfree.chart.renderer.category.StackedBarRenderer3D, null, null, null, null, null, null, null] }",
+                                    "this.plot.rangeAxes.objects[].getClass().getName() one of { [org.jfree.chart.axis.NumberAxis, null, null, null, null, null, null, null], [org.jfree.chart.axis.NumberAxis3D, null, null, null, null, null, null, null] }",
+                                    "this.lowerClip one of { -4.4, 0.0 }",
+                                    "this.plot.rangeGridlinePaint.getClass().getName() == orig(this.plot.rangeGridlinePaint.getClass().getName())",
+                                    "this.baseNegativeItemLabelPosition.itemLabelAnchor.name.toString one of { \"ItemLabelAnchor.CENTER\", \"ItemLabelAnchor.INSIDE12\" }",
+                                    "this.basePositiveItemLabelPosition.itemLabelAnchor.name.toString one of { \"ItemLabelAnchor.CENTER\", \"ItemLabelAnchor.INSIDE12\" }",
+                                    "this.upperClip one of { 0.0, 4.4 }",
+                                    "this.paintList.objects[].getClass().getName() one of { [null, null, null, null, null, null, null, null], [java.awt.Color, java.awt.Color, java.awt.Color, null, null, null, null, null] }",
+                                    "this.rowCount one of { 0, 3 }",
+                                    "this.plot.foregroundRangeMarkers.getClass().getName() == orig(this.plot.foregroundRangeMarkers.getClass().getName())",
+                                    "this.baseURLGenerator != null",
+                                    "this.plot.domainAxes.objects[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis, null, null, null, null, null, null, null], [org.jfree.chart.axis.CategoryAxis3D, null, null, null, null, null, null, null] }",
+                                    "this.paintList.size one of { 0, 3 }",
+                                    "this.plot.backgroundDomainMarkers.getClass().getName() == orig(this.plot.backgroundDomainMarkers.getClass().getName())",
+                                    "this.columnCount one of { 0, 2 }",
+                                    "this.plot.domainGridlineStroke.getClass().getName() == orig(this.plot.domainGridlineStroke.getClass().getName())",
+                                    "this.plot.rangeGridlineStroke.getClass().getName() == orig(this.plot.rangeGridlineStroke.getClass().getName())",
+                                    "this.plot.backgroundRangeMarkers.getClass().getName() == orig(this.plot.backgroundRangeMarkers.getClass().getName())",
+                                    "this.plot.domainGridlinePosition.name == orig(this.plot.domainGridlinePosition.name)",
+                                    "this.plot.annotations.getClass().getName() == orig(this.plot.annotations.getClass().getName())",
+                                    "this.plot.annotations[] == orig(this.plot.annotations[])",
+                                    "this.baseNegativeItemLabelPosition.textAnchor.name.toString one of { \"TextAnchor.CENTER\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.basePositiveItemLabelPosition.textAnchor.name.toString one of { \"TextAnchor.CENTER\", \"TextAnchor.TOP_CENTER\" }",
+                                    "this.baseToolTipGenerator != null",
+                                    "this.plot.rangeCrosshairPaint.getClass().getName() == orig(this.plot.rangeCrosshairPaint.getClass().getName())",
+                                    "this.plot != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.basePositiveItemLabelPosition.itemLabelAnchor.name.toString == \"ItemLabelAnchor.CENTER\"",
+                                    "this.plot.domainAxes.objects[] has only one value, of length 8",
+                                    "this.plot.domainAxes.objects has only one value",
+                                    "this.plot.orientation has only one value",
+                                    "this.legendItemLabelGenerator has only one value",
+                                    "this.plot.foregroundRangeMarkers == null",
+                                    "this.baseToolTipGenerator has only one value",
+                                    "this.baseNegativeItemLabelPosition.textAnchor.name has only one value",
+                                    "this.plot.datasetToRangeAxisMap has only one value",
+                                    "this.fillPaintList has only one value",
+                                    "this.shapeList.objects has only one value",
+                                    "this.seriesVisibleInLegendList.objects has only one value",
+                                    "this.baseNegativeItemLabelPosition.itemLabelAnchor.name.toString == \"ItemLabelAnchor.CENTER\"",
+                                    "this.plot.renderers.objects[] has only one value, of length 8",
+                                    "this.createEntitiesList has only one value",
+                                    "this.outlinePaintList.objects has only one value",
+                                    "this.plot.rangeGridlineStroke == null",
+                                    "this.plot.domainGridlinePaint == null",
+                                    "this.plot.renderers has only one value",
+                                    "this.listenerList has only one value",
+                                    "this.paintList.objects has only one value",
+                                    "this.plot.domainAxes.objects[].getClass().getName() == [org.jfree.chart.axis.CategoryAxis, null, null, null, null, null, null, null]",
+                                    "this.plot.columnRenderingOrder.name has only one value",
+                                    "this.plot.rangeAxes.objects has only one value",
+                                    "this.plot.rangeAxisLocations.objects has only one value",
+                                    "this.baseNegativeItemLabelPosition.textAnchor has only one value",
+                                    "this.plot.orientation.name.toString == \"PlotOrientation.VERTICAL\"",
+                                    "this.plot.orientation.name has only one value",
+                                    "this.itemLabelPaintList has only one value",
+                                    "this.baseNegativeItemLabelPosition.itemLabelAnchor has only one value",
+                                    "this.plot.rangeCrosshairStroke == null",
+                                    "this.negativeItemLabelPositionList has only one value",
+                                    "this.plot.datasetToRangeAxisMap.objects[] has only one value, of length 8",
+                                    "this.positiveItemLabelPositionList.objects has only one value",
+                                    "this.paintList.objects[].getClass().getName() elements == null",
+                                    "this.plot.datasets has only one value",
+                                    "this.plot.datasetToDomainAxisMap has only one value",
+                                    "this.itemLabelGeneratorList.objects has only one value",
+                                    "this.plot.rangeGridlinesVisible == false",
+                                    "this.plot.domainGridlineStroke == null",
+                                    "this.itemLabelPaintList.objects has only one value",
+                                    "this.baseNegativeItemLabelPosition has only one value",
+                                    "this.baseURLGenerator has only one value",
+                                    "this.plot.renderers.objects[].getClass().getName() == [org.jfree.chart.renderer.category.StackedBarRenderer, null, null, null, null, null, null, null]",
+                                    "this.plot.drawingSupplier has only one value",
+                                    "this.basePositiveItemLabelPosition.itemLabelAnchor has only one value",
+                                    "this.itemLabelsVisibleList has only one value",
+                                    "this.basePositiveItemLabelPosition.textAnchor.name has only one value",
+                                    "this.urlGeneratorList has only one value",
+                                    "this.plot.datasets.objects has only one value",
+                                    "this.plot.rangeAxes.objects[] has only one value, of length 8",
+                                    "this.plot.rangeAxes.objects[].getClass().getName() == [org.jfree.chart.axis.NumberAxis, null, null, null, null, null, null, null]",
+                                    "this.outlineStrokeList.objects has only one value",
+                                    "this.seriesVisibleList has only one value",
+                                    "this.paintList.size == 0",
+                                    "this.outlinePaintList has only one value",
+                                    "this.seriesVisibleInLegendList has only one value",
+                                    "this.baseItemLabelFont has only one value",
+                                    "this.itemLabelFontList has only one value",
+                                    "this.paintList.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.basePositiveItemLabelPosition.textAnchor has only one value",
+                                    "this.plot.datasetToRangeAxisMap.objects has only one value",
+                                    "this.toolTipGeneratorList.objects has only one value",
+                                    "this.basePositiveItemLabelPosition.itemLabelAnchor.name has only one value",
+                                    "this.seriesVisibleList.objects has only one value",
+                                    "this.plot.datasets.objects[] has only one value, of length 8",
+                                    "this.plot.backgroundRangeMarkers == null",
+                                    "this.urlGeneratorList.objects has only one value",
+                                    "this.plot.domainAxisLocations has only one value",
+                                    "this.itemLabelsVisibleList.objects has only one value",
+                                    "this.plot.rangeGridlinePaint == null",
+                                    "this.paintList has only one value",
+                                    "this.createEntitiesList.objects has only one value",
+                                    "this.positiveItemLabelPositionList has only one value",
+                                    "this.baseNegativeItemLabelPosition.textAnchor.name.toString == \"TextAnchor.CENTER\"",
+                                    "this.basePositiveItemLabelPosition.textAnchor.name.toString == \"TextAnchor.CENTER\"",
+                                    "this.strokeList.objects has only one value",
+                                    "this.shapeList has only one value",
+                                    "this.plot.noDataMessageFont has only one value",
+                                    "this.plot.rangeCrosshairPaint == null",
+                                    "this.baseNegativeItemLabelPosition.itemLabelAnchor.name has only one value",
+                                    "this.outlineStrokeList has only one value",
+                                    "this.toolTipGeneratorList has only one value",
+                                    "this.plot.renderers.objects has only one value",
+                                    "this.plot.backgroundDomainMarkers == null",
+                                    "this.plot.annotations == null",
+                                    "this.fillPaintList.objects has only one value",
+                                    "this.itemLabelFontList.objects has only one value",
+                                    "this.plot.listenerList has only one value",
+                                    "this.paintList.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.paintList.objects[] elements == null",
+                                    "this.plot.datasetToDomainAxisMap.objects has only one value",
+                                    "this.negativeItemLabelPositionList.objects has only one value",
+                                    "this.plot.datasetToDomainAxisMap.objects[] has only one value, of length 8",
+                                    "this.plot.rangeAxisLocations has only one value",
+                                    "this.plot.columnRenderingOrder.name.toString == \"SortOrder.ASCENDING\"",
+                                    "this.plot.columnRenderingOrder has only one value",
+                                    "this.basePositiveItemLabelPosition has only one value",
+                                    "this.plot.domainAxisLocations.objects has only one value",
+                                    "this.gradientPaintTransformer has only one value",
+                                    "this.plot.domainAxes has only one value",
+                                    "this.itemLabelGeneratorList has only one value",
+                                    "this.plot.domainGridlinePosition == null",
+                                    "this.plot has only one value",
+                                    "this.plot.foregroundDomainMarkers == null",
+                                    "this.strokeList has only one value",
+                                    "this.plot.rangeAxes has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setIncludeBaseInRange(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMinimumBarLength(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lowerClip == 0.0",
+                                    "this.rowCount == 0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setNegativeItemLabelPositionFallback(org.jfree.chart.labels.ItemLabelPosition)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lowerClip == 0.0",
+                                    "this.rowCount == 0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1071": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLegendItem(int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.lowerClip == 0.0",
+                                    "this.rowCount == 0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "698": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setPositiveItemLabelPositionFallback(org.jfree.chart.labels.ItemLabelPosition)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.rowCount == 0",
+                                    "this.lowerClip == 0.0",
+                                    "this.columnCount == 0",
+                                    "this.upperClip == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

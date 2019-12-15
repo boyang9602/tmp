@@ -1,0 +1,134 @@
+{
+    "org.apache.commons.math.exception.MathIllegalArgumentException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch200.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.specific.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.arguments[].getClass().getName() == [null, java.lang.Integer]",
+                            "this.arguments has only one value",
+                            "this.arguments[] contains no nulls and has only one value, of length 2",
+                            "this has only one value",
+                            "size(this.arguments[]) == 2",
+                            "this.arguments[] has only one value, of length 2",
+                            "this.specific has only one value",
+                            "this.specific == null",
+                            "this.arguments[].getClass().getName() == [java.lang.Double, java.lang.Integer]",
+                            "this.general has only one value",
+                            "this.general.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch200.inv.output": {
+                        "invs": [
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.specific.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                            "this.arguments[].getClass().getName() == [null, java.lang.Integer]",
+                            "this.arguments has only one value",
+                            "this.arguments[] contains no nulls and has only one value, of length 2",
+                            "this has only one value",
+                            "size(this.arguments[]) == 2",
+                            "this.arguments[] has only one value, of length 2",
+                            "this.specific has only one value",
+                            "this.specific == null",
+                            "this.arguments[].getClass().getName() == [java.lang.Double, java.lang.Integer]",
+                            "this.general has only one value",
+                            "this.general.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "MathIllegalArgumentException(org.apache.commons.math.exception.util.Localizable, org.apache.commons.math.exception.util.Localizable, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "general.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "args[] has only one value, of length 2",
+                                    "specific == null",
+                                    "specific has only one value",
+                                    "general has only one value",
+                                    "args.getClass().getName() == java.lang.Object[].class",
+                                    "specific.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "size(args[]) == 2",
+                                    "args[] contains no nulls and has only one value, of length 2",
+                                    "args has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "general.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "args[] has only one value, of length 2",
+                                    "specific == null",
+                                    "specific has only one value",
+                                    "general has only one value",
+                                    "args.getClass().getName() == java.lang.Object[].class",
+                                    "specific.getClass().getName() == org.apache.commons.math.exception.util.LocalizedFormats.class",
+                                    "size(args[]) == 2",
+                                    "args[] contains no nulls and has only one value, of length 2",
+                                    "args has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "args[] has only one value, of length 2",
+                                    "args[] contains no nulls and has only one value, of length 2",
+                                    "args[] == orig(args[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "args[] has only one value, of length 2",
+                                    "args[] contains no nulls and has only one value, of length 2",
+                                    "args[] == orig(args[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

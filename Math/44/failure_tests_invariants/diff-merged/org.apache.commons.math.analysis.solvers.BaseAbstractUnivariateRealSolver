@@ -1,0 +1,880 @@
+{
+    "org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver": [
+        {
+            "verifySequence(double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "upper one of { 11.080475746778623, 11.089407528425376 }",
+                                    "lower one of { 10.980964498854545, 10.99 }",
+                                    "initial one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "upper == 11.080475746778623",
+                                    "lower == 10.980964498854545",
+                                    "initial == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "upper one of { 11.080475746778623, 11.089407528425376 }",
+                                    "lower one of { 10.980964498854545, 10.99 }",
+                                    "initial one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMin()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "return one of { 10.980964498854545, 10.99 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 10.980964498854545",
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "return one of { 10.980964498854545, 10.99 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMax()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "return one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 11.080475746778623",
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "return one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getFunctionValueAccuracy()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setup(int, org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMin one of { 0.0, 10.980964498854545 }",
+                                    "this.searchStart one of { 0.0, 11.030720122816584 }",
+                                    "startValue one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count one of { 0, 3 }",
+                                    "min one of { 10.980964498854545, 10.99 }",
+                                    "max one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchMax one of { 0.0, 11.080475746778623 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.maximalCount == 0",
+                                    "min == 10.980964498854545",
+                                    "max == 11.080475746778623",
+                                    "this.searchStart == 0.0",
+                                    "this.function == null",
+                                    "this.searchMin == 0.0",
+                                    "startValue == 11.030720122816584",
+                                    "this.evaluations.count == 0",
+                                    "this.searchMax == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMin one of { 0.0, 10.980964498854545 }",
+                                    "this.searchStart one of { 0.0, 11.030720122816584 }",
+                                    "startValue one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count one of { 0, 3 }",
+                                    "min one of { 10.980964498854545, 10.99 }",
+                                    "max one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchMax one of { 0.0, 11.080475746778623 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.function.getClass().getName() == orig(this.function.getClass().getName())",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623",
+                                    "this.evaluations.count == orig(this.evaluations.count)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.function.getClass().getName() == orig(this.function.getClass().getName())",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solve(int, org.apache.commons.math.analysis.UnivariateRealFunction, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMin one of { 0.0, 10.980964498854545 }",
+                                    "this.searchStart one of { 0.0, 11.030720122816584 }",
+                                    "this.evaluations.count one of { 0, 3 }",
+                                    "min one of { 10.980964498854545, 10.99 }",
+                                    "max one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchMax one of { 0.0, 11.080475746778623 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.maximalCount == 0",
+                                    "max == 11.080475746778623",
+                                    "this.searchStart == 0.0",
+                                    "this.function == null",
+                                    "this.searchMin == 0.0",
+                                    "min == 10.980964498854545",
+                                    "this.evaluations.count == 0",
+                                    "this.searchMax == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMin one of { 0.0, 10.980964498854545 }",
+                                    "this.searchStart one of { 0.0, 11.030720122816584 }",
+                                    "this.evaluations.count one of { 0, 3 }",
+                                    "min one of { 10.980964498854545, 10.99 }",
+                                    "max one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchMax one of { 0.0, 11.080475746778623 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.function.getClass().getName() == orig(this.function.getClass().getName())",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.function.getClass().getName() == orig(this.function.getClass().getName())",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "computeObjectiveValue(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count > orig(this.evaluations.count)",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count > orig(this.evaluations.count)",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRelativeAccuracy()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count == 2",
+                                    "this.evaluations.count one of { 2, 3 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count == 2",
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count one of { 2, 3 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count == 2",
+                                    "this.evaluations.count one of { 2, 3 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count == 2",
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count one of { 2, 3 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getStartValue()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 11.030720122816584",
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "return one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solve(int, org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMin one of { 0.0, 10.980964498854545 }",
+                                    "this.searchStart one of { 0.0, 11.030720122816584 }",
+                                    "startValue one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count one of { 0, 3 }",
+                                    "min one of { 10.980964498854545, 10.99 }",
+                                    "max one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchMax one of { 0.0, 11.080475746778623 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.maximalCount == 0",
+                                    "min == 10.980964498854545",
+                                    "max == 11.080475746778623",
+                                    "this.searchStart == 0.0",
+                                    "this.function == null",
+                                    "this.searchMin == 0.0",
+                                    "startValue == 11.030720122816584",
+                                    "this.evaluations.count == 0",
+                                    "this.searchMax == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMin one of { 0.0, 10.980964498854545 }",
+                                    "this.searchStart one of { 0.0, 11.030720122816584 }",
+                                    "startValue one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count one of { 0, 3 }",
+                                    "min one of { 10.980964498854545, 10.99 }",
+                                    "max one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchMax one of { 0.0, 11.080475746778623 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.function.getClass().getName() == orig(this.function.getClass().getName())",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.function.getClass().getName() == orig(this.function.getClass().getName())",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "incrementEvaluationCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count > orig(this.evaluations.count)",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count > orig(this.evaluations.count)",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAbsoluteAccuracy()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count == 2",
+                                    "this.evaluations.count one of { 2, 3 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count == 2",
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count one of { 2, 3 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count == 2",
+                                    "this.evaluations.count one of { 2, 3 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.evaluations.count == 2",
+                                    "this.searchStart == 11.030720122816584",
+                                    "this.searchMin == 10.980964498854545",
+                                    "this.searchMax == 11.080475746778623"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.searchMax one of { 11.080475746778623, 11.089407528425376 }",
+                                    "this.searchStart one of { 11.030720122816584, 11.039703764212689 }",
+                                    "this.evaluations.count one of { 2, 3 }",
+                                    "this.searchMin one of { 10.980964498854545, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

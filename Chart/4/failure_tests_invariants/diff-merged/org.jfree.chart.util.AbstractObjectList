@@ -1,0 +1,369 @@
+{
+    "org.jfree.chart.util.AbstractObjectList": [
+        {
+            "set(int, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "this.objects[] elements == null",
+                                    "size(this.objects[]) one of { 1, 8 }",
+                                    "this.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.size == 0",
+                                    "this.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.objects[].getClass().getName() elements == null",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.objects[].getClass().getName() one of { [null, null, null, null, null, null, null, null], [org.jfree.chart.renderer.xy.XYLineAndShapeRenderer, null, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "this.objects[] elements == null",
+                                    "size(this.objects[]) one of { 1, 8 }",
+                                    "this.objects[].getClass().getName() == [null, null, null, null, null, null, null, null]",
+                                    "this.size == 0",
+                                    "this.objects[] contains only nulls and has only one value, of length 8",
+                                    "this.objects[].getClass().getName() elements == null",
+                                    "this.objects != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "size(this.objects[]) one of { 1, 8 }",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size >= orig(this.size)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "size(this.objects[]) one of { 1, 8 }",
+                                    "this.size >= orig(this.size)",
+                                    "this.objects != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "indexOf(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "size(this.objects[]) one of { 1, 8 }",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "size(this.objects[]) one of { 1, 8 }",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(return == -1)  ==>  (this.objects[].getClass().getName() one of { [null, null, null, null, null, null, null, null], [org.jfree.chart.axis.NumberAxis, null, null, null, null, null, null, null] })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "163": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "166": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.objects[].getClass().getName() one of { [null, null, null, null, null, null, null, null], [org.jfree.chart.axis.NumberAxis, null, null, null, null, null, null, null] }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractObjectList(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.objects[]) == 8",
+                                    "this.increment == 8",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "get(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size == 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractObjectList()": [
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.objects[]) == 8",
+                                    "this.increment == 8",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AbstractObjectList(int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.objects[]) == 8",
+                                    "this.increment == 8",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "clear()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.objects[]) == 8",
+                                    "this.increment == 8",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(this.objects[]) == 8",
+                                    "this.increment == 8",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "size()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "size(this.objects[]) one of { 1, 8 }",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.increment == 8",
+                                    "size(this.objects[]) one of { 1, 8 }",
+                                    "this.objects != null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

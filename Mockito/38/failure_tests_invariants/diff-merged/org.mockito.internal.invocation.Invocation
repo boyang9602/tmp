@@ -1,0 +1,350 @@
+{
+    "org.mockito.internal.invocation.Invocation": [
+        {
+            "Invocation(java.lang.Object, java.lang.reflect.Method, java.lang.Object[], int, org.mockito.internal.invocation.realmethod.RealMethod)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$b7c20c68.class",
+                                    "mock.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$4038d86a.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$abb6c88.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$b7c20c68.class",
+                                    "mock.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$4038d86a.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMock()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$b7c20c68.class",
+                                    "return.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$4038d86a.class",
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$abb6c88.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$b7c20c68.class",
+                                    "return.getClass().getName() == org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest$Fun$$EnhancerByMockitoWithCGLIB$$4038d86a.class",
+                                    "this.verified == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isValidReturnType(java.lang.Class)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "187": [
+                                {
+                                    "Patch179.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getArgumentsCount()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMethod()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getArguments()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isVoid()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "argumentsToMatchers()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch179.inv.output": {
+                                "invs": [
+                                    "this.verified == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

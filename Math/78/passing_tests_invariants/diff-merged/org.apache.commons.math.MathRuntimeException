@@ -1,0 +1,77 @@
+{
+    "org.apache.commons.math.MathRuntimeException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch57.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch56.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "createIllegalArgumentException(java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "pattern has only one value",
+                                    "pattern.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "size(arguments[]) == 4"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "pattern has only one value",
+                                    "pattern.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "size(arguments[]) == 4"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch57.inv.output": {
+                                "invs": [
+                                    "arguments[] == orig(arguments[])",
+                                    "pattern.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "pattern.toString == orig(pattern.toString)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch56.inv.output": {
+                                "invs": [
+                                    "arguments[] == orig(arguments[])",
+                                    "pattern.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "pattern.toString == orig(pattern.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

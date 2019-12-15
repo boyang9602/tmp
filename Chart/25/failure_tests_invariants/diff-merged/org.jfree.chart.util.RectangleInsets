@@ -1,0 +1,382 @@
+{
+    "org.jfree.chart.util.RectangleInsets": [
+        {
+            "calculateLeftInset(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateTopInset(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }",
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "return one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateLeftOutset(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.left one of { 3.0, 4.0 }",
+                                    "this.right one of { 3.0, 4.0 }",
+                                    "this.bottom one of { 3.0, 4.0 }",
+                                    "this.top one of { 3.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.left one of { 3.0, 4.0 }",
+                                    "this.right one of { 3.0, 4.0 }",
+                                    "this.top one of { 3.0, 4.0 }",
+                                    "this.bottom one of { 3.0, 4.0 }",
+                                    "return one of { 3.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateTopOutset(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "height one of { 13.96875, 148.390625, 160.03125 }",
+                                    "this.left one of { 3.0, 4.0 }",
+                                    "this.right one of { 3.0, 4.0 }",
+                                    "this.top one of { 3.0, 4.0 }",
+                                    "this.bottom one of { 3.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.left one of { 3.0, 4.0 }",
+                                    "this.right one of { 3.0, 4.0 }",
+                                    "this.top one of { 3.0, 4.0 }",
+                                    "this.bottom one of { 3.0, 4.0 }",
+                                    "return one of { 3.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "trim(java.awt.geom.Rectangle2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateBottomOutset(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "height one of { 13.96875, 148.390625, 160.03125 }",
+                                    "this.left one of { 3.0, 4.0 }",
+                                    "this.right one of { 3.0, 4.0 }",
+                                    "this.top one of { 3.0, 4.0 }",
+                                    "this.bottom one of { 3.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.left one of { 3.0, 4.0 }",
+                                    "this.right one of { 3.0, 4.0 }",
+                                    "this.top one of { 3.0, 4.0 }",
+                                    "this.bottom one of { 3.0, 4.0 }",
+                                    "return one of { 3.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateRightInset(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateRightOutset(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.left one of { 3.0, 4.0 }",
+                                    "this.right one of { 3.0, 4.0 }",
+                                    "this.bottom one of { 3.0, 4.0 }",
+                                    "this.top one of { 3.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.left one of { 3.0, 4.0 }",
+                                    "this.right one of { 3.0, 4.0 }",
+                                    "this.top one of { 3.0, 4.0 }",
+                                    "this.bottom one of { 3.0, 4.0 }",
+                                    "return one of { 3.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateBottomInset(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.bottom one of { 0.0, 1.0, 4.0 }",
+                                    "this.top one of { 0.0, 1.0, 4.0 }",
+                                    "return one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

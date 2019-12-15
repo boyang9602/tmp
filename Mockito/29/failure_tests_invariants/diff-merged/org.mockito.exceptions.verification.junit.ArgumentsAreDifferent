@@ -1,0 +1,134 @@
+{
+    "org.mockito.exceptions.verification.junit.ArgumentsAreDifferent": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch178.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch178.inv.output": {
+                        "invs": [
+                            "this.unfilteredStackTrace[].getClass().getName() == [java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement]",
+                            "this.unfilteredStackTrace has only one value",
+                            "this.message has only one value",
+                            "this has only one value",
+                            "this.unfilteredStackTrace.getClass().getName() == java.lang.StackTraceElement[].class",
+                            "this.unfilteredStackTrace[] contains no nulls and has only one value, of length 36",
+                            "this.unfilteredStackTrace[].getClass().getName() elements == java.lang.StackTraceElement.class",
+                            "size(this.unfilteredStackTrace[]) == 36",
+                            "this.message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same());\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                            "this.message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same(null));\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\""
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.unfilteredStackTrace[].getClass().getName() == [java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement, java.lang.StackTraceElement]",
+                            "this.unfilteredStackTrace has only one value",
+                            "this.message has only one value",
+                            "this has only one value",
+                            "this.unfilteredStackTrace.getClass().getName() == java.lang.StackTraceElement[].class",
+                            "this.unfilteredStackTrace[] contains no nulls and has only one value, of length 36",
+                            "this.unfilteredStackTrace[].getClass().getName() elements == java.lang.StackTraceElement.class",
+                            "size(this.unfilteredStackTrace[]) == 36",
+                            "this.message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same());\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                            "this.message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same(null));\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\""
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ArgumentsAreDifferent(java.lang.String, java.lang.String, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "actual has only one value",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same(null));\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                                    "wanted.toString == \"mock.objectArgMethod(same(null));\"",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same());\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                                    "wanted.toString == \"mock.objectArgMethod(same());\"",
+                                    "wanted has only one value",
+                                    "message has only one value",
+                                    "actual.toString == \"mock.objectArgMethod(\\\"not null\\\");\""
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "actual has only one value",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same(null));\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                                    "wanted.toString == \"mock.objectArgMethod(same(null));\"",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same());\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                                    "wanted.toString == \"mock.objectArgMethod(same());\"",
+                                    "wanted has only one value",
+                                    "message has only one value",
+                                    "actual.toString == \"mock.objectArgMethod(\\\"not null\\\");\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "message.toString == orig(message.toString)",
+                                    "wanted.toString == orig(wanted.toString)",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same(null));\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                                    "wanted.toString == \"mock.objectArgMethod(same(null));\"",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same());\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                                    "wanted.toString == \"mock.objectArgMethod(same());\"",
+                                    "actual.toString == \"mock.objectArgMethod(\\\"not null\\\");\"",
+                                    "actual.toString == orig(actual.toString)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "message.toString == orig(message.toString)",
+                                    "wanted.toString == orig(wanted.toString)",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same(null));\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                                    "wanted.toString == \"mock.objectArgMethod(same(null));\"",
+                                    "message.toString == \"\\nArgument(s) are different! Wanted:\\nmock.objectArgMethod(same());\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)\\nActual invocation has different arguments:\\nmock.objectArgMethod(\\\"not null\\\");\\n-> at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:63)\\n\"",
+                                    "wanted.toString == \"mock.objectArgMethod(same());\"",
+                                    "actual.toString == \"mock.objectArgMethod(\\\"not null\\\");\"",
+                                    "actual.toString == orig(actual.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

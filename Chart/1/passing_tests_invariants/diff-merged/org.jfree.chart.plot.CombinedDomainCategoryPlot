@@ -1,0 +1,59 @@
+{
+    "org.jfree.chart.plot.CombinedDomainCategoryPlot": [
+        {
+            "getLegendItems()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "size(return.items[]) == 4",
+                                    "return.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                                    "return.items[] contains no nulls and has only one value, of length 4",
+                                    "return.items[].getClass().getName() == [org.jfree.chart.LegendItem, org.jfree.chart.LegendItem, org.jfree.chart.LegendItem, org.jfree.chart.LegendItem]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.items[] == []",
+                                    "return.items[].getClass().getName() == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "size(return.items[]) == 4",
+                                    "return.items[].getClass().getName() elements == org.jfree.chart.LegendItem.class",
+                                    "return.items[] contains no nulls and has only one value, of length 4",
+                                    "return.items[].getClass().getName() == [org.jfree.chart.LegendItem, org.jfree.chart.LegendItem, org.jfree.chart.LegendItem, org.jfree.chart.LegendItem]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

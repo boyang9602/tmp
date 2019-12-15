@@ -1,0 +1,165 @@
+{
+    "org.apache.commons.math.MathException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch74.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch74.inv.output": {
+                        "invs": [
+                            "this.arguments[] == []",
+                            "this.pattern.toString == \"unbounded solution\"",
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "this.arguments[].getClass().getName() == []",
+                            "this.pattern has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "MathException(java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "pattern has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "arguments[] == []",
+                                    "pattern.toString == \"unbounded solution\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "arguments[] == orig(arguments[])",
+                                    "arguments[] == []",
+                                    "pattern.toString == \"unbounded solution\""
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "translate(java.lang.String, java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "locale has only one value",
+                                    "s.toString == \"unbounded solution\"",
+                                    "s has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "s.toString == orig(s.toString)",
+                                    "s.toString == \"unbounded solution\"",
+                                    "return has only one value",
+                                    "return.toString == \"unbounded solution\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "73": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch74.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildMessage(java.util.Locale, java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "locale has only one value",
+                                    "pattern has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "arguments[] == []",
+                                    "pattern.toString == \"unbounded solution\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "arguments[] == orig(arguments[])",
+                                    "return.toString == \"unbounded solution\"",
+                                    "arguments[] == []",
+                                    "pattern.toString == \"unbounded solution\"",
+                                    "pattern.toString == orig(pattern.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

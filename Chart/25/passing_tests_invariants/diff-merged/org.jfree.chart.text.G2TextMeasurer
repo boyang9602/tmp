@@ -1,0 +1,89 @@
+{
+    "org.jfree.chart.text.G2TextMeasurer": [
+        {
+            "OBJECT": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                            "this.g2 != null",
+                            "this.g2 has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "getStringWidth(java.lang.String, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "start == 0",
+                                    "end == 2",
+                                    "text.toString one of { \"C1\", \"C2\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "text.toString == orig(text.toString)",
+                                    "this.g2.getClass().getName() == orig(this.g2.getClass().getName())",
+                                    "return == 14.0",
+                                    "text.toString one of { \"C1\", \"C2\" }",
+                                    "this.g2 == orig(this.g2)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "G2TextMeasurer(java.awt.Graphics2D)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "g2 has only one value",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

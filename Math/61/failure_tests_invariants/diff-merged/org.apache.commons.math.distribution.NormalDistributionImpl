@@ -1,0 +1,238 @@
+{
+    "org.apache.commons.math.distribution.NormalDistributionImpl": [
+        {
+            "setStandardDeviationInternal(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.mean one of { 4.0, 10.0 }",
+                                    "sd one of { 2.0, 3.1622776601683795 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "sd == 2.0",
+                                    "this.mean == 4.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "this.mean one of { 4.0, 10.0 }",
+                                    "sd one of { 2.0, 3.1622776601683795 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation one of { 2.0, 3.1622776601683795 }",
+                                    "this.mean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation == 2.0",
+                                    "this.mean == 4.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation one of { 2.0, 3.1622776601683795 }",
+                                    "this.mean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NormalDistributionImpl(double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "mean one of { 4.0, 10.0 }",
+                                    "sd one of { 2.0, 3.1622776601683795 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "sd == 2.0",
+                                    "mean == 4.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "mean one of { 4.0, 10.0 }",
+                                    "sd one of { 2.0, 3.1622776601683795 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation one of { 2.0, 3.1622776601683795 }",
+                                    "this.mean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation == 2.0",
+                                    "this.mean == 4.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation one of { 2.0, 3.1622776601683795 }",
+                                    "this.mean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMeanInternal(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "newMean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "newMean == 4.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "newMean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.mean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.mean == 4.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "this.mean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NormalDistributionImpl(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "mean one of { 4.0, 10.0 }",
+                                    "sd one of { 2.0, 3.1622776601683795 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "sd == 2.0",
+                                    "mean == 4.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "mean one of { 4.0, 10.0 }",
+                                    "sd one of { 2.0, 3.1622776601683795 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation one of { 2.0, 3.1622776601683795 }",
+                                    "this.mean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation == 2.0",
+                                    "this.mean == 4.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch200.inv.output": {
+                                "invs": [
+                                    "this.standardDeviation one of { 2.0, 3.1622776601683795 }",
+                                    "this.mean one of { 4.0, 10.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

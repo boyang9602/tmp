@@ -1,0 +1,129 @@
+{
+    "org.jfree.data.Range": [
+        {
+            "getUpperBound()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4, -1.0 }",
+                                    "this.upper one of { 7.0, 7.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return one of { 7.0, 7.4 }",
+                                    "this.lower one of { -1.4, -1.0 }",
+                                    "this.upper one of { 7.0, 7.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLowerBound()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4, -1.0 }",
+                                    "this.upper one of { 7.0, 7.4 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return one of { -1.4, -1.0 }",
+                                    "this.upper one of { 7.0, 7.4 }",
+                                    "this.lower one of { -1.4, -1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { -1.4, -1.0, 0.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "contains(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.lower == -1.4",
+                                    "this.upper == 7.4"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4, 0.0 }",
+                                    "this.upper one of { 7.4, 294.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.lower == -1.4",
+                                    "this.upper == 7.4"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.lower one of { -1.4, 0.0 }",
+                                    "this.upper one of { 7.4, 294.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

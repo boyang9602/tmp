@@ -1,0 +1,398 @@
+{
+    "org.jfree.chart.block.LabelBlock": [
+        {
+            "CLASS": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() == java.awt.Color.class",
+                            "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT != null",
+                            "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT has only one value"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch15.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() != this.bounds.getClass().getName()",
+                            "this.label.lines[].getClass().getName() == [org.jfree.chart.text.TextLine]",
+                            "this.padding.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                            "this.padding.bottom one of { 0.0, 2.0 }",
+                            "this.margin.unitType.name has only one value",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT has only one value",
+                            "this.text != null",
+                            "this.paint has only one value",
+                            "this.margin.unitType.name != null",
+                            "this.margin.left == 0.0",
+                            "this.label.lines[].getClass().getName() elements == org.jfree.chart.text.TextLine.class",
+                            "org.jfree.chart.util.UnitType.ABSOLUTE != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS != null",
+                            "this.label.lines != null",
+                            "this.margin.right == 0.0",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER has only one value",
+                            "this.margin.bottom == 0.0",
+                            "this.margin.unitType != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType has only one value",
+                            "this.label.lineAlignment has only one value",
+                            "org.jfree.chart.util.HorizontalAlignment.CENTER != null",
+                            "this.label != null",
+                            "this.margin != null",
+                            "this.padding != null",
+                            "this.paint != null",
+                            "this.font != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == 0.0",
+                            "org.jfree.chart.util.HorizontalAlignment.RIGHT != null",
+                            "this.label.lineAlignment != null",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS has only one value",
+                            "this.padding.unitType.name has only one value",
+                            "this.padding.top one of { 0.0, 2.0 }",
+                            "this.margin.unitType.name.toString == \"UnitType.ABSOLUTE\"",
+                            "this.margin.top == 0.0",
+                            "this.toolTipText == null",
+                            "this.frame.getClass().getName() == org.jfree.chart.block.BlockBorder.class",
+                            "this.label.lineAlignment.name.toString == \"HorizontalAlignment.CENTER\"",
+                            "this.frame.getClass().getName() != this.bounds.getClass().getName()",
+                            "this.id == null",
+                            "this.urlText == null",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT != null",
+                            "this.frame != null",
+                            "this.label.lines.getClass().getName() != org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName()",
+                            "this.padding.unitType.name != null",
+                            "this.padding.right one of { 0.0, 2.0 }",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType != null",
+                            "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() == this.paint.getClass().getName()",
+                            "this.font has only one value",
+                            "this.margin.unitType has only one value",
+                            "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() != this.frame.getClass().getName()",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == 0.0",
+                            "this.margin has only one value",
+                            "this.label.lineAlignment.name has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == 0.0",
+                            "this.label.lines.getClass().getName() != this.bounds.getClass().getName()",
+                            "org.jfree.chart.util.UnitType.ABSOLUTE has only one value",
+                            "this.bounds != null",
+                            "org.jfree.chart.util.UnitType.RELATIVE has only one value",
+                            "org.jfree.chart.util.HorizontalAlignment.LEFT has only one value",
+                            "this.frame has only one value",
+                            "org.jfree.chart.util.UnitType.RELATIVE != null",
+                            "this.label.lines.getClass().getName() != this.frame.getClass().getName()",
+                            "this.padding.left one of { 0.0, 2.0 }",
+                            "this.label.lines[] elements != null",
+                            "size(this.label.lines[]) == 1",
+                            "this.text.toString == \"S1\"",
+                            "this.padding.unitType has only one value",
+                            "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == 0.0",
+                            "this.height == 0.0",
+                            "this.width == 0.0",
+                            "this.label.lines.getClass().getName() == java.util.ArrayList.class",
+                            "this.label.lineAlignment.name != null",
+                            "this.padding.unitType != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, java.awt.geom.Rectangle2D, java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom == 2.0",
+                                    "this.padding.top == 2.0",
+                                    "params == null",
+                                    "this.bounds.getClass().getName() == area.getClass().getName()",
+                                    "this.padding.right == 2.0",
+                                    "this.padding.left == 2.0",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom == 2.0",
+                                    "this.padding.unitType == orig(this.padding.unitType)",
+                                    "this.padding.top == 2.0",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "this.bounds == orig(this.bounds)",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.label.lines == orig(this.label.lines)",
+                                    "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() == orig(org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName())",
+                                    "this.padding == orig(this.padding)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "this.padding.unitType.name == orig(this.padding.unitType.name)",
+                                    "this.margin == orig(this.margin)",
+                                    "this.paint == orig(this.paint)",
+                                    "this.padding.right == 2.0",
+                                    "this.padding.left == 2.0",
+                                    "this.text.toString == orig(this.text.toString)",
+                                    "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT == orig(org.jfree.chart.block.LabelBlock.DEFAULT_PAINT)",
+                                    "this.padding.bottom == orig(this.padding.bottom)",
+                                    "this.margin.unitType == orig(this.margin.unitType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.height == orig(this.height)",
+                                    "this.bounds.getClass().getName() == orig(this.bounds.getClass().getName())",
+                                    "this.padding.top == orig(this.padding.top)",
+                                    "this.label.lines.getClass().getName() == orig(this.label.lines.getClass().getName())",
+                                    "this.label.lineAlignment.name.toString == orig(this.label.lineAlignment.name.toString)",
+                                    "return == null",
+                                    "this.id == orig(this.id)",
+                                    "this.margin.unitType.name == orig(this.margin.unitType.name)",
+                                    "this.margin.unitType.name.toString == orig(this.margin.unitType.name.toString)",
+                                    "this.margin.left == orig(this.margin.left)",
+                                    "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() == orig(this.paint.getClass().getName())",
+                                    "this.margin.right == orig(this.margin.right)",
+                                    "this.padding.unitType.name.toString == orig(this.padding.unitType.name.toString)",
+                                    "this.width == orig(this.width)",
+                                    "this.label == orig(this.label)",
+                                    "this.text == orig(this.text)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "this.bounds.getClass().getName() == orig(area.getClass().getName())",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.frame.getClass().getName() == orig(this.frame.getClass().getName())",
+                                    "this.label.lineAlignment.name == orig(this.label.lineAlignment.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "this.padding.left == orig(this.padding.left)",
+                                    "this.font == orig(this.font)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)",
+                                    "this.margin.bottom == orig(this.margin.bottom)",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.label.lines[] == orig(this.label.lines[])",
+                                    "this.urlText == orig(this.urlText)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.padding.right == orig(this.padding.right)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Double.class",
+                                    "this.frame == orig(this.frame)",
+                                    "this.margin.top == orig(this.margin.top)",
+                                    "this.label.lineAlignment == orig(this.label.lineAlignment)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LabelBlock(java.lang.String, java.awt.Font, java.awt.Paint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "font has only one value",
+                                    "text.toString == \"S1\"",
+                                    "paint.getClass().getName() == java.awt.Color.class",
+                                    "paint has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.top == 0.0",
+                                    "text.toString == orig(text.toString)",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.padding has only one value",
+                                    "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() == orig(paint.getClass().getName())",
+                                    "this.padding.left == 0.0",
+                                    "this.padding.bottom == 0.0",
+                                    "text.toString == \"S1\"",
+                                    "this.padding.right == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "arrange(java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.padding.bottom == 2.0",
+                                    "this.padding.top == 2.0",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE has only one value",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType has only one value",
+                                    "constraint.heightRange == null",
+                                    "constraint.widthConstraintType has only one value",
+                                    "constraint.heightConstraintType has only one value",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE has only one value",
+                                    "this.padding.right == 2.0",
+                                    "this.padding.left == 2.0",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.height == 0.0",
+                                    "constraint.heightConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                    "constraint.height == 0.0",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.width == 0.0",
+                                    "constraint has only one value",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightRange == null",
+                                    "constraint.widthConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                    "constraint.widthRange == null",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED has only one value",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthRange == null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType has only one value",
+                                    "constraint.heightConstraintType.name has only one value",
+                                    "g2.getClass().getName() == sun.java2d.SunGraphics2D.class",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE has only one value",
+                                    "constraint.width == 0.0",
+                                    "constraint.widthConstraintType.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "constraint.widthRange == orig(constraint.widthRange)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE has only one value",
+                                    "this.padding == orig(this.padding)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.bottom)",
+                                    "constraint.heightRange == null",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE has only one value",
+                                    "this.padding.right == 2.0",
+                                    "constraint.widthConstraintType == orig(constraint.widthConstraintType)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.right)",
+                                    "constraint.height == 0.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.unitType)",
+                                    "this.bounds.getClass().getName() == orig(this.bounds.getClass().getName())",
+                                    "this.margin.left == orig(this.margin.left)",
+                                    "org.jfree.chart.util.UnitType.ABSOLUTE == orig(org.jfree.chart.util.UnitType.ABSOLUTE)",
+                                    "this.frame.getClass().getName() == orig(this.frame.getClass().getName())",
+                                    "this.label.lineAlignment.name == orig(this.label.lineAlignment.name)",
+                                    "org.jfree.chart.util.HorizontalAlignment.RIGHT == orig(org.jfree.chart.util.HorizontalAlignment.RIGHT)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthRange == orig(org.jfree.chart.block.RectangleConstraint.NONE.widthRange)",
+                                    "this.font == orig(this.font)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.height == orig(org.jfree.chart.block.RectangleConstraint.NONE.height)",
+                                    "this.toolTipText == orig(this.toolTipText)",
+                                    "this.label.lineAlignment == orig(this.label.lineAlignment)",
+                                    "this.padding.bottom == 2.0",
+                                    "org.jfree.chart.util.HorizontalAlignment.CENTER == orig(org.jfree.chart.util.HorizontalAlignment.CENTER)",
+                                    "this.label.lines == orig(this.label.lines)",
+                                    "constraint.heightRange == orig(constraint.heightRange)",
+                                    "constraint.heightConstraintType == orig(constraint.heightConstraintType)",
+                                    "this.padding.unitType.name == orig(this.padding.unitType.name)",
+                                    "this.margin == orig(this.margin)",
+                                    "constraint.heightConstraintType has only one value",
+                                    "constraint.heightConstraintType.name.toString == orig(constraint.heightConstraintType.name.toString)",
+                                    "this.padding.left == 2.0",
+                                    "return.width == 20.0",
+                                    "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT == orig(org.jfree.chart.block.LabelBlock.DEFAULT_PAINT)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.width == 0.0",
+                                    "this.label.lines.getClass().getName() == orig(this.label.lines.getClass().getName())",
+                                    "constraint.widthConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType == orig(org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType)",
+                                    "this.margin.unitType.name == orig(this.margin.unitType.name)",
+                                    "this.margin.right == orig(this.margin.right)",
+                                    "this.margin.unitType.name.toString == orig(this.margin.unitType.name.toString)",
+                                    "this.padding.unitType.name.toString == orig(this.padding.unitType.name.toString)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType == orig(org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType)",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED has only one value",
+                                    "constraint.heightConstraintType.name == orig(constraint.heightConstraintType.name)",
+                                    "this.text == orig(this.text)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthRange == null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightConstraintType has only one value",
+                                    "this.padding.left == orig(this.padding.left)",
+                                    "this.margin.bottom == orig(this.margin.bottom)",
+                                    "constraint.width == 0.0",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS)",
+                                    "this.frame == orig(this.frame)",
+                                    "this.margin.top == orig(this.margin.top)",
+                                    "this.padding.unitType == orig(this.padding.unitType)",
+                                    "org.jfree.chart.util.HorizontalAlignment.LEFT == orig(org.jfree.chart.util.HorizontalAlignment.LEFT)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.widthConstraintType has only one value",
+                                    "this.text.toString == orig(this.text.toString)",
+                                    "constraint.widthConstraintType.name.toString == orig(constraint.widthConstraintType.name.toString)",
+                                    "constraint.heightConstraintType.name.toString == \"LengthConstraintType.NONE\"",
+                                    "this.height == orig(this.height)",
+                                    "this.label.lineAlignment.name.toString == orig(this.label.lineAlignment.name.toString)",
+                                    "constraint.widthRange == null",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.width == orig(org.jfree.chart.block.RectangleConstraint.NONE.width)",
+                                    "this.width == orig(this.width)",
+                                    "constraint.widthConstraintType.name == orig(constraint.widthConstraintType.name)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE == orig(org.jfree.chart.block.RectangleConstraint.NONE)",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE has only one value",
+                                    "constraint.width == orig(constraint.width)",
+                                    "org.jfree.chart.util.UnitType.RELATIVE == orig(org.jfree.chart.util.UnitType.RELATIVE)",
+                                    "this.urlText == orig(this.urlText)",
+                                    "this.padding.right == orig(this.padding.right)",
+                                    "constraint.widthConstraintType.name has only one value",
+                                    "org.jfree.chart.block.LengthConstraintType.FIXED == orig(org.jfree.chart.block.LengthConstraintType.FIXED)",
+                                    "this.padding.top == 2.0",
+                                    "this.bounds == orig(this.bounds)",
+                                    "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() == orig(org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName())",
+                                    "this.paint == orig(this.paint)",
+                                    "constraint.widthConstraintType has only one value",
+                                    "this.padding.bottom == orig(this.padding.bottom)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.height == 0.0",
+                                    "this.margin.unitType == orig(this.margin.unitType)",
+                                    "this.padding.top == orig(this.padding.top)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightRange == null",
+                                    "this.id == orig(this.id)",
+                                    "org.jfree.chart.block.LabelBlock.DEFAULT_PAINT.getClass().getName() == orig(this.paint.getClass().getName())",
+                                    "this.bounds.getClass().getName() == java.awt.geom.Rectangle2D$Float.class",
+                                    "this.label == orig(this.label)",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.left)",
+                                    "constraint.height == orig(constraint.height)",
+                                    "constraint.heightConstraintType.name has only one value",
+                                    "return.height == 17.96875",
+                                    "org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top == orig(org.jfree.chart.util.RectangleInsets.ZERO_INSETS.top)",
+                                    "org.jfree.chart.block.RectangleConstraint.NONE.heightRange == orig(org.jfree.chart.block.RectangleConstraint.NONE.heightRange)",
+                                    "org.jfree.chart.block.LengthConstraintType.NONE == orig(org.jfree.chart.block.LengthConstraintType.NONE)",
+                                    "this.label.lines[] == orig(this.label.lines[])",
+                                    "org.jfree.chart.block.LengthConstraintType.RANGE == orig(org.jfree.chart.block.LengthConstraintType.RANGE)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

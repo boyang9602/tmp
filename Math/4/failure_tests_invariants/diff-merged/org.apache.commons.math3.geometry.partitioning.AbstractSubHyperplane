@@ -1,0 +1,82 @@
+{
+    "org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane": [
+        {
+            "getRemainingRegion()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.hyperplane has only one value",
+                                    "this.remainingRegion has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return has only one value",
+                                    "this.hyperplane has only one value",
+                                    "this.remainingRegion has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getHyperplane()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.hyperplane.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.Line.class",
+                                    "this.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.SubLine.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch155.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.hyperplane.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.Line.class",
+                                    "return.getClass().getName() == org.apache.commons.math3.geometry.euclidean.twod.Line.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

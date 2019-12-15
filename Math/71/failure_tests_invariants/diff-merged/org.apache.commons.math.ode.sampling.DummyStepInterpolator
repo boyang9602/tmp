@@ -1,0 +1,85 @@
+{
+    "org.apache.commons.math.ode.sampling.DummyStepInterpolator": [
+        {
+            "computeInterpolatedStateAndDerivatives(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.currentDerivative[] elements one of { 3.000180005400162E-6, 2.0012003601080003E-5, 1.0060180540000001E-4 }",
+                                    "this.interpolatedState[] one of { [0.0, 0.0, 0.0], [1.006018036054, 2.0012003600720107, 3.000180005400108], [1.006018036054065, 2.0012003600720107, 3.000180005400108] }",
+                                    "theta one of { 0.0, 1.000000003973643 }",
+                                    "oneMinusThetaH one of { -2.384185791015625E-7, 9.059906005859375E-6, 60.0 }",
+                                    "oneMinusThetaH >= -1.8835067749023438E-5",
+                                    "this.currentState[] elements one of { 1.006018036054, 2.0012003600720107, 3.000180005400108 }",
+                                    "this.h == 60.0",
+                                    "this.interpolatedDerivatives[] one of { [0.0, 0.0, 0.0], [1.006018036054065E-4, 2.001200360072011E-5, 3.000180005400108E-6], [1.0060180540000001E-4, 2.0012003601080003E-5, 3.000180005400162E-6] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "oneMinusThetaH >= -2.384185791015625E-7",
+                                    "this.h one of { 60.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.currentDerivative[] elements one of { 3.000180005400162E-6, 2.0012003601080003E-5, 1.0060180540000001E-4 }",
+                                    "this.interpolatedState[] one of { [0.0, 0.0, 0.0], [1.006018036054, 2.0012003600720107, 3.000180005400108], [1.006018036054065, 2.0012003600720107, 3.000180005400108] }",
+                                    "theta one of { 0.0, 1.000000003973643 }",
+                                    "oneMinusThetaH one of { -2.384185791015625E-7, 9.059906005859375E-6, 60.0 }",
+                                    "oneMinusThetaH >= -1.8835067749023438E-5",
+                                    "this.currentState[] elements one of { 1.006018036054, 2.0012003600720107, 3.000180005400108 }",
+                                    "this.h == 60.0",
+                                    "this.interpolatedDerivatives[] one of { [0.0, 0.0, 0.0], [1.006018036054065E-4, 2.001200360072011E-5, 3.000180005400108E-6], [1.0060180540000001E-4, 2.0012003601080003E-5, 3.000180005400162E-6] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": [
+                                    "this.currentDerivative[] elements one of { 3.000180005400162E-6, 2.0012003601080003E-5, 1.0060180540000001E-4 }",
+                                    "orig(this.interpolatedDerivatives[]) % this.interpolatedDerivatives[] == 0 (elementwise)",
+                                    "this.interpolatedDerivatives[] elements one of { 3.000180005400162E-6, 2.0012003601080003E-5, 1.0060180540000001E-4 }",
+                                    "orig(this.interpolatedState[]) % this.interpolatedState[] == 0 (elementwise)",
+                                    "this.interpolatedState[] elements one of { 1.006018036054, 2.0012003600720107, 3.000180005400108 }",
+                                    "this.currentState[] elements one of { 1.006018036054, 2.0012003600720107, 3.000180005400108 }",
+                                    "this.h == 60.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.h one of { 60.0, 100.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch53.inv.output": {
+                                "invs": [
+                                    "this.currentDerivative[] elements one of { 3.000180005400162E-6, 2.0012003601080003E-5, 1.0060180540000001E-4 }",
+                                    "orig(this.interpolatedDerivatives[]) % this.interpolatedDerivatives[] == 0 (elementwise)",
+                                    "this.interpolatedDerivatives[] elements one of { 3.000180005400162E-6, 2.0012003601080003E-5, 1.0060180540000001E-4 }",
+                                    "orig(this.interpolatedState[]) % this.interpolatedState[] == 0 (elementwise)",
+                                    "this.interpolatedState[] elements one of { 1.006018036054, 2.0012003600720107, 3.000180005400108 }",
+                                    "this.currentState[] elements one of { 1.006018036054, 2.0012003600720107, 3.000180005400108 }",
+                                    "this.h == 60.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "org.apache.commons.math.ode.nonstiff.HighamHall54Integrator": [
+        {
+            "getOrder()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "HighamHall54Integrator(double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.resetOccurred == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "estimateError(double[][], double[], double[], double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "y1[] sorted by >",
+                                    "y0[] elements != 0",
+                                    "y0[] sorted by >"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch38.inv.output": {
+                                "invs": [
+                                    "y1[] sorted by >",
+                                    "y0[] elements != 0",
+                                    "y0[] sorted by >"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

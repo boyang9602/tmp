@@ -1,0 +1,248 @@
+{
+    "org.jfree.chart.axis.Tick": [
+        {
+            "Tick(java.lang.String, org.jfree.chart.text.TextAnchor, org.jfree.chart.text.TextAnchor, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "rotationAnchor has only one value",
+                                    "rotationAnchor.name has only one value",
+                                    "textAnchor has only one value",
+                                    "rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "textAnchor.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rotationAnchor.name.toString one of { \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }",
+                                    "textAnchor.name.toString one of { \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "rotationAnchor.name has only one value",
+                                    "rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "textAnchor.name has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rotationAnchor.name.toString one of { \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }",
+                                    "textAnchor.name.toString one of { \"TextAnchor.CENTER\", \"TextAnchor.CENTER_RIGHT\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAngle()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor has only one value",
+                                    "this.textAnchor has only one value",
+                                    "this.rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor.name has only one value",
+                                    "this.getClass().getName() == org.jfree.chart.axis.NumberTick.class",
+                                    "this.textAnchor.name has only one value",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor has only one value",
+                                    "this.textAnchor has only one value",
+                                    "this.rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor.name has only one value",
+                                    "this.textAnchor.name has only one value",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getRotationAnchor()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor has only one value",
+                                    "this.textAnchor has only one value",
+                                    "this.rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor.name has only one value",
+                                    "this.getClass().getName() == org.jfree.chart.axis.NumberTick.class",
+                                    "this.textAnchor.name has only one value",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor has only one value",
+                                    "this.textAnchor has only one value",
+                                    "this.rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor.name has only one value",
+                                    "this.textAnchor.name has only one value",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getText()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor has only one value",
+                                    "this.textAnchor has only one value",
+                                    "this.rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor.name has only one value",
+                                    "this.getClass().getName() == org.jfree.chart.axis.NumberTick.class",
+                                    "this.textAnchor.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.rotationAnchor has only one value",
+                                    "this.textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.textAnchor has only one value",
+                                    "this.rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor.name has only one value",
+                                    "this.textAnchor.name has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getTextAnchor()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor has only one value",
+                                    "this.textAnchor has only one value",
+                                    "this.rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor.name has only one value",
+                                    "this.getClass().getName() == org.jfree.chart.axis.NumberTick.class",
+                                    "this.textAnchor.name has only one value",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.textAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor has only one value",
+                                    "this.textAnchor has only one value",
+                                    "this.rotationAnchor.name.toString == \"TextAnchor.CENTER_RIGHT\"",
+                                    "this.rotationAnchor.name has only one value",
+                                    "this.textAnchor.name has only one value",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

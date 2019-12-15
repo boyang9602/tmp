@@ -1,0 +1,190 @@
+{
+    "org.apache.commons.math3.exception.MaxCountExceededException": [
+        {
+            "CLASS": [
+                {
+                    "Patch158.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch198.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "Patch33.inv.output": "N/A"
+                },
+                {
+                    "Patch32.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch158.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "size(this.context.msgArguments[]) == 2",
+                            "this.context.msgArguments has only one value",
+                            "this has only one value",
+                            "this.context.msgArguments[].getClass().getName() elements == java.lang.Object[].class",
+                            "this.context.msgPatterns has only one value",
+                            "this.context.msgArguments[].getClass().getName() == [java.lang.Object[], java.lang.Object[]]",
+                            "this.max.getClass().getName() == java.lang.Integer.class",
+                            "this.context.throwable has only one value",
+                            "this.max has only one value",
+                            "this.context.msgPatterns[] contains no nulls and has only one value, of length 2",
+                            "this.context has only one value",
+                            "size(this.context.msgPatterns[]) == 2",
+                            "this.context.msgPatterns[].getClass().getName() == [org.apache.commons.math3.exception.util.LocalizedFormats, org.apache.commons.math3.exception.util.LocalizedFormats]",
+                            "this.context.msgArguments[] contains no nulls and has only one value, of length 2",
+                            "this.context.msgPatterns.getClass().getName() == java.util.ArrayList.class",
+                            "this.context.msgPatterns[].getClass().getName() elements == org.apache.commons.math3.exception.util.LocalizedFormats.class",
+                            "this.context.context has only one value",
+                            "this.context.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                            "this.context.context.getClass().getName() == java.util.HashMap.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch198.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "Patch33.inv.output": "N/A"
+                },
+                {
+                    "Patch32.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "MaxCountExceededException(org.apache.commons.math3.exception.util.Localizable, java.lang.Number, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch158.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "args has only one value",
+                                    "max has only one value",
+                                    "max.getClass().getName() == java.lang.Integer.class",
+                                    "specific.getClass().getName() == org.apache.commons.math3.exception.util.LocalizedFormats.class",
+                                    "specific has only one value",
+                                    "args[] == []",
+                                    "args.getClass().getName() == java.lang.Object[].class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch33.inv.output": "N/A"
+                        },
+                        {
+                            "Patch32.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch158.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "args[] == orig(args[])",
+                                    "args[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch33.inv.output": "N/A"
+                        },
+                        {
+                            "Patch32.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "MaxCountExceededException(java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch158.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "max has only one value",
+                                    "max.getClass().getName() == java.lang.Integer.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch33.inv.output": "N/A"
+                        },
+                        {
+                            "Patch32.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch158.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch198.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch33.inv.output": "N/A"
+                        },
+                        {
+                            "Patch32.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

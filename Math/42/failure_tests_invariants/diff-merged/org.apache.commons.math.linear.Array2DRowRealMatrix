@@ -1,0 +1,81 @@
+{
+    "org.apache.commons.math.linear.Array2DRowRealMatrix": [
+        {
+            "setEntry(int, int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] contains no nulls and has only one value, of length 3",
+                                    "size(this.data[]) == 3",
+                                    "this has only one value",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.data[] contains no nulls and has only one value, of length 3",
+                                    "size(this.data[]) == 3",
+                                    "this.data has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getColumnDimension()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "return one of { 5, 6 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 4, 6 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

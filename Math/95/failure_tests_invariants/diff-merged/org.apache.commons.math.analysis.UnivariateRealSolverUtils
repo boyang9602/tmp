@@ -1,0 +1,356 @@
+{
+    "org.apache.commons.math.analysis.UnivariateRealSolverUtils": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch75.inv.output": {
+                        "invs": [
+                            "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch76.inv.output": {
+                        "invs": [
+                            "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "setup(org.apache.commons.math.analysis.UnivariateRealFunction)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solve(org.apache.commons.math.analysis.UnivariateRealFunction, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "x0 == 0.0",
+                                    "x1 == 1.0",
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "x1 == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "x0 == 0.0",
+                                    "x1 == 1.0",
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "x1 == 2.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "x0 == 0.0",
+                                    "x1 == 1.0",
+                                    "f.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "x1 == 2.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == 0.9750000261341519",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return == 0.9750000000640364"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "return == 0.9750000261341519",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return == 0.9750000000640364"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "return == 0.9750000261341519",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory has only one value",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return == 0.9750000000640364"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "initial == 0.0",
+                                    "upperBound == 1.7976931348623157E308",
+                                    "lowerBound == 0.0",
+                                    "initial == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "initial == 0.0",
+                                    "upperBound == 1.7976931348623157E308",
+                                    "lowerBound == 0.0",
+                                    "initial == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "initial == 0.0",
+                                    "upperBound == 1.7976931348623157E308",
+                                    "lowerBound == 0.0",
+                                    "initial == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return[] elements one of { 0.0, 1.0 }",
+                                    "return[] == [0.0, 1.0]",
+                                    "size(return[]) == 2",
+                                    "return[] == [0.0, 2.0]",
+                                    "return[] elements one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return[] elements one of { 0.0, 1.0 }",
+                                    "return[] == [0.0, 1.0]",
+                                    "size(return[]) == 2",
+                                    "return[] == [0.0, 2.0]",
+                                    "return[] elements one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return[] elements one of { 0.0, 1.0 }",
+                                    "return[] == [0.0, 1.0]",
+                                    "size(return[]) == 2",
+                                    "return[] == [0.0, 2.0]",
+                                    "return[] elements one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bracket(org.apache.commons.math.analysis.UnivariateRealFunction, double, double, double, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "maximumIterations == 2147483647",
+                                    "function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "initial == 0.0",
+                                    "upperBound == 1.7976931348623157E308",
+                                    "lowerBound == 0.0",
+                                    "initial == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "maximumIterations == 2147483647",
+                                    "function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "initial == 0.0",
+                                    "upperBound == 1.7976931348623157E308",
+                                    "lowerBound == 0.0",
+                                    "initial == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "maximumIterations == 2147483647",
+                                    "function.getClass().getName() == org.apache.commons.math.distribution.AbstractContinuousDistribution$1.class",
+                                    "initial == 0.0",
+                                    "upperBound == 1.7976931348623157E308",
+                                    "lowerBound == 0.0",
+                                    "initial == 1.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return[] elements one of { 0.0, 1.0 }",
+                                    "return[] == [0.0, 1.0]",
+                                    "size(return[]) == 2",
+                                    "return[] == [0.0, 2.0]",
+                                    "return[] elements one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch75.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return[] elements one of { 0.0, 1.0 }",
+                                    "return[] == [0.0, 1.0]",
+                                    "size(return[]) == 2",
+                                    "return[] == [0.0, 2.0]",
+                                    "return[] elements one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch76.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory)",
+                                    "org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName() == orig(org.apache.commons.math.analysis.UnivariateRealSolverUtils.factory.getClass().getName())",
+                                    "return[] elements one of { 0.0, 1.0 }",
+                                    "return[] == [0.0, 1.0]",
+                                    "size(return[]) == 2",
+                                    "return[] == [0.0, 2.0]",
+                                    "return[] elements one of { 0.0, 2.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

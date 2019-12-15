@@ -1,0 +1,271 @@
+{
+    "org.jfree.chart.axis.AxisCollection": [
+        {
+            "getAxesAtTop()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtBottom[]) == 1",
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axesAtLeft[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "return[].getClass().getName() == []",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }",
+                                    "return[] == []",
+                                    "size(this.axesAtBottom[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return[] elements != null",
+                                    "return[].getClass().getName() one of { [], [org.jfree.chart.axis.NumberAxis] }",
+                                    "size(return[]) one of { 0, 1 }",
+                                    "this.axesAtLeft[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }",
+                                    "return[].getClass().getName() elements == org.jfree.chart.axis.NumberAxis.class",
+                                    "return[] elements has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "add(org.jfree.chart.axis.Axis, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "axis.tickMarksVisible == true",
+                                    "axis.plot.getClass().getName() == org.jfree.chart.plot.XYPlot.class",
+                                    "this.axesAtLeft[].getClass().getName() == []",
+                                    "this.axesAtLeft[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axesAtTop[] == []",
+                                    "this.axesAtLeft[].getClass().getName() elements == org.jfree.chart.axis.CategoryAxis.class",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "this.axesAtLeft[] elements has only one value",
+                                    "this.axesAtTop[].getClass().getName() == []",
+                                    "this.axesAtLeft[].getClass().getName() one of { [], [org.jfree.chart.axis.CategoryAxis] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\" }",
+                                    "axis.tickMarksVisible == true",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }",
+                                    "axis.plot.getClass().getName() == org.jfree.chart.plot.XYPlot.class",
+                                    "this.axesAtTop[] == orig(this.axesAtTop[])",
+                                    "size(this.axesAtBottom[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtTop[]) >= orig(size(this.axesAtTop[]))",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.LEFT\", \"RectangleEdge.TOP\" }",
+                                    "size(this.axesAtTop[])-1 >= orig(size(this.axesAtTop[]))-1",
+                                    "size(this.axesAtTop[])-1 <= orig(size(this.axesAtTop[]))"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AxisCollection()": [
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axesAtTop[].getClass().getName() == []",
+                                    "this.axesAtTop[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAxesAtBottom()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtBottom[]) == 1",
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axesAtLeft[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "size(return[]) == 1",
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "return[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }",
+                                    "size(this.axesAtBottom[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(return[]) one of { 0, 1 }",
+                                    "this.axesAtLeft[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAxesAtLeft()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtBottom[]) == 1",
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axesAtLeft[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "return[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }",
+                                    "return[].getClass().getName() elements == org.jfree.chart.axis.NumberAxis.class",
+                                    "size(this.axesAtBottom[]) == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }",
+                                    "this.axesAtLeft[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getAxesAtRight()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtBottom[]) == 1",
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axesAtLeft[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "size(this.axesAtBottom[]) == 1",
+                                    "this.axesAtLeft[].getClass().getName() == [org.jfree.chart.axis.NumberAxis]",
+                                    "this.axesAtBottom[].getClass().getName() one of { [org.jfree.chart.axis.DateAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.axesAtLeft[].getClass().getName() one of { [org.jfree.chart.axis.CategoryAxis], [org.jfree.chart.axis.NumberAxis] }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

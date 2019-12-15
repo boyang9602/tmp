@@ -1,0 +1,567 @@
+{
+    "org.apache.commons.math.MathException": [
+        {
+            "CLASS": [
+                {
+                    "Patch71.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch72.inv.output": "N/A"
+                },
+                {
+                    "Patch204.inv.output": "N/A"
+                },
+                {
+                    "Patch70.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "Patch174.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair9.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "Patch71.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.pattern.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\", \"org.apache.commons.math.ConvergenceException: number of iterations=1, maximum iterations=2,147,483,647, initial=1, lower bound=0, upper bound=179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000, final a value=0, final b value=2, f(a)=-0.477, f(b)=0\" }",
+                            "this.arguments.getClass().getName() == java.lang.Object[].class",
+                            "size(this.arguments[]) one of { 0, 1, 9 }"
+                        ]
+                    }
+                },
+                {
+                    "Patch72.inv.output": "N/A"
+                },
+                {
+                    "Patch204.inv.output": "N/A"
+                },
+                {
+                    "Patch70.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "Patch174.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair9.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "MathException(java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(arguments[]) one of { 1, 9 }",
+                                    "pattern.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\" }",
+                                    "arguments.getClass().getName() == java.lang.Object[].class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "this.pattern.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\" }",
+                                    "size(this.arguments[]) one of { 1, 9 }",
+                                    "pattern.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\" }",
+                                    "arguments[] == orig(arguments[])",
+                                    "this.arguments[].getClass().getName() one of { [java.lang.Integer], [java.lang.Integer, java.lang.Integer, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getLocalizedMessage()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.arguments[]) == 9",
+                                    "this.arguments has only one value",
+                                    "this.arguments[] contains no nulls and has only one value, of length 9",
+                                    "this has only one value",
+                                    "this.pattern.toString == \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\"",
+                                    "this.pattern has only one value",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer, java.lang.Integer, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.arguments[]) == 9",
+                                    "this.arguments has only one value",
+                                    "this.pattern.toString == orig(this.pattern.toString)",
+                                    "return has only one value",
+                                    "this.arguments[] contains no nulls and has only one value, of length 9",
+                                    "this.arguments == orig(this.arguments)",
+                                    "this.arguments[] == orig(this.arguments[])",
+                                    "this.pattern.toString == \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\"",
+                                    "this.pattern == orig(this.pattern)",
+                                    "return.toString == \"number of iterations=1, maximum iterations=2,147,483,647, initial=1, lower bound=0, upper bound=179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000, final a value=0, final b value=2, f(a)=-0.477, f(b)=0\"",
+                                    "this.pattern has only one value",
+                                    "this.arguments.getClass().getName() == orig(this.arguments.getClass().getName())",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer, java.lang.Integer, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMessage(java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "locale has only one value",
+                                    "size(this.arguments[]) == 9",
+                                    "this.arguments has only one value",
+                                    "this.arguments[] contains no nulls and has only one value, of length 9",
+                                    "this has only one value",
+                                    "this.pattern.toString == \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\"",
+                                    "this.pattern has only one value",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer, java.lang.Integer, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(this.arguments[]) == 9",
+                                    "this.arguments has only one value",
+                                    "this.pattern.toString == orig(this.pattern.toString)",
+                                    "return has only one value",
+                                    "this.arguments[] contains no nulls and has only one value, of length 9",
+                                    "this.arguments == orig(this.arguments)",
+                                    "this.arguments[] == orig(this.arguments[])",
+                                    "this.pattern.toString == \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\"",
+                                    "this.pattern == orig(this.pattern)",
+                                    "return.toString == \"number of iterations=1, maximum iterations=2,147,483,647, initial=1, lower bound=0, upper bound=179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000, final a value=0, final b value=2, f(a)=-0.477, f(b)=0\"",
+                                    "this.pattern has only one value",
+                                    "this.arguments.getClass().getName() == orig(this.arguments.getClass().getName())",
+                                    "this.arguments[].getClass().getName() == [java.lang.Integer, java.lang.Integer, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double, java.lang.Double]"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "translate(java.lang.String, java.util.Locale)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "locale has only one value",
+                                    "s.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "s.toString == orig(s.toString)",
+                                    "return.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\" }",
+                                    "s.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "73": [
+                                {
+                                    "Patch71.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch72.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch204.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch70.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch174.inv.output": "N/A"
+                                },
+                                {
+                                    "PatchHDRepair9.inv.output": "N/A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildMessage(java.util.Locale, java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "size(arguments[]) one of { 1, 9 }",
+                                    "locale has only one value",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "pattern.toString one of { \"Maximal number of iterations ({0}) exceeded\", \"number of iterations={0}, maximum iterations={1}, initial={2}, lower bound={3}, upper bound={4}, final a value={5}, final b value={6}, f(a)={7}, f(b)={8}\" }",
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "arguments[] == orig(arguments[])",
+                                    "return.toString one of { \"Maximal number of iterations (10,000) exceeded\", \"number of iterations=1, maximum iterations=2,147,483,647, initial=1, lower bound=0, upper bound=179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000, final a value=0, final b value=2, f(a)=-0.477, f(b)=0\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "MathException(java.lang.Throwable)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "rootCause has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch71.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.arguments has only one value",
+                                    "this.pattern.toString == \"org.apache.commons.math.ConvergenceException: number of iterations=1, maximum iterations=2,147,483,647, initial=1, lower bound=0, upper bound=179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000, final a value=0, final b value=2, f(a)=-0.477, f(b)=0\"",
+                                    "this.arguments[].getClass().getName() == []",
+                                    "this.arguments[] == []",
+                                    "this.pattern has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch72.inv.output": "N/A"
+                        },
+                        {
+                            "Patch204.inv.output": "N/A"
+                        },
+                        {
+                            "Patch70.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch174.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair9.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

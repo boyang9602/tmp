@@ -1,0 +1,110 @@
+{
+    "org.apache.commons.math3.genetics.ElitisticListPopulation": [
+        {
+            "OBJECT": [
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": [
+                            "this.chromosomes[].getClass().getName() == []",
+                            "this.elitismRate one of { -0.25, 1.25 }",
+                            "this.populationLimit == 100",
+                            "this.chromosomes[] == []"
+                        ]
+                    }
+                },
+                {
+                    "Patch199.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "ElitisticListPopulation(int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "populationLimit == 100",
+                                    "elitismRate one of { -0.25, 1.25 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch199.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.chromosomes.getClass().getName() == java.util.ArrayList.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch199.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ElitisticListPopulation(java.util.List, int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "chromosomes[] == []",
+                                    "elitismRate one of { -0.25, 1.25 }",
+                                    "chromosomes[].getClass().getName() == []",
+                                    "chromosomes has only one value",
+                                    "chromosomes.getClass().getName() == java.util.Collections$EmptyList.class",
+                                    "populationLimit == 100"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch199.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "chromosomes[] == []",
+                                    "this.chromosomes has only one value",
+                                    "chromosomes[].getClass().getName() == []",
+                                    "this.chromosomes.getClass().getName() == java.util.Collections$EmptyList.class",
+                                    "chromosomes[] == orig(chromosomes[])"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch199.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

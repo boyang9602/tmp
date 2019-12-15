@@ -1,0 +1,218 @@
+{
+    "org.apache.commons.math3.exception.util.ExceptionContext": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch197.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch197.inv.output": {
+                        "invs": [
+                            "this.msgPatterns[] elements has only one value",
+                            "this.context has only one value",
+                            "this.msgPatterns[].getClass().getName() one of { [], [org.apache.commons.math3.exception.util.LocalizedFormats] }",
+                            "this.msgPatterns.getClass().getName() == java.util.ArrayList.class",
+                            "this.msgArguments has only one value",
+                            "this.msgPatterns[].getClass().getName() elements == org.apache.commons.math3.exception.util.LocalizedFormats.class",
+                            "this.msgArguments[].getClass().getName() one of { [], [java.lang.Object[]] }",
+                            "this has only one value",
+                            "this.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                            "size(this.msgArguments[]) one of { 0, 1 }",
+                            "this.context.getClass().getName() == java.util.HashMap.class",
+                            "this.throwable has only one value",
+                            "this.msgArguments[] elements has only one value",
+                            "size(this.msgPatterns[]) one of { 0, 1 }",
+                            "this.msgPatterns has only one value",
+                            "this.msgArguments[].getClass().getName() elements == java.lang.Object[].class"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.msgPatterns[] elements has only one value",
+                            "this.context has only one value",
+                            "this.msgPatterns[].getClass().getName() one of { [], [org.apache.commons.math3.exception.util.LocalizedFormats] }",
+                            "this.msgPatterns.getClass().getName() == java.util.ArrayList.class",
+                            "this.msgArguments has only one value",
+                            "this.msgPatterns[].getClass().getName() elements == org.apache.commons.math3.exception.util.LocalizedFormats.class",
+                            "this.msgArguments[].getClass().getName() one of { [], [java.lang.Object[]] }",
+                            "this has only one value",
+                            "this.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                            "size(this.msgArguments[]) one of { 0, 1 }",
+                            "this.context.getClass().getName() == java.util.HashMap.class",
+                            "this.throwable has only one value",
+                            "this.msgArguments[] elements has only one value",
+                            "size(this.msgPatterns[]) one of { 0, 1 }",
+                            "this.msgPatterns has only one value",
+                            "this.msgArguments[].getClass().getName() elements == java.lang.Object[].class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ExceptionContext(java.lang.Throwable)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch197.inv.output": {
+                                "invs": [
+                                    "throwable has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "throwable has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch197.inv.output": {
+                                "invs": [
+                                    "this.msgPatterns[].getClass().getName() == []",
+                                    "this.msgArguments[].getClass().getName() == []",
+                                    "this.msgArguments[] == []",
+                                    "this.msgPatterns[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.msgPatterns[].getClass().getName() == []",
+                                    "this.msgArguments[].getClass().getName() == []",
+                                    "this.msgArguments[] == []",
+                                    "this.msgPatterns[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "addMessage(org.apache.commons.math3.exception.util.Localizable, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch197.inv.output": {
+                                "invs": [
+                                    "this.msgPatterns[] == []",
+                                    "this.msgArguments[].getClass().getName() == []",
+                                    "this.msgPatterns[].getClass().getName() == []",
+                                    "arguments[] == []",
+                                    "arguments has only one value",
+                                    "pattern.getClass().getName() == org.apache.commons.math3.exception.util.LocalizedFormats.class",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern has only one value",
+                                    "this.msgArguments[] == []"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.msgPatterns[] == []",
+                                    "this.msgArguments[].getClass().getName() == []",
+                                    "this.msgPatterns[].getClass().getName() == []",
+                                    "arguments[] == []",
+                                    "arguments has only one value",
+                                    "pattern.getClass().getName() == org.apache.commons.math3.exception.util.LocalizedFormats.class",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "pattern has only one value",
+                                    "this.msgArguments[] == []"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch197.inv.output": {
+                                "invs": [
+                                    "arguments[] == orig(arguments[])",
+                                    "this.msgArguments[].getClass().getName() == [java.lang.Object[]]",
+                                    "this.msgArguments[] contains no nulls and has only one value, of length 1",
+                                    "this.msgArguments.getClass().getName() == orig(this.msgArguments.getClass().getName())",
+                                    "this.msgPatterns[] contains no nulls and has only one value, of length 1",
+                                    "this.context == orig(this.context)",
+                                    "size(this.msgArguments[])-1 == orig(size(this.msgArguments[]))",
+                                    "arguments[] == []",
+                                    "size(this.msgArguments[]) == 1",
+                                    "size(this.msgPatterns[])-1 == orig(size(this.msgPatterns[]))",
+                                    "this.throwable == orig(this.throwable)",
+                                    "this.msgArguments == orig(this.msgArguments)",
+                                    "this.msgPatterns.getClass().getName() == orig(this.msgPatterns.getClass().getName())",
+                                    "size(this.msgPatterns[]) == 1",
+                                    "this.msgPatterns == orig(this.msgPatterns)",
+                                    "this.context.getClass().getName() == orig(this.context.getClass().getName())",
+                                    "this.msgPatterns[].getClass().getName() == [org.apache.commons.math3.exception.util.LocalizedFormats]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "arguments[] == orig(arguments[])",
+                                    "this.msgArguments[].getClass().getName() == [java.lang.Object[]]",
+                                    "this.msgArguments[] contains no nulls and has only one value, of length 1",
+                                    "this.msgArguments.getClass().getName() == orig(this.msgArguments.getClass().getName())",
+                                    "this.msgPatterns[] contains no nulls and has only one value, of length 1",
+                                    "this.context == orig(this.context)",
+                                    "size(this.msgArguments[])-1 == orig(size(this.msgArguments[]))",
+                                    "arguments[] == []",
+                                    "size(this.msgArguments[]) == 1",
+                                    "size(this.msgPatterns[])-1 == orig(size(this.msgPatterns[]))",
+                                    "this.throwable == orig(this.throwable)",
+                                    "this.msgArguments == orig(this.msgArguments)",
+                                    "this.msgPatterns.getClass().getName() == orig(this.msgPatterns.getClass().getName())",
+                                    "size(this.msgPatterns[]) == 1",
+                                    "this.msgPatterns == orig(this.msgPatterns)",
+                                    "this.context.getClass().getName() == orig(this.context.getClass().getName())",
+                                    "this.msgPatterns[].getClass().getName() == [org.apache.commons.math3.exception.util.LocalizedFormats]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

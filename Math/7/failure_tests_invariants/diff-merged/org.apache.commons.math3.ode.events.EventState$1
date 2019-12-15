@@ -1,0 +1,122 @@
+{
+    "org.apache.commons.math3.ode.events.EventState$1": [
+        {
+            "(org.apache.commons.math3.ode.events.EventState, org.apache.commons.math3.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.ode.events.EventState.this.previousEventTime == Double.NaN",
+                                    "org.apache.commons.math3.ode.events.EventState.this.increasing == true",
+                                    "org.apache.commons.math3.ode.events.EventState.this.g0Positive == true",
+                                    "org.apache.commons.math3.ode.events.EventState.this.nextAction has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.ode.events.EventState.this.increasing == true"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "value(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.ode.events.EventState.this.nextAction has only one value",
+                                    "org.apache.commons.math3.ode.events.EventState.this.g0 one of { -0.0866059959192769, 0.0866059798990462, 0.13274898227942175 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.ode.events.EventState.this.handler has only one value",
+                                    "org.apache.commons.math3.ode.events.EventState.this.increasing == false",
+                                    "org.apache.commons.math3.ode.events.EventState.this.g0 == 0.13274898227942175",
+                                    "org.apache.commons.math3.ode.events.EventState.this.t0 == 1.4376543296199715",
+                                    "org.apache.commons.math3.ode.events.EventState.this.solver has only one value",
+                                    "this has only one value",
+                                    "org.apache.commons.math3.ode.events.EventState.this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.ode.events.EventState.this.nextAction has only one value",
+                                    "org.apache.commons.math3.ode.events.EventState.this.g0 one of { -0.0866059959192769, 0.0866059798990462, 0.13274898227942175 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.ode.events.EventState.this.nextAction has only one value",
+                                    "org.apache.commons.math3.ode.events.EventState.this.g0 one of { -0.0866059959192769, 0.0866059798990462, 0.13274898227942175 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.ode.events.EventState.this.handler has only one value",
+                                    "org.apache.commons.math3.ode.events.EventState.this.increasing == false",
+                                    "org.apache.commons.math3.ode.events.EventState.this.g0 == 0.13274898227942175",
+                                    "org.apache.commons.math3.ode.events.EventState.this.t0 == 1.4376543296199715",
+                                    "org.apache.commons.math3.ode.events.EventState.this.solver has only one value",
+                                    "org.apache.commons.math3.ode.events.EventState.this has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "org.apache.commons.math3.ode.events.EventState.this.nextAction has only one value",
+                                    "org.apache.commons.math3.ode.events.EventState.this.g0 one of { -0.0866059959192769, 0.0866059798990462, 0.13274898227942175 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

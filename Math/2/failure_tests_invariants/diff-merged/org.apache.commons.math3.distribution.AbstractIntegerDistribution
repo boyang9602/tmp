@@ -1,0 +1,294 @@
+{
+    "org.apache.commons.math3.distribution.AbstractIntegerDistribution": [
+        {
+            "sample()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch154.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch27.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch28.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch154.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == -50"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch27.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch28.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "solveInverseCumulativeProbability(double, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch154.inv.output": {
+                                "invs": [
+                                    "lower == -1",
+                                    "upper == 50",
+                                    "upper one of { 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "upper == -50",
+                                    "lower == -1",
+                                    "p == 0.6324771974266783"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "upper == 50",
+                                    "upper one of { 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch27.inv.output": {
+                                "invs": [
+                                    "lower == -1",
+                                    "upper == 50",
+                                    "upper one of { 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch28.inv.output": {
+                                "invs": [
+                                    "lower == -1",
+                                    "upper == 50",
+                                    "upper one of { 49, 50 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch154.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == -50"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch27.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch28.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "inverseCumulativeProbability(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch154.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "p == 0.6324771974266783"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch27.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch28.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch154.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == -50"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch27.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch28.inv.output": {
+                                "invs": [
+                                    "return one of { 48, 49, 50 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "142": [
+                                {
+                                    "Patch154.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch27.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch28.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "144": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch154.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "139": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch28.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

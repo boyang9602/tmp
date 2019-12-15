@@ -1,0 +1,80 @@
+===========================================================================
+org.apache.commons.lang3.StringUtils:::CLASS
+===========================================================================
+org.apache.commons.lang3.StringUtils.isBlank(java.lang.CharSequence):::ENTER
+cs != null
+cs.getClass().getName() == java.lang.String.class
+===========================================================================
+org.apache.commons.lang3.StringUtils.isBlank(java.lang.CharSequence):::EXIT240
+return == true
+orig(cs) has only one value
+===========================================================================
+org.apache.commons.lang3.StringUtils.isBlank(java.lang.CharSequence):::EXIT240;condition="return == true"
+===========================================================================
+org.apache.commons.lang3.StringUtils.isBlank(java.lang.CharSequence):::EXIT244
+return == false
+===========================================================================
+org.apache.commons.lang3.StringUtils.isBlank(java.lang.CharSequence):::EXIT244;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.StringUtils.isBlank(java.lang.CharSequence):::EXIT
+(return == true)  ==>  (orig(cs) has only one value)
+===========================================================================
+org.apache.commons.lang3.StringUtils.isBlank(java.lang.CharSequence):::EXIT;condition="return == true"
+return == true
+orig(cs) has only one value
+===========================================================================
+org.apache.commons.lang3.StringUtils.isBlank(java.lang.CharSequence):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::ENTER
+cs.getClass().getName() == java.lang.String.class
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT
+(return == false)  ==>  (orig(cs) != null)
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT;condition="not(return == true)"
+return == false
+orig(cs) != null
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest:::OBJECT
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.NumberUtilsTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.NumberUtilsTest(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT1152
+val.toString == "--2.3"
+return == false
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT1152;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT1154
+return == true
+orig(val) != null
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT1154;condition="return == true"
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT1156
+return == false
+orig(val) != null
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT1156;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT
+val.toString == orig(val.toString)
+(return == true)  ==>  (orig(val) != null)
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT;condition="return == true"
+return == true
+orig(val) != null
+===========================================================================
+org.apache.commons.lang3.math.NumberUtilsTest.checkCreateNumber(java.lang.String):::EXIT;condition="not(return == true)"
+return == false

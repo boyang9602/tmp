@@ -1,0 +1,431 @@
+{
+    "org.apache.commons.math.util.FastMath": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "PatchHDRepair6.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "quadMult(double[], double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "size(result[]) == 2",
+                                    "size(a[]) == 2",
+                                    "b != null",
+                                    "a != null",
+                                    "a[] sorted by >",
+                                    "size(b[]) == 2",
+                                    "b[] sorted by >",
+                                    "result != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "b[] == orig(b[])",
+                                    "b[] sorted by >",
+                                    "a[] sorted by >",
+                                    "a[] == orig(a[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slowLog(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "return[] sorted by >=",
+                                    "size(return[]) == 2",
+                                    "return != null"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "splitReciprocal(double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "size(in[]) == 2",
+                                    "in != null",
+                                    "result[] elements <= 1.0",
+                                    "size(result[]) == 2",
+                                    "result != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "in[] == orig(in[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slowexp(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "result has only one value",
+                                    "size(result[]) == 2",
+                                    "result != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "result[] sorted by >"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "split(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "size(split[]) == 2",
+                                    "split != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slowSin(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "result[] sorted by >=",
+                                    "result has only one value",
+                                    "size(result[]) == 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "result[] sorted by >=",
+                                    "result[] <= orig(result[]) (lexically)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "splitMult(double[], double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "size(ans[]) == 2",
+                                    "size(a[]) == 2",
+                                    "b != null",
+                                    "a != null",
+                                    "size(b[]) == 2",
+                                    "ans != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "b[] == orig(b[])",
+                                    "a[] == orig(a[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "splitAdd(double[], double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "size(ans[]) == 2",
+                                    "b[] elements <= 2.0",
+                                    "size(a[]) == 2",
+                                    "b != null",
+                                    "a != null",
+                                    "size(b[]) == 2",
+                                    "ans != null",
+                                    "ans[] sorted by >="
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "b[] == orig(b[])",
+                                    "b[] elements <= 2.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slowCos(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "result[] sorted by >=",
+                                    "result has only one value",
+                                    "size(result[]) == 2"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "result[] >= orig(result[]) (lexically)",
+                                    "result[] > orig(result[]) (lexically)",
+                                    "result[] sorted by >"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildSinCosTables()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "expint(int, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "result has only one value",
+                                    "size(result[]) == 2",
+                                    "result != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "resplit(double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "size(a[]) == 2",
+                                    "a != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

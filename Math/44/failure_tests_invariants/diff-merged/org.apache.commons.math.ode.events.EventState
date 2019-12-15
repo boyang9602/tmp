@@ -1,0 +1,501 @@
+{
+    "org.apache.commons.math.ode.events.EventState": [
+        {
+            "getEventTime()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }",
+                                    "this.t0 one of { 7.697093317360001, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -3.3129066826399987, -3.292906682639999 }",
+                                    "this.t0 == 7.697093317360001"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }",
+                                    "this.t0 one of { 7.697093317360001, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }",
+                                    "this.t0 one of { 7.697093317360001, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -3.3129066826399987, -3.292906682639999 }",
+                                    "this.t0 == 7.697093317360001"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }",
+                                    "this.t0 one of { 7.697093317360001, 10.99 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "reset(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "t one of { 10.99, 11.01 }",
+                                    "this.pendingEventTime one of { 10.99, 11.01 }",
+                                    "this.t0 one of { 10.99, 11.01 }",
+                                    "y[] one of { [10.989999999999997], [12.009999999999994] }",
+                                    "y[] elements one of { 10.989999999999997, 12.009999999999994 }",
+                                    "this.previousEventTime one of { 10.99, 11.01 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "y[] elements == 10.989999999999997",
+                                    "this.previousEventTime == 10.99",
+                                    "this.t0 == 10.99",
+                                    "y[] == [10.989999999999997]",
+                                    "this.solver has only one value",
+                                    "t == 10.99",
+                                    "this.handler has only one value",
+                                    "this.pendingEventTime == 10.99"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "t one of { 10.99, 11.01 }",
+                                    "this.pendingEventTime one of { 10.99, 11.01 }",
+                                    "this.t0 one of { 10.99, 11.01 }",
+                                    "y[] one of { [10.989999999999997], [12.009999999999994] }",
+                                    "y[] elements one of { 10.989999999999997, 12.009999999999994 }",
+                                    "this.previousEventTime one of { 10.99, 11.01 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y[] elements one of { 11.989999999999997, 13.009999999999994 }",
+                                    "this.t0 one of { 10.99, 11.01 }",
+                                    "y[] one of { [11.989999999999997], [13.009999999999994] }",
+                                    "this.previousEventTime one of { 10.99, 11.01 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.t0 == 10.99",
+                                    "this.handler has only one value",
+                                    "this.solver has only one value",
+                                    "y[] == [11.989999999999997]",
+                                    "this.previousEventTime == 10.99",
+                                    "y[] elements == 11.989999999999997"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "y[] elements one of { 11.989999999999997, 13.009999999999994 }",
+                                    "this.t0 one of { 10.99, 11.01 }",
+                                    "y[] one of { [11.989999999999997], [13.009999999999994] }",
+                                    "this.previousEventTime one of { 10.99, 11.01 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "339": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "stop()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.t0 one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "this.pendingEventTime one of { 10.99, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.t0 one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "this.pendingEventTime one of { 10.99, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "stepAccepted(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y[] elements one of { 3.0000000000000013, 7.697093317360004, 10.989999999999997 }",
+                                    "this.t0 one of { 0.0, 3.0, 7.697093317360001 }",
+                                    "this.pendingEventTime one of { 10.99, Double.NaN }",
+                                    "this.nextAction has only one value",
+                                    "t one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "this.previousEventTime == Double.NaN",
+                                    "this.g0Positive == false",
+                                    "y[] one of { [3.0000000000000013], [7.697093317360004], [10.989999999999997] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.t0 > orig(this.t0)",
+                                    "this.g0 > orig(this.g0)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "y[] elements one of { 3.0000000000000013, 7.697093317360004, 10.989999999999997 }",
+                                    "this.pendingEventTime one of { 10.99, Double.NaN }",
+                                    "this.t0 one of { 3.0, 7.697093317360001, 10.99 }",
+                                    "y[] one of { [3.0000000000000013], [7.697093317360004], [10.989999999999997] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.t0 > orig(this.t0)",
+                                    "this.g0 > orig(this.g0)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.pendingEventTime one of { 11.01, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.pendingEventTime == Double.NaN",
+                                    "this.pendingEvent == false"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.pendingEventTime one of { 11.01, Double.NaN }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(this.pendingEvent == true)  ==>  (orig(this.forward) == true)",
+                                    "(this.pendingEvent == true)  ==>  (this.forward == orig(this.forward))",
+                                    "(this.pendingEvent == false)  <==>  (this.pendingEventTime == Double.NaN)",
+                                    "(this.pendingEvent == true)  ==>  (orig(this.previousEventTime) == Double.NaN)",
+                                    "(this.pendingEvent == true)  ==>  (this.g0Positive == false)",
+                                    "(this.pendingEvent == true)  ==>  (this.nextAction has only one value)",
+                                    "(this.pendingEvent == true)  <==>  (this.pendingEventTime one of { 10.99, 11.01 })",
+                                    "(this.pendingEvent == true)  ==>  (this.previousEventTime == Double.NaN)",
+                                    "(this.pendingEvent == true)  ==>  (this.t0 one of { 7.697093317360001, 10.99 })",
+                                    "(this.pendingEvent == true)  ==>  (orig(this.pendingEventTime) one of { 11.01, Double.NaN })",
+                                    "(this.pendingEvent == false)  ==>  (this.previousEventTime one of { 10.99, 11.01, Double.NaN })",
+                                    "(this.pendingEvent == false)  ==>  (orig(this.pendingEventTime) == Double.NaN)",
+                                    "(this.pendingEvent == true)  <==>  (return == true)",
+                                    "(this.pendingEvent == false)  ==>  (this.pendingEvent == orig(this.pendingEvent))",
+                                    "(this.pendingEvent == false)  <==>  (return == false)",
+                                    "(this.pendingEvent == false)  ==>  (this.pendingEventTime != orig(this.pendingEventTime))",
+                                    "(this.pendingEvent == true)  ==>  (this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 })",
+                                    "(this.pendingEvent == false)  ==>  (orig(this.pendingEvent) == false)",
+                                    "(this.pendingEvent == false)  ==>  (orig(this.previousEventTime) one of { 10.99, 11.01, Double.NaN })"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(this.t0 == 7.697093317360001)  ==>  (this.previousEventTime == Double.NaN)",
+                                    "this.pendingEventTime != orig(this.pendingEventTime)",
+                                    "(this.t0 == 7.697093317360001)  ==>  (this.g0Positive == false)",
+                                    "(this.t0 == 7.697093317360001)  <==>  (this.pendingEventTime one of { 10.99, 11.01 })",
+                                    "this.t0 == 7.697093317360001",
+                                    "(this.t0 == 7.697093317360001)  ==>  (orig(this.previousEventTime) == Double.NaN)",
+                                    "(this.t0 one of { 0.0, 3.0, 10.99 })  ==>  (this.previousEventTime one of { 10.99, Double.NaN })",
+                                    "(this.t0 one of { 0.0, 3.0, 10.99 })  <==>  (return == false)",
+                                    "(this.t0 one of { 0.0, 3.0, 10.99 })  ==>  (orig(this.previousEventTime) one of { 10.99, Double.NaN })",
+                                    "(this.t0 == 7.697093317360001)  ==>  (orig(this.forward) == true)",
+                                    "(this.t0 one of { 0.0, 3.0, 10.99 })  <==>  (this.pendingEvent == false)",
+                                    "this.g0 one of { -3.3129066826399987, -3.292906682639999 }",
+                                    "(this.t0 == 7.697093317360001)  <==>  (this.pendingEvent == true)",
+                                    "(this.t0 == 7.697093317360001)  ==>  (this.forward == orig(this.forward))",
+                                    "(this.t0 one of { 0.0, 3.0, 10.99 })  ==>  (this.pendingEvent == orig(this.pendingEvent))",
+                                    "(this.t0 == 7.697093317360001)  ==>  (this.nextAction has only one value)",
+                                    "(this.t0 == 7.697093317360001)  ==>  (this.g0 one of { -3.3129066826399987, -3.292906682639999 })",
+                                    "(this.t0 one of { 0.0, 3.0, 10.99 })  <==>  (this.pendingEventTime == Double.NaN)",
+                                    "(this.t0 == 7.697093317360001)  <==>  (return == true)",
+                                    "this.t0 one of { 0.0, 3.0, 10.99 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "(this.pendingEvent == true)  ==>  (orig(this.forward) == true)",
+                                    "(this.pendingEvent == true)  ==>  (this.forward == orig(this.forward))",
+                                    "(this.pendingEvent == false)  <==>  (this.pendingEventTime == Double.NaN)",
+                                    "(this.pendingEvent == true)  ==>  (orig(this.previousEventTime) == Double.NaN)",
+                                    "(this.pendingEvent == true)  ==>  (this.g0Positive == false)",
+                                    "(this.pendingEvent == true)  ==>  (this.nextAction has only one value)",
+                                    "(this.pendingEvent == true)  <==>  (this.pendingEventTime one of { 10.99, 11.01 })",
+                                    "(this.pendingEvent == true)  ==>  (this.previousEventTime == Double.NaN)",
+                                    "(this.pendingEvent == true)  ==>  (this.t0 one of { 7.697093317360001, 10.99 })",
+                                    "(this.pendingEvent == true)  ==>  (orig(this.pendingEventTime) one of { 11.01, Double.NaN })",
+                                    "(this.pendingEvent == false)  ==>  (this.previousEventTime one of { 10.99, 11.01, Double.NaN })",
+                                    "(this.pendingEvent == false)  ==>  (orig(this.pendingEventTime) == Double.NaN)",
+                                    "(this.pendingEvent == true)  <==>  (return == true)",
+                                    "(this.pendingEvent == false)  ==>  (this.pendingEvent == orig(this.pendingEvent))",
+                                    "(this.pendingEvent == false)  <==>  (return == false)",
+                                    "(this.pendingEvent == false)  ==>  (this.pendingEventTime != orig(this.pendingEventTime))",
+                                    "(this.pendingEvent == true)  ==>  (this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 })",
+                                    "(this.pendingEvent == false)  ==>  (orig(this.pendingEvent) == false)",
+                                    "(this.pendingEvent == false)  ==>  (orig(this.previousEventTime) one of { 10.99, 11.01, Double.NaN })"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "258": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }",
+                                            "this.t0 one of { 7.697093317360001, 10.99 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.g0 one of { -3.3129066826399987, -3.292906682639999 }",
+                                            "this.t0 == 7.697093317360001"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": [
+                                            "this.g0 one of { -3.3129066826399987, -3.292906682639999, -0.019999999999999574 }",
+                                            "this.t0 one of { 7.697093317360001, 10.99 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "276": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this.pendingEventTime) == Double.NaN"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.t0 one of { 0.0, 3.0, 10.99 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch164.inv.output": {
+                                        "invs": [
+                                            "orig(this.pendingEventTime) == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "reinitializeBegin(org.apache.commons.math.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.pendingEventTime one of { 11.01, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.pendingEventTime == Double.NaN",
+                                    "this.nextAction has only one value",
+                                    "this.previousEventTime == Double.NaN",
+                                    "this.t0 == Double.NaN",
+                                    "this.g0Positive == true",
+                                    "this.forward == false",
+                                    "this.g0 == Double.NaN",
+                                    "this.pendingEvent == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch164.inv.output": {
+                                "invs": [
+                                    "this.pendingEventTime one of { 11.01, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.pendingEventTime == Double.NaN",
+                                    "this.nextAction has only one value",
+                                    "this.previousEventTime == Double.NaN",
+                                    "this.g0 one of { -11.01, -10.99 }",
+                                    "this.g0Positive == false",
+                                    "this.t0 == 0.0",
+                                    "this.forward == false",
+                                    "this.pendingEvent == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

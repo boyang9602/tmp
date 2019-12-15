@@ -1,0 +1,229 @@
+{
+    "org.jfree.chart.util.Size2D": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch86.inv.output": {
+                        "invs": [
+                            "this.height one of { 0.0, 23.28125, 25.28125 }",
+                            "this.width one of { 0.0, 52.0, 54.0 }"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.height one of { 0.0, 23.28125, 25.28125 }",
+                            "this.width one of { 0.0, 52.0, 54.0 }"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "Size2D()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.height == 0.0",
+                                    "this.width == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height == 0.0",
+                                    "this.width == 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getWidth()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.width == 52.0",
+                                    "this.height == 23.28125"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.width == 52.0",
+                                    "this.height == 23.28125"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.height == orig(this.height)",
+                                    "return == 52.0",
+                                    "this.width == 52.0",
+                                    "this.width == orig(this.width)",
+                                    "this.height == 23.28125"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height == orig(this.height)",
+                                    "return == 52.0",
+                                    "this.width == 52.0",
+                                    "this.width == orig(this.width)",
+                                    "this.height == 23.28125"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getHeight()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.width == 52.0",
+                                    "this.height == 23.28125"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.width == 52.0",
+                                    "this.height == 23.28125"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "this.height == orig(this.height)",
+                                    "this.width == 52.0",
+                                    "return == 23.28125",
+                                    "this.width == orig(this.width)",
+                                    "this.height == 23.28125"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.height == orig(this.height)",
+                                    "this.width == 52.0",
+                                    "return == 23.28125",
+                                    "this.width == orig(this.width)",
+                                    "this.height == 23.28125"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Size2D(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": [
+                                    "width >= 0.0",
+                                    "width one of { 0.0, 52.0, 54.0 }",
+                                    "height one of { 0.0, 23.28125, 25.28125 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "width >= 0.0",
+                                    "width one of { 0.0, 52.0, 54.0 }",
+                                    "height one of { 0.0, 23.28125, 25.28125 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch86.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

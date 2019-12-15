@@ -1,0 +1,53 @@
+{
+    "org.jfree.chart.plot.ValueMarker": [
+        {
+            "getValue()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.paint has only one value",
+                                    "this.alpha == 0.8",
+                                    "this.value one of { 1.0, 4.0 }",
+                                    "this.labelPaint has only one value",
+                                    "this.outlinePaint has only one value",
+                                    "this.listenerList == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch93.inv.output": {
+                                "invs": [
+                                    "this.paint has only one value",
+                                    "this.alpha == 0.8",
+                                    "return one of { 1.0, 4.0 }",
+                                    "this.labelPaint has only one value",
+                                    "this.outlinePaint has only one value",
+                                    "this.value one of { 1.0, 4.0 }",
+                                    "this.listenerList == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 0.0, 1.0, 4.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

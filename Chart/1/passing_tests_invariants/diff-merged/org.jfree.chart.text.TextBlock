@@ -1,0 +1,173 @@
+{
+    "org.jfree.chart.text.TextBlock": [
+        {
+            "draw(java.awt.Graphics2D, float, float, org.jfree.chart.text.TextBlockAnchor)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "y >= 1.0",
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x one of { 100.0, 150.0 }",
+                                    "anchor has only one value",
+                                    "anchor.name.toString == \"TextBlockAnchor.TOP_CENTER\"",
+                                    "anchor.name has only one value",
+                                    "y == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "y >= 1.0",
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name has only one value",
+                                    "anchor.name.toString == \"TextBlockAnchor.TOP_CENTER\""
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "draw(java.awt.Graphics2D, float, float, org.jfree.chart.text.TextBlockAnchor, float, float, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calculateOffsets(org.jfree.chart.text.TextBlockAnchor, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "anchor.name.toString one of { \"TextBlockAnchor.CENTER\", \"TextBlockAnchor.CENTER_RIGHT\", \"TextBlockAnchor.TOP_CENTER\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

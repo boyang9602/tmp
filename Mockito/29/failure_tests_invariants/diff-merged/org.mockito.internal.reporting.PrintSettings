@@ -1,0 +1,288 @@
+{
+    "org.mockito.internal.reporting.PrintSettings": [
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "Patch178.inv.output": {
+                        "invs": [
+                            "this.withTypeInfo[].getClass().getName() == []",
+                            "this.withTypeInfo[] == []",
+                            "this.multiline == false",
+                            "this.withTypeInfo != null"
+                        ]
+                    }
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.withTypeInfo[].getClass().getName() == []",
+                            "this.withTypeInfo[] == []",
+                            "this.multiline == false",
+                            "this.withTypeInfo != null"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "setMultiline(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.withTypeInfo has only one value",
+                                    "this.withTypeInfo.getClass().getName() == java.util.LinkedList.class",
+                                    "this has only one value",
+                                    "multiline == false"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.withTypeInfo has only one value",
+                                    "this.withTypeInfo.getClass().getName() == java.util.LinkedList.class",
+                                    "this has only one value",
+                                    "multiline == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.multiline == orig(this.multiline)",
+                                    "this.withTypeInfo.getClass().getName() == java.util.LinkedList.class",
+                                    "this.withTypeInfo[] == orig(this.withTypeInfo[])",
+                                    "this.withTypeInfo.getClass().getName() == orig(this.withTypeInfo.getClass().getName())",
+                                    "this.withTypeInfo has only one value",
+                                    "this.withTypeInfo == orig(this.withTypeInfo)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.multiline == orig(this.multiline)",
+                                    "this.withTypeInfo.getClass().getName() == java.util.LinkedList.class",
+                                    "this.withTypeInfo[] == orig(this.withTypeInfo[])",
+                                    "this.withTypeInfo.getClass().getName() == orig(this.withTypeInfo.getClass().getName())",
+                                    "this.withTypeInfo has only one value",
+                                    "this.withTypeInfo == orig(this.withTypeInfo)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "isMultiline()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.multiline == orig(this.multiline)",
+                                    "return == false",
+                                    "this.withTypeInfo[] == orig(this.withTypeInfo[])",
+                                    "this.withTypeInfo.getClass().getName() == orig(this.withTypeInfo.getClass().getName())",
+                                    "this.withTypeInfo == orig(this.withTypeInfo)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.multiline == orig(this.multiline)",
+                                    "return == false",
+                                    "this.withTypeInfo[] == orig(this.withTypeInfo[])",
+                                    "this.withTypeInfo.getClass().getName() == orig(this.withTypeInfo.getClass().getName())",
+                                    "this.withTypeInfo == orig(this.withTypeInfo)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "extraTypeInfoFor(int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "argumentIndex == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "argumentIndex == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.multiline == orig(this.multiline)",
+                                    "return == false",
+                                    "this.withTypeInfo[] == orig(this.withTypeInfo[])",
+                                    "this.withTypeInfo.getClass().getName() == orig(this.withTypeInfo.getClass().getName())",
+                                    "this.withTypeInfo == orig(this.withTypeInfo)"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.multiline == orig(this.multiline)",
+                                    "return == false",
+                                    "this.withTypeInfo[] == orig(this.withTypeInfo[])",
+                                    "this.withTypeInfo.getClass().getName() == orig(this.withTypeInfo.getClass().getName())",
+                                    "this.withTypeInfo == orig(this.withTypeInfo)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setMatchersToBeDescribedWithExtraTypeInfo(java.lang.Integer[])": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "indexesOfMatchers[] == []",
+                                    "indexesOfMatchers has only one value",
+                                    "this.withTypeInfo.getClass().getName() == java.util.LinkedList.class",
+                                    "this.withTypeInfo has only one value",
+                                    "this has only one value",
+                                    "indexesOfMatchers.getClass().getName() == java.lang.Integer[].class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "indexesOfMatchers[] == []",
+                                    "indexesOfMatchers has only one value",
+                                    "this.withTypeInfo.getClass().getName() == java.util.LinkedList.class",
+                                    "this.withTypeInfo has only one value",
+                                    "this has only one value",
+                                    "indexesOfMatchers.getClass().getName() == java.lang.Integer[].class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "indexesOfMatchers[] == []",
+                                    "this.multiline == orig(this.multiline)",
+                                    "this.withTypeInfo[] == orig(this.withTypeInfo[])",
+                                    "this.withTypeInfo has only one value",
+                                    "indexesOfMatchers[] == orig(indexesOfMatchers[])",
+                                    "this.withTypeInfo.getClass().getName() == java.util.Arrays$ArrayList.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "indexesOfMatchers[] == []",
+                                    "this.multiline == orig(this.multiline)",
+                                    "this.withTypeInfo[] == orig(this.withTypeInfo[])",
+                                    "this.withTypeInfo has only one value",
+                                    "indexesOfMatchers[] == orig(indexesOfMatchers[])",
+                                    "this.withTypeInfo.getClass().getName() == java.util.Arrays$ArrayList.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "PrintSettings()": [
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "this.withTypeInfo.getClass().getName() == java.util.LinkedList.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.withTypeInfo.getClass().getName() == java.util.LinkedList.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

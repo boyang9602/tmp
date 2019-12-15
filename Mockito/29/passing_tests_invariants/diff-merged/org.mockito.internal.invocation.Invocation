@@ -1,0 +1,100 @@
+{
+    "org.mockito.internal.invocation.Invocation": [
+        {
+            "getMock()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$e567f575.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$303bd270.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$e567f575.class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Invocation(java.lang.Object, org.mockito.internal.invocation.MockitoMethod, java.lang.Object[], int, org.mockito.internal.invocation.realmethod.RealMethod)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$e567f575.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$303bd270.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "mock.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$e567f575.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "org.jfree.chart.axis.AxisSpace": [
+        {
+            "ensureAtLeast(double, org.jfree.chart.util.RectangleEdge)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.left == 0.0",
+                                    "space one of { 0.0, 41.9375 }",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.left one of { 0.0, 35.96875 }",
+                                    "space one of { 0.0, 35.96875, 41.9375 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.left == 0.0",
+                                    "space one of { 0.0, 41.9375 }",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.left == 0.0",
+                                    "this.left == orig(this.left)",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.left >= orig(this.left)",
+                                    "this.left one of { 0.0, 35.96875 }",
+                                    "this.bottom >= orig(this.bottom)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.left == 0.0",
+                                    "this.left == orig(this.left)",
+                                    "edge.name.toString one of { \"RectangleEdge.BOTTOM\", \"RectangleEdge.TOP\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ensureAtLeast(org.jfree.chart.axis.AxisSpace)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.left one of { 0.0, 19.96875, 43.96875 }",
+                                    "space.left one of { 0.0, 19.96875, 35.96875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "space.left one of { 0.0, 35.96875 }",
+                                    "this.left one of { 0.0, 35.96875, 43.96875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.left one of { 0.0, 19.96875, 43.96875 }",
+                                    "space.left one of { 0.0, 19.96875, 35.96875 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.left one of { 19.96875, 35.96875, 43.96875 }",
+                                    "space.left one of { 0.0, 19.96875, 35.96875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.left one of { 35.96875, 43.96875 }",
+                                    "space.left one of { 0.0, 35.96875 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.left one of { 19.96875, 35.96875, 43.96875 }",
+                                    "space.left one of { 0.0, 19.96875, 35.96875 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

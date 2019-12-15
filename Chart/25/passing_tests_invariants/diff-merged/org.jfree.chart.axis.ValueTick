@@ -1,0 +1,83 @@
+{
+    "org.jfree.chart.axis.ValueTick": [
+        {
+            "getTickType()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.value one of { 0.0, 2.5, 5.0 }",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.value one of { 0.0, 2.5, 5.0 }",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getValue()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.value one of { 0.0, 2.5, 5.0 }",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "return >= -1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return one of { 0.0, 2.5, 5.0 }",
+                                    "this.value one of { 0.0, 2.5, 5.0 }",
+                                    "this.text.toString one of { \"0.0\", \"2.5\", \"5.0\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

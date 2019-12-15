@@ -1,0 +1,4 @@
+PatchHDRepair1 Correct  
+[failure_tests_invariants/diff-merged/org.apache.commons.lang.LocaleUtils.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Lang/57/failure_tests_invariants/diff-merged/org.apache.commons.lang.LocaleUtils.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.lang.LocaleUtilsTest.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Lang/57/failure_tests_invariants/diff-merged/org.apache.commons.lang.LocaleUtilsTest.json)  
+[failure_tests_invariants/diff-merged/org.apache.commons.lang.SystemUtils.json](https://boyang9602.github.io/?datasource=https://raw.githubusercontent.com/boyang9602/tmp/master/Lang/57/failure_tests_invariants/diff-merged/org.apache.commons.lang.SystemUtils.json)  

@@ -1,0 +1,93 @@
+{
+    "org.apache.commons.math.MathRuntimeException": [
+        {
+            "CLASS": [
+                {
+                    "Patch58.inv.output": "N/A"
+                },
+                {
+                    "b.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch57.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": "N/A"
+                },
+                {
+                    "Patch171.inv.output": "N/A"
+                },
+                {
+                    "Patch56.inv.output": "N/A"
+                }
+            ]
+        },
+        {
+            "createIllegalArgumentException(java.lang.String, java.lang.Object[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "pattern.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "arguments.getClass().getName() == java.lang.Object[].class",
+                                    "arguments has only one value",
+                                    "size(arguments[]) == 4",
+                                    "pattern has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 4"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch171.inv.output": "N/A"
+                        },
+                        {
+                            "Patch56.inv.output": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": "N/A"
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "pattern.toString == orig(pattern.toString)",
+                                    "pattern.toString == \"function values at endpoints do not have different signs.  Endpoints: [{0}, {1}], Values: [{2}, {3}]\"",
+                                    "arguments[] == orig(arguments[])",
+                                    "return has only one value",
+                                    "arguments[] contains no nulls and has only one value, of length 4"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch57.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": "N/A"
+                        },
+                        {
+                            "Patch171.inv.output": "N/A"
+                        },
+                        {
+                            "Patch56.inv.output": "N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

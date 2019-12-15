@@ -1,0 +1,185 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexTableau": [
+        {
+            "isOptimal()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "385": [
+                                {
+                                    "Patch163.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "388": [
+                                {
+                                    "Patch163.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "387": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": [
+                                            "return == false"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "390": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": [
+                                            "return == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dropPhase1Objective()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "(orig(this.numArtificialVariables) >= 1)  <==>  (size(this.columnLabels[]) <= orig(size(this.columnLabels[]))-1)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "(orig(this.numArtificialVariables) >= 1)  <==>  (size(this.columnLabels[]) < orig(size(this.columnLabels[]))-1)",
+                                    "size(this.columnLabels[]) != orig(size(this.columnLabels[]))-1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "329": [
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "367": [
+                                {
+                                    "Patch163.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "size(this.columnLabels[]) < orig(size(this.columnLabels[]))-1",
+                                            "this.numArtificialVariables % orig(this.numArtificialVariables) == 0",
+                                            "orig(this.numArtificialVariables) >= 1",
+                                            "this.numArtificialVariables < orig(this.numArtificialVariables)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "369": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": [
+                                            "size(this.columnLabels[]) <= orig(size(this.columnLabels[]))-1",
+                                            "this.numArtificialVariables < orig(this.numArtificialVariables)",
+                                            "this.numArtificialVariables % orig(this.numArtificialVariables) == 0",
+                                            "orig(this.numArtificialVariables) >= 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

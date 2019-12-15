@@ -1,0 +1,206 @@
+{
+    "org.apache.commons.math.util.FastMath": [
+        {
+            "doubleHighPart(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "d != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "return != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "293": [
+                                {
+                                    "PatchHDRepair6.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "log(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "x one of { 1.5967358903059725, 6.5786888543688296, 8.992488092363882 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "return one of { 0.46796147691259543, 1.883835463227888, 2.196389572412607 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "log(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "x one of { 1.5967358903059725, 6.5786888543688296, 8.992488092363882 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "return one of { 0.46796147691259543, 1.883835463227888, 2.196389572412607 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1484": [
+                                {
+                                    "PatchHDRepair6.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return one of { -2.3055090312434685, 0.31799438335999836, 2.305509031243477 }",
+                                            "orig(x) one of { 0.09970803322947372, 1.3743685418725535, 10.029282171262487 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1357": [
+                                {
+                                    "PatchHDRepair6.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return == 0.0",
+                                            "orig(x) == 1.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sqrt(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "a >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "a >= 0.25"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "return >= 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return >= 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

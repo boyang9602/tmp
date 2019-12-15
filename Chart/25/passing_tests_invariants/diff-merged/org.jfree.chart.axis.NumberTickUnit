@@ -1,0 +1,47 @@
+{
+    "org.jfree.chart.axis.NumberTickUnit": [
+        {
+            "valueToString(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.size == 1.0",
+                                    "this has only one value",
+                                    "this.formatter has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size one of { 1.0, 2.5 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch15.inv.output": {
+                                "invs": [
+                                    "this.size == 1.0",
+                                    "this.formatter has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.size one of { 1.0, 2.5 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

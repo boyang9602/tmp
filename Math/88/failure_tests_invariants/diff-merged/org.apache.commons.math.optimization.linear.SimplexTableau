@@ -1,0 +1,55 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexTableau": [
+        {
+            "getSolution()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch176.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch176.inv.output": {
+                                "invs": [
+                                    "return.point[] == [0.0, 1.0, 1.0]",
+                                    "return.value == 3.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.value == 2.0",
+                                    "return.point[] == [0.0, 1.0, 0.0]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.point[] == [0.0, 1.0, 1.0]",
+                                    "return.value == 3.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

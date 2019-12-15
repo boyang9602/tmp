@@ -1,0 +1,146 @@
+{
+    "org.apache.commons.math.ode.sampling.AbstractStepInterpolator": [
+        {
+            "storeTime(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 89.96045447531122, Double.NaN }",
+                                    "this.interpolatedTime one of { 67.5, 89.95033407572384, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 90.04854388107069, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 89.96045447531122, Double.NaN }",
+                                    "this.interpolatedTime one of { 67.5, 89.95033407572384, Double.NaN }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "shift()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 89.95033407572384 }",
+                                    "this.interpolatedTime one of { 67.5, 89.96045447531122 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 90.04854388107069 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 89.95033407572384 }",
+                                    "this.interpolatedTime one of { 67.5, 89.96045447531122 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch58.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 89.95033407572384 }",
+                                    "this.interpolatedTime one of { 67.5, 89.96045447531122 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 90.04854388107069 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch171.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime one of { 67.5, 89.95033407572384 }",
+                                    "this.interpolatedTime one of { 67.5, 89.96045447531122 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setInterpolatedTime(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.interpolatedTime != orig(this.interpolatedTime)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

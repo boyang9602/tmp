@@ -1,0 +1,228 @@
+{
+    "org.jfree.chart.renderer.category.IntervalBarRenderer": [
+        {
+            "drawItem(java.awt.Graphics2D, org.jfree.chart.renderer.category.CategoryItemRendererState, java.awt.geom.Rectangle2D, org.jfree.chart.plot.CategoryPlot, org.jfree.chart.axis.CategoryAxis, org.jfree.chart.axis.ValueAxis, org.jfree.data.category.CategoryDataset, int, int, boolean, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 18.333333333333332"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.barWidth == 18.999999999999996"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 18.333333333333332"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "state.barWidth == 18.333333333333332",
+                                    "this.paintList.size == 2",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.barWidth == 18.999999999999996",
+                                    "this.paintList.size one of { 1, 2 }",
+                                    "size(this.paintList.objects[]) == orig(size(this.paintList.objects[]))",
+                                    "this.paintList.objects[].getClass().getName() one of { [java.awt.Color, null, null, null, null, null, null, null], [java.awt.Color, java.awt.Color, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "state.barWidth == 18.333333333333332",
+                                    "this.paintList.size == 2",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "findRangeBounds(org.jfree.data.category.CategoryDataset)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.upper one of { 0.9, 1.008099529445E12 }",
+                                    "return.upper one of { 0.9, 1.008088432108E12 }",
+                                    "return.lower one of { 0.0, 9.86150329418E11 }",
+                                    "return.lower one of { 0.0, 9.86139232094E11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.upper one of { 0.9, 1.008095561472E12 }",
+                                    "return.lower one of { 0.0, 9.86146361407E11 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "return.upper one of { 0.9, 1.008099529445E12 }",
+                                    "return.upper one of { 0.9, 1.008088432108E12 }",
+                                    "return.lower one of { 0.0, 9.86150329418E11 }",
+                                    "return.lower one of { 0.0, 9.86139232094E11 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drawInterval(java.awt.Graphics2D, org.jfree.chart.renderer.category.CategoryItemRendererState, java.awt.geom.Rectangle2D, org.jfree.chart.plot.CategoryPlot, org.jfree.chart.axis.CategoryAxis, org.jfree.chart.axis.ValueAxis, org.jfree.data.category.IntervalCategoryDataset, int, int, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 18.333333333333332"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.barWidth == 18.999999999999996"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "this.paintList.size == 2",
+                                    "state.barWidth == 18.333333333333332"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "state.barWidth == 18.333333333333332",
+                                    "this.paintList.size == 2",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "state.barWidth == 18.999999999999996",
+                                    "this.paintList.size one of { 1, 2 }",
+                                    "size(this.paintList.objects[]) == orig(size(this.paintList.objects[]))",
+                                    "this.paintList.objects[].getClass().getName() one of { [java.awt.Color, null, null, null, null, null, null, null], [java.awt.Color, java.awt.Color, null, null, null, null, null, null] }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch1.inv.output": {
+                                "invs": [
+                                    "this.paintList.size == orig(this.paintList.size)",
+                                    "this.paintList.objects[] has only one value, of length 8",
+                                    "this.paintList.objects[].getClass().getName() == [java.awt.Color, java.awt.Color, null, null, null, null, null, null]",
+                                    "state.barWidth == 18.333333333333332",
+                                    "this.paintList.size == 2",
+                                    "this.paintList.objects[] == orig(this.paintList.objects[])"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "280": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch1.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

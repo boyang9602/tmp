@@ -1,0 +1,329 @@
+===========================================================================
+org.apache.commons.lang3.StringUtils:::CLASS
+org.apache.commons.lang3.StringUtils.EMPTY has only one value
+org.apache.commons.lang3.StringUtils.EMPTY != null
+org.apache.commons.lang3.StringUtils.EMPTY.toString == ""
+===========================================================================
+org.apache.commons.lang3.StringUtils.replaceEach(java.lang.String, java.lang.String[], java.lang.String[], boolean, int):::ENTER
+searchList.getClass().getName() == java.lang.String[].class
+replacementList.getClass().getName() == java.lang.String[].class
+repeat == true
+timeToLive one of { 0, 1, 2 }
+size(searchList[]) one of { 0, 1, 2 }
+size(replacementList[]) one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.replaceEach(java.lang.String, java.lang.String[], java.lang.String[], boolean, int):::EXIT3615
+text.toString one of { "", "aba" }
+searchList[] elements has only one value
+searchList[].toString elements == "a"
+searchList[].toString one of { [], [a] }
+replacementList[] elements has only one value
+replacementList[].toString elements == "b"
+replacementList[].toString one of { [], [b] }
+return.toString one of { "", "aba" }
+orig(timeToLive) one of { 0, 1 }
+orig(size(searchList[])) one of { 0, 1 }
+orig(size(replacementList[])) one of { 0, 1 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.replaceEach(java.lang.String, java.lang.String[], java.lang.String[], boolean, int):::EXIT3667
+orig(timeToLive) one of { 0, 1 }
+orig(size(searchList[])) one of { 1, 2 }
+orig(size(replacementList[])) one of { 1, 2 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.replaceEach(java.lang.String, java.lang.String[], java.lang.String[], boolean, int):::EXIT3731
+text.toString one of { "aba", "abcde", "dcte" }
+searchList[].toString elements one of { "a", "ab", "d" }
+searchList[].toString one of { [a], [ab, d] }
+return.toString one of { "b", "tcte", "wcte" }
+orig(timeToLive) one of { 1, 2 }
+orig(size(searchList[])) one of { 1, 2 }
+orig(size(replacementList[])) one of { 1, 2 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.replaceEach(java.lang.String, java.lang.String[], java.lang.String[], boolean, int):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+text.toString == orig(text.toString)
+searchList[] == orig(searchList[])
+replacementList[] == orig(replacementList[])
+===========================================================================
+org.apache.commons.lang3.StringUtils.replaceEachRepeatedly(java.lang.String, java.lang.String[], java.lang.String[]):::ENTER
+text.toString one of { "", "aba", "abcde" }
+searchList.getClass().getName() == java.lang.String[].class
+replacementList.getClass().getName() == java.lang.String[].class
+size(searchList[]) one of { 0, 1, 2 }
+size(replacementList[]) one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.replaceEachRepeatedly(java.lang.String, java.lang.String[], java.lang.String[]):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+text.toString == orig(text.toString)
+searchList[] == orig(searchList[])
+replacementList[] == orig(replacementList[])
+text.toString one of { "", "aba", "abcde" }
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest:::CLASS
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName()
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName()
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName()
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE has only one value
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE != null
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString == "\t\n\013\014\r\034\035\036\037 \341\232\200\341\240\216\342\200\200\342\200\201\342\200\202\342\200\203\342\200\204\342\200\205\342\200\206\342\200\210\342\200\211\342\200\212\342\200\250\342\200\251\342\201\237\343\200\200"
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE has only one value
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE != null
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString == "\000\001\002\003\004\005\006\007\010\016\017\020\021\022\023\024\025\026\027\030\031\032\033!\"#$%&'"
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE has only one value
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE != null
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString == "\000\001\002\003\004\005\006\007\010\t\n\013\014\r\016\017\020\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 "
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE has only one value
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE != null
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString == "\341\232\200\341\240\216\342\200\200\342\200\201\342\200\202\342\200\203\342\200\204\342\200\205\342\200\206\342\200\210\342\200\211\342\200\212\342\200\250\342\200\251\342\201\237\343\200\200"
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST has only one value
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST != null
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == java.lang.String[].class
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[] contains no nulls and has only one value, of length 3
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[] elements != null
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String]
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[].getClass().getName() elements == java.lang.String.class
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[].toString == [foo, bar, baz]
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[].toString elements one of { "bar", "baz", "foo" }
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST has only one value
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST != null
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[] == []
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[].getClass().getName() == []
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[].toString == []
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST has only one value
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST != null
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[] == [null]
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[] elements == null
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[].getClass().getName() == [null]
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[].getClass().getName() elements == null
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[].toString == [null]
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[].toString elements == null
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST has only one value
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST != null
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[] has only one value, of length 3
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[].getClass().getName() == [null, java.lang.String, java.lang.String]
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[].toString == [null, , foo]
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[].toString elements one of { "", "foo", null }
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST has only one value
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST != null
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == java.lang.Object[].class
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[] contains no nulls and has only one value, of length 2
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[] elements != null
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[].getClass().getName() == [java.lang.String, java.lang.Long]
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR has only one value
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR != null
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString == ","
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST has only one value
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST != null
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString == "foo,bar,baz"
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR has only one value
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR != null
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString == "foo;bar;baz"
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP has only one value
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP != null
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString == "foobarbaz"
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP has only one value
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP != null
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString == "foo"
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP has only one value
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP != null
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString == "Foo"
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP has only one value
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP != null
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString == "foo bar baz"
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP has only one value
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP != null
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString == "Foo Bar Baz"
+size(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[]) == 3
+size(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[]) == 1
+size(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[]) == 3
+size(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[]) == 2
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() != org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName()
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP in org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[]
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP in org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[]
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest:::OBJECT
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.StringUtilsTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.StringUtilsTest(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.setUp():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.setUp():::EXIT
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE == orig(org.apache.commons.lang3.StringUtilsTest.WHITESPACE)
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString == orig(org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString)
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE == orig(org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE)
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString == orig(org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString)
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE == orig(org.apache.commons.lang3.StringUtilsTest.TRIMMABLE)
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString == orig(org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString)
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE == orig(org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE)
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString == orig(org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString)
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST)
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[])
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR == orig(org.apache.commons.lang3.StringUtilsTest.SEPARATOR)
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString == orig(org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString)
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP == orig(org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP)
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString)
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP == orig(org.apache.commons.lang3.StringUtilsTest.FOO_CAP)
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.suite():::ENTER
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.suite():::EXIT
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE == orig(org.apache.commons.lang3.StringUtilsTest.WHITESPACE)
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString == orig(org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString)
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE == orig(org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE)
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString == orig(org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString)
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE == orig(org.apache.commons.lang3.StringUtilsTest.TRIMMABLE)
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString == orig(org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString)
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE == orig(org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE)
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString == orig(org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString)
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST)
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[])
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR == orig(org.apache.commons.lang3.StringUtilsTest.SEPARATOR)
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString == orig(org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString)
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP == orig(org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP)
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString)
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP == orig(org.apache.commons.lang3.StringUtilsTest.FOO_CAP)
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString)
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.tearDown():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.tearDown():::EXIT
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE == orig(org.apache.commons.lang3.StringUtilsTest.WHITESPACE)
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString == orig(org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString)
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE == orig(org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE)
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString == orig(org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString)
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE == orig(org.apache.commons.lang3.StringUtilsTest.TRIMMABLE)
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString == orig(org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString)
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE == orig(org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE)
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString == orig(org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString)
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST)
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[])
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR == orig(org.apache.commons.lang3.StringUtilsTest.SEPARATOR)
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString == orig(org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString)
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP == orig(org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP)
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString)
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP == orig(org.apache.commons.lang3.StringUtilsTest.FOO_CAP)
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.testReplace_StringStringArrayStringArrayBoolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.StringUtilsTest.testReplace_StringStringArrayStringArrayBoolean():::EXIT
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE == orig(org.apache.commons.lang3.StringUtilsTest.WHITESPACE)
+org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString == orig(org.apache.commons.lang3.StringUtilsTest.WHITESPACE.toString)
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE == orig(org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE)
+org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString == orig(org.apache.commons.lang3.StringUtilsTest.NON_WHITESPACE.toString)
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE == orig(org.apache.commons.lang3.StringUtilsTest.TRIMMABLE)
+org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString == orig(org.apache.commons.lang3.StringUtilsTest.TRIMMABLE.toString)
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE == orig(org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE)
+org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString == orig(org.apache.commons.lang3.StringUtilsTest.NON_TRIMMABLE.toString)
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.EMPTY_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.NULL_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST)
+org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_ARRAY_LIST[])
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST)
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName() == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST.getClass().getName())
+org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[] == orig(org.apache.commons.lang3.StringUtilsTest.MIXED_TYPE_LIST[])
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR == orig(org.apache.commons.lang3.StringUtilsTest.SEPARATOR)
+org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString == orig(org.apache.commons.lang3.StringUtilsTest.SEPARATOR.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_CHAR.toString)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP)
+org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString == orig(org.apache.commons.lang3.StringUtilsTest.TEXT_LIST_NOSEP.toString)
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP == orig(org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP)
+org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.FOO_UNCAP.toString)
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP == orig(org.apache.commons.lang3.StringUtilsTest.FOO_CAP)
+org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.FOO_CAP.toString)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_UNCAP.toString)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP)
+org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString == orig(org.apache.commons.lang3.StringUtilsTest.SENTENCE_CAP.toString)

@@ -1,0 +1,50 @@
+{
+    "org.apache.commons.math.linear.RealMatrixImpl": [
+        {
+            "setEntry(int, int, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": [
+                                    "value >= 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": [
+                                    "value >= 0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "org.apache.commons.math3.ode.nonstiff.DormandPrince853StepInterpolator": [
+        {
+            "computeInterpolatedStateAndDerivatives(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.integrator.stepSize one of { 0.017782794100389226, 0.17782794100389226, 0.1855129617134853 }",
+                                    "this.integrator.expandable.primaryStateDot[] sorted by >",
+                                    "this.integrator.expandable.primaryState[] elements != 0",
+                                    "this.integrator.expandable.primaryStateDot[] elements != 0",
+                                    "this.h one of { 0.017782794100389188, 0.17782794100389232, 0.1855129617134853 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.integrator.expandable.primaryState[] elements != 0",
+                                    "this.integrator.expandable.primaryStateDot[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.integrator.stepSize one of { 0.017782794100389226, 0.17782794100389226, 0.1855129617134853 }",
+                                    "this.integrator.expandable.primaryStateDot[] sorted by >",
+                                    "this.integrator.expandable.primaryState[] elements != 0",
+                                    "this.integrator.expandable.primaryStateDot[] >= orig(this.integrator.expandable.primaryStateDot[]) (lexically)",
+                                    "this.integrator.expandable.primaryStateDot[] elements != 0",
+                                    "this.interpolatedDerivatives[] sorted by >",
+                                    "this.h one of { 0.017782794100389188, 0.17782794100389232, 0.1855129617134853 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.integrator.expandable.primaryState[] elements != 0",
+                                    "this.integrator.expandable.primaryStateDot[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doFinalize()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.integrator.expandable.primaryStateDot[] elements != 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.integrator.expandable.primaryStateDot[] sorted by >",
+                                    "this.integrator.stepSize one of { 0.017782794100389226, 0.17782794100389226, 0.1855129617134853 }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.integrator.expandable.primaryStateDot[] elements != 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primary != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotK[] elements != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.name != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.currentState != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotKLast[] elements != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations.maxCountCallback != null)",
+                                    "(this.yDotKLast == null)  ==>  (this.h == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.yDotK != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedPrimaryState != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.primaryMapper != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepHandlers != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedState != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.yDotKLast != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.secondaryMappers != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.integrator != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] elements != 0)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedSecondaryState != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedPrimaryDerivatives != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.previousState != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryMapper != null)",
+                                    "(this.yDotKLast == null)  ==>  (orig(this.h) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.eventsStates != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.v != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedDerivatives != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) elements != 0)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedSecondaryDerivatives != null)",
+                                    "this.integrator.expandable.primaryStateDot[] elements != 0",
+                                    "(this.yDotKLast has only one value)  ==>  (this.v[] elements != null)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.integrator.stepSize one of { 0.017782794100389226, 0.17782794100389226, 0.1855129617134853 }",
+                                    "(this.yDotKLast has only one value)  <==>  (orig(this.h) one of { 0.017782794100389188, 0.17782794100389232, 0.1855129617134853 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] > orig(this.integrator.expandable.primaryStateDot[]) (lexically))",
+                                    "(this.yDotKLast == null)  <==>  (this.h == Double.NaN)",
+                                    "this.integrator.expandable.primaryStateDot[] >= orig(this.integrator.expandable.primaryStateDot[]) (lexically)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] >= orig(this.integrator.expandable.primaryStateDot[]) (lexically))",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] sorted by >)",
+                                    "this.integrator.expandable.primaryStateDot[] sorted by >",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) sorted by >)",
+                                    "(this.yDotKLast == null)  <==>  (orig(this.h) == Double.NaN)",
+                                    "this.integrator.expandable.primaryStateDot[] > orig(this.integrator.expandable.primaryStateDot[]) (lexically)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepSize one of { 0.017782794100389226, 0.17782794100389226, 0.1855129617134853 })",
+                                    "(this.yDotKLast has only one value)  ==>  (this.interpolatedDerivatives[] sorted by >=)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.h one of { 0.017782794100389188, 0.17782794100389232, 0.1855129617134853 })"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primary != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotK[] elements != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.name != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.currentState != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.yDotKLast[] elements != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.evaluations.maxCountCallback != null)",
+                                    "(this.yDotKLast == null)  ==>  (this.h == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.yDotK != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.components != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedPrimaryState != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.primaryMapper != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.stepHandlers != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedState != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.yDotKLast != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.secondaryMappers != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.integrator != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot[] elements != 0)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedSecondaryState != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedPrimaryDerivatives != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.previousState != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryMapper != null)",
+                                    "(this.yDotKLast == null)  ==>  (orig(this.h) == Double.NaN)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.eventsStates != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryStateDot != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.v != null)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedDerivatives != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (this.integrator.expandable.primaryState != null)",
+                                    "(this.yDotKLast has only one value)  ==>  (orig(this.integrator.expandable.primaryStateDot[]) elements != 0)",
+                                    "(this.yDotKLast has only one value)  <==>  (this.interpolatedSecondaryDerivatives != null)",
+                                    "this.integrator.expandable.primaryStateDot[] elements != 0",
+                                    "(this.yDotKLast has only one value)  ==>  (this.v[] elements != null)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "411": [
+                                {
+                                    "Patch156.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "447": [
+                                {
+                                    "Patch156.inv.output": {
+                                        "invs": [
+                                            "this.currentState != null",
+                                            "this.v != null",
+                                            "this.interpolatedDerivatives != null",
+                                            "this.previousState != null",
+                                            "this.integrator != null",
+                                            "this.interpolatedSecondaryDerivatives != null",
+                                            "this.yDotKLast != null",
+                                            "this.interpolatedPrimaryDerivatives != null",
+                                            "this.interpolatedState != null",
+                                            "this.interpolatedSecondaryState != null",
+                                            "this.interpolatedPrimaryState != null",
+                                            "this.primaryMapper != null",
+                                            "this.secondaryMappers != null",
+                                            "this.yDotK != null"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.h one of { 0.017782794100389188, 0.17782794100389232, 0.1855129617134853 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.currentState != null",
+                                            "this.v != null",
+                                            "this.interpolatedDerivatives != null",
+                                            "this.previousState != null",
+                                            "this.integrator != null",
+                                            "this.interpolatedSecondaryDerivatives != null",
+                                            "this.yDotKLast != null",
+                                            "this.interpolatedPrimaryDerivatives != null",
+                                            "this.interpolatedState != null",
+                                            "this.interpolatedSecondaryState != null",
+                                            "this.interpolatedPrimaryState != null",
+                                            "this.primaryMapper != null",
+                                            "this.secondaryMappers != null",
+                                            "this.yDotK != null"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

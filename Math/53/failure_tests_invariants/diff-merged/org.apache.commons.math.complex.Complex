@@ -1,0 +1,268 @@
+{
+    "org.apache.commons.math.complex.Complex": [
+        {
+            "add(org.apache.commons.math.complex.Complex)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch47.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.real == Double.NaN",
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.real one of { 4.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "return.real == Double.NaN",
+                                    "return has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch47.inv.output": {
+                                "invs": [
+                                    "return.real == Double.NaN",
+                                    "return has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "154": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch47.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getReal()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.real one of { 1.0, Double.NaN }",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.real one of { 1.0, 4.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.real one of { 1.0, Double.NaN }",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch47.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.real one of { 1.0, Double.NaN }",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.real one of { 1.0, Double.NaN }",
+                                    "return == Double.NaN",
+                                    "return one of { 1.0, Double.NaN }",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.real one of { 1.0, 4.0, Double.NaN }",
+                                    "return one of { 1.0, 4.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "this.real one of { 1.0, Double.NaN }",
+                                    "return == Double.NaN",
+                                    "return one of { 1.0, Double.NaN }",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch47.inv.output": {
+                                "invs": [
+                                    "this.real one of { 1.0, Double.NaN }",
+                                    "return == Double.NaN",
+                                    "return one of { 1.0, Double.NaN }",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getImaginary()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.real one of { 1.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch47.inv.output": {
+                                "invs": [
+                                    "this has only one value",
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.real one of { 1.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch47.inv.output": {
+                                "invs": [
+                                    "this.real == Double.NaN"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createComplex(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "realPart == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "realPart one of { 4.0, Double.NaN }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair6.inv.output": {
+                                "invs": [
+                                    "return.real == Double.NaN"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.real one of { 4.0, Double.NaN }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,861 @@
+{
+    "org.jfree.data.time.TimeSeries": [
+        {
+            "add(org.jfree.data.time.TimeSeriesDataItem)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.maxY one of { 55.0, 85.0 }",
+                                    "this.minY one of { 35.0, 45.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.maxY == 85.0",
+                                    "this.minY == 35.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": [
+                                    "this.maxY one of { 55.0, 85.0 }",
+                                    "this.minY one of { 35.0, 45.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": [
+                                    "this.maxY one of { 55.0, 85.0 }",
+                                    "this.minY one of { 35.0, 45.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": [
+                                    "this.maxY one of { 55.0, 85.0 }",
+                                    "this.minY one of { 35.0, 45.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 35.0, 45.0, 75.0 }",
+                                    "this.maxY one of { 55.0, 85.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.maxY == 85.0",
+                                    "this.minY == orig(this.minY)",
+                                    "this.maxY == orig(this.maxY)",
+                                    "this.minY == 35.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 35.0, 45.0, 75.0 }",
+                                    "this.maxY one of { 55.0, 85.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 35.0, 45.0, 75.0 }",
+                                    "this.maxY one of { 55.0, 85.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": [
+                                    "this.minY one of { 35.0, 45.0, 75.0 }",
+                                    "this.maxY one of { 55.0, 85.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "minIgnoreNaN(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1266": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "orig(this.minY) == Double.NaN",
+                                            "this.data[].getClass().getName() == [org.jfree.data.time.TimeSeriesDataItem]",
+                                            "size(this.data[]) == 1",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.minY == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch85.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "orig(this.minY) == Double.NaN",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.minY == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch3.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch4.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "orig(this.minY) == Double.NaN",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.minY == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1273": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)",
+                                            "this.minY == orig(this.minY)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch85.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)",
+                                            "this.minY == orig(this.minY)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch3.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch4.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)",
+                                            "this.minY == orig(this.minY)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1268": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "orig(this.minY) == Double.NaN",
+                                            "this.data[].getClass().getName() == [org.jfree.data.time.TimeSeriesDataItem]",
+                                            "size(this.data[]) == 1",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.minY == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1275": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)",
+                                            "size(this.data[]) >= 2",
+                                            "this.minY == orig(this.minY)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1267": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch3.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "orig(this.minY) == Double.NaN",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.minY == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1274": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch3.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)",
+                                            "size(this.data[]) >= 2",
+                                            "this.minY == orig(this.minY)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createCopy(org.jfree.data.time.RegularTimePeriod, org.jfree.data.time.RegularTimePeriod)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(size(return.data[]) == 0)  ==>  (return.maxY == 85.0)",
+                                    "return.minY one of { 35.0, 45.0 }",
+                                    "(size(return.data[]) == 0)  ==>  (return.minY == 35.0)",
+                                    "return.maxY one of { 55.0, 85.0 }",
+                                    "return.minY one of { 35.0, 45.0, 75.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.maxY == 85.0",
+                                    "return.minY == 35.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": [
+                                    "(size(return.data[]) == 0)  ==>  (return.maxY == 85.0)",
+                                    "return.minY one of { 35.0, 45.0 }",
+                                    "(size(return.data[]) == 0)  ==>  (return.minY == 35.0)",
+                                    "return.maxY one of { 55.0, 85.0 }",
+                                    "return.minY one of { 35.0, 45.0, 75.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": [
+                                    "(size(return.data[]) == 0)  ==>  (return.maxY == 85.0)",
+                                    "return.minY one of { 35.0, 45.0 }",
+                                    "(size(return.data[]) == 0)  ==>  (return.minY == 35.0)",
+                                    "return.maxY one of { 55.0, 85.0 }",
+                                    "return.minY one of { 35.0, 45.0, 75.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": [
+                                    "(size(return.data[]) == 0)  ==>  (return.maxY == 85.0)",
+                                    "return.minY one of { 35.0, 45.0 }",
+                                    "(size(return.data[]) == 0)  ==>  (return.minY == 35.0)",
+                                    "return.maxY one of { 55.0, 85.0 }",
+                                    "return.minY one of { 35.0, 45.0, 75.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1120": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "return.data[] == []",
+                                            "return.data[].getClass().getName() == []"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch85.inv.output": {
+                                        "invs": [
+                                            "return.data[] == []",
+                                            "return.data[].getClass().getName() == []",
+                                            "return.maxY == 85.0",
+                                            "return.minY == 35.0"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch3.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch4.inv.output": {
+                                        "invs": [
+                                            "return.data[] == []",
+                                            "return.data[].getClass().getName() == []",
+                                            "return.maxY == 85.0",
+                                            "return.minY == 35.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1123": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "size(return.data[]) >= 1"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch85.inv.output": {
+                                        "invs": [
+                                            "size(return.data[]) >= 1"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch3.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch4.inv.output": {
+                                        "invs": [
+                                            "size(return.data[]) >= 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1122": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "return.data[] == []",
+                                            "return.data[].getClass().getName() == []",
+                                            "return.maxY == 85.0",
+                                            "return.minY == 35.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1125": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "size(return.data[]) >= 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1121": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch3.inv.output": {
+                                        "invs": [
+                                            "return.data[] == []",
+                                            "return.data[].getClass().getName() == []",
+                                            "return.maxY == 85.0",
+                                            "return.minY == 35.0"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1124": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch3.inv.output": {
+                                        "invs": [
+                                            "size(return.data[]) >= 1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "maxIgnoreNaN(double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "1289": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "this.data[].getClass().getName() == [org.jfree.data.time.TimeSeriesDataItem]",
+                                            "size(this.data[]) == 1",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch85.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch3.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch4.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1296": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch85.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch3.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch4.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1291": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "this.data[].getClass().getName() == [org.jfree.data.time.TimeSeriesDataItem]",
+                                            "size(this.data[]) == 1",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1298": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)",
+                                            "size(this.data[]) >= 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1290": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch3.inv.output": {
+                                        "invs": [
+                                            "orig(a) == Double.NaN",
+                                            "orig(this.maxY) == Double.NaN",
+                                            "this.maxY == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "1297": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch3.inv.output": {
+                                        "invs": [
+                                            "this.maxY == orig(this.maxY)",
+                                            "size(this.data[]) >= 2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createCopy(int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.maxY one of { 55.0, 85.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.minY one of { 35.0, Double.NaN }",
+                                    "return.maxY one of { 85.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch85.inv.output": {
+                                "invs": [
+                                    "return.maxY one of { 55.0, 85.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch3.inv.output": {
+                                "invs": [
+                                    "return.maxY one of { 55.0, 85.0, Double.NaN }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": [
+                                    "return.maxY one of { 55.0, 85.0, Double.NaN }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "removeAgedItems(boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch85.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch85.inv.output": {
+                                "invs": [
+                                    "this.maxY <= orig(this.maxY)",
+                                    "this.minY >= orig(this.minY)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.maxY == orig(this.maxY)",
+                                    "this.minY == orig(this.minY)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch4.inv.output": {
+                                "invs": [
+                                    "this.maxY <= orig(this.maxY)",
+                                    "this.minY >= orig(this.minY)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

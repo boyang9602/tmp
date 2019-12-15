@@ -1,0 +1,48 @@
+{
+    "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer": [
+        {
+            "optimize(org.apache.commons.math.optimization.linear.LinearObjectiveFunction, java.util.Collection, org.apache.commons.math.optimization.GoalType, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "f.constantTerm one of { 0.0, 7.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "f.constantTerm one of { -5.0, 0.0, 7.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch74.inv.output": {
+                                "invs": [
+                                    "size(return.point[]) one of { 2, 3, 216 }",
+                                    "f.constantTerm one of { 0.0, 7.0 }",
+                                    "this.f.constantTerm one of { 0.0, 7.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "f.constantTerm one of { -5.0, 0.0, 7.0 }",
+                                    "this.iterations > orig(this.iterations)",
+                                    "size(return.point[]) >= 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

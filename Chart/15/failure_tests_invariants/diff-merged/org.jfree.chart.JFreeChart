@@ -1,0 +1,87 @@
+{
+    "org.jfree.chart.JFreeChart": [
+        {
+            "notifyListeners(org.jfree.chart.event.ChartProgressEvent)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.title.content == null",
+                                    "event has only one value",
+                                    "event.type == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "event.type one of { 1, 2 }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch13.inv.output": {
+                                "invs": [
+                                    "this.title.content.lines.getClass().getName() == orig(this.title.content.lines.getClass().getName())",
+                                    "this.title.content.lines[] == orig(this.title.content.lines[])",
+                                    "this.title.content.lineAlignment == orig(this.title.content.lineAlignment)",
+                                    "event.type one of { 1, 2 }",
+                                    "this.title.content.lines == orig(this.title.content.lines)"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.title.content == null",
+                                    "event.type == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.title.content.lines.getClass().getName() == orig(this.title.content.lines.getClass().getName())",
+                                    "this.title.content.lines[] == orig(this.title.content.lines[])",
+                                    "this.title.content.lineAlignment == orig(this.title.content.lineAlignment)",
+                                    "event.type one of { 1, 2 }",
+                                    "this.title.content.lines == orig(this.title.content.lines)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch12.inv.output": {
+                                "invs": [
+                                    "this.title.content.lines.getClass().getName() == orig(this.title.content.lines.getClass().getName())",
+                                    "this.title.content.lines[] == orig(this.title.content.lines[])",
+                                    "this.title.content.lineAlignment == orig(this.title.content.lineAlignment)",
+                                    "event.type one of { 1, 2 }",
+                                    "this.title.content.lines == orig(this.title.content.lines)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

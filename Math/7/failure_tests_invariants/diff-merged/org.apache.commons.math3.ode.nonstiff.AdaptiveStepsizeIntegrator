@@ -1,0 +1,531 @@
+{
+    "org.apache.commons.math3.ode.nonstiff.AdaptiveStepsizeIntegrator": [
+        {
+            "AdaptiveStepsizeIntegrator(java.lang.String, double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filterStep(double, boolean, boolean)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.expandable != null",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "acceptSmall == false"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.expandable != null",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.expandable != null",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.expandable != null",
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMinStep()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMaxStep()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "resetInternalState()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.stepSize one of { 0.028875865836385017, Double.NaN }",
+                                    "this.expandable.primaryStateDot[] elements one of { -0.8413239526157839, 0.5405312264461695 }",
+                                    "this.evaluations.count one of { 0, 803 }",
+                                    "this.evaluations.count one of { 0, 848 }",
+                                    "this.expandable.primaryStateDot[] elements one of { -0.9997478071127871, 0.02245711872936521 }",
+                                    "this.expandable.primaryState[] == [-0.5440211108908283, -0.8390715290805397]",
+                                    "this.expandable.primaryState[] elements one of { -0.9995831211582059, -0.02887185314576946 }",
+                                    "this.expandable.primaryStateDot[] == [-0.9997478071127871, 0.02245711872936521]",
+                                    "this.expandable.primaryStateDot[] == [-0.8413239526157839, 0.5405312264461695]",
+                                    "this.expandable.primaryState[] == [-0.02887185314576946, -0.9995831211582059]",
+                                    "this.stepSize one of { 0.018691382586130345, Double.NaN }",
+                                    "this.expandable.primaryState[] elements one of { -0.8390715290805397, -0.5440211108908283 }",
+                                    "this.stepStart one of { 10.0, Double.NaN }",
+                                    "this.expandable.time == 10.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.mainSetDimension == 0",
+                                    "this.statesInitialized == false",
+                                    "this.resetOccurred == false",
+                                    "this.stepStart == Double.NaN",
+                                    "this.evaluations.count == 0",
+                                    "this.stepSize == Double.NaN",
+                                    "this.expandable == null"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.stepSize one of { 0.028875865836385017, Double.NaN }",
+                                    "this.expandable.primaryStateDot[] elements one of { -0.8413239526157839, 0.5405312264461695 }",
+                                    "this.evaluations.count one of { 0, 803 }",
+                                    "this.evaluations.count one of { 0, 848 }",
+                                    "this.expandable.primaryStateDot[] elements one of { -0.9997478071127871, 0.02245711872936521 }",
+                                    "this.expandable.primaryState[] == [-0.5440211108908283, -0.8390715290805397]",
+                                    "this.expandable.primaryState[] elements one of { -0.9995831211582059, -0.02887185314576946 }",
+                                    "this.expandable.primaryStateDot[] == [-0.9997478071127871, 0.02245711872936521]",
+                                    "this.expandable.primaryStateDot[] == [-0.8413239526157839, 0.5405312264461695]",
+                                    "this.expandable.primaryState[] == [-0.02887185314576946, -0.9995831211582059]",
+                                    "this.stepSize one of { 0.018691382586130345, Double.NaN }",
+                                    "this.expandable.primaryState[] elements one of { -0.8390715290805397, -0.5440211108908283 }",
+                                    "this.stepStart one of { 10.0, Double.NaN }",
+                                    "this.expandable.time == 10.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryState[] == orig(this.expandable.primaryState[])",
+                                    "this.expandable.primaryMapper.firstIndex == orig(this.expandable.primaryMapper.firstIndex)",
+                                    "this.expandable.primaryStateDot[] elements one of { -0.8413239526157839, 0.5405312264461695 }",
+                                    "this.evaluations.count one of { 0, 803 }",
+                                    "this.expandable.primaryStateDot == orig(this.expandable.primaryStateDot)",
+                                    "this.evaluations.count one of { 0, 848 }",
+                                    "this.expandable.time == orig(this.expandable.time)",
+                                    "this.expandable.primaryStateDot[] elements one of { -0.9997478071127871, 0.02245711872936521 }",
+                                    "this.expandable.primaryState[] == [-0.5440211108908283, -0.8390715290805397]",
+                                    "this.expandable.components[] == orig(this.expandable.components[])",
+                                    "this.expandable.primaryState[] elements one of { -0.9995831211582059, -0.02887185314576946 }",
+                                    "this.expandable.primaryStateDot[] == [-0.9997478071127871, 0.02245711872936521]",
+                                    "this.expandable.primaryStateDot[] == [-0.8413239526157839, 0.5405312264461695]",
+                                    "this.expandable.components == orig(this.expandable.components)",
+                                    "this.expandable.primaryState[] == [-0.02887185314576946, -0.9995831211582059]",
+                                    "this.expandable.primaryMapper == orig(this.expandable.primaryMapper)",
+                                    "this.expandable.primaryState[] elements one of { -0.8390715290805397, -0.5440211108908283 }",
+                                    "this.expandable.primaryState == orig(this.expandable.primaryState)",
+                                    "this.expandable.primaryMapper.dimension == orig(this.expandable.primaryMapper.dimension)",
+                                    "this.expandable.components.getClass().getName() == orig(this.expandable.components.getClass().getName())",
+                                    "this.expandable.primary == orig(this.expandable.primary)",
+                                    "this.expandable.primary.getClass().getName() == orig(this.expandable.primary.getClass().getName())",
+                                    "this.expandable.time == 10.0",
+                                    "this.expandable.primaryStateDot[] == orig(this.expandable.primaryStateDot[])"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.mainSetDimension == 0",
+                                    "this.statesInitialized == false",
+                                    "this.resetOccurred == false",
+                                    "this.expandable == null",
+                                    "this.evaluations.count == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.expandable.primaryState[] == orig(this.expandable.primaryState[])",
+                                    "this.expandable.primaryMapper.firstIndex == orig(this.expandable.primaryMapper.firstIndex)",
+                                    "this.expandable.primaryStateDot[] elements one of { -0.8413239526157839, 0.5405312264461695 }",
+                                    "this.evaluations.count one of { 0, 803 }",
+                                    "this.expandable.primaryStateDot == orig(this.expandable.primaryStateDot)",
+                                    "this.evaluations.count one of { 0, 848 }",
+                                    "this.expandable.time == orig(this.expandable.time)",
+                                    "this.expandable.primaryStateDot[] elements one of { -0.9997478071127871, 0.02245711872936521 }",
+                                    "this.expandable.primaryState[] == [-0.5440211108908283, -0.8390715290805397]",
+                                    "this.expandable.components[] == orig(this.expandable.components[])",
+                                    "this.expandable.primaryState[] elements one of { -0.9995831211582059, -0.02887185314576946 }",
+                                    "this.expandable.primaryStateDot[] == [-0.9997478071127871, 0.02245711872936521]",
+                                    "this.expandable.primaryStateDot[] == [-0.8413239526157839, 0.5405312264461695]",
+                                    "this.expandable.components == orig(this.expandable.components)",
+                                    "this.expandable.primaryState[] == [-0.02887185314576946, -0.9995831211582059]",
+                                    "this.expandable.primaryMapper == orig(this.expandable.primaryMapper)",
+                                    "this.expandable.primaryState[] elements one of { -0.8390715290805397, -0.5440211108908283 }",
+                                    "this.expandable.primaryState == orig(this.expandable.primaryState)",
+                                    "this.expandable.primaryMapper.dimension == orig(this.expandable.primaryMapper.dimension)",
+                                    "this.expandable.components.getClass().getName() == orig(this.expandable.components.getClass().getName())",
+                                    "this.expandable.primary == orig(this.expandable.primary)",
+                                    "this.expandable.primary.getClass().getName() == orig(this.expandable.primary.getClass().getName())",
+                                    "this.expandable.time == 10.0",
+                                    "this.expandable.primaryStateDot[] == orig(this.expandable.primaryStateDot[])"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sanityChecks(org.apache.commons.math3.ode.ExpandableStatefulODE, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "initializeStep(boolean, int, double[], double, double[], double[], double[], double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false",
+                                    "this.expandable.time == 0.5"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "308": [
+                                {
+                                    "Patch156.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setStepSizeControl(double, double, double, double)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch156.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.isLastStep == false"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

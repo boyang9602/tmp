@@ -1,0 +1,278 @@
+{
+    "org.apache.commons.math.ode.events.EventState": [
+        {
+            "reset(double, double[])": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "331": [
+                                {
+                                    "Patch52.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.pendingEvent == orig(this.pendingEvent)",
+                                            "y[] == orig(y[])",
+                                            "this.nextAction == 3",
+                                            "return == false",
+                                            "this.g0 != 0",
+                                            "orig(this.pendingEventTime) == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "340": [
+                                {
+                                    "Patch52.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.previousEventTime == orig(this.previousEventTime)",
+                                            "this.g0 == 0.0",
+                                            "orig(this.pendingEvent) == true",
+                                            "this.nextAction == 0",
+                                            "this.nextAction one of { 0, 1, 2 }",
+                                            "this.maxCheckInterval == Infinity"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "334": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch52.inv.output": {
+                                        "invs": [
+                                            "this.pendingEvent == orig(this.pendingEvent)",
+                                            "y[] == orig(y[])",
+                                            "this.nextAction == 3",
+                                            "return == false",
+                                            "this.g0 != 0",
+                                            "orig(this.pendingEventTime) == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "343": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch52.inv.output": {
+                                        "invs": [
+                                            "this.previousEventTime == orig(this.previousEventTime)",
+                                            "this.g0 == 0.0",
+                                            "orig(this.pendingEvent) == true",
+                                            "this.nextAction == 0",
+                                            "this.nextAction one of { 0, 1, 2 }",
+                                            "this.maxCheckInterval == Infinity"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "evaluateStep(org.apache.commons.math.ode.sampling.StepInterpolator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch52.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "243": [
+                                {
+                                    "Patch52.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.pendingEvent == orig(this.pendingEvent)",
+                                            "6.755399441055745E15 * this.pendingEventTime - 6.755399441055746E15 * orig(this.pendingEventTime) == 0",
+                                            "this.pendingEventTime == orig(this.pendingEventTime)",
+                                            "this.increasing == orig(this.increasing)",
+                                            "this.forward == orig(this.forward)",
+                                            "this.t0 != 0",
+                                            "this.g0 != 0",
+                                            "this.nextAction == 3",
+                                            "return == false",
+                                            "this.pendingEvent == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "248": [
+                                {
+                                    "Patch52.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(this.pendingEvent) == false",
+                                            "this.forward == orig(this.forward)",
+                                            "this.t0 != 0",
+                                            "this.g0 != 0",
+                                            "this.nextAction == 3",
+                                            "return == true",
+                                            "this.pendingEvent == true",
+                                            "this.pendingEventTime != orig(this.pendingEventTime)",
+                                            "orig(this.pendingEventTime) == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "262": [
+                                {
+                                    "Patch52.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "this.increasing == orig(this.increasing)",
+                                            "this.pendingEventTime == Double.NaN",
+                                            "return == false",
+                                            "this.pendingEvent == false",
+                                            "this.pendingEventTime != orig(this.pendingEventTime)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "189": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch52.inv.output": {
+                                        "invs": [
+                                            "this.pendingEvent == orig(this.pendingEvent)",
+                                            "this.pendingEventTime == orig(this.pendingEventTime)",
+                                            "this.increasing == orig(this.increasing)",
+                                            "this.forward == orig(this.forward)",
+                                            "this.t0 != 0",
+                                            "this.g0 != 0",
+                                            "this.nextAction == 3",
+                                            "return == false",
+                                            "this.pendingEvent == true"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "251": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch52.inv.output": {
+                                        "invs": [
+                                            "orig(this.pendingEvent) == false",
+                                            "this.forward == orig(this.forward)",
+                                            "this.t0 != 0",
+                                            "this.g0 != 0",
+                                            "this.nextAction == 3",
+                                            "return == true",
+                                            "this.pendingEvent == true",
+                                            "this.pendingEventTime != orig(this.pendingEventTime)",
+                                            "orig(this.pendingEventTime) == Double.NaN"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "265": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch52.inv.output": {
+                                        "invs": [
+                                            "orig(this.pendingEventTime) one of { 12.0, Double.NaN }",
+                                            "this.increasing == orig(this.increasing)",
+                                            "this.pendingEventTime == Double.NaN",
+                                            "return == false",
+                                            "this.pendingEvent == false",
+                                            "this.pendingEventTime != orig(this.pendingEventTime)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

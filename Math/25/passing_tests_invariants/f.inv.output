@@ -1,0 +1,1637 @@
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric:::OBJECT
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.Parametric():::EXIT
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.gradient(double, double[]):::ENTER
+param != null
+size(param[]) == 3
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.gradient(double, double[]):::EXIT
+param[] == orig(param[])
+return != null
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.validateParameters(double[]):::ENTER
+param != null
+size(param[]) == 3
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.validateParameters(double[]):::EXIT
+param[] == orig(param[])
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.value(double, double[]):::ENTER
+param != null
+size(param[]) == 3
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.value(double, double[]):::EXIT
+param[] == orig(param[])
+return != 0
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator:::OBJECT
+this.amplitude == 0.2
+this.omega == 3.4
+this.phase one of { -2.183185307179587, 4.1 }
+this.phase != 0
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator.HarmonicOscillator(double, double, double):::ENTER
+amplitude == 0.2
+omega == 3.4
+phase one of { -2.183185307179587, 4.1 }
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator.HarmonicOscillator(double, double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator.value(double):::ENTER
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator.value(double):::EXIT
+this.amplitude == orig(this.amplitude)
+this.omega == orig(this.omega)
+this.phase == orig(this.phase)
+return != 0
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator.value(double, double):::ENTER
+xTimesOmegaPlusPhase != 0
+amplitude <= 1.0
+===========================================================================
+org.apache.commons.math3.analysis.function.HarmonicOscillator.value(double, double):::EXIT
+return != 0
+===========================================================================
+org.apache.commons.math3.optimization.PointVectorValuePair:::CLASS
+===========================================================================
+org.apache.commons.math3.optimization.PointVectorValuePair:::OBJECT
+this.key != null
+this.key.getClass().getName() == double[].class
+this.value != null
+this.value.getClass().getName() == double[].class
+===========================================================================
+org.apache.commons.math3.optimization.PointVectorValuePair.PointVectorValuePair(double[], double[]):::ENTER
+point != null
+value != null
+size(point[]) == 3
+size(value[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.PointVectorValuePair.PointVectorValuePair(double[], double[]):::EXIT
+point[] == orig(point[])
+value[] == orig(value[])
+===========================================================================
+org.apache.commons.math3.optimization.PointVectorValuePair.PointVectorValuePair(double[], double[], boolean):::ENTER
+point != null
+value != null
+copyArray == true
+size(point[]) == 3
+size(value[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.PointVectorValuePair.PointVectorValuePair(double[], double[], boolean):::EXIT
+point[] == orig(point[])
+value[] == orig(value[])
+===========================================================================
+org.apache.commons.math3.optimization.PointVectorValuePair.getPointRef():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.PointVectorValuePair.getPointRef():::EXIT
+this.key == orig(this.key)
+this.key.getClass().getName() == orig(this.key.getClass().getName())
+this.value == orig(this.value)
+this.value.getClass().getName() == orig(this.value.getClass().getName())
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer:::OBJECT
+this.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+this.evaluations != null
+this.evaluations.maximalCount one of { 0, 2147483647 }
+this.evaluations.count >= 0
+this.evaluations.maxCountCallback != null
+this.evaluations.maxCountCallback.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+this.checker == null
+this.weight[] elements == 1.0
+this.weight[] one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+this.start[] elements != 0
+this.function.getClass().getName() == org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.class
+size(this.target[]) one of { 100, 101, 130 }
+size(this.weight[]) one of { 100, 101, 130 }
+size(this.start[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.BaseAbstractMultivariateVectorOptimizer(org.apache.commons.math3.optimization.ConvergenceChecker):::ENTER
+checker == null
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.BaseAbstractMultivariateVectorOptimizer(org.apache.commons.math3.optimization.ConvergenceChecker):::EXIT
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.target == null
+this.weight == null
+this.start == null
+this.function == null
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.computeObjectiveValue(double[]):::ENTER
+this.evaluations.maximalCount == 2147483647
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+point != null
+size(point[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.computeObjectiveValue(double[]):::EXIT
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+point[] == orig(point[])
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+return != null
+size(return[]) one of { 100, 101, 130 }
+this.evaluations.count - orig(this.evaluations.count) - 1 == 0
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.getConvergenceChecker():::ENTER
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count == 1
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.getConvergenceChecker():::EXIT
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count == 1
+return == null
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.getTargetRef():::ENTER
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.getTargetRef():::EXIT
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+return != null
+size(return[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.getWeightRef():::ENTER
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.getWeightRef():::EXIT
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+return != null
+return[] elements == 1.0
+return[] one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+size(return[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.optimize(int, org.apache.commons.math3.analysis.MultivariateVectorFunction, double[], double[], double[]):::ENTER
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.target == null
+this.weight == null
+this.start == null
+this.function == null
+maxEval == 2147483647
+f.getClass().getName() == org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.class
+w[] elements == 1.0
+w[] one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+size(t[]) one of { 100, 101, 130 }
+size(w[]) one of { 100, 101, 130 }
+size(startPoint[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer.optimize(int, org.apache.commons.math3.analysis.MultivariateVectorFunction, double[], double[], double[]):::EXIT
+this.evaluations == orig(this.evaluations)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+t[] == orig(t[])
+w[] == orig(w[])
+startPoint[] == orig(startPoint[])
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count one of { 4, 7, 44 }
+w[] elements == 1.0
+w[] one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+return.key.getClass().getName() == double[].class
+return.value.getClass().getName() == double[].class
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1:::OBJECT
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f.getClass().getName() == org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[] elements != null
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == java.util.ArrayList.class
+size(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1.(org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction):::ENTER
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f.getClass().getName() == org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == java.util.ArrayList.class
+size(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1.(org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction):::EXIT
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this == orig(org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this)
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f == orig(org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f)
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[] == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[])
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName())
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1.value(double[]):::ENTER
+size(point[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1.value(double[]):::EXIT
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this == orig(org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this)
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f == orig(org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f)
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.this.f.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[] == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[])
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName())
+point[] == orig(point[])
+return.getClass().getName() == double[][].class
+return[] elements != null
+size(return[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction:::OBJECT
+this.f.getClass().getName() == org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[] elements != null
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == java.util.ArrayList.class
+size(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.TheoreticalValuesFunction(org.apache.commons.math3.optimization.fitting.CurveFitter, org.apache.commons.math3.analysis.ParametricUnivariateFunction):::ENTER
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == java.util.ArrayList.class
+f.getClass().getName() == org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.class
+size(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.TheoreticalValuesFunction(org.apache.commons.math3.optimization.fitting.CurveFitter, org.apache.commons.math3.analysis.ParametricUnivariateFunction):::EXIT
+org.apache.commons.math3.optimization.fitting.CurveFitter.this == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[] == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[]) (elementwise)
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.jacobian():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.jacobian():::EXIT
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[] == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[])
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName())
+return.getClass().getName() == org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1.class
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.value(double[]):::ENTER
+size(point[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.value(double[]):::EXIT
+this.f == orig(this.f)
+this.f.getClass().getName() == orig(this.f.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.optimizer.getClass().getName())
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations)
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[] == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations[])
+org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName() == orig(org.apache.commons.math3.optimization.fitting.CurveFitter.this.observations.getClass().getName())
+point[] == orig(point[])
+size(return[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter:::OBJECT
+this.optimizer != null
+this.optimizer.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+this.observations != null
+this.observations[] elements != null
+this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+this.observations.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.CurveFitter(org.apache.commons.math3.optimization.DifferentiableMultivariateVectorOptimizer):::ENTER
+optimizer.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.CurveFitter(org.apache.commons.math3.optimization.DifferentiableMultivariateVectorOptimizer):::EXIT
+this.observations[] == []
+this.observations[].getClass().getName() == []
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.addObservedPoint(double, double, double):::ENTER
+weight == 1.0
+y != 0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.addObservedPoint(double, double, double):::EXIT
+this.optimizer == orig(this.optimizer)
+this.optimizer.getClass().getName() == orig(this.optimizer.getClass().getName())
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+size(this.observations[])-1 == orig(size(this.observations[]))
+size(this.observations[]) >= 1
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.fit(int, org.apache.commons.math3.analysis.ParametricUnivariateFunction, double[]):::ENTER
+maxEval == 2147483647
+f.getClass().getName() == org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.class
+size(this.observations[]) one of { 100, 101, 130 }
+size(initialGuess[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.fit(int, org.apache.commons.math3.analysis.ParametricUnivariateFunction, double[]):::EXIT
+this.optimizer == orig(this.optimizer)
+this.optimizer.getClass().getName() == orig(this.optimizer.getClass().getName())
+this.observations == orig(this.observations)
+this.observations[] == orig(this.observations[])
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+initialGuess[] == orig(initialGuess[])
+size(this.observations[]) one of { 100, 101, 130 }
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.fit(org.apache.commons.math3.analysis.ParametricUnivariateFunction, double[]):::ENTER
+f.getClass().getName() == org.apache.commons.math3.analysis.function.HarmonicOscillator$Parametric.class
+size(this.observations[]) one of { 100, 101, 130 }
+size(initialGuess[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.fit(org.apache.commons.math3.analysis.ParametricUnivariateFunction, double[]):::EXIT
+this.optimizer == orig(this.optimizer)
+this.optimizer.getClass().getName() == orig(this.optimizer.getClass().getName())
+this.observations == orig(this.observations)
+this.observations[] == orig(this.observations[])
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+initialGuess[] == orig(initialGuess[])
+size(this.observations[]) one of { 100, 101, 130 }
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.getObservations():::ENTER
+size(this.observations[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.CurveFitter.getObservations():::EXIT
+this.optimizer == orig(this.optimizer)
+this.optimizer.getClass().getName() == orig(this.optimizer.getClass().getName())
+this.observations == orig(this.observations)
+this.observations[] == orig(this.observations[])
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+return.getClass().getName() == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[].class
+return[].weight elements == 1.0
+return[].weight one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+return[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [5.0, 7.4, 3.8000000000000003, 9.9, 7.0, 1.5, 5.800000000000001, 0.7000000000000001, 2.5, 5.2, 8.6, 7.7, 1.3, 8.0, 5.1000000000000005, 4.4, 6.4, 1.7000000000000002, 1.8, 4.5, 2.0, 7.9, 6.300000000000001, 3.9000000000000004, 8.4, 8.1, 8.200000000000001, 4.7, 2.9000000000000004, 0.1, 6.1000000000000005, 2.1, 3.2, 3.3000000000000003, 1.4000000000000001, 4.3, 1.6, 9.8, 1.1, 6.9, 4.0, 9.700000000000001, 4.2, 3.6, 9.1, 9.5, 9.4, 1.0, 4.800000000000001, 8.8, 0.30000000000000004, 0.5, 6.7, 3.4000000000000004, 5.4, 0.9, 8.700000000000001, 2.7, 7.1000000000000005, 5.9, 6.0, 9.200000000000001, 7.6000000000000005, 3.1, 4.9, 6.5, 2.4000000000000004, 2.6, 6.800000000000001, 5.300000000000001, 8.9, 1.2000000000000002, 7.2, 7.300000000000001, 9.3, 7.5, 3.5, 2.3000000000000003, 7.800000000000001, 4.6000000000000005, 1.9000000000000001, 5.7, 0.0, 6.2, 6.6000000000000005, 8.5, 0.8, 9.600000000000001, 5.6000000000000005, 0.2, 2.8000000000000003, 5.5, 9.0, 4.1000000000000005, 0.6000000000000001, 0.4, 3.0, 8.3, 3.7, 2.2] }
+return[].x elements >= 0.0
+size(this.observations[]) one of { 100, 101, 130 }
+size(return[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser:::OBJECT
+this.observations != null
+this.observations.getClass().getName() == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[].class
+this.observations[] elements != null
+this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+this.observations[].weight elements == 1.0
+this.observations[].weight one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+this.observations[].x elements >= 0.0
+size(this.observations[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.ParameterGuesser(org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[]):::ENTER
+observations.getClass().getName() == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[].class
+observations[].weight elements == 1.0
+observations[].weight one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [5.0, 7.4, 3.8000000000000003, 9.9, 7.0, 1.5, 5.800000000000001, 0.7000000000000001, 2.5, 5.2, 8.6, 7.7, 1.3, 8.0, 5.1000000000000005, 4.4, 6.4, 1.7000000000000002, 1.8, 4.5, 2.0, 7.9, 6.300000000000001, 3.9000000000000004, 8.4, 8.1, 8.200000000000001, 4.7, 2.9000000000000004, 0.1, 6.1000000000000005, 2.1, 3.2, 3.3000000000000003, 1.4000000000000001, 4.3, 1.6, 9.8, 1.1, 6.9, 4.0, 9.700000000000001, 4.2, 3.6, 9.1, 9.5, 9.4, 1.0, 4.800000000000001, 8.8, 0.30000000000000004, 0.5, 6.7, 3.4000000000000004, 5.4, 0.9, 8.700000000000001, 2.7, 7.1000000000000005, 5.9, 6.0, 9.200000000000001, 7.6000000000000005, 3.1, 4.9, 6.5, 2.4000000000000004, 2.6, 6.800000000000001, 5.300000000000001, 8.9, 1.2000000000000002, 7.2, 7.300000000000001, 9.3, 7.5, 3.5, 2.3000000000000003, 7.800000000000001, 4.6000000000000005, 1.9000000000000001, 5.7, 0.0, 6.2, 6.6000000000000005, 8.5, 0.8, 9.600000000000001, 5.6000000000000005, 0.2, 2.8000000000000003, 5.5, 9.0, 4.1000000000000005, 0.6000000000000001, 0.4, 3.0, 8.3, 3.7, 2.2] }
+observations[].x elements >= 0.0
+size(observations[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.ParameterGuesser(org.apache.commons.math3.optimization.fitting.WeightedObservedPoint[]):::EXIT
+observations[] == orig(observations[])
+observations[].weight == orig(observations[].weight)
+observations[].x == orig(observations[].x)
+observations[].y == orig(observations[].y)
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [5.0, 7.4, 3.8000000000000003, 9.9, 7.0, 1.5, 5.800000000000001, 0.7000000000000001, 2.5, 5.2, 8.6, 7.7, 1.3, 8.0, 5.1000000000000005, 4.4, 6.4, 1.7000000000000002, 1.8, 4.5, 2.0, 7.9, 6.300000000000001, 3.9000000000000004, 8.4, 8.1, 8.200000000000001, 4.7, 2.9000000000000004, 0.1, 6.1000000000000005, 2.1, 3.2, 3.3000000000000003, 1.4000000000000001, 4.3, 1.6, 9.8, 1.1, 6.9, 4.0, 9.700000000000001, 4.2, 3.6, 9.1, 9.5, 9.4, 1.0, 4.800000000000001, 8.8, 0.30000000000000004, 0.5, 6.7, 3.4000000000000004, 5.4, 0.9, 8.700000000000001, 2.7, 7.1000000000000005, 5.9, 6.0, 9.200000000000001, 7.6000000000000005, 3.1, 4.9, 6.5, 2.4000000000000004, 2.6, 6.800000000000001, 5.300000000000001, 8.9, 1.2000000000000002, 7.2, 7.300000000000001, 9.3, 7.5, 3.5, 2.3000000000000003, 7.800000000000001, 4.6000000000000005, 1.9000000000000001, 5.7, 0.0, 6.2, 6.6000000000000005, 8.5, 0.8, 9.600000000000001, 5.6000000000000005, 0.2, 2.8000000000000003, 5.5, 9.0, 4.1000000000000005, 0.6000000000000001, 0.4, 3.0, 8.3, 3.7, 2.2] }
+this.a == 0.0
+this.omega == 0.0
+this.phi == 0.0
+observations[].weight elements == 1.0
+observations[].weight one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [5.0, 7.4, 3.8000000000000003, 9.9, 7.0, 1.5, 5.800000000000001, 0.7000000000000001, 2.5, 5.2, 8.6, 7.7, 1.3, 8.0, 5.1000000000000005, 4.4, 6.4, 1.7000000000000002, 1.8, 4.5, 2.0, 7.9, 6.300000000000001, 3.9000000000000004, 8.4, 8.1, 8.200000000000001, 4.7, 2.9000000000000004, 0.1, 6.1000000000000005, 2.1, 3.2, 3.3000000000000003, 1.4000000000000001, 4.3, 1.6, 9.8, 1.1, 6.9, 4.0, 9.700000000000001, 4.2, 3.6, 9.1, 9.5, 9.4, 1.0, 4.800000000000001, 8.8, 0.30000000000000004, 0.5, 6.7, 3.4000000000000004, 5.4, 0.9, 8.700000000000001, 2.7, 7.1000000000000005, 5.9, 6.0, 9.200000000000001, 7.6000000000000005, 3.1, 4.9, 6.5, 2.4000000000000004, 2.6, 6.800000000000001, 5.300000000000001, 8.9, 1.2000000000000002, 7.2, 7.300000000000001, 9.3, 7.5, 3.5, 2.3000000000000003, 7.800000000000001, 4.6000000000000005, 1.9000000000000001, 5.7, 0.0, 6.2, 6.6000000000000005, 8.5, 0.8, 9.600000000000001, 5.6000000000000005, 0.2, 2.8000000000000003, 5.5, 9.0, 4.1000000000000005, 0.6000000000000001, 0.4, 3.0, 8.3, 3.7, 2.2] }
+observations[].x elements >= 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guess():::ENTER
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [5.0, 7.4, 3.8000000000000003, 9.9, 7.0, 1.5, 5.800000000000001, 0.7000000000000001, 2.5, 5.2, 8.6, 7.7, 1.3, 8.0, 5.1000000000000005, 4.4, 6.4, 1.7000000000000002, 1.8, 4.5, 2.0, 7.9, 6.300000000000001, 3.9000000000000004, 8.4, 8.1, 8.200000000000001, 4.7, 2.9000000000000004, 0.1, 6.1000000000000005, 2.1, 3.2, 3.3000000000000003, 1.4000000000000001, 4.3, 1.6, 9.8, 1.1, 6.9, 4.0, 9.700000000000001, 4.2, 3.6, 9.1, 9.5, 9.4, 1.0, 4.800000000000001, 8.8, 0.30000000000000004, 0.5, 6.7, 3.4000000000000004, 5.4, 0.9, 8.700000000000001, 2.7, 7.1000000000000005, 5.9, 6.0, 9.200000000000001, 7.6000000000000005, 3.1, 4.9, 6.5, 2.4000000000000004, 2.6, 6.800000000000001, 5.300000000000001, 8.9, 1.2000000000000002, 7.2, 7.300000000000001, 9.3, 7.5, 3.5, 2.3000000000000003, 7.800000000000001, 4.6000000000000005, 1.9000000000000001, 5.7, 0.0, 6.2, 6.6000000000000005, 8.5, 0.8, 9.600000000000001, 5.6000000000000005, 0.2, 2.8000000000000003, 5.5, 9.0, 4.1000000000000005, 0.6000000000000001, 0.4, 3.0, 8.3, 3.7, 2.2] }
+this.a == 0.0
+this.omega == 0.0
+this.phi == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guess():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[].weight == orig(this.observations[].weight)
+size(this.observations[]) == orig(size(this.observations[]))
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0, 1.1, 1.2000000000000002, 1.3, 1.4000000000000001, 1.5, 1.6, 1.7000000000000002, 1.8, 1.9000000000000001, 2.0, 2.1, 2.2, 2.3000000000000003, 2.4000000000000004, 2.5, 2.6, 2.7, 2.8000000000000003, 2.9000000000000004, 3.0, 3.1, 3.2, 3.3000000000000003, 3.4000000000000004, 3.5, 3.6, 3.7, 3.8000000000000003, 3.9000000000000004, 4.0, 4.1000000000000005, 4.2, 4.3, 4.4, 4.5, 4.6000000000000005, 4.7, 4.800000000000001, 4.9, 5.0, 5.1000000000000005, 5.2, 5.300000000000001, 5.4, 5.5, 5.6000000000000005, 5.7, 5.800000000000001, 5.9, 6.0, 6.1000000000000005, 6.2, 6.300000000000001, 6.4, 6.5, 6.6000000000000005, 6.7, 6.800000000000001, 6.9, 7.0, 7.1000000000000005, 7.2, 7.300000000000001, 7.4, 7.5, 7.6000000000000005, 7.7, 7.800000000000001, 7.9, 8.0, 8.1, 8.200000000000001, 8.3, 8.4, 8.5, 8.6, 8.700000000000001, 8.8, 8.9, 9.0, 9.1, 9.200000000000001, 9.3, 9.4, 9.5, 9.600000000000001, 9.700000000000001, 9.8, 9.9] }
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guessAOmega():::ENTER
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0, 1.1, 1.2000000000000002, 1.3, 1.4000000000000001, 1.5, 1.6, 1.7000000000000002, 1.8, 1.9000000000000001, 2.0, 2.1, 2.2, 2.3000000000000003, 2.4000000000000004, 2.5, 2.6, 2.7, 2.8000000000000003, 2.9000000000000004, 3.0, 3.1, 3.2, 3.3000000000000003, 3.4000000000000004, 3.5, 3.6, 3.7, 3.8000000000000003, 3.9000000000000004, 4.0, 4.1000000000000005, 4.2, 4.3, 4.4, 4.5, 4.6000000000000005, 4.7, 4.800000000000001, 4.9, 5.0, 5.1000000000000005, 5.2, 5.300000000000001, 5.4, 5.5, 5.6000000000000005, 5.7, 5.800000000000001, 5.9, 6.0, 6.1000000000000005, 6.2, 6.300000000000001, 6.4, 6.5, 6.6000000000000005, 6.7, 6.800000000000001, 6.9, 7.0, 7.1000000000000005, 7.2, 7.300000000000001, 7.4, 7.5, 7.6000000000000005, 7.7, 7.800000000000001, 7.9, 8.0, 8.1, 8.200000000000001, 8.3, 8.4, 8.5, 8.6, 8.700000000000001, 8.8, 8.9, 9.0, 9.1, 9.200000000000001, 9.3, 9.4, 9.5, 9.600000000000001, 9.700000000000001, 9.8, 9.9] }
+this.a == 0.0
+this.omega == 0.0
+this.phi == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guessAOmega():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[] == orig(this.observations[])
+this.observations[].weight == orig(this.observations[].weight)
+this.observations[].x == orig(this.observations[].x)
+this.observations[].y == orig(this.observations[].y)
+this.phi == orig(this.phi)
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0, 1.1, 1.2000000000000002, 1.3, 1.4000000000000001, 1.5, 1.6, 1.7000000000000002, 1.8, 1.9000000000000001, 2.0, 2.1, 2.2, 2.3000000000000003, 2.4000000000000004, 2.5, 2.6, 2.7, 2.8000000000000003, 2.9000000000000004, 3.0, 3.1, 3.2, 3.3000000000000003, 3.4000000000000004, 3.5, 3.6, 3.7, 3.8000000000000003, 3.9000000000000004, 4.0, 4.1000000000000005, 4.2, 4.3, 4.4, 4.5, 4.6000000000000005, 4.7, 4.800000000000001, 4.9, 5.0, 5.1000000000000005, 5.2, 5.300000000000001, 5.4, 5.5, 5.6000000000000005, 5.7, 5.800000000000001, 5.9, 6.0, 6.1000000000000005, 6.2, 6.300000000000001, 6.4, 6.5, 6.6000000000000005, 6.7, 6.800000000000001, 6.9, 7.0, 7.1000000000000005, 7.2, 7.300000000000001, 7.4, 7.5, 7.6000000000000005, 7.7, 7.800000000000001, 7.9, 8.0, 8.1, 8.200000000000001, 8.3, 8.4, 8.5, 8.6, 8.700000000000001, 8.8, 8.9, 9.0, 9.1, 9.200000000000001, 9.3, 9.4, 9.5, 9.600000000000001, 9.700000000000001, 9.8, 9.9] }
+this.phi == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guessPhi():::ENTER
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0, 1.1, 1.2000000000000002, 1.3, 1.4000000000000001, 1.5, 1.6, 1.7000000000000002, 1.8, 1.9000000000000001, 2.0, 2.1, 2.2, 2.3000000000000003, 2.4000000000000004, 2.5, 2.6, 2.7, 2.8000000000000003, 2.9000000000000004, 3.0, 3.1, 3.2, 3.3000000000000003, 3.4000000000000004, 3.5, 3.6, 3.7, 3.8000000000000003, 3.9000000000000004, 4.0, 4.1000000000000005, 4.2, 4.3, 4.4, 4.5, 4.6000000000000005, 4.7, 4.800000000000001, 4.9, 5.0, 5.1000000000000005, 5.2, 5.300000000000001, 5.4, 5.5, 5.6000000000000005, 5.7, 5.800000000000001, 5.9, 6.0, 6.1000000000000005, 6.2, 6.300000000000001, 6.4, 6.5, 6.6000000000000005, 6.7, 6.800000000000001, 6.9, 7.0, 7.1000000000000005, 7.2, 7.300000000000001, 7.4, 7.5, 7.6000000000000005, 7.7, 7.800000000000001, 7.9, 8.0, 8.1, 8.200000000000001, 8.3, 8.4, 8.5, 8.6, 8.700000000000001, 8.8, 8.9, 9.0, 9.1, 9.200000000000001, 9.3, 9.4, 9.5, 9.600000000000001, 9.700000000000001, 9.8, 9.9] }
+this.phi == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.guessPhi():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[] == orig(this.observations[])
+this.observations[].weight == orig(this.observations[].weight)
+this.observations[].x == orig(this.observations[].x)
+this.observations[].y == orig(this.observations[].y)
+this.a == orig(this.a)
+this.omega == orig(this.omega)
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0, 1.1, 1.2000000000000002, 1.3, 1.4000000000000001, 1.5, 1.6, 1.7000000000000002, 1.8, 1.9000000000000001, 2.0, 2.1, 2.2, 2.3000000000000003, 2.4000000000000004, 2.5, 2.6, 2.7, 2.8000000000000003, 2.9000000000000004, 3.0, 3.1, 3.2, 3.3000000000000003, 3.4000000000000004, 3.5, 3.6, 3.7, 3.8000000000000003, 3.9000000000000004, 4.0, 4.1000000000000005, 4.2, 4.3, 4.4, 4.5, 4.6000000000000005, 4.7, 4.800000000000001, 4.9, 5.0, 5.1000000000000005, 5.2, 5.300000000000001, 5.4, 5.5, 5.6000000000000005, 5.7, 5.800000000000001, 5.9, 6.0, 6.1000000000000005, 6.2, 6.300000000000001, 6.4, 6.5, 6.6000000000000005, 6.7, 6.800000000000001, 6.9, 7.0, 7.1000000000000005, 7.2, 7.300000000000001, 7.4, 7.5, 7.6000000000000005, 7.7, 7.800000000000001, 7.9, 8.0, 8.1, 8.200000000000001, 8.3, 8.4, 8.5, 8.6, 8.700000000000001, 8.8, 8.9, 9.0, 9.1, 9.200000000000001, 9.3, 9.4, 9.5, 9.600000000000001, 9.700000000000001, 9.8, 9.9] }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.sortObservations():::ENTER
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [5.0, 7.4, 3.8000000000000003, 9.9, 7.0, 1.5, 5.800000000000001, 0.7000000000000001, 2.5, 5.2, 8.6, 7.7, 1.3, 8.0, 5.1000000000000005, 4.4, 6.4, 1.7000000000000002, 1.8, 4.5, 2.0, 7.9, 6.300000000000001, 3.9000000000000004, 8.4, 8.1, 8.200000000000001, 4.7, 2.9000000000000004, 0.1, 6.1000000000000005, 2.1, 3.2, 3.3000000000000003, 1.4000000000000001, 4.3, 1.6, 9.8, 1.1, 6.9, 4.0, 9.700000000000001, 4.2, 3.6, 9.1, 9.5, 9.4, 1.0, 4.800000000000001, 8.8, 0.30000000000000004, 0.5, 6.7, 3.4000000000000004, 5.4, 0.9, 8.700000000000001, 2.7, 7.1000000000000005, 5.9, 6.0, 9.200000000000001, 7.6000000000000005, 3.1, 4.9, 6.5, 2.4000000000000004, 2.6, 6.800000000000001, 5.300000000000001, 8.9, 1.2000000000000002, 7.2, 7.300000000000001, 9.3, 7.5, 3.5, 2.3000000000000003, 7.800000000000001, 4.6000000000000005, 1.9000000000000001, 5.7, 0.0, 6.2, 6.6000000000000005, 8.5, 0.8, 9.600000000000001, 5.6000000000000005, 0.2, 2.8000000000000003, 5.5, 9.0, 4.1000000000000005, 0.6000000000000001, 0.4, 3.0, 8.3, 3.7, 2.2] }
+this.a == 0.0
+this.omega == 0.0
+this.phi == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser.sortObservations():::EXIT
+this.observations == orig(this.observations)
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+this.observations[].weight == orig(this.observations[].weight)
+this.a == orig(this.a)
+this.omega == orig(this.omega)
+this.phi == orig(this.phi)
+size(this.observations[]) == orig(size(this.observations[]))
+this.observations[].x one of { [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.060000000000000005, 0.07, 0.08, 0.09, 0.09999999999999999, 0.10999999999999999, 0.11999999999999998, 0.12999999999999998, 0.13999999999999999, 0.15, 0.16, 0.17, 0.18000000000000002, 0.19000000000000003, 0.20000000000000004, 0.21000000000000005, 0.22000000000000006, 0.23000000000000007, 0.24000000000000007, 0.25000000000000006, 0.26000000000000006, 0.2700000000000001, 0.2800000000000001, 0.2900000000000001, 0.3000000000000001, 0.3100000000000001, 0.3200000000000001, 0.3300000000000001, 0.34000000000000014, 0.35000000000000014, 0.36000000000000015, 0.37000000000000016, 0.38000000000000017, 0.3900000000000002, 0.4000000000000002, 0.4100000000000002, 0.4200000000000002, 0.4300000000000002, 0.4400000000000002, 0.45000000000000023, 0.46000000000000024, 0.47000000000000025, 0.48000000000000026, 0.49000000000000027, 0.5000000000000002, 0.5100000000000002, 0.5200000000000002, 0.5300000000000002, 0.5400000000000003, 0.5500000000000003, 0.5600000000000003, 0.5700000000000003, 0.5800000000000003, 0.5900000000000003, 0.6000000000000003, 0.6100000000000003, 0.6200000000000003, 0.6300000000000003, 0.6400000000000003, 0.6500000000000004, 0.6600000000000004, 0.6700000000000004, 0.6800000000000004, 0.6900000000000004, 0.7000000000000004, 0.7100000000000004, 0.7200000000000004, 0.7300000000000004, 0.7400000000000004, 0.7500000000000004, 0.7600000000000005, 0.7700000000000005, 0.7800000000000005, 0.7900000000000005, 0.8000000000000005, 0.8100000000000005, 0.8200000000000005, 0.8300000000000005, 0.8400000000000005, 0.8500000000000005, 0.8600000000000005, 0.8700000000000006, 0.8800000000000006, 0.8900000000000006, 0.9000000000000006, 0.9100000000000006, 0.9200000000000006, 0.9300000000000006, 0.9400000000000006, 0.9500000000000006, 0.9600000000000006, 0.9700000000000006, 0.9800000000000006, 0.9900000000000007, 1.0000000000000007, 1.0100000000000007, 1.0200000000000007, 1.0300000000000007, 1.0400000000000007, 1.0500000000000007, 1.0600000000000007, 1.0700000000000007, 1.0800000000000007, 1.0900000000000007, 1.1000000000000008, 1.1100000000000008, 1.1200000000000008, 1.1300000000000008, 1.1400000000000008, 1.1500000000000008, 1.1600000000000008, 1.1700000000000008, 1.1800000000000008, 1.1900000000000008, 1.2000000000000008, 1.2100000000000009, 1.2200000000000009, 1.2300000000000009, 1.2400000000000009, 1.2500000000000009, 1.260000000000001, 1.270000000000001, 1.280000000000001, 1.290000000000001], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.7999999999999999, 0.8999999999999999, 0.9999999999999999, 1.0999999999999999, 1.2, 1.3, 1.4000000000000001, 1.5000000000000002, 1.6000000000000003, 1.7000000000000004, 1.8000000000000005, 1.9000000000000006, 2.0000000000000004, 2.1000000000000005, 2.2000000000000006, 2.3000000000000007, 2.400000000000001, 2.500000000000001, 2.600000000000001, 2.700000000000001, 2.800000000000001, 2.9000000000000012, 3.0000000000000013, 3.1000000000000014, 3.2000000000000015, 3.3000000000000016, 3.4000000000000017, 3.5000000000000018, 3.600000000000002, 3.700000000000002, 3.800000000000002, 3.900000000000002, 4.000000000000002, 4.100000000000001, 4.200000000000001, 4.300000000000001, 4.4, 4.5, 4.6, 4.699999999999999, 4.799999999999999, 4.899999999999999, 4.999999999999998, 5.099999999999998, 5.1999999999999975, 5.299999999999997, 5.399999999999997, 5.4999999999999964, 5.599999999999996, 5.699999999999996, 5.799999999999995, 5.899999999999995, 5.999999999999995, 6.099999999999994, 6.199999999999994, 6.299999999999994, 6.399999999999993, 6.499999999999993, 6.5999999999999925, 6.699999999999992, 6.799999999999992, 6.8999999999999915, 6.999999999999991, 7.099999999999991, 7.19999999999999, 7.29999999999999, 7.39999999999999, 7.499999999999989, 7.599999999999989, 7.699999999999989, 7.799999999999988, 7.899999999999988, 7.999999999999988, 8.099999999999987, 8.199999999999987, 8.299999999999986, 8.399999999999986, 8.499999999999986, 8.599999999999985, 8.699999999999985, 8.799999999999985, 8.899999999999984, 8.999999999999984, 9.099999999999984, 9.199999999999983, 9.299999999999983, 9.399999999999983, 9.499999999999982, 9.599999999999982, 9.699999999999982, 9.799999999999981, 9.89999999999998, 9.99999999999998], [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0, 1.1, 1.2000000000000002, 1.3, 1.4000000000000001, 1.5, 1.6, 1.7000000000000002, 1.8, 1.9000000000000001, 2.0, 2.1, 2.2, 2.3000000000000003, 2.4000000000000004, 2.5, 2.6, 2.7, 2.8000000000000003, 2.9000000000000004, 3.0, 3.1, 3.2, 3.3000000000000003, 3.4000000000000004, 3.5, 3.6, 3.7, 3.8000000000000003, 3.9000000000000004, 4.0, 4.1000000000000005, 4.2, 4.3, 4.4, 4.5, 4.6000000000000005, 4.7, 4.800000000000001, 4.9, 5.0, 5.1000000000000005, 5.2, 5.300000000000001, 5.4, 5.5, 5.6000000000000005, 5.7, 5.800000000000001, 5.9, 6.0, 6.1000000000000005, 6.2, 6.300000000000001, 6.4, 6.5, 6.6000000000000005, 6.7, 6.800000000000001, 6.9, 7.0, 7.1000000000000005, 7.2, 7.300000000000001, 7.4, 7.5, 7.6000000000000005, 7.7, 7.800000000000001, 7.9, 8.0, 8.1, 8.200000000000001, 8.3, 8.4, 8.5, 8.6, 8.700000000000001, 8.8, 8.9, 9.0, 9.1, 9.200000000000001, 9.3, 9.4, 9.5, 9.600000000000001, 9.700000000000001, 9.8, 9.9] }
+this.a == 0.0
+this.omega == 0.0
+this.phi == 0.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter:::OBJECT
+this.optimizer != null
+this.optimizer.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+this.observations != null
+this.observations[] elements != null
+this.observations[].getClass().getName() elements == org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.class
+this.observations.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter.HarmonicFitter(org.apache.commons.math3.optimization.DifferentiableMultivariateVectorOptimizer):::ENTER
+optimizer.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter.HarmonicFitter(org.apache.commons.math3.optimization.DifferentiableMultivariateVectorOptimizer):::EXIT
+this.observations[] == []
+this.observations[].getClass().getName() == []
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter.fit():::ENTER
+size(this.observations[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter.fit():::EXIT
+this.optimizer == orig(this.optimizer)
+this.optimizer.getClass().getName() == orig(this.optimizer.getClass().getName())
+this.observations == orig(this.observations)
+this.observations[] == orig(this.observations[])
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+size(this.observations[]) one of { 100, 101, 130 }
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter.fit(double[]):::ENTER
+size(this.observations[]) one of { 100, 101, 130 }
+size(initialGuess[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitter.fit(double[]):::EXIT
+this.optimizer == orig(this.optimizer)
+this.optimizer.getClass().getName() == orig(this.optimizer.getClass().getName())
+this.observations == orig(this.observations)
+this.observations[] == orig(this.observations[])
+this.observations.getClass().getName() == orig(this.observations.getClass().getName())
+initialGuess[] == orig(initialGuess[])
+size(this.observations[]) one of { 100, 101, 130 }
+size(return[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest:::OBJECT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.HarmonicFitterTest():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.test1PercentError():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.test1PercentError():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.testNoError():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.testNoError():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.testTinyVariationsData():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.testTinyVariationsData():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.testUnsorted():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.math3.optimization.fitting.HarmonicFitterTest.testUnsorted():::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint:::CLASS
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint:::OBJECT
+this.weight == 1.0
+this.y != 0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint(double, double, double):::ENTER
+weight == 1.0
+y != 0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint(double, double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getWeight():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getWeight():::EXIT
+this.weight == orig(this.weight)
+this.x == orig(this.x)
+this.y == orig(this.y)
+return == 1.0
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getX():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getX():::EXIT
+this.weight == orig(this.weight)
+this.x == orig(this.x)
+this.y == orig(this.y)
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getY():::ENTER
+===========================================================================
+org.apache.commons.math3.optimization.fitting.WeightedObservedPoint.getY():::EXIT
+this.weight == orig(this.weight)
+this.x == orig(this.x)
+this.y == orig(this.y)
+return != 0
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer:::CLASS
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer:::OBJECT
+this.getClass().getName() == org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.class
+this.weightedResidualJacobian.getClass().getName() == double[][].class
+this.weightedResidualJacobian[] elements != null
+this.cols one of { 0, 3 }
+this.rows >= 0
+this.cost >= 0.0
+this.jF.getClass().getName() == org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1.class
+this.jacobianEvaluations >= 0
+this.evaluations != null
+this.evaluations.maximalCount one of { 0, 2147483647 }
+this.evaluations.count >= 0
+this.evaluations.maxCountCallback != null
+this.evaluations.maxCountCallback.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+this.checker == null
+this.weight[] elements == 1.0
+this.weight[] one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+this.start[] elements != 0
+this.function.getClass().getName() == org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.class
+size(this.weightedResidualJacobian[]) one of { 100, 101, 130 }
+size(this.point[]) == 3
+size(this.objective[]) one of { 100, 101, 130 }
+size(this.weightedResiduals[]) one of { 100, 101, 130 }
+size(this.target[]) one of { 100, 101, 130 }
+size(this.weight[]) one of { 100, 101, 130 }
+size(this.start[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer.AbstractLeastSquaresOptimizer(org.apache.commons.math3.optimization.ConvergenceChecker):::ENTER
+checker == null
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer.AbstractLeastSquaresOptimizer(org.apache.commons.math3.optimization.ConvergenceChecker):::EXIT
+this.weightedResidualJacobian == null
+this.cols == 0
+this.rows == 0
+this.point == null
+this.objective == null
+this.weightedResiduals == null
+this.cost == 0.0
+this.jF == null
+this.jacobianEvaluations == 0
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.target == null
+this.weight == null
+this.start == null
+this.function == null
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer.optimize(int, org.apache.commons.math3.analysis.DifferentiableMultivariateVectorFunction, double[], double[], double[]):::ENTER
+this.weightedResidualJacobian == null
+this.cols == 0
+this.rows == 0
+this.point == null
+this.objective == null
+this.weightedResiduals == null
+this.cost == 0.0
+this.jF == null
+this.jacobianEvaluations == 0
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.target == null
+this.weight == null
+this.start == null
+this.function == null
+maxEval == 2147483647
+f.getClass().getName() == org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.class
+weights[] elements == 1.0
+weights[] one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+size(target[]) one of { 100, 101, 130 }
+size(weights[]) one of { 100, 101, 130 }
+size(startPoint[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer.optimize(int, org.apache.commons.math3.analysis.DifferentiableMultivariateVectorFunction, double[], double[], double[]):::EXIT
+this.evaluations == orig(this.evaluations)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+target[] == orig(target[])
+weights[] == orig(weights[])
+startPoint[] == orig(startPoint[])
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.jacobianEvaluations one of { 3, 6, 42 }
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count one of { 4, 7, 44 }
+weights[] elements == 1.0
+weights[] one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+return.key.getClass().getName() == double[].class
+return.value.getClass().getName() == double[].class
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer.updateJacobian():::ENTER
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer.updateJacobian():::EXIT
+this.weightedResidualJacobian.getClass().getName() == orig(this.weightedResidualJacobian.getClass().getName())
+this.cols == orig(this.cols)
+this.rows == orig(this.rows)
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+this.objective == orig(this.objective)
+this.objective[] == orig(this.objective[])
+this.weightedResiduals == orig(this.weightedResiduals)
+this.weightedResiduals[] == orig(this.weightedResiduals[])
+this.cost == orig(this.cost)
+this.jF == orig(this.jF)
+this.jF.getClass().getName() == orig(this.jF.getClass().getName())
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+size(this.weightedResidualJacobian[]) == orig(size(this.weightedResidualJacobian[]))
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.jacobianEvaluations >= 1
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+this.jacobianEvaluations - orig(this.jacobianEvaluations) - 1 == 0
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer.updateResidualsAndCost():::ENTER
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.weightedResiduals != null
+this.jF != null
+this.evaluations.maximalCount == 2147483647
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+===========================================================================
+org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer.updateResidualsAndCost():::EXIT
+this.weightedResidualJacobian == orig(this.weightedResidualJacobian)
+this.weightedResidualJacobian.getClass().getName() == orig(this.weightedResidualJacobian.getClass().getName())
+this.weightedResidualJacobian[] == orig(this.weightedResidualJacobian[])
+this.cols == orig(this.cols)
+this.rows == orig(this.rows)
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+this.weightedResiduals == orig(this.weightedResiduals)
+this.jF == orig(this.jF)
+this.jF.getClass().getName() == orig(this.jF.getClass().getName())
+this.jacobianEvaluations == orig(this.jacobianEvaluations)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+size(this.objective[]) == orig(size(this.objective[]))
+size(this.weightedResiduals[]) == orig(size(this.weightedResiduals[]))
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+this.evaluations.count - orig(this.evaluations.count) - 1 == 0
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer:::CLASS
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer:::OBJECT
+this.solvedCols one of { 0, 3 }
+this.beta[] elements >= 0.0
+this.permutation[] elements one of { 0, 1, 2 }
+this.rank one of { 0, 3 }
+this.initialStepBoundFactor == 100.0
+this.costRelativeTolerance == 1.0E-10
+this.parRelativeTolerance == 1.0E-10
+this.orthoTolerance == 1.0E-10
+this.qrRankingThreshold == 2.2250738585072014E-308
+this.weightedResidualJacobian.getClass().getName() == double[][].class
+this.weightedResidualJacobian[] elements != null
+this.cols one of { 0, 3 }
+this.rows >= 0
+this.jF.getClass().getName() == org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction$1.class
+this.jacobianEvaluations >= 0
+this.evaluations != null
+this.evaluations.maximalCount one of { 0, 2147483647 }
+this.evaluations.count >= 0
+this.evaluations.maxCountCallback != null
+this.evaluations.maxCountCallback.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+this.checker == null
+this.weight[] elements == 1.0
+this.weight[] one of { [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] }
+this.start[] elements != 0
+this.function.getClass().getName() == org.apache.commons.math3.optimization.fitting.CurveFitter$TheoreticalValuesFunction.class
+size(this.diagR[]) == 3
+size(this.jacNorm[]) == 3
+size(this.beta[]) == 3
+size(this.permutation[]) == 3
+size(this.lmDir[]) == 3
+size(this.weightedResidualJacobian[]) one of { 100, 101, 130 }
+size(this.point[]) == 3
+size(this.objective[]) one of { 100, 101, 130 }
+size(this.weightedResiduals[]) one of { 100, 101, 130 }
+size(this.target[]) one of { 100, 101, 130 }
+size(this.weight[]) one of { 100, 101, 130 }
+size(this.start[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer():::EXIT
+this.solvedCols == 0
+this.diagR == null
+this.jacNorm == null
+this.beta == null
+this.permutation == null
+this.rank == 0
+this.lmPar == 0.0
+this.lmDir == null
+this.weightedResidualJacobian == null
+this.cols == 0
+this.rows == 0
+this.point == null
+this.objective == null
+this.weightedResiduals == null
+this.cost == 0.0
+this.jF == null
+this.jacobianEvaluations == 0
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.target == null
+this.weight == null
+this.start == null
+this.function == null
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double, double, double, double, double):::ENTER
+initialStepBoundFactor == 100.0
+costRelativeTolerance == 1.0E-10
+parRelativeTolerance == 1.0E-10
+orthoTolerance == 1.0E-10
+threshold == 2.2250738585072014E-308
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double, double, double, double, double):::EXIT
+this.solvedCols == 0
+this.diagR == null
+this.jacNorm == null
+this.beta == null
+this.permutation == null
+this.rank == 0
+this.lmPar == 0.0
+this.lmDir == null
+this.weightedResidualJacobian == null
+this.cols == 0
+this.rows == 0
+this.point == null
+this.objective == null
+this.weightedResiduals == null
+this.cost == 0.0
+this.jF == null
+this.jacobianEvaluations == 0
+this.evaluations.maximalCount == 0
+this.evaluations.count == 0
+this.target == null
+this.weight == null
+this.start == null
+this.function == null
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.determineLMDirection(double[], double[], double[], double[]):::ENTER
+this has only one value
+this.solvedCols == 3
+this.diagR has only one value
+this.jacNorm has only one value
+this.jacNorm[] sorted by >
+this.beta has only one value
+this.beta[] sorted by <
+this.permutation has only one value
+this.permutation[] == [0, 1, 2]
+this.permutation[] sorted by <
+this.rank == 3
+this.lmDir has only one value
+this.cols == 3
+this.rows == 101
+this.point has only one value
+this.jF has only one value
+this.evaluations has only one value
+this.evaluations.maximalCount == 2147483647
+this.evaluations.maxCountCallback has only one value
+this.target has only one value
+this.target[] == [-1.294080828940124E-7, -1.2657369192317708E-7, -8.689271471481322E-9, 2.4174030916193502E-9, -1.0141202346841491E-7, 7.925526693314937E-8, 1.3670328338376527E-7, 9.910840985034959E-8, -2.643772551245739E-7, 8.283955280560374E-8, 5.446119861355135E-8, 2.350554718565491E-8, -9.518077405182853E-8, 1.4553136629495592E-7, -8.92016048707658E-8, -8.826045214753567E-8, 1.1971809208721266E-7, -7.736032183705541E-8, 2.197572253994492E-8, -9.489217410047368E-8, 5.182493892869626E-8, 4.2701239030452376E-8, 2.1741384645020833E-8, -1.1957906753016252E-7, -6.164149826765774E-8, -1.3768453857578745E-7, -4.893536935522237E-8, -4.43912329464614E-8, -7.480605002468644E-9, 4.76695173923798E-8, -2.150053237986124E-8, 5.5785067017838505E-8, -1.1547771654810238E-8, -1.5407531128260479E-7, 3.190540605803036E-8, -1.2383334242122635E-7, -7.594848114849153E-8, 8.490592227190295E-8, -1.554210480620726E-7, -1.6594175555861688E-7, 8.08591590853312E-8, 1.3748369711486386E-7, 1.435067185031226E-8, -7.342976594404759E-8, -9.741216663208345E-8, 8.899082621463207E-8, 1.3668236072850955E-7, -9.265531020936376E-9, -1.456815328593276E-8, -8.892256763410043E-8, -2.784450011711694E-8, 1.2724199751722639E-7, 6.921057415696319E-8, -1.1601212649660095E-7, 2.4729412711215195E-7, 1.6670010641134775E-7, -8.303642718651253E-8, -1.7087787036260923E-8, -4.645230158355954E-8, 8.337997096662432E-8, 1.6880199142897354E-7, -8.06886002038518E-8, -6.314197444738224E-8, -7.61769840962E-9, 4.28454999389071E-8, -6.220256591831642E-8, 4.327969217723993E-8, -5.09871482197001E-8, -1.0398873978824805E-7, 4.459958527951911E-8, -6.441188172150216E-8, 1.7490071823753437E-8, -5.8837977677675456E-8, 6.877505574821486E-8, 9.187407497283457E-8, 1.341205591252761E-7, -1.6623367293853326E-8, -9.1088346320787E-8, -1.0313884109888531E-7, 1.3899018451461108E-8, -1.5774176312624547E-7, -1.0779033746145602E-7, 1.3097043042610507E-7, -4.4216321775324816E-8, -1.6012608225191982E-7, -1.701661508072461E-8, -1.1741028068296914E-7, 6.011153672847017E-8, 2.9318385301888404E-8, -2.5413380473508843E-7, -1.1594989184190235E-7, -1.529490640746074E-7, 6.819222922052739E-8, 1.1565625537862657E-7, 8.210972657428136E-8, -7.446077836936085E-8, -1.0159622828561282E-7, 1.1725664360206982E-7, -1.013266449550661E-7, 1.20609302267153E-7, 3.1715814595127704E-7]
+this.weight has only one value
+this.weight[] == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+this.start has only one value
+this.start[] == [2.907677005379255E-7, 0.6283185307179598, -1.7314489233457617]
+this.start[] elements one of { -1.7314489233457617, 2.907677005379255E-7, 0.6283185307179598 }
+this.function has only one value
+qy has only one value
+diag has only one value
+diag[] sorted by >
+lmDiag has only one value
+work has only one value
+size(this.weightedResidualJacobian[]) == 101
+size(this.objective[]) == 101
+size(this.weightedResiduals[]) == 101
+size(this.target[]) == 101
+size(this.weight[]) == 101
+size(qy[]) == 101
+size(diag[]) == 3
+size(lmDiag[]) == 3
+size(work[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.determineLMDirection(double[], double[], double[], double[]):::EXIT
+this.solvedCols == orig(this.solvedCols)
+this.diagR == orig(this.diagR)
+this.diagR[] == orig(this.diagR[])
+this.jacNorm == orig(this.jacNorm)
+this.jacNorm[] == orig(this.jacNorm[])
+this.beta == orig(this.beta)
+this.beta[] == orig(this.beta[])
+this.permutation == orig(this.permutation)
+this.permutation[] == orig(this.permutation[])
+this.rank == orig(this.rank)
+this.lmPar == orig(this.lmPar)
+this.lmDir == orig(this.lmDir)
+this.initialStepBoundFactor == orig(this.initialStepBoundFactor)
+this.costRelativeTolerance == orig(this.costRelativeTolerance)
+this.parRelativeTolerance == orig(this.parRelativeTolerance)
+this.orthoTolerance == orig(this.orthoTolerance)
+this.qrRankingThreshold == orig(this.qrRankingThreshold)
+this.weightedResidualJacobian == orig(this.weightedResidualJacobian)
+this.weightedResidualJacobian.getClass().getName() == orig(this.weightedResidualJacobian.getClass().getName())
+this.weightedResidualJacobian[] == orig(this.weightedResidualJacobian[])
+this.cols == orig(this.cols)
+this.rows == orig(this.rows)
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+this.objective == orig(this.objective)
+this.objective[] == orig(this.objective[])
+this.weightedResiduals == orig(this.weightedResiduals)
+this.weightedResiduals[] == orig(this.weightedResiduals[])
+this.cost == orig(this.cost)
+this.jF == orig(this.jF)
+this.jF.getClass().getName() == orig(this.jF.getClass().getName())
+this.jacobianEvaluations == orig(this.jacobianEvaluations)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+qy[] == orig(qy[])
+diag[] == orig(diag[])
+size(this.lmDir[]) == orig(size(this.lmDir[]))
+this.solvedCols == 3
+this.diagR has only one value
+this.jacNorm has only one value
+this.jacNorm[] sorted by >
+this.beta has only one value
+this.beta[] sorted by <
+this.permutation has only one value
+this.permutation[] == [0, 1, 2]
+this.permutation[] sorted by <
+this.rank == 3
+this.lmDir has only one value
+this.cols == 3
+this.rows == 101
+this.point has only one value
+this.jF has only one value
+this.evaluations has only one value
+this.evaluations.maximalCount == 2147483647
+this.evaluations.maxCountCallback has only one value
+this.target has only one value
+this.target[] == [-1.294080828940124E-7, -1.2657369192317708E-7, -8.689271471481322E-9, 2.4174030916193502E-9, -1.0141202346841491E-7, 7.925526693314937E-8, 1.3670328338376527E-7, 9.910840985034959E-8, -2.643772551245739E-7, 8.283955280560374E-8, 5.446119861355135E-8, 2.350554718565491E-8, -9.518077405182853E-8, 1.4553136629495592E-7, -8.92016048707658E-8, -8.826045214753567E-8, 1.1971809208721266E-7, -7.736032183705541E-8, 2.197572253994492E-8, -9.489217410047368E-8, 5.182493892869626E-8, 4.2701239030452376E-8, 2.1741384645020833E-8, -1.1957906753016252E-7, -6.164149826765774E-8, -1.3768453857578745E-7, -4.893536935522237E-8, -4.43912329464614E-8, -7.480605002468644E-9, 4.76695173923798E-8, -2.150053237986124E-8, 5.5785067017838505E-8, -1.1547771654810238E-8, -1.5407531128260479E-7, 3.190540605803036E-8, -1.2383334242122635E-7, -7.594848114849153E-8, 8.490592227190295E-8, -1.554210480620726E-7, -1.6594175555861688E-7, 8.08591590853312E-8, 1.3748369711486386E-7, 1.435067185031226E-8, -7.342976594404759E-8, -9.741216663208345E-8, 8.899082621463207E-8, 1.3668236072850955E-7, -9.265531020936376E-9, -1.456815328593276E-8, -8.892256763410043E-8, -2.784450011711694E-8, 1.2724199751722639E-7, 6.921057415696319E-8, -1.1601212649660095E-7, 2.4729412711215195E-7, 1.6670010641134775E-7, -8.303642718651253E-8, -1.7087787036260923E-8, -4.645230158355954E-8, 8.337997096662432E-8, 1.6880199142897354E-7, -8.06886002038518E-8, -6.314197444738224E-8, -7.61769840962E-9, 4.28454999389071E-8, -6.220256591831642E-8, 4.327969217723993E-8, -5.09871482197001E-8, -1.0398873978824805E-7, 4.459958527951911E-8, -6.441188172150216E-8, 1.7490071823753437E-8, -5.8837977677675456E-8, 6.877505574821486E-8, 9.187407497283457E-8, 1.341205591252761E-7, -1.6623367293853326E-8, -9.1088346320787E-8, -1.0313884109888531E-7, 1.3899018451461108E-8, -1.5774176312624547E-7, -1.0779033746145602E-7, 1.3097043042610507E-7, -4.4216321775324816E-8, -1.6012608225191982E-7, -1.701661508072461E-8, -1.1741028068296914E-7, 6.011153672847017E-8, 2.9318385301888404E-8, -2.5413380473508843E-7, -1.1594989184190235E-7, -1.529490640746074E-7, 6.819222922052739E-8, 1.1565625537862657E-7, 8.210972657428136E-8, -7.446077836936085E-8, -1.0159622828561282E-7, 1.1725664360206982E-7, -1.013266449550661E-7, 1.20609302267153E-7, 3.1715814595127704E-7]
+this.weight has only one value
+this.weight[] == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+this.start has only one value
+this.start[] == [2.907677005379255E-7, 0.6283185307179598, -1.7314489233457617]
+this.start[] elements one of { -1.7314489233457617, 2.907677005379255E-7, 0.6283185307179598 }
+this.function has only one value
+diag[] sorted by >
+size(this.weightedResidualJacobian[]) == 101
+size(this.objective[]) == 101
+size(this.weightedResiduals[]) == 101
+size(this.target[]) == 101
+size(this.weight[]) == 101
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.determineLMParameter(double[], double, double[], double[], double[], double[]):::ENTER
+this.solvedCols == 3
+this.diagR != null
+this.jacNorm != null
+this.beta != null
+this.permutation != null
+this.permutation[] one of { [0, 1, 2], [0, 2, 1], [1, 0, 2] }
+this.rank == 3
+this.lmDir != null
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.jacobianEvaluations >= 1
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+qy != null
+diag != null
+diag[] elements >= 2.075975742102834E-6
+work1 != null
+work2 != null
+work3 != null
+size(qy[]) one of { 100, 101, 130 }
+size(diag[]) == 3
+size(work1[]) == 3
+size(work2[]) == 3
+size(work3[]) == 3
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.determineLMParameter(double[], double, double[], double[], double[], double[]):::EXIT564
+work2[] == orig(work2[])
+work3[] == orig(work3[])
+this.lmPar == 0.0
+work2[] one of { [-7.265152147689164, -6.534403572291429E-7, -6.536006984759581E-8], [0.0, 0.0, 0.0] }
+work2[] sorted by <=
+work3[] one of { [-5.382783917788042E-8, -2.1408151719416105E-6, 2.9101822295740913E-6], [0.0, 0.0, 0.0] }
+orig(this.lmPar) one of { 0.0, 1.371543882849198E-4 }
+this.lmPar <= orig(this.lmPar)
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.determineLMParameter(double[], double, double[], double[], double[], double[]):::EXIT644
+this.diagR has only one value
+this.jacNorm has only one value
+this.beta has only one value
+this.permutation has only one value
+this.permutation[] == [0, 1, 2]
+this.lmDir has only one value
+this.rows == 101
+this.point has only one value
+this.jF has only one value
+this.evaluations has only one value
+this.evaluations.maxCountCallback has only one value
+this.target has only one value
+this.target[] == [-1.294080828940124E-7, -1.2657369192317708E-7, -8.689271471481322E-9, 2.4174030916193502E-9, -1.0141202346841491E-7, 7.925526693314937E-8, 1.3670328338376527E-7, 9.910840985034959E-8, -2.643772551245739E-7, 8.283955280560374E-8, 5.446119861355135E-8, 2.350554718565491E-8, -9.518077405182853E-8, 1.4553136629495592E-7, -8.92016048707658E-8, -8.826045214753567E-8, 1.1971809208721266E-7, -7.736032183705541E-8, 2.197572253994492E-8, -9.489217410047368E-8, 5.182493892869626E-8, 4.2701239030452376E-8, 2.1741384645020833E-8, -1.1957906753016252E-7, -6.164149826765774E-8, -1.3768453857578745E-7, -4.893536935522237E-8, -4.43912329464614E-8, -7.480605002468644E-9, 4.76695173923798E-8, -2.150053237986124E-8, 5.5785067017838505E-8, -1.1547771654810238E-8, -1.5407531128260479E-7, 3.190540605803036E-8, -1.2383334242122635E-7, -7.594848114849153E-8, 8.490592227190295E-8, -1.554210480620726E-7, -1.6594175555861688E-7, 8.08591590853312E-8, 1.3748369711486386E-7, 1.435067185031226E-8, -7.342976594404759E-8, -9.741216663208345E-8, 8.899082621463207E-8, 1.3668236072850955E-7, -9.265531020936376E-9, -1.456815328593276E-8, -8.892256763410043E-8, -2.784450011711694E-8, 1.2724199751722639E-7, 6.921057415696319E-8, -1.1601212649660095E-7, 2.4729412711215195E-7, 1.6670010641134775E-7, -8.303642718651253E-8, -1.7087787036260923E-8, -4.645230158355954E-8, 8.337997096662432E-8, 1.6880199142897354E-7, -8.06886002038518E-8, -6.314197444738224E-8, -7.61769840962E-9, 4.28454999389071E-8, -6.220256591831642E-8, 4.327969217723993E-8, -5.09871482197001E-8, -1.0398873978824805E-7, 4.459958527951911E-8, -6.441188172150216E-8, 1.7490071823753437E-8, -5.8837977677675456E-8, 6.877505574821486E-8, 9.187407497283457E-8, 1.341205591252761E-7, -1.6623367293853326E-8, -9.1088346320787E-8, -1.0313884109888531E-7, 1.3899018451461108E-8, -1.5774176312624547E-7, -1.0779033746145602E-7, 1.3097043042610507E-7, -4.4216321775324816E-8, -1.6012608225191982E-7, -1.701661508072461E-8, -1.1741028068296914E-7, 6.011153672847017E-8, 2.9318385301888404E-8, -2.5413380473508843E-7, -1.1594989184190235E-7, -1.529490640746074E-7, 6.819222922052739E-8, 1.1565625537862657E-7, 8.210972657428136E-8, -7.446077836936085E-8, -1.0159622828561282E-7, 1.1725664360206982E-7, -1.013266449550661E-7, 1.20609302267153E-7, 3.1715814595127704E-7]
+this.weight has only one value
+this.weight[] == [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+this.start has only one value
+this.start[] == [2.907677005379255E-7, 0.6283185307179598, -1.7314489233457617]
+this.start[] elements one of { -1.7314489233457617, 2.907677005379255E-7, 0.6283185307179598 }
+this.function has only one value
+diag[] one of { [7.072876923870188, 1.1811559530983438E-5, 2.075975742102834E-6], [7.283134994642284, 1.1811559530983438E-5, 2.075975742102834E-6], [7.537602858405838, 1.1811559530983438E-5, 2.075975742102834E-6] }
+work3[] elements != 0
+orig(this) has only one value
+orig(qy) has only one value
+orig(diag) has only one value
+orig(work1) has only one value
+orig(work2) has only one value
+orig(work3) has only one value
+size(this.weightedResidualJacobian[]) == 101
+size(this.objective[]) == 101
+size(this.weightedResiduals[]) == 101
+size(this.target[]) == 101
+size(this.weight[]) == 101
+orig(size(qy[])) == 101
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.determineLMParameter(double[], double, double[], double[], double[], double[]):::EXIT
+this.solvedCols == orig(this.solvedCols)
+this.diagR == orig(this.diagR)
+this.diagR[] == orig(this.diagR[])
+this.jacNorm == orig(this.jacNorm)
+this.jacNorm[] == orig(this.jacNorm[])
+this.beta == orig(this.beta)
+this.beta[] == orig(this.beta[])
+this.permutation == orig(this.permutation)
+this.permutation[] == orig(this.permutation[])
+this.rank == orig(this.rank)
+this.lmDir == orig(this.lmDir)
+this.initialStepBoundFactor == orig(this.initialStepBoundFactor)
+this.costRelativeTolerance == orig(this.costRelativeTolerance)
+this.parRelativeTolerance == orig(this.parRelativeTolerance)
+this.orthoTolerance == orig(this.orthoTolerance)
+this.qrRankingThreshold == orig(this.qrRankingThreshold)
+this.weightedResidualJacobian == orig(this.weightedResidualJacobian)
+this.weightedResidualJacobian.getClass().getName() == orig(this.weightedResidualJacobian.getClass().getName())
+this.weightedResidualJacobian[] == orig(this.weightedResidualJacobian[])
+this.cols == orig(this.cols)
+this.rows == orig(this.rows)
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+this.objective == orig(this.objective)
+this.objective[] == orig(this.objective[])
+this.weightedResiduals == orig(this.weightedResiduals)
+this.weightedResiduals[] == orig(this.weightedResiduals[])
+this.cost == orig(this.cost)
+this.jF == orig(this.jF)
+this.jF.getClass().getName() == orig(this.jF.getClass().getName())
+this.jacobianEvaluations == orig(this.jacobianEvaluations)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+qy[] == orig(qy[])
+diag[] == orig(diag[])
+size(this.lmDir[]) == orig(size(this.lmDir[]))
+this.solvedCols == 3
+this.diagR != null
+this.jacNorm != null
+this.beta != null
+this.permutation != null
+this.permutation[] one of { [0, 1, 2], [0, 2, 1], [1, 0, 2] }
+this.rank == 3
+this.lmDir != null
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.jacobianEvaluations >= 1
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+diag[] elements >= 2.075975742102834E-6
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.doOptimize():::ENTER
+this.solvedCols == 0
+this.diagR == null
+this.jacNorm == null
+this.beta == null
+this.permutation == null
+this.rank == 0
+this.lmPar == 0.0
+this.lmDir == null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.objective == null
+this.weightedResiduals[] elements == 0.0
+this.weightedResiduals[] one of { [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] }
+this.cost == Infinity
+this.jacobianEvaluations == 0
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count == 0
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.doOptimize():::EXIT490
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.doOptimize():::EXIT
+this.lmPar == orig(this.lmPar)
+this.initialStepBoundFactor == orig(this.initialStepBoundFactor)
+this.costRelativeTolerance == orig(this.costRelativeTolerance)
+this.parRelativeTolerance == orig(this.parRelativeTolerance)
+this.orthoTolerance == orig(this.orthoTolerance)
+this.qrRankingThreshold == orig(this.qrRankingThreshold)
+this.weightedResidualJacobian.getClass().getName() == orig(this.weightedResidualJacobian.getClass().getName())
+this.cols == orig(this.cols)
+this.rows == orig(this.rows)
+this.point == orig(this.point)
+this.jF == orig(this.jF)
+this.jF.getClass().getName() == orig(this.jF.getClass().getName())
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+size(this.weightedResidualJacobian[]) == orig(size(this.weightedResidualJacobian[]))
+size(this.point[]) == orig(size(this.point[]))
+size(this.weightedResiduals[]) == orig(size(this.weightedResiduals[]))
+this.solvedCols == 3
+this.permutation[] one of { [0, 1, 2], [0, 2, 1], [1, 0, 2] }
+this.rank == 3
+this.lmPar == 0.0
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.jacobianEvaluations one of { 3, 6, 42 }
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count one of { 4, 7, 44 }
+return.key.getClass().getName() == double[].class
+return.value.getClass().getName() == double[].class
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.qTy(double[]):::ENTER
+this.solvedCols == 3
+this.diagR != null
+this.jacNorm != null
+this.beta != null
+this.permutation != null
+this.permutation[] one of { [0, 1, 2], [0, 2, 1], [1, 0, 2] }
+this.rank == 3
+this.lmDir != null
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.jacobianEvaluations >= 1
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+y != null
+size(y[]) one of { 100, 101, 130 }
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.qTy(double[]):::EXIT
+this.solvedCols == orig(this.solvedCols)
+this.diagR == orig(this.diagR)
+this.diagR[] == orig(this.diagR[])
+this.jacNorm == orig(this.jacNorm)
+this.jacNorm[] == orig(this.jacNorm[])
+this.beta == orig(this.beta)
+this.beta[] == orig(this.beta[])
+this.permutation == orig(this.permutation)
+this.permutation[] == orig(this.permutation[])
+this.rank == orig(this.rank)
+this.lmPar == orig(this.lmPar)
+this.lmDir == orig(this.lmDir)
+this.lmDir[] == orig(this.lmDir[])
+this.initialStepBoundFactor == orig(this.initialStepBoundFactor)
+this.costRelativeTolerance == orig(this.costRelativeTolerance)
+this.parRelativeTolerance == orig(this.parRelativeTolerance)
+this.orthoTolerance == orig(this.orthoTolerance)
+this.qrRankingThreshold == orig(this.qrRankingThreshold)
+this.weightedResidualJacobian == orig(this.weightedResidualJacobian)
+this.weightedResidualJacobian.getClass().getName() == orig(this.weightedResidualJacobian.getClass().getName())
+this.weightedResidualJacobian[] == orig(this.weightedResidualJacobian[])
+this.cols == orig(this.cols)
+this.rows == orig(this.rows)
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+this.objective == orig(this.objective)
+this.objective[] == orig(this.objective[])
+this.weightedResiduals == orig(this.weightedResiduals)
+this.weightedResiduals[] == orig(this.weightedResiduals[])
+this.cost == orig(this.cost)
+this.jF == orig(this.jF)
+this.jF.getClass().getName() == orig(this.jF.getClass().getName())
+this.jacobianEvaluations == orig(this.jacobianEvaluations)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+this.solvedCols == 3
+this.diagR != null
+this.jacNorm != null
+this.beta != null
+this.permutation != null
+this.permutation[] one of { [0, 1, 2], [0, 2, 1], [1, 0, 2] }
+this.rank == 3
+this.lmDir != null
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.jacobianEvaluations >= 1
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.qrDecomposition():::ENTER
+this.solvedCols == 3
+this.diagR != null
+this.jacNorm != null
+this.beta != null
+this.permutation != null
+this.lmDir != null
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.jacobianEvaluations >= 1
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.qrDecomposition():::EXIT888
+===========================================================================
+org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer.qrDecomposition():::EXIT
+this.solvedCols == orig(this.solvedCols)
+this.diagR == orig(this.diagR)
+this.jacNorm == orig(this.jacNorm)
+this.beta == orig(this.beta)
+this.permutation == orig(this.permutation)
+this.lmPar == orig(this.lmPar)
+this.lmDir == orig(this.lmDir)
+this.lmDir[] == orig(this.lmDir[])
+this.initialStepBoundFactor == orig(this.initialStepBoundFactor)
+this.costRelativeTolerance == orig(this.costRelativeTolerance)
+this.parRelativeTolerance == orig(this.parRelativeTolerance)
+this.orthoTolerance == orig(this.orthoTolerance)
+this.qrRankingThreshold == orig(this.qrRankingThreshold)
+this.weightedResidualJacobian == orig(this.weightedResidualJacobian)
+this.weightedResidualJacobian.getClass().getName() == orig(this.weightedResidualJacobian.getClass().getName())
+this.weightedResidualJacobian[] == orig(this.weightedResidualJacobian[])
+this.cols == orig(this.cols)
+this.rows == orig(this.rows)
+this.point == orig(this.point)
+this.point[] == orig(this.point[])
+this.objective == orig(this.objective)
+this.objective[] == orig(this.objective[])
+this.weightedResiduals == orig(this.weightedResiduals)
+this.weightedResiduals[] == orig(this.weightedResiduals[])
+this.cost == orig(this.cost)
+this.jF == orig(this.jF)
+this.jF.getClass().getName() == orig(this.jF.getClass().getName())
+this.jacobianEvaluations == orig(this.jacobianEvaluations)
+this.evaluations == orig(this.evaluations)
+this.evaluations.maximalCount == orig(this.evaluations.maximalCount)
+this.evaluations.count == orig(this.evaluations.count)
+this.evaluations.maxCountCallback == orig(this.evaluations.maxCountCallback)
+this.evaluations.maxCountCallback.getClass().getName() == orig(this.evaluations.maxCountCallback.getClass().getName())
+this.checker == orig(this.checker)
+this.target == orig(this.target)
+this.target[] == orig(this.target[])
+this.weight == orig(this.weight)
+this.weight[] == orig(this.weight[])
+this.start == orig(this.start)
+this.start[] == orig(this.start[])
+this.function == orig(this.function)
+this.function.getClass().getName() == orig(this.function.getClass().getName())
+size(this.diagR[]) == orig(size(this.diagR[]))
+size(this.jacNorm[]) == orig(size(this.jacNorm[]))
+size(this.beta[]) == orig(size(this.beta[]))
+size(this.permutation[]) == orig(size(this.permutation[]))
+this.solvedCols == 3
+this.diagR != null
+this.jacNorm != null
+this.beta != null
+this.permutation != null
+this.permutation[] one of { [0, 1, 2], [0, 2, 1], [1, 0, 2] }
+this.rank == 3
+this.lmDir != null
+this.weightedResidualJacobian != null
+this.cols == 3
+this.rows one of { 100, 101, 130 }
+this.point != null
+this.objective != null
+this.weightedResiduals != null
+this.jF != null
+this.jacobianEvaluations >= 1
+this.evaluations.maximalCount == 2147483647
+this.evaluations.count >= 1
+this.target != null
+this.weight != null
+this.start != null
+this.function != null
+this.rank >= orig(this.rank)
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite:::OBJECT
+this.finalK >= 1
+this.finalRemB != 0
+this.finalRemB >= -1.0700184976624634E-16
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.CodyWaite(double, double):::ENTER
+xb == 0.0
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.CodyWaite(double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getK():::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getK():::EXIT
+this.finalK == orig(this.finalK)
+this.finalRemA == orig(this.finalRemA)
+this.finalRemB == orig(this.finalRemB)
+return >= 1
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getRemA():::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getRemA():::EXIT
+this.finalK == orig(this.finalK)
+this.finalRemA == orig(this.finalRemA)
+this.finalRemB == orig(this.finalRemB)
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getRemB():::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath$CodyWaite.getRemB():::EXIT
+this.finalK == orig(this.finalK)
+this.finalRemA == orig(this.finalRemA)
+this.finalRemB == orig(this.finalRemB)
+return != 0
+===========================================================================
+org.apache.commons.math3.util.FastMath:::CLASS
+===========================================================================
+org.apache.commons.math3.util.FastMath.cosQ(double, double):::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath.cosQ(double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.util.FastMath.doubleHighPart(double):::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath.doubleHighPart(double):::EXIT366
+===========================================================================
+org.apache.commons.math3.util.FastMath.doubleHighPart(double):::EXIT
+===========================================================================
+org.apache.commons.math3.util.FastMath.polyCosine(double):::ENTER
+x != 0
+===========================================================================
+org.apache.commons.math3.util.FastMath.polyCosine(double):::EXIT
+===========================================================================
+org.apache.commons.math3.util.FastMath.polySine(double):::ENTER
+x != 0
+===========================================================================
+org.apache.commons.math3.util.FastMath.polySine(double):::EXIT
+return != 0
+===========================================================================
+org.apache.commons.math3.util.FastMath.sinQ(double, double):::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath.sinQ(double, double):::EXIT
+===========================================================================
+org.apache.commons.math3.util.FastMath.sqrt(double):::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMath.sqrt(double):::EXIT
+===========================================================================
+org.apache.commons.math3.util.Incrementor$1:::OBJECT
+===========================================================================
+org.apache.commons.math3.util.Incrementor$1.():::EXIT
+===========================================================================
+org.apache.commons.math3.util.Incrementor:::OBJECT
+this.maximalCount one of { 0, 2147483647 }
+this.count >= 0
+this.maxCountCallback != null
+this.maxCountCallback.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor():::EXIT
+this.maximalCount == 0
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor(int):::ENTER
+max == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor(int):::EXIT
+this.maximalCount == 0
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor(int, org.apache.commons.math3.util.Incrementor$MaxCountExceededCallback):::ENTER
+max == 0
+cb.getClass().getName() == org.apache.commons.math3.util.Incrementor$1.class
+===========================================================================
+org.apache.commons.math3.util.Incrementor.Incrementor(int, org.apache.commons.math3.util.Incrementor$MaxCountExceededCallback):::EXIT
+this.maximalCount == 0
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.incrementCount():::ENTER
+this.maximalCount == 2147483647
+===========================================================================
+org.apache.commons.math3.util.Incrementor.incrementCount():::EXIT
+this.maximalCount == orig(this.maximalCount)
+this.maxCountCallback == orig(this.maxCountCallback)
+this.maxCountCallback.getClass().getName() == orig(this.maxCountCallback.getClass().getName())
+this.maximalCount == 2147483647
+this.count >= 1
+this.count - orig(this.count) - 1 == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.resetCount():::ENTER
+this.maximalCount == 2147483647
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.resetCount():::EXIT
+this.maximalCount == orig(this.maximalCount)
+this.count == orig(this.count)
+this.maxCountCallback == orig(this.maxCountCallback)
+this.maxCountCallback.getClass().getName() == orig(this.maxCountCallback.getClass().getName())
+this.maximalCount == 2147483647
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.Incrementor.setMaximalCount(int):::ENTER
+this.maximalCount == 0
+this.count == 0
+max == 2147483647
+===========================================================================
+org.apache.commons.math3.util.Incrementor.setMaximalCount(int):::EXIT
+this.count == orig(this.count)
+this.maxCountCallback == orig(this.maxCountCallback)
+this.maxCountCallback.getClass().getName() == orig(this.maxCountCallback.getClass().getName())
+this.maximalCount == 2147483647
+this.count == 0
+===========================================================================
+org.apache.commons.math3.util.MathUtils:::CLASS
+===========================================================================
+org.apache.commons.math3.util.MathUtils.normalizeAngle(double, double):::ENTER
+a one of { -2.183185307179587, 4.085004185832203, 4.087582040304908 }
+center == 4.1
+===========================================================================
+org.apache.commons.math3.util.MathUtils.normalizeAngle(double, double):::EXIT
+return one of { 4.085004185832203, 4.087582040304908, 4.1 }
+===========================================================================
+org.apache.commons.math3.util.Pair:::OBJECT
+this.key != null
+this.key.getClass().getName() == double[].class
+this.value != null
+this.value.getClass().getName() == double[].class
+===========================================================================
+org.apache.commons.math3.util.Pair.Pair(java.lang.Object, java.lang.Object):::ENTER
+k != null
+k.getClass().getName() == double[].class
+v != null
+v.getClass().getName() == double[].class
+===========================================================================
+org.apache.commons.math3.util.Pair.Pair(java.lang.Object, java.lang.Object):::EXIT
+===========================================================================
+org.apache.commons.math3.util.Pair.getKey():::ENTER
+===========================================================================
+org.apache.commons.math3.util.Pair.getKey():::EXIT
+this.key == orig(this.key)
+this.key.getClass().getName() == orig(this.key.getClass().getName())
+this.value == orig(this.value)
+this.value.getClass().getName() == orig(this.value.getClass().getName())
+return.getClass().getName() == double[].class

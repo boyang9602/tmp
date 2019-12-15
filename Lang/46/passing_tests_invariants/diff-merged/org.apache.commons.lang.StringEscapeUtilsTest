@@ -1,0 +1,86 @@
+{
+    "org.apache.commons.lang.StringEscapeUtilsTest": [
+        {
+            "assertEscapeJava(java.lang.String, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch22.inv.output": {
+                                "invs": [
+                                    "escaped.toString == \"foo\"",
+                                    "original.toString == \"foo\"",
+                                    "escaped has only one value",
+                                    "original has only one value"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch22.inv.output": {
+                                "invs": [
+                                    "escaped.toString == \"foo\"",
+                                    "original.toString == \"foo\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "assertEscapeJava(java.lang.String, java.lang.String, java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch22.inv.output": {
+                                "invs": [
+                                    "message.toString one of { \"empty string\", \"tab\" }",
+                                    "original.toString one of { \"\", \"\\t\", \"foo\" }",
+                                    "expected.toString one of { \"\", \"\\\\t\", \"foo\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "expected != null",
+                                    "original != null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch22.inv.output": {
+                                "invs": [
+                                    "expected.toString one of { \"\", \"\\\\t\", \"foo\" }",
+                                    "original.toString one of { \"\", \"\\t\", \"foo\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

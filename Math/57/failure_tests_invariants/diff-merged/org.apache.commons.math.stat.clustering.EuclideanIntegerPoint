@@ -1,0 +1,219 @@
+{
+    "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint": [
+        {
+            "equals(java.lang.Object)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch167.inv.output": {
+                                "invs": [
+                                    "this.point[] elements == 0",
+                                    "this has only one value",
+                                    "this.point has only one value",
+                                    "this.point[] == [0]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.point[] elements == 0",
+                                    "this has only one value",
+                                    "this.point has only one value",
+                                    "this.point[] == [0]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch48.inv.output": {
+                                "invs": [
+                                    "this.point[] elements == 0",
+                                    "this has only one value",
+                                    "this.point has only one value",
+                                    "this.point[] == [0]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch167.inv.output": {
+                                "invs": [
+                                    "this.point[] elements == 0",
+                                    "(this.point[] == [0])  <==>  (return == false)",
+                                    "(this.point[] == [0])  <==>  (this.point[] elements == 0)",
+                                    "return == true",
+                                    "this.point has only one value",
+                                    "(this.point[] == [1])  <==>  (return == true)",
+                                    "(this.point[] == [1])  <==>  (this.point[] elements == 1)",
+                                    "this.point[] == [0]"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.point[] elements == 0",
+                                    "return == false",
+                                    "this.point has only one value",
+                                    "this.point[] == [0]"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "(this.point[] == [0])  <==>  (return == false)",
+                                    "(this.point[] == [0])  <==>  (this.point[] elements == 0)",
+                                    "return == true",
+                                    "(this.point[] == [1])  <==>  (return == true)",
+                                    "(this.point[] == [1])  <==>  (this.point[] elements == 1)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch48.inv.output": {
+                                "invs": [
+                                    "this.point[] elements == 0",
+                                    "(this.point[] == [0])  <==>  (return == false)",
+                                    "(this.point[] == [0])  <==>  (this.point[] elements == 0)",
+                                    "return == true",
+                                    "this.point has only one value",
+                                    "(this.point[] == [1])  <==>  (return == true)",
+                                    "(this.point[] == [1])  <==>  (this.point[] elements == 1)",
+                                    "this.point[] == [0]"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "86": [
+                                {
+                                    "Patch167.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "this.point[] elements == 0",
+                                            "orig(this) has only one value",
+                                            "return == false",
+                                            "this.point has only one value",
+                                            "this.point[] == [0]"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch48.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "91": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch167.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "89": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this) has only one value",
+                                            "return == true",
+                                            "this.point has only one value",
+                                            "this.point[] elements == 1",
+                                            "this.point[] == [1]"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "90": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch48.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "distanceFrom(org.apache.commons.math.stat.clustering.EuclideanIntegerPoint)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "p.point[] elements one of { 0, 1 }",
+                                    "p.point[] one of { [0], [1] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "p.point[] == [0]",
+                                    "p has only one value",
+                                    "p.point[] elements == 0",
+                                    "p.point has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "p.point[] elements one of { 0, 1 }",
+                                    "p.point[] one of { [0], [1] }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "p.point[] == [0]",
+                                    "p.point[] elements == 0",
+                                    "p.point has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

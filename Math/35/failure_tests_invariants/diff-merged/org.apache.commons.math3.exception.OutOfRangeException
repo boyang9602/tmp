@@ -1,0 +1,170 @@
+{
+    "org.apache.commons.math3.exception.OutOfRangeException": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch199.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "size(this.context.msgPatterns[]) == 1",
+                            "size(this.context.msgArguments[]) == 1",
+                            "this.context.context.getClass().getName() == java.util.HashMap.class",
+                            "this.context.msgPatterns[] elements has only one value",
+                            "this.context.msgPatterns[].getClass().getName() == [org.apache.commons.math3.exception.util.LocalizedFormats]",
+                            "this.context.msgArguments[].getClass().getName() elements == java.lang.Object[].class",
+                            "this.context.msgPatterns[] contains no nulls and has only one value, of length 1",
+                            "this.lo == null",
+                            "this.argument.getClass().getName() == java.lang.Double.class",
+                            "this.hi.getClass().getName() == java.lang.Integer.class",
+                            "this.context.msgArguments[].getClass().getName() == [java.lang.Object[]]",
+                            "this.hi has only one value",
+                            "this.lo.getClass().getName() == java.lang.Integer.class",
+                            "this.context.msgPatterns.getClass().getName() == java.util.ArrayList.class",
+                            "this.argument == null",
+                            "this.context.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                            "this.lo has only one value",
+                            "this.hi == null",
+                            "this.context.msgPatterns[].getClass().getName() elements == org.apache.commons.math3.exception.util.LocalizedFormats.class"
+                        ]
+                    }
+                },
+                {
+                    "Patch199.inv.output": {
+                        "invs": [
+                            "size(this.context.msgPatterns[]) == 1",
+                            "size(this.context.msgArguments[]) == 1",
+                            "this.context.context.getClass().getName() == java.util.HashMap.class",
+                            "this.context.msgPatterns[] elements has only one value",
+                            "this.context.msgPatterns[].getClass().getName() == [org.apache.commons.math3.exception.util.LocalizedFormats]",
+                            "this.context.msgArguments[].getClass().getName() elements == java.lang.Object[].class",
+                            "this.context.msgPatterns[] contains no nulls and has only one value, of length 1",
+                            "this.lo == null",
+                            "this.argument.getClass().getName() == java.lang.Double.class",
+                            "this.hi.getClass().getName() == java.lang.Integer.class",
+                            "this.context.msgArguments[].getClass().getName() == [java.lang.Object[]]",
+                            "this.hi has only one value",
+                            "this.lo.getClass().getName() == java.lang.Integer.class",
+                            "this.context.msgPatterns.getClass().getName() == java.util.ArrayList.class",
+                            "this.argument == null",
+                            "this.context.msgArguments.getClass().getName() == java.util.ArrayList.class",
+                            "this.lo has only one value",
+                            "this.hi == null",
+                            "this.context.msgPatterns[].getClass().getName() elements == org.apache.commons.math3.exception.util.LocalizedFormats.class"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "OutOfRangeException(org.apache.commons.math3.exception.util.Localizable, java.lang.Number, java.lang.Number, java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "hi == null",
+                                    "wrong == null",
+                                    "lo == null",
+                                    "hi.getClass().getName() == java.lang.Integer.class",
+                                    "specific has only one value",
+                                    "hi has only one value",
+                                    "lo.getClass().getName() == java.lang.Integer.class",
+                                    "lo has only one value",
+                                    "specific.getClass().getName() == org.apache.commons.math3.exception.util.LocalizedFormats.class",
+                                    "wrong.getClass().getName() == java.lang.Double.class"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch199.inv.output": {
+                                "invs": [
+                                    "hi == null",
+                                    "wrong == null",
+                                    "lo == null",
+                                    "hi.getClass().getName() == java.lang.Integer.class",
+                                    "specific has only one value",
+                                    "hi has only one value",
+                                    "lo.getClass().getName() == java.lang.Integer.class",
+                                    "lo has only one value",
+                                    "specific.getClass().getName() == org.apache.commons.math3.exception.util.LocalizedFormats.class",
+                                    "wrong.getClass().getName() == java.lang.Double.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch199.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "OutOfRangeException(java.lang.Number, java.lang.Number, java.lang.Number)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch199.inv.output": {
+                                "invs": [
+                                    "hi == null",
+                                    "wrong == null",
+                                    "lo == null"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "Patch199.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

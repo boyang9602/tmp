@@ -1,0 +1,340 @@
+{
+    "org.jfree.data.time.SpreadsheetDate": [
+        {
+            "CLASS": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": []
+                    }
+                },
+                {
+                    "Patch90.inv.output": {
+                        "invs": []
+                    }
+                }
+            ]
+        },
+        {
+            "OBJECT": [
+                {
+                    "b.inv.output": "N/A"
+                },
+                {
+                    "f.inv.output": {
+                        "invs": [
+                            "this.month == 1",
+                            "this.serial one of { 0, 39083 }",
+                            "this.description == null",
+                            "this has only one value",
+                            "this.year == 2007",
+                            "this.day == 1"
+                        ]
+                    }
+                },
+                {
+                    "Patch90.inv.output": {
+                        "invs": [
+                            "this.month == 1",
+                            "this.serial one of { 0, 39083 }",
+                            "this.description == null",
+                            "this has only one value",
+                            "this.year == 2007",
+                            "this.day == 1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "getYYYY()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083",
+                                    "this.year == orig(this.year)",
+                                    "return == 2007",
+                                    "this.day == orig(this.day)",
+                                    "this.month == orig(this.month)",
+                                    "this.serial == orig(this.serial)",
+                                    "this.description == orig(this.description)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083",
+                                    "this.year == orig(this.year)",
+                                    "return == 2007",
+                                    "this.day == orig(this.day)",
+                                    "this.month == orig(this.month)",
+                                    "this.serial == orig(this.serial)",
+                                    "this.description == orig(this.description)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "calcSerial(int, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 0",
+                                    "d == 1",
+                                    "m == 1",
+                                    "y == 2007"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 0",
+                                    "d == 1",
+                                    "m == 1",
+                                    "y == 2007"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 0",
+                                    "this.year == orig(this.year)",
+                                    "this.description == orig(this.description)",
+                                    "this.day == orig(this.day)",
+                                    "this.month == orig(this.month)",
+                                    "this.serial == orig(this.serial)",
+                                    "return == 39083"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 0",
+                                    "this.year == orig(this.year)",
+                                    "this.description == orig(this.description)",
+                                    "this.day == orig(this.day)",
+                                    "this.month == orig(this.month)",
+                                    "this.serial == orig(this.serial)",
+                                    "return == 39083"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getMonth()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083",
+                                    "this.year == orig(this.year)",
+                                    "return == 1",
+                                    "this.day == orig(this.day)",
+                                    "this.month == orig(this.month)",
+                                    "this.serial == orig(this.serial)",
+                                    "this.description == orig(this.description)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083",
+                                    "this.year == orig(this.year)",
+                                    "return == 1",
+                                    "this.day == orig(this.day)",
+                                    "this.month == orig(this.month)",
+                                    "this.serial == orig(this.serial)",
+                                    "this.description == orig(this.description)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getDayOfMonth()": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083",
+                                    "this.year == orig(this.year)",
+                                    "return == 1",
+                                    "this.day == orig(this.day)",
+                                    "this.month == orig(this.month)",
+                                    "this.serial == orig(this.serial)",
+                                    "this.description == orig(this.description)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083",
+                                    "this.year == orig(this.year)",
+                                    "return == 1",
+                                    "this.day == orig(this.day)",
+                                    "this.month == orig(this.month)",
+                                    "this.serial == orig(this.serial)",
+                                    "this.description == orig(this.description)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "SpreadsheetDate(int, int, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "year == 2007",
+                                    "month == 1",
+                                    "day == 1"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "year == 2007",
+                                    "month == 1",
+                                    "day == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "b.inv.output": "N/A"
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch90.inv.output": {
+                                "invs": [
+                                    "this.serial == 39083"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

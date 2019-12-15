@@ -1,0 +1,78 @@
+{
+    "org.apache.commons.math.distribution.TDistributionImpl": [
+        {
+            "cumulativeProbability(double)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 3915.524971171073 }",
+                                    "x == -3915.524971171073"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "x == 3915.524971171073"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch50.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 3915.524971171073 }",
+                                    "x == -3915.524971171073"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch169.inv.output": {
+                                "invs": [
+                                    "x one of { 0.0, 3915.524971171073 }",
+                                    "x == -3915.524971171073"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return == 7.1725247070566985E-304",
+                                    "return one of { 0.5, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return == 1.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch50.inv.output": {
+                                "invs": [
+                                    "return == 7.1725247070566985E-304",
+                                    "return one of { 0.5, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch169.inv.output": {
+                                "invs": [
+                                    "return == 7.1725247070566985E-304",
+                                    "return one of { 0.5, 1.0 }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexSolver": [
+        {
+            "doOptimize()": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch175.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 10.0",
+                                    "return.point[] == [10.0]",
+                                    "return.value == 30.0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.point[] == [0.0]",
+                                    "return.value == 0.0",
+                                    "return.point[] elements == 0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 10.0",
+                                    "return.point[] == [10.0]",
+                                    "return.value == 30.0"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch73.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 10.0",
+                                    "return.point[] == [10.0]",
+                                    "return.value == 30.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

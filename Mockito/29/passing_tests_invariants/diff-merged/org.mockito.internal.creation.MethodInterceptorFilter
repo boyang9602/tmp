@@ -1,0 +1,196 @@
+{
+    "org.mockito.internal.creation.MethodInterceptorFilter": [
+        {
+            "intercept(java.lang.Object, java.lang.reflect.Method, java.lang.Object[], org.mockito.cglib.proxy.MethodProxy)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$54\" }",
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$77\" }",
+                                    "proxy.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$e567f575.class"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$23\" }",
+                                    "proxy.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$303bd270.class"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$54\" }",
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$77\" }",
+                                    "proxy.getClass().getName() == org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$e567f575.class"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$54\" }",
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$77\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$23\" }"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$54\" }",
+                                    "methodProxy.sig2.name.toString one of { \"CGLIB$equals$1\", \"CGLIB$oneArg$77\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "35": [
+                                {
+                                    "Patch178.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "47": [
+                                {
+                                    "Patch178.inv.output": {
+                                        "invs": [
+                                            "methodProxy.sig2.name.toString == \"CGLIB$oneArg$77\"",
+                                            "methodProxy.sig2.name.toString == \"CGLIB$oneArg$54\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "methodProxy.sig2.name.toString == \"CGLIB$oneArg$23\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "methodProxy.sig2.name.toString == \"CGLIB$oneArg$77\"",
+                                            "methodProxy.sig2.name.toString == \"CGLIB$oneArg$54\""
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "createMockitoMethodProxy(org.mockito.cglib.proxy.MethodProxy)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$77\"",
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$54\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$23\""
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$77\"",
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$54\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch178.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$77\"",
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$54\""
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$23\""
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$77\"",
+                                    "methodProxy.sig2.name.toString == \"CGLIB$oneArg$54\""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "61": [
+                                {
+                                    "Patch178.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,277 @@
+{
+    "org.apache.commons.math.optimization.direct.MultiDirectional": [
+        {
+            "evaluateNewSimplex(org.apache.commons.math.optimization.RealPointValuePair[], double, java.util.Comparator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "original[].value elements >= 0.010852087010871944"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "original[].value elements >= 0.010848291983377098"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "original[].value elements >= 0.010852087010871944"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "original[].value elements >= 0.010852087010871944"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "original[].value elements >= 0.010852087010871944"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "original[].value elements >= 0.010848291983377098"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "original[].value elements >= 0.010852087010871944"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "original[].value elements >= 0.010852087010871944"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "iterateSimplex(java.util.Comparator)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch69.inv.output": {
+                                "invs": [
+                                    "this.iterations - orig(this.iterations) - 1 == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value < orig(this.simplex[].value) (lexically)",
+                                    "this.iterations > orig(this.iterations)",
+                                    "this.simplex[].value <= orig(this.simplex[].value) (lexically)"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch68.inv.output": {
+                                "invs": [
+                                    "this.iterations - orig(this.iterations) - 1 == 0"
+                                ]
+                            }
+                        },
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "this.simplex[].value < orig(this.simplex[].value) (lexically)",
+                                    "this.iterations > orig(this.iterations)",
+                                    "this.simplex[].value <= orig(this.simplex[].value) (lexically)",
+                                    "this.iterations - orig(this.iterations) - 1 == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "84": [
+                                {
+                                    "Patch69.inv.output": {
+                                        "invs": [
+                                            "this.simplex[].value < orig(this.simplex[].value) (lexically)",
+                                            "this.simplex[].value <= orig(this.simplex[].value) (lexically)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch68.inv.output": {
+                                        "invs": [
+                                            "this.simplex[].value < orig(this.simplex[].value) (lexically)",
+                                            "this.simplex[].value <= orig(this.simplex[].value) (lexically)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "94": [
+                                {
+                                    "Patch69.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(this.simplex[].value) sorted by <",
+                                            "this.simplex[].value sorted by <"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch68.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "91": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch69.inv.output": {
+                                        "invs": [
+                                            "orig(this.simplex[].value) sorted by <",
+                                            "this.simplex[].value sorted by <"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "90": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch68.inv.output": {
+                                        "invs": [
+                                            "orig(this.simplex[].value) sorted by <",
+                                            "this.simplex[].value sorted by <"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "103": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this.evaluations) one of { 55, 63 }",
+                                            "this.startConfiguration has only one value",
+                                            "orig(this) has only one value",
+                                            "this.simplex[].value one of { [0.010852087010871944, 0.01085990517201532, 0.010860416931065469], [0.010852087010871944, 0.010880548950206903, 0.011026424261289152] }",
+                                            "size(this.startConfiguration[]) == 2",
+                                            "this.simplex[].getClass().getName() == [org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair, org.apache.commons.math.optimization.RealPointValuePair]",
+                                            "orig(this.simplex[].value) one of { [0.010852087010871944, 0.010880548950206903, 0.011026424261289152], [0.010852087010871944, 0.011319105366710514, 0.013076185763693892] }",
+                                            "this.checker has only one value",
+                                            "this.f has only one value",
+                                            "this.evaluations one of { 63, 67 }",
+                                            "size(this.simplex[]) == 3",
+                                            "orig(comparator) has only one value",
+                                            "this.maxIterations == 100",
+                                            "this.startConfiguration[] contains no nulls and has only one value, of length 2",
+                                            "this.iterations one of { 15, 16 }",
+                                            "this.f.getClass().getName() == org.apache.commons.math.optimization.direct.MultiDirectionalTest$3.class",
+                                            "orig(this.iterations) one of { 13, 15 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "85": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "93": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(this.simplex[].value) sorted by <",
+                                            "this.simplex[].value sorted by <"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

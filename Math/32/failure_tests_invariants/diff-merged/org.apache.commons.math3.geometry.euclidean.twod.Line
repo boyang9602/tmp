@@ -1,0 +1,113 @@
+{
+    "org.apache.commons.math3.geometry.euclidean.twod.Line": [
+        {
+            "getOffset(org.apache.commons.math3.geometry.euclidean.twod.Line)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "line.originOffset <= 1.0000005066393522"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "line.originOffset <= 1.0000005066393522"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "toSpace(org.apache.commons.math3.geometry.Vector)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.originOffset one of { -1.0, 0.0, 3.582480308398881E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.originOffset one of { -1.0, 0.0, 3.582480308398881E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sameOrientationAs(org.apache.commons.math3.geometry.partitioning.Hyperplane)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "this.originOffset one of { -1.0, 3.582480308398881E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch35.inv.output": {
+                                "invs": [
+                                    "(return == false)  ==>  (this.originOffset one of { -1.0, 3.582480308398881E-7 })",
+                                    "this.originOffset one of { -1.0, 3.582480308398881E-7 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

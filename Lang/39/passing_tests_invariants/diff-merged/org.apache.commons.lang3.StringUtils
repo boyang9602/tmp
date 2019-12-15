@@ -1,0 +1,213 @@
+{
+    "org.apache.commons.lang3.StringUtils": [
+        {
+            "replaceEach(java.lang.String, java.lang.String[], java.lang.String[], boolean, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch20.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch193.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch20.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch193.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "3615": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch20.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "Patch193.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "3666": [
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "orig(timeToLive) one of { 0, 1 }",
+                                            "orig(size(replacementList[])) one of { 1, 2 }",
+                                            "orig(size(searchList[])) one of { 1, 2 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "orig(timeToLive) one of { 0, 1 }",
+                                            "orig(size(replacementList[])) one of { 1, 2 }",
+                                            "orig(size(searchList[])) one of { 1, 2 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch20.inv.output": {
+                                        "invs": [
+                                            "orig(timeToLive) one of { 0, 1 }",
+                                            "orig(size(replacementList[])) one of { 1, 2 }",
+                                            "orig(size(searchList[])) one of { 1, 2 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch193.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "3730": [
+                                {
+                                    "f.inv.output": "N/A"
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": [
+                                            "text.toString one of { \"aba\", \"abcde\", \"dcte\" }",
+                                            "orig(size(replacementList[])) one of { 1, 2 }",
+                                            "orig(timeToLive) one of { 1, 2 }",
+                                            "return.toString one of { \"b\", \"tcte\", \"wcte\" }",
+                                            "searchList[].toString one of { [a], [ab, d] }",
+                                            "searchList[].toString elements one of { \"a\", \"ab\", \"d\" }",
+                                            "orig(size(searchList[])) one of { 1, 2 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch20.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch193.inv.output": "N/A"
+                                }
+                            ]
+                        },
+                        {
+                            "3733": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "f.inv.output": {
+                                        "invs": [
+                                            "text.toString one of { \"aba\", \"abcde\", \"dcte\" }",
+                                            "orig(size(replacementList[])) one of { 1, 2 }",
+                                            "orig(timeToLive) one of { 1, 2 }",
+                                            "return.toString one of { \"b\", \"tcte\", \"wcte\" }",
+                                            "searchList[].toString one of { [a], [ab, d] }",
+                                            "searchList[].toString elements one of { \"a\", \"ab\", \"d\" }",
+                                            "orig(size(searchList[])) one of { 1, 2 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "3731": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch20.inv.output": {
+                                        "invs": [
+                                            "text.toString one of { \"aba\", \"abcde\", \"dcte\" }",
+                                            "orig(size(replacementList[])) one of { 1, 2 }",
+                                            "orig(timeToLive) one of { 1, 2 }",
+                                            "return.toString one of { \"b\", \"tcte\", \"wcte\" }",
+                                            "searchList[].toString one of { [a], [ab, d] }",
+                                            "searchList[].toString elements one of { \"a\", \"ab\", \"d\" }",
+                                            "orig(size(searchList[])) one of { 1, 2 }"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Patch193.inv.output": {
+                                        "invs": [
+                                            "text.toString one of { \"aba\", \"abcde\", \"dcte\" }",
+                                            "orig(size(replacementList[])) one of { 1, 2 }",
+                                            "orig(timeToLive) one of { 1, 2 }",
+                                            "return.toString one of { \"b\", \"tcte\", \"wcte\" }",
+                                            "searchList[].toString one of { [a], [ab, d] }",
+                                            "searchList[].toString elements one of { \"a\", \"ab\", \"d\" }",
+                                            "orig(size(searchList[])) one of { 1, 2 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "3667": [
+                                {
+                                    "b.inv.output": "N/A"
+                                },
+                                {
+                                    "Patch193.inv.output": {
+                                        "invs": [
+                                            "orig(timeToLive) one of { 0, 1 }",
+                                            "orig(size(replacementList[])) one of { 1, 2 }",
+                                            "orig(size(searchList[])) one of { 1, 2 }"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

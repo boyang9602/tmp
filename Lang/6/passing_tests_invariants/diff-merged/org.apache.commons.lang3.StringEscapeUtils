@@ -1,0 +1,122 @@
+{
+    "org.apache.commons.lang3.StringEscapeUtils": [
+        {
+            "unescapeJava(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "input == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "return == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "input.toString == orig(input.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "escapeJava(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "input == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "return == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "input.toString == orig(input.toString)"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "escapeEcmaScript(java.lang.String)": [
+                {
+                    "ENTER": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "input == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "input.toString one of { \"He didn't say, \\\"stop!\\\"\", \"document.getElementById(\\\"test\\\").value = '<script>alert('aaa');</script>';\" }"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "PatchHDRepair2.inv.output": {
+                                "invs": [
+                                    "return == null"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "input.toString == orig(input.toString)",
+                                    "input.toString one of { \"He didn't say, \\\"stop!\\\"\", \"document.getElementById(\\\"test\\\").value = '<script>alert('aaa');</script>';\" }",
+                                    "return.toString one of { \"He didn\\\\'t say, \\\\\\\"stop!\\\\\\\"\", \"document.getElementById(\\\\\\\"test\\\\\\\").value = \\\\'<script>alert(\\\\'aaa\\\\');<\\\\/script>\\\\';\" }"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

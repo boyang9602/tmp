@@ -1,0 +1,257 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexSolver": [
+        {
+            "doOptimize()": [
+                {
+                    "ENTER": [
+                        {
+                            "f.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": []
+                            }
+                        },
+                        {
+                            "Patch163.inv.output": {
+                                "invs": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "f.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 0.0",
+                                    "return.point[] == [0.0, 0.0]",
+                                    "return.point[] elements one of { 0.0, 1.0 }",
+                                    "this.iterations == 1",
+                                    "return.point[] == [1.0, 0.0]",
+                                    "return.value == 1.0",
+                                    "this.iterations == 2"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "return.point[] == [1.0, -1.0]",
+                                    "return.value == 0.0",
+                                    "this.iterations == 1",
+                                    "return.point[] elements one of { -1.0, 1.0 }"
+                                ]
+                            }
+                        },
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "return.point[] elements == 0.0",
+                                    "return.point[] == [0.0, 0.0]",
+                                    "return.value == 0.0",
+                                    "return.point[] elements one of { 0.0, 1.0 }",
+                                    "return.point[] == [1.0, 0.0]",
+                                    "return.value == 1.0",
+                                    "this.iterations == 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getPivotColumn(org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 1, 2 }",
+                                    "size(tableau.columnLabels[]) one of { 5, 6 }",
+                                    "tableau.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "tableau.numArtificialVariables one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "tableau.tableau has only one value",
+                                    "tableau.columnLabels[] contains no nulls and has only one value, of length 6",
+                                    "tableau.numArtificialVariables == 1",
+                                    "size(tableau.columnLabels[]) == 6",
+                                    "tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.iterations == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 1, 2 }",
+                                    "size(tableau.columnLabels[]) one of { 5, 6 }",
+                                    "tableau.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "tableau.numArtificialVariables one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "tableau.tableau has only one value",
+                                    "tableau.columnLabels[] contains no nulls and has only one value, of length 6",
+                                    "tableau.numArtificialVariables == 1",
+                                    "size(tableau.columnLabels[]) == 6",
+                                    "tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.iterations == 1",
+                                    "return has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getPivotRow(org.apache.commons.math.optimization.linear.SimplexTableau, int)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 1, 2 }",
+                                    "size(tableau.columnLabels[]) one of { 5, 6 }",
+                                    "tableau.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "tableau.numArtificialVariables one of { 0, 1 }",
+                                    "col one of { 2, 3 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "tableau.tableau has only one value",
+                                    "tableau.columnLabels[] contains no nulls and has only one value, of length 6",
+                                    "col == 2",
+                                    "tableau.numArtificialVariables == 1",
+                                    "size(tableau.columnLabels[]) == 6",
+                                    "tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.iterations == 1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 1, 2 }",
+                                    "size(tableau.columnLabels[]) one of { 5, 6 }",
+                                    "tableau.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "tableau.numArtificialVariables one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "tableau.tableau has only one value",
+                                    "tableau.columnLabels[] contains no nulls and has only one value, of length 6",
+                                    "tableau.numArtificialVariables == 1",
+                                    "size(tableau.columnLabels[]) == 6",
+                                    "tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.iterations == 1",
+                                    "return has only one value"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXITNN": [
+                        {
+                            "125": [
+                                {
+                                    "Patch163.inv.output": {
+                                        "invs": []
+                                    }
+                                },
+                                {
+                                    "b.inv.output": {
+                                        "invs": []
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doIteration(org.apache.commons.math.optimization.linear.SimplexTableau)": [
+                {
+                    "ENTER": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 0, 1 }",
+                                    "size(tableau.columnLabels[]) one of { 5, 6 }",
+                                    "tableau.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "tableau.numArtificialVariables one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "tableau.tableau has only one value",
+                                    "tableau.columnLabels[] contains no nulls and has only one value, of length 6",
+                                    "tableau.numArtificialVariables == 1",
+                                    "size(tableau.columnLabels[]) == 6",
+                                    "tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.iterations == 0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EXIT": [
+                        {
+                            "Patch163.inv.output": {
+                                "invs": [
+                                    "this.iterations one of { 1, 2 }",
+                                    "size(tableau.columnLabels[]) one of { 5, 6 }",
+                                    "tableau.columnLabels[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }",
+                                    "tableau.numArtificialVariables one of { 0, 1 }"
+                                ]
+                            }
+                        },
+                        {
+                            "b.inv.output": {
+                                "invs": [
+                                    "tableau.tableau has only one value",
+                                    "tableau.columnLabels[] contains no nulls and has only one value, of length 6",
+                                    "tableau.numArtificialVariables == 1",
+                                    "size(tableau.columnLabels[]) == 6",
+                                    "tableau.columnLabels[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]",
+                                    "this.iterations == 1"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
